@@ -53,6 +53,21 @@ const visible = a => unitsOf(a).length > 0;
 const allDone = (a, units = unitsOf(a)) => units.length > 0 && P.unitsDone(S.data, a, units) === units.length;
 const modByCode = c => D.modules.find(m => m.code === c) || { code: c, name: c };
 const signInLabel = () => (S.store.kind === 'local' ? 'Test sign-in' : 'Sign in with Google');
+
+// The words for a site with no sign-in (config.signIn false): everything is kept in the visitor's browser.
+const quiet = () => !!(S.store && S.store.quiet);
+// With no sign-in everyone "has a user", so the cover gives way to "Where you are" only once there is
+// a setup or a tick to show.
+const started = () => !!S.user && (!quiet() || S.hhSet || ['done', 'done2', 'owned', 'owned2', 'picks'].some(k => Object.keys((S.data || {})[k] || {}).length > 0));
+const DATA_PAGE = 'Your saved data';
+const PQ = {
+  sheets: () => `<h2>Worksheets</h2>
+  <p>A worksheet is a blank form. Print it and fill it in by hand. There is no upload box, and nowhere on this site to type what goes on one.</p>
+  <h2>No sign-in</h2>
+  <p>This site has no accounts and nothing to sign in to. It does not know who you are, and it asks for no name and no email address.</p>`,
+  kept: () => `<h2>Where it is kept</h2><p>In this browser’s storage, on this device, and nowhere else. It is not sent to this site or to anyone. So it does not follow you to another device or another browser, and clearing this browser’s data for this site removes it. There are no advertising or analytics trackers and no affiliate links. The fonts and pictures are stored with the site: nothing is loaded from a font service or a picture library, and there is no outside script.${config.servedBy ? ` The site’s files are served by ${esc(config.servedBy)}; like any web host, it can see the internet address a request for a page comes from.` : ''}</p>
+  <h2>Deleting what is saved</h2><p>Go to <a href="#/account">${DATA_PAGE}</a> and choose “Delete everything saved here”. This removes your setup, ticks, picks and photos from this browser. It cannot be undone.</p>`
+};
 const twoHomes = () => S.hh.second;
 const pickFor = (item, tier = S.tier) => P.pickFor(item, tier, S.data);
 const confirmedSources = p => (p.sources || []).filter(x => x.verified !== false && /^https?:/.test(x.url || '')).length;
@@ -103,7 +118,8 @@ function renderChrome(route) {
     ...D.plan.map(s => ['#/plan/' + s.section, s.name]),
     ['#/worksheets', 'Worksheets'], ['#/modules', 'All modules'], ['#/setup', 'Household setup'], ['#/privacy', 'Privacy'], ['#/about', 'How we choose, and sources'], ['#/credits', 'Picture credits'], ['#/account', 'Account']]
     .map(([h, t]) => `<a href="${h}">${esc(t)}</a>`).join('')}</div>`;
-  $('#acct').innerHTML = S.user ? `<span class="who" title="${esc(S.user.name)}">${esc(S.user.name)}</span><button data-cmd="signout">Sign out</button>` : `<button data-cmd="signin">${signInLabel()}</button>`;
+  const acctLink = $('.foot a[href="#/account"]'); if (acctLink) acctLink.textContent = quiet() ? DATA_PAGE : 'Account';
+  $('#acct').innerHTML = quiet() ? '' : S.user ? `<span class="who" title="${esc(S.user.name)}">${esc(S.user.name)}</span><button data-cmd="signout">Sign out</button>` : `<button data-cmd="signin">${signInLabel()}</button>`;
   // On every page: Export (signed in only) and Download the whole plan (anyone).
   $('#tools').innerHTML = `<h2>Take it with you</h2><div class="chips">${S.user ? '<button data-cmd="export">Export</button>' : ''}<button data-cmd="plan-download">Download the whole plan</button></div>
     <p>Download the plan to read or hand to an assistant; export yours to show where you are.${S.user ? '' : ' Export appears once you sign in.'}</p>`;
@@ -195,7 +211,7 @@ function articleBody(a, units, multi) {
     ${a.apartment && anyApartment ? `<h4 class="lbl">In an apartment</h4><p>${text(wt(a.apartment))}</p>` : ''}
     ${a.region ? `<h4 class="lbl">${esc(a.region.label)}-specific. Elsewhere</h4><p>${text(a.region.general)}</p>` : ''}
     ${prods.length ? `<h4 class="lbl">What to buy</h4><ul class="buy">${prods.map(p => `<li><span class="thumb" data-photo="${esc(p.id)}" data-alt="Your photo of ${esc(p.name)}">${Art.icon(Art.itemIcon(p), '')}</span><a href="#/item/${esc(p.id)}">${esc(p.name)}</a>${p.alternative ? ' <span class="tag">Alternative</span>' : p.optional ? ' <span class="tag">Optional extra</span>' : ''}</li>`).join('')}</ul>` : ''}
-    ${ws ? `<h4 class="lbl">Worksheet</h4><p>${worksheetLink(ws)}. A blank form: it opens in your own Google Drive when you are signed in, or prints.</p>` : ''}
+    ${ws ? `<h4 class="lbl">Worksheet</h4><p>${worksheetLink(ws)}. ${quiet() ? 'A blank form to print and fill in by hand.' : 'A blank form: it opens in your own Google Drive when you are signed in, or prints.'}</p>` : ''}
     ${plan ? `<h4 class="lbl">Line by line</h4><p>The <a href="#/plan/${esc(a.see_plan)}">${esc(plan.name)} checklist</a> breaks this into its separate papers, with your state’s own forms.</p>` : ''}
     ${stands.length ? `<h4 class="lbl">Shown in place of</h4><p>${stands.map(x => `${esc(x.id)} “${esc(x.title)}”, which does not fit your home`).join('; ')}.</p>` : ''}
     ${who ? `<h4 class="lbl">Applies to</h4><p>${esc(who.charAt(0).toUpperCase() + who.slice(1))}.</p>` : ''}
@@ -361,7 +377,7 @@ V.home = () => {
   const planCards = D.plan.map(s => { const p = planProgress(s); return `<a class="card" href="#/plan/${s.section}">${pic(s.section, { ratio: 'r52', sizes: '(min-width: 640px) 33vw, 30vw', fallback: Art.MODULE_ICON[s.section] })}
     <div class="body"><h3>${esc(s.name)}</h3><p class="small">${esc(s.summary || '')}</p><div class="cfoot"><span><span class="count">${p.done} of ${p.total}</span> done</span></div>${meter(p.pct)}</div></a>`; }).join('');
   let top;
-  if (S.user) {
+  if (started()) {
     const next = nextThree();
     const tot = lv.filter(x => x.p).reduce((a, x) => ({ done: a.done + x.p.done, total: a.total + x.p.total }), { done: 0, total: 0 });
     const papers = D.plan.map(planProgress).reduce((a, p) => ({ done: a.done + p.done, total: a.total + p.total }), { done: 0, total: 0 });
@@ -611,7 +627,7 @@ V.plan = (code) => {
     <div class="block">${hhLine()}</div>
     <div class="block jump"><h2>In this list</h2><ul>${jump}</ul></div>
     <details class="block jumpd"><summary>Jump to a part of this list</summary><ul>${jump}</ul></details>
-    <div class="block"><p class="small">This site keeps a tick and a date for each line and nothing else: no names, numbers, documents or details. Where something has to be written down, the line links to a blank worksheet that opens in your own Google Drive.</p></div>
+    <div class="block"><p class="small">This site keeps a tick and a date for each line and nothing else: no names, numbers, documents or details. Where something has to be written down, the line links to a blank worksheet ${quiet() ? 'to print and fill in by hand' : 'that opens in your own Google Drive'}.</p></div>
     <div class="block noprint"><div class="chips"><button data-cmd="print">Print this checklist</button><button data-cmd="hidedone" aria-pressed="${S.hideDone}">Hide done</button></div><p class="small"><a href="#/worksheets">Worksheets</a></p></div>
   </div></aside>`;
   return `${FULL}<header class="opener"><div class="in"><div class="text"><p class="kicker">Your papers</p><h1>${esc(sec.name)}</h1>
@@ -872,13 +888,14 @@ function worksheetHtml(w) {
 // on, the printable blank is all there is.
 function driveBox(w) {
   const link = (S.data.files || {})[w.id];
+  if (quiet()) return '<div class="note noprint">Print the blank below and fill it in by hand.</div>';
   if (!S.user) return `<div class="note noprint">Sign in to open this as a file in your own Google Drive. Without signing in, print the blank below and fill it in by hand.</div>`;
   if (isDriveLink(link)) return `<div class="have noprint"><b>Your copy is in your Google Drive</b>, in the folder “Household Plan”. <a class="btn" href="${esc(link)}" target="_blank" rel="noopener noreferrer">Open my copy in Google Drive</a><p class="small">This site keeps the link and nothing else. It cannot read what you write in the file. <button class="linkbtn" data-cmd="drive-forget" data-ws="${esc(w.id)}">Forget this link</button> (the file stays in your Drive).</p></div>`;
   if (!S.store.driveReady) return `<div class="note noprint">Google Drive is not switched on for this site yet${S.store.kind === 'local' ? ' (it needs Sign in with Google; this is the local test sign-in)' : ''}. Until it is, print the blank below and fill it in by hand.</div>`;
   return `<div class="note noprint"><button class="btn" data-cmd="drive" data-ws="${esc(w.id)}">Open in my Google Drive</button><p class="small">The first click creates a blank copy in a folder called “Household Plan” in your own Drive, and Google will ask you to allow this site to create and open its own files there. It cannot see anything else in your Drive. Later clicks reopen the same file.</p></div>`;
 }
 V.worksheets = () => `<h1>Worksheets</h1>
-  <div class="note"><b>Where what you write is kept.</b> ${esc(D.worksheetsWhy)}</div>
+  <div class="note"><b>Where what you write is kept.</b> ${esc(quiet() ? D.worksheetsWhyPaper : D.worksheetsWhy)}</div>
   <div class="chips noprint"><button data-cmd="print">Print all blank worksheets</button></div>
   <ul class="noprint">${D.worksheets.map(w => `<li><a href="#/worksheet/${esc(w.id)}">${esc(w.title)}</a>${w.level != null ? ` <span class="pill">${esc(chainSec(w.level).name)}</span>` : ''}${w.plan ? ` <span class="pill">${esc((D.plan.find(s => s.section === w.plan) || { name: w.plan }).name)}</span>` : ''}${isDriveLink((S.data.files || {})[w.id]) ? ' <span class="doneon">in your Drive</span>' : ''}</li>`).join('')}</ul>
   <div class="printonly">${D.worksheets.map(worksheetHtml).join('')}</div>`;
@@ -938,30 +955,37 @@ V.setup = () => {
 };
 
 V.privacy = () => `<h1>Privacy, in plain words</h1>
-  <h2>What this site saves about you</h2>
+  <h2>${quiet() ? 'What this site keeps, in your own browser' : 'What this site saves about you'}</h2>
   <ul><li><b>Your household setup:</b> numbers and choices only: how many adults and pets; how many children in each age band (under 1, 1 to 2, 3 to 5, 6 to 9, 10 to 13, 14 to 17), and how many of them are in diapers, fed formula, or cannot walk a mile; formula feeds in a day and whether the formula is sold ready-to-feed or only as powder; car or no car; target days; and for each home its type, floor, outdoor space, climate, state and which of six hazards happen there. An age band is not a date of birth, and the site asks for no names.</li>
   <li><b>What the setup does not ask:</b> anyone’s age over 65, disability, medical devices, medicines, or whether you rent. Actions for those are shown to everyone, so the site never has to store them.</li>
   <li><b>Which lines you have ticked as done, and the date.</b> For Legal, Money and Medical that tick and date are all that is kept.</li>
   <li><b>Which products you have ticked as bought, the amount the tick stands for (the bag, 72 hours or two weeks), and the date.</b> The lines of the family medicine cabinet are kept the same way: a tick and a date for a generic medicine or tool, never a dose, a name or who it is for.</li>
   <li><b>“My pick” for a product:</b> either which of the three listed picks you chose, or up to 80 characters you type yourself. This is the one place you can type, and it is for a product name only.</li>
-  <li><b>A link to each worksheet file you opened in your own Google Drive.</b> Only the link.</li></ul>
+  ${quiet() ? '' : '<li><b>A link to each worksheet file you opened in your own Google Drive.</b> Only the link.</li>'}</ul>
   <p>Two things are kept in this browser only and are not part of that record: the <b>look</b> you choose in the footer, and any <b>photo of your own</b> that you add to a product page. A photo never leaves the device you added it on, so it will not appear on your other devices.</p>
-  <p>That is all. You can see the complete record on the <a href="#/account">Account</a> page.</p>
+  <p>That is all. You can see the complete record on the <a href="#/account">${quiet() ? DATA_PAGE : 'Account'}</a> page.</p>
   <h2>What this site never holds</h2>
-  <p>Your contacts, account numbers, policy numbers, medical details, the names of your doctors, your documents, your address, or anything you write on a worksheet. A site that kept a list of your emergency contacts, medicines and bank details would itself be a risk to you if it were ever breached. Those details live only in your own Google Drive files, or on paper.</p>
-  <h2>Worksheets and Google Drive</h2>
+  <p>Your contacts, account numbers, policy numbers, medical details, the names of your doctors, your documents, your address, or anything you write on a worksheet. A site that kept a list of your emergency contacts, medicines and bank details would itself be a risk to you if it were ever breached. ${quiet() ? 'Those details belong on paper, in your own hands.' : 'Those details live only in your own Google Drive files, or on paper.'}</p>
+  ${quiet() ? PQ.sheets() : `<h2>Worksheets and Google Drive</h2>
   <p>A worksheet is a blank form. Signed in, you can open it as a file in your own Google Drive: the first click creates a blank copy in a folder called “Household Plan”, and later clicks reopen it. For that, Google asks you to grant this site one permission, the narrowest Drive permission there is (called <code>drive.file</code>): the site may create files and open the files it created. It cannot see, list or open anything else in your Drive. The site saves the link to each file and never reads what is inside. Google Drive is the only place a filled-in worksheet can be kept; there is no upload box and no other storage. Not signed in, you can print the blank and fill it in by hand.</p>
   <h2>Signing in</h2>
   ${S.store.kind === 'local' ? '<p><b>Right now the site is in local test mode.</b> The "Test sign-in" button creates a pretend user in this browser. Nothing leaves this device, and Google Drive is not available.</p>' : ''}
   <p>Sign in with Google is used to know that you are you, so your progress can follow you between devices. At sign-in the site asks Google only for your basic identity (name, email address, profile picture). It asks for <b>no</b> access to Gmail, Calendar or Contacts, ever. Drive is asked for separately, only when you first open a worksheet in Drive, and only as described above. Your name is shown in the corner of the page. Your email address is held by the sign-in service as part of your account and is not copied into the progress record, used for mail, or shared.</p>
+`}
   <h2>Export and download</h2><p>“Export” makes a file on your own device with your setup, ticks, dates, picks and purchases. “Download the whole plan” makes a file with the plan and nobody’s progress. Both are created in your browser; nothing is sent anywhere.</p>
-  <h2>Without signing in</h2><p>You can read everything. If you fill in the household setup while signed out, it is kept in this browser only, so the quantities are right for you. Progress is not saved until you sign in.</p>
+  ${quiet() ? PQ.kept() : `<h2>Without signing in</h2><p>You can read everything. If you fill in the household setup while signed out, it is kept in this browser only, so the quantities are right for you. Progress is not saved until you sign in.</p>
   <h2>Where it is kept</h2><p>${S.store.kind === 'local' ? 'In local test mode: in this browser’s storage on this device.' : 'In Google Firebase (Cloud Firestore), in one small record per user that only that signed-in user can read or change.'} There are no advertising or analytics trackers and no affiliate links. The fonts and pictures are stored with the site: nothing is loaded from a font service or a picture library. The only outside script is the sign-in service itself.</p>
   <h2>Deleting your account and data</h2><p>Go to <a href="#/account">Account</a> and choose “Delete my account and data”. This removes your progress record and your sign-in account at once. It cannot be undone. Files in your Google Drive are yours and are not touched; delete them in Drive if you want them gone.</p>
+`}
   <h2>Links to shops and manufacturers</h2><p>Product pages link to manufacturers and retailers. Those sites have their own privacy practices. The links carry no affiliate or tracking tags.</p>`;
 
 V.account = () => {
   const stored = S.user ? JSON.stringify(S.data, null, 2) : '';
+  if (quiet()) return `<h1>${DATA_PAGE}</h1>${S.msg ? `<div class="warn" role="status">${esc(S.msg)}</div>` : ''}
+    <p>This site has no accounts. What you set up and tick is kept in this browser, on this device, and nowhere else.</p>
+    <h2>Everything saved here</h2><p class="small">This is the complete record. “Export” at the foot of every page gives you the same progress in a readable file.</p><pre class="boxed" style="overflow:auto;font-size:.8rem">${esc(stored)}</pre>
+    <h2>Delete everything saved here</h2><p>This removes the record above, and any photos you added, from this browser. It cannot be undone.</p>
+    ${S.confirmDelete ? `<div class="warn" role="alertdialog" aria-label="Confirm deletion"><p><b>Delete everything?</b> Your household setup, every tick and every pick will be removed from this browser. This cannot be undone.</p><p><button class="btn danger" data-cmd="delete-yes">Yes, delete everything</button> <button class="btn sec" data-cmd="delete-no">Cancel</button></p></div>` : `<p><button class="btn danger" data-cmd="delete">Delete everything saved here</button></p>`}`;
   return `<h1>Account</h1>${S.msg ? `<div class="warn" role="status">${esc(S.msg)}</div>` : ''}
   ${S.user ? `<p>Signed in as <b>${esc(S.user.name)}</b>${S.store.kind === 'local' ? ' (local test user; data stays in this browser)' : ''}.</p>
     <p><button class="btn sec" data-cmd="signout">Sign out</button></p>
@@ -1092,7 +1116,7 @@ async function onClick(e) {
   else if (cmd === 'delete-yes') {
     S.confirmDelete = false;
     const uid = S.user && S.user.uid;
-    try { if (uid) { try { await Photos.clearPhotos(uid); } catch (err) { console.error(err); } } await S.store.deleteAccount(); deviceHousehold.clear(); S.msg = 'Your account and data have been deleted, with any photos you stored on this device.'; }
+    try { if (uid) { try { await Photos.clearPhotos(uid); } catch (err) { console.error(err); } } await S.store.deleteAccount(); deviceHousehold.clear(); S.msg = quiet() ? 'Everything saved in this browser has been deleted, with any photos you added.' : 'Your account and data have been deleted, with any photos you stored on this device.'; }
     catch (err) { console.error(err); S.msg = 'Could not delete the account. Sign in again and retry.'; }
     render();
   }
@@ -1132,6 +1156,7 @@ async function onAuth(user) {
 async function boot() {
   try {
     S.store = await createStore();
+    D.noSignIn = !!S.store.quiet;
     await loadAll();
   } catch (e) { console.error(e); $('#main').innerHTML = `<div class="wrap page"><h1>The site could not start</h1><p>${esc(e.message)}</p></div>`; return; }
   refreshHousehold();

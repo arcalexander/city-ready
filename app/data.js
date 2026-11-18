@@ -71,6 +71,7 @@ export async function loadAll(reader = fetchJson) {
   D.bagsHow = bags ? bags.how_it_works || '' : '';
   D.worksheets = worksheets ? worksheets.worksheets : [];
   D.worksheetsWhy = worksheets ? worksheets.why || '' : '';
+  D.worksheetsWhyPaper = worksheets ? worksheets.why_paper || worksheets.why || '' : '';
   D.commodities = commodities ? commodities.items : [];
   D.start = start ? start.actions : [];
   D.sourcesChecked = sources ? sources.checked : '';

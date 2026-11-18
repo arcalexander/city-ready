@@ -1,5 +1,6 @@
 // Storage and sign-in. Two interchangeable back ends, chosen in config.js:
-//   "local"    – a test sign-in. Data stays in this browser (localStorage). Used until Google sign-in is switched on.
+//   "local"    – no accounts. Data stays in this browser (localStorage). With config.signIn false there is no
+//                button: every visitor is "this browser". With it true, a "Test sign-in" button stands in for Google.
 //   "firebase" – Sign in with Google and one small Firestore document per user.
 //
 // What is saved per user, and nothing else:
@@ -28,16 +29,25 @@ function clean(d) {
 }
 
 class LocalStore {
-  constructor() { this.kind = 'local'; this.cbs = []; this.user = null; }
-  async init() { try { this.user = JSON.parse(localStorage.getItem('cityready.local.user')); } catch { this.user = null; } }
+  constructor() { this.kind = 'local'; this.cbs = []; this.user = null; this.quiet = config.signIn === false; }
+  // Quiet: there is always one user, this browser. The key is the test user's, so earlier ticks carry over.
+  async init() {
+    if (this.quiet) { this.user = { uid: 'local-test-user', name: 'This browser' }; return; }
+    try { this.user = JSON.parse(localStorage.getItem('cityready.local.user')); } catch { this.user = null; }
+  }
   onAuth(cb) { this.cbs.push(cb); cb(this.user); }
   emit() { this.cbs.forEach(cb => cb(this.user)); }
   async signIn() { this.user = { uid: 'local-test-user', name: 'Test user' }; localStorage.setItem('cityready.local.user', JSON.stringify(this.user)); this.emit(); }
-  async signOut() { this.user = null; localStorage.removeItem('cityready.local.user'); this.emit(); }
+  async signOut() { if (this.quiet) return; this.user = null; localStorage.removeItem('cityready.local.user'); this.emit(); }
   key() { return 'cityready.local.data.' + this.user.uid; }
   async load() { if (!this.user) return null; try { return clean(JSON.parse(localStorage.getItem(this.key()))); } catch { return empty(); } }
   async save(data) { if (!this.user) throw new Error('Not signed in'); localStorage.setItem(this.key(), JSON.stringify(clean(data))); }
-  async deleteAccount() { if (!this.user) return; localStorage.removeItem(this.key()); localStorage.removeItem('cityready.local.user'); this.user = null; this.emit(); }
+  async deleteAccount() {
+    if (!this.user) return;
+    localStorage.removeItem(this.key());
+    if (this.quiet) { this.emit(); return; }
+    localStorage.removeItem('cityready.local.user'); this.user = null; this.emit();
+  }
   // The local test sign-in has no Google account behind it, so there is no Drive to open.
   get driveReady() { return false; }
   async driveToken() { throw new Error('Google Drive needs Sign in with Google'); }

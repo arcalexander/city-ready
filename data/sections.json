@@ -376,7 +376,7 @@
     "Medicine cabinet: lines show for the age bands in your setup. Amounts are in packages, never doses, and are this site's assumption unless the line says otherwise. Doses go by weight, from the label or the child's doctor."
   ],
   "notes": {
-    "before0": "This plan is for getting ready on an ordinary day. In an emergency the hazard in front of you and official instructions come first: leave, shelter or call 911 as they say, and come back to this list afterwards. The site keeps a tick and a date for each line and nothing else: what you write on a worksheet stays on your paper or in your own Google Drive.",
+    "before0": "This plan is for getting ready on an ordinary day. In an emergency the hazard in front of you and official instructions come first: leave, shelter or call 911 as they say, and come back to this list afterwards. The site keeps a tick and a date for each line and nothing else: what you write on a worksheet stays with you, and the site never sees it.",
     "quantities": "The numbers here are targets worked out from your household setup, and each one prints the rule it came from. What you already own counts, and it counts once: tick it as bought and the list shrinks.",
     "after0": "These are first checks, not finished jobs. Anything that turned out to need a repair, a battery or a purchase stays open until it is done, and the later sections come back to each one."
   },

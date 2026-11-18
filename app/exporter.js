@@ -366,7 +366,7 @@ export function planMarkdown(D, h, hhSet, tier = 'standard', date = fileDate()) 
     L.push(...clean.filter((x, i) => !(x === '' && clean[i - 1] === '')));
   }
   L.push(...skyLines(D, hh, !full));
-  L.push('## Appendix: blank worksheets', '', 'Blank forms for the things this plan asks you to write down, printed here in full so they can be filled in by hand with no connection. The site never holds what you write: signed in, each also opens as a file in your own Google Drive.', '');
+  L.push('## Appendix: blank worksheets', '', 'Blank forms for the things this plan asks you to write down, printed here in full so they can be filled in by hand with no connection. The site never holds what you write' + (D.noSignIn ? '.' : ': signed in, each also opens as a file in your own Google Drive.'), '');
   for (const w of D.worksheets) L.push(...worksheetLines(w));
   L.push('## How to read this file', '',
     `This file is the plan as written. It holds nobody's ticks, picks or purchases; those are in the other file, the Export (\`household-plan-export_${date}.md\`).`, '',
@@ -434,7 +434,7 @@ export function exportMarkdown(D, h, hhSet, data, tier = 'standard', date = file
     L.push(...sec);
   }
   const files = Object.keys(data.files || {});
-  L.push('## Worksheets opened in Google Drive', '', files.length ? files.map(id => `- ${(D.worksheets.find(w => w.id === id) || { title: id }).title}: ${data.files[id]}`).join('\n') : 'None yet.', '',
+  if (!D.noSignIn || files.length) L.push('## Worksheets opened in Google Drive', '', files.length ? files.map(id => `- ${(D.worksheets.find(w => w.id === id) || { title: id }).title}: ${data.files[id]}`).join('\n') : 'None yet.', '',
     'The site holds only these links. It never reads what is inside the files.', '');
   L.push('## Counts', '', '| Section | Ticked | Of |', '| --- | ---: | ---: |', ...counts.map(([n, d, t]) => `| ${n} | ${d} | ${t} |`), '',
     'Items that appear both in a section and in Legal, Money or Medical are one item with one tick; they are counted in each place they are listed, as on the site.', '');
