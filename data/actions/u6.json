@@ -783,7 +783,7 @@
         "label": "Earthquake country",
         "general": "After any event that may have damaged your building (an explosion, a vehicle impact, a storm, a flood or a fire), make the same checks in the same order: people, shoes and light, fire, gas smell, structure, official information, then water and food."
       },
-      "apartment": "In an apartment also use the stairs and not the elevator, do not flush until management confirms the drains are sound (X5-01), and report damage to management (HR-19).",
+      "apartment": "In an apartment also use the stairs and not the elevator, do not flush, even with a bucket, until management says the drains are safe (X5-01), and report damage to management (HR-19).",
       "cites": [
         "ready-quake",
         "ready-skills",

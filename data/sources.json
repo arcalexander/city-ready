@@ -42,7 +42,8 @@
         "Any 5-6 gallon bucket can be used",
         "Pellet stove pellets are suggested as compact, affordable composting (cover) material",
         "A siphon-pump hand washing station can be bought or built for around $10",
-        "Emergency Toilet Guidebook p.6 (local copy): latrines need at least 10 ft from the residence and property line and 100 ft from creeks and wells."
+        "Emergency Toilet Guidebook p.6 (local copy): latrines need at least 10 ft from the residence and property line and 100 ft from creeks and wells.",
+        "Emergency Toilet Guidebook (local copy, 2025), p.1: after a major earthquake 'we may need to live without running water and working toilets for days, weeks, or possibly months'; p.4: 'If you can't flush, it is better to contain poo elsewhere'."
       ],
       "note": "www.rdpo.net redirects to rdpo.net. Landing page is brief; bag handling and storage detail is in the linked Emergency Toilet Guidebook, not on this page."
     },
@@ -1918,7 +1919,7 @@
         "A bucket flush needs about 3 to 6 litres poured quickly; do not flush paper",
         "Keep used bags apart from household rubbish until collection resumes"
       ],
-      "note": "Found by web search on 2026-11-14; Koto City's own page (https://www.city.koto.lg.jp/bosai-top/kotoilet.html) lists this PDF as the English guidebook. The facts below were read from the copy of the guide in sources/official_guides."
+      "note": "Found by web search on 2026-11-14; Koto City's own page (https://www.city.koto.lg.jp/bosai-top/kotoilet.html) lists this PDF as the English guidebook. The facts below were read from the copy of the guide in sources/official_guides. Since 2026-11-18 a secondary record only for the flush rule (X5-01, X5-08): the rule rests on US guidance (D-112)."
     },
     {
       "id": "usda-fsis-emergency",
@@ -9338,6 +9339,53 @@
         "The written examinations are built from question pools that have been made public."
       ],
       "note": "Opened in Chrome on 2026-11-17; the site refuses the automated reader."
+    },
+    {
+      "id": "osu-em9334",
+      "publisher": "Oregon State University Extension Service",
+      "title": "Survival Basics: Sanitation and Waste Management (EM 9334, October 2021)",
+      "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+      "ok": true,
+      "verified_by": "webfetch + PDF read",
+      "checked": "2026-11-18",
+      "key_facts": [
+        "p.2: earlier disasters such as snowstorms, fires or epidemics do not damage sanitation systems; a Cascadia earthquake will damage water and sewer systems",
+        "p.4-5, under 'Immediately following the Cascadia Subduction Zone earthquake or other disaster if you are in a hard-hit area': 'Avoid using toilets even if your home sewer lines are not damaged. Your home's pipes might be OK but pipes in the street may be broken.'",
+        "p.5: 'Local authorities may be able to tell you if using your toilet is safe through emergency radio or community message boards.'",
+        "p.5: a septic system 'may be safe to continue using as long as you do not see signs of leaking or backing up into the home.'",
+        "Recommends the twin-bucket toilet and points to the Portland RDPO Emergency Toilet Guidebook"
+      ],
+      "note": "Authors Lauren Kraemer, Glenda Hyde and Lynette Black. PDF linked from the catalog page: https://extension.oregonstate.edu/sites/extd8/files/documents/57811/survival-basics-sanitationdr0.pdf (6 pages, read in full on 2026-11-18). The no-flush advice is for a hard-hit area after a disaster, not for every outage."
+    },
+    {
+      "id": "spu-water-outages",
+      "publisher": "Seattle Public Utilities",
+      "title": "How to Prepare for Planned Water Outages",
+      "url": "https://seattle.gov/utilities/neighborhood-projects/water-outages/planning-for-outages",
+      "ok": true,
+      "verified_by": "chrome",
+      "checked": "2026-11-18",
+      "key_facts": [
+        "'Fill bathtubs with water and use buckets to flush toilets.'",
+        "'A toilet will flush when approximately a gallon of water is dumped into the bowl.'",
+        "'Assume about one gallon of drinking water per person per day.'"
+      ],
+      "note": "Opened in Chrome on 2026-11-18; the web5.seattle.gov address for the same page fails to load, and the older PDF version (Prepare_Water_Outages_English.pdf) answers 404. No date on the page. Seattle's sewer is a city system, so this is the bucket flush for a city home whose drains still work."
+    },
+    {
+      "id": "kingcounty-emergency-toilets",
+      "publisher": "Public Health – Seattle & King County",
+      "title": "How to create an emergency toilet",
+      "url": "https://kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+      "ok": true,
+      "verified_by": "webfetch",
+      "checked": "2026-11-18",
+      "key_facts": [
+        "'In extreme emergencies, sewage systems may not be functioning.'",
+        "To convert a flush toilet: line the toilet bowl, a 5-gallon pail or similar container with two heavy-duty plastic garbage bags, add cat litter, fireplace ashes or sawdust, tie the bags at the end of each day and move them to a protected place until safe disposal is available",
+        "During a declared emergency, bags may go in regular garbage if a public announcement allows it"
+      ],
+      "note": "No date on the page. It covers the bag toilet for when the sewer is not working; it says nothing about bucket flushing."
     }
   ]
 }

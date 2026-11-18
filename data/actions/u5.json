@@ -1,17 +1,17 @@
 {
   "module": "u5",
   "title": "Waste and Hygiene",
-  "intro": "When the water or the drains stop working, human waste is the quickest way for a household to get sick. This module gives you a toilet that needs no flushing, a place to keep sealed waste for weeks, and ways to stay clean on very little water. Almost all of it works in an apartment with no outdoor space.",
+  "intro": "When the water or the drains stop working, human waste is the quickest way for a household to get sick. This module covers flushing with a bucket when only the water or power is off, a toilet that needs no flushing for when the drains are not safe, a place to keep sealed waste for weeks, and ways to stay clean on very little water. Almost all of it works in an apartment with no outdoor space.",
   "credit": "Based on Unit 5 of Oregon's Be 2 Weeks Ready toolkit",
   "actions": [
     {
       "id": "X5-01",
       "level": 0,
-      "section": "Toilet without flushing",
-      "title": "Learn the don't-flush rule for multistory buildings",
-      "why": "Every unit's drain joins a shared pipe, so if that pipe is cracked or blocked a flush upstairs can come out in a home below.",
-      "how": "Agree one rule with everyone at home tonight: after an earthquake, a flood, a sewage smell or a notice from the building, nobody flushes, even if the toilet looks normal and the faucet still runs. Use a bag toilet until the building says the drains have been checked. Until you have the bags from X5-03, a lidded bucket lined with two kitchen bags will do. In a long power outage, ask before you flush, because toilets can also fail when pumps lose power. In a house, the same rule applies whenever the sewer line may be damaged.",
-      "done": "Everyone at home has heard the rule.",
+      "section": "The toilet in an outage",
+      "title": "Learn when to flush with a bucket and when not to flush at all",
+      "why": "In a power or water outage the drains usually still work, so a bucket of water flushes the toilet. The danger is a damaged or backed-up sewer, where a flush can come up in your home or in a home below.",
+      "how": "Agree one rule with everyone at home tonight. When the power or the water is off, keep using the toilet and flush it with a bucket of non-drinking water (X5-08). Stop flushing altogether, even with a bucket, only when: sewage backs up, or a drain gurgles, bubbles or smells of sewage; after a flood or an earthquake; or when the city, the water or sewer utility, or the building says not to flush. Then use a bag toilet (X5-02) until they say the drains are safe again. Until you have the bags from X5-03, a lidded bucket lined with two kitchen bags will do. In a tall building, a notice that the sewage or water pumps are off counts as the building saying so. In a house, the same rule applies.",
+      "done": "Everyone at home knows to flush with a bucket in an outage, and the four times not to flush at all.",
       "cost": "free",
       "time": "minutes",
       "minutes": 2,
@@ -22,16 +22,19 @@
         "earthquake"
       ],
       "cites": [
-        "koto-toilet",
-        "tokyo-bousai",
-        "preparedbc-apartments"
+        "osu-em9334",
+        "spu-water-outages",
+        "rdpo-toilet"
+      ],
+      "secondary_cites": [
+        "koto-toilet"
       ]
     },
     {
       "id": "X5-07",
       "same_as": "HR-01",
       "level": 2,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Ask your building who checks the drains and how you will be told",
       "why": "Pipes can stay damaged after the power and water come back, and only an inspection can show that flushing is safe again.",
       "how": "Ask management or the residents' board four questions. Who inspects the drain pipes and the sewer connection after an earthquake, flood or long outage? How will residents be told to stop flushing, and how will we be told it is safe again (lobby notice, door knock, text)? Does any part of the drainage rely on electric pumps? Which units share my drain pipe? Write the answers by hand on the printed building information worksheet and keep it with your plan; in a house you own, put the same questions to your sewer utility or a plumber.",
@@ -47,8 +50,10 @@
       ],
       "worksheet": "building-info",
       "cites": [
-        "koto-toilet",
-        "tokyo-bousai"
+        "osu-em9334"
+      ],
+      "secondary_cites": [
+        "koto-toilet"
       ]
     },
     {
@@ -110,7 +115,7 @@
     {
       "id": "U5-03",
       "level": 3,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Choose between a pit toilet and a bucket toilet",
       "why": "A pit toilet only works where there is enough open ground, so decide now which method your home can really use.",
       "how": "This is the choice for an outage that outlasts your three days of toilet bags (X5-03). Check your city's rules first. Then measure your yard: the Portland-area guide these distances come from puts a pit at least 10 feet from the house and the property line and at least 100 feet from any well or creek, and all you need to make one is a shovel. If you cannot meet those distances, or your ground is waterlogged or frozen for part of the year, plan on the twin-bucket toilet or a bag in your own toilet bowl. Write down which method you chose.",
@@ -139,7 +144,7 @@
     {
       "id": "X5-02",
       "level": 2,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Set up a bag toilet in your own toilet bowl",
       "why": "It uses the toilet you already have, takes no extra space and sends nothing into drains that may be damaged.",
       "how": "Lift the seat, drape a large plastic bag over the bowl (an ordinary kitchen bag will do) and lower the seat to hold it; this liner stays in place and keeps the next bag dry. Fit a toilet bag over the seat and use the toilet as normal. Afterwards add the absorbent powder or pad that comes with the kit so the liquid sets, squeeze the air out and tie the bag tight. Put it in a lidded container and wash or sanitize your hands. Keep the first kit (bags, absorbent, sanitizer, a small light) in the bathroom.",
@@ -157,15 +162,17 @@
         "toilet-bag-kits"
       ],
       "cites": [
-        "koto-toilet",
-        "cdc-sanitation-emergency",
-        "tokyo-bousai"
+        "kingcounty-emergency-toilets",
+        "cdc-sanitation-emergency"
+      ],
+      "secondary_cites": [
+        "koto-toilet"
       ]
     },
     {
       "id": "X5-03",
       "level": 2,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Stock toilet bags for the first three days",
       "why": "People who run out of bags start drinking less to avoid the toilet, and that makes them sick.",
       "how": "Plan one bag per use at 5 uses per person per day, the planning figure in Koto City's guide. Three days is 15 bags per person; the site works the number out from your household setup. A child in diapers needs diapers (X5-10), not toilet bags, so leave them out of the count. Do not scale the kits up for two weeks: for a longer outage switch to the bucket, liner and absorbent (X5-05, U5-19), which use far fewer bags, and keep the kits for the first three days and for the bags you would leave with. Add toilet paper at about 4 rolls per person per month, and large outer bags for storing the tied ones.",
@@ -215,7 +222,7 @@
     {
       "id": "U5-05",
       "level": 3,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Learn how to empty the buckets when you have a yard",
       "why": "Stored waste spreads illness unless urine and solids are each handled the right way.",
       "how": "Pee: add water to the bucket if you can spare some, then pour it over lawn or bare soil; put the toilet paper in the poo bucket. Poo: cover every use with a handful of dry material, tie the bag when the bucket is no more than half full, put it inside a second bag and store it apart from food, water, pets and other trash. Do not bury the bags or put them out for collection until your city says how they will be handled. Wash or sanitize your hands every time.",
@@ -235,7 +242,7 @@
         ]
       },
       "swap": "X5-05",
-      "apartment": "With no ground to pour onto, urine is set to a gel in the toilet bag or held in a lidded bucket until the building confirms the drains are sound; solids are bagged and stored the same way as in a house.",
+      "apartment": "With no ground to pour onto, urine is set to a gel in the toilet bag or held in a lidded bucket while the don't-flush rule is on (X5-01); solids are bagged and stored the same way as in a house.",
       "cites": [
         "rdpo-toilet",
         "cdc-sanitation-emergency"
@@ -245,10 +252,10 @@
     {
       "id": "X5-05",
       "level": 3,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Set up a bucket for urine once the toilet bags run out",
       "why": "Urine is about ten times the volume of solid waste, and in an apartment there is no ground to pour it onto.",
-      "how": "For the first three days the one-use bags deal with it: the absorbent powder or pad sets the urine to a gel, so nothing is poured anywhere. After that, use a bucket: line a lidded bucket with a thick bag, add a few cups of absorbent (gel powder, wood pellets or pet litter), top it up as it gets wet, and tie the bag off at least once a day. Store tied bags with your other sealed waste. Never pour urine into a sink, bathtub, balcony drain or the street; pour it down the toilet only after the building has confirmed the drains are sound. Keep the bucket lidded and out of a small child's reach (U5-19). Bleach stays out of the urine bucket: it is not part of this method, and a poison control center warns that bleach mixed with urine can give off chloramine, an irritating gas.",
+      "how": "For the first three days the one-use bags deal with it: the absorbent powder or pad sets the urine to a gel, so nothing is poured anywhere. After that, use a bucket: line a lidded bucket with a thick bag, add a few cups of absorbent (gel powder, wood pellets or pet litter), top it up as it gets wet, and tie the bag off at least once a day. Store tied bags with your other sealed waste. Never pour urine into a sink, bathtub, balcony drain or the street; pour it down the toilet only while the drains are working and nobody has said not to flush (X5-01). Keep the bucket lidded and out of a small child's reach (U5-19). Bleach stays out of the urine bucket: it is not part of this method, and a poison control center warns that bleach mixed with urine can give off chloramine, an irritating gas.",
       "done": "A lidded bucket, thick bags to line it and a supply of absorbent are stored together, and the lid shuts firmly.",
       "cost": "low",
       "time": "minutes",
@@ -493,7 +500,7 @@
       "section": "Laundry and wash water",
       "title": "Choose a way to wash clothes by hand",
       "why": "Clean underwear and socks prevent rashes and infections when an outage runs past the first few days.",
-      "how": "Pick one method and get what it needs: rubbing small items in a basin, with or without a washboard; a lidded bucket with a plunger-style hand washer; a hand-cranked tub washer that does a small load in about 1 gallon; or, for bulky items, a heavy garbage bag holding the laundry, water and soap that you press and knead. Plan to wash underwear and socks first and to wear outer clothes for several days. Used wash water goes down a drain only when the drains are known to be sound; with a yard, pour it on the ground.",
+      "how": "Pick one method and get what it needs: rubbing small items in a basin, with or without a washboard; a lidded bucket with a plunger-style hand washer; a hand-cranked tub washer that does a small load in about 1 gallon; or, for bulky items, a heavy garbage bag holding the laundry, water and soap that you press and knead. Plan to wash underwear and socks first and to wear outer clothes for several days. Used wash water goes down the toilet, where it does the work of a flush, unless the don't-flush rule is on (X5-01); with a yard, pour it on the ground.",
       "done": "What your chosen method needs, a basin, a bucket and hand washer, a tub washer or a heavy garbage bag, is stored at home with soap.",
       "cost": "low",
       "time": "minutes",
@@ -504,7 +511,7 @@
         "outage",
         "earthquake"
       ],
-      "apartment": "Wash in the bathtub or shower tray so spills stay contained, dry on a folding rack, and hold the used water in a lidded bucket until the building clears the drains; there is no lawn to pour it on.",
+      "apartment": "Wash in the bathtub or shower tray so spills stay contained, dry on a folding rack, and use the rinse water to flush the toilet, or, while the don't-flush rule is on, hold it in a lidded bucket; there is no lawn to pour it on.",
       "products": [
         "laundry-manual"
       ],
@@ -515,8 +522,8 @@
       "level": 3,
       "section": "Laundry and wash water",
       "title": "Decide where used wash water goes",
-      "why": "Sinks and showers empty into the same shared pipes as the toilet, so wash water is covered by the don't-flush rule too.",
-      "how": "Until the building confirms the drains are sound, treat every drain as closed. Wash over a basin, reuse rinse water for the next wash, then pour the dirty water into a lidded bucket kept in the bathtub. Small amounts can be soaked up with wood pellets or pet litter in a tied bag. Once the drains are confirmed, pour stored water down the toilet, where it also does the work of a flush. Never throw water from a window or balcony; with a yard of your own, pour it on the ground. Keep the bucket lidded and out of a small child's reach (U5-19).",
+      "why": "Sinks and showers empty into the same shared pipes as the toilet, so when the drains are not safe for a flush they are not safe for wash water either.",
+      "how": "While the don't-flush rule is on (X5-01), treat every drain as closed. Wash over a basin, reuse rinse water for the next wash, then pour the dirty water into a lidded bucket kept in the bathtub. Small amounts can be soaked up with wood pellets or pet litter in a tied bag. At any other time, pour used wash water down the toilet, where it also does the work of a flush. Never throw water from a window or balcony; with a yard of your own, pour it on the ground. Keep the bucket lidded and out of a small child's reach (U5-19).",
       "done": "A basin and a lidded bucket for dirty water are kept by the bathtub, and everyone at home has heard the rule for drains.",
       "cost": "free",
       "time": "minutes",
@@ -963,12 +970,12 @@
     },
     {
       "id": "X5-08",
-      "level": 3,
-      "section": "Toilet without flushing",
-      "title": "Learn the bucket flush for when drains are confirmed but water is off",
-      "why": "Once the drains are known to be sound, a bucket of water flushes a toilet without any water pressure and saves your bags.",
-      "how": "Do this only after the building (or a plumber, for a house) has confirmed the drains are sound. Pour about 1 to 1.5 gallons (4 to 6 liters) of non-drinking water from a bucket straight into the bowl in one fast pour; a bottle cannot deliver enough at once. Put used toilet paper in a lined bin, not in the bowl. Go back to bag toilets at once if water seeps through a ceiling, the underside of the closed toilet lid is wet, or anything else suggests a blockage.",
-      "done": "Every adult at home has heard when the bucket flush is allowed, how it is done and the signs that mean going back to bag toilets.",
+      "level": 2,
+      "section": "The toilet in an outage",
+      "title": "Flush with a bucket when the water or power is off",
+      "why": "Most outages stop the water, not the drains, so a bucket of water still flushes the toilet and saves your bags for when the drains are not safe.",
+      "how": "When an outage is announced or the water stops, fill the bathtub and a few buckets with water for flushing. To flush, pour about a gallon of non-drinking water from a bucket straight into the bowl; the toilet flushes without the tank. A bottle cannot pour enough at once. Stop and switch to bag toilets (X5-02) if the water rises in the bowl instead of going down, a lower drain gurgles or backs up, water seeps through a ceiling, or the city or the building says not to flush (X5-01).",
+      "done": "Every adult at home knows how to flush with a bucket, and the signs that mean stop and use bags.",
       "cost": "free",
       "time": "minutes",
       "minutes": 5,
@@ -979,14 +986,16 @@
         "earthquake"
       ],
       "cites": [
-        "koto-toilet",
-        "tokyo-bousai"
+        "spu-water-outages"
+      ],
+      "secondary_cites": [
+        "koto-toilet"
       ]
     },
     {
       "id": "X5-13",
       "level": 2,
-      "section": "Toilet without flushing",
+      "section": "The toilet in an outage",
       "title": "Do one practice run with the toilet kit",
       "why": "A trial on a calm evening shows what is missing before the night you need it.",
       "how": "Run the whole routine once: line the bowl (or set up the buckets, once you have them), fit a bag, and pour in 2 cups (500 ml) of water to stand in for one use. Add the absorbent or cover material, squeeze out the air, tie the bag, double-bag it and put it in the storage bin. After 10 minutes check that the liquid has set and nothing leaks. Have each person sit on the seat and tie one bag, then write down what was missing or awkward and fix it.",

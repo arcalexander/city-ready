@@ -268,8 +268,8 @@
       "level": 2,
       "pic": "level2",
       "icon": "shelter",
-      "summary": "Three days in your home with no power, no tap water and no flushing.",
-      "intro": "Three days at home with no power, no tap water and no flushing toilet, without leaving the building for supplies. Much of what you bought for the bag counts here too, and the site shows what you already have.",
+      "summary": "Three days in your home with no power and no tap water, flushing the toilet with a bucket.",
+      "intro": "Three days at home with no power and no tap water, without leaving the building for supplies. The toilet still works with a bucket of water; it is bagged only if the drains back up or someone in charge says not to flush. Much of what you bought for the bag counts here too, and the site shows what you already have.",
       "waypoint": {
         "title": "72 hours is a waypoint, not the finish",
         "text": "For decades the standard advice was to be ready for three days. Emergency managers have moved on from it. After a large disaster, Oregon's emergency management department says it could take days to weeks for responders to reach everyone, and that people should expect to be without services and assistance for at least two weeks. Sewers and wastewater systems take longer to repair than drinking water. Three days of supplies gets you through the common, shorter outages, which is why it is its own section here. It is the halfway mark. The next section takes the same supplies to two weeks.",

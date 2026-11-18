@@ -96,7 +96,7 @@
       "section": "Picture the first minutes",
       "title": "Rewrite the scenario for your own home: 14 days without power",
       "why": "A long power outage is the most likely two-week emergency in a city, and what it does to you depends on your floor, your building and the season.",
-      "how": "On paper, write half a page that begins: 'The power went out an hour ago and will be off for 14 days. It is the hottest (or coldest) month of the year.' List what stops in your home: elevators, hallway and stairwell lighting once its batteries run down, tap water on floors fed by pumps, flushing, the fridge, an electric stove, heating or air conditioning, home internet and door-entry systems. Put a question mark beside anything you are unsure of; those become your questions for building management (HR-01).",
+      "how": "On paper, write half a page that begins: 'The power went out an hour ago and will be off for 14 days. It is the hottest (or coldest) month of the year.' List what stops in your home: elevators, hallway and stairwell lighting once its batteries run down, tap water on floors fed by pumps (and with it the toilet tank, so you flush with a bucket), the fridge, an electric stove, heating or air conditioning, home internet and door-entry systems. Put a question mark beside anything you are unsure of; those become your questions for building management (HR-01).",
       "done": "Half a page on paper lists what stops in your home, with a question mark beside each thing you are unsure of.",
       "cost": "free",
       "time": "hour",
@@ -304,7 +304,7 @@
       "scenarios": [
         "all"
       ],
-      "apartment": "In an apartment, add the stairs to every answer: ask your building whether your floor's water depends on pumps (HR-01), write who would carry water, food and medicines up and how much per trip (X4-04), and remember that nobody flushes until the building says the drains are sound (X5-01).",
+      "apartment": "In an apartment, add the stairs to every answer: ask your building whether your floor's water depends on pumps (HR-01), write who would carry water, food and medicines up and how much per trip (X4-04), and remember that in an outage you flush with a bucket, and stop only if the drains back up or the building says not to (X5-01).",
       "worksheet": "food-water-tracker",
       "calc": "water",
       "cites": [
@@ -362,7 +362,7 @@
         "outage",
         "earthquake"
       ],
-      "apartment": "In a multistory building the first rule is not to flush until the building says the drains are sound (X5-01), there is no ground for a pit or for pouring anything away, and the simplest method is a bag inside your own toilet bowl (X5-02).",
+      "apartment": "In a multistory building, flush with a bucket in an outage and stop only when sewage backs up, after a flood or earthquake, or when the building says not to (X5-01); there is no ground for a pit or for pouring anything away, and the simplest method is a bag inside your own toilet bowl (X5-02).",
       "cites": [
         "rdpo-toilet",
         "koto-toilet",
@@ -768,7 +768,7 @@
         "outage",
         "earthquake"
       ],
-      "apartment": "An apartment has no ground for a pit and nowhere to pour urine: do not flush until the building confirms the drains (X5-01), use a bag in the toilet bowl (X5-02), and keep sealed bags in a lidded bin apart from food and household trash, never down the chute (X5-04).",
+      "apartment": "An apartment has no ground for a pit and nowhere to pour urine: when the don't-flush rule is on (X5-01), use a bag in the toilet bowl (X5-02), and keep sealed bags in a lidded bin apart from food and household trash, never down the chute (X5-04).",
       "cites": [
         "rdpo-toilet",
         "koto-toilet",
@@ -1197,7 +1197,7 @@
       "section": "Test your home and yourselves",
       "title": "Hold a lights-out evening at home",
       "why": "One evening of living as if the power and water were off shows what is missing faster than any checklist.",
-      "how": "Pick an evening and, from 6 p.m. until bedtime, use no power from the grid and no running water: no switches, outlets, stove, Wi-Fi or flushing. Leave the fridge running and closed, and leave the breakers alone. Eat from your stored food, drink only stored water, light the home with flashlights or lanterns, not candles, and try your emergency toilet once. Keep a note of everything you reached for and could not use, and turn it into tasks the next day.",
+      "how": "Pick an evening and, from 6 p.m. until bedtime, use no power from the grid and no running water: no switches, outlets, stove or Wi-Fi, and flush the toilet only with a bucket of stored water. Leave the fridge running and closed, and leave the breakers alone. Eat from your stored food, drink only stored water, light the home with flashlights or lanterns, not candles, and try your emergency toilet once. Keep a note of everything you reached for and could not use, and turn it into tasks the next day.",
       "done": "You have spent one evening without power from the grid or running water, and your note of everything you reached for and could not use is now a list of tasks.",
       "cost": "free",
       "time": "afternoon",

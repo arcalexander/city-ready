@@ -255,7 +255,7 @@
       "section": "Make water safe",
       "title": "Know what to do when the water comes back or a notice is lifted",
       "why": "Contamination can stay in a home's pipes, filters and appliances after the main supply is cleared.",
-      "how": "Today, write your water utility's emergency number and the web page where it posts notices on the Utilities list. When a notice comes, keep it and note which kind it is (X4-11). When it is lifted, do not assume the faucets are back to normal: get the utility's own instructions for flushing faucets and appliances, and ask building management what is being done for the building's pipes. Follow the order given for faucets, the refrigerator's water and ice, filters and anything else plumbed in; throw away ice and change filters when the instructions say to. Do not make up a flushing time, and do not take a chlorine test strip as proof that a chemical has gone. After a drop in water pressure with no notice, CDC's general advice is to run each cold faucet fully for 2 minutes, then the hot until it feels hot and runs clear, and to tell the utility. After a long outage in a multistory building, ask before you flush the toilet (X5-01). Then refill your stored water (U4-14).",
+      "how": "Today, write your water utility's emergency number and the web page where it posts notices on the Utilities list. When a notice comes, keep it and note which kind it is (X4-11). When it is lifted, do not assume the faucets are back to normal: get the utility's own instructions for flushing faucets and appliances, and ask building management what is being done for the building's pipes. Follow the order given for faucets, the refrigerator's water and ice, filters and anything else plumbed in; throw away ice and change filters when the instructions say to. Do not make up a flushing time, and do not take a chlorine test strip as proof that a chemical has gone. After a drop in water pressure with no notice, CDC's general advice is to run each cold faucet fully for 2 minutes, then the hot until it feels hot and runs clear, and to tell the utility. Then refill your stored water (U4-14).",
       "cost": "free",
       "time": "minutes",
       "minutes": 10,
@@ -313,9 +313,21 @@
         "earthquake"
       ],
       "apartment": "With an all-electric kitchen you cannot boil water in an outage, so make bleach, tablets or a filter your main method.",
-      "products": ["water-bleach", "water-treatment-tablets", "water-filter-portable", "water-filter-household", "water-test-and-prefilter"],
+      "products": [
+        "water-bleach",
+        "water-treatment-tablets",
+        "water-filter-portable",
+        "water-filter-household",
+        "water-test-and-prefilter"
+      ],
       "worksheet": "water-treatment-card",
-      "cites": ["cdc-water-safe", "cdc-water-advisories", "epa-disinfect", "fda-food-outage", "cdc-food-emergency"],
+      "cites": [
+        "cdc-water-safe",
+        "cdc-water-advisories",
+        "epa-disinfect",
+        "fda-food-outage",
+        "cdc-food-emergency"
+      ],
       "toolkit_page": "12-14"
     },
     {

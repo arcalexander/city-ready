@@ -17,10 +17,23 @@
       "minutes": 120,
       "effort": "most",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["preparedbc-apartments", "tokyo-bousai", "nfpa-highrise", "toronto-power-failure", "koto-toilet"]
+      "cites": [
+        "preparedbc-apartments",
+        "tokyo-bousai",
+        "nfpa-highrise",
+        "toronto-power-failure",
+        "koto-toilet"
+      ]
     },
     {
       "id": "HC-24",
@@ -36,8 +49,13 @@
       "minutes": 1,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "cites": ["nfpa-smoke-alarms", "usfa-smoke-alarms"]
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "nfpa-smoke-alarms",
+        "usfa-smoke-alarms"
+      ]
     },
     {
       "id": "HC-23",
@@ -53,10 +71,19 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
+      "scenarios": [
+        "all"
+      ],
       "apartment": "Alarms wired into the building are the landlord's: report a dead or missing one in writing, never disconnect it, and add your own battery alarm in any bedroom that has none. Alarms in hallways and stairwells belong to the building; if one is chirping or missing, tell management.",
-      "products": ["smoke-alarm", "smoke-co-combo-alarm"],
-      "cites": ["nfpa-smoke-alarms", "usfa-smoke-alarms", "cpsc-warning-24-267-combo"]
+      "products": [
+        "smoke-alarm",
+        "smoke-co-combo-alarm"
+      ],
+      "cites": [
+        "nfpa-smoke-alarms",
+        "usfa-smoke-alarms",
+        "cpsc-warning-24-267-combo"
+      ]
     },
     {
       "id": "HC-25",
@@ -72,8 +99,14 @@
       "minutes": 2,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "cites": ["ready-homefire", "nfpa-escape", "nfpa-smoke-alarms"]
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-homefire",
+        "nfpa-escape",
+        "nfpa-smoke-alarms"
+      ]
     },
     {
       "id": "HR-02",
@@ -89,10 +122,21 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["nfpa-highrise", "usfa-highrise", "nyc-highrise-fire"]
+      "cites": [
+        "nfpa-highrise",
+        "usfa-highrise",
+        "nyc-highrise-fire"
+      ]
     },
     {
       "id": "HR-03",
@@ -108,10 +152,22 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["nfpa-highrise", "nyc-highrise-fire", "usfa-highrise", "fdny-fireproof"]
+      "cites": [
+        "nfpa-highrise",
+        "nyc-highrise-fire",
+        "usfa-highrise",
+        "fdny-fireproof"
+      ]
     },
     {
       "id": "HR-04",
@@ -127,9 +183,20 @@
       "minutes": 3,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise", "nfpa-escape", "usfa-apartment-fire"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise",
+        "nfpa-escape",
+        "usfa-apartment-fire"
+      ]
     },
     {
       "id": "HR-05",
@@ -145,10 +212,19 @@
       "minutes": 20,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["nfpa-highrise"]
+      "cites": [
+        "nfpa-highrise"
+      ]
     },
     {
       "id": "HR-06",
@@ -164,10 +240,24 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "fire-card",
-      "cites": ["fdny-fireproof", "fdny-notice-noncombustible", "usfa-apartment-fire", "usfa-highrise", "usfa-escape-plans", "chicago-oemc-highrise"]
+      "cites": [
+        "fdny-fireproof",
+        "fdny-notice-noncombustible",
+        "usfa-apartment-fire",
+        "usfa-highrise",
+        "usfa-escape-plans",
+        "chicago-oemc-highrise"
+      ]
     },
     {
       "id": "HR-07",
@@ -183,9 +273,24 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise", "usfa-highrise", "nyc-highrise-fire", "nfpa-escape", "usfa-apartment-fire", "fdny-notice-noncombustible", "fdny-fireproof"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise",
+        "usfa-highrise",
+        "nyc-highrise-fire",
+        "nfpa-escape",
+        "usfa-apartment-fire",
+        "fdny-notice-noncombustible",
+        "fdny-fireproof"
+      ]
     },
     {
       "id": "HR-08",
@@ -200,9 +305,23 @@
       "minutes": 2,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["earthquake", "evacuation", "outage"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise", "tokyo-bousai", "preparedbc-apartments", "ready-quake"]
+      "scenarios": [
+        "earthquake",
+        "evacuation",
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise",
+        "tokyo-bousai",
+        "preparedbc-apartments",
+        "ready-quake"
+      ]
     },
     {
       "id": "HR-09",
@@ -217,9 +336,20 @@
       "minutes": 5,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "earthquake"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["elevator-entrapment", "tokyo-bousai"]
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "elevator-entrapment",
+        "tokyo-bousai"
+      ]
     },
     {
       "id": "HR-10",
@@ -234,10 +364,22 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["outage", "evacuation"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "floor-contacts",
-      "cites": ["ready-disability", "nfpa-highrise", "usfa-highrise"],
+      "cites": [
+        "ready-disability",
+        "nfpa-highrise",
+        "usfa-highrise"
+      ],
       "cite_todo": ""
     },
     {
@@ -253,10 +395,24 @@
       "minutes": 60,
       "effort": "most",
       "optional": true,
-      "scenarios": ["outage", "evacuation"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "products": ["evacuation-stair-chair"],
-      "cites": ["fema-p2143", "ready-disability", "usfa-highrise"]
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "products": [
+        "evacuation-stair-chair"
+      ],
+      "cites": [
+        "fema-p2143",
+        "ready-disability",
+        "usfa-highrise"
+      ]
     },
     {
       "id": "HR-12",
@@ -272,9 +428,19 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise", "usfa-highrise"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise",
+        "usfa-highrise"
+      ]
     },
     {
       "id": "HR-13",
@@ -290,9 +456,21 @@
       "minutes": 5,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise", "nfpa-escape", "nyc-highrise-fire", "usfa-highrise"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise",
+        "nfpa-escape",
+        "nyc-highrise-fire",
+        "usfa-highrise"
+      ]
     },
     {
       "id": "HR-14",
@@ -307,9 +485,18 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage"],
-      "only": { "outdoor": ["balcony"] },
-      "cites": ["cpsc-generator", "cdc-co"],
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "balcony"
+        ]
+      },
+      "cites": [
+        "cpsc-generator",
+        "cdc-co"
+      ],
       "cite_todo": "No registry source states a rule on grills or fuel on apartment balconies; the ban here is the site's city-safety rule."
     },
     {
@@ -325,10 +512,24 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "earthquake"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["ready-skills", "preparedbc-apartments", "peoples-gas-emergency", "dte-gas-leak", "nicor-gas-safety"]
+      "cites": [
+        "ready-skills",
+        "preparedbc-apartments",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ]
     },
     {
       "id": "HR-16",
@@ -344,8 +545,15 @@
       "minutes": 5,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info"
     },
     {
@@ -362,9 +570,18 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["nfpa-highrise"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nfpa-highrise"
+      ]
     },
     {
       "id": "HR-18",
@@ -379,13 +596,22 @@
       "minutes": 5,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["earthquake"],
-      "only": { "home": ["highrise"] },
+      "scenarios": [
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "highrise"
+        ]
+      },
       "region": {
         "label": "Earthquake country",
         "general": "Outside earthquake country the same first move serves for any sudden jolt or blast in a tall building: get low, get away from glass, stay put until it stops, then check before you move."
       },
-      "cites": ["tokyo-bousai", "ready-quake"]
+      "cites": [
+        "tokyo-bousai",
+        "ready-quake"
+      ]
     },
     {
       "id": "HR-19",
@@ -400,13 +626,24 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["earthquake"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "region": {
         "label": "Earthquake country",
         "general": "After an explosion, a vehicle impact, a fire, a flood or a severe storm, make the same checks before deciding to stay."
       },
-      "cites": ["tokyo-bousai", "preparedbc-apartments", "ready-quake"],
+      "cites": [
+        "tokyo-bousai",
+        "preparedbc-apartments",
+        "ready-quake"
+      ],
       "cite_todo": ""
     },
     {
@@ -415,16 +652,28 @@
       "section": "Your unit",
       "title": "Know the risks of living on a low floor",
       "why": "The lowest floors are where sewage backs up, flood water arrives and stored belongings get soaked.",
-      "how": "If you live on one of the lowest floors: when the building is told not to flush, or after an earthquake or flood, plug the bath, shower and sink drains, because waste flushed upstairs can come out of the lowest fittings if a pipe is damaged. Keep documents, electronics and your emergency supplies at least 6 inches off the floor, and keep none of them in a basement storage locker. Ask management whether the first floor or basement has flooded before, and where the water came in.",
+      "how": "If you live on one of the lowest floors: when sewage backs up, when the building is told not to flush, or after an earthquake or flood, plug the bath, shower and sink drains, because waste flushed upstairs can come out of the lowest fittings if a pipe is damaged. Keep documents, electronics and your emergency supplies at least 6 inches off the floor, and keep none of them in a basement storage locker. Ask management whether the first floor or basement has flooded before, and where the water came in.",
       "done": "Documents, electronics and emergency supplies sit at least 6 inches off the floor, none is in a basement locker, and management has answered about past flooding.",
       "cost": "free",
       "time": "minutes",
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["earthquake", "outage"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["tokyo-bousai", "koto-toilet", "oregon-2wr"]
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "tokyo-bousai",
+        "koto-toilet",
+        "oregon-2wr"
+      ]
     },
     {
       "id": "HR-21",
@@ -440,10 +689,24 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "evacuation"],
-      "only": { "home": ["lowrise", "highrise"], "has": ["car"] },
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ],
+        "has": [
+          "car"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["tokyo-bousai", "cdc-co"]
+      "cites": [
+        "tokyo-bousai",
+        "cdc-co"
+      ]
     },
     {
       "id": "HR-22",
@@ -458,8 +721,15 @@
       "minutes": 10,
       "effort": "some",
       "optional": false,
-      "scenarios": ["outage"],
-      "only": { "home": ["lowrise", "highrise"] }
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      }
     },
     {
       "id": "HR-23",
@@ -475,8 +745,13 @@
       "minutes": 5,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "cites": ["nfpa-lithium", "usfa-lithium"]
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "nfpa-lithium",
+        "usfa-lithium"
+      ]
     },
     {
       "id": "HR-24",
@@ -491,9 +766,19 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["cpsc-window-falls-2026", "preparedbc-heat"],
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "cpsc-window-falls-2026",
+        "preparedbc-heat"
+      ],
       "cite_todo": ""
     },
     {
@@ -509,10 +794,19 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["preparedbc-apartments"]
+      "cites": [
+        "preparedbc-apartments"
+      ]
     },
     {
       "id": "HR-26",
@@ -527,9 +821,15 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["evacuation"],
+      "scenarios": [
+        "evacuation"
+      ],
       "worksheet": "insurance-legal",
-      "cites": ["preparedbc-apartments", "iii-inventory", "fema-flood-insurance"]
+      "cites": [
+        "preparedbc-apartments",
+        "iii-inventory",
+        "fema-flood-insurance"
+      ]
     },
     {
       "id": "HR-27",
@@ -544,10 +844,20 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["tokyo-bousai", "preparedbc-apartments"]
+      "cites": [
+        "tokyo-bousai",
+        "preparedbc-apartments"
+      ]
     },
     {
       "id": "HR-28",
@@ -562,10 +872,21 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "earthquake"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["tokyo-bousai", "rdpo-toilet"]
+      "cites": [
+        "tokyo-bousai",
+        "rdpo-toilet"
+      ]
     },
     {
       "id": "HR-29",
@@ -580,10 +901,19 @@
       "minutes": 10,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["evacuation"],
-      "only": { "home": ["highrise"] },
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "cites": ["nfpa-highrise", "usfa-highrise"],
+      "cites": [
+        "nfpa-highrise",
+        "usfa-highrise"
+      ],
       "cite_todo": "No registry source describes areas of refuge or refuge floors; an NFPA or ADA source is needed before saying more than 'ask your building'."
     },
     {
@@ -600,8 +930,15 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "annual-review"
     }
   ]

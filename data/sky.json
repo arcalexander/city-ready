@@ -206,7 +206,7 @@
         },
         {
           "id": "sky-20",
-          "text": "If you live above the ground floor: a box of heavy trash bags, in case the toilet stops refilling.",
+          "text": "If you live above the ground floor: a box of heavy trash bags, for the toilet if the drains back up. If the toilet only stops refilling, flush it with a bucket of water.",
           "ids": [
             "X5-02",
             "X5-03"
@@ -219,6 +219,9 @@
           },
           "buy": [
             "trash-bags-contractor"
+          ],
+          "also": [
+            "X5-08"
           ]
         }
       ]

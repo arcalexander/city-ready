@@ -17,9 +17,13 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
+      "scenarios": [
+        "all"
+      ],
       "worksheet": "floor-contacts",
-      "cites": ["preparedbc-neighbourhood"]
+      "cites": [
+        "preparedbc-neighbourhood"
+      ]
     },
     {
       "id": "NB-02",
@@ -34,9 +38,16 @@
       "minutes": 90,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
+      "scenarios": [
+        "all"
+      ],
       "worksheet": "floor-contacts",
-      "cites": ["preparedbc-apartments", "preparedbc-neighbourhood", "preparedbc-heat", "tokyo-bousai"]
+      "cites": [
+        "preparedbc-apartments",
+        "preparedbc-neighbourhood",
+        "preparedbc-heat",
+        "tokyo-bousai"
+      ]
     },
     {
       "id": "NB-03",
@@ -52,9 +63,14 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
+      "scenarios": [
+        "all"
+      ],
       "worksheet": "floor-contacts",
-      "cites": ["preparedbc-neighbourhood", "tokyo-bousai"]
+      "cites": [
+        "preparedbc-neighbourhood",
+        "tokyo-bousai"
+      ]
     },
     {
       "id": "NB-04",
@@ -70,9 +86,17 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "heat", "cold", "earthquake"],
+      "scenarios": [
+        "outage",
+        "heat",
+        "cold",
+        "earthquake"
+      ],
       "worksheet": "floor-contacts",
-      "cites": ["preparedbc-neighbourhood", "preparedbc-heat"]
+      "cites": [
+        "preparedbc-neighbourhood",
+        "preparedbc-heat"
+      ]
     },
     {
       "id": "NB-05",
@@ -88,8 +112,16 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "earthquake", "heat", "cold"],
-      "cites": ["preparedbc-neighbourhood", "tokyo-bousai"]
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "heat",
+        "cold"
+      ],
+      "cites": [
+        "preparedbc-neighbourhood",
+        "tokyo-bousai"
+      ]
     },
     {
       "id": "NB-06",
@@ -104,11 +136,24 @@
       "minutes": 90,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
       "worksheet": "building-info",
-      "products": ["two-way-radios"],
-      "cites": ["preparedbc-apartments", "preparedbc-neighbourhood", "tokyo-bousai"]
+      "products": [
+        "two-way-radios"
+      ],
+      "cites": [
+        "preparedbc-apartments",
+        "preparedbc-neighbourhood",
+        "tokyo-bousai"
+      ]
     },
     {
       "id": "NB-07",
@@ -124,10 +169,21 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["all"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "products": ["two-way-radios"],
-      "cites": ["preparedbc-apartments"]
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "products": [
+        "two-way-radios"
+      ],
+      "cites": [
+        "preparedbc-apartments"
+      ]
     },
     {
       "id": "NB-08",
@@ -143,9 +199,15 @@
       "minutes": 30,
       "effort": "some",
       "optional": false,
-      "scenarios": ["outage", "earthquake"],
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
       "worksheet": "floor-contacts",
-      "cites": ["tokyo-bousai", "preparedbc-neighbourhood"]
+      "cites": [
+        "tokyo-bousai",
+        "preparedbc-neighbourhood"
+      ]
     },
     {
       "id": "NB-09",
@@ -161,8 +223,16 @@
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["outage", "earthquake"],
-      "only": { "home": ["lowrise", "highrise"] }
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      }
     },
     {
       "id": "NB-10",
@@ -177,9 +247,22 @@
       "minutes": 45,
       "effort": "some",
       "optional": false,
-      "scenarios": ["outage", "evacuation", "earthquake"],
-      "only": { "home": ["lowrise", "highrise"] },
-      "cites": ["preparedbc-apartments", "tokyo-bousai", "nfpa-highrise"]
+      "scenarios": [
+        "outage",
+        "evacuation",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "preparedbc-apartments",
+        "tokyo-bousai",
+        "nfpa-highrise"
+      ]
     },
     {
       "id": "NB-11",
@@ -194,8 +277,14 @@
       "minutes": 240,
       "effort": "most",
       "optional": true,
-      "scenarios": ["all"],
-      "cites": ["ready-cert", "redcross-class", "preparedbc-apartments"]
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-cert",
+        "redcross-class",
+        "preparedbc-apartments"
+      ]
     },
     {
       "id": "NB-12",
@@ -203,14 +292,16 @@
       "section": "Keep it going",
       "title": "Give new neighbors the basics in their first month",
       "why": "Someone who moved in last week does not yet know the stairwells, the meeting place or who to ask.",
-      "how": "When someone moves onto your floor, knock within the first month and introduce yourself. Hand over one page listing the two nearest stairwells, the building's outside meeting place, the after-hours emergency number, the don't-flush rule for outages, what the OK / HELP door sign means and who the floor warden is. Offer them a line on the floor contact list to fill in by hand, and leave it to them whether they do.",
+      "how": "When someone moves onto your floor, knock within the first month and introduce yourself. Hand over one page listing the two nearest stairwells, the building's outside meeting place, the after-hours emergency number, when to flush with a bucket and when not to flush at all, what the OK / HELP door sign means and who the floor warden is. Offer them a line on the floor contact list to fill in by hand, and leave it to them whether they do.",
       "done": "The one-page sheet for new neighbors is written with a spare copy ready, and the newest household on your floor has been handed one.",
       "cost": "free",
       "time": "ongoing",
       "minutes": 15,
       "effort": "easy",
       "optional": false,
-      "scenarios": ["all"],
+      "scenarios": [
+        "all"
+      ],
       "worksheet": "floor-contacts"
     }
   ]
