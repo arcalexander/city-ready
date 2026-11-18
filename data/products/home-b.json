@@ -1,13 +1,13 @@
 {
   "batch": "home-b",
-  "checked": "2026-11-15",
+  "checked": "2026-11-17",
   "items": [
     {
       "id": "sleeping-bag",
       "module": "hc",
-      "name": "Sleeping bag for an unheated apartment",
+      "name": "Sleeping bag for a home without heat",
       "need": "If heat fails in winter, a warm sleeping bag lets each person stay warm in bed without burning anything indoors.",
-      "how_to_choose": "Choose synthetic fill, because it keeps some warmth if it gets damp and is easy to wash. A rectangular or semi-rectangular cut is roomier and can double as a quilt on the sofa. Go by the comfort rating, not the number in the name: a bag sold as a '20' is often comfortable only to the mid-30s F. Look for a comfort rating of 32 F (0 C) or lower, or plan a blanket over the bag, and add a wool hat and a layer under you. Check packed size if closet space is tight.",
+      "how_to_choose": "Go by the comfort rating, not the number in the name: a bag sold as a '20' is often comfortable only to the low or mid 30s F. Look for a comfort rating of 32 F (0 C) or lower, or plan a blanket over the bag, and add a wool hat and a layer under you. Synthetic fill costs less, keeps some warmth if it gets damp and is easier to wash; down is lighter and packs far smaller for the same warmth, costs more and must be kept dry. A rectangular cut is roomier and can open out as a quilt on the sofa; a mummy cut is warmer for its weight and tighter. The warmest bags here weigh 8 to 12 lb and roll up as big as a duffel bag; the Compact pick weighs under 3 lb and packs to about 8 x 13 in.",
       "qty": {
         "basis": "per_person",
         "factor": 1,
@@ -45,74 +45,47 @@
         }
       ],
       "item_flags": [
-        "No bag here has an ISO-tested comfort rating. The Cadillac's maker gives a comfort range of 25 to 30 F; the Standard's maker gives one 20 F figure, and testers found it comfortable from about 35 F, so plan a blanket over it."
+        "Only the Compact pick has an ISO-tested comfort rating (31 F). The Standard's maker gives a comfort range of 25 to 30 F; the Budget and Cadillac ratings are the makers' own labels, so go by the testers' figures given with each pick."
       ],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: no cheaper bag had both a maker's page and a test behind it; two thick blankets per person, or any sleeping bag you own, is the no-cost fallback.",
-      "research_note": "2026-11-15 audit-fix pass (prompt 6.7, A-C21): the comfort rating was to be read from the maker's page. REI's pages for the Siesta Hooded 20 (https://www.rei.com/product/217490 and /product/245457) returned HTTP 403 to WebFetch, so the page was read in the desktop app's browser pane: it shows one figure, 'Temperature Rating (F): 20 degrees (F)', and no comfort or lower-limit rating. So the maker states no comfort rating, and the Standard pick's size line says that and gives the testers' figure instead. Feathered Friends' page returned HTTP 429 and no kelty.com page for the Tuck 20 was found, so nothing was read from those makers. CleverHiker's review was reopened today (updated 13 October 2026): maker's rating 20 F, no ISO comfort or limit rating mentioned, testers most comfortable from about 35 F to 70 F. Search summaries, not opened, suggest REI gives a single 20 F figure and that the Kelty Tuck 20 has an EN lower limit of 22 F and a comfort figure of about 32 to 33 F; neither is used on the page. CDC's safe-sleep page opened today for the baby line. First-pass note: no bag had a published ISO 23537 rating that could be verified.",
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-15 audit-fix pass (prompt 6.7, A-C21): the comfort rating was to be read from the maker's page. REI's pages for the Siesta Hooded 20 (https://www.rei.com/product/217490 and /product/245457) returned HTTP 403 to WebFetch, so the page was read in the desktop app's browser pane: it shows one figure, 'Temperature Rating (F): 20 degrees (F)', and no comfort or lower-limit rating. So the maker states no comfort rating, and the Standard pick's size line says that and gives the testers' figure instead. Feathered Friends' page returned HTTP 429 and no kelty.com page for the Tuck 20 was found, so nothing was read from those makers. CleverHiker's review was reopened today (updated 13 October 2026): maker's rating 20 F, no ISO comfort or limit rating mentioned, testers most comfortable from about 35 F to 70 F. Search summaries, not opened, suggest REI gives a single 20 F figure and that the Kelty Tuck 20 has an EN lower limit of 22 F and a comfort figure of about 32 to 33 F; neither is used on the page. CDC's safe-sleep page opened today for the baby line. First-pass note: no bag had a published ISO 23537 rating that could be verified. | Open-up pass 2026-11-17: tiers weighed again on merit and now in price order ($54, $119.99, $185; Compact $190). The old how_to_choose line 'Choose synthetic fill' ruled down out before it was compared, and 'Check packed size if closet space is tight' worked as a size gate; both now describe. OutdoorGearLab's guide (17 bags, side-by-side warmth test, page updated November 5, 2025), GearJunkie's (updated November 6, 2026) and CleverHiker's (updated October 15, 2026) were opened today. OutdoorGearLab is the only one that tested the Brazos (60), Siesta (78), Polara (82) and Redwood (84) together. Why ours and not GearJunkie's REI Co-op Siesta Hooded 20: GearJunkie's guide is a three-season camping test that did not include the Polara; in OutdoorGearLab's side-by-side test, which had both, the Polara scored higher for warmth (9.0 against 8.5) and overall (82 against 78), and it costs about $30 less. Why ours and not CleverHiker's REI Co-op Siesta Hooded 20: CleverHiker found the Siesta comfortable only from about 35 F up, which misses this item's own 32 F comfort mark without a blanket, and it did not test the Polara. Why ours and not OutdoorGearLab's ALPS OutdoorZ Redwood: the Redwood is our Cadillac pick; at $185 and 11.7 lb it is warmer than most cold rooms call for (CleverHiker found it too warm above about 35 F), and the Polara was second in the same test for about $65 less. The Siesta remains a sound, machine-washable alternative. Removed Standard pick, kept for the record: {\"brand\": \"REI Co-op\", \"model\": \"Siesta Hooded 20\", \"model_number\": \"\", \"size\": \"Rectangular with large hood, recycled-polyester synthetic fill, 5 lb 7.3 oz (medium), sizes Medium / Long / Long Wide, packed about 12 x 17 in (long). Comfort rating: the maker gives none. Its page shows one figure, a temperature rating of 20 F, and testers found the bag comfortable from about 35 F up. Meets HC-17 only with a blanket over it.\", \"unit_size\": 1, \"unit_label\": \"bag\", \"price_usd\": 149.0, \"price_seen_at\": \"CleverHiker, GearJunkie and OutdoorGearLab (list price). REI's own page showed a sale price of $111.69 to $119.19, by size, until November 23, 2026\", \"why\": \"The only rectangular synthetic bag in this range with three independent test write-ups. Roomy, comfortable, and the hood helps in a cold bedroom.\", \"weakness\": \"The 20 F label is optimistic: CleverHiker found it comfortable mainly from about 35 F up, and OutdoorGearLab calls the cut narrow for broad shoulders.\", \"links\": [{\"label\": \"REI\", \"url\": \"https://www.rei.com/product/245457/rei-co-op-siesta-hooded-20-sleeping-bag\", \"verified\": true, \"note\": \"\", \"research_note\": \"REI returned HTTP 403 to WebFetch in both passes on 2026-11-15. Read in the desktop app's browser pane in the audit-fix pass: the old address /product/217490 now leads to /product/245457. Key details shown: fill 98% recycled polyester, weight 5 lb 7.3 oz (medium), 'Temperature Rating (F): 20 degrees (F)', no ISO, comfort or lower-limit figure in the page text; $111.69 to $119.19, sale ends 23 November; 'Add to cart' shown.\"}], \"link_note\": \"\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"REI Co-op\", \"title\": \"REI Co-op Siesta Hooded 20 Sleeping Bag\", \"url\": \"https://www.rei.com/product/245457/rei-co-op-siesta-hooded-20-sleeping-bag\", \"verified\": true, \"supports\": \"Rectangular, 98% recycled polyester fill, 5 lb 7.3 oz (medium), one temperature rating of 20 F with no separate comfort rating, sizes and sale price.\", \"research_note\": \"Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Rectangular, 98% recycled polyester fill, 5 lb 7.3 oz (medium), one temperature rating of 20 F with no separate comfort rating, sizes and sale price; in stock on 2026-11-15.\"}, {\"type\": \"test_publication\", \"name\": \"CleverHiker\", \"title\": \"REI Siesta Hooded 20 Sleeping Bag review\", \"url\": \"https://www.cleverhiker.com/camping/rei-siesta-hooded-20-sleeping-bag-review/\", \"verified\": true, \"supports\": \"Rectangular, synthetic, 5 lb 7.3 oz, $149, maker's rating 20 F with no separate comfort rating mentioned; testers found it most comfortable from about 35 to 70 F; page updated October 2026.\"}, {\"type\": \"test_publication\", \"name\": \"OutdoorGearLab\", \"title\": \"REI Co-op Siesta Hooded 20 Review\", \"url\": \"https://outdoorgearlab.com/reviews/camping-and-hiking/camping-sleeping-bag/rei-co-op-siesta-hooded-20\", \"verified\": true, \"supports\": \"Rectangular, 98% recycled polyester, $149 list, favorite hooded bag, narrow cut.\"}, {\"type\": \"test_publication\", \"name\": \"GearJunkie\", \"title\": \"Best Sleeping Bags\", \"url\": \"https://gearjunkie.com/camping/best-sleeping-bags\", \"verified\": true, \"supports\": \"Rectangular with oversized hood, 20 F tested, warmth 7/10, comfort 9/10, $149.\"}], \"flags\": [], \"flag_check\": \"No recall noted on any page opened on 2026-11-15.\", \"research_note\": \"Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given.\"} | Wirecutter (read by the main worker in a browser; not opened here). Why ours and not Wirecutter's REI Co-op Siesta Hooded 20 Sleeping Bag: the Siesta is a sound three-season bag and the pick of four outlets, but CleverHiker found it comfortable only from about 35 F up, and in OutdoorGearLab's side-by-side test, the one test opened that had both bags, the Polara scored higher for warmth (9.0 against 8.5) and overall (82 against 78) for about $30 less; for a room with no heat, warmth for the money decided it. REI's page refuses WebFetch and was last read in a browser on November 15. This is a judgment call against four outlets: to go back, the removed Siesta pick is kept whole above.",
       "tiers": {
-        "budget": null,
-        "standard": {
-          "brand": "REI Co-op",
-          "model": "Siesta Hooded 20",
+        "budget": {
+          "brand": "Coleman",
+          "model": "Brazos 30 Cool-Weather Sleeping Bag",
           "model_number": "",
-          "size": "Rectangular with large hood, recycled-polyester synthetic fill, 5 lb 7.3 oz (medium), sizes Medium / Long / Long Wide, packed about 12 x 17 in (long). Comfort rating: the maker gives none. Its page shows one figure, a temperature rating of 20 F, and testers found the bag comfortable from about 35 F up. Meets HC-17 only with a blanket over it.",
+          "size": "Rectangular, 75 x 33 in, polyester fill, no hood; 5.5 lb packed and about 16.5 x 10 in rolled by OutdoorGearLab's measurements (CleverHiker lists 6 lb 14 oz). The maker's rating is 30 F; CleverHiker's tester was comfortable at 40 F and needed extra layers at 32 F.",
           "unit_size": 1,
           "unit_label": "bag",
-          "price_usd": 149.0,
-          "price_seen_at": "CleverHiker, GearJunkie and OutdoorGearLab (list price). REI's own page showed a sale price of $111.69 to $119.19, by size, until November 23, 2026",
-          "why": "The only rectangular synthetic bag in this range with three independent test write-ups. Roomy, comfortable, and the hood helps in a cold bedroom.",
-          "weakness": "The 20 F label is optimistic: CleverHiker found it comfortable mainly from about 35 F up, and OutdoorGearLab calls the cut narrow for broad shoulders.",
-          "links": [
-            {
-              "label": "REI",
-              "url": "https://www.rei.com/product/245457/rei-co-op-siesta-hooded-20-sleeping-bag",
-              "verified": true,
-              "note": "",
-              "research_note": "REI returned HTTP 403 to WebFetch in both passes on 2026-11-15. Read in the desktop app's browser pane in the audit-fix pass: the old address /product/217490 now leads to /product/245457. Key details shown: fill 98% recycled polyester, weight 5 lb 7.3 oz (medium), 'Temperature Rating (F): 20 degrees (F)', no ISO, comfort or lower-limit figure in the page text; $111.69 to $119.19, sale ends 23 November; 'Add to cart' shown."
-            }
-          ],
+          "price_usd": 54.0,
+          "price_seen_at": "OutdoorGearLab and CleverHiker (list price)",
+          "why": "The cheapest bag with two independent tests behind it: the best budget pick at both OutdoorGearLab and CleverHiker. It unzips flat into a blanket and goes in a large front-loading washer.",
+          "weakness": "Not warm enough alone in a cold room: CleverHiker does not recommend it below 40 F, so plan blankets over it. It is short and narrow for anyone over about 5 ft 11 in, and it has no hood.",
+          "links": [],
           "link_note": "",
           "sources": [
             {
-              "type": "manufacturer_spec",
-              "name": "REI Co-op",
-              "title": "REI Co-op Siesta Hooded 20 Sleeping Bag",
-              "url": "https://www.rei.com/product/245457/rei-co-op-siesta-hooded-20-sleeping-bag",
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Coleman Brazos Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/camping-sleeping-bag/coleman-brazos",
               "verified": true,
-              "supports": "Rectangular, 98% recycled polyester fill, 5 lb 7.3 oz (medium), one temperature rating of 20 F with no separate comfort rating, sizes and sale price.",
-              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Rectangular, 98% recycled polyester fill, 5 lb 7.3 oz (medium), one temperature rating of 20 F with no separate comfort rating, sizes and sale price; in stock on 2026-11-15."
+              "supports": "Best Buy, best budget camping bag; $54 list; 75 x 33 in; 5.5 lb packed; about 16.5 x 10 in rolled; polyester fill; maker's rating 30 F; small for people over 5 ft 11 in."
             },
             {
               "type": "test_publication",
               "name": "CleverHiker",
-              "title": "REI Siesta Hooded 20 Sleeping Bag review",
-              "url": "https://www.cleverhiker.com/camping/rei-siesta-hooded-20-sleeping-bag-review/",
+              "title": "Coleman Brazos 30 Sleeping Bag Review",
+              "url": "https://www.cleverhiker.com/camping/coleman-brazos-sleeping-bag-review/",
               "verified": true,
-              "supports": "Rectangular, synthetic, 5 lb 7.3 oz, $149, maker's rating 20 F with no separate comfort rating mentioned; testers found it most comfortable from about 35 to 70 F; page updated October 2026."
-            },
-            {
-              "type": "test_publication",
-              "name": "OutdoorGearLab",
-              "title": "REI Co-op Siesta Hooded 20 Review",
-              "url": "https://outdoorgearlab.com/reviews/camping-and-hiking/camping-sleeping-bag/rei-co-op-siesta-hooded-20",
-              "verified": true,
-              "supports": "Rectangular, 98% recycled polyester, $149 list, favorite hooded bag, narrow cut."
-            },
-            {
-              "type": "test_publication",
-              "name": "GearJunkie",
-              "title": "Best Sleeping Bags",
-              "url": "https://gearjunkie.com/camping/best-sleeping-bags",
-              "verified": true,
-              "supports": "Rectangular with oversized hood, 20 F tested, warmth 7/10, comfort 9/10, $149."
+              "supports": "Best budget camping bag; $54; comfortable at 40 F, extra layers needed at 32 F, not recommended below 40 F; machine washable in a large front-loader; unzips into a blanket; no hood; page updated October 14, 2026."
             }
           ],
           "flags": [],
-          "flag_check": "No recall noted on any page opened on 2026-11-15.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given."
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched.",
+          "research_note": "Open-up pass 2026-11-17: new Budget pick. Coleman's own page (https://www.coleman.com/sleeping-bags-beds/sleeping-bags/adult-sleeping-bags/brazos-30f-cool-weather-sleeping-bag/SAP_2000036209.html, a guessed address) returned HTTP 403 to WebFetch, so no maker link or model number is given; the pick rests on two test publications that tested the exact bag."
         },
-        "cadillac": {
+        "standard": {
           "brand": "TETON Sports",
           "model": "Polara 3-in-1 0°F Sleeping Bag with Fleece Liner",
           "model_number": "1066",
@@ -121,8 +94,8 @@
           "unit_label": "bag",
           "price_usd": 119.99,
           "price_seen_at": "tetongear.com, November 16, 2026 ('Add to cart' shown, no stock statement)",
-          "why": "The warmest rectangular synthetic bag with a test behind it, and the only pick here whose maker gives a comfort range at or below 32 F. The shell and the fleece liner can be used apart, as a quilt on the sofa or a light layer.",
-          "weakness": "Bulky and heavy for a small closet, and its ratings are the maker's own, not an ISO test.",
+          "why": "The warmest bag for the money in OutdoorGearLab's side-by-side test of 17 camping bags: second overall and 9 out of 10 for warmth, ahead of bags that cost more. The fleece liner zips out, so the shell and the liner can be used together in a cold room or apart in a mild one.",
+          "weakness": "Hand wash only, and at 8 lb packed it rolls up large. Its ratings are the maker's own, not an ISO test, and OutdoorGearLab found the cut snug for tall or broad people.",
           "links": [
             {
               "label": "Manufacturer",
@@ -149,16 +122,92 @@
               "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-camping-sleeping-bag",
               "verified": true,
               "supports": "Top Pick, Best for All Seasons; warmth 9.0; rectangular (page updated November 5, 2025; opened November 16, 2026 by the Q3 audit reader)."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "TETON Sports Polara 3-in-1 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/camping-sleeping-bag/teton-sports-polara-3-in-1",
+              "verified": true,
+              "supports": "Top Pick, best for all seasons; second of 17, overall score 82; $130 list; 8.0 lb packed; 82 x 36 in; removable fleece liner; hand wash; snug for taller or larger people."
             }
           ],
           "flags": [],
           "flag_check": "Not searched on CPSC by the November 16 audit.",
-          "research_note": "16 Nov 2026 (V-SITE, from Q3-7): replaced the Feathered Friends Penguin YF 20 (900+ down, $619), because this item's How to choose says to choose synthetic fill; the Penguin's maker page had been confirmed by P3 the same night, so it remains a sound down alternative. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against the maker's page and OutdoorGearLab's tested comparison."
+          "research_note": "16 Nov 2026 (V-SITE, from Q3-7): replaced the Feathered Friends Penguin YF 20 (900+ down, $619), because this item's How to choose says to choose synthetic fill; the Penguin's maker page had been confirmed by P3 the same night, so it remains a sound down alternative. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against the maker's page and OutdoorGearLab's tested comparison. | Open-up pass 2026-11-17: moved from Cadillac to Standard. It had been priced below the old Standard, and its weakness line read 'Bulky and heavy for a small closet', which worked as a size gate. tetongear.com returned HTTP 429 to WebFetch today, so the price and the maker's figures are those read on November 16; listed for a browser check."
+        },
+        "cadillac": {
+          "brand": "ALPS OutdoorZ",
+          "model": "Redwood -10 Sleeping Bag",
+          "model_number": "",
+          "size": "Rectangular, 80 x 38 in, TechLoft synthetic fill, cotton canvas shell and cotton flannel liner, no hood; 11.7 lb, and rolls to about 14 x 38 in with no stuff sack (OutdoorGearLab's measurements). The maker's rating is -10 F; CleverHiker's tester was comfortable from about 5 F to 35 F.",
+          "unit_size": 1,
+          "unit_label": "bag",
+          "price_usd": 185.0,
+          "price_seen_at": "OutdoorGearLab (list price; CleverHiker lists $160)",
+          "why": "The warmest bag in OutdoorGearLab's test, 10 out of 10 for warmth and first of 17 overall, and CleverHiker's tester slept warm in it down to about 5 F. The extra money buys warmth for a room at or below freezing.",
+          "weakness": "Very heavy and bulky at nearly 12 lb, and too warm above about 35 F. The cotton shell soaks up water and dries slowly, and it is hand wash only. CleverHiker found it often out of stock.",
+          "links": [],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "ALPS OutdoorZ Redwood Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/camping-sleeping-bag/alps-outdoorz-redwood",
+              "verified": true,
+              "supports": "Editors' Choice, best overall camping bag; first of 17, overall score 84, warmth 10 out of 10; $185 list; 11.7 lb packed; 80 x 38 in; 14 x 38 in rolled; TechLoft fill, cotton canvas shell, cotton flannel liner; comfortable through a 25 F night; hand wash."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Alps OutdoorZ Redwood -10 Sleeping Bag Review",
+              "url": "https://www.cleverhiker.com/camping/alps-outdoorz-redwood-10f-sleeping-bag-review/",
+              "verified": true,
+              "supports": "$160; 11 lb 8 oz; warm from about 5 F to 35 F in testing; no hood or draft collar; very bulky, no stuff sack; absorbs water; often out of stock; published April 23, 2025."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched.",
+          "research_note": "Open-up pass 2026-11-17: new Cadillac pick; it is OutdoorGearLab's best overall and had not been a pick, most likely for its size. The maker's page (https://www.alpsoutdoorz.com/redwood-10, a guessed address) returned HTTP 403 to WebFetch and a Scheels listing returned 403 too, so no maker link, model number, stock status or shop price was seen today. CleverHiker says it is sold only 6 to 8 months of the year; stock was not seen today, so no stock flag is set."
+        },
+        "compact": {
+          "brand": "Kelty",
+          "model": "Cosmic Down 20",
+          "model_number": "",
+          "size": "Mummy cut with a hood, 550-fill water-resistant down; regular size 2 lb 7 oz, stuff sack 8 x 13 in (about 11 L). ISO comfort rating 31 F and ISO limit 21 F (Treeline Review's figures). Also sold in short and long, and in a women's version.",
+          "unit_size": 1,
+          "unit_label": "bag",
+          "price_usd": 190.0,
+          "price_seen_at": "CleverHiker (list price, men's regular; Treeline Review gives $170 to $200 by length)",
+          "why": "About a quarter of the weight of the warmest bags here, and it packs to the size of a loaf of bread, so it fits a bag or goes up many flights of stairs. It is the one pick with an ISO-tested comfort rating, 31 F, and two testers found it comfortable to about 30 F.",
+          "weakness": "Down loses warmth if it gets wet and needs a down wash and careful drying. The mummy cut is narrow, and the 20 in the name is a limit, not a comfort figure.",
+          "links": [],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Kelty Cosmic Down 20 Sleeping Bag Review",
+              "url": "https://www.cleverhiker.com/camping/kelty-down-20-sleeping-bag-review/",
+              "verified": true,
+              "supports": "$190 men's, $240 women's; 2 lb 7 oz men's; 550-fill down; comfortable around 30 F; packed-size score 4.9 of 5, the highest in its camping bag guide; narrow mummy fit; page updated October 14, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Kelty Cosmic Down 20 Sleeping Bag Review",
+              "url": "https://www.treelinereview.com/gearreviews/kelty-cosmic-20-sleeping-bag-review",
+              "verified": true,
+              "supports": "ISO comfort 31 F, ISO limit 21 F; regular 2 lb 7 oz; stuff sack 8 x 13 in (10.7 L); 550-fill DriDown; about 50 nights of testing over three years; comfortable to its 31 F comfort rating; reviewed October 9, 2025."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched.",
+          "research_note": "Open-up pass 2026-11-17: new Compact pick. Kelty's own page was not found (a guessed kelty.com address returned 404) and REI's listing refuses WebFetch, so no maker link or model number is given and the ISO figures are Treeline Review's. Weighed against the Feathered Friends Penguin YF 20 (GearJunkie rating 9.2, 900-fill down, $619, hood sold separately): the Kelty is as light (2 lb 7 oz against 2 lb 10.8 oz), packs smaller (about 11 L against 17 L in GearJunkie's table), has an ISO rating and costs under a third as much; the Penguin is roomier and scored 10 out of 10 for warmth at GearJunkie. Also weighed: REI Co-op Trailmade 25 (CleverHiker: $129, synthetic mummy, 2 lb 15 oz, 31 F comfort figure), which had only one test page that opened."
         }
       },
-      "empty_reason": {
-        "budget": "No pick. The Kelty Tuck 20 that testers reviewed is no longer listed on Kelty's site, and its only test dates from 2018. No cheaper bag had both a maker's page and a test that could be opened and checked. Two thick blankets per person, or any sleeping bag you own, is the no-cost fallback."
-      }
+      "empty_reason": {}
     },
     {
       "id": "window-insulation-kit",
@@ -169,7 +218,7 @@
       "qty": {
         "basis": "fixed",
         "factor": 1,
-        "note": "One kit covers about 3-5 standard windows; add a second kit for a larger apartment."
+        "note": "One kit covers about 3-5 standard windows; add a second kit if you have more windows."
       },
       "already_own": "Clear plastic sheeting plus painter's tape works in a pinch, and a rolled towel works as a draft stopper. A heavy lined curtain closed at night also helps.",
       "safety_notes": [
@@ -186,7 +235,7 @@
         "Tape adhesive can mark unfinished wood, plaster and drywall (Duck Brand label). Test a small patch if you rent.",
         "No draft-stopper product is recommended here; a rolled towel follows CDC's tip to block drafts at the bottom of doors."
       ],
-      "prices_seen": "2026-11-15",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Duck Brand",
@@ -206,6 +255,13 @@
               "verified": true,
               "note": "",
               "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Page loads; no price or retailer links shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B000NHY1P0",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in Bob Vila's link for this kit on 2026-11-17; Amazon not opened."
             }
           ],
           "link_note": "",
@@ -229,7 +285,7 @@
           ],
           "flags": [],
           "flag_check": "No recall noted on any page opened (2026-11-15); CPSC not searched for this category.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null. | Open-up pass 2026-11-17: price still not seen. Meijer's listing returned HTTP 403 to WebFetch; search summaries, not opened, gave $9.96 to $9.99 at Walmart and Meijer. price_usd stays null."
         },
         "standard": {
           "brand": "3M",
@@ -242,9 +298,17 @@
           "price_seen_at": "",
           "why": "Bob Vila's best-overall pick: the film can be repositioned before it is pressed down and wrinkles heat out easily.",
           "weakness": "One sheet means you must cut it yourself, and the ends of the sheet were tricky to install.",
-          "links": [],
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B000VSD9DG",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in Bob Vila's product link for this kit on 2026-11-17 (its introduction links a different ASIN, B00002NCJI); Amazon not opened."
+            }
+          ],
           "link_note": "",
-          "research_note": "First pass 2026-11-15: only one verified source (Bob Vila). 3M's page returned HTTP 403, so the model number 2141W-6 comes from a search-result snippet. A link recorded during research (https://www.3m.com/3M/en_US/p/d/cbgnaw011297) returned 'not found' in the link check and was removed. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The model number was not confirmed on the maker's page, and no price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null.",
+          "research_note": "First pass 2026-11-15: only one verified source (Bob Vila). 3M's page returned HTTP 403, so the model number 2141W-6 comes from a search-result snippet. A link recorded during research (https://www.3m.com/3M/en_US/p/d/cbgnaw011297) returned 'not found' in the link check and was removed. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The model number was not confirmed on the maker's page, and no price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null. | Open-up pass 2026-11-17: the model number 2141W-6 and 'fits five 3 x 5 ft indoor windows' were confirmed on a distributor's page read by WebFetch (hillas.com, sold only by the case of 6 at $110.57, about $18.43 a kit). No single-kit price was read by WebFetch: the Do it Best page text was cut off before the price and hausoftools.com returned HTTP 429. Search summaries, not opened, gave $21.99 at Do it Best and Anderson Lumber. price_usd stays null. 3M's own page was not found, so the pick still rests on one source.",
           "sources": [
             {
               "type": "test_publication",
@@ -265,8 +329,8 @@
           "size": "Film 62 x 126 in, about twice as thick as standard Duck kits, with tape; also sold as 62 x 210 in, 84 x 120 in and 84 x 240 in",
           "unit_size": 1,
           "unit_label": "kit",
-          "price_usd": null,
-          "price_seen_at": "",
+          "price_usd": 7.76,
+          "price_seen_at": "findtape.com, one 3-window kit (item 287955, 62 x 126 in), before shipping, November 17, 2026",
           "why": "Thicker, puncture-resistant film that suits households with kids or pets; Duck says removal is renter-safe.",
           "weakness": "Bob Vila needed over 30 minutes with a hair dryer to remove wrinkles.",
           "links": [
@@ -276,10 +340,17 @@
               "verified": true,
               "note": "",
               "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Page loads; no price or retailer links shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B015PY2BY8",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in Bob Vila's link for this kit on 2026-11-17; Amazon not opened."
             }
           ],
           "link_note": "",
-          "research_note": "First pass 2026-11-15: the page URL opened ends -3-pk-3 and shows the 3-window Max Strength kit. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null.",
+          "research_note": "First pass 2026-11-15: the page URL opened ends -3-pk-3 and shows the 3-window Max Strength kit. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No price or shop link is given. | Alignment pass 2026-11-16 (c4-home): price not looked for again today beyond the maker page (no price shown); major-retailer pages refuse WebFetch. price_usd stays null. | Open-up pass 2026-11-17: price seen at findtape.com by WebFetch ($7.76 for one kit, $64.44 a case of 9; UPC 075353964415). A Walmart search summary, not opened, gave $9.97 to $19.99.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -299,18 +370,20 @@
             }
           ],
           "flags": [],
-          "flag_check": "No recall noted on any page opened (2026-11-15)."
+          "flag_check": "No recall noted on any page opened (2026-11-15).",
+          "unit_price": "about $2.60 a window"
         }
       },
       "empty_reason": {},
-      "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: how_to_choose had: \"no draft-stopper product was researched for this page\"."
+      "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: how_to_choose had: \"no draft-stopper product was researched for this page\". | Open-up pass 2026-11-17: Bob Vila's test reopened (published and modified November 8, 2026; six kits installed in the tester's home, no lab test). Our Standard is its best overall, our Budget its best value and our Cadillac its runner-up, so no 'why ours' line is needed. The Cadillac kit is the thicker film, not the costlier one: per window it costs less than the 3M kit, which the tier note now says. Also in the test: Frost King (best for multiple windows, nine windows, weaker tape) and the 3M Outdoor kit (hard to fit in wind). The quantity note said 'for a larger apartment'; it now counts windows.",
+      "tier_note": "The tiers are not in price order: the thicker Duck Max kit covers three windows and costs less than the five-window 3M kit that Bob Vila's test rated best."
     },
     {
       "id": "battery-fan",
       "module": "hc",
-      "name": "Rechargeable or USB fan",
-      "need": "A small fan keeps air moving in a stuffy apartment during a summer outage and runs from a battery or power bank, not the grid.",
-      "how_to_choose": "Battery size and speed matter more than blade size. Outdoor Life measured runtime on high speed only; a low speed will last longer, but no test of it was found. Choose USB-C so one power bank can charge or run it. Avoid the cheapest clip fans that shut off on small power banks.",
+      "name": "Battery fan",
+      "need": "A fan that runs from a battery or a power bank, not the grid, keeps air moving in a stuffy home during a summer outage.",
+      "how_to_choose": "Two things matter: how far the breeze reaches and how long the fan runs. Pocket and desk fans reach 2 to 4 ft, enough for one person; a larger fan reaches 10 ft or more and can cool a room of people, but in Outdoor Life's test the large fans ran only 2 to 5.5 hours on high. Outdoor Life measured runtime on high speed only; a low speed lasts longer, but no test of it was found. Check what powers the fan, because that sets the cost of keeping it running for days: built-in cells charged by USB-C, AA cells, a tool-battery pack that needs its own charger, or a separate power bank. In the same test one $15 clip-on fan would not hold a charge, so pick a model with a test behind it.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -340,39 +413,54 @@
           "verified": true
         }
       ],
-      "research_note": "First pass 2026-11-15, recall check for all three fans: searched the CPSC recall listing for 'fan battery'; the first results page (19 recalls dated Oct 29 to Nov 12, 2026) held no fans; the other 1,013 pages were not read. Frizcoll: no manufacturer page or ASIN opened. Wavmill: no official page found; retailer listings were the only other sources and are not allowed. | Alignment pass 2026-11-16 (c4-home), prompt 6.4: looked for a stated safety listing. Nestout FAN-1 page opened today: no UL, ETL or other listing stated (only a Prop 65 link). Frizcoll and Wavmill: no maker site found in searches (only marketplace resellers and a manuals.plus copy of a Wavmill manual, warranty e-mail at yeah.net), so no listing can be stated. A search for a rechargeable fan whose maker states UL 507, UL 2054 or an ETL listing found only third-party UL 507 test reports on Lowe's PDF pages for mains fans and a Ryobi USB lithium handheld fan page with no certification text; none could be a pick.",
+      "research_note": "First pass 2026-11-15, recall check for all three fans: searched the CPSC recall listing for 'fan battery'; the first results page (19 recalls dated Oct 29 to Nov 12, 2026) held no fans; the other 1,013 pages were not read. Frizcoll: no manufacturer page or ASIN opened. Wavmill: no official page found; retailer listings were the only other sources and are not allowed. | Alignment pass 2026-11-16 (c4-home), prompt 6.4: looked for a stated safety listing. Nestout FAN-1 page opened today: no UL, ETL or other listing stated (only a Prop 65 link). Frizcoll and Wavmill: no maker site found in searches (only marketplace resellers and a manuals.plus copy of a Wavmill manual, warranty e-mail at yeah.net), so no listing can be stated. A search for a rechargeable fan whose maker states UL 507, UL 2054 or an ETL listing found only third-party UL 507 test reports on Lowe's PDF pages for mains fans and a Ryobi USB lithium handheld fan page with no certification text; none could be a pick. | Open-up pass 2026-11-17: Outdoor Life's test reopened (published July 8, 2026; twelve fans, runtime on high and reach measured) and Field & Stream's guide opened (June 11, 2026; two fans used hands-on). Larger fans weighed on merit: Ryobi Hybrid (12 ft reach, 3.5 hours on high, $110), Shark FlexBreeze (15 ft, 2 hours, 12.2 lb, $200), Geek Aire (8 ft, 5.5 hours, 6.5 lb, $140). None ran as long on high as the $35 Wavmill (11 hours), which is why it stays Standard; the Ryobi has two testers behind it and takes spare batteries, so it is the Cadillac. No Compact pick: the Budget and Standard fans already weigh under 2 lb. Why ours and not Outdoor Life's Nestout Fan-1: it has no battery of its own, so its $70 buys a fan that still needs a power bank, and Outdoor Life could give no runtime for it; the Wavmill ran 11 hours on high on its own battery for half the price. Why ours and not Field & Stream's Ryobi 18V ONE+ Hybrid Whisper Series fan: it is our Cadillac pick; as a kit it costs about four times the Wavmill and ran 3.5 hours on high in Outdoor Life's test against 11. Wirecutter's Shark FlexBreeze is left for the main worker. Removed picks, kept for the record. Budget: {\"brand\": \"Frizcoll\", \"model\": \"Portable Fan (USB-C rechargeable)\", \"model_number\": \"\", \"size\": \"10 oz, USB-C, air reach about 3 ft; battery capacity not published in the test\", \"unit_size\": 1, \"unit_label\": \"fan\", \"price_usd\": 20.0, \"price_seen_at\": \"Outdoor Life (July 2026 test)\", \"why\": \"Light, simple and cheap; 4 hours on high in Outdoor Life's test.\", \"weakness\": \"Short reach and harder to stand on a table; high-speed runtime only 4 hours, low-speed untested.\", \"links\": [], \"link_note\": \"\", \"sources\": [{\"type\": \"test_publication\", \"name\": \"Outdoor Life\", \"title\": \"The Best Camping Fans of 2026\", \"url\": \"https://www.outdoorlife.com/gear/best-camping-fans-2026/\", \"verified\": true, \"supports\": \"10 oz, $20, 4 hours on high, 3 ft reach, USB-C.\"}], \"flags\": [], \"flag_check\": \"Two CPSC fan recalls were read (IcyBreeze Buddy misting fans, 2025; Rite Aid handheld fans, 2021); neither is this model. The first page of CPSC's recall list on 2026-11-15 showed no fans. The search was not complete, so check cpsc.gov/recalls for this model.\", \"research_note\": \"Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No shop link is given, and the battery capacity is not published. | Alignment pass 2026-11-16: no maker page found; price is the test publication's July 2026 figure.\"} Cadillac: {\"brand\": \"Nestout\", \"model\": \"FAN-1 Portable Battery Powered Fan\", \"model_number\": \"FAN-1 (FAN-NEST-GF1)\", \"size\": \"About 6.3 in, 1 lb 4.2 oz, DC 5 V / 1.5 A (about 7.5 W at full power), 4 speeds, oscillation and timer; no built-in battery\", \"unit_size\": 1, \"unit_label\": \"fan\", \"price_usd\": 69.99, \"price_seen_at\": \"nestout.com, the maker's shop, regular price $69.99, November 16, 2026 (Outdoor Life's July 2026 test listed $80)\", \"why\": \"Outdoor Life's best overall: solid metal base and 10.5 ft reach. It has no battery of its own; Outdoor Life ran it from a separate USB-C power bank.\", \"weakness\": \"No battery of its own: Nestout says its own batteries are required and sold separately, and the dials are hard to read.\", \"links\": [{\"label\": \"Manufacturer\", \"url\": \"https://nestout.com/products/portable-outdoor-fan\", \"verified\": true, \"note\": \"\", \"research_note\": \"Nestout returned HTTP 429 on 2026-11-15; URL from search results, not opened. | Opened 2026-11-16 by WebFetch: $69.99, DC 5V, 1.5A, model FAN-NEST-GF1, batteries sold separately.\"}], \"link_note\": \"\", \"research_note\": \"First pass 2026-11-15: the 5 V / 1.5 A rating and retailer runtime claims (15 h on 5,000 mAh, 28 h on 10,000 mAh) came from search-result snippets and are unverified. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed today, so the 5 V / 1.5 A rating is not confirmed. Runtime depends on the power bank you use. | Alignment pass 2026-11-16: maker page opened; price changed from $80 (Outdoor Life, July 2026) to the maker's $69.99. Whether a non-Nestout USB-C power bank runs it is not stated on the maker page, so the earlier 'any USB-C power bank' line was taken out.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Nestout\", \"title\": \"FAN-1 Portable Battery Powered Fan\", \"url\": \"https://nestout.com/products/portable-outdoor-fan\", \"verified\": true, \"supports\": \"Model FAN-1 (FAN-NEST-GF1), rated DC 5 V, 1.5 A, no built-in battery ('NESTOUT Batteries are required ... sold separately'), $69.99; no safety listing stated. Opened November 16, 2026.\"}, {\"type\": \"test_publication\", \"name\": \"Outdoor Life\", \"title\": \"The Best Camping Fans of 2026\", \"url\": \"https://www.outdoorlife.com/gear/best-camping-fans-2026/\", \"verified\": true, \"supports\": \"Best Overall, $80, needs separate USB-C power bank, 10.5 ft reach.\"}], \"flags\": [], \"flag_check\": \"Two CPSC fan recalls were read (IcyBreeze Buddy misting fans, 2025; Rite Aid handheld fans, 2021); neither is this model. The first page of CPSC's recall list on 2026-11-15 showed no fans. The search was not complete, so check cpsc.gov/recalls for this model.\"} | Wirecutter (read by the main worker in a browser; not opened here). Why ours and not Wirecutter's Shark FlexBreeze Outdoor & Indoor Fan: in Outdoor Life's test it reached farthest of all (15 ft) but ran only 2 hours on high on its battery, against 3.5 hours for the Ryobi, whose battery packs can be swapped, and 11 hours for the Wavmill; it costs $199.99 and is the heaviest fan weighed here. Shark's own page was opened today by WebFetch (https://www.sharkninja.com/shark-flexbreeze-fan-with-instacool-misting-attachment/FA222.html): model FA222, $199.99, shown out of stock, corded or cordless, about 6 hours at an average setting and 'all day' at the lowest by the maker's claim, 18.3 lb and 15 x 13.5 x 24 in with the misting attachment, no safety listing stated. It is the strongest fan here and it oscillates; if the owner ranks reach above battery time it would take the Cadillac place.",
       "item_flags": [
-        "Low-speed runtime: no independent test of low-speed runtime was found for the three fans below. Outdoor Life measured high speed only. Treat any 'up to 60 hours' brand claim as unproven.",
-        "None of the three fans has a safety listing (such as UL or ETL) stated by its maker, and rechargeable fans have been recalled for battery overheating (see safety notes): charge any fan or power bank where you can see it, never under bedding, and not unattended."
+        "Low-speed runtime: no independent test of low-speed runtime was found for the fans below. Outdoor Life measured high speed only. Treat any 'up to 60 hours' brand claim as unproven.",
+        "None of the pages opened for these fans states a safety listing (such as UL or ETL), and rechargeable fans have been recalled for battery overheating (see safety notes): charge any fan or power bank where you can see it, never under bedding, and not unattended."
       ],
-      "prices_seen": "2026-11-15",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
-          "brand": "Frizcoll",
-          "model": "Portable Fan (USB-C rechargeable)",
-          "model_number": "",
-          "size": "10 oz, USB-C, air reach about 3 ft; battery capacity not published in the test",
+          "brand": "Honeywell",
+          "model": "Turbo on the Go Portable Personal Fan",
+          "model_number": "HTF090B",
+          "size": "Personal fan with a handle that works as a stand or a hook; 4.74 x 12.5 in and about half a pound (7.3 oz on Outdoor Life's scale, 10.6 oz with cells). One speed. Runs on 4 AA cells (not included) or from a USB port with the cable supplied; no built-in battery. Air reach about 2 ft in Outdoor Life's test.",
           "unit_size": 1,
           "unit_label": "fan",
-          "price_usd": 20.0,
-          "price_seen_at": "Outdoor Life (July 2026 test)",
-          "why": "Light, simple and cheap; 4 hours on high in Outdoor Life's test.",
-          "weakness": "Short reach and harder to stand on a table; high-speed runtime only 4 hours, low-speed untested.",
-          "links": [],
+          "price_usd": 16.95,
+          "price_seen_at": "honeywellstore.com, the brand's licensed shop, November 17, 2026: $16.95 (regular $24.95), in stock; Outdoor Life's July 2026 test listed $14",
+          "why": "The cheapest fan in Outdoor Life's test that worked well, and its best small fan: 7 hours on high from four AA cells. It also runs from a power bank or any USB port.",
+          "weakness": "It reaches about 2 ft, so it cools one person at arm's length. It has one speed and no battery of its own: each 7 hours on batteries uses four AA cells.",
+          "links": [
+            {
+              "label": "Honeywell Store",
+              "url": "https://www.honeywellstore.com/store/products/honeywell-turbo-on-the-go-fan-htf090b.htm",
+              "verified": true,
+              "note": ""
+            }
+          ],
           "link_note": "",
           "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Honeywell Store (the brand's licensed shop)",
+              "title": "Honeywell Turbo on the Go Portable Personal Fan, HTF090B",
+              "url": "https://www.honeywellstore.com/store/products/honeywell-turbo-on-the-go-fan-htf090b.htm",
+              "verified": true,
+              "supports": "Model HTF090B; USB cable included, or 4 AA batteries, not included; 4.74 x 12.5 in, 0.49 lb; one speed; felt up to 3 ft away by the maker's claim; $16.95; no safety listing stated."
+            },
             {
               "type": "test_publication",
               "name": "Outdoor Life",
               "title": "The Best Camping Fans of 2026",
               "url": "https://www.outdoorlife.com/gear/best-camping-fans-2026/",
               "verified": true,
-              "supports": "10 oz, $20, 4 hours on high, 3 ft reach, USB-C."
+              "supports": "Best Small; $14; 7 hours on high on four AA cells; 7.3 oz (10.6 oz with cells); 2 ft reach; can run from a USB-A outlet."
             }
           ],
           "flags": [],
-          "flag_check": "Two CPSC fan recalls were read (IcyBreeze Buddy misting fans, 2025; Rite Aid handheld fans, 2021); neither is this model. The first page of CPSC's recall list on 2026-11-15 showed no fans. The search was not complete, so check cpsc.gov/recalls for this model.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No shop link is given, and the battery capacity is not published. | Alignment pass 2026-11-16: no maker page found; price is the test publication's July 2026 figure."
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched for this model.",
+          "research_note": "Open-up pass 2026-11-17: new Budget pick. The item's old name, 'Rechargeable or USB fan', kept an AA-cell fan from being compared. It replaces the Frizcoll ($20, 4 hours on high, 3 ft reach, no award, no maker's page): the Honeywell is cheaper, ran longer in the same test and has a second source. honeywellstore.com says it is run by eAccess Solutions under license from Honeywell; the product page on honeywellpluggedin.com returned HTTP 403 to WebFetch. The store page also prints '250 watts', which cannot be right for a USB fan and is not used."
         },
         "standard": {
           "brand": "Wavmill",
@@ -384,7 +472,7 @@
           "price_usd": 35.0,
           "price_seen_at": "Outdoor Life (July 2026 test)",
           "why": "Longest-lasting fan in Outdoor Life's test: 11 hours on high, so a full night on low is likely.",
-          "weakness": "Short reach; generic look; no test of its low-speed runtime was found.",
+          "weakness": "Short reach, about 4 ft, so it cools one or two people close by. No maker's page was found for it, and no test of its low-speed runtime.",
           "links": [],
           "link_note": "",
           "sources": [
@@ -399,38 +487,36 @@
           ],
           "flags": [],
           "flag_check": "Two CPSC fan recalls were read (IcyBreeze Buddy misting fans, 2025; Rite Aid handheld fans, 2021); neither is this model. The first page of CPSC's recall list on 2026-11-15 showed no fans. The search was not complete, so check cpsc.gov/recalls for this model.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No maker's page was found, and the brand's 'up to 65 hours' claim is not confirmed. No shop link is given. | Alignment pass 2026-11-16: no maker page found; price is the test publication's July 2026 figure."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No maker's page was found, and the brand's 'up to 65 hours' claim is not confirmed. No shop link is given. | Alignment pass 2026-11-16: no maker page found; price is the test publication's July 2026 figure. | Open-up pass 2026-11-17: stays Standard after the larger fans were weighed. Outdoor Life's page reopened today: 12,000 mAh, $35, 11 hours on high, 1 lb 14.3 oz, 4 ft reach, 'Longest Lasting'. Price is still the test's July 2026 figure; no shop page was seen."
         },
         "cadillac": {
-          "brand": "Nestout",
-          "model": "FAN-1 Portable Battery Powered Fan",
-          "model_number": "FAN-1 (FAN-NEST-GF1)",
-          "size": "About 6.3 in, 1 lb 4.2 oz, DC 5 V / 1.5 A (about 7.5 W at full power), 4 speeds, oscillation and timer; no built-in battery",
+          "brand": "Ryobi",
+          "model": "18V ONE+ Hybrid Whisper Series 7.5 in. Fan Kit",
+          "model_number": "PCL811K1 (fan alone: PCL811B)",
+          "size": "7.5 in fan, 3.9 lb and about 7.5 x 15.5 x 11.5 in (Field & Stream's figures), three speeds, head pivots 160 degrees. Runs on any Ryobi 18 V ONE+ battery or from a wall outlet with an extension cord. The maker's page labels this kit '4Ah Battery/Charger'. Air reach 12 ft in Outdoor Life's test.",
           "unit_size": 1,
-          "unit_label": "fan",
-          "price_usd": 69.99,
-          "price_seen_at": "nestout.com, the maker's shop, regular price $69.99, November 16, 2026 (Outdoor Life's July 2026 test listed $80)",
-          "why": "Outdoor Life's best overall: solid metal base and 10.5 ft reach. It has no battery of its own; Outdoor Life ran it from a separate USB-C power bank.",
-          "weakness": "No battery of its own: Nestout says its own batteries are required and sold separately, and the dials are hard to read.",
+          "unit_label": "fan kit",
+          "price_usd": 139.0,
+          "price_seen_at": "ryobitools.com, the maker's shop, November 17, 2026: $139.00 for the kit; the fan alone is $59.00",
+          "why": "The extra money buys a fan that cools a room, not one person: 12 ft of reach in Outdoor Life's test, where it was the best large fan, and it is Field & Stream's best overall. It takes any Ryobi 18 V battery, so spare packs keep it going, and it also runs from an outlet or a power station.",
+          "weakness": "It ran 3.5 hours on high in Outdoor Life's test, far less than the Standard pick, so plan on a low speed or spare batteries. The battery recharges only in Ryobi's own charger, which needs wall power or a power station.",
           "links": [
             {
               "label": "Manufacturer",
-              "url": "https://nestout.com/products/portable-outdoor-fan",
+              "url": "https://www.ryobitools.com/products/33287210978",
               "verified": true,
-              "note": "",
-              "research_note": "Nestout returned HTTP 429 on 2026-11-15; URL from search results, not opened. | Opened 2026-11-16 by WebFetch: $69.99, DC 5V, 1.5A, model FAN-NEST-GF1, batteries sold separately."
+              "note": ""
             }
           ],
           "link_note": "",
-          "research_note": "First pass 2026-11-15: the 5 V / 1.5 A rating and retailer runtime claims (15 h on 5,000 mAh, 28 h on 10,000 mAh) came from search-result snippets and are unverified. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed today, so the 5 V / 1.5 A rating is not confirmed. Runtime depends on the power bank you use. | Alignment pass 2026-11-16: maker page opened; price changed from $80 (Outdoor Life, July 2026) to the maker's $69.99. Whether a non-Nestout USB-C power bank runs it is not stated on the maker page, so the earlier 'any USB-C power bank' line was taken out.",
           "sources": [
             {
               "type": "manufacturer_spec",
-              "name": "Nestout",
-              "title": "FAN-1 Portable Battery Powered Fan",
-              "url": "https://nestout.com/products/portable-outdoor-fan",
+              "name": "Ryobi",
+              "title": "18V ONE+ Hybrid WHISPER SERIES 7.5\" Fan Kit (PCL811K1)",
+              "url": "https://www.ryobitools.com/products/33287210978",
               "verified": true,
-              "supports": "Model FAN-1 (FAN-NEST-GF1), rated DC 5 V, 1.5 A, no built-in battery ('NESTOUT Batteries are required ... sold separately'), $69.99; no safety listing stated. Opened November 16, 2026."
+              "supports": "Kit PCL811K1, $139.00, option labeled '4Ah Battery/Charger'; fan alone PCL811B, $59.00; for use with any Ryobi 18V ONE+ battery or an extension cord; three speeds; 160 degree pivoting head; no safety listing stated."
             },
             {
               "type": "test_publication",
@@ -438,11 +524,20 @@
               "title": "The Best Camping Fans of 2026",
               "url": "https://www.outdoorlife.com/gear/best-camping-fans-2026/",
               "verified": true,
-              "supports": "Best Overall, $80, needs separate USB-C power bank, 10.5 ft reach."
+              "supports": "Best Large; $110; 3.5 hours on high; 12 ft reach, second-longest in the test; 3.9 lb; recharges in its own charger."
+            },
+            {
+              "type": "test_publication",
+              "name": "Field & Stream",
+              "title": "Best Camping Fans of 2026",
+              "url": "https://fieldandstream.com/outdoor-gear/camping-and-outdoor-rec/camping-gear/best-camping-fans",
+              "verified": true,
+              "supports": "Best Overall (PCL811B), used hands-on over several summer evenings; 3.9 lb; 7.5 x 15.5 x 11.5 in; three speeds; 18 V battery or AC extension cord; quiet; battery and charger add to the cost. Dated June 11, 2026."
             }
           ],
           "flags": [],
-          "flag_check": "Two CPSC fan recalls were read (IcyBreeze Buddy misting fans, 2025; Rite Aid handheld fans, 2021); neither is this model. The first page of CPSC's recall list on 2026-11-15 showed no fans. The search was not complete, so check cpsc.gov/recalls for this model."
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched for this model.",
+          "research_note": "Open-up pass 2026-11-17: new Cadillac pick. The old need line, 'A small fan', kept room-size fans from being compared. Outdoor Life does not say which battery gave its 3.5 hours on high, or which kit its $110 bought; Ryobi's page also lists a Limited Edition kit (PCL811KSB30) at $99.00. The runtime chart on Ryobi's page is an image and was not read. Field & Stream quotes a maker's claim of up to 21 hours on low, which is not a test result and is not used."
         }
       },
       "empty_reason": {}
@@ -450,9 +545,9 @@
     {
       "id": "cooler",
       "module": "u3",
-      "name": "Hard cooler (about 50 quart)",
+      "name": "Cooler",
       "need": "When the fridge warms in an outage, a cooler packed with ice keeps perishables at or below 40 F so you do not have to throw everything out.",
-      "how_to_choose": "Ice retention matters, but so does what fits in an elevator and a closet. A 45-50 quart cooler is about 25-27 in long. Pre-chill it, fill it mostly with ice, and keep it closed. Test results vary a lot between publications because test conditions differ, so compare within one test. Both picks are 50 to 52 quarts and weigh about 15 to 31 lb empty, sized for the contents of a fridge. For refrigerated medicines alone (X7-02), any cooler that holds the medicine and a few frozen packs will do; a smaller one is easier to carry down stairs.",
+      "how_to_choose": "What matters is how long the cooler keeps food at or below 40 F, and how much it holds. A 50 to 60 quart cooler takes the perishables from a household fridge plus the ice to keep them cold; it is 26 to 30 in long, weighs 15 to 31 lb empty and far more when full. Pre-chill it, fill it mostly with ice, and keep it closed. Test results vary a lot between publications because test conditions differ, so compare within one test. A cooler of about 20 quarts is far easier to carry and store; it holds a day or two of food for one or two people, or refrigerated medicines (X7-02) with a few frozen packs.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -476,12 +571,12 @@
           "verified": true
         }
       ],
-      "research_note": "2026-11-15 audit-fix pass (prompt 2.1, A-C1, B-D01, B-K18): the food line now carries the two-clock rule word for word. No line here said all thawed food is thrown out. Two unverified safety notes were removed because their pages refuse automated readers (HTTP 403) and were never read: USDA FSIS 'Keep Your Food Safe During Emergencies' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies) and FoodSafety.gov 'Food Safety in a Disaster or Emergency' (https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency); their figures had come from search-result summaries. CDC's page, opened today, also has the sentence 'Throw out food that has thawed or is above 40°', which the owner's wording does not use. | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped cadillac pick (Dropped (prompt 6.3: the owner names the $425 cooler as not buying anything the job needs). In Outdoor Life's test it held ice 115 hours against 122 for the $100 Igloo.): {\"brand\": \"YETI\", \"model\": \"Roadie 48\", \"model_number\": \"\", \"size\": \"45-48 qt, 19.5 x 21 x 20.5 in (Outdoor Life), wheeled-style carry, rotomoulded\", \"unit_size\": 1, \"unit_label\": \"cooler\", \"price_usd\": 425.0, \"price_seen_at\": \"Outdoor Life and CleverHiker\", \"why\": \"Best overall at CleverHiker (about 10 days) and 115 hours at Outdoor Life; easy latches and a compact footprint suit tight storage.\", \"weakness\": \"Very expensive: in Outdoor Life's test its 115 hours was slightly below the $100 Igloo's 122 hours.\", \"links\": [], \"link_note\": \"No maker's link is given: the maker's page was not confirmed today.\", \"research_note\": \"First pass 2026-11-15: YETI's page could not be opened (guessed URL returned HTTP 403).\", \"sources\": [{\"type\": \"test_publication\", \"name\": \"Outdoor Life\", \"title\": \"Best Coolers 2026\", \"url\": \"https://www.outdoorlife.com/gear/best-coolers-2026/\", \"verified\": true, \"supports\": \"48 qt, $425, 115 hours, easy latches, 19.5 x 21 x 20.5 in.\"}, {\"type\": \"test_publication\", \"name\": \"CleverHiker\", \"title\": \"Best Coolers\", \"url\": \"https://www.cleverhiker.com/best-coolers\", \"verified\": true, \"supports\": \"Best Overall, about 10 days, $425, 4.8/5.\"}], \"flags\": [], \"flag_check\": \"No CPSC recall search for hard coolers run; no recall noted on any page opened (2026-11-15).\"}",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.1, A-C1, B-D01, B-K18): the food line now carries the two-clock rule word for word. No line here said all thawed food is thrown out. Two unverified safety notes were removed because their pages refuse automated readers (HTTP 403) and were never read: USDA FSIS 'Keep Your Food Safe During Emergencies' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/emergencies/keep-your-food-safe-during-emergencies) and FoodSafety.gov 'Food Safety in a Disaster or Emergency' (https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency); their figures had come from search-result summaries. CDC's page, opened today, also has the sentence 'Throw out food that has thawed or is above 40°', which the owner's wording does not use. | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped cadillac pick (Dropped (prompt 6.3: the owner names the $425 cooler as not buying anything the job needs). In Outdoor Life's test it held ice 115 hours against 122 for the $100 Igloo.): {\"brand\": \"YETI\", \"model\": \"Roadie 48\", \"model_number\": \"\", \"size\": \"45-48 qt, 19.5 x 21 x 20.5 in (Outdoor Life), wheeled-style carry, rotomoulded\", \"unit_size\": 1, \"unit_label\": \"cooler\", \"price_usd\": 425.0, \"price_seen_at\": \"Outdoor Life and CleverHiker\", \"why\": \"Best overall at CleverHiker (about 10 days) and 115 hours at Outdoor Life; easy latches and a compact footprint suit tight storage.\", \"weakness\": \"Very expensive: in Outdoor Life's test its 115 hours was slightly below the $100 Igloo's 122 hours.\", \"links\": [], \"link_note\": \"No maker's link is given: the maker's page was not confirmed today.\", \"research_note\": \"First pass 2026-11-15: YETI's page could not be opened (guessed URL returned HTTP 403).\", \"sources\": [{\"type\": \"test_publication\", \"name\": \"Outdoor Life\", \"title\": \"Best Coolers 2026\", \"url\": \"https://www.outdoorlife.com/gear/best-coolers-2026/\", \"verified\": true, \"supports\": \"48 qt, $425, 115 hours, easy latches, 19.5 x 21 x 20.5 in.\"}, {\"type\": \"test_publication\", \"name\": \"CleverHiker\", \"title\": \"Best Coolers\", \"url\": \"https://www.cleverhiker.com/best-coolers\", \"verified\": true, \"supports\": \"Best Overall, about 10 days, $425, 4.8/5.\"}], \"flags\": [], \"flag_check\": \"No CPSC recall search for hard coolers run; no recall noted on any page opened (2026-11-15).\"} | Open-up pass 2026-11-17: four tests opened today (Outdoor Life, May 28, 2026; GearJunkie, updated November 6, 2026; CleverHiker, updated June 18, 2026; OutdoorGearLab, updated July 17, 2026). The old how_to_choose led with 'what fits in an elevator and a closet' and the name fixed the size at 'about 50 quart'; both now describe. Larger coolers weighed for Standard. OutdoorGearLab's days below 40 F: YETI Roadie 48 6.8, Roadie 60 6.3, Xspec 60 6.2, RTIC Ultra-Light 52 5.8, RTIC 65 5.5, YETI Tundra 65 4.8, Coleman Classic 65 wheeled 4.7 ($85), Igloo Polar 120 4.6, Igloo Marine Ultra 70 4.2. Outdoor Life's hours: Igloo Trailmate 50 122, Tundra 65 117, Igloo Trailmate Journey 70 94. CleverHiker's days to 40 F: Xspec Pro 60 11, Roadie 48 11, Tundra 65 11, RTIC Ultra-Light 52 8. None of the 65 to 75 qt coolers beat the 52 qt RTIC in OutdoorGearLab's test, but the 60 qt Xspec beat it in both tests that had the two, at the same price, so the Xspec is Standard and the RTIC, whose three awards are all for light weight, is named in the Standard's weakness as the lighter choice. The Cadillac stays empty on Outdoor Life's result, as the owner accepted, and CleverHiker's result agrees. One test points the other way and is not hidden: in OutdoorGearLab's test room the $425 Roadie 48 stayed below 40 F for 6.8 days against 6.2 for the Xspec and 5.8 for the RTIC, so there the extra money bought about half a day to a day. Why ours and not Outdoor Life's Titan Pro 55Q High Performance: at $400 it held ice for 118 hours in Outdoor Life's own test, 4 hours less than the $100 Igloo that is our Budget pick, and no second test of it was found. Why ours and not OutdoorGearLab's YETI Roadie 48: it stayed below 40 F for 6.8 days against 6.2 for the Xspec in the same test, about half a day more for nearly twice the price and about 14 qt less room. Why ours and not CleverHiker's YETI Roadie 48: in CleverHiker's test both passed 40 F at 11 days, and the Xspec holds about 12 qt more for about $200 less; the Roadie's edge there is its wheels. Why ours and not GearJunkie's YETI Tundra 45: it holds 37 qt, at $325, and GearJunkie did not test the Xspec; in OutdoorGearLab's test the Tundra 45 stayed below 40 F for 4.1 days against 6.2. Removed Standard pick, kept for the record: {\"brand\": \"RTIC\", \"model\": \"Ultra-Light 52 Hard Cooler\", \"model_number\": \"\", \"size\": \"52 qt (about 49 qt usable per CleverHiker), 27.01 x 17.28 x 16.54 in outside, about 31 lb empty per GearJunkie\", \"unit_size\": 1, \"unit_label\": \"cooler\", \"price_usd\": 207.0, \"price_seen_at\": \"GearJunkie (CleverHiker showed $229)\", \"why\": \"Two independent tests agree: 8 days of usable ice (GearJunkie) and 7 days (CleverHiker).\", \"weakness\": \"Not rotomolded, so less durable; about 27 in long and heavy to carry up stairs when full.\", \"links\": [], \"link_note\": \"\", \"research_note\": \"First pass 2026-11-15: RTIC's own page could not be opened (a guessed URL returned HTTP 403); no Amazon ASIN seen. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No maker's link or Amazon link is given: the maker's page was not confirmed today. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: GearJunkie gives the weight as 31 lb in one place and 21 lb in another; 31 lb is used here. | Alignment pass 2026-11-16 (c4-home): RTIC page 403 and Walmart robot check today; search snippets give $229 (non-wheeled) at Walmart; price stays GearJunkie's $207 from 2026-11-15.\", \"sources\": [{\"type\": \"test_publication\", \"name\": \"GearJunkie\", \"title\": \"Best Coolers\", \"url\": \"https://gearjunkie.com/food-hydration/best-coolers\", \"verified\": true, \"supports\": \"52 qt, 27.01 x 17.28 x 16.54 in, usable ice 8 days, 8.0/10, $207.\"}, {\"type\": \"test_publication\", \"name\": \"CleverHiker\", \"title\": \"Best Coolers\", \"url\": \"https://www.cleverhiker.com/best-coolers\", \"verified\": true, \"supports\": \"Mid-size pick, 7 days, $229, light and roomy.\"}], \"flags\": [], \"flag_check\": \"No CPSC recall search for hard coolers run; no recall noted on any page opened (2026-11-15).\"}",
       "item_flags": [
-        "Ice-retention numbers are not comparable across tests: Outdoor Life measured hours with canned drinks, GearJunkie used outdoor days in summer, CleverHiker gives rounded days. Real food-safe time (40 F or below) is shorter than 'days with some ice'."
+        "Ice-retention numbers are not comparable across tests: Outdoor Life timed a part load of ice in hours, GearJunkie counted days outdoors, CleverHiker logged the days until the inside passed 40 F in sun and a parked car, and OutdoorGearLab logged days below 40 F in a temperature-controlled room. Real food-safe time (40 F or below) is shorter than 'days with some ice'."
       ],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: in Outdoor Life's test a $425 cooler held ice no longer than the $100 one, so a pricier cooler buys nothing this job needs.",
+      "prices_seen": "2026-11-17",
+      "tier_note": "No Cadillac pick: in Outdoor Life's 2026 test the $425 YETI Roadie 48 held ice for 115 hours against 122 for the $100 Igloo Trailmate 50, and in CleverHiker's test the $227 Standard pick stayed below 40 F as long as the Roadie 48.",
       "tiers": {
         "budget": {
           "brand": "Igloo",
@@ -524,54 +619,106 @@
           ],
           "flags": [],
           "flag_check": "No CPSC recall search for hard coolers run; no recall noted on any page opened (2026-11-15).",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed today, so the maker's dimensions are not confirmed. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: A shop's question-and-answer page is reported to quote Igloo support as expecting 2 to 3 days of ice, well under the test figure; this was not confirmed."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed today, so the maker's dimensions are not confirmed. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: A shop's question-and-answer page is reported to quote Igloo support as expecting 2 to 3 days of ice, well under the test figure; this was not confirmed. | Open-up pass 2026-11-17: Outdoor Life's page reopened today (published May 28, 2026): Best Value, $100, 122 hours, the longest in its test. igloocoolers.com returned HTTP 429 to WebFetch today, so the price and stock are those read on November 16; listed for a browser check."
         },
         "standard": {
-          "brand": "RTIC",
-          "model": "Ultra-Light 52 Hard Cooler",
+          "brand": "Xspec",
+          "model": "Pro 60 Quart Roto-Molded Cooler",
           "model_number": "",
-          "size": "52 qt (about 49 qt usable per CleverHiker), 27.01 x 17.28 x 16.54 in outside, about 31 lb empty per GearJunkie",
+          "size": "60 qt by name (57 to 59 qt measured by testers); 29.5 x 17 x 18 in outside and 30.3 lb empty (OutdoorGearLab's measurements); rotomolded with 3 in of foam; no wheels",
           "unit_size": 1,
           "unit_label": "cooler",
-          "price_usd": 207.0,
-          "price_seen_at": "GearJunkie (CleverHiker showed $229)",
-          "why": "Two independent tests agree: 8 days of usable ice (GearJunkie) and 7 days (CleverHiker).",
-          "weakness": "Not rotomolded, so less durable; about 27 in long and heavy to carry up stairs when full.",
-          "links": [],
-          "link_note": "",
-          "research_note": "First pass 2026-11-15: RTIC's own page could not be opened (a guessed URL returned HTTP 403); no Amazon ASIN seen. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No maker's link or Amazon link is given: the maker's page was not confirmed today. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: GearJunkie gives the weight as 31 lb in one place and 21 lb in another; 31 lb is used here. | Alignment pass 2026-11-16 (c4-home): RTIC page 403 and Walmart robot check today; search snippets give $229 (non-wheeled) at Walmart; price stays GearJunkie's $207 from 2026-11-15.",
-          "sources": [
+          "price_usd": 227.0,
+          "price_seen_at": "CleverHiker (OutdoorGearLab lists $230)",
+          "why": "The longest cold time for the money in two tests. CleverHiker found it stayed below 40 F for 11 days, the same as coolers costing $395 and $425, and OutdoorGearLab measured 6.2 days below 40 F in its test room, more than any other cooler it tested under $400. It holds nearly 60 qt.",
+          "weakness": "Heavy: about 30 lb empty, and CleverHiker says it takes two people to carry when full. It has no wheels and no basket. The RTIC Ultra-Light 52 costs about the same, weighs about 9 lb less and held 5.8 days in OutdoorGearLab's test.",
+          "links": [
             {
-              "type": "test_publication",
-              "name": "GearJunkie",
-              "title": "Best Coolers",
-              "url": "https://gearjunkie.com/food-hydration/best-coolers",
-              "verified": true,
-              "supports": "52 qt, 27.01 x 17.28 x 16.54 in, usable ice 8 days, 8.0/10, $207."
+              "label": "Manufacturer",
+              "url": "https://xspecgear.com/products/xspec-pro-roto-molded-60-quart-high-performance-cooler-ice-chest-outdoor-camouflage",
+              "verified": false,
+              "note": "",
+              "research_note": "Address from a web search on 2026-11-17; xspecgear.com returned HTTP 429 to WebFetch, so the page was not read. CleverHiker's page names xspecgear.com as the maker's shop."
             },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B07F967X89",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in CleverHiker's where-to-buy link on 2026-11-17; Amazon not opened."
+            }
+          ],
+          "link_note": "",
+          "sources": [
             {
               "type": "test_publication",
               "name": "CleverHiker",
               "title": "Best Coolers",
               "url": "https://www.cleverhiker.com/best-coolers",
               "verified": true,
-              "supports": "Mid-size pick, 7 days, $229, light and roomy."
+              "supports": "Most Durable Cooler, 4.6 of 5; $227; 31 lb; 57 qt measured; ice gone at 9 days, passed 40 F at 11 days; rotomolded, 3 in of insulation; hard to carry alone when full. Page updated June 18, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Xspec 60qt Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/cooler/xspec-60qt",
+              "verified": true,
+              "supports": "$230 list; 59.2 qt measured; 29.5 x 17.0 x 18.0 in; 30.3 lb; 6.2 days below 40 F; rotomolded, 3 in of insulation; no wheels, no basket, not IGBC rated; score 62, 11th of 23."
+            }
+          ],
+          "flags": [
+            "Sold out at xspecgear.com on November 17, 2026, in the three colors shown. Its equal: the RTIC Ultra-Light 52 Hard Cooler."
+          ],
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched for hard coolers.",
+          "research_note": "Open-up pass 2026-11-17: new Standard pick, replacing the RTIC Ultra-Light 52. The maker's page was not read by WebFetch (HTTP 429), so the price, size and weight here are the testers'. Stock at the maker's shop was not confirmed by WebFetch and no stock flag is set; see the report's not_done. | 2026-11-17, main worker: xspecgear.com search read in Chrome: the Pro 60 Quart in Camouflage, Seafoam and Sand each marked SOLD OUT. The RTIC was the Standard pick until this pass; its three tests (GearJunkie, CleverHiker, OutdoorGearLab) were reopened by the helper today."
+        },
+        "cadillac": null,
+        "compact": {
+          "brand": "YETI",
+          "model": "Roadie 24 Hard Cooler",
+          "model_number": "",
+          "size": "24 qt by name (20 qt measured by OutdoorGearLab, about 32 cans); 16.5 x 14 x 17.5 in and 12.8 lb empty (OutdoorGearLab's measurements); carry strap, no wheels",
+          "unit_size": 1,
+          "unit_label": "cooler",
+          "price_usd": 250.0,
+          "price_seen_at": "OutdoorGearLab and GearJunkie (list price)",
+          "why": "The longest cold time of the small coolers OutdoorGearLab tested, 4.3 days below 40 F, and GearJunkie's best small cooler. At under 13 lb empty and about 17 in each way, one person can carry it down the stairs.",
+          "weakness": "It holds about 20 qt: a day or two of food for one or two people, or medicines, not a fridge's worth. It costs more than either larger pick, and OutdoorGearLab found the top handle gets in the way of the lid.",
+          "links": [],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Yeti Roadie 24 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/cooler/yeti-roadie-24",
+              "verified": true,
+              "supports": "$250 list; 20.0 qt measured, 32 cans; 16.5 x 14.0 x 17.5 in; 12.8 lb; 4.3 days below 40 F; score 65, 9th of 23; top handle gets in the way; not fully airtight."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Coolers of 2026",
+              "url": "https://gearjunkie.com/food-hydration/best-coolers",
+              "verified": true,
+              "supports": "Best Small; $250; 17.4 x 16.6 x 14.1 in; 13 lb 1.6 oz; strong insulation, pricey for its size. Page updated November 6, 2026."
             }
           ],
           "flags": [],
-          "flag_check": "No CPSC recall search for hard coolers run; no recall noted on any page opened (2026-11-15)."
-        },
-        "cadillac": null
+          "flag_check": "No recall noted on any page opened on 2026-11-17; CPSC not searched for hard coolers.",
+          "research_note": "Open-up pass 2026-11-17: new Compact pick. YETI's page (https://www.yeti.com/coolers/hard-coolers/roadie/10022350000.html, a guessed address) returned HTTP 403 to WebFetch, so no maker link is given. GearJunkie's page contradicts itself on this cooler's ice time (a 10-day table entry and 'melted by day four' in the text), so only OutdoorGearLab's figure is used. Also weighed for Compact: RTIC Ultra-Light 22 (OutdoorGearLab Top Pick, $139, 28 qt, 3.4 days below 40 F), Dometic Patrol 35 (Outdoor Life, 110 hours, $230, one test), and the soft coolers Engel HD30 (OutdoorGearLab, just over 3 days below 40 F, $200) and RTIC Soft Pack Pro 30 Can (CleverHiker, about 3 days of ice, $149); the Roadie 24 held food-safe temperature longest."
+        }
       },
       "empty_reason": {
-        "cadillac": "Dropped (prompt 6.3: the owner names the $425 cooler as not buying anything the job needs). In Outdoor Life's test it held ice 115 hours against 122 for the $100 Igloo."
+        "cadillac": "No pick. In Outdoor Life's 2026 test the $425 YETI Roadie 48 held ice for 115 hours and the $100 Igloo Trailmate 50 held it for 122. In CleverHiker's test the $227 Xspec Pro 60 stayed below 40 F for 11 days, the same as the Roadie 48 and the $395 YETI Tundra 65. In those two tests more money did not buy more cold time."
       }
     },
     {
       "id": "electric-kettle-low-watt",
       "module": "u3",
       "name": "Low-wattage electric kettle",
-      "need": "Hot water is an extra, not part of the plan: in an apartment every meal is planned to be eaten cold. If you own a power station that can run one, a small electric kettle heats water for drinks or instant meals with no flame indoors.",
+      "need": "Hot water is an extra, not part of the plan: every meal in this plan can be eaten cold. If you own a power station that can run one, a small electric kettle heats water for drinks or instant meals with no flame indoors.",
       "how_to_choose": "Check the watts first: most power stations under 300 W of inverter output cannot run a kettle at all. Heating one quart takes roughly 95 to 115 Wh whatever the kettle's wattage, so a 300 Wh station gives only about two to three quarts, and a 300 W kettle needs at least 20 minutes per quart. Heat only what you need, put a lid on, and look for a UL or ETL mark on the kettle's label.",
       "qty": {
         "basis": "fixed",
@@ -626,9 +773,9 @@
       "already_own": "Any hand-turn opener that cuts cleanly through a can lid. A military-style P-38 also works.",
       "safety_notes": [],
       "item_flags": [],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: no opener cheaper than the Standard pick had a tested verdict on how long it lasts.",
-      "research_note": "First pass 2026-11-15: the Wirecutter, Serious Eats, CNN and Epicurious pages were not retrievable; OXO's page returned HTTP 403; no manufacturer page or ASIN opened for either pick. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: Checked against one test publication only (Reviewed).",
+      "prices_seen": "2026-11-17",
+      "tier_note": "Two picks: the $17 Standard pick was the best manual opener in two tests, and the cheaper openers those tests tried did worse.",
+      "research_note": "First pass 2026-11-15: the Wirecutter, Serious Eats, CNN and Epicurious pages were not retrievable; OXO's page returned HTTP 403; no manufacturer page or ASIN opened for either pick. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: Checked against one test publication only (Reviewed). | Open-up pass 2026-11-17: TechGearLab's can opener test was found and opened today, so the Standard pick now has two tests. Budget stays empty on those two named tests. Serious Eats, Epicurious and CNN Underscored refused WebFetch; America's Test Kitchen's guessed address returned 404. No test of the Swing-A-Way was found. | Wirecutter (read by the main worker in a browser; not opened here): its joint picks, the Kuhn Rikon and the EZ-DUZ-IT, include our Standard, which did not change, so nothing was needed.",
       "tiers": {
         "budget": null,
         "standard": {
@@ -638,10 +785,10 @@
           "size": "All-metal, right-handed, hand-crank opener",
           "unit_size": 1,
           "unit_label": "opener",
-          "price_usd": 14.59,
-          "price_seen_at": "Reviewed.com (lists Amazon)",
-          "why": "Reviewed's best overall: tested on small tuna cans up to 48 oz broth cans and judged exceptionally durable with an all-metal build.",
-          "weakness": "Right-handed only, and Reviewed's page is dated July 2022.",
+          "price_usd": 16.83,
+          "price_seen_at": "Reviewed.com (lists Amazon), November 17, 2026; TechGearLab lists $17",
+          "why": "Best overall in two tests. Reviewed tried it on sizes from small tuna cans to 48 oz broth cans and judged the all-metal build very durable; TechGearLab gave it 10 out of 10 for durability.",
+          "weakness": "Right-handed only, and it leaves a sharp lid edge. TechGearLab says it can slip off the rim if you press down too hard. Reviewed's test dates from July 2022 and TechGearLab's from June 2023.",
           "links": [],
           "link_note": "",
           "sources": [
@@ -651,12 +798,20 @@
               "title": "The Best Manual Can Openers",
               "url": "https://reviewed.com/cooking/best-right-now/the-best-manual-can-openers",
               "verified": true,
-              "supports": "Best overall, $14.59, durability verdict, three can sizes."
+              "supports": "Best overall, $16.83, durability verdict, three can sizes."
+            },
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "The Best Can Opener",
+              "url": "https://www.techgearlab.com/topics/kitchen/best-can-opener",
+              "verified": true,
+              "supports": "Best overall manual, Editors' Choice; $17 list; overall 77, durability 10 of 10; all metal, made in the USA; needs practice, sharp lid. 90 cans opened across nine openers; page updated June 20, 2023."
             }
           ],
           "flags": [],
           "flag_check": "No CPSC search run for can openers; no recall noted on any page opened (2026-11-15).",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No shop link is given."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. No shop link is given. | Open-up pass 2026-11-17: second test added (TechGearLab). Reviewed's page showed $16.83 today, up from $14.59 on November 15. No maker's page was found."
         },
         "cadillac": {
           "brand": "OXO",
@@ -666,7 +821,7 @@
           "unit_size": 1,
           "unit_label": "opener",
           "price_usd": 24.99,
-          "price_seen_at": "Reviewed.com (Home Depot; $24.69 at Amazon)",
+          "price_seen_at": "Reviewed.com (Home Depot; $24.69 at Amazon), November 17, 2026",
           "why": "Reviewed's best safety pick; the extra money buys a smooth, safe edge that is better for kids and for use in the dark.",
           "weakness": "Reviewed says plastic parts and the safety blade will not last as long as an all-metal opener, which is a real drawback for heavy use.",
           "links": [],
@@ -683,11 +838,11 @@
           ],
           "flags": [],
           "flag_check": "No CPSC search run for can openers; no recall noted on any page opened (2026-11-15).",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The review gives two prices for this opener: 'just under $14' in its text and $24.99 in its price list. No shop link is given."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The review gives two prices for this opener: 'just under $14' in its text and $24.99 in its price list. No shop link is given. | Open-up pass 2026-11-17: Reviewed's page reopened; price unchanged. Weighed against the Kuhn Rikon Auto Safety Lid Lifter ($28.75; Reviewed: the fastest safety opener and good for left hands, mostly plastic) and the Kuhn Rikon Auto Safety Master (TechGearLab: 66, handles flex): Reviewed, the one test that had both the OXO and the Lid Lifter, put the OXO first for safety. Wirecutter's Kuhn Rikon pick is left for the main worker."
         }
       },
       "empty_reason": {
-        "budget": "The Standard pick, at about $15, is already the cheapest tested opener found with a verdict on durability; no cheaper opener had a test."
+        "budget": "No pick. The Standard pick, at about $17, was the best manual opener in TechGearLab's test and in Reviewed's. The cheaper openers they tried did worse: TechGearLab's $14 Joseph Joseph Can-Do scored lower and was judged less durable, and Reviewed found the $4 military-style P-51 took three to four times as long and hurt the hand."
       }
     },
     {
@@ -695,23 +850,50 @@
       "module": "u3",
       "name": "Sealed food storage bins",
       "need": "Stored rice, cans and dry goods stay dry and safe from mice, roaches and pantry moths in a bin with a real seal.",
-      "how_to_choose": "Look for a gasket in the lid plus latches on both sides. Low bins (about 6-7 in) slide under a bed; taller ones go on a closet floor. Brittle polypropylene cracks in cold, so keep them indoors. Pests chew through thin plastic over time, so check bins monthly and keep food in its own packaging as well. Neither maker says its bin is made for food to touch, so keep food in its own packets or in lidded food containers inside the bin. Only the Budget bin, at about 7 in high, slides under most beds; the Standard bin is nearly 11 in high.",
+      "how_to_choose": "Look for a gasket in the lid plus latches on both sides. Brittle polypropylene cracks in cold, so keep the bins indoors. Pests chew through thin plastic over time, so check bins monthly and keep food in its own packaging as well. Neither maker says its bin is made for food to touch, so keep food in its own packets or in lidded food containers inside the bin. The Standard bin is about 7 in high and slides under most beds; the Budget bin is nearly 11 in high and stands on a shelf or a floor.",
       "qty": {
         "basis": "fixed",
         "factor": 2,
-        "note": "Two bins to start; buy more if you store more than a few weeks of dry food. The Budget bin is sold in packs of three."
+        "note": "Two bins to start; buy more if you store more than a few weeks of dry food. The Standard bin is sold in packs of three."
       },
       "already_own": "Any lidded plastic tub with latches and a gasket. A bin with a loose snap-on lid keeps dust out but not mice.",
       "safety_notes": [],
       "item_flags": [
         "None of the tests was a formal pest-entry test; 'protects from insects' is the testers' statement about sealed lids.",
-        "These bins come in different pack sizes, so compare the price for one bin: the Budget pick is $69.99 for three, which is $23.33 a bin."
+        "These bins come in different pack sizes, so compare the price for one bin: the Standard pick is $69.99 for three, which is $23.33 a bin; the Budget pick is sold singly."
       ],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: a pricier bin is bigger, not better sealed, so buy more of the Budget bin instead.",
-      "research_note": "2026-11-15 audit-fix pass (prompt 6.20, A-K8, tier prices out of order): TechGearLab's page reopened today (updated 15 August 2023). It lists $70 (Iris, 'number in tested set' 3), $89 (Sterilite, tested set 6) and $74 (Rubbermaid, tested set 1) and does not say what each price buys. The earlier data treated $70 and $89 as the price of one bin, which made the tiers look out of order and overstated the cost of two bins. price_usd is now null for the Sterilite pick. Iris USA's own page, read in the desktop app's browser pane after HTTP 429 to WebFetch, sells the 26.5 qt WeatherPro gasket box as a 3-pack at $69.99, which fits the per-set reading; the Iris pick now carries that price with unit_size 3. First-pass notes: no manufacturer page or ASIN opened for the Iris or Rubbermaid picks; the Sterilite page appeared in a search summary but fetches returned 404 or an SSL error. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags had: Checked against one test publication only (TechGearLab, August 2023). None of its tests was a formal pest-entry test; 'protects from insects' is the reviewers' statement about sealed lids. / Prices: these bins come in different pack sizes, so compare the price for one bin. Budget: $69.99 for three, $23.33 each. Standard: TechGearLab lists $89 without saying how many bins that buys; it tested a set of 6, which would be about $15 each, so no price is shown. Cadillac: $74 for one much larger bin.",
+      "prices_seen": "2026-11-17",
+      "tier_note": "Two picks: the Standard pick was the top-scoring bin in TechGearLab's test, and the costlier bins it tested were bigger and tougher but not better sealed.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 6.20, A-K8, tier prices out of order): TechGearLab's page reopened today (updated 15 August 2023). It lists $70 (Iris, 'number in tested set' 3), $89 (Sterilite, tested set 6) and $74 (Rubbermaid, tested set 1) and does not say what each price buys. The earlier data treated $70 and $89 as the price of one bin, which made the tiers look out of order and overstated the cost of two bins. price_usd is now null for the Sterilite pick. Iris USA's own page, read in the desktop app's browser pane after HTTP 429 to WebFetch, sells the 26.5 qt WeatherPro gasket box as a 3-pack at $69.99, which fits the per-set reading; the Iris pick now carries that price with unit_size 3. First-pass notes: no manufacturer page or ASIN opened for the Iris or Rubbermaid picks; the Sterilite page appeared in a search summary but fetches returned 404 or an SSL error. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags had: Checked against one test publication only (TechGearLab, August 2023). None of its tests was a formal pest-entry test; 'protects from insects' is the reviewers' statement about sealed lids. / Prices: these bins come in different pack sizes, so compare the price for one bin. Budget: $69.99 for three, $23.33 each. Standard: TechGearLab lists $89 without saying how many bins that buys; it tested a set of 6, which would be about $15 each, so no price is shown. Cadillac: $74 for one much larger bin. | Open-up pass 2026-11-17: TechGearLab's test reopened (updated August 15, 2023; eleven bins; hose, load and stair tests). It names the Iris Weathertight its best bin and the Sterilite Gasket Box its second-highest scorer, so the two picks have changed places: the top scorer is Standard and the cheaper bin, at $8.99 against $23.33, is Budget. The old how_to_choose sentences about under-bed height now describe each pick. Bob Vila's guessed storage-bin address returned 404; no second test was found. Wirecutter is left for the main worker. | Wirecutter (read by the main worker in a browser; not opened here). Wirecutter's Iris Clear Weathertight Totes are the same bin as our Standard pick, now sold as the WeatherPro, so nothing differs there. Why ours and not Wirecutter's Rubbermaid 1191 ActionPacker: Wirecutter names it as the tougher, heavier box, not its main pick, and TechGearLab's review, opened today (https://www.techgearlab.com/reviews/home/storage-bins/rubbermaid-action-packer), calls it nearly waterproof and mentions no gasket and no dust or insect protection, where it credits the Iris and Sterilite bins with sealed lids; this item's job is a sealed lid. It is the better box for a cold garage, shed or truck bed, where TechGearLab says the polypropylene gasket bins turn brittle: 24 gal, 26.25 x 18.9 x 17.2 in, high-density polyethylene, lockable latches, $74 list. Rubbermaid's own page refused WebFetch (HTTP 403), so whether the lid has any seal is not confirmed from the maker; with that page read it would be a fair Cadillac candidate for readers who store food in a garage.",
       "tiers": {
         "budget": {
+          "brand": "Sterilite",
+          "model": "20 Qt Gasket Box",
+          "model_number": "19324306",
+          "size": "20 qt, 16 1/8 x 11 1/4 x 10 7/8 in, about 2.6 lb, with a gasket seal, latches and a recessed lid for stacking",
+          "unit_size": 1,
+          "unit_label": "bin",
+          "price_usd": 8.99,
+          "price_seen_at": "Denver True Value Hardware (denvertruevalue.com), one bin, November 17, 2026",
+          "why": "The cheapest gasketed bin with a test behind it: the second-highest-scoring bin in TechGearLab's test, with a sealing lid and sturdy latches.",
+          "weakness": "Smaller, at 20 qt, and tall and narrow at nearly 11 in high, so it will not slide under most beds. Like the Standard pick it turns brittle in the cold.",
+          "links": [],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "Best Storage Bins",
+              "url": "https://www.techgearlab.com/topics/home/best-storage-bins",
+              "verified": true,
+              "supports": "Gasket Box with Latches, 20 qt, 16 x 11.25 x 10.8 in, sealing top."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No CPSC search run for storage bins; no recall noted on any page opened (2026-11-15).",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed, so the maker's dimensions and the model number are not confirmed, nor is the price for one bin. No shop link is given. | Alignment pass 2026-11-16 (c4-home): price still not seen: Walmart robot check, Do it Best 404; search snippets only ($6.97 Walmart, $11.99 Navy Exchange, $14.99 Ring's End). price_usd stays null. | Open-up pass 2026-11-17: moved from Standard to Budget and a price was seen. A hardware shop's page read by WebFetch (https://denvertruevalue.com/p/gasket-storage-box-073149932433) shows Sterilite model 19324306, UPC 073149932433, 16.125 x 11.25 x 10.875 in, 2.6 lb, $8.99 each, 4 in stock. A shop listing is not a source, so the pick still rests on one test. Sterilite's own page for this bin was not found (a guessed address showed a different 20 qt bin). Search summaries, not opened, ranged from $7.34 to $17.05 a bin."
+        },
+        "standard": {
           "brand": "Iris USA",
           "model": "Weathertight Storage Box (now sold as the WeatherPro 26.5 qt gasket box)",
           "model_number": "500029 (pack of 3)",
@@ -720,7 +902,7 @@
           "unit_label": "pack of 3 bins",
           "price_usd": 69.99,
           "price_seen_at": "irisusainc.com, the maker's shop: $69.99 for a pack of three, which is $23.33 a bin (2026-11-15)",
-          "why": "TechGearLab's Editors' Choice for nearly any use; the 7 in height slides under many beds.",
+          "why": "TechGearLab's Editors' Choice and the top-scoring bin in its test, with strong latches and a lid that seals against moisture, dust and insects. At 7 in high it slides under many beds.",
           "weakness": "Brittle in freezing temperatures, so not for a cold balcony or storage unit.",
           "links": [
             {
@@ -751,40 +933,14 @@
             }
           ],
           "flags": [],
-          "research_note": "irisusainc.com returned HTTP 429 to WebFetch on 2026-11-15; the page was read in the desktop app's browser pane in the audit-fix pass. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: The tested name (Weathertight) and the name now on sale (WeatherPro) differ; the match rests on capacity, size and price. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: TechGearLab tested this bin under the name Weathertight. The maker's shop now lists a 26.5 qt WeatherPro gasket box of the same size and price, which is taken here to be the same bin.",
-          "flag_check": "No CPSC search run for storage bins; no recall noted on any page opened (2026-11-15)."
-        },
-        "standard": {
-          "brand": "Sterilite",
-          "model": "20 Qt Gasket Box",
-          "model_number": "1932 series (19324306 listed as Blue Aquarium)",
-          "size": "20 qt, 16 x 11.25 x 10.8 in (TechGearLab); Sterilite lists 16 1/8 x 11 1/4 x 10 7/8 in, with gasket seal and tight latches, recessed lid for stacking",
-          "unit_size": 1,
-          "unit_label": "bin",
-          "price_usd": null,
-          "price_seen_at": "TechGearLab lists $89 without saying how many bins that buys; it tested a set of 6, so one bin is about $15 if the price is for the set",
-          "why": "TechGearLab's second-highest-scoring bin; the sealing lid gives good protection from moisture, dust and insects.",
-          "weakness": "Tall and narrow at nearly 11 in high, so it will not slide under most beds; a closet-floor bin.",
-          "links": [],
-          "link_note": "",
-          "sources": [
-            {
-              "type": "test_publication",
-              "name": "TechGearLab",
-              "title": "Best Storage Bins",
-              "url": "https://www.techgearlab.com/topics/home/best-storage-bins",
-              "verified": true,
-              "supports": "Gasket Box with Latches, 20 qt, 16 x 11.25 x 10.8 in, sealing top."
-            }
-          ],
-          "flags": [],
+          "research_note": "irisusainc.com returned HTTP 429 to WebFetch on 2026-11-15; the page was read in the desktop app's browser pane in the audit-fix pass. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: The tested name (Weathertight) and the name now on sale (WeatherPro) differ; the match rests on capacity, size and price. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: TechGearLab tested this bin under the name Weathertight. The maker's shop now lists a 26.5 qt WeatherPro gasket box of the same size and price, which is taken here to be the same bin. | Open-up pass 2026-11-17: moved from Budget to Standard, as the top-scoring bin in the one test. irisusainc.com returned HTTP 429 to WebFetch today, so the price is the one read on November 15; listed for a browser check.",
           "flag_check": "No CPSC search run for storage bins; no recall noted on any page opened (2026-11-15).",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only. The maker's page was not confirmed, so the maker's dimensions and the model number are not confirmed, nor is the price for one bin. No shop link is given. | Alignment pass 2026-11-16 (c4-home): price still not seen: Walmart robot check, Do it Best 404; search snippets only ($6.97 Walmart, $11.99 Navy Exchange, $14.99 Ring's End). price_usd stays null."
+          "unit_price": "$23.33 a bin"
         },
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "No pick. The Rubbermaid Action Packer was dropped: it has strong latches but no gasket, and TechGearLab calls it nearly waterproof, not sealed. No larger gasketed bin with a second source was found; buy more of the Budget bin instead."
+        "cadillac": "No pick. In TechGearLab's test the top-scoring bin was the Iris gasket box, at about $23 a bin. The costlier bin it tested for rough use, the $74 Rubbermaid Action Packer, is bigger and tougher, but TechGearLab calls it nearly waterproof and does not credit it with a sealed lid as it does the two picks. More money bought size and toughness, not a better seal."
       }
     },
     {
@@ -837,9 +993,9 @@
     {
       "id": "two-way-radios",
       "module": "cm",
-      "name": "Two-way radios (FRS / GMRS)",
+      "name": "Two-way radios",
       "need": "When phones and internet fail, handheld radios let family and neighbors talk within a building or a block.",
-      "how_to_choose": "The minimum is two radios: one for each group that will be apart. Buy the same model for everyone so they share channels. FRS radios need no license; GMRS radios have more power but need a license. Claimed ranges of 25-35 miles are for open line of sight; in a city expect far less. No test of range inside concrete buildings was found: Outdoor Life measured about 0.3-0.6 mi with trees and hills in the way, and a concrete high-rise will cut that much further. Plan on a few floors or one building, not blocks, and test them before you need them.",
+      "how_to_choose": "The minimum is two radios: one for each group that will be apart. Buy the same model for everyone so they share channels. There are four kinds, and what the FCC asks differs. FRS: no license, 22 channels, at most 2 watts. GMRS: the same channels with more power, plus mobile radios and repeaters; it needs a license, which you can apply for at 18, which lasts 10 years and which covers your family members of any age. CB: no license, 40 channels on a different band, so a CB set does not talk to FRS or GMRS radios. Ham (amateur) radio has the most bands and the longest reach, but each person who transmits needs their own license, earned by passing a written exam given by volunteer examiners; most people start with the Technician class. The picks here are FRS and GMRS hand-helds, because those are the kinds testers have compared; no tester's pick for a CB or ham set was found. Claimed ranges of 25-35 miles are for open line of sight; in a city expect far less. No test of range inside concrete buildings was found: Outdoor Life measured about 0.3-0.6 mi with trees and hills in the way, and a concrete high-rise will cut that much further. Plan on a few floors or one building, not blocks, and test them before you need them.",
       "qty": {
         "basis": "fixed",
         "factor": 2,
@@ -848,11 +1004,12 @@
       "already_own": "Any FRS radios you own work with FRS-only radios on the same channel. Many cheap 22-channel radios are FRS/GMRS hybrids; use them only on FRS channels at FRS power unless you hold a GMRS license.",
       "safety_notes": [
         {
-          "text": "FRS radios need no individual license. GMRS needs an individual FCC license; one license covers the licensee's family members. Under the FCC's 2017 rule change, FRS power is 2 W on channels 1-7 and 15-22 and 0.5 W on channels 8-14, and radios sold as FRS/GMRS combinations are treated by power: above the FRS limit they are GMRS and need the license. (This is the 2017 fact sheet and draft order, so check the FCC's current pages for the fee and any later change.)",
+          "text": "FRS radios need no individual license, and anyone of any age may use one. GMRS needs an FCC license: you must be 18 to apply, and with a license any family member, of any age, can use the radios. FRS power is 2 W on channels 1 to 7 and 15 to 22 and 0.5 W on channels 8 to 14; the FCC says the usual range on the half-watt channels is under half a mile. CB needs no individual license. Amateur (ham) radio needs a license for each operator, earned by examination.",
           "source_name": "FCC",
-          "source_title": "Part 95 Personal Radio Service Reform fact sheet and draft Report and Order, WT Docket 10-119 (Apr 27, 2017)",
-          "url": "https://docs.fcc.gov/public/attachments/DOC-344617A1.txt",
-          "verified": true
+          "source_title": "Family Radio Service (FRS); General Mobile Radio Service (GMRS); Citizens Band Radio Service; Amateur Radio Service",
+          "url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs",
+          "verified": true,
+          "research_note": "2026-11-17: the four FCC service pages were read in Chrome (they refuse the reader) and are in data/sources.json as fcc-frs, fcc-gmrs, fcc-cb and fcc-amateur. This replaces the note that rested on the 2017 draft order (fcc-part95-reform-2017). The GMRS page does not state the fee; the $35 in the Cadillac pick's weakness is OutdoorGearLab's figure and is attributed to it."
         }
       ],
       "item_flags": [
@@ -860,7 +1017,7 @@
         "No in-building range test was found. Outdoor Life measured about 0.3-0.6 mi with trees and hills in the way, and a concrete high-rise will cut that much further. Plan on a few floors or one building, not blocks, and test them before you need them."
       ],
       "prices_seen": "2026-11-15",
-      "research_note": "2026-11-15 audit-fix pass (prompt 3.12, B-C06): the quantity is now two radios (qty.factor 2), with unit_size 2 on the Budget two-pack so the site shows one pack, and unit_size 1 on the two picks sold singly so it shows two radios. The FCC's 2017 document was reopened today. Two unverified safety notes were removed: the FCC's current FRS and GMRS pages (https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs and .../general-mobile-radio-service-gmrs) returned HTTP 403 in both passes and were never read. Rocky Talkie's pages returned HTTP 429 to WebFetch in both passes and were read in the desktop app's browser pane. Retevis's RT22 page was opened today by WebFetch. Audit B's line that a privacy code is a squelch setting and not encryption was not added: no page opened today states it.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 3.12, B-C06): the quantity is now two radios (qty.factor 2), with unit_size 2 on the Budget two-pack so the site shows one pack, and unit_size 1 on the two picks sold singly so it shows two radios. The FCC's 2017 document was reopened today. Two unverified safety notes were removed: the FCC's current FRS and GMRS pages (https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs and .../general-mobile-radio-service-gmrs) returned HTTP 403 in both passes and were never read. Rocky Talkie's pages returned HTTP 429 to WebFetch in both passes and were read in the desktop app's browser pane. Retevis's RT22 page was opened today by WebFetch. Audit B's line that a privacy code is a squelch setting and not encryption was not added: no page opened today states it. | Open-up pass 2026-11-17: three tests opened today (OutdoorGearLab, updated October 6, 2026, 11 radios; GearJunkie, updated November 11, 2026, 13 radios; Outdoor Life, six radios) plus TruePrepper's GMRS guide (February 24, 2026, 14 GMRS hand-helds, power measured on a meter, no measured range test). GMRS weighed for Standard on merit. For: the 5 W Expedition had the longest FRS or GMRS range in all three tests and adds repeater channels, NOAA alerts and an IP67 case. Against: the two testers that ran both Rocky Talkie radios side by side, OutdoorGearLab (76 against 75) and GearJunkie (Best Overall against Best GMRS), each put the FRS Mountain Radio first overall, for ease of use, weight and price; it costs $75 less a radio. So the Mountain Radio stays Standard and the Expedition stays Cadillac. This is a close call: if the owner counts range and weather alerts above ease and price, the two change places. Other GMRS hand-helds: Midland GXT1000VP4 (OutdoorGearLab 58, 2.8 mi, 10 hours of battery, $80 a pair; GearJunkie: range second only to the Expedition, $90 a pair, no repeaters); Midland GXT67 Pro (GearJunkie only, $220, repeater-capable, fixed antenna); Baofeng UV-5G Plus (TruePrepper's best overall, about $33) and BTECH GMRS-Pro and Wouxun KG-UV9GX (in TruePrepper's table only). No established tester's page that opened covers the Wouxun KG-935G or KG-S88G. No tester covers a mobile or base GMRS unit for a home: OutdoorGearLab, Outdoor Life and GearJunkie test hand-helds only, and TruePrepper says it left mobile radios out. No Compact pick: all three picks are pocket-size hand-helds of 3.7 to 9.5 oz. The Prepared's radio page was not found (a guessed address returned 404). Why ours and not Outdoor Life's Oxbow Gear Renegade 2.0: only Outdoor Life tested it, and its tested range there (about 0.5 mi with obstructions) was no better than the others; OutdoorGearLab and GearJunkie, which both measured range over miles, each put the Mountain Radio first. | 2026-11-17, main worker (D-95): radios are open. The item now explains all four services from the FCC's own pages; the name lost '(FRS / GMRS)'. Tiers are as the helper left them after weighing GMRS: the two testers that ran both Rocky Talkie radios put the FRS Mountain Radio first overall and the GMRS Expedition first for range. No tester covers a mobile or base GMRS radio for a home, a CB set or a ham hand-held, so none is a pick.",
       "tiers": {
         "budget": {
           "brand": "Retevis",
@@ -909,12 +1066,12 @@
           "brand": "Rocky Talkie",
           "model": "Mountain Radio",
           "model_number": "",
-          "size": "FRS, 2 W, rechargeable, over 3 days of battery (Outdoor Life). Outdoor Life lists 128 channels and 121 privacy codes; FRS itself has 22 channels",
+          "size": "FRS, 2 W, 6.7 oz, IP56 (splash and snow, not for dunking), rechargeable, over 3 days of battery (Outdoor Life). Outdoor Life lists 128 channels and 121 privacy codes; FRS itself has 22 channels",
           "unit_size": 1,
           "unit_label": "radio",
           "price_usd": 120.0,
           "price_seen_at": "rockytalkie.com, the maker's shop, for one radio; two radios are $240.00 (2026-11-15)",
-          "why": "OutdoorGearLab's Editors' Choice FRS radio: 7.7 mi in open terrain, strong range and clarity for an FRS radio, and no license needed.",
+          "why": "The top pick of two testers, OutdoorGearLab and GearJunkie: 7.7 mi in open terrain in OutdoorGearLab's test, strong range and clarity for an FRS radio, and no license needed.",
           "weakness": "No NOAA weather channels and the microphone is sensitive to background noise; it is sold per radio, so you pay for two.",
           "links": [
             {
@@ -925,7 +1082,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "rockytalkie.com returned HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: $120 a radio, the order box defaults to two radios at $240.00, licence-free, 2 watts, battery 3 to 5 days. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Outdoor Life does not state the service (FRS or GMRS) for this model; OutdoorGearLab says FRS and no license.",
+          "research_note": "rockytalkie.com returned HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: $120 a radio, the order box defaults to two radios at $240.00, licence-free, 2 watts, battery 3 to 5 days. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Outdoor Life does not state the service (FRS or GMRS) for this model; OutdoorGearLab says FRS and no license. | Open-up pass 2026-11-17: stays Standard after GMRS radios were weighed (see the item note). rockytalkie.com returned HTTP 429 to WebFetch today, so the price is the one read on November 15; OutdoorGearLab and GearJunkie both list $120 today.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -951,6 +1108,14 @@
               "url": "https://www.outdoorlife.com/gear/best-walkie-talkies/",
               "verified": true,
               "supports": "Best for Hiking, $110, rechargeable, 128 channels; 1-5 mi typical."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Walkie Talkies of 2026",
+              "url": "https://gearjunkie.com/technology/best-walkie-talkies",
+              "verified": true,
+              "supports": "Best Overall; FRS, 0.5 and 2 W; $120 a radio; about 4 mi through boulder piles; IP56; no NOAA channels. Page updated November 11, 2026."
             }
           ],
           "flags": [],
@@ -960,12 +1125,12 @@
           "brand": "Rocky Talkie",
           "model": "Expedition Radio (GMRS, 5 W)",
           "model_number": "",
-          "size": "GMRS, 5 W, heavier than the Mountain Radio, repeater-capable (Outdoor Life: 22 + 8 repeater channels)",
+          "size": "GMRS, 5 W, 9.5 oz, IP67 (survives a dunking), 22 channels plus 8 repeater channels, NOAA weather alerts; 32 hours of use on a charge in OutdoorGearLab's test",
           "unit_size": 1,
           "unit_label": "radio",
           "price_usd": 195.0,
           "price_seen_at": "rockytalkie.com, the maker's shop, for one radio; two radios come to $390 (2026-11-15)",
-          "why": "The extra money buys 5 W and repeater access; OutdoorGearLab measured about 20-30 percent more range than the Mountain Radio (10.4 mi vs 7.7 mi in open terrain).",
+          "why": "The extra money buys 5 W, repeater channels, NOAA weather alerts and a waterproof case. It had the longest range of the FRS and GMRS radios in all three tests: 10.4 mi against 7.7 mi for the Mountain Radio in open terrain at OutdoorGearLab.",
           "weakness": "It needs an FCC GMRS license, which OutdoorGearLab says carries a $35 fee and no test, and it is expensive per radio.",
           "links": [
             {
@@ -976,7 +1141,7 @@
             }
           ],
           "link_note": "Check fcc.gov for the current GMRS license fee.",
-          "research_note": "rockytalkie.com returned HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: '5-Watt GMRS Expedition Radio', $195, NOAA weather alerts, 8 GMRS repeater channels, battery 4 to 6 days. This settles the first-pass doubt about whether OutdoorGearLab's 'Expedition Radio' and Outdoor Life's 'Rocky Talkie 5 Watt' are the same radio. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: The license fee is OutdoorGearLab's figure; check fcc.gov for the current fee. No Amazon link is given.",
+          "research_note": "rockytalkie.com returned HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: '5-Watt GMRS Expedition Radio', $195, NOAA weather alerts, 8 GMRS repeater channels, battery 4 to 6 days. This settles the first-pass doubt about whether OutdoorGearLab's 'Expedition Radio' and Outdoor Life's 'Rocky Talkie 5 Watt' are the same radio. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: The license fee is OutdoorGearLab's figure; check fcc.gov for the current fee. No Amazon link is given. | Open-up pass 2026-11-17: the 'why' line's '20-30 percent more range' was wrong arithmetic for 10.4 against 7.7 mi (about a third more) and now gives the two figures. The license sentences in weakness, link_note and flags were left as they were for the main worker. rockytalkie.com returned HTTP 429 to WebFetch today; OutdoorGearLab and GearJunkie both list $195 today.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -1002,10 +1167,26 @@
               "url": "https://www.outdoorlife.com/gear/best-walkie-talkies/",
               "verified": true,
               "supports": "Best Long Range, GMRS (FCC license required), 5 W, $180, about 0.6 mi in hilly obstructed terrain."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Walkie Talkies of 2026",
+              "url": "https://gearjunkie.com/technology/best-walkie-talkies",
+              "verified": true,
+              "supports": "Best GMRS; 0.5 and 5 W; $195 a radio; up to 9 mi best case, the longest in its range tests; IP67; NOAA; GMRS repeaters. Page updated November 11, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Rocky Talkie Expedition Radio Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/walkie-talkies/rocky-talkie-expedition-radio",
+              "verified": true,
+              "supports": "Top Pick, best upgrade; score 75, second of 11; 10.4 mi line of sight, 5.1 mi with minor obstructions, 1.4 mi with major ones; 32 hours of battery; 9.5 oz; IP67; NOAA alerts; 8 repeater channels."
             }
           ],
           "flags": [
-            "GMRS license required before use: an individual FCC license is needed to operate on GMRS (FCC, 2017 order)."
+            "It is a GMRS radio, so it needs an FCC license before you transmit: one license covers your family, you must be 18 to apply, and the FCC's page names no exam."
           ],
           "flag_check": "No CPSC search run for radios; no recall noted on any page opened (2026-11-15)."
         }

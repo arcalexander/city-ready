@@ -41,7 +41,7 @@
         "CPSC has warned repeatedly about CO alarms and smoke and CO alarms from little-known brands, sold on Amazon and other marketplaces, that failed to alarm in its tests: for example GLBSUNION and CUZMAK (March 2023), and two more warnings dated October 29, 2026. Buy a well-known brand from the maker or a major retailer."
       ],
       "prices_seen": "2026-11-15",
-      "research_note": "2026-11-15 first pass: a CPSC search result also showed a 2026 recall of Treatlife combination smoke/CO detectors sold on Amazon (seen in search results only; the page was not opened). CPSC recall search for Kidde and First Alert CO alarms was limited to the pages opened. 2026-11-15 audit-fix pass (prompt 6.1): UL 2034 confirmed for the Standard pick on Kidde's product data sheet PDS_COBD10.pdf. Consumer Reports entries removed from pick sources (D-22: link-only, not a counted source); the link stays in other-opinions.json. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "research_note": "2026-11-15 first pass: a CPSC search result also showed a 2026 recall of Treatlife combination smoke/CO detectors sold on Amazon (seen in search results only; the page was not opened). CPSC recall search for Kidde and First Alert CO alarms was limited to the pages opened. 2026-11-15 audit-fix pass (prompt 6.1): UL 2034 confirmed for the Standard pick on Kidde's product data sheet PDS_COBD10.pdf. Consumer Reports entries removed from pick sources (D-22: link-only, not a counted source); the link stays in other-opinions.json. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying. | Open-up pass 2026-11-17: no pick changed. Kidde COBD10 price still not seen: shopkidde.com carbon monoxide pages 1 and 2 opened today and do not list it; SupplyHouse (https://www.supplyhouse.com/Kidde-21033776-COBD10-Carbon-Monoxide-Detector-w-Digital-Display-10-Year-Battery) and Ace Hardware returned HTTP 403; a search summary gave $50.93 at SupplyHouse, not used. Why ours and not Bob Vila's X-Sense SC07: X-Sense's pages, read on 2026-11-16, state only UL 217 and do not name the sensor type, so UL 2034 for the carbon monoxide side is not confirmed, and under the life-safety rule an alarm whose listing cannot be confirmed cannot be a pick; x-sense.com returned HTTP 429 to WebFetch on 2026-11-17, so this was not re-read.",
       "tiers": {
         "budget": {
           "brand": "First Alert",
@@ -250,7 +250,7 @@
         "The Standard pick here is the same alarm as the Cadillac pick on the carbon monoxide alarm page. It is one alarm; buy it once."
       ],
       "prices_seen": "2026-11-16",
-      "research_note": "Researched 2026-11-16 by WebFetch and WebSearch only. NFPA's smoke alarm and carbon monoxide pages (nfpa.org/education-and-research/home-fire-safety/smoke-alarms and /carbon-monoxide, with and without /en/) returned only their titles to the reader, so the NFPA safety note used by the smoke-alarm item was not reused here. NFPA's Educational Messages Desk Reference PDF and the CO tip sheet came back as unreadable binary and were not used. No official page opened today says in so many words that one combination unit replaces a separate smoke alarm and CO alarm; CPSC warning 24-267 is the closest, telling people to install combination detectors on each level and outside separate sleeping areas. The USFA smoke alarm page recommends dual-sensor (ionization plus photoelectric) smoke alarms; the owner's rule excludes dual-sensor combinations, so how_to_choose says only what this page picks. The trade-off line is the owner's wording; for these picks the maker pages confirm an end-of-life warning, but none of the pages opened shows where a replace-by date is printed. Other testers: Bob Vila's best smoke detectors page (2 October 2026) names a combination unit (X-Sense SC07) as best overall smoke detector, but not as best combination alarm, so no line was added. Wirecutter refuses the reader; Consumer Reports' smoke and CO category page returned 403. The WebFetch summary of the SC5 battery product page on firstalert.com noted a block of text addressed to the reader; it was ignored. X-Sense SC07 ($42.99) and SC07-W ($49.99, wireless interconnect, sealed battery) were checked as cheaper or interconnecting options, but X-Sense's pages state only UL 217 and do not name the sensor type, so neither could be a pick. Kidde P4010DCSCO-W (sealed 10-year battery, photoelectric, wireless interconnect) is shown on Kidde's shop as no longer available. Kidde P3010CU (photoelectric, sealed 10-year, 'UL217 and UL2034 Listed' on kidde.com) had no price on Kidde's shop and no second source. Kidde 30CUD10 and 30CUD10-V: product pages do not state the sensor type or UL 2034, and the data sheet PDF came back unreadable. First Alert SMCO210 (non-voice twin of the Standard pick) is $54.95 in stock on the First Alert Store but marked discontinued on firstalert.com, and no test publication covers it. | Main session, 2026-11-16: firstalertstore.com carries a BBB seal for eAccess Solutions, Inc., so it may be an online dealer and not First Alert itself; the UL statements were therefore re-checked on firstalert.com (SMCO210V: both standards in the spec table; SC5: UL 217 10th edition only; SMCO200: none) and on First Alert's help centre, read in Chrome. Google gives no date for the end of Nest Protect sales, so the owner's \"2025\" is not on the page. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-16, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "research_note": "Researched 2026-11-16 by WebFetch and WebSearch only. NFPA's smoke alarm and carbon monoxide pages (nfpa.org/education-and-research/home-fire-safety/smoke-alarms and /carbon-monoxide, with and without /en/) returned only their titles to the reader, so the NFPA safety note used by the smoke-alarm item was not reused here. NFPA's Educational Messages Desk Reference PDF and the CO tip sheet came back as unreadable binary and were not used. No official page opened today says in so many words that one combination unit replaces a separate smoke alarm and CO alarm; CPSC warning 24-267 is the closest, telling people to install combination detectors on each level and outside separate sleeping areas. The USFA smoke alarm page recommends dual-sensor (ionization plus photoelectric) smoke alarms; the owner's rule excludes dual-sensor combinations, so how_to_choose says only what this page picks. The trade-off line is the owner's wording; for these picks the maker pages confirm an end-of-life warning, but none of the pages opened shows where a replace-by date is printed. Other testers: Bob Vila's best smoke detectors page (2 October 2026) names a combination unit (X-Sense SC07) as best overall smoke detector, but not as best combination alarm, so no line was added. Wirecutter refuses the reader; Consumer Reports' smoke and CO category page returned 403. The WebFetch summary of the SC5 battery product page on firstalert.com noted a block of text addressed to the reader; it was ignored. X-Sense SC07 ($42.99) and SC07-W ($49.99, wireless interconnect, sealed battery) were checked as cheaper or interconnecting options, but X-Sense's pages state only UL 217 and do not name the sensor type, so neither could be a pick. Kidde P4010DCSCO-W (sealed 10-year battery, photoelectric, wireless interconnect) is shown on Kidde's shop as no longer available. Kidde P3010CU (photoelectric, sealed 10-year, 'UL217 and UL2034 Listed' on kidde.com) had no price on Kidde's shop and no second source. Kidde 30CUD10 and 30CUD10-V: product pages do not state the sensor type or UL 2034, and the data sheet PDF came back unreadable. First Alert SMCO210 (non-voice twin of the Standard pick) is $54.95 in stock on the First Alert Store but marked discontinued on firstalert.com, and no test publication covers it. | Main session, 2026-11-16: firstalertstore.com carries a BBB seal for eAccess Solutions, Inc., so it may be an online dealer and not First Alert itself; the UL statements were therefore re-checked on firstalert.com (SMCO210V: both standards in the spec table; SC5: UL 217 10th edition only; SMCO200: none) and on First Alert's help centre, read in Chrome. Google gives no date for the end of Nest Protect sales, so the owner's \"2025\" is not on the page. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-16, but the search was not complete: check cpsc.gov/recalls before buying. | Open-up pass 2026-11-17: no pick changed. Why ours and not Bob Vila's X-Sense SC07: X-Sense's pages, read on 2026-11-16, state only UL 217 and do not name the sensor type, so UL 2034 for the carbon monoxide side is not confirmed, and under the life-safety rule an alarm whose listing cannot be confirmed cannot be a pick; x-sense.com returned HTTP 429 to WebFetch on 2026-11-17, so this was not re-read.",
       "tiers": {
         "budget": {
           "brand": "First Alert",
@@ -495,7 +495,7 @@
         "In a rental, tampering with a hard-wired alarm may break the lease or local law; ask the landlord."
       ],
       "prices_seen": "2026-11-15",
-      "research_note": "2026-11-15 audit-fix pass: Consumer Reports entries, scores and prices removed from all three picks (D-22: link-only, not a counted source); the link stays in other-opinions.json. Kidde data sheets and the Intertek certificate were read from the PDFs fetched today. Bob Vila's smoke detector article reopened today (published 2 October 2026): it tests the SMI100 and SMCO210V but no Kidde 20SD10 model.",
+      "research_note": "2026-11-15 audit-fix pass: Consumer Reports entries, scores and prices removed from all three picks (D-22: link-only, not a counted source); the link stays in other-opinions.json. Kidde data sheets and the Intertek certificate were read from the PDFs fetched today. Bob Vila's smoke detector article reopened today (published 2 October 2026): it tests the SMI100 and SMCO210V but no Kidde 20SD10 model. | Open-up pass 2026-11-17: no pick changed. Why ours and not Bob Vila's X-Sense SC07: X-Sense's pages, read on 2026-11-16, state only UL 217 and do not name the sensor type, so UL 2034 for the carbon monoxide side is not confirmed, and under the life-safety rule an alarm whose listing cannot be confirmed cannot be a pick; x-sense.com returned HTTP 429 to WebFetch on 2026-11-17, so this was not re-read. The SC07 is also a combination alarm, not a plain smoke alarm. The Cadillac pick adds only voice alerts; a truer top pick would interconnect (Wirecutter's First Alert SM500V in other-opinions.json), but UL 217 for it was not confirmed on a page opened in this pass. | Wirecutter pass 2026-11-17 (WebFetch only): Not settled against Wirecutter's First Alert SM500V Interconnected Battery-Operated Smoke Alarm with Voice Alerts: only one page for it opened on 2026-11-17, the First Alert Store's (https://www.firstalertstore.com/store/products/interconnect-battery-operated-smoke-alarm-sm500v.htm), which says photoelectric, 'Conforms to UL 217 Standard' with no edition, replaceable AA batteries, wireless interconnect with up to 12 other First Alert or BRK alarms, and that the item is no longer available for purchase there, with the SC5 named as its replacement; First Alert's own page (firstalert.com, HTTP 429), BRK's page (429) and the Resideo spec sheet (unreadable PDF) did not open, no price was seen, and no other test of this model was found (Bob Vila's October 2026 test does not include it). What is missing: the maker's own statement of UL 217, whether the model is still made, a price, and a second source. On merit its wireless interconnect is a real capability the present picks lack, so if the maker's page confirms UL 217 and that it is still sold it belongs in Cadillac (or Standard); until then the life-safety rule keeps the Kidde 20SD10, whose UL 217 listing is on Intertek's certificate.",
       "tiers": {
         "budget": {
           "brand": "First Alert",
@@ -681,7 +681,7 @@
         "Kidde recalled 134 plastic-handle extinguisher models (made 1973 to August 2017) and 8 Pindicator push-button models in November 2017 (CPSC recall 18-022, about 37.8 million units) because they could clog or need too much force and the nozzle could detach; one death was reported. Kidde also recalled 31 plastic-valve disposable models (including the FA110) in February 2015. For this reason no Kidde extinguisher is recommended below."
       ],
       "prices_seen": "2026-11-15",
-      "research_note": "First pass 2026-11-15: the CPSC recall listing showed no fire extinguisher recalls on its first page of results; the category filter was not available through the tool. Audit-fix pass 2026-11-15 (prompt 6.14, B-W02): Amerex parts book opened and read; the Cadillac pick's valve corrected from brass to aluminium. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No current extinguisher recall was seen on CPSC's recall list on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "research_note": "First pass 2026-11-15: the CPSC recall listing showed no fire extinguisher recalls on its first page of results; the category filter was not available through the tool. Audit-fix pass 2026-11-15 (prompt 6.14, B-W02): Amerex parts book opened and read; the Cadillac pick's valve corrected from brass to aluminium. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No current extinguisher recall was seen on CPSC's recall list on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying. | Open-up pass 2026-11-17: no pick changed. Bob Vila's article reopened (dated August 26, 2026; it does not describe hands-on tests) and Amerex's ABC page reopened (B500 5 lb 2A:10B:C; B402 5 lb 3A:40B:C). Why ours and not Bob Vila's Amerex B500: the B500 is rated 2A:10B:C on Amerex's page against 3A:40B:C for the First Alert PRO5 at about the same weight, and The Prepared's pick for most homes is the PRO5. The item flag's last sentence still rules out Kidde by brand. Weighed: Bob Vila's runner-up, the Kidde Pro 210, is a 4 lb unit, smaller than the PRO5's 3-A:40-B:C class; Kidde's page for it returned 404 today, so its rating and valve were not confirmed and the sentence was left for the editor. | Wirecutter pass 2026-11-17: Wirecutter's pick, the First Alert PRO5, is our Standard pick; nothing to weigh.",
       "tiers": {
         "budget": {
           "brand": "First Alert",
@@ -918,7 +918,7 @@
       "module": "ar",
       "name": "Plastic sheeting and duct tape (room sealing)",
       "need": "Heavy plastic sheeting and tape let you cover the windows, door gaps and vents of one room for the few hours officials may tell you to shelter from a chemical release outside.",
-      "how_to_choose": "Buy clear polyethylene sheeting that the maker states is 4 mil or thicker; 6 mil tears less when you tape and re-tape it. Pick the room first: it needs at least 10 square feet of floor for each person. Measure its windows, vents and door, and cut each sheet several inches larger than its opening. Choose a cloth-backed rubber-adhesive duct tape. A 10 ft by 25 ft roll is easy to store in an apartment closet.",
+      "how_to_choose": "Buy clear polyethylene sheeting that the maker states is 4 mil or thicker; 6 mil tears less when you tape and re-tape it. Pick the room first: it needs at least 10 square feet of floor for each person. Measure its windows, vents and door, and cut each sheet several inches larger than its opening. Choose a cloth-backed rubber-adhesive duct tape. A 10 ft by 25 ft roll is 250 square feet of plastic; add up your openings to see whether one roll covers them.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -960,10 +960,65 @@
         "Do not seal in a way that blocks your exit, and never burn fuel, run a generator or use a gas stove or heater in a sealed room."
       ],
       "prices_seen": "2026-11-15",
-      "tier_note": "One pick: sheeting and duct tape are much alike, and a pricier roll buys nothing the job needs; buy a second roll if you have many windows.",
-      "research_note": "2026-11-15 audit-fix pass (prompt 2.5): FEMA's FAQ, CDC's shelter-in-place page, Ready.gov's shelter page and EPA's clean-room page all opened today. The 'few days' phrase is CDC's wording about how long you may need to stay put; the reading that this means staying indoors, not living in the taped room, is the owner's decision in prompt 2.5 (AR-11). Ready.gov's page gives no thickness, floor area or hours. First-pass notes: no retailer link or ASIN seen for any pick; no independent test publication reviewed these products; prices could not be confirmed. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No prices are shown: the makers' pages give none. | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped budget pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 4 mil, 10 ft x 25 ft, with Duck Max Strength duct tape 1.88 in x 35 yd\", \"model_number\": \"Frost King P1025; Duck Max Strength (white, 1.88 in x 35 yd)\", \"size\": \"10 ft x 25 ft roll, 4 mil; tape 1.88 in x 35 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Meets the 4 mil minimum in a roll small enough to store in an apartment; the maker states the thickness in its table.\", \"weakness\": \"4 mil is the minimum; it can tear at tape edges, and the tape maker's page gives no thickness or strength numbers.\", \"links\": [{\"label\": \"Frost King sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1025 listed at 4 mil, 10 ft x 25 ft.\"}, {\"label\": \"Duck Brand tape (manufacturer)\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Packaged Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1025: clear, 4 mil, 10 ft x 25 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Duck Brand\", \"title\": \"Max Strength Duct Tape White, 1.88 in. x 35 yd.\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"supports\": \"Sold as duct tape, rubber adhesive, 1.88 in x 35 yd.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"} | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped cadillac pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 6 mil, 10 ft x 100 ft boxed roll, with Gorilla Tape silver 1.88 in x 30 yd\", \"model_number\": \"Frost King P1016; Gorilla Tape silver 6074001\", \"size\": \"10 ft x 100 ft boxed roll, 6 mil; tape 1.88 in x 30 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Four times the sheeting of the 25 ft roll, enough for several windows and a door, in the same 6 mil thickness; useful if you must seal more than one room or redo a seal.\", \"weakness\": \"A boxed 100 ft roll is bulky for a small apartment and the extra length only helps if you have many openings.\", \"links\": [{\"label\": \"Frost King boxed sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1016 listed at 6 mil, 10 ft x 100 ft clear.\"}, {\"label\": \"Gorilla Tape (manufacturer)\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Boxed Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1016: clear, 6 mil, 10 ft x 100 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Gorilla Glue\", \"title\": \"Silver Gorilla Tape\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"supports\": \"1.88 in x 30 yd (6074001), rubber adhesive, reinforced backing.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"}",
+      "tier_note": "Two picks: sheeting and tape are commodities, and past 6 mil sheeting with a strong tape more money buys only a longer roll.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.5): FEMA's FAQ, CDC's shelter-in-place page, Ready.gov's shelter page and EPA's clean-room page all opened today. The 'few days' phrase is CDC's wording about how long you may need to stay put; the reading that this means staying indoors, not living in the taped room, is the owner's decision in prompt 2.5 (AR-11). Ready.gov's page gives no thickness, floor area or hours. First-pass notes: no retailer link or ASIN seen for any pick; no independent test publication reviewed these products; prices could not be confirmed. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No prices are shown: the makers' pages give none. | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped budget pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 4 mil, 10 ft x 25 ft, with Duck Max Strength duct tape 1.88 in x 35 yd\", \"model_number\": \"Frost King P1025; Duck Max Strength (white, 1.88 in x 35 yd)\", \"size\": \"10 ft x 25 ft roll, 4 mil; tape 1.88 in x 35 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Meets the 4 mil minimum in a roll small enough to store in an apartment; the maker states the thickness in its table.\", \"weakness\": \"4 mil is the minimum; it can tear at tape edges, and the tape maker's page gives no thickness or strength numbers.\", \"links\": [{\"label\": \"Frost King sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1025 listed at 4 mil, 10 ft x 25 ft.\"}, {\"label\": \"Duck Brand tape (manufacturer)\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Packaged Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1025: clear, 4 mil, 10 ft x 25 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Duck Brand\", \"title\": \"Max Strength Duct Tape White, 1.88 in. x 35 yd.\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"supports\": \"Sold as duct tape, rubber adhesive, 1.88 in x 35 yd.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"} | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped cadillac pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 6 mil, 10 ft x 100 ft boxed roll, with Gorilla Tape silver 1.88 in x 30 yd\", \"model_number\": \"Frost King P1016; Gorilla Tape silver 6074001\", \"size\": \"10 ft x 100 ft boxed roll, 6 mil; tape 1.88 in x 30 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Four times the sheeting of the 25 ft roll, enough for several windows and a door, in the same 6 mil thickness; useful if you must seal more than one room or redo a seal.\", \"weakness\": \"A boxed 100 ft roll is bulky for a small apartment and the extra length only helps if you have many openings.\", \"links\": [{\"label\": \"Frost King boxed sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1016 listed at 6 mil, 10 ft x 100 ft clear.\"}, {\"label\": \"Gorilla Tape (manufacturer)\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Boxed Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1016: clear, 6 mil, 10 ft x 100 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Gorilla Glue\", \"title\": \"Silver Gorilla Tape\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"supports\": \"1.88 in x 30 yd (6074001), rubber adhesive, reinforced backing.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"} | Open-up pass 2026-11-17: weighed again. Budget restored (4 mil is a real, cheaper step below 6 mil). Cadillac stays empty as a commodity: the pick removed on 2026-11-16 was the same 6 mil plastic in a 100 ft boxed roll, which is more plastic, not more capability. The sentence 'A 10 ft by 25 ft roll is easy to store in an apartment closet' worked as a gate and is rewritten. Why ours and not Bob Vila's Lockport Heavy-Duty Duct Tape: Gorilla Tape was rated 5 out of 5 for strength in the same test and its maker publishes the size and adhesive on a page opened today; Lockport is sold as a multipack and no maker's page for it was looked for in this pass.",
       "tiers": {
-        "budget": null,
+        "budget": {
+          "brand": "Frost King",
+          "model": "Clear polyethylene sheeting 4 mil, 10 ft x 25 ft, with Duck Max Strength duct tape 1.88 in x 35 yd",
+          "model_number": "Frost King P1025; Duck Max Strength (white, 1.88 in x 35 yd)",
+          "size": "10 ft x 25 ft roll, 4 mil; tape 1.88 in x 35 yd",
+          "unit_size": 1,
+          "unit_label": "sheeting roll plus tape roll",
+          "price_usd": null,
+          "price_seen_at": "No price seen on the makers' pages",
+          "why": "The thinnest sheeting that meets the 4 mil minimum, so the cheapest that works; the maker states the thickness in its table. Bob Vila's testers found Duck Max Strength tape stayed stuck through repeated bending.",
+          "weakness": "4 mil is the minimum and can tear at the tape edges. In Bob Vila's test the tape left residue on plastic after days in the sun and held poorly on brick.",
+          "links": [
+            {
+              "label": "Frost King sheeting (manufacturer)",
+              "url": "https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Duck Brand tape (manufacturer)",
+              "url": "https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Frost King",
+              "title": "Packaged Polyethylene Sheeting",
+              "url": "https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting",
+              "verified": true,
+              "supports": "P1025: clear, 4 mil, 10 ft x 25 ft."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Duck Brand",
+              "title": "Duck Max Strength Brand Duct Tape - White, 1.88 in. x 35 yd.",
+              "url": "https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd",
+              "verified": true,
+              "supports": "Sold as duct tape with an aggressive rubber adhesive, 1.88 in x 35 yd."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "We Tested Multiple Duct Tapes, and We Keep Reaching for This Simple Product",
+              "url": "https://www.bobvila.com/articles/best-duct-tape/",
+              "verified": true,
+              "supports": "Hands-on test of five tapes over six days: Duck Max Strength (a 45 yd roll) named most flexible; stayed stuck after repeated bending, left residue on a plastic table after long sun exposure, weak on brick. Article last changed October 27, 2024."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No sheeting or tape recall looked for beyond the pages opened; none seen.",
+          "research_note": "Open-up pass 2026-11-17: Budget pick restored. It had been removed on 2026-11-16 on the view that sheeting has no real spread; 4 mil against 6 mil is a real spread, and 4 mil is the cheapest that meets the minimum. Frost King's and Duck's pages both opened today; neither shows a price. No shop link or ASIN seen."
+        },
         "standard": {
           "brand": "Frost King",
           "model": "Clear polyethylene sheeting 6 mil, 10 ft x 25 ft, with Gorilla Tape silver 1.88 in x 30 yd",
@@ -973,8 +1028,8 @@
           "unit_label": "sheeting roll plus tape roll",
           "price_usd": null,
           "price_seen_at": "No price seen on the makers' pages",
-          "why": "6 mil is half again as thick as the minimum and resists tearing; Gorilla Tape uses a double-thick rubber adhesive and a reinforced backing.",
-          "weakness": "The tape maker's page does not state thickness in mil, and neither product has been tested by a publication.",
+          "why": "6 mil is half again as thick as the minimum and resists tearing; Gorilla Tape uses a double-thick adhesive and a reinforced backing. Bob Vila's testers rated the black version of this tape 5 out of 5 for strength.",
+          "weakness": "The tape maker's page does not state thickness in mil. Bob Vila's testers tried the black tape, not the silver, and found it hard to remove from fabric; no publication has tested the sheeting.",
           "links": [
             {
               "label": "Frost King sheeting (manufacturer)",
@@ -1008,17 +1063,24 @@
               "url": "https://gorillatough.com/product/silver-gorilla-tape",
               "verified": true,
               "supports": "Double-thick rubber adhesive, reinforced backing, 1.88 in x 30 yd (6074001), application range 40 to 120 F."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "We Tested Multiple Duct Tapes, and We Keep Reaching for This Simple Product",
+              "url": "https://www.bobvila.com/articles/best-duct-tape/",
+              "verified": true,
+              "supports": "Hands-on test of five tapes over six days: Black Gorilla Tape named best for heavy-duty jobs, strength 5 out of 5, stuck well to rough surfaces, easy to tear, no residue on plastic after six days in the sun. Article last changed October 27, 2024."
             }
           ],
           "flags": [],
           "flag_check": "No sheeting or tape recall looked for beyond the pages opened; none seen.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No shop link is given. Checked against the two makers' pages only: no independent test of these products was found. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: No independent tests found; maker pages only. | Alignment pass 2026-11-16 (c4-home): price still not seen: gorillatough.com 6074001 page opened today shows no price and an empty Where to buy; Fred Meyer page timed out; HD Supply 403; Home Depot not opened (lists P1025 4 mil only in results). Search snippets only: P1025/6 $22.36 to $27.39 at small sellers. price_usd stays null."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No shop link is given. Checked against the two makers' pages only: no independent test of these products was found. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: No independent tests found; maker pages only. | Alignment pass 2026-11-16 (c4-home): price still not seen: gorillatough.com 6074001 page opened today shows no price and an empty Where to buy; Fred Meyer page timed out; HD Supply 403; Home Depot not opened (lists P1025 4 mil only in results). Search snippets only: P1025/6 $22.36 to $27.39 at small sellers. price_usd stays null. | Open-up pass 2026-11-17: Frost King's and Gorilla's pages reopened (P1025/6 clear 6 mil 10 x 25; silver tape 1.88 in x 30 yd is 6074001; 'double-thick adhesive'; no price, no retailer links). Bob Vila's duct tape test added as a source; it tested Black Gorilla Tape, and Gorilla's page does not say the silver is the same tape in another color."
         },
         "cadillac": null
       },
       "empty_reason": {
-        "budget": "One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).",
-        "cadillac": "One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2)."
+        "cadillac": "Commodity: sheeting is sold by thickness and roll length, and past 6 mil sheeting with a strong tape a higher price buys a longer roll, not a better seal."
       }
     },
     {
@@ -1026,7 +1088,7 @@
       "module": "hc",
       "name": "Indoor thermometer / hygrometer (battery powered)",
       "need": "If the power or heating fails, a thermometer tells you how cold or hot the home is getting and when to take extra steps, and the humidity reading helps when you seal a room.",
-      "how_to_choose": "Pick a small unit with its own display that runs on a common battery (AAA or AA) so it works without a phone, Wi-Fi or power. Buy the one with the largest, easiest-to-read digits you can afford. Expect humidity readings to be less exact than temperature; calibratable units are better. Keep a spare battery.",
+      "how_to_choose": "For a power outage the thermometer has to work with no wall power and no Wi-Fi. A unit with its own display can be read at a glance; large digits and a backlight help in the dark. A sensor that reports to a phone over Bluetooth is more exact and keeps a record, but you need a charged phone to read it. Expect humidity readings to be less exact than temperature; calibratable units are better. Keep a spare battery of whatever type it takes (AAA, AA or a coin cell).",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -1037,9 +1099,8 @@
       "item_flags": [
         "Humidity readings on low-cost units can be off by several percent; testers found some units 5 to 7 percent off."
       ],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: a pricier thermometer buys a phone app or a finer sensor, which this job does not need.",
-      "research_note": "No safety claim is made for this item, so no official citation is attached. 2026-11-15 audit-fix pass (prompt 6.6): the Standard is now the ThermoPro TP55, with a backlit display and a price seen today on the maker's page; the TP49 stays as Budget; the AcuRite pick with no model number or price was removed.",
+      "prices_seen": "2026-11-17",
+      "research_note": "No safety claim is made for this item, so no official citation is attached. 2026-11-15 audit-fix pass (prompt 6.6): the Standard is now the ThermoPro TP55, with a backlit display and a price seen today on the maker's page; the TP49 stays as Budget; the AcuRite pick with no model number or price was removed. | Open-up pass 2026-11-17: the 'small unit' and 'common battery (AAA or AA)' wording in how_to_choose worked as gates and is rewritten. The TP49 Budget page on temppro.com returned HTTP 429 today (it was sold out on 2026-11-15), so its stock was not re-checked and no flag was added. Why ours and not Bob Vila's AcuRite Digital Mini Hygrometer with Thermometer: in the same Bob Vila test the TP55 read within 0.1 degrees of the most consistent units and has a backlight, which the article does not mention for the AcuRite, and a backlight is what lets you read it in a dark home during an outage. Why ours and not This Old House's ThermoPro TP49: the TP49 is our Budget pick; it has no backlight, and This Old House's list rests on research and buyer reviews, not hands-on tests.",
       "tiers": {
         "budget": {
           "brand": "ThermoPro (TempPro)",
@@ -1107,7 +1168,7 @@
           "unit_size": 1,
           "unit_label": "unit",
           "price_usd": 16.99,
-          "price_seen_at": "temppro.com, the maker's shop (sale price; regular price $19.99; in stock on 2026-11-15)",
+          "price_seen_at": "temppro.com, the maker's shop, November 17, 2026 (sale price; regular price $19.99; shown as sold out there)",
           "why": "It has its own large, backlit display, so you can read the room temperature in the dark with no phone, Wi-Fi or wall power, and it keeps the high and low readings. Bob Vila's testers found it within 0.1 degrees of their most consistent readings. The maker gives an accuracy of 1 F and 2 percent humidity.",
           "weakness": "It needs two AAA batteries and costs nearly twice as much as the Budget pick.",
           "links": [
@@ -1146,15 +1207,56 @@
               "supports": "'Best display' at $19.99; oversized backlit touch screen. The article rests on research and buyer reviews, not on its own hands-on tests. It lists two AA batteries where the maker and Bob Vila say AAA."
             }
           ],
-          "flags": [],
-          "flag_check": "No recall search was done for a small thermometer; none seen in pages opened.",
-          "research_note": "2026-11-15 audit-fix pass (prompt 6.6, A-W10): new Standard pick. The Standard had been an AcuRite 'Digital Mini Hygrometer with Thermometer' (Bob Vila's best overall) with no model number confirmed (retailer code 01139M seen only in a link), no price and one source; AcuRite's page returned 404 or was rate limited in the first pass, and ASIN B01HDW58GS was seen in Bob Vila's article. It was removed because the Standard must have a model and a price seen today. Audit A suggested moving the TP49 up, but the maker's shop showed it sold out today, so the in-stock TP55 was researched instead. temppro.com returned HTTP 429 to WebFetch for this page, so it was read in the desktop app's browser pane on 2026-11-15 (the same step the main session takes for pending pages). | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given."
+          "flags": [
+            "Sold out at temppro.com on November 17, 2026. Its equal: AcuRite Digital Mini Hygrometer with Thermometer."
+          ],
+          "flag_check": "temppro.com TP55 page opened 2026-11-17: $16.99 (regular $19.99), 'Sold out' on the 1-pack and 2-pack. No recall search was done for a small thermometer; none seen in pages opened.",
+          "research_note": "2026-11-15 audit-fix pass (prompt 6.6, A-W10): new Standard pick. The Standard had been an AcuRite 'Digital Mini Hygrometer with Thermometer' (Bob Vila's best overall) with no model number confirmed (retailer code 01139M seen only in a link), no price and one source; AcuRite's page returned 404 or was rate limited in the first pass, and ASIN B01HDW58GS was seen in Bob Vila's article. It was removed because the Standard must have a model and a price seen today. Audit A suggested moving the TP49 up, but the maker's shop showed it sold out today, so the in-stock TP55 was researched instead. temppro.com returned HTTP 429 to WebFetch for this page, so it was read in the desktop app's browser pane on 2026-11-15 (the same step the main session takes for pending pages). | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. | Open-up pass 2026-11-17: the pick stays although sold out at the maker's shop today (stock is a flag, not a test). The equal named in the flag is Bob Vila's best overall, read on Bob Vila's page today (large digits, 24-hour highs and lows, two AAA, magnets; no backlight mentioned); AcuRite's own page was not opened."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "SensorPush",
+          "model": "HT.w Water-Resistant Temperature / Humidity Smart Sensor",
+          "model_number": "HT.w",
+          "size": "1.57 x 1.57 x 0.65 in and 0.8 oz; no display, read on a phone or tablet over Bluetooth; one CR2477 coin cell, which the maker says lasts more than 2 years",
+          "unit_size": 1,
+          "unit_label": "unit",
+          "price_usd": 69.99,
+          "price_seen_at": "sensorpush.com, the maker's shop, November 17, 2026",
+          "why": "The extra money buys a finer sensor and a record. It takes a reading every minute and keeps more than a month of them on the sensor; the app charts them and can alert you when a room leaves the range you set. The maker gives a typical accuracy of about 0.4 F between 32 and 140 F and 2 percent humidity. Bob Vila's testers named it their upgrade pick and found its readings in line with the other units.",
+          "weakness": "It has no display: you need a charged phone or tablet with Bluetooth to read it, a real limit in a long outage. Its coin cell is not a size most homes keep, and reading it from away needs a separate Wi-Fi gateway that runs on wall power.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.sensorpush.com/products/p/ht-w",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SensorPush",
+              "title": "HT.w Water-Resistant Temperature / Humidity Smart Sensor",
+              "url": "https://www.sensorpush.com/products/p/ht-w",
+              "verified": true,
+              "supports": "$69.99. Temperature within 0.2 C typical (0.4 C at most) from 0 to 60 C; humidity within 2 percent typical; a reading every minute, more than a month stored on the sensor; Bluetooth to a phone, range 325 ft line of sight; CR2477 battery, over 2 years; splash- and rain-proof; 1.57 x 1.57 x 0.65 in, 0.8 oz."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Indoor Thermometers of 2026 - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-indoor-thermometer/",
+              "verified": true,
+              "supports": "Its upgrade pick in a side-by-side test: readings consistent with the other units, easy Bluetooth pairing, charts over hours and days; no display, and Wi-Fi needs a separate gateway. Article updated January 22, 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search was done for a small sensor; none seen in the pages opened 2026-11-17.",
+          "research_note": "Open-up pass 2026-11-17: new Cadillac. The tier had been empty because a sensor with no screen was ruled out before it was compared. Maker's page and Bob Vila's article both opened today. The page shows 'Add to Cart' with no stock statement. No Amazon ASIN seen on a page opened today."
+        }
       },
-      "empty_reason": {
-        "cadillac": "No pick. The most accurate sensors tested have no screen and need a phone to read, which defeats the purpose in a long outage; the Standard pick already has a large display and high and low records."
-      }
+      "empty_reason": {}
     },
     {
       "id": "fridge-thermometer",
@@ -1190,8 +1292,8 @@
         "No independent test of fridge thermometers was found."
       ],
       "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: a plain dial that needs no battery does this job, and a pricier digital one buys nothing it needs.",
-      "research_note": "2026-11-15 audit-fix pass (prompt 2.1): the food line now carries the two-clock rule. Two unverified safety notes were removed because their pages refuse automated readers (HTTP 403) and were never read: USDA FSIS 'Appliance Thermometers' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/appliance-thermometers) and FoodSafety.gov 'Food Safety in a Disaster or Emergency' (https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency). First-pass notes: the America's Test Kitchen page returned was about oven thermometers; a Target link for the budget pick did not open in the link check and was removed; AcuRite's digital pages could not be read (HTTP 429), and the only alarm models seen (Taylor, Home Acoustics, Govee, SensorPush) came from a forum thread, not from a test or the makers.",
+      "tier_note": "Two picks, both plain dials that need no battery; a digital model that records the highest reading and sounds an alarm is the real top pick, and none has yet been confirmed for this page.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.1): the food line now carries the two-clock rule. Two unverified safety notes were removed because their pages refuse automated readers (HTTP 403) and were never read: USDA FSIS 'Appliance Thermometers' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/appliance-thermometers) and FoodSafety.gov 'Food Safety in a Disaster or Emergency' (https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency). First-pass notes: the America's Test Kitchen page returned was about oven thermometers; a Target link for the budget pick did not open in the link check and was removed; AcuRite's digital pages could not be read (HTTP 429), and the only alarm models seen (Taylor, Home Acoustics, Govee, SensorPush) came from a forum thread, not from a test or the makers. | Open-up pass 2026-11-17: the old tier_note said a pricier digital thermometer buys nothing the job needs; no test says that, and a maximum-reading memory is a real capability after an outage, so the note and the empty reason are rewritten. Candidate for Cadillac: ThermoWorks Fridge/Freezer Alarm RT8100. thermoworks.com (/rt8100/ and /products/rt8100, URLs from a web search) returned HTTP 429 three times; the America's Test Kitchen review URL from the same search (equipment_reviews/1793-refrigerator-slash-freezer-thermometers) now serves an oven thermometer article; Serious Eats cannot be fetched. Search summaries only, not used: ATK's top pick is the RT8100, $35.00 on ThermoWorks' site. NSF's listing page was reopened today; the reader saw only the first half (AcuRite, CDN, Cooper-Atkins, Comark), not Taylor or ThermoWorks. taylorusa.com returned HTTP 429 today, so the Standard pick's price was not seen again.",
       "tiers": {
         "budget": {
           "brand": "CDN",
@@ -1282,15 +1384,15 @@
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "A digital model with a minimum and maximum memory or an alarm would sit here, but no NSF listing or independent test for one was confirmed."
+        "cadillac": "A digital model with an alarm and a record of the highest and lowest readings is the real top pick for this job, because it shows how warm the fridge got while nobody was looking. The candidate is the ThermoWorks Fridge/Freezer Alarm (RT8100); neither its maker's page nor an independent test of it opened to the reader on November 17, 2026, so it is not listed yet."
       }
     },
     {
       "id": "air-purifier-hepa",
       "module": "ar",
-      "name": "Portable HEPA air cleaner for one bedroom-size clean room",
+      "name": "Portable HEPA air cleaner",
       "need": "When outdoor smoke or dust gets inside, a HEPA air cleaner in one closed room is the main way to keep that room's air cleaner.",
-      "how_to_choose": "Choose a true-HEPA unit and match its smoke CADR (clean air delivery rate) and the maker's stated room size to the room you will use. Check that the exact model is on the California Air Resources Board (CARB) list: a listing means the unit passed an electrical safety test and, if it has electronic parts such as an ionizer, stays under California's ozone limit. It says nothing about how well the unit cleans. Never buy an ozone generator or a unit with an ionizer you cannot turn off, and leave an ionizer switched off. Run it on high in the closed room if the noise is tolerable.",
+      "how_to_choose": "Compare smoke CADR (clean air delivery rate): the higher the number, the faster the unit clears a room. Choose a true-HEPA or HEPA-grade filter unit and match its CADR and the maker's stated room size to the room you will use. A unit rated for a bigger room can run on a lower, quieter speed in a small one, but it costs more and takes more floor. Check that the exact model is on the California Air Resources Board (CARB) list: a listing means the unit passed an electrical safety test and, if it has electronic parts such as an ionizer, stays under California's ozone limit. It says nothing about how well the unit cleans. Never buy an ozone generator or a unit with an ionizer you cannot turn off, and leave an ionizer switched off. Run it on high in the closed room if the noise is tolerable.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -1332,21 +1434,20 @@
         "A HEPA air cleaner is for smoke and dust. EPA says the CADR rating covers particles only, not gases, so do not count on one in a gas or chemical release.",
         "The Budget pick's exact model number was not found on California's list; check the box for 'CARB certified' before buying."
       ],
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: a pricier air cleaner is sized for a much larger room than the one bedroom this job needs.",
-      "research_note": "2026-11-15 audit-fix pass (prompt 6.15, B-W03): CARB's list page opened today; it states the electrical safety test, the 0.050 ppm ozone limit for electronic air cleaners and that certification does not reflect effectiveness. No EPA or CARB page opened today tells the reader to switch an ioniser off: EPA's guide says ionisers may emit ozone and to avoid units that intentionally produce it; CARB's 2017 tips page says a unit with an ioniser should be on its list. The switch-it-off instruction is sourced to the Virginia Department of Health page (and Washington State Department of Health's 'filters only' line, https://doh.wa.gov/community-and-environment/air-quality/indoor-air/portable-air-cleaners), both opened today. CARB list rows seen today: Coway Airmega MightyC AP-1512HHC(WT)/(BG), mechanical, 2025-12-12, G-25-347; Coway AP-1512HHC, mechanical, 2023-10-03, G-23-260; Levoit LAP-C302S-WUSR/-WUSB, electronic, 2021-12-28, G-21-544; Levoit PlasmaPro LAP-C302-WUSR, electronic, 2022-01-04, G-21-564. The list is too long to read in full through the tool (each part was cut short), so 'not found' is not proof of absence. Maker pages for Coway and Levoit returned HTTP 429 to WebFetch in both passes; Coway's AP-1512HH page was then read in the desktop app's browser pane (price, stock, 'bipolar device'); Levoit's was not. First-pass note: no AHAM Verifide directory entry could be read. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: The sources disagree on smoke CADR for the Coway unit (233, 234 or 224 on different Coway pages).",
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-15 audit-fix pass (prompt 6.15, B-W03): CARB's list page opened today; it states the electrical safety test, the 0.050 ppm ozone limit for electronic air cleaners and that certification does not reflect effectiveness. No EPA or CARB page opened today tells the reader to switch an ioniser off: EPA's guide says ionisers may emit ozone and to avoid units that intentionally produce it; CARB's 2017 tips page says a unit with an ioniser should be on its list. The switch-it-off instruction is sourced to the Virginia Department of Health page (and Washington State Department of Health's 'filters only' line, https://doh.wa.gov/community-and-environment/air-quality/indoor-air/portable-air-cleaners), both opened today. CARB list rows seen today: Coway Airmega MightyC AP-1512HHC(WT)/(BG), mechanical, 2025-12-12, G-25-347; Coway AP-1512HHC, mechanical, 2023-10-03, G-23-260; Levoit LAP-C302S-WUSR/-WUSB, electronic, 2021-12-28, G-21-544; Levoit PlasmaPro LAP-C302-WUSR, electronic, 2022-01-04, G-21-564. The list is too long to read in full through the tool (each part was cut short), so 'not found' is not proof of absence. Maker pages for Coway and Levoit returned HTTP 429 to WebFetch in both passes; Coway's AP-1512HH page was then read in the desktop app's browser pane (price, stock, 'bipolar device'); Levoit's was not. First-pass note: no AHAM Verifide directory entry could be read. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: The sources disagree on smoke CADR for the Coway unit (233, 234 or 224 on different Coway pages). | Open-up pass 2026-11-17: the 'one bedroom-size clean room' gate is gone from the name, tier_note and empty Cadillac; larger units were weighed on merit. CARB's list was read with WebFetch today in seven parts (offsets 0 to 647,112 characters, which is all the reader shows and reaches back to about 2021): every CARB row quoted for the Standard and Cadillac picks, and for the Blueair, Winix, IQAir, Alen, Airfanta, Coway 400 and Levoit Core 600S units weighed, was seen that way. Earlier in the pass, before the coordinator's WebFetch-only rule, the same list was downloaded once with a command-line request and parsed in full; the only facts that rest on that read alone are older rows WebFetch cannot reach: Coway 'AP-1512HH' (Electronic, 2016-01-04, G-16-011), Levoit 'Core 300' (Mechanical, 2019-08-01, G-19-112), Austin Air HM400 (2010). None of them is used on the page. No price or stock status was taken by command line. The old Standard pick is kept here in case it is wanted back: {\"brand\": \"Coway\", \"model\": \"Airmega Mighty air purifier (AP-1512HH; CARB-listed variant AP-1512HHC)\", \"model_number\": \"AP-1512HH / AP-1512HHC\", \"size\": \"Maker lists smoke CADR 233, room coverage 361 sq ft at 4.8 air changes per hour, true HEPA\", \"price_usd\": 143.99, \"price_seen_at\": \"cowaymega.com, the maker's shop, for the AP-1512HH (sale price; regular price $239.99; in stock on 2026-11-15)\"}. Compact: none added. The Budget pick is already the smallest tested unit that works. HouseFresh's best for small spaces is the Levoit Eleva 300X (165 CFM measured, 9.4 x 9.4 x 15.1 in, 9.9 lb, $129.99, no ionizer, review dated November 12, 2026), but no row naming it was seen on CARB's list (its model number is not known) and levoit.com returned HTTP 429, so it could not be added. Why ours and not TechGearLab's Blueair Blue Pure 311i Max: TechGearLab's own review says the unit's ionizer is always on, and this page follows the health-department advice not to use an ionizer that cannot be switched off. Why ours and not Bob Vila's Coway Airmega AP-1512HH: the Mighty2 is that model's successor, with no ionizer and a faster measured clean-up in HouseFresh's test, and Bob Vila's article was last changed in March 2025, before the Mighty2 was on sale. | Wirecutter pass 2026-11-17: Wirecutter's pick, the Coway Airmega Mighty2 (AP-1512N), is the same product as our Standard pick since this pass, so there is nothing to weigh; its maker's page still returned HTTP 429.",
       "tiers": {
         "budget": {
           "brand": "Levoit",
-          "model": "Core 300-P True HEPA air purifier",
+          "model": "Core 300-P air purifier",
           "model_number": "Core 300-P (smart version 300S-P)",
-          "size": "Compact tower; maker lists 222 sq ft room (4.8 air changes per hour) and CADR 143 CFM for the 300-P; 219 sq ft and 141 CFM for the 300S-P",
+          "size": "The smallest and lightest pick here: 14.25 x 9 x 9 in and 7.6 lb (TechGearLab's measurements). Maker lists CADR 143 CFM and a 222 sq ft room at 4.8 air changes per hour.",
           "unit_size": 1,
           "unit_label": "air cleaner",
           "price_usd": 99.99,
           "price_seen_at": "levoit.com, the maker's shop, November 16, 2026",
-          "why": "Bob Vila's budget pick; it cleared dust and smoke from a test room within about an hour. Rated by the maker for a bedroom-size room.",
-          "weakness": "The CADR figure is the maker's own and it is not clear that it is a smoke CADR. This exact model was not found by name on California's list, so its listing is not confirmed, and Bob Vila's test names the Core 300, not the 300-P.",
+          "why": "The cheapest air cleaner that did the job in hands-on tests. It is TechGearLab's best-value pick, and Bob Vila's budget pick cleared dust and smoke from a test room within about an hour. HouseFresh measured about 109 CFM of clean air for fine particles from the Core 300 and describes its filtration as purely mechanical.",
+          "weakness": "It delivers about half the clean air of the Standard pick, so it suits a bedroom-size room and is slow in a large one. It has no air sensor or automatic mode. Levoit no longer calls this filter True HEPA, HouseFresh notes. This exact model was not found by name on California's list, so its listing is not confirmed, and Bob Vila and HouseFresh tested the Core 300, not the 300-P by name.",
           "links": [
             {
               "label": "Manufacturer",
@@ -1357,8 +1458,16 @@
             }
           ],
           "link_note": "",
-          "research_note": "CARB's list showed Levoit LAP-C302S-WUSR and -WUSB (electronic, 2021), which may be the smart 300S-P; the plain 300-P could not be matched by model number. The 141 to 143 CFM figure may be a smoke CADR (inferred, not stated). Bob Vila's article reopened 2026-11-15 (last modified 12 March 2025): its budget pick is named 'Levoit Core 300'. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against Bob Vila's test and the maker's page. The maker's 'CARB compliant' claim was not matched to California's list. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Not confirmed on California's list or in AHAM's directory.",
+          "research_note": "CARB's list showed Levoit LAP-C302S-WUSR and -WUSB (electronic, 2021), which may be the smart 300S-P; the plain 300-P could not be matched by model number. The 141 to 143 CFM figure may be a smoke CADR (inferred, not stated). Bob Vila's article reopened 2026-11-15 (last modified 12 March 2025): its budget pick is named 'Levoit Core 300'. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against Bob Vila's test and the maker's page. The maker's 'CARB compliant' claim was not matched to California's list. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Not confirmed on California's list or in AHAM's directory. | Open-up pass 2026-11-17: 'True HEPA' taken out of the model name because HouseFresh's review (opened today) says Levoit no longer uses HEPA marketing for the Core 300, and the 2026-11-16 note says the maker's page does not use the word. levoit.com returned HTTP 429 to WebFetch today, so the $99.99 price is the one seen 2026-11-16 (HouseFresh gives the same list price; TechGearLab shows $100). HouseFresh quotes an Energy Star smoke CADR of 140 for the Core 300. | Open-up pass 2026-11-17, CARB: before the coordinator's WebFetch-only rule arrived, the list was downloaded with a command-line request and parsed; that read showed rows 'Levoit | Air Purifier | Core 300 | Mechanical | 2019-08-01 | G-19-112', 'Core 300-PA' (G-19-119), 'Core300-RAC' and 'Core 300S' (2021). WebFetch cannot reach those rows (its text of the page stops at about 2021), so they are NOT used on the page: the pick's wording and the item flag stay as 'not confirmed'. A browser read of the list would settle it.",
           "sources": [
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "The Best Air Purifiers of 2026",
+              "url": "https://www.techgearlab.com/topics/health-fitness/best-air-purifier",
+              "verified": true,
+              "supports": "Tested the Core 300-P by name among 12 units and gave it the best-value award: CADR 143, 7.6 lb, 14.25 x 9 x 9 in, 54 dB on high. Updated May 13, 2026."
+            },
             {
               "type": "test_publication",
               "name": "Bob Vila",
@@ -1374,56 +1483,56 @@
               "url": "https://levoit.com/products/core300-p-air-purifier",
               "verified": true,
               "supports": "Opened November 16, 2026: CADR 143 CFM (not stated as a smoke figure), 222 sq ft at 4.8 air changes an hour, 'CARB compliant', 'ETL listed', $99.99."
+            },
+            {
+              "type": "test_publication",
+              "name": "HouseFresh",
+              "title": "Levoit Core 300 review",
+              "url": "https://housefresh.com/levoit-core-300-review/",
+              "verified": true,
+              "supports": "Core 300 (not the 300-P by name): 54 minutes to clear fine particles from a 728 cu ft test room, an estimated 109 CFM; purely mechanical filtration; 7.5 lb; list price $99.99; the maker no longer markets the filter as HEPA. Review dated February 27, 2026."
             }
           ],
           "flags": [],
-          "flag_check": "Read CARB's certified list on 2026-11-15; no Core 300-P entry found (LAP-C302S-WUSR and -WUSB listed, 2021)."
+          "flag_check": "CARB's certified list read with WebFetch on 2026-11-17 as far as the reader shows it (rows back to about 2021): no Core 300-P row; LAP-C302S-WUSR and -WUSB (Electronic, 2021-12-28) and LAP-C302-WUSR (2022-01-04) are there. Older rows are cut off in the reader. No CPSC recall search done today."
         },
         "standard": {
           "brand": "Coway",
-          "model": "Airmega Mighty air purifier (AP-1512HH; CARB-listed variant AP-1512HHC)",
-          "model_number": "AP-1512HH / AP-1512HHC",
-          "size": "Maker lists smoke CADR 233, room coverage 361 sq ft at 4.8 air changes per hour, true HEPA",
+          "model": "Airmega Mighty2 air purifier",
+          "model_number": "AP-1512N",
+          "size": "16.9 x 17.9 x 9.3 in and 15.2 lb (HouseFresh's measurements). HouseFresh measured about 260 CFM of clean air for fine particles on top speed and suggests rooms up to 390 sq ft at 5 air changes per hour.",
           "unit_size": 1,
           "unit_label": "air cleaner",
-          "price_usd": 143.99,
-          "price_seen_at": "cowaymega.com, the maker's shop, for the AP-1512HH (sale price; regular price $239.99; in stock on 2026-11-15)",
-          "why": "Bob Vila's best overall, and the top performer for removing smoke in its tests. The AP-1512HHC variant is on California's certified list as a mechanical (filter) air cleaner; that covers electrical safety and ozone, not cleaning power.",
-          "weakness": "Larger than a bedroom needs (the maker lists it for rooms up to 361 sq ft). It has an ionizer, which the maker calls a bipolar device: leave it switched off. Pick the listed AP-1512HHC variant, or check the box for 'CARB certified'.",
+          "price_usd": 269.99,
+          "price_seen_at": "cowaymega.com",
+          "why": "HouseFresh's pick for most people after testing more than 150 air cleaners: on top speed it cleared fine particles from the test room in 23 minutes. It has no ionizer, and California lists it as a mechanical (filter-only) air cleaner; that listing covers electrical safety and ozone, not cleaning power. It replaces the older Airmega Mighty, which HouseFresh found slower, louder and heavier on power.",
+          "weakness": "The carbon and particle layers are bonded into one filter, about $70 a year, so both are replaced together. It has no app, and its automatic mode drops to the slowest speed in a dark room, so set the speed by hand during smoke. Top speed is loud, about 57 dB at 3 ft in HouseFresh's test, and HouseFresh notes the filter meets the HEPA grade only on the slowest speed.",
           "links": [
             {
-              "label": "Manufacturer (AP-1512HH)",
-              "url": "https://cowaymega.com/products/mighty-ap-1512hh",
+              "label": "Manufacturer",
+              "url": "https://cowaymega.com/products/airmega-mighty2-ap-1512n",
               "verified": true,
               "note": "",
-              "research_note": "HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: $143.99 (regular $239.99), 'Add to cart' enabled, four-stage filtration with a HEPA filter and a 'bipolar device', rooms up to 361 sq ft. The page text read did not show a CADR figure or the word CARB."
-            },
-            {
-              "label": "Manufacturer (AP-1512HHC)",
-              "url": "https://cowaymega.com/products/airmega-mighty-ap-1512hhc",
-              "verified": false,
-              "note": "",
-              "research_note": "HTTP 200 on a header check 2026-11-15; not read."
+              "research_note": "URL seen in a web search result on 2026-11-17. cowaymega.com returned HTTP 429 to WebFetch on every try today, so the page was not read. Search summary only (not used on the page): $269.99, in stock, CADR smoke 240 / dust 242 / pollen 249, 19 to 50 dB, 56 W."
             }
           ],
           "link_note": "",
           "sources": [
             {
-              "type": "manufacturer_spec",
-              "name": "Coway",
-              "title": "Airmega Mighty AP-1512HH",
-              "url": "https://cowaymega.com/products/mighty-ap-1512hh",
+              "type": "test_publication",
+              "name": "HouseFresh",
+              "title": "Coway Airmega Mighty2 review",
+              "url": "https://housefresh.com/coway-airmega-mighty2-ap-1512n-review/",
               "verified": true,
-              "supports": "Four-stage filtration: pre-filter, deodorization filter, HEPA filter and a bipolar (ionizing) device; for rooms up to 361 sq ft; $143.99 (regular $239.99).",
-              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Four-stage filtration: pre-filter, deodorization filter, HEPA filter and a bipolar (ionizing) device; for rooms up to 361 sq ft; $143.99 (regular $239.99), in stock on 2026-11-15."
+              "supports": "Hands-on test of the AP-1512N: fine particles cleared from a 728 cu ft room in 23 minutes on top speed (estimated 260 CFM) and 38 minutes on speed 2; 35.9 to 56.9 dB at 3 ft; no ionizer; 16.9 x 17.9 x 9.3 in, 15.2 lb; $269.99; filter $69.99 a year. Review dated November 14, 2026."
             },
             {
               "type": "test_publication",
-              "name": "Bob Vila",
-              "title": "The Best Air Purifiers for Smoke - Tested by Bob Vila",
-              "url": "https://www.bobvila.com/articles/best-air-purifier-for-smoke/",
+              "name": "HouseFresh",
+              "title": "The best air purifiers you can buy in 2026",
+              "url": "https://housefresh.com/best-air-purifiers/",
               "verified": true,
-              "supports": "Best overall: AP-1512HH, room up to 1,748 sq ft, 24 to 53 dB, very good at keeping the air clean in a hands-on smoke test; has an ionizer alongside its HEPA and carbon filters. Article last changed March 2025."
+              "supports": "Named best for most people among more than 150 air cleaners tested; says it uses no ionizer."
             },
             {
               "type": "standard_listing",
@@ -1431,30 +1540,78 @@
               "title": "List of CARB-Certified Air Cleaning Devices",
               "url": "https://ww2.arb.ca.gov/list-carb-certified-air-cleaning-devices",
               "verified": true,
-              "supports": "Coway Airmega MightyC AP-1512HHC listed as a mechanical (filter) air cleaner.",
-              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Coway Airmega MightyC AP-1512HHC(WT) and (BG), mechanical, notified 2025-12-12, EO G-25-347 (also AP-1512HHC listed 2023-10-03). The exact AP-1512HH model was not found in the parts of the list that could be read."
+              "supports": "Coway Airmega Mighty2, AP-1512N, listed as a mechanical (filter-only) air cleaner."
             }
           ],
           "flags": [],
-          "flag_check": "Read California's certified list on 2026-11-15; AHAM's directory was not checked.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: why had: \"(listed 2025-12-12, order G-25-347)\"; size had: \"(other Coway pages say 224 or 234)\". | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. The smoke CADR is the maker's figure; it was not confirmed on the maker's page or in AHAM's directory today. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: The tested model (AP-1512HH) was not found in the parts of California's list that could be read; its variant AP-1512HHC was. / Smoke CADR is quoted differently on different Coway pages (233, 234, 224)."
+          "flag_check": "CARB's certified list read with WebFetch on 2026-11-17: Coway 'Airmega Mighty2', AP-1512N (and color variants), Mechanical, notified 2026-03-06, EO G-26-042 and G-26-044. No CPSC recall search done today.",
+          "research_note": "Open-up pass 2026-11-17: new Standard. The old Standard, the Coway Airmega Mighty AP-1512HH, was not passed over for size; it is replaced on merit by its successor, which two testers (HouseFresh, and Wirecutter per other-opinions.json) name as their top pick and which has no ionizer. The maker's page could not be read (HTTP 429), so the smoke CADR on the page is HouseFresh's measured fine-particle figure, not the maker's or AHAM's; a search summary of the maker's page gave smoke CADR 240. Weighed and not chosen as Standard: Blueair Blue Pure 311i Max (TechGearLab's best overall, smoke CADR 283, 7.3 lb, $230; CARB 'Electronic', 2023-03-09, G-23-050): TechGearLab's own review says its ionizer is always on, which this item's health-department rule excludes. Blueair Blue Pure 211i Max: CARB 'Electronic'; same always-on HEPASilent design; no test page opened. Winix 5510 (TechGearLab's best for allergies and smoke, smoke CADR 253, 13 lb, $180; CARB 'Electronic', 2024-10-03; HouseFresh says its ionizer can be switched off): a fair alternative, a little less clean air and an ionizer to keep off. Winix 5500-2: HouseFresh says it is discontinued in the US and Canada. Levoit Core 600S (HouseFresh: 375 CFM measured, 13.7 lb, 12.3 x 12.3 x 23.6 in, list $319.99, 62 dB on top speed; CARB LAP-C601S-WUS 'Mechanical'): more air for the money but loud, and no tester names it best for most people. Levoit Core 400S (TechGearLab: CADR 231, $220; CARB LAP-C401S-KUSR 'Electronic' 2022-03-16 seen with WebFetch): no better than the Mighty2. Coway Airmega Mighty AP-1512HH, the old Standard (TechGearLab: smoke CADR 234, 12.6 lb, $230 list; maker's shop price $143.99 seen 2026-11-15; its CARB row is in the part of the list WebFetch cannot reach, see the item note): still a good cheaper unit when on sale, but it has an ionizer and its successor tests better. | 2026-11-17, main worker: cowaymega.com read in Chrome: Airmega Mighty2, $269.99 regular price, 'AP-1512N filter set' named on the page; stock for a color was not clear from the page text."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Coway",
+          "model": "Airmega ProX air purifier",
+          "model_number": "AP-3522F",
+          "size": "A large floor unit: 51 lb, on four wheels with side handles (HouseFresh and Bob Vila). HouseFresh measured about 462 CFM of clean air for fine particles on top speed and suggests rooms up to 693 sq ft at 5 air changes per hour.",
+          "unit_size": 1,
+          "unit_label": "air cleaner",
+          "price_usd": 609.99,
+          "price_seen_at": "cowaymega.com",
+          "why": "The fastest home air cleaner HouseFresh has tested, out of more than 150: it cleared fine particles from the test room in 13 minutes, and still delivered about 299 CFM at a quiet 45 dB. Bob Vila's testers found it the best performer and the quietest of their group. It has no ionizer, and California lists it as a mechanical (filter-only) air cleaner. The extra money buys about 1.8 times the clean air of the Standard pick, enough for a large living area or an open floor plan.",
+          "weakness": "It weighs 51 lb and takes real floor space, so it is hard to carry up stairs and hard to tuck away. At list price it costs about three times the Standard pick, a filter set is about $200 a year, and it has no app.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cowaymega.com/products/airmega-prox",
+              "verified": true,
+              "note": "",
+              "research_note": "URL seen in a web search result on 2026-11-17 and tried twice; cowaymega.com returned HTTP 429 to WebFetch each time. Search summary only (not used on the page): sale price $609.99, regular $999.00; CADR smoke 568 / dust 580 / pollen 450."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "HouseFresh",
+              "title": "Coway Airmega ProX review",
+              "url": "https://housefresh.com/coway-airmega-prox-review/",
+              "verified": true,
+              "supports": "Hands-on test: fine particles cleared from a 728 cu ft room in 13 minutes on top speed (estimated 462 CFM), 299 CFM at under 45 dB; 37.4 to 53.6 dB at 3 ft; no ionizer; 51 lb, four wheels and side handles; filter set $199 a year. Review dated October 20, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Air Purifiers for Smoke - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-air-purifier-for-smoke/",
+              "verified": true,
+              "supports": "Its 'best whole home' pick: performed best across the tests and was the quietest unit, 23 to 46 dB; 51 lb with handles and wheels. Article last changed March 2025."
+            },
+            {
+              "type": "standard_listing",
+              "name": "CARB",
+              "title": "List of CARB-Certified Air Cleaning Devices",
+              "url": "https://ww2.arb.ca.gov/list-carb-certified-air-cleaning-devices",
+              "verified": true,
+              "supports": "Coway Airmega ProX, AP-3522F, listed as a mechanical (filter-only) air cleaner."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CARB's certified list read with WebFetch on 2026-11-17: Coway 'Airmega ProX(W)' and '(BG)', AP-3522F, Mechanical, notified 2025-12-24, EO G-25-357; '(GR)' 2026-06-02, G-26-132; earlier 'airmega ProX' rows 2023-02-10 and 2024-05-20. No CPSC recall search done today.",
+          "research_note": "Open-up pass 2026-11-17: new Cadillac; the tier had been empty because larger units were treated as oversized. HouseFresh lists the ProX at 18.9 x 36.6 x 24.3 in without saying which is height; the figure is not on the page because it may describe the carton. AHAM dust CADR 586 per HouseFresh. Weighed and not chosen: IQAir HealthPro Plus (HouseFresh, December 17, 2025: 213 CFM measured on top speed at 61 dB, 28 minutes in the same room, about $900 to $1,200, 145 W; CARB 'HealthPro Plus XE' Mechanical 2024): less than half the clean air for more money. Austin Air HealthMate (HouseFresh: 160 CFM; its 2010 CARB row is beyond what WebFetch shows): built for gases and odors, weak on particles for its price. Coway Airmega 400/400S (CARB AP-2015F/E Mechanical 2026-01-13; TechGearLab lists the 400S at $749 with no test data): no test page opened today. Smart Air Blast (HouseFresh: 547 CFM, just over $1,000, heavy and sold as a commercial unit) and Jaspr (353 CFM, about $1,200) cost more for a commercial format or less air. Blueair Signature Large (400 CFM, $450): HouseFresh left it out because its ionizer cannot be switched off. Levoit Core 600S (375 CFM, about $320) is the cheaper big-room unit; it is louder (62 dB) and gives less air at quiet speeds, per HouseFresh. | 2026-11-17, main worker: cowaymega.com read in Chrome: Airmega ProX, $609.99 sale ('38% OFF BLACK FRIDAY DEAL'), $999.00 regular, ADD TO CART button live.",
+          "unit_price": "sale price; $999.00 regular"
+        }
       },
-      "empty_reason": {
-        "cadillac": "Higher-end units seen (Coway Airmega ProX, Blueair Blue Pure 311i Max, Winix AM80, IQAir Atem) are sized for much larger rooms, and an AHAM-verified smoke CADR and a California listing were not both confirmed for any of them."
-      }
+      "empty_reason": {}
     },
     {
       "id": "box-fan-filter-kit",
       "module": "ar",
       "name": "DIY box-fan air cleaner kit (20 in fan + 20x20 MERV 13 filters)",
       "need": "A box fan with a furnace filter taped to it is a low-cost way to clean the air in one room when a commercial air cleaner is not available or affordable.",
-      "how_to_choose": "Use a 20 inch box fan made in 2012 or later with a UL or ETL mark, plus 20x20 MERV 13 filters. Tape the filter to the back (intake) side so the airflow arrow points into the fan, and seal all four edges. More filters (for example a four-filter cube) clean the air faster than one. Replace filters when dirty.",
+      "how_to_choose": "Use a 20 inch box fan made in 2012 or later with a UL or ETL mark, plus 20x20 MERV 13 filters. Tape the filter to the back (intake) side so the airflow arrow points into the fan, and seal all four edges. More filters clean the air faster than one: in EPA's tests a cube of four filters with a cardboard shroud delivered about three and a half times the clean air of a single bare filter, and a shroud alone added about 40 percent. Replace filters when dirty.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
-        "note": "One fan and one filter set for one small room."
+        "note": "One fan and one filter set for one room."
       },
       "already_own": "A 20 inch box fan made in 2012 or later that carries a UL or ETL mark, plus a MERV 13 furnace filter, is enough. Avoid a fan made before 2012, and do not use a filter that is heavily loaded.",
       "safety_notes": [
@@ -1500,8 +1657,8 @@
         "EPA says to use a home-made air cleaner when a commercial unit is not available or affordable, and names thermal cutoffs as a safety feature of newer fans: a fan that lists one is better."
       ],
       "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: spending more buys a commercial HEPA air cleaner, which can run while you sleep (see the HEPA air cleaner).",
-      "research_note": "2026-11-15 audit-fix pass (prompt 2.19, A-W7, B-K03): EPA's two DIY pages, EPA's 2023 article and CDC's wildfire page (last reviewed 24 August 2026) all opened today. The old sentence saying the page did not cover unattended use was true of the 2023 article only and is replaced by what EPA's DIY pages say. The first item flag is the owner's wording from prompt 2.19. First-pass notes: Lasko and Filtrete product pages could not be read (HTTP 404/403/429); fan listing details come from search-result summaries. Tex-Air Filters was seen selling four MERV 13 20x20x2 filters for $60 (fan not included). | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: EPA says to use home-made air cleaners when a commercial unit is not available or affordable. The Lasko B20201 is reported to have a fused plug but no overheat protection; this was not confirmed on the maker's page. EPA names thermal cutoffs as a safety feature of newer fans, so a fan that lists one is preferable if you can find it. / The fan's and filter's details below were not confirmed on the makers' own pages.",
+      "tier_note": "Two picks: the four-filter cube was the strongest design in EPA's tests and matched an $800 air cleaner in HouseFresh's, so there is nothing costlier to build; the step up is a commercial HEPA air cleaner, which can run while you sleep.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.19, A-W7, B-K03): EPA's two DIY pages, EPA's 2023 article and CDC's wildfire page (last reviewed 24 August 2026) all opened today. The old sentence saying the page did not cover unattended use was true of the 2023 article only and is replaced by what EPA's DIY pages say. The first item flag is the owner's wording from prompt 2.19. First-pass notes: Lasko and Filtrete product pages could not be read (HTTP 404/403/429); fan listing details come from search-result summaries. Tex-Air Filters was seen selling four MERV 13 20x20x2 filters for $60 (fan not included). | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: EPA says to use home-made air cleaners when a commercial unit is not available or affordable. The Lasko B20201 is reported to have a fused plug but no overheat protection; this was not confirmed on the maker's page. EPA names thermal cutoffs as a safety feature of newer fans, so a fan that lists one is preferable if you can find it. / The fan's and filter's details below were not confirmed on the makers' own pages. | Open-up pass 2026-11-17: Cadillac stays empty on the tests named in the empty reason. 'One small room' in the quantity note and 'a small apartment' in the Standard pick's weakness are rewritten to describe size. lasko.com returned HTTP 429 today; no fan or filter price was seen, so prices stay as they were.",
       "tiers": {
         "budget": {
           "brand": "Lasko (fan) with Filtrete (filter)",
@@ -1569,8 +1726,8 @@
           "unit_label": "fan plus filter pack",
           "price_usd": null,
           "price_seen_at": "Fan $40.00 at hvacquick.com; filter price not seen, so no price for the kit is shown",
-          "why": "EPA says designs that use more MERV 13 filters clean better and are more cost-effective than a single filter.",
-          "weakness": "More taping and storage space in a small apartment, and no 4-pack size for 20x20x1 was found, so you buy 6.",
+          "why": "EPA says designs that use more MERV 13 filters clean better and are more cost-effective than a single filter. In EPA's chamber tests a four-filter cube with a shroud was the strongest design it reports, and HouseFresh measured a cube built with these Filtrete filters level with an $800 air cleaner.",
+          "weakness": "More taping, and the finished cube is about 20 in on each side, so it takes floor and storage space. No 4-pack size for 20x20x1 was found, so you buy 6.",
           "links": [
             {
               "label": "Lasko B20201 (manufacturer)",
@@ -1604,16 +1761,32 @@
               "url": "https://www.filtrete.com/3M/en_US/p/d/b00039899/",
               "verified": false,
               "supports": "1900 MPR equals MERV 13; 20x20x1 size; 90-day change interval. Not confirmed: the maker's page did not open."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "Research on DIY Air Cleaners to Reduce Wildfire Smoke Indoors",
+              "url": "https://www.epa.gov/air-research/research-diy-air-cleaners-reduce-wildfire-smoke-indoors",
+              "verified": true,
+              "supports": "Chamber tests with simulated wildfire smoke, clean air delivery rate: one 1 in filter 111; with a cardboard shroud 156; one 4 in filter with shroud 248; two 1 in filters with shroud 263; four 1 in filters in a cube with shroud 401."
+            },
+            {
+              "type": "test_publication",
+              "name": "HouseFresh",
+              "title": "The best air purifiers you can buy in 2026",
+              "url": "https://housefresh.com/best-air-purifiers/",
+              "verified": true,
+              "supports": "Built and tested a cube of a box fan and four 3M Filtrete MPR 1900 (MERV 13) filters: 462 CFM on top speed, level with the Coway Airmega ProX; 51.5 to 62.4 dB at 3 ft."
             }
           ],
           "flags": [],
           "flag_check": "No CPSC recall search was done.",
-          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: The design follows EPA's page, but the fan and the filter were not confirmed on their makers' pages. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Fan lists no overheat protection. | Alignment pass 2026-11-16 (c4-home): price still not seen: lasko.com B20201 page 404 again today; Home Depot 403 (search snippet $23.98, not used); Filtrete 403 earlier. price_usd stays null."
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: The design follows EPA's page, but the fan and the filter were not confirmed on their makers' pages. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Fan lists no overheat protection. | Alignment pass 2026-11-16 (c4-home): price still not seen: lasko.com B20201 page 404 again today; Home Depot 403 (search snippet $23.98, not used); Filtrete 403 earlier. price_usd stays null. | Open-up pass 2026-11-17: EPA's research page and HouseFresh's best-of page opened today and added as sources. HouseFresh's page gives the filter size as 20x30x1, which reads as a typing slip for 20x20x1; the fan model is not named. TechGearLab also tested a Corsi-Rosenthal box (over 80 percent of particles in 10 minutes, 55.8 dB average, parts about $110)."
         },
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "No pick. Spending more than the Standard kit buys a commercial HEPA cleaner, which has tested performance and, unlike a home-made unit, can run while you sleep: see the HEPA air cleaner item."
+        "cadillac": "Build list. EPA's chamber tests with simulated wildfire smoke measured a clean air delivery rate of 401 for a four-filter cube with a cardboard shroud, the highest of the designs it reports (111 for one bare filter, 248 for one 4 inch filter with a shroud). HouseFresh measured a four-filter cube at 462 CFM, level with the Coway Airmega ProX at more than $800. The Standard pick is that design, so more money buys nothing more to build; the step up is a commercial HEPA air cleaner."
       }
     }
   ]

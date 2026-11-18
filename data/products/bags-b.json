@@ -5,19 +5,20 @@
     "Web search was unavailable for this batch (the session's search budget was already used up), so every page was reached by opening known manufacturer, standards and test-publication URLs directly and following links from them. Pages that blocked the fetch tool (Shopify stores, 3M, Kingston, Red Cross) were opened in a browser instead; where that was done it is stated in the source or link note.",
     "Wirecutter (nytimes.com) and Popular Mechanics could not be opened by the fetch tool and were not used.",
     "No Amazon page could be opened (HTTP 503 to automated checks). Amazon links are given only where an ASIN was seen today in a test publication's own link to the product, and are marked unverified.",
-    "Several prices are null because no US retail price could be seen today. They are not guesses left blank by accident."
+    "Several prices are null because no US retail price could be seen today. They are not guesses left blank by accident.",
+    "Open-up pass, November 17, 2026: gates on size, weight, price and stock were removed from this file. Shopify-hosted maker stores (leatherman.com, mymedic.com, gerbergear.com, midlandusa.com, store.sentrysafe.com, swim2000.com, us.ortlieb.com) answered HTTP 429 to every WebFetch try, and kingston.com and newegg.com answered 403; picks that lean on those pages carry an unverified maker link and say so in research_note."
   ],
   "items": [
     {
       "id": "first-aid-kit-bag",
       "module": "bags",
-      "name": "Compact first-aid kit for the bag",
+      "name": "First-aid kit for the bag",
       "need": "Cuts, blisters, sprains and headaches are the injuries you are most likely to deal with on a long walk home, and a small kit handles them.",
-      "how_to_choose": "U7-09 lists the 12 things the pouch holds; a bought kit is a head start that you check against that list. Look for one that weighs under a pound, has a real elastic bandage, gauze, tape and gloves, and comes in a pouch you can find by feel. Count on adding your own medicines and a few extra adhesive bandages. A hiking-style kit is not a bleeding-control kit: carry a tourniquet and pressure dressing separately (see the bleeding-control item).",
+      "how_to_choose": "U7-09 lists the 12 things the pouch holds; a bought kit is a head start that you check against that list. Look for a real elastic bandage, gauze, tape, gloves and shears, in a pouch you can find by feel. The kits here weigh from about 6 oz to about 2 lb: a heavier kit holds more, and each adult carries one, so weigh that against the rest of the bag. Count on adding your own medicines and a few extra adhesive bandages. A hiking-style kit is not a bleeding-control kit: carry a tourniquet and pressure dressing separately (see the bleeding-control item).",
       "qty": {
         "basis": "per_adult",
         "factor": 1,
-        "note": "One compact kit in each adult's bag."
+        "note": "One kit in each adult's bag."
       },
       "already_own": "A hiking or travel first-aid kit you already own is fine if it has an elastic bandage, sterile gauze, tape, gloves and in-date medicines. Open it, check expiry dates, and replace anything used or yellowed.",
       "safety_notes": [
@@ -41,8 +42,7 @@
         "Small hiking kits are lighter than a home kit on purpose. The home kit has its own list (U7-07); top the bag kit up with what you personally need.",
         "Medicines in pre-made kits can be close to expiry when they arrive. Check dates when you unpack the kit."
       ],
-      "tier_note": "Two picks: a bigger kit breaks this item's under-a-pound rule and belongs at home, not in each adult's bag.",
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Adventure Medical Kits",
@@ -97,6 +97,140 @@
         },
         "standard": {
           "brand": "Adventure Medical Kits",
+          "model": "Mountain Series Medical Kit - Backpacker",
+          "model_number": "",
+          "size": "For 1-2 people for up to 4 days. Maker says under 1 lb; OutdoorGearLab weighed it at 14 oz and CleverHiker lists 15.2 oz. Soft zip pouch, 3.75 x 6 x 7 in.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 14,
+          "price_usd": 57.49,
+          "price_seen_at": "adventuremedicalkits.com, seen November 17, 2026",
+          "why": "The fullest of the hiking kits and still under a pound: a 2 in elastic bandage, gauze pads and a gauze roll, a 5 x 9 in trauma pad, 1 in cloth tape, shears, forceps, gloves, basic medicines and a first-aid manual. OutdoorGearLab and CleverHiker both tested it, and CleverHiker names it best for backpacking.",
+          "weakness": "Only one pair of gloves, no CPR face shield, and the pouch is not waterproof.",
+          "contents_check": {
+            "pieces": null,
+            "elastic_bandage": true,
+            "gauze": true,
+            "tape": true,
+            "add": "A second pair of gloves, more adhesive bandages, your own medicines, a zip bag to keep it dry."
+          },
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://adventuremedicalkits.com/products/mountain-series-medical-kit-backpacker",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened by WebFetch 2026-11-17: $57.49 shown as a sale price, 'less than one pound', 3.75 x 6.0 x 7.0 in, 1-2 people up to 4 days, full contents list read. No stock line on the page; Add to Cart shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B01N4LMIDK",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen 2026-11-17 in OutdoorGearLab's link for the Mountain Series Backpacker. Amazon page not opened."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: new Standard. The old Standard (Ultralight/Watertight .7) was chosen for being lightest under the item's old under-a-pound rule; it is now the Compact pick. OutdoorGearLab's review of this kit is dated April 2018 (score 73, ranked 4 of 14 in the guide updated September 28, 2026); its contents list differs from the maker's current list, so the contents here follow the maker's page.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Adventure Medical Kits",
+              "title": "Mountain Series Medical Kit - Backpacker",
+              "url": "https://adventuremedicalkits.com/products/mountain-series-medical-kit-backpacker",
+              "verified": true,
+              "supports": "Price $57.49, under 1 lb, 3.75 x 6 x 7 in, 1-2 people for up to 4 days, full contents list."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Adventure Medical Kits Mountain Series Backpacker Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/first-aid-kit/adventure-medical-kits-mountain-series-backpacker",
+              "verified": true,
+              "supports": "Hands-on test: measured 14 oz, well organized in labeled pouches, case held up; bag only moderately water resistant."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best First Aid Kits",
+              "url": "https://www.cleverhiker.com/more-gear/best-first-aid-kits/",
+              "verified": true,
+              "supports": "Named best first aid kit for backpacking (guide updated August 14, 2026); 15.2 oz; no CPR mask, not water resistant."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No new recall search on 2026-11-17. The CPSC query of 2026-11-14 (SaferProducts API, title search 'first aid kit') returned no results. No recall notice on the maker's page opened 2026-11-17."
+        },
+        "cadillac": {
+          "brand": "My Medic",
+          "model": "MyFAK first-aid kit (standard version)",
+          "model_number": "",
+          "size": "11 x 8 x 6 in and 3 to 4 lb on its maker's page; OutdoorGearLab weighed its unit at 31 oz. Ballistic nylon case with supplies in sealed, labeled packets.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 31,
+          "price_usd": 135.96,
+          "price_seen_at": "mymedic.com",
+          "why": "The most complete kit here. OutdoorGearLab found it the best of 14 kits for serious injuries: a pressure bandage, shears, a finger splint, saline wash, blister care, a face shield, basic medicines and two pairs of gloves, in a case built to last.",
+          "weakness": "About 2 lb and bulky, which is a lot to add to each adult's bag. The guide is an e-book only, and the version OutdoorGearLab tested lists no tourniquet.",
+          "contents_check": {
+            "pieces": null,
+            "elastic_bandage": true,
+            "gauze": null,
+            "tape": true,
+            "add": "Your own medicines. Check the medicine dates when it arrives."
+          },
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://mymedic.com/products/myfak-firstaidkit",
+              "verified": true,
+              "note": "",
+              "research_note": "mymedic.com answered HTTP 429 to WebFetch six times on 2026-11-17. Read by the main session on 2026-11-16: Standard version $135.96 on sale (regular $169.95), weight given as both 3-4 lb and 2.6-3.6 lb, dimensions as both 11 x 8 x 6 and 10.5 x 7 x 5 in, no tourniquet in the Standard version."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0C8445NCX",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen 2026-11-17 in OutdoorGearLab's link for the MyFAK. Amazon page not opened."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: restored. It was removed on 2026-11-16 only because it broke the item's old under-a-pound rule. Shortfall: both sources opened today are OutdoorGearLab pages (the March 2020 review and the guide updated September 28, 2026); the maker's page rate-limited the reader, so the maker source is marked unverified and the price is OutdoorGearLab's list price. CleverHiker tested the MyFAK Mini, a different kit. Size and weight are OutdoorGearLab's and differ from the maker's figures read on 2026-11-16; the main session should reconcile them in a browser. | 2026-11-17, main worker: the link check found mymedic.com/products/myfak is a 404. The real page, found through the site's own search and read in Chrome: mymedic.com/products/myfak-firstaidkit, 'MYFAK FIRST AID KIT', regular price $169.95, sale price $135.96, level Standard or Pro, ADD TO CART, specs 'Height: 11 in Width: 8 in Depth: 6 in Weight: 3 - 4 lbs'.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "MyMedic MyFAK Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/first-aid-kit/mymedic-myfak",
+              "verified": true,
+              "supports": "Top Pick, best for trauma response: measured 31 oz, 8 x 7 x 4.5 in, contents, durable case; heavy, costly, e-book guide only."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best First Aid Kits",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-first-aid-kit",
+              "verified": true,
+              "supports": "Second-highest score of 14 kits in the guide updated September 28, 2026; list price $180."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "My Medic",
+              "title": "MyFAK",
+              "url": "https://mymedic.com/products/myfak-firstaidkit",
+              "verified": true,
+              "supports": "The Standard version's price, its size (11 x 8 x 6 in) and weight (3 to 4 lb), and that a Pro version adds a tourniquet.",
+              "research_note": "HTTP 429 on 2026-11-17; last read 2026-11-16 by the main session."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No new recall search on 2026-11-17. The CPSC query of 2026-11-14 (title search 'first aid kit') returned no results.",
+          "unit_price": "sale price; $169.95 regular"
+        },
+        "compact": {
+          "brand": "Adventure Medical Kits",
           "model": "Ultralight/Watertight Medical Kit - .7",
           "model_number": "",
           "size": "For 1-2 people for up to 4 days. Maker says 5.8 oz; OutdoorGearLab weighed it at 8 oz. Waterproof inner bag inside a zip pouch.",
@@ -105,7 +239,7 @@
           "weight_oz": 5.8,
           "price_usd": 44.99,
           "price_seen_at": "adventuremedicalkits.com",
-          "why": "The lightest and most weather-proof of the tested kits, which matters for a bag that gets carried in the rain. It has a 2 in elastic bandage, gauze roll and pads, tape, moleskin and basic medicines. OutdoorGearLab named it best compact kit.",
+          "why": "The lightest and most weather-proof of the tested kits: a waterproof inner bag inside a zip pouch, with a 2 in elastic bandage, gauze roll and pads, tape, moleskin and basic medicines. OutdoorGearLab named it best compact kit and CleverHiker named it best overall.",
           "weakness": "No shears, no trauma pad and no first-aid guide, and the tape is narrow.",
           "contents_check": {
             "pieces": null,
@@ -124,7 +258,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "link_note was: No Amazon link: no ASIN for this exact kit was seen today.",
+          "research_note": "link_note was: No Amazon link: no ASIN for this exact kit was seen today. | Open-up pass 2026-11-17: moved from Standard to Compact. Maker page not reopened today; price left as seen 2026-11-14. CleverHiker and OutdoorGearLab guides opened today both list $45.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -141,17 +275,21 @@
               "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/first-aid-kit/adventure-medical-kits-ultralight-watertight-7",
               "verified": true,
               "supports": "Top Pick (best compact kit), measured 8 oz, watertight bag, missing items."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best First Aid Kits",
+              "url": "https://www.cleverhiker.com/more-gear/best-first-aid-kits/",
+              "verified": true,
+              "supports": "Named best first aid kit overall (guide updated August 14, 2026); 5.8 oz, waterproof inner bag; short on trauma supplies."
             }
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'first aid kit') on 2026-11-14: no results."
-        },
-        "cadillac": null
+        }
       },
-      "empty_reason": {
-        "cadillac": "No kit under a pound that does more than the Standard has passed this site's checks. A larger trauma kit such as My Medic's MyFAK (about 3 lb) suits the car kit or one shared household bag, not each adult's grab bag."
-      },
-      "research_note": "16 Nov 2026 (P4): My Medic MyFAK removed from Cadillac: it fails this item's own 'under a pound' rule and its 48 oz took the Cadillac version of the bag list then carried every day (since dropped) to 10.2 lb, over its 10 lb target. mymedic.com 2026-11-16: Standard $135.96 sale (regular $169.95), weight given as both 3-4 lb and 2.6-3.6 lb, dimensions as both 11x8x6 and 10.5x7x5 in; no tourniquet in the Standard version."
+      "research_note": "16 Nov 2026 (P4): My Medic MyFAK removed from Cadillac: it fails this item's own 'under a pound' rule and its 48 oz took the Cadillac version of the bag list then carried every day (since dropped) to 10.2 lb, over its 10 lb target. mymedic.com 2026-11-16: Standard $135.96 sale (regular $169.95), weight given as both 3-4 lb and 2.6-3.6 lb, dimensions as both 11x8x6 and 10.5x7x5 in; no tourniquet in the Standard version. | Open-up pass 2026-11-17: the under-a-pound rule is gone. Standard is now the Mountain Series Backpacker, the .7 is the Compact pick, and the MyFAK is back as Cadillac. Why ours and not OutdoorGearLab's Surviveware Small: its maker's site would not load on November 17, 2026 (surviveware.com did not resolve), and the two outlets that handled it disagree on what it is (OutdoorGearLab: 16 oz and $75 list; CleverHiker: 6.2 oz and $36, with a note that its review covers an older version), and it carries no medicines, so its size, weight and contents cannot be stated plainly; the Backpacker's contents were read on its maker's page that day. Why ours and not CleverHiker's Adventure Medical Kits Ultralight/Watertight .7: it is the Compact pick here; it has no shears, trauma pad or guide, which the Standard adds for about 8 oz more."
     },
     {
       "id": "first-aid-kit-home",
@@ -185,7 +323,7 @@
       "item_flags": [
         "Piece counts on bought kits are inflated by small bandages. Read the contents list against this one."
       ],
-      "research_note": "item_flags[0] was: No kit was confirmed today against the ANSI/ISEA Z308.1 Class A workplace standard. The picks are family kits, judged against the Red Cross contents list instead. Rewritten for prompt 3.7: U7-07 is the one home-kit specification. | empty_reason.cadillac was: No larger home kit could be verified from two sources today. First Aid Only's product pages (the usual ANSI Class A/B choice) could not be checked, and no test publication covering a premium home kit could be opened. Spending more on the standard kit's refills and on a first-aid class is the better upgrade. The Red Cross store also sells a cheaper 299-piece Deluxe All Purpose kit (item 711442, $34.95 seen 2026-11-14) as an alternative. | 2026-11-16 (name the medicine): the bought kits are no longer picks; the list in data/first-aid-kit.json is the specification and the Red Cross Deluxe Family kit is named once, after the list, as a head start. Old picks: {\"budget\": {\"brand\": \"Johnson & Johnson\", \"model\": \"All-Purpose First Aid Kit\", \"price_usd\": 18.77, \"links\": [\"https://www.amazon.com/dp/B09NWH8553\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"], \"sources\": [\"https://www.outdoorgearlab.com/topics/camping-and-hiking/best-first-aid-kit\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"]}, \"standard\": {\"brand\": \"American Red Cross\", \"model\": \"Deluxe Family First Aid Kit, 115-Piece (Soft Case)\", \"price_usd\": 49.95, \"links\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\"], \"sources\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\", \"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html\"]}}",
+      "research_note": "item_flags[0] was: No kit was confirmed today against the ANSI/ISEA Z308.1 Class A workplace standard. The picks are family kits, judged against the Red Cross contents list instead. Rewritten for prompt 3.7: U7-07 is the one home-kit specification. | empty_reason.cadillac was: No larger home kit could be verified from two sources today. First Aid Only's product pages (the usual ANSI Class A/B choice) could not be checked, and no test publication covering a premium home kit could be opened. Spending more on the standard kit's refills and on a first-aid class is the better upgrade. The Red Cross store also sells a cheaper 299-piece Deluxe All Purpose kit (item 711442, $34.95 seen 2026-11-14) as an alternative. | 2026-11-16 (name the medicine): the bought kits are no longer picks; the list in data/first-aid-kit.json is the specification and the Red Cross Deluxe Family kit is named once, after the list, as a head start. Old picks: {\"budget\": {\"brand\": \"Johnson & Johnson\", \"model\": \"All-Purpose First Aid Kit\", \"price_usd\": 18.77, \"links\": [\"https://www.amazon.com/dp/B09NWH8553\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"], \"sources\": [\"https://www.outdoorgearlab.com/topics/camping-and-hiking/best-first-aid-kit\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"]}, \"standard\": {\"brand\": \"American Red Cross\", \"model\": \"Deluxe Family First Aid Kit, 115-Piece (Soft Case)\", \"price_usd\": 49.95, \"links\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\"], \"sources\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\", \"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html\"]}} | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's First Aid Only 298 Piece All-Purpose kit (FAO-442): this item is a build-it-yourself list with no product tiers, so a bought kit such as this one is a head start to check against the list, not a pick; its maker's page answered 429 on November 17, 2026 and its contents were not compared with the list.",
       "tier_note": "The pick is to build it: a latching box of about 12 by 8 inches and the lines of the list. A bought kit is named once, after the list, as a head start.",
       "tiers": {
         "budget": null,
@@ -248,7 +386,7 @@
         "The Prepared's tourniquet review gives the same warning: if it looks like a C-A-T but does not come from North American Rescue, or costs under $25, do not buy it.",
         "The blue C-A-T is a training device. Do not carry it as your real tourniquet, and do not practice with the real one."
       ],
-      "research_note": "item_flags[5] was: ... TacMed's own page could not be opened today (rate limited), so it is not listed as a pick. Practice line (prompt 5.22 / B-K09) written after opening North American Rescue's colour-difference blog and blue-trainer page on 2026-11-15. The maker's instructions-for-use PDF was not read (see nar-cat-single-use in data/sources.json). | item_flags[0] was: Counterfeit tourniquets are common. North American Rescue, the US distributor of the C-A-T, says large numbers of fake C-A-Ts made in China have reached first responders and failed or broken when used. It and the maker obtained a US International Trade Commission general exclusion order so that Customs can seize imports that look like a C-A-T. Genuine C-A-Ts are made only in the United States. Source opened today: https://www.narescue.com/nar-blog/general-exclusion-order-cats.html | item_flags[1] was: C-A-T Resources describes itself as the inventor and exclusive manufacturer of the C-A-T and names North American Rescue as its United States distributor. Source opened today: https://www.combattourniquet.com/ | item_flags[3] was: The Prepared's tourniquet review gives the same warning: if it looks like a C-A-T but does not come from North American Rescue, or costs under $25, do not buy it. Source opened today: https://theprepared.com/gear/reviews/tourniquets/ | item_flags moved off the page: A second CoTCCC-recommended design, the TacMed Solutions SOF Tourniquet Wide, is The Prepared's equal alternative. It is not a pick here because it has not been through this site's checks.",
+      "research_note": "item_flags[5] was: ... TacMed's own page could not be opened today (rate limited), so it is not listed as a pick. Practice line (prompt 5.22 / B-K09) written after opening North American Rescue's colour-difference blog and blue-trainer page on 2026-11-15. The maker's instructions-for-use PDF was not read (see nar-cat-single-use in data/sources.json). | item_flags[0] was: Counterfeit tourniquets are common. North American Rescue, the US distributor of the C-A-T, says large numbers of fake C-A-Ts made in China have reached first responders and failed or broken when used. It and the maker obtained a US International Trade Commission general exclusion order so that Customs can seize imports that look like a C-A-T. Genuine C-A-Ts are made only in the United States. Source opened today: https://www.narescue.com/nar-blog/general-exclusion-order-cats.html | item_flags[1] was: C-A-T Resources describes itself as the inventor and exclusive manufacturer of the C-A-T and names North American Rescue as its United States distributor. Source opened today: https://www.combattourniquet.com/ | item_flags[3] was: The Prepared's tourniquet review gives the same warning: if it looks like a C-A-T but does not come from North American Rescue, or costs under $25, do not buy it. Source opened today: https://theprepared.com/gear/reviews/tourniquets/ | item_flags moved off the page: A second CoTCCC-recommended design, the TacMed Solutions SOF Tourniquet Wide, is The Prepared's equal alternative. It is not a pick here because it has not been through this site's checks. | Open-up pass 2026-11-17: no pick changed (life-safety rule); no page reopened today. Why ours and not The Prepared's C-A-T Gen 7 on its own: the Standard kit is built around that same tourniquet and adds the hemostatic gauze, pressure dressing, gloves and shears that the Stop the Bleed class teaches; the tourniquet alone is the Budget pick.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
@@ -474,7 +612,7 @@
         "No NIOSH-approved respirator is sized for very young children. A small adult respirator on a child is not a tested fit. For young children the plan is to keep them in the clean room, out of smoke and dust, not to rely on a mask.",
         "Box and pack counts differ between the picks, so compare the price per respirator."
       ],
-      "research_note": "qty was per_person with a note of 6 per person; changed to per_wearer to match data/product-levels.json (prompt 3.1 / A-C2). The children note was sourced to EPA; now to CDC's wildfire safety page, opened 2026-11-15 (prompt 3.1). item_flags[2] was: No Amazon links are given: no ASIN for these respirators was seen in a trusted page today. item_flags[3] was: Prices and box counts are missing for the 3M picks: 3M's pages show neither, and no retailer page could be opened today (stale: retailer prices were added on 2026-11-15). 3M's own product pages refused automated reading on 2026-11-15 (403); NIOSH approvals were confirmed on the Certified Equipment List instead. | item_flags moved off the page: No marketplace links are given: NIOSH warns that counterfeit respirators are sold on marketplaces.",
+      "research_note": "qty was per_person with a note of 6 per person; changed to per_wearer to match data/product-levels.json (prompt 3.1 / A-C2). The children note was sourced to EPA; now to CDC's wildfire safety page, opened 2026-11-15 (prompt 3.1). item_flags[2] was: No Amazon links are given: no ASIN for these respirators was seen in a trusted page today. item_flags[3] was: Prices and box counts are missing for the 3M picks: 3M's pages show neither, and no retailer page could be opened today (stale: retailer prices were added on 2026-11-15). 3M's own product pages refused automated reading on 2026-11-15 (403); NIOSH approvals were confirmed on the Certified Equipment List instead. | item_flags moved off the page: No marketplace links are given: NIOSH warns that counterfeit respirators are sold on marketplaces. | Open-up pass 2026-11-17: no pick changed (life-safety rule) and no page reopened today. No size, cell, price or stock gate was found in this item's text. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's 3M 8511 N95 Cool Flow Valve: NIOSH's Certified Equipment List (TC-84A-1299, opened November 17, 2026) shows it as an active 3M N95 approval that names the 8511 and notes an exhalation valve; it is a genuine approved respirator, but a valve does not filter the air you breathe out, and this item covers airborne germs as well as smoke and dust, so the Standard stays the valveless 9205+.",
       "prices_seen": "2026-11-15",
       "tiers": {
         "budget": {
@@ -686,8 +824,7 @@
         "Leatherman recalled its Charge Plus and Charge Plus TTi multi-tools in July 2025 for a laceration hazard; if you own one, read the recall notice. Neither is a pick here.",
         "Knife law is local. Chicago, for one, bars carrying a concealed knife with a blade more than 2.5 inches long (Municipal Code 8-24-020), and every pick here has a longer blade: Leatherman lists 2.6 in for the Wingman and 2.92 in for the Wave+. Check your own city's code."
       ],
-      "research_note": "Split for prompt 6.11 / A-W6: this item is now the bladed tool kept at home (module and level unchanged in data/product-levels.json); multi-tool-bladeless is the grab-bag tool. qty was per_adult x 0.5 ('one for every two adults; one per household is enough to start'); now one per household. item_flags[0] was: Carry limits: knife laws differ by city and state, including limits on blade length and on locking or one-hand-opening blades. Courthouses, schools, government offices, stadiums and many office towers ban knives outright. Check your own city's rules; no local law was verified for this batch. If your bag goes through security often, keep the multi-tool at home or at your desk. The knife-law sentence is left to the main session (prompt 6.11). Picks were not re-researched on 2026-11-15: leatherman.com answered 429 to every try. | item_flags[1] was: Recall, not for these picks: on 2025-07-31 Leatherman recalled Charge Plus and Charge Plus TTi multi-tools for a laceration hazard (CPSC). The Charge+ TTi is The Prepared's upgrade pick, so it was left out here. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Leatherman ARC (833074), $249.95 at leatherman.com; sources: Leatherman https://www.leatherman.com/products/arc; OutdoorGearLab https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-arc. Owner names the $250 multi-tool as not buying anything the job needs (prompt 6.3).",
-      "tier_note": "Two picks: a pricier tool mainly adds one-handed opening and better blade steel, which jobs at home do not need.",
+      "research_note": "Split for prompt 6.11 / A-W6: this item is now the bladed tool kept at home (module and level unchanged in data/product-levels.json); multi-tool-bladeless is the grab-bag tool. qty was per_adult x 0.5 ('one for every two adults; one per household is enough to start'); now one per household. item_flags[0] was: Carry limits: knife laws differ by city and state, including limits on blade length and on locking or one-hand-opening blades. Courthouses, schools, government offices, stadiums and many office towers ban knives outright. Check your own city's rules; no local law was verified for this batch. If your bag goes through security often, keep the multi-tool at home or at your desk. The knife-law sentence is left to the main session (prompt 6.11). Picks were not re-researched on 2026-11-15: leatherman.com answered 429 to every try. | item_flags[1] was: Recall, not for these picks: on 2025-07-31 Leatherman recalled Charge Plus and Charge Plus TTi multi-tools for a laceration hazard (CPSC). The Charge+ TTi is The Prepared's upgrade pick, so it was left out here. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Leatherman ARC (833074), $249.95 at leatherman.com; sources: Leatherman https://www.leatherman.com/products/arc; OutdoorGearLab https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-arc. Owner names the $250 multi-tool as not buying anything the job needs (prompt 6.3). | Open-up pass 2026-11-17: Leatherman ARC restored as Cadillac (it was dropped for price). OutdoorGearLab's guide (updated October 6, 2026) and Treeline Review's (November 10, 2026) were opened today. Why ours and not Treeline Review's Leatherman ARC: the ARC is the Cadillac here; OutdoorGearLab names the Wave+ best for most people, and what the ARC adds for about twice the price is one-handed opening and better blade steel, not a tool the Wave+ lacks. The knife-law flags were left exactly as they were. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's Leatherman Skeletool CX: OutdoorGearLab's review of it (opened November 17, 2026) lists seven functions and no scissors, saw, file or can opener, and this item's job names scissors and small repairs; the Wave+ has all of those, scores one point higher in the same test (74 against 73) and is that test's pick for most people, while the Skeletool CX is its pick for light everyday carry at 5 oz.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
@@ -796,10 +933,59 @@
           ],
           "flag_check": "Queried the CPSC recall database (title search 'Leatherman') on 2026-11-14: no recall for the Wave+."
         },
-        "cadillac": null
-      },
-      "empty_reason": {
-        "cadillac": "The $250 ARC opens every tool one-handed and has better blade steel; shutting a valve, cutting tape and small repairs at home do not need either."
+        "cadillac": {
+          "brand": "Leatherman",
+          "model": "ARC",
+          "model_number": "833074",
+          "size": "20 tools. 8.6 oz. 4.2 in closed. MagnaCut steel main blade (OutdoorGearLab measured about 2.5 in of edge).",
+          "unit_size": 1,
+          "unit_label": "tool",
+          "weight_oz": 8.6,
+          "price_usd": 249.95,
+          "price_seen_at": "leatherman.com, seen November 16, 2026; OutdoorGearLab and Treeline Review both list $250 on November 17, 2026",
+          "why": "The top of the range. Every tool, the pliers included, opens with one hand, the main blade is MagnaCut steel, which both testers single out, and it has a hammer face and swappable bit drivers. It has the highest score of the 18 tools OutdoorGearLab tested and is Treeline Review's best overall.",
+          "weakness": "About twice the price of the Standard, some play in the hinges, and bulky for a pocket.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.leatherman.com/products/arc",
+              "verified": false,
+              "note": "",
+              "research_note": "leatherman.com answered HTTP 429 to WebFetch seven times on 2026-11-17. Read by an earlier pass (2026-11-14 to 2026-11-16): $249.95, SKU 833074."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: restored. It was removed on 2026-11-16 for its price alone. No Amazon ASIN seen (OutdoorGearLab links to REI and Backcountry). The model number and the $249.95 price come from the earlier pass; the maker's page could not be reopened today. The carry-on flag that the other two picks carry was not copied here: the main session owns that wording.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Leatherman ARC Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-arc",
+              "verified": true,
+              "supports": "Top Pick, best high-end multi-tool, score 86, first of 18: 8.6 oz, 4.2 in closed, MagnaCut blade, one-handed opening, hammer surface; play in the hinges, bulky."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Multi-Tools of 2026-2027",
+              "url": "https://www.treelinereview.com/gearreviews/best-multi-tools",
+              "verified": true,
+              "supports": "Named best overall (guide dated November 10, 2026) for one-handed access, tool mix and MagnaCut blade; $250."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Leatherman",
+              "title": "ARC",
+              "url": "https://www.leatherman.com/products/arc",
+              "verified": false,
+              "supports": "Price, SKU and tool list.",
+              "research_note": "HTTP 429 on 2026-11-17; last read by an earlier pass."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No new recall search on 2026-11-17. The CPSC query of 2026-11-14 (title search 'Leatherman') showed two recalls, Charge Plus/Charge Plus TTi (2025) and Leap (2014); none for the ARC."
+        }
       }
     },
     {
@@ -833,7 +1019,7 @@
       "item_flags": [
         "Knife law is local. Chicago, for one, bars carrying a concealed knife with a blade more than 2.5 inches long (Municipal Code 8-24-020). A bladeless tool avoids that question; check your own city's code."
       ],
-      "research_note": "New item for prompt 6.11 / A-W6, researched 2026-11-15. Candidates: Leatherman Style PS (GearJunkie 2017 test and Pack Hacker 2023 review opened; leatherman.com answered 429 three times, and several retailers in search results mark it discontinued, so not used); Gerber Dime Travel (gerbergear.com page not found, a West Marine result says no longer available; not used); NexTool Mini Sailor Lite (maker page failed with a certificate error; the Gadgeteer's June 2026 guide opened but says it did not test hands-on; not used). The knife-law sentence is left to the main session. | 16 Nov 2026 (P4): gerbergear.com reopened: 30-000952N, $129.99, in stock, no knife, RemGrit saw, 4.6 in, 9.0 oz, 'Complies with' no-knife workplace policy, no TSA statement. Gerber multi-tools collection (first 16 of 79 shown) lists no other bladeless tool. Leatherman Style PS page: discontinued, sold out, 1.58 oz, $30. Victorinox Jetsetter (Gear Patrol) has scissors and a Phillips driver but no pliers, so it fails how_to_choose. TSA saws page would not open. | item_flags moved off the page: Leatherman's Style PS, the best-known small pliers tool with no blade, is discontinued by its maker, and no other small bladeless pliers tool has passed this site's checks. The only pick is a full-size tool that adds about 9 oz to the grab bag.",
+      "research_note": "New item for prompt 6.11 / A-W6, researched 2026-11-15. Candidates: Leatherman Style PS (GearJunkie 2017 test and Pack Hacker 2023 review opened; leatherman.com answered 429 three times, and several retailers in search results mark it discontinued, so not used); Gerber Dime Travel (gerbergear.com page not found, a West Marine result says no longer available; not used); NexTool Mini Sailor Lite (maker page failed with a certificate error; the Gadgeteer's June 2026 guide opened but says it did not test hands-on; not used). The knife-law sentence is left to the main session. | 16 Nov 2026 (P4): gerbergear.com reopened: 30-000952N, $129.99, in stock, no knife, RemGrit saw, 4.6 in, 9.0 oz, 'Complies with' no-knife workplace policy, no TSA statement. Gerber multi-tools collection (first 16 of 79 shown) lists no other bladeless tool. Leatherman Style PS page: discontinued, sold out, 1.58 oz, $30. Victorinox Jetsetter (Gear Patrol) has scissors and a Phillips driver but no pliers, so it fails how_to_choose. TSA saws page would not open. | item_flags moved off the page: Leatherman's Style PS, the best-known small pliers tool with no blade, is discontinued by its maker, and no other small bladeless pliers tool has passed this site's checks. The only pick is a full-size tool that adds about 9 oz to the grab bag. | Open-up pass 2026-11-17: no change to the pick. gerbergear.com and leatherman.com answered HTTP 429 to every try, so no second bladeless pliers tool could be confirmed on a maker's page. Guides opened today: OutdoorGearLab (October 6, 2026; no bladeless pliers tool tested), Treeline Review (November 10, 2026; names the Nite Ize DoohicKey and Victorinox Jetsetter as knife-free, neither has pliers), Outdoor Life EDC guide (March 28, 2024; its no-blade picks are pry bars with no pliers). Leatherman's Style PS stays out because its maker lists it as discontinued, which is not a stock gap. Budget and Cadillac stay empty for want of a second product, not because of any size, price or brand rule.",
       "tier_note": "One pick: the small bladeless pliers tools have been discontinued, so the only one here is a full-size tool that adds about 9 oz to the grab bag.",
       "prices_seen": "2026-11-16",
       "tiers": {
@@ -923,7 +1109,7 @@
         "Decibel figures are the maker's own ratings.",
         "These whistles are loud enough to hurt ears at close range. Do not let children blow them near anyone's head."
       ],
-      "tier_note": "Two picks: a whistle that costs more is barely louder than the Standard.",
+      "tier_note": "Two picks: in TruePrepper's August 2026 test of 15 whistles the loudest, at $22, measured only 2 dB above the $9 Standard.",
       "prices_seen": "2026-11-16",
       "tiers": {
         "budget": {
@@ -1027,10 +1213,10 @@
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "Spending more buys little. In TruePrepper's August 2026 meter test the loudest whistle, at $22, measured only 2 dB above the Standard.",
+        "cadillac": "Spending more buys almost nothing. TruePrepper measured 15 whistles from 10 feet (guide updated August 6, 2026): the loudest, the $22 HyperWhistle, read 124 dB against 122 dB for the Standard.",
         "research_note": "cadillac was: A safety whistle tops out at about ten dollars. No more expensive whistle with a verified, higher published rating was found today, so spending more buys nothing."
       },
-      "research_note": "item_flags[1] was: Prices were seen only in Canadian dollars on Fox 40's own shop (a Canadian store), so price_usd is null. Expect roughly $6 to $10 in US shops. | item_flags[0] was: Decibel figures are the maker's own ratings. No independent test of these whistles could be opened today. | item_flags[1] was: Prices are a reviewer's published figures, not a shop's price; expect roughly $6 to $10."
+      "research_note": "item_flags[1] was: Prices were seen only in Canadian dollars on Fox 40's own shop (a Canadian store), so price_usd is null. Expect roughly $6 to $10 in US shops. | item_flags[0] was: Decibel figures are the maker's own ratings. No independent test of these whistles could be opened today. | item_flags[1] was: Prices are a reviewer's published figures, not a shop's price; expect roughly $6 to $10. | Open-up pass 2026-11-17: TruePrepper's guide reopened (updated August 6, 2026). Method: Decibel X phone app at 10 feet, readings good only for comparing within the test. Readings: Fox 40 Classic 115 dB ($6), SOL Slim Rescue Howler 117 ($7), Windstorm 121 ($11), Fox 40 Sonik Blast 122 ($10), Storm 123 ($9), HyperWhistle 124 in the table ($22; its specs section says 142 without explaining). Cadillac stays empty on that test. Prices not re-seen: swim2000.com answered HTTP 429. Why ours and not TruePrepper's SOL Slim Rescue Howler: in TruePrepper's own readings the Howler measured 117 dB and the Sonik Blast 122 dB, and the Howler's maker rating in that table is 100 dB against 120 dB. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Not settled against Wirecutter's Shoreline Marine Emergency Survival Whistle: no maker's page was found (one guessed address did not resolve, and a search returned only reseller listings with conflicting loudness figures), and TruePrepper's meter test of 15 whistles did not include it, so there is no loudness figure to set beside the Sonik Blast's."
     },
     {
       "id": "work-gloves",
@@ -1046,14 +1232,12 @@
       "already_own": "Leather gardening or work gloves in good condition are fine. Thin knit, latex or winter gloves are not a substitute.",
       "safety_notes": [],
       "item_flags": [
-        "Only the cadillac pick has a published ANSI/ISEA 105 cut level. The standard pick is full-grain leather with no published cut rating, so treat it as protection against scrapes and light debris, not as proof against sharp glass edges.",
+        "Cut ratings differ a lot between the picks. The Cadillac has a high published ANSI/ISEA 105 cut level (A8). The Standard's published level is A1, the lowest, and the Budget pick has none, so treat both as protection against scrapes and light debris, not as proof against sharp glass edges.",
         "No glove is cut-proof. Pick glass up by the flat faces and do not grip edges."
       ],
-      "tier_note": "Two picks: the Standard leather glove is the cheapest that meets How to choose, and leather work gloves you already own do the same job.",
-      "prices_seen": "2026-11-15",
+      "prices_seen": "2026-11-17",
       "tiers": {
-        "budget": null,
-        "standard": {
+        "budget": {
           "brand": "Wells Lamont",
           "model": "Men's HydraHyde Leather Ball and Tape Wrist Gloves",
           "model_number": "1164",
@@ -1063,7 +1247,7 @@
           "weight_oz": null,
           "price_usd": null,
           "price_seen_at": "",
-          "why": "Full grain-leather gloves with a reinforced palm, which is what How to choose asks for against glass, and the leather stays soft after getting wet. Bob Vila's best-value pick after hands-on testing.",
+          "why": "The cheapest glove here that meets How to choose: full grain leather with a reinforced palm, and the leather stays soft after getting wet. Bob Vila's best-value pick after hands-on testing.",
           "weakness": "No published cut rating, leather is bulkier in a small bag than a synthetic glove, and the maker lists no price, so compare at a hardware store.",
           "links": [
             {
@@ -1104,7 +1288,58 @@
             "No published ANSI cut level."
           ],
           "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'gloves') on 2026-11-14: no work-glove recall for this brand.",
-          "research_note": "Moved from Budget to Standard 16 Nov 2026 (P4). price_usd was 19.99; price_seen_at was: Blain's Farm and Fleet (mfr no. 1164-M), as shown in a search result on 2026-11-15; the page itself showed a bot check. Scheels listed $22.99 (item 6135-1164), also from search results. link_note was: Price comes from search-result text, not an opened retailer page. Bob Vila's article says the 14 tested pairs cost $8 to $35 but gives no price per glove. | link_note was: No shop price was seen on November 16, 2026: the maker's page shows no price. | 2026-11-16: wellslamont.com shows $0.00 and Amazon short links; Blain's Farm and Fleet page showed a bot check, Scheels 403; search results show $19.99 at Blain's (1164-M) only as a snippet."
+          "research_note": "Moved from Budget to Standard 16 Nov 2026 (P4). price_usd was 19.99; price_seen_at was: Blain's Farm and Fleet (mfr no. 1164-M), as shown in a search result on 2026-11-15; the page itself showed a bot check. Scheels listed $22.99 (item 6135-1164), also from search results. link_note was: Price comes from search-result text, not an opened retailer page. Bob Vila's article says the 14 tested pairs cost $8 to $35 but gives no price per glove. | link_note was: No shop price was seen on November 16, 2026: the maker's page shows no price. | 2026-11-16: wellslamont.com shows $0.00 and Amazon short links; Blain's Farm and Fleet page showed a bot check, Scheels 403; search results show $19.99 at Blain's (1164-M) only as a snippet. | Open-up pass 2026-11-17: moved back from Standard to Budget when Bob Vila's best overall glove became the Standard. Price still not seen on an opened shop page."
+        },
+        "standard": {
+          "brand": "Ironclad",
+          "model": "Ranchworx leather work gloves",
+          "model_number": "RWG2",
+          "size": "Goatskin grain leather palm with a Kevlar-reinforced thumb saddle and rubber guards on the fingers and knuckles. Machine washable. Sizes S to 3XL. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": 34.99,
+          "price_seen_at": "ironclad.com, seen November 17, 2026",
+          "why": "Bob Vila's best overall glove for men after testing 14 pairs: a goatskin leather palm, a Kevlar-reinforced thumb saddle, and knuckle guards. Ironclad publishes its ANSI ratings: abrasion level 3, puncture level 3 and cut level A1.",
+          "weakness": "Cut level A1 is the lowest ANSI level, so it is no more proof against a sharp glass edge than any other leather glove.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://ironclad.com/products/ranchworx.html",
+              "verified": true,
+              "note": "Ranchworx RWG2, $34.99.",
+              "research_note": "Opened by WebFetch 2026-11-17: $34.99 shown as a discounted price with no list price; the stock field was blank."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00DF29J5W",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen 2026-11-17 in Bob Vila's link for the Ironclad Ranchworx. Amazon page not opened."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: new Standard. Bob Vila's guide (last modified September 24, 2024) also names the Ironclad Tuff Chix as best overall for women; it was not researched. Ironclad's page also gives EN 388 3112.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Ironclad",
+              "title": "RANCHWORX (RWG2)",
+              "url": "https://ironclad.com/products/ranchworx.html",
+              "verified": true,
+              "supports": "Goatskin grain leather palm, Kevlar-reinforced thumb saddle, finger and knuckle guards, ANSI cut A1, abrasion 3, puncture 3, machine washable, sizes, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Work Gloves",
+              "url": "https://www.bobvila.com/articles/best-work-gloves/",
+              "verified": true,
+              "supports": "Ironclad Ranchworx named Best Overall for Men after testing 14 pairs for over 30 hours. Last modified September 2024."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No CPSC search run for Ironclad on 2026-11-17. No recall notice on the maker's page opened that day."
         },
         "cadillac": {
           "brand": "HexArmor",
@@ -1158,10 +1393,7 @@
           "research_note": "link_note was: No independent test of this glove was found; the second source is a distributor's listing. The cut rating is the maker's statement. Price varies a lot by size and seller."
         }
       },
-      "empty_reason": {
-        "budget": "The Standard leather glove is the cheapest one found that meets How to choose. Leather gardening or work gloves you already own do the same job."
-      },
-      "research_note": "16 Nov 2026 (P4): Mechanix M-Pact MPT-58 removed from Standard: 0.8 mm synthetic-leather palm and no stated cut level (mechanix.com 2026-11-16: $28.99 sale, regular $46.99; certification line 'ANSI/ISEA 105 X 3 X' unlabelled; 'notify me when back in stock' shown), so it failed this item's How to choose. Wells Lamont 1164 moved from Budget to Standard. Its price was only ever seen in a search-result snippet (Blain's $19.99, Scheels $22.99, 2026-11-15); wellslamont.com shows $0.00 and Amazon short links, so price_usd is null until a retailer page is opened."
+      "research_note": "16 Nov 2026 (P4): Mechanix M-Pact MPT-58 removed from Standard: 0.8 mm synthetic-leather palm and no stated cut level (mechanix.com 2026-11-16: $28.99 sale, regular $46.99; certification line 'ANSI/ISEA 105 X 3 X' unlabelled; 'notify me when back in stock' shown), so it failed this item's How to choose. Wells Lamont 1164 moved from Budget to Standard. Its price was only ever seen in a search-result snippet (Blain's $19.99, Scheels $22.99, 2026-11-15); wellslamont.com shows $0.00 and Amazon short links, so price_usd is null until a retailer page is opened. | Open-up pass 2026-11-17: Bob Vila's guide reopened; its best overall for men, the Ironclad Ranchworx, is now the Standard (maker's page opened: leather palm, published ANSI ratings, $34.99). The Wells Lamont 1164, Bob Vila's best-value pick, is the Budget again, which fills the empty Budget tier. TechGearLab has no work-glove guide (its tools index was opened). | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Not settled against Wirecutter's Custom Leathercraft 124 Flex Grip WorkRight: the maker's page was not found (two goclc.com addresses, both 404), so its palm material and any cut rating were not read; Bob Vila's guide describes its sibling, the Flex Grip Handyman, as having synthetic leather palms, and How to choose asks for leather or a rated cut-resistant palm."
     },
     {
       "id": "document-pouch",
@@ -1188,7 +1420,7 @@
         "A waterproof pouch is not fire protection. Keep originals at home in a fire chest and copies in the pouch.",
         "The Social Security card copy and printed recovery codes stay in the fire chest at home, never in the pouch."
       ],
-      "research_note": "Split for prompt 6.19: this item is now only the grab-bag pouch (every tier a pouch); the home chest is the new item fire-chest. Old name: Document pouch and fire chest. The old item_flags about fire ratings and fabric 'fireproof' bags moved to fire-chest. Candidate for a higher tier: Ortlieb Document-Bag A4 (search results show IP64 on Ortlieb's own datasheet, 30 x 22 cm). us.ortlieb.com answered 429 three times and uk.ortlieb.com once, and the datasheet PDF could not be read, so it is not a pick; it is in pending.json.",
+      "research_note": "Split for prompt 6.19: this item is now only the grab-bag pouch (every tier a pouch); the home chest is the new item fire-chest. Old name: Document pouch and fire chest. The old item_flags about fire ratings and fabric 'fireproof' bags moved to fire-chest. Candidate for a higher tier: Ortlieb Document-Bag A4 (search results show IP64 on Ortlieb's own datasheet, 30 x 22 cm). us.ortlieb.com answered 429 three times and uk.ortlieb.com once, and the datasheet PDF could not be read, so it is not a pick; it is in pending.json. | Open-up pass 2026-11-17: Cadillac still empty. Candidate found: Sea to Summit TPU Guide Map Case, maker's page opened today (https://seatosummit.com/products/tpu-guide-map-case): welded TPU and nylon, press-lock closure, maker says it meets IPX8 (10 m for 1 hour) and is individually tested, sizes S 8 x 11 in (2.0 oz), M 11 x 12 in (2.8 oz, the first size that takes letter paper flat going by outside size), L 13 x 16 in (3.6 oz), $34.95 shown without saying which size. Two searches found no test publication that tested it, or Ortlieb's Document Bag (us.ortlieb.com answered HTTP 429), or any other document pouch; only shop listings. It needs one independent test to become the Cadillac.",
       "tier_note": "One pick: a sealed see-through pouch is all this job needs, and a heavy zip-top freezer bag you already own is the budget choice.",
       "prices_seen": "2026-11-15",
       "tiers": {
@@ -1248,7 +1480,7 @@
       },
       "empty_reason": {
         "budget": "A heavy zip-top freezer bag you already own is the budget choice; see If you already own one.",
-        "cadillac": "No tougher waterproof document case was checked against two sources."
+        "cadillac": "No outside tester has reviewed document pouches, so a tougher welded case could not be checked against a second source."
       }
     },
     {
@@ -1256,7 +1488,7 @@
       "module": "bags",
       "name": "Fire-resistant chest for papers at home",
       "need": "Originals such as birth certificates, passports, deeds and policies are slow to replace, and a fire-rated chest at home gives them a chance of surviving a fire.",
-      "how_to_choose": "Only buy a chest whose maker states a UL fire classification with a time and a temperature, such as 1/2 hour at 1550 F. Prefer one that is also rated for water, because sprinklers and fire hoses soak a home even when the fire is on another floor. Fire chests are heavy: choose the smallest that holds your papers flat.",
+      "how_to_choose": "Only buy a chest whose maker states a UL fire classification with a time and a temperature, such as 1/2 hour at 1550 F. Prefer one that is also rated for water, because sprinklers and fire hoses soak a home even when the fire is on another floor. Fire chests and safes are heavy, from about 13 lb for the smallest chest here to about 87 lb for the safe, so check the weight and where it will sit before you buy.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -1270,8 +1502,7 @@
         "A half-hour fire rating is modest. Keep copies or scans elsewhere too (see the encrypted USB drive and the document pouch).",
         "The key lock on these chests is a privacy lock, not theft protection."
       ],
-      "research_note": "New item for prompt 6.19 (split from document-pouch). The fire rating for each pick was read on the maker's own pages on 2026-11-15: sentrysafe.com product pages and SentrySafe's technical sheets on solutions.masterlock.com (same company). Old item_flags[3] was: A larger SentrySafe chest, CHW30220, was not picked because its page states the fire rating as 1/2 hour in one place and 1 hour in another (not reopened 2026-11-15). | item_flags[1] was: The fire and water ratings below are the maker's own statements. They could not be checked in UL's directory, which needs a login.",
-      "tier_note": "Two picks: the medium chest already holds letter paper flat, and a larger chest is heavier to carry up stairs.",
+      "research_note": "New item for prompt 6.19 (split from document-pouch). The fire rating for each pick was read on the maker's own pages on 2026-11-15: sentrysafe.com product pages and SentrySafe's technical sheets on solutions.masterlock.com (same company). Old item_flags[3] was: A larger SentrySafe chest, CHW30220, was not picked because its page states the fire rating as 1/2 hour in one place and 1 hour in another (not reopened 2026-11-15). | item_flags[1] was: The fire and water ratings below are the maker's own statements. They could not be checked in UL's directory, which needs a login. | Open-up pass 2026-11-17: Cadillac filled with the SentrySafe SFW123GDC, a 1-hour safe; the old reason for leaving it empty was that no longer-rated product had been checked, and the tier note leaned on weight. Why ours and not Outdoor Life's SentrySafe HD4100 (its pick for documents): the HD4100's page, opened today, states the same ratings as the Standard chest (UL 1/2 hour up to 1550 F, ETL 72 hours of flood) and adds hanging-file space, 0.65 cu ft at 38.85 lb against 0.28 cu ft at 20.4 lb; it buys room, not protection, and the step up in protection is the Cadillac. A household with a drawer of files should weigh it. SentrySafe FHW40100 (page opened today): same half-hour and 72-hour ratings, 0.66 cu ft, 41 lb. Prices for the Budget and Standard chests were not re-seen today. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's SentrySafe FPW082KSB: its maker's page and technical sheet (opened November 17, 2026) show a 1-hour, 1700 F UL-classified safe, the same class as the Cadillac here; the Cadillac (SFW123GDC) has the same fire rating with a deeper water rating (8 in against 5 in for 24 hours) and more room (1.23 against 0.81 cu ft), while the FPW082KSB is lighter (55 lb against 87 lb) and has a dial lock that needs no batteries; the Standard stays the half-hour chest because it is the only pick with a 72-hour flood rating and both 1-hour safes are shown at $200 to $400 against about $63. Not settled against Wirecutter's Honeywell 1114 Lightweight Fire and Waterproof Chest: honeywellsafes.com answered 429 twice on November 17, 2026 (at a guessed address), so its fire rating, the lab behind it, its water rating and its weight were not read.",
       "prices_seen": "2026-11-15",
       "tiers": {
         "budget": {
@@ -1284,7 +1515,7 @@
           "weight_oz": 213.1,
           "price_usd": 29.99,
           "price_seen_at": "SentrySafe store, seen 2026-11-15",
-          "why": "The cheapest chest with a stated UL fire classification: 1/2 hour at up to 1550 F. Small and light enough for a closet shelf.",
+          "why": "The cheapest chest with a stated UL fire classification: 1/2 hour at up to 1550 F. At 13.3 lb it is the lightest pick here.",
           "weakness": "No water protection, and letter paper must be folded to fit the 12 x 7.5 in floor.",
           "links": [
             {
@@ -1368,10 +1599,64 @@
           "flags": [],
           "flag_check": "Queried the CPSC recall database (title search 'SentrySafe') on 2026-11-14: no results."
         },
-        "cadillac": null
-      },
-      "empty_reason": {
-        "cadillac": "No larger or longer-rated chest was checked against the maker's own sheet."
+        "cadillac": {
+          "brand": "SentrySafe",
+          "model": "Large Steel Fireproof Waterproof Safe with Digital Keypad",
+          "model_number": "SFW123GDC",
+          "size": "Outside 17.8 x 16.3 x 19.3 in; inside 13.8 x 12.6 x 11.9 in (1.23 cu ft). 86.7 lb. Digital keypad lock, with hardware to bolt it down.",
+          "unit_size": 1,
+          "unit_label": "safe",
+          "weight_oz": 1387,
+          "price_usd": null,
+          "price_seen_at": "",
+          "why": "Twice the fire time at a higher temperature: UL classified for 1 hour at up to 1700 F, against half an hour at 1550 F for the two chests, and ETL verified in 8 in of water for 24 hours. It holds about four times as much as the Standard and can be bolted down.",
+          "weakness": "About 87 lb, so it takes two people to move and is hard work on stairs. Its water rating covers 24 hours against the Standard's 72, and the maker shows only a price range of $200 to $400.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.sentrysafe.com/product/SFW123GDC",
+              "verified": true,
+              "note": "Model SFW123GDC, fire and water ratings stated. Price shown only as a range."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B005P12C5A",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen 2026-11-17 in Outdoor Life's link for this safe. Amazon page not opened."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: new Cadillac. sentrysafe.com/product/SFW123GDC opened today: 'UL Classified ... 1 hour in up to 1700 F', 'ETL Verified water resistance ... up to 8 inches of water for up to 24 hours', 86.69 lb, 1.23 cu ft, digital lock, price range $200 to $400. Master Lock technical sheet opened today: 1 hour up to 1700 F, UL listed yes, 8 in of water up to 24 hours, bolt-down hardware. store.sentrysafe.com answered HTTP 429 three times, so no shop price was seen; Outdoor Life's article (byline January 29, 2024) gives $290 on sale. Outdoor Life did not burn this model: its fire test was of an unnamed $41 safe.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SentrySafe",
+              "title": "Large Steel Fireproof Waterproof Safe with Digital Keypad SFW123GDC",
+              "url": "https://www.sentrysafe.com/product/SFW123GDC",
+              "verified": true,
+              "supports": "UL fire classification (1 hour up to 1700 F), ETL water verification (8 in for 24 hours), dimensions, weight, lock."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Master Lock (SentrySafe technical literature)",
+              "title": "SFW123GDC",
+              "url": "https://solutions.masterlock.com/Technical_Literature/Sentry_Safe/Water_and_Fireproof_Safes/Digital/SFW123GDC",
+              "verified": true,
+              "supports": "Fire test 1 hour up to 1700 F, UL listed, 8 in of water up to 24 hours, dimensions, 86.69 lb, bolt-down hardware. Same company as SentrySafe."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Fireproof Safes",
+              "url": "https://www.outdoorlife.com/gear/best-fireproof-safes/",
+              "verified": true,
+              "supports": "Named best for home, with the same ratings and weight. The outlet's own burn test used a different, cheaper safe."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No new recall search on 2026-11-17. The CPSC query of 2026-11-14 (title search 'SentrySafe') returned no results."
+        }
       }
     },
     {
@@ -1391,8 +1676,8 @@
         "A forgotten PIN or password means the data is gone. Hardware-encrypted drives erase themselves after a set number of wrong tries.",
         "Encrypting a drive in macOS Disk Utility erases everything on it first (Apple)."
       ],
-      "tier_note": "One pick: an ordinary drive you encrypt yourself keeps the copies private; a keypad drive validated to FIPS 140-3 costs about $100 more and only adds that it opens on any device without software.",
-      "prices_seen": "2026-11-16",
+      "tier_note": "Two picks: a pricier encrypted drive adds storage, not protection, and the Standard already holds an active FIPS 140-3 Level 3 validation.",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Samsung",
@@ -1403,7 +1688,7 @@
           "unit_label": "drive",
           "weight_oz": null,
           "price_usd": 31.99,
-          "price_seen_at": "samsung.com, out of stock there on November 16, 2026",
+          "price_seen_at": "samsung.com, seen November 17, 2026",
           "why": "An ordinary major-brand drive in a sealed metal body that Samsung lists as waterproof. It has no encryption of its own: you encrypt it yourself with BitLocker To Go on Windows, or by erasing it to an encrypted format in macOS Disk Utility.",
           "weakness": "A BitLocker drive is awkward to open on a Mac and a Mac-encrypted drive will not open on Windows, and turning BitLocker on needs Windows Pro, Enterprise or Education.",
           "links": [
@@ -1411,7 +1696,7 @@
               "label": "Manufacturer",
               "url": "https://www.samsung.com/us/memory-storage/usb-flash-drive/usb-3-1-flash-drive-bar-plus-64gb-champagne-silver-sku-muf-64be3-am/",
               "verified": true,
-              "note": "BAR Plus 64GB, MUF-64BE3/AM, $31.99, shown as out of stock on Samsung's own store."
+              "note": "BAR Plus 64GB, MUF-64BE3/AM, $31.99."
             }
           ],
           "link_note": "",
@@ -1442,34 +1727,85 @@
             }
           ],
           "flags": [
-            "Out of stock on samsung.com when checked; sold by other retailers.",
+            "Sold out at samsung.com on November 17, 2026.",
             "Not hardware encrypted and not FIPS validated."
           ],
           "flag_check": "No recall search run for this drive. No recall notice on the Samsung page opened 2026-11-14.",
-          "research_note": "price_seen_at was: samsung.com (listed as out of stock there today) | link_note was: No test publication for this drive was found without web search; the second and third sources are the operating-system makers' own instructions for the encryption step. No Amazon ASIN was seen today. | link_note was: No test publication was found for this drive; the other two sources are the operating-system makers' own instructions for the encryption step."
+          "research_note": "price_seen_at was: samsung.com (listed as out of stock there today) | link_note was: No test publication for this drive was found without web search; the second and third sources are the operating-system makers' own instructions for the encryption step. No Amazon ASIN was seen today. | link_note was: No test publication was found for this drive; the other two sources are the operating-system makers' own instructions for the encryption step. | Open-up pass 2026-11-17: samsung.com reopened: $31.99, 'Out of stock' with a 'Notify me' button, waterproof listed. Stock flag put in the set form; no equal is named because no other drive's pages were opened today. flags[0] was: Out of stock on samsung.com when checked; sold by other retailers."
         },
-        "standard": null,
+        "standard": {
+          "brand": "Kingston",
+          "model": "IronKey Keypad 200 (USB-A), 16GB",
+          "model_number": "IKKP200/16GB",
+          "size": "16 GB flash drive with a PIN keypad on its body, USB-A. Rated IP57 against dust and water. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "drive",
+          "weight_oz": null,
+          "price_usd": 124.25,
+          "price_seen_at": "Aztek Computers, $124.25 (down from $167.74), special order with 1 to 2 weeks' lead time, seen November 16, 2026; prices vary by retailer",
+          "why": "It unlocks with a PIN typed on the drive itself, so it opens on any computer with a USB port and needs no software, which matters on a borrowed or library computer. Its encryption module holds an active FIPS 140-3 Level 3 validation on NIST's list, and KitGuru's hands-on test found it worked as claimed.",
+          "weakness": "It costs about four times as much as the Budget drive for a quarter of the space, and repeated wrong PINs erase it.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.kingston.com/en/usb-flash-drives/ironkey-kp200-encrypted-usb-flash-drive",
+              "verified": false,
+              "note": "",
+              "research_note": "kingston.com answered HTTP 403 to WebFetch on 2026-11-17. It was read in a browser by an earlier pass (2026-11-14 to 2026-11-16)."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: restored as Standard. It was removed on 2026-11-16 for its price alone. NIST certificate 5133 reopened today: Kingston Technology Company, IronKey Keypad 200 Series, FIPS 140-3, overall Level 3, Active, validated 1/14/2026 (update 11/10/2026), sunset 12/15/2029. KitGuru's review (January 16, 2023, 8/10, 64GB sample, benchmarks and real file transfers) opened today; it was written while the certification was still pending. Price not re-seen today (newegg.com 403, kingston.com 403), so the 2026-11-16 price is left as it was. Why Standard and not Budget-only: turning on BitLocker To Go needs Windows Pro, Enterprise or Education, which most home PCs do not have, so the do-it-yourself route is only easy for Mac households. No Amazon ASIN seen.",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "NIST Cryptographic Module Validation Program",
+              "title": "Certificate #5133",
+              "url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133",
+              "verified": true,
+              "supports": "Kingston IronKey Keypad 200 Series, FIPS 140-3, overall Level 3, status Active, sunset December 15, 2029."
+            },
+            {
+              "type": "test_publication",
+              "name": "KitGuru",
+              "title": "Kingston IronKey Keypad 200 64GB Review",
+              "url": "https://www.kitguru.net/tech-news/featured-tech-reviews/simon-crisp/kingston-ironkey-keypad-200-64gb-review/all/1",
+              "verified": true,
+              "supports": "Hands-on test (January 2023, 8 of 10): PIN keypad needs no software and works with any operating system, IP57, speeds above the maker's ratings; high price."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Kingston",
+              "title": "IronKey Keypad 200",
+              "url": "https://www.kingston.com/en/usb-flash-drives/ironkey-kp200-encrypted-usb-flash-drive",
+              "verified": false,
+              "supports": "Part numbers, capacities and the maker's FIPS statement.",
+              "research_note": "HTTP 403 on 2026-11-17; last read in a browser by an earlier pass."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search run for this drive."
+        },
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "For a handful of document scans, more money buys capacity or fleet-management features, not better protection. Neither upgrade candidate could be confirmed: one cites a FIPS certificate that NIST now lists as historical, and the other's product page was not checked.",
-        "research_note": "cadillac was: For a handful of document scans, more money buys capacity or fleet-management features, not better protection. The two candidates both fell short today: Apricorn's Aegis Secure Key 3NX (from $139 on apricorn.com) cites FIPS 140-2 certificate #4420, which NIST now lists as historical, and its newer FIPS 140-3 certificate #5517 (active, validated 9/9/2026) names the 'Aegis Secure Key 3.0' module without listing the 3NX; Kingston's IronKey D500S has an active FIPS 140-3 Level 3 certificate (#5029) but its product page could not be opened.",
-        "standard": "A $124 keypad drive only adds that it opens on any device without software; an ordinary drive encrypted with the tools built into Windows or macOS keeps the copies just as private."
+        "cadillac": "A pricier drive buys more storage, not more protection for a handful of document scans: the Standard already holds an active FIPS 140-3 Level 3 validation.",
+        "research_note": "cadillac was: For a handful of document scans, more money buys capacity or fleet-management features, not better protection. The two candidates both fell short today: Apricorn's Aegis Secure Key 3NX (from $139 on apricorn.com) cites FIPS 140-2 certificate #4420, which NIST now lists as historical, and its newer FIPS 140-3 certificate #5517 (active, validated 9/9/2026) names the 'Aegis Secure Key 3.0' module without listing the 3NX; Kingston's IronKey D500S has an active FIPS 140-3 Level 3 certificate (#5029) but its product page could not be opened."
       },
-      "research_note": "item_flags[3] was: No recall search was run for USB drives. No Amazon ASINs were seen today. | item_flags moved off the page: FIPS 140-2 certificates are now historical. NIST's listing for Apricorn's Aegis Secure Key 3NX (certificate #4420, FIPS 140-2 Level 3) shows status 'Historical - moved to historical list due to sunsetting', and Apricorn's product page still cites that certificate. Only FIPS 140-3 certificates are active. If you need a currently validated drive, check the certificate number at csrc.nist.gov before buying. | 16 Nov 2026 (Step 6.3): standard tier dropped. Old pick: Kingston IronKey Keypad 200 (USB-A) (IKKP200/16GB), $124.25 at Aztek Computers, $124.25 (down from $167.74), special order with 1 to 2 weeks' lead time, seen November 16, 2026; prices vary by retailer; sources: NIST Cryptographic Module Validation Program https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133; Kingston https://www.kingston.com/en/usb-flash-drives/ironkey-kp200-encrypted-usb-flash-drive. Owner names the $124 USB drive as not buying anything the job needs (prompt 6.3; the coordinator called it the Cadillac). Old pick: Kingston IronKey Keypad 200 IKKP200/16GB, FIPS 140-3 Level 3 (NIST #5133), $124.25 Aztek Computers 2026-11-16."
+      "research_note": "item_flags[3] was: No recall search was run for USB drives. No Amazon ASINs were seen today. | item_flags moved off the page: FIPS 140-2 certificates are now historical. NIST's listing for Apricorn's Aegis Secure Key 3NX (certificate #4420, FIPS 140-2 Level 3) shows status 'Historical - moved to historical list due to sunsetting', and Apricorn's product page still cites that certificate. Only FIPS 140-3 certificates are active. If you need a currently validated drive, check the certificate number at csrc.nist.gov before buying. | 16 Nov 2026 (Step 6.3): standard tier dropped. Old pick: Kingston IronKey Keypad 200 (USB-A) (IKKP200/16GB), $124.25 at Aztek Computers, $124.25 (down from $167.74), special order with 1 to 2 weeks' lead time, seen November 16, 2026; prices vary by retailer; sources: NIST Cryptographic Module Validation Program https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133; Kingston https://www.kingston.com/en/usb-flash-drives/ironkey-kp200-encrypted-usb-flash-drive. Owner names the $124 USB drive as not buying anything the job needs (prompt 6.3; the coordinator called it the Cadillac). Old pick: Kingston IronKey Keypad 200 IKKP200/16GB, FIPS 140-3 Level 3 (NIST #5133), $124.25 Aztek Computers 2026-11-16. | Open-up pass 2026-11-17: Kingston IronKey Keypad 200 restored as Standard. Cadillac stays empty by reasoning, not by a named test: no outlet was found that tests dearer encrypted drives against this job. Dearer products seen in search results only (Apricorn Aegis Secure Key 3NXC, Keypad 200C at larger sizes, encrypted portable SSDs) add capacity or USB-C; none was opened. If the owner wants a Cadillac, an encrypted keypad SSD that holds a whole household's photos and files is the place to look. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's Amazon Basics USB Flash Drive: it is an ordinary flash drive that is not encrypted, so it fills the same place as the Budget drive here, which you encrypt yourself; its only maker page is on Amazon, which this site does not read as a source, so the Samsung with a maker's page opened on November 17, 2026 stays, and the Standard is a keypad drive because this item is about encrypted copies."
     },
     {
       "id": "pocket-radio",
       "module": "bags",
-      "name": "Pocket radio",
+      "name": "Radio for the bag",
       "need": "When phone networks are jammed or down, broadcast radio and NOAA Weather Radio are how official instructions reach you, and a pocket set on AA cells runs for days.",
-      "how_to_choose": "Look for AM, FM and the NOAA weather band, power from AA or AAA cells you can buy anywhere, and a size that fits a jacket pocket. Earbuds stretch battery life and keep it discreet on transit. Store the batteries outside the radio so they cannot leak into it.",
+      "how_to_choose": "Look for AM, FM and the NOAA weather band, and check what it runs on: AA cells can be bought anywhere and swapped in seconds, while a built-in rechargeable battery has to be kept charged. The picks here weigh about 4 to 6 oz without cells and run for days on one set. Earbuds stretch battery life and keep it discreet on transit. Store the batteries outside the radio so they cannot leak into it.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
         "note": "One per household, in the bag."
       },
-      "already_own": "Any small AM/FM radio that runs on AA or AAA cells is useful. If it lacks the weather band, that is acceptable in a city where local news stations carry emergency information.",
+      "already_own": "Any small AM/FM radio you own is useful if you keep fresh cells or a full charge for it. If it lacks the weather band, that is acceptable in a city where local news stations carry emergency information.",
       "safety_notes": [
         {
           "text": "Ready.gov's basic disaster kit list includes a battery-powered or hand-crank radio and a NOAA Weather Radio with tone alert, plus extra batteries.",
@@ -1480,10 +1816,53 @@
         }
       ],
       "item_flags": [],
-      "tier_note": "One pick: cheaper pocket radios from known brands are discontinued or out of stock, and pricier ones add shortwave and aviation bands a city household will not tune.",
-      "prices_seen": "2026-11-16",
+      "prices_seen": "2026-11-17",
       "tiers": {
-        "budget": null,
+        "budget": {
+          "brand": "Midland",
+          "model": "ER10VP Compact Emergency Alert AM/FM Weather Radio",
+          "model_number": "ER10VP",
+          "size": "5 x 3 x 1.2 in. AM, FM and NOAA weather band with an alert. Runs on 3 AA cells (included). LED flashlight with SOS strobe; headphone jack. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "radio",
+          "weight_oz": null,
+          "price_usd": 39.99,
+          "price_seen_at": "midlandusa.com",
+          "why": "Less than half the Standard's price, and it still has AM, FM, the NOAA weather band with an alert, and a flashlight. Outdoor Life's best budget pick among the radios it tested.",
+          "weakness": "Larger than the Standard, and it has no way to recharge, so carry spare cells. No test read here measured how long a set of cells lasts.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://midlandusa.com/products/er10vp-eready-compact-emergency-alert-am-fm-weather-radio",
+              "verified": true,
+              "note": "",
+              "research_note": "midlandusa.com answered HTTP 429 to WebFetch four times on 2026-11-17. Read in the browser pane on 2026-11-15 for the emergency-radio item (data/products/power-b.json): $34.99, Add to cart active, 3 AA cells, 5 x 3 x 1.2 in."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: new Budget. The same radio is the Standard of the home emergency-radio item; its size, cells and price are copied from that item's 2026-11-15 reading of Midland's page, which could not be reopened today. Outdoor Life's guide (byline May 23, 2025) was opened today; it describes the radio as taking standard batteries and recommends AAA, which conflicts with Midland's 3 AA. The main session should reopen Midland's page in a browser. | 2026-11-17, main worker: Midland's ER10VP page read in Chrome: $39.99, Add to cart.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Emergency Radios",
+              "url": "https://www.outdoorlife.com/gear/best-emergency-radios/",
+              "verified": true,
+              "supports": "Named Best Budget among the radios the authors tested: cost-effective and easy to use, runs on replaceable cells only."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Midland",
+              "title": "ER10VP E+READY Compact Emergency Alert AM/FM Weather Radio",
+              "url": "https://midlandusa.com/products/er10vp-eready-compact-emergency-alert-am-fm-weather-radio",
+              "verified": true,
+              "supports": "Bands, NOAA weather alert, 3 AA cells included, flashlight, size, price.",
+              "research_note": "HTTP 429 on 2026-11-17; last read 2026-11-15 in the browser pane for the emergency-radio item."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search run for Midland on 2026-11-17."
+        },
         "standard": {
           "brand": "C. Crane",
           "model": "CC Pocket AM, FM, NOAA Weather Radio + Alert",
@@ -1493,7 +1872,7 @@
           "unit_label": "radio",
           "weight_oz": 3.8,
           "price_usd": 74.99,
-          "price_seen_at": "ccrane.com, in stock, seen November 16, 2026",
+          "price_seen_at": "ccrane.com, in stock, seen November 17, 2026",
           "why": "A true pocket radio with AM, FM, all seven NOAA weather channels and a weather-alert mode, running for days on two AA cells.",
           "weakness": "Pricey for its size, the built-in speaker is tiny, and the maker advises against lithium AA cells.",
           "links": [
@@ -1525,16 +1904,61 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'radio') on 2026-11-14: no C. Crane recall.",
-          "research_note": "link_note was: Second source is a single-reviewer hobby blog, not an institutional test. Alert mode uses more battery. No Public Alert or SAME feature is claimed, so it cannot be set to a county code."
+          "research_note": "link_note was: Second source is a single-reviewer hobby blog, not an institutional test. Alert mode uses more battery. No Public Alert or SAME feature is claimed, so it cannot be set to a county code. | Open-up pass 2026-11-17: ccrane.com reopened: CCPKT $74.99, 'In Stock; usually ships within 1 business day', 2.5 x 4.2 x 1 in, 3.8 oz, about 80 hours on the speaker and 100 on earbuds, lithium AA cells not to be used. RadioJayAllen's review reopened (updated February 2025)."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "C. Crane",
+          "model": "CC Skywave SSB 2 with AM, FM, Shortwave, NOAA Weather + Alert and Aviation Bands",
+          "model_number": "SSB2",
+          "size": "4.8 x 3 x 1 in. 6 oz without batteries. 2 AA cells: about 60 hours on the speaker, 70 hours on earbuds. Earbuds, carry case and a reel antenna for shortwave included.",
+          "unit_size": 1,
+          "unit_label": "radio",
+          "weight_oz": 6,
+          "price_usd": 189.99,
+          "price_seen_at": "ccrane.com, in stock, seen November 17, 2026",
+          "why": "It adds shortwave with single-sideband and the aviation band to AM, FM and NOAA weather with an alert, so it can pick up distant broadcasters and amateur radio operators when local stations are off the air. The Prepared's upgrade pick, and RadioJayAllen's hands-on review calls its performance excellent for its size.",
+          "weakness": "More than twice the Standard's price, AM is its weakest band, and shortwave takes practice. C. Crane's $110 Skywave 2 has the same bands without single-sideband.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands",
+              "verified": true,
+              "note": "Item SSB2, $189.99, in stock."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Open-up pass 2026-11-17: restored. It was removed on 2026-11-16 because 'a city household will not tune' the extra bands and because it was on backorder. ccrane.com today: SSB2 $189.99, 'In Stock; usually ships within 1 business day'. The Skywave 2 page was also opened today: SKWV2 $109.99, in stock, same size, 6 oz, shortwave 2300-26100 kHz, no single-sideband. The Prepared's article (updated December 21, 2020) tested the first Skywave SSB, not the SSB 2; RadioJayAllen's review is of the SSB 2 and says it behaves almost identically to the first. No Amazon ASIN seen.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "C. Crane",
+              "title": "CC Skywave SSB 2",
+              "url": "https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands",
+              "verified": true,
+              "supports": "Price, bands, single-sideband, weather alert, 2 AA power and run time, size, weight, included antenna and case, 1-year warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "RadioJayAllen.com (Jay Allen, independent radio reviewer)",
+              "title": "C. Crane CC Skywave SSB 2",
+              "url": "https://radiojayallen.com/c-crane-skywave-ssb-2/",
+              "verified": true,
+              "supports": "Hands-on review of the SSB 2 beside the first Skywave SSB: sensitive on every band but AM, strong shortwave tools, weather alert; recommended."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best emergency radios",
+              "url": "https://theprepared.com/gear/reviews/emergency-radio/",
+              "verified": true,
+              "supports": "Names the earlier CC Skywave SSB its upgrade pick for single-sideband reception. Article updated December 2020."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No new recall search on 2026-11-17. The CPSC query of 2026-11-14 (title search 'radio') showed no C. Crane recall."
+        }
       },
-      "empty_reason": {
-        "budget": "Both obvious cheap pocket radios are gone: Sangean marks its DT-160 discontinued, and Sony's ICF-P26 showed out of stock at every US listing found. No other budget pocket radio has passed this site's checks. A basic AM/FM pocket radio on AA cells from a known brand is a reasonable buy. The budget crank radios that Outdoor Life and Popular Science praise are 11 oz hand-crank sets, not pocket radios.",
-        "research_note": "budget was: ...Sangean's DT-160 is marked discontinued by Sangean (CampSaver page, opened 2026-11-15)...; this file cannot name one that was checked. ...(RunningSnail, no model number given in either review)...",
-        "cadillac": "The $190 Skywave SSB 2 adds shortwave and aviation bands that a city household will not tune."
-      },
-      "research_note": "item_flags[1] was: No Amazon ASINs for these radios were seen today. | item_flags moved off the page: Standard and cadillac picks come from one maker (C. Crane). Sony's and Sangean's cheap pocket radios are discontinued or out of stock. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: C. Crane CC Skywave SSB 2 (SSB2), $189.99 at ccrane.com (on backorder, expected to ship by 11/30/26); sources: C. Crane https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands; The Prepared https://theprepared.com/gear/reviews/emergency-radio/. Same test as prompt 6.3: its own weakness said most city households will never tune the extra bands; on backorder 2026-11-16."
+      "research_note": "item_flags[1] was: No Amazon ASINs for these radios were seen today. | item_flags moved off the page: Standard and cadillac picks come from one maker (C. Crane). Sony's and Sangean's cheap pocket radios are discontinued or out of stock. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: C. Crane CC Skywave SSB 2 (SSB2), $189.99 at ccrane.com (on backorder, expected to ship by 11/30/26); sources: C. Crane https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands; The Prepared https://theprepared.com/gear/reviews/emergency-radio/. Same test as prompt 6.3: its own weakness said most city households will never tune the extra bands; on backorder 2026-11-16. | Open-up pass 2026-11-17: renamed from 'Pocket radio'. Budget filled (Midland ER10VP), Cadillac restored (CC Skywave SSB 2). No Compact pick: the Standard is already the smallest and lightest radio weighed. Old empty reasons, for the record: budget: Both obvious cheap pocket radios are gone: Sangean marks its DT-160 discontinued, and Sony's ICF-P26 showed out of stock at every US listing found. No other budget pocket radio has passed this site's checks. A basic AM/FM pocket radio on AA cells from a known brand is a reasonable buy. The budget crank radios that Outdoor Life and Popular Science praise are 11 oz hand-crank sets, not pocket radios. cadillac: The $190 Skywave SSB 2 adds shortwave and aviation bands that a city household will not tune. Sony's ICF-P27 (the current model; the ICF-P26 the earlier pass looked for is discontinued) has a hands-on RadioJayAllen review opened today, but electronics.sony.com cannot be opened by the reader and it has no weather band, so it is not a pick. Why ours and not The Prepared's C. Crane CC Skywave: that radio's successor, the $110 Skywave 2, adds shortwave and aviation bands, which carry no local emergency instructions; for AM, FM and NOAA weather the CC Pocket does the same job on the same two AA cells for about 20 hours longer (80 against 60 on the speaker, maker's figures) at 3.8 oz against 6 oz, and the shortwave step up is the Cadillac. Why ours and not RadioJayAllen's Sangean DT-800 (his reference pocket radio): he rates the CC Pocket's reception excellent on all three bands as well, and Sangean's own page for the DT-800 could not be found on November 17, 2026, so its battery and weather-alert details were not confirmed. Why ours and not Outdoor Life's Midland ER210: it is a hand-crank radio with a built-in rechargeable battery, the kind the home emergency-radio item covers; The Prepared reports that cranks add weight and bulk, tend to break, and return about five minutes of listening for two minutes of cranking, while two AA cells run the Standard for about 80 hours."
     },
     {
       "id": "eye-protection",
@@ -1554,7 +1978,7 @@
         "No pick was confirmed to carry the specific Z87.1 dust markings (D4 or D5). Gasketed eyewear reduces dust but is not a sealed dust goggle.",
         "Check for the Z87+ mark on the pair you buy."
       ],
-      "research_note": "Prompt 2.14 / B-D11: 'fumes' removed. Radians' DPG82 page and DeWalt's DPG82 page, both opened 2026-11-15, describe protection from dust and debris and Z87.1 impact, list ventilation channels, and make no claim for gases or fumes. item_flags[0] was: The ANSI Z87.1 rating could be confirmed from the maker's own page today for the budget and cadillac picks only. The standard pick's rating should be checked on the lens (look for Z87+). (Stale: DeWalt's page states Z87.1+.)",
+      "research_note": "Prompt 2.14 / B-D11: 'fumes' removed. Radians' DPG82 page and DeWalt's DPG82 page, both opened 2026-11-15, describe protection from dust and debris and Z87.1 impact, list ventilation channels, and make no claim for gases or fumes. item_flags[0] was: The ANSI Z87.1 rating could be confirmed from the maker's own page today for the budget and cadillac picks only. The standard pick's rating should be checked on the lens (look for Z87+). (Stale: DeWalt's page states Z87.1+.) | Open-up pass 2026-11-17: no pick changed (life-safety rule). TechGearLab's guide reopened today (updated January 16, 2024): Editors' Choice goes to the NoCry Clear Anti Fog glasses and the SolidWork Safety Goggles; the DeWalt Concealer is its Top Pick for use with a respirator; the page never mentions ANSI Z87.1. Why ours and not TechGearLab's SolidWork Safety Goggles: TechGearLab found the DeWalt Concealer the best match with a respirator, which this plan packs beside the eye protection, and its Z87.1+ statement was read on DeWalt's own page; the SolidWork goggle's Z87.1 marking has not been confirmed on its maker's page, and under the life-safety rule the pick does not change until it is. | Wirecutter follow-up 2026-11-17 (its pick read by the coordinator in a browser; Wirecutter itself not opened here). Why ours and not Wirecutter's Radians MR0111ID Mirage: TechGearLab's test (opened November 17, 2026; its low-price pick) describes open safety glasses and names no gasket or seal on them, and this item asks for a gasket that closes the gap around the eyes against dust and ash; Radians' own page for the Mirage could not be found (two addresses, both 404), so its Z87.1 statement was not read and under the life-safety rule no pick changes.",
       "prices_seen": "2026-11-16",
       "tiers": {
         "budget": {

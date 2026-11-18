@@ -7,7 +7,7 @@
       "module": "water",
       "name": "Portable water filter",
       "need": "A small filter lets you make doubtful tap water or collected water safer to drink when you cannot boil it, and it fits in a grab bag.",
-      "how_to_choose": "Look for a hollow-fiber filter from a known brand with a stated pore size of 0.2 micron or smaller and published lab results. These filters remove bacteria and parasites but not viruses, chemicals, fuel or heavy metals, so pair them with bleach or tablets when sewage may be in the water. Pick one that threads onto an ordinary 28 mm drink bottle, so you can fill containers at the sink instead of only sipping through it. A 28 mm thread is the narrow soda-bottle size: it does not screw onto a wide-mouth bottle such as a 63 mm Nalgene. If your bottle is wide-mouthed, fill the filter's own pouch or a narrow 28 mm bottle with the doubtful water and squeeze it through the filter into your bottle. Check whether the filter comes with a pouch; not all do. Most hollow-fiber filters are ruined if they freeze after first use, so store them indoors and do not leave one in a cold car or on a winter balcony.",
+      "how_to_choose": "Look for a hollow-fiber filter from a known brand with a stated pore size of 0.2 micron or smaller and published lab results. These filters remove bacteria and parasites but not viruses, chemicals, fuel or heavy metals, so pair them with bleach or tablets when sewage may be in the water. One that threads onto an ordinary 28 mm drink bottle lets you fill containers at the sink instead of only sipping through it. A 28 mm thread is the narrow soda-bottle size: it does not screw onto a wide-mouth bottle such as a 63 mm Nalgene. If your bottle is wide-mouthed, fill the filter's own pouch or a narrow 28 mm bottle with the doubtful water and squeeze it through the filter into your bottle. Check whether the filter comes with a pouch; not all do. Most hollow-fiber filters are ruined if they freeze after first use, so store them indoors and do not leave one in a cold car or on a winter balcony.",
       "qty": {
         "basis": "per_adult",
         "factor": 0.5,
@@ -56,7 +56,7 @@
         "The Prepared warns that many low-priced filter brands on Amazon are white-label products from unknown makers with no real company behind them, and advises avoiding them.",
         "Hollow-fiber filters (Sawyer, LifeStraw, Platypus, Katadyn BeFree) can crack internally if water inside them freezes. The damage cannot be seen. Sawyer states a filter suspected of freezing must be replaced and is not covered by warranty."
       ],
-      "research_note": "Audit A asked whether every filter was really unavailable on 2026-11-14 or the checker was blocked. Makers' pages were re-opened in a browser on 2026-11-15. LifeStraw Peak Straw: every colour and pack sold out ('Notify me when available'). MSR Guardian: 'Notify me when available'. Sawyer Squeeze: the 'This product is out of stock' text recorded on 2026-11-14 sits in the page's code but is hidden from a visitor (an unused shop template); the visible page shows $45.99 and 'Find in Stores'. Retailer stock (REI, Amazon) was not checked: those sites refuse automated readers and Amazon is never read as a source. 2026-11-16 alignment pass: off the page from item_flags: Counterfeits: Sawyer has a standing notice (dated October 25, 2018) that counterfeit Sawyer MINI filters carrying its trademark, packaging and UPC were sold by third parties on online marketplaces. The fakes were found in the slim clamshell pack, have a taller ridged cap and do not thread properly onto 28 mm bottles. Sawyer says to email counterfeit@sawyer.com if in doubt. Buy filters from the brand's own store, a known outdoor retailer, or a marketplace listing sold by the brand itself. https://sawyer.com/counterfeit/ | Stock on November 16, 2026: REI listed the Sawyer Squeeze for pre-order at $45.95 ('Most pre-orders ship in 30 days or less'). LifeStraw's Peak Straw and MSR's Guardian were sold out at their makers on November 15, 2026. Check stock before you plan around any of them.",
+      "research_note": "Audit A asked whether every filter was really unavailable on 2026-11-14 or the checker was blocked. Makers' pages were re-opened in a browser on 2026-11-15. LifeStraw Peak Straw: every colour and pack sold out ('Notify me when available'). MSR Guardian: 'Notify me when available'. Sawyer Squeeze: the 'This product is out of stock' text recorded on 2026-11-14 sits in the page's code but is hidden from a visitor (an unused shop template); the visible page shows $45.99 and 'Find in Stores'. Retailer stock (REI, Amazon) was not checked: those sites refuse automated readers and Amazon is never read as a source. 2026-11-16 alignment pass: off the page from item_flags: Counterfeits: Sawyer has a standing notice (dated October 25, 2018) that counterfeit Sawyer MINI filters carrying its trademark, packaging and UPC were sold by third parties on online marketplaces. The fakes were found in the slim clamshell pack, have a taller ridged cap and do not thread properly onto 28 mm bottles. Sawyer says to email counterfeit@sawyer.com if in doubt. Buy filters from the brand's own store, a known outdoor retailer, or a marketplace listing sold by the brand itself. https://sawyer.com/counterfeit/ | Stock on November 16, 2026: REI listed the Sawyer Squeeze for pre-order at $45.95 ('Most pre-orders ship in 30 days or less'). LifeStraw's Peak Straw and MSR's Guardian were sold out at their makers on November 15, 2026. Check stock before you plan around any of them. 2026-11-17 open-up pass: no pick here was passed over for size, cells, price, brand or stock, so the three picks stand. The 28 mm thread sentence was reworded so that it describes instead of excludes. No Compact pick: every pick is already pocket-size. OutdoorGearLab's test was re-read today (updated October 12, 2026): LifeStraw Peak Squeeze 78 (best overall for personal use), Katadyn BeFree AC 77, MSR Guardian 75, Sawyer Squeeze 71 (Best Buy), LifeStraw Peak Straw 71. CleverHiker (updated October 16, 2026) still names the Sawyer Squeeze best overall. The Prepared's review (dated July 25, 2025) names the HydroBlu Versa inline filter kit ($26) its best single product for most people and the MSR Guardian its upgrade pick. Why ours and not OutdoorGearLab's LifeStraw Peak Squeeze: OutdoorGearLab scores the Peak Squeeze 78 and the Sawyer Squeeze 71, but for a kit that sits for years and then fills containers at a sink the Sawyer has finer pores (0.1 micron absolute against 0.2), a filter rated for about 100,000 gallons against about 500 (2,000 L), two pouches in the box, and it is CleverHiker's best overall and OutdoorGearLab's own best-value pick. Why ours and not The Prepared's HydroBlu Versa inline filter kit: The Prepared is the only tester found that picks it, none of the other tests opened included it, and The Prepared itself describes the Sawyer Squeeze as a faster-flowing filter that needs less backflushing than the Sawyer Mini. Stock on November 17, 2026, makers' own shops: LifeStraw Peak Straw sold out in every color and pack; MSR Guardian sold out; Sawyer's page lists the Squeeze at $45.99 and sends buyers to retailers. Retailers were not checked. | 2026-11-17, main worker: re-read in Chrome after the helper's direct data request: LifeStraw Peak Series Straw $24.95 'Notify me when available'; MSR Guardian Purifier $399.95 'Out of Stock'. | 2026-11-17 follow-up, pages opened by WebFetch: Why ours and not Wirecutter's Sawyer Mini: Sawyer's page for the Mini (opened today, $28.99 for the kit with one 16 oz pouch, shown as out of stock) gives the same 0.1 micron absolute membrane and the same bacteria and protozoa figures as the Squeeze, so the Mini is no safer, and the tests that compare the two favor the Squeeze: The Prepared (July 2025) calls the Squeeze about twice as fast with less backflushing and says the Mini is no longer the clear winner, and OutdoorGearLab timed the Mini at about 2 minutes a liter and found it clogs easily (score 60, review dated May 2019) against 71 for the Squeeze in its current test, while Sawyer's standing counterfeit notice concerns the Mini. The Mini was not made the Budget pick either: its only test opened is from 2019, and the LifeStraw Peak Straw scores 71 in OutdoorGearLab's current test.",
       "tiers": {
         "budget": {
           "brand": "LifeStraw",
@@ -75,11 +75,11 @@
               "url": "https://lifestraw.com/products/lifestraw-peak-series-straw",
               "verified": true,
               "note": "",
-              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429) on this site. 2026-11-15: opened in a browser; 'This product is out of stock', 'Notify me when available', and the shop's own product data shows all four variants unavailable. 2026-11-16 alignment pass: old note: $24.95; every color and pack sold out on November 15, 2026."
+              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429) on this site. 2026-11-15: opened in a browser; 'This product is out of stock', 'Notify me when available', and the shop's own product data shows all four variants unavailable. 2026-11-16 alignment pass: old note: $24.95; every color and pack sold out on November 15, 2026. 2026-11-17 open-up pass: the shop's own product data still shows all four variants unavailable; $24.95."
             }
           ],
           "link_note": "",
-          "research_note": "No ASIN for this exact product was seen in any page opened on 2026-11-14, and web search ran out before one could be found. Recall check: on 2026-11-14 the CPSC recalls page did not run the query for automated access (only the default recent list showed), so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: old link_note: No Amazon link. Sold out at the maker; try an outdoor retailer. 2026-11-16 alignment pass: off the page from flags: Sold out in every color and pack at LifeStraw.com on November 15, 2026. | NSF's online listing returned no products under the trade name LifeStraw on 2026-11-14. The P231 claim rests on LifeStraw's own published lab reports, not an NSF certificate.",
+          "research_note": "No ASIN for this exact product was seen in any page opened on 2026-11-14, and web search ran out before one could be found. Recall check: on 2026-11-14 the CPSC recalls page did not run the query for automated access (only the default recent list showed), so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: old link_note: No Amazon link. Sold out at the maker; try an outdoor retailer. 2026-11-16 alignment pass: off the page from flags: Sold out in every color and pack at LifeStraw.com on November 15, 2026. | NSF's online listing returned no products under the trade name LifeStraw on 2026-11-14. The P231 claim rests on LifeStraw's own published lab reports, not an NSF certificate. 2026-11-17 open-up pass: no equal is named in the stock flag because no other $25 filter had both its maker's page and a test opened today.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -100,7 +100,8 @@
           ],
           "flags": [
             "It comes with no pouch, so the bag-list line 'with the filter's own pouch' does not apply to this pick: carry a squeezable 28 mm bottle with it.",
-            "Not NSF-certified: its claim to meet NSF P231 rests on LifeStraw's own published lab reports."
+            "Not NSF-certified: its claim to meet NSF P231 rests on LifeStraw's own published lab reports.",
+            "Sold out at LifeStraw.com on November 17, 2026."
           ],
           "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall is mentioned on the maker's page or in the reviews read, and LifeStraw's testing page carries no counterfeit notice."
         },
@@ -121,7 +122,7 @@
               "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
               "verified": true,
               "note": "The page sends you to retailers ('Find in Stores').",
-              "research_note": "The 'out of stock' text recorded on 2026-11-14 is in the page's code but hidden from a visitor (an unused shop template), as seen in a browser on 2026-11-15. It was not a stock notice. 2026-11-16 alignment pass: old note: SP129CL at $45.99 on November 15, 2026. The page sends you to retailers ('Find in Stores')."
+              "research_note": "The 'out of stock' text recorded on 2026-11-14 is in the page's code but hidden from a visitor (an unused shop template), as seen in a browser on 2026-11-15. It was not a stock notice. 2026-11-16 alignment pass: old note: SP129CL at $45.99 on November 15, 2026. The page sends you to retailers ('Find in Stores'). 2026-11-17 open-up pass: page re-read by direct request; SP129CL at $45.99."
             },
             {
               "label": "Amazon",
@@ -189,7 +190,7 @@
               "url": "https://cascadedesigns.com/products/guardian-purifier",
               "verified": true,
               "note": "This is MSR's own store.",
-              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; the button reads 'Notify me when available' and the shop's product data marks SKU 14003 unavailable. 2026-11-16 alignment pass: old note: SKU 14003 at $399.95; sold out ('Notify me when available') on November 15, 2026. This is MSR's own shop."
+              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; the button reads 'Notify me when available' and the shop's product data marks SKU 14003 unavailable. 2026-11-16 alignment pass: old note: SKU 14003 at $399.95; sold out ('Notify me when available') on November 15, 2026. This is MSR's own shop. 2026-11-17 open-up pass: the shop's product data still marks SKU 14003 unavailable; $399.95."
             },
             {
               "label": "Amazon",
@@ -200,7 +201,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Recall check: on 2026-11-14 the CPSC recall search page did not run the query for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database (Cascade Designs' only 2024 recall was camping cooking pots; a 2002 recall concerned MSR stove fuel; neither is a filter). 2026-11-16 alignment pass: off the page from flags: Sold out at MSR's own store on November 15, 2026. | NSF P248 is a test protocol, not a public certificate. NSF's online listing returned no products for Cascade Designs on 2026-11-14, so the P248 claim rests on MSR's published testing.",
+          "research_note": "Recall check: on 2026-11-14 the CPSC recall search page did not run the query for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database (Cascade Designs' only 2024 recall was camping cooking pots; a 2002 recall concerned MSR stove fuel; neither is a filter). 2026-11-16 alignment pass: off the page from flags: Sold out at MSR's own store on November 15, 2026. | NSF P248 is a test protocol, not a public certificate. NSF's online listing returned no products for Cascade Designs on 2026-11-14, so the P248 claim rests on MSR's published testing. 2026-11-17 open-up pass: no equal is named in the stock flag; no other pump purifier was opened today.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -236,19 +237,20 @@
             }
           ],
           "flags": [
-            "NSF P248 is a test protocol, not an NSF certificate: the claim rests on MSR's published testing."
+            "NSF P248 is a test protocol, not an NSF certificate: the claim rests on MSR's published testing.",
+            "Sold out at MSR's own store on November 17, 2026."
           ],
           "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the MSR page or in the reviews read."
         }
       },
-      "prices_seen": "2026-11-15"
+      "prices_seen": "2026-11-17"
     },
     {
       "id": "water-filter-household",
       "module": "water",
       "name": "Household gravity water filter",
       "need": "If you shelter at home for two to four weeks under a boil-water notice or with collected water, a gravity filter treats several gallons a day without fuel or power.",
-      "how_to_choose": "Buy only a system whose germ-removal claims are backed by a certificate or by published lab tests, and check what the test actually covers. Bag-style gravity filters fold flat in a drawer and hang from a door hook or shower rod, which suits a small apartment better than a tall steel urn. Standard filters (0.2 micron) still need a disinfection step for viruses; a purifier (0.02 micron) does both. None of these makes water with fuel, chemicals or floodwater safe. If money is tight, the budget pick plus bleach does the same job as the pricier ones, just more slowly.",
+      "how_to_choose": "Buy only a system whose germ-removal claims are backed by a certificate or by published lab tests, and check what the test actually covers. A countertop urn stands about 20 inches tall, takes water poured in the top and keeps about 2 gallons of filtered water behind a tap; a bag-style gravity filter hangs from a door hook or shower rod and folds flat in a drawer. Ordinary filters (ceramic candles and 0.2 micron membranes) still need a disinfection step for viruses; a purifier (0.02 micron) does both. None of these makes water with fuel, chemicals or floodwater safe. If money is tight, the budget pick plus bleach does the same job as the pricier ones, in smaller batches.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -304,7 +306,7 @@
         "Berkey's newer 'Phoenix' elements are certified only for taste, odor and lead-free materials (NSF/ANSI 42 and 372) and make no germ claims, so a Berkey fitted with them is a taste filter, not an emergency filter. Black Berkey elements sold on marketplaces may be old stock or counterfeit.",
         "Hollow-fiber cartridges can be destroyed by freezing once wet. Store the filter indoors."
       ],
-      "research_note": "Berkey notes, 2026-11-14: the Fifth Circuit opinion file (No. 23-11189) could not be read that day. Search results described a class action filed in late 2022 alleging the filters do not perform as advertised; those pages were not opened and its status is not confirmed, so it is not stated to readers. Wirecutter's Berkey review could not be opened (nytimes.com refuses automated readers). Stock, 2026-11-15, makers' pages opened in a browser: LifeStraw Peak Gravity 3L sold out in both colours; Platypus GravityWorks 4.0L in stock ('Add to cart'), 6.0L sold out; MSR Guardian Gravity sold out. The 2026-11-14 note that the GravityWorks 4.0L was unavailable no longer holds. 2026-11-16 alignment pass: off the page from item_flags: Berkey (New Millennium Concepts) is not recommended. EPA Region 8 issued Stop Sale, Use or Removal Orders under the pesticide law FIFRA: to dealer James Enterprise on December 27, 2022, then six more orders between February and May 2023, including one to Berkey International on May 8, 2023 (docket FIFRA-08-2023-0038). EPA's position is that Black Berkey elements contain silver, were sold with germ-killing claims such as removing 'up to 99.999% of viruses', and were never registered. The orders are stop-sale orders, not a recall. | Berkey court status as verified on 2026-11-14: a federal judge in the Northern District of Texas dismissed the manufacturer's suit against EPA for lack of standing (reported by Bloomberg Law, November 20, 2023). In Berkey International v. EPA, No. 24-1917, the US Court of Appeals for the First Circuit on September 18, 2026 upheld the denial of a preliminary injunction, finding Berkey unlikely to succeed. The Fifth Circuit also issued an opinion on August 9, 2024 (No. 23-11189); its outcome is not confirmed here. | Berkey certification: no NSF/ANSI performance certification for Black Berkey elements was found. Berkey's own page says only that third-party labs 'reported that the elements meet ANSI/NSF (Std. 53) protocol', which is a lab report, not a certificate. | Berkey availability on 2026-11-14: berkeywater.com lists Black Berkey elements as 'out of stock or limited availability' with no price and will not sell to California or Iowa residents. The company now promotes 'Phoenix Gravity New Millennium Edition' elements, which are carbon elements certified only to NSF/ANSI 42 (taste and odor) and 372 (lead-free materials). Their own page makes no bacteria or virus claims and tells users to disinfect unsafe water first. A Berkey fitted with these is a taste filter, not an emergency filter. Black Berkey elements sold on marketplaces may be old stock or counterfeit; Berkey itself posts counterfeit and unauthorised-seller notices. | If you want a steel countertop urn, the one with a real certificate is the British Berkefeld (Doulton) stainless gravity system with Ultra Sterasyl ceramic candles. NSF's listing, checked 2026-11-14, shows the 'British Berkefeld SS2 Ultra Sterasyl' certified to NSF/ANSI 42 (particulates, class I), 53 (cysts and turbidity) and 401 (microplastics). Bacteria removal is the maker's own test claim, not part of the NSF listing, and it does not remove viruses. The 8.5 L size is 19.25 in tall and was $305 in stock at britishwaterfilter.com and $488 but unavailable at doulton.com/en-us. It was not chosen as a pick because of price and size for an apartment. | NSF's online listing returned no products for the trade name LifeStraw or the company Cascade Designs (MSR, Platypus) on 2026-11-14. Their claims rest on published manufacturer and independent lab testing, and on OutdoorGearLab's SGS Labs checks, not on NSF certificates. IAPMO and WQA listings were not searched. | LifeStraw Mission and LifeStraw Family ($99.95 and $69.09 at LifeStraw.com) are 0.02 micron gravity purifiers with published lab dossiers for virus removal, but the only hands-on review found (OutdoorGearLab, 2016) called the Mission confusing and extremely slow, so they were not picked.",
+      "research_note": "Berkey notes, 2026-11-14: the Fifth Circuit opinion file (No. 23-11189) could not be read that day. Search results described a class action filed in late 2022 alleging the filters do not perform as advertised; those pages were not opened and its status is not confirmed, so it is not stated to readers. Wirecutter's Berkey review could not be opened (nytimes.com refuses automated readers). Stock, 2026-11-15, makers' pages opened in a browser: LifeStraw Peak Gravity 3L sold out in both colours; Platypus GravityWorks 4.0L in stock ('Add to cart'), 6.0L sold out; MSR Guardian Gravity sold out. The 2026-11-14 note that the GravityWorks 4.0L was unavailable no longer holds. 2026-11-16 alignment pass: off the page from item_flags: Berkey (New Millennium Concepts) is not recommended. EPA Region 8 issued Stop Sale, Use or Removal Orders under the pesticide law FIFRA: to dealer James Enterprise on December 27, 2022, then six more orders between February and May 2023, including one to Berkey International on May 8, 2023 (docket FIFRA-08-2023-0038). EPA's position is that Black Berkey elements contain silver, were sold with germ-killing claims such as removing 'up to 99.999% of viruses', and were never registered. The orders are stop-sale orders, not a recall. | Berkey court status as verified on 2026-11-14: a federal judge in the Northern District of Texas dismissed the manufacturer's suit against EPA for lack of standing (reported by Bloomberg Law, November 20, 2023). In Berkey International v. EPA, No. 24-1917, the US Court of Appeals for the First Circuit on September 18, 2026 upheld the denial of a preliminary injunction, finding Berkey unlikely to succeed. The Fifth Circuit also issued an opinion on August 9, 2024 (No. 23-11189); its outcome is not confirmed here. | Berkey certification: no NSF/ANSI performance certification for Black Berkey elements was found. Berkey's own page says only that third-party labs 'reported that the elements meet ANSI/NSF (Std. 53) protocol', which is a lab report, not a certificate. | Berkey availability on 2026-11-14: berkeywater.com lists Black Berkey elements as 'out of stock or limited availability' with no price and will not sell to California or Iowa residents. The company now promotes 'Phoenix Gravity New Millennium Edition' elements, which are carbon elements certified only to NSF/ANSI 42 (taste and odor) and 372 (lead-free materials). Their own page makes no bacteria or virus claims and tells users to disinfect unsafe water first. A Berkey fitted with these is a taste filter, not an emergency filter. Black Berkey elements sold on marketplaces may be old stock or counterfeit; Berkey itself posts counterfeit and unauthorised-seller notices. | If you want a steel countertop urn, the one with a real certificate is the British Berkefeld (Doulton) stainless gravity system with Ultra Sterasyl ceramic candles. NSF's listing, checked 2026-11-14, shows the 'British Berkefeld SS2 Ultra Sterasyl' certified to NSF/ANSI 42 (particulates, class I), 53 (cysts and turbidity) and 401 (microplastics). Bacteria removal is the maker's own test claim, not part of the NSF listing, and it does not remove viruses. The 8.5 L size is 19.25 in tall and was $305 in stock at britishwaterfilter.com and $488 but unavailable at doulton.com/en-us. It was not chosen as a pick because of price and size for an apartment. | NSF's online listing returned no products for the trade name LifeStraw or the company Cascade Designs (MSR, Platypus) on 2026-11-14. Their claims rest on published manufacturer and independent lab testing, and on OutdoorGearLab's SGS Labs checks, not on NSF certificates. IAPMO and WQA listings were not searched. | LifeStraw Mission and LifeStraw Family ($99.95 and $69.09 at LifeStraw.com) are 0.02 micron gravity purifiers with published lab dossiers for virus removal, but the only hands-on review found (OutdoorGearLab, 2016) called the Mission confusing and extremely slow, so they were not picked. 2026-11-17 open-up pass: countertop systems weighed again on merit, with size and price no longer reasons to pass one over. British Berkefeld (Doulton) 8.5 L with Ultra Sterasyl: NSF listing opened today shows NSF/ANSI 42, 53 (cyst and turbidity) and 401; now the Standard pick. The certification question, stated plainly: no gravity system found holds a certificate for bacteria or viruses; this one holds a certificate for cysts, and its bacteria removal rests on the maker's lab report and one outside lab-checked review. ProOne Big+: the maker's page says the product is being discontinued ('while supplies last', all sales final); $231.96 with two G3.0 filters; certified by IAPMO R&T to NSF/ANSI 42 (chlorine, chloramine, particulates), 53 (lead and total PFAS), 401 (microplastics) and 372; no germ certificate. Water Filter Guru found no bacteria after its river-water test. Not picked. Alexapure Pro: $279.99 at alexapure.com, in stock; 2.5-gallon chambers, 17.9 x 9.8 x 9.8 in; the maker cites independent testing that includes E. coli and Giardia but no certification; filter life 200 gallons and a replacement filter is $129.99. Water Filter Guru found no bacteria after its river-water test. Not picked: no certificate, and a short, costly filter life. Berkey: unchanged, see the flags; Bob Vila's 2025 test included a Big Berkey and gives no certification for it. Waterdrop King Tank and Boroux Legacy (Bob Vila's test): the article reports speed, setup and taste and no germ test or germ certificate; Waterdrop's own page could not be found today. LifeStraw Community: now the Cadillac pick (WHO evaluation, comprehensive protection). LifeStraw Max: $649.95, needs a pressurized source. Katadyn BeFree Gravity and Base Camp Pro: Katadyn's US site listed neither system today (only a BeFree gravity upgrade kit); OutdoorGearLab scores the BeFree Gravity 6L 70, level with the Platypus, with no award. Sawyer: its US site lists a One Gallon Gravity Water Filtration System (SP160A, $46.99) and no bucket kit; no test of the gravity kit was opened today, so it is not the Budget pick. MSR Guardian Gravity: left the page; see the Cadillac pick's note. Why ours and not OutdoorGearLab's Platypus GravityWorks: OutdoorGearLab tests filters for backpacking, where weight and speed count most; for weeks at home the British Berkefeld is the only system found with an independent certificate for a class of germ (NSF/ANSI 53, cysts) and it keeps filtered water behind a tap, and the GravityWorks stays on the page as the Compact pick. Why ours and not CleverHiker's Platypus GravityWorks: the same reason; CleverHiker recommends it for hiking groups, and it is our Compact pick. Why ours and not Bob Vila's Waterdrop King Tank: Bob Vila's test judged setup, speed, taste and value, and its article reports no bacteria or cyst test and no germ certificate for the King Tank. Why ours and not Water Filter Guru's Culligan ZeroWater: Water Filter Guru ranks it first for reducing contaminants in tap water and ran its untreated-water bacteria test only on systems rated for untreated water; the British Berkefeld is its top stainless steel system and passed that bacteria test. Stock on November 17, 2026, makers' own shops: LifeStraw Peak Gravity 3L sold out; Platypus GravityWorks 4.0L and 6.0L sold out (the 4.0L was in stock on November 15); British Berkefeld sold out at Doulton's US store; LifeStraw Community sold out and Community Autofill in stock; MSR Guardian Gravity sold out. The how_to_choose sentence 'If money is tight, the budget pick plus bleach does the same job as the pricier ones, just more slowly' was left as written because it is a water-treatment sentence, but 'just more slowly' no longer fits: the Standard pick is the slowest of the four. A replacement is proposed in the open-up report. | 2026-11-17, main worker: the helper took stock and some prices from the shops' product data by direct request after the reader was refused; that is not how this site reads pages, so each was re-read in Chrome the same day. LifeStraw Peak Gravity 3L $65.95 'Notify me when available'. LifeStraw Community $399.00 'Out of stock' (the data had said $379). Platypus GravityWorks 4.0L $134.95 'Out of Stock'. Doulton's US page: every size 'Variant sold out or unavailable', and it sends US buyers to 'our official US reseller British Water Filters'; britishwaterfilter.com/product/duke-berkefeld/ showed $305.00 (was $310.00), 'Out of stock', SKU W9361138. The two how_to_choose sentences the helper flagged were reworded to fit the new picks ('in smaller batches'; 'Ordinary filters (ceramic candles and 0.2 micron membranes)'); neither adds a claim.",
       "tiers": {
         "budget": {
           "brand": "LifeStraw",
@@ -323,7 +325,7 @@
               "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-3l",
               "verified": true,
               "note": "",
-              "research_note": "2026-11-14: page loaded by direct request; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Sold Out', 'Notify me when available', and the shop's product data shows both colours unavailable. 2026-11-16 alignment pass: old note: $65.95; both colors sold out on November 15, 2026."
+              "research_note": "2026-11-14: page loaded by direct request; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Sold Out', 'Notify me when available', and the shop's product data shows both colours unavailable. 2026-11-16 alignment pass: old note: $65.95; both colors sold out on November 15, 2026. 2026-11-17 open-up pass: the shop's product data still shows both colors unavailable; $65.95."
             }
           ],
           "link_note": "",
@@ -347,11 +349,119 @@
             }
           ],
           "flags": [
-            "Not NSF-listed; the P231 claim rests on LifeStraw's published lab data."
+            "Not NSF-listed; the P231 claim rests on LifeStraw's published lab data.",
+            "Sold out at LifeStraw.com on November 17, 2026."
           ],
           "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. NSF listing searched for 'lifestraw' on 2026-11-14: no match. No recall mentioned by the maker or reviewer."
         },
         "standard": {
+          "brand": "British Berkefeld (Doulton)",
+          "model": "Stainless Steel Gravity System, 8.5 L, with 2 Ultra Sterasyl ceramic filters",
+          "model_number": "W9361138 (system), W9121226 (Ultra Sterasyl filter)",
+          "size": "Two stacked stainless steel chambers with a tap: 19.7 in tall, 8.8 in across (500 x 224 mm). Holds about 2 gallons (7.8 L) of filtered water. Two ceramic candle filters with a carbon core, and room for four. NSF certifies the filter for cyst (parasite) reduction, turbidity, fine particles and microplastics. Bacteria removal is the maker's own test claim. Does not remove viruses. About a quart an hour with two filters in a hands-on test. The maker says to replace the filters after six months of use.",
+          "unit_size": 1,
+          "unit_label": "system",
+          "price_usd": 305,
+          "price_seen_at": "britishwaterfilter.com (a US dealer, where it is sold as the Duke Berkefeld), November 17, 2026. Doulton's own US store lists $488.",
+          "why": "The only gravity system found whose filter holds an independent certificate for a class of germ: NSF's listing shows the British Berkefeld SS2 Ultra Sterasyl certified to NSF/ANSI 53 for cyst (parasite) reduction, and to NSF/ANSI 42 and 401. In Water Filter Guru's lab test no E. coli or coliform bacteria were found in pond water after it passed through. It stands on a counter, takes water poured in the top and keeps about 2 gallons of filtered water behind a tap, which suits weeks at home.",
+          "weakness": "It is slow: about a quart an hour with two filters, the slowest steel countertop system Water Filter Guru has tested, so keep it topped up or add two more filters. The certificate covers cysts, not bacteria or viruses. It costs more than twice the Platypus, and Doulton's own US store asks $488.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://doulton.com/en-us/products/british-berkefeld-stainless-steel-gravity-system-ultra-sterasyl",
+              "verified": true,
+              "note": "Choose the 8.5 L size with two Ultra Sterasyl filters.",
+              "research_note": "2026-11-17: page read by direct request (WebFetch was rate-limited, HTTP 429). The shop's product data lists 8.5L / 2 x Ultra Sterasyl, SKU W9361138-06, $488.00, unavailable; every variant on the page reads 'Variant sold out or unavailable', and every product in Doulton's US store data was unavailable that day, so the US storefront may not be selling at all. The page also carries a UK delivery line ('Free delivery over £25')."
+            }
+          ],
+          "link_note": "US dealers sell the same system, some under the name Duke Berkefeld. Check that the box holds Ultra Sterasyl filters.",
+          "research_note": "2026-11-17 open-up pass: restored on merit. The 2026-11-14 note said it 'was not chosen as a pick because of price and size for an apartment'; both were gates. Key specification confirmed today on NSF's own listing page (listings current as of November 17, 2026): Doulton Water Filters, Staffordshire, UK; 'British Berkefeld SS2 Ultra Sterasyl', pour-through, element Ultra Sterasyl W9121226: NSF/ANSI 42 nominal particulate reduction Class I; NSF/ANSI 53 cyst reduction and turbidity reduction; NSF/ANSI 401 microplastics reduction; NSF/ANSI/CAN 372 appears only as a lead-free materials footnote. No chlorine, lead or bacteria claim is in the listing. Prices seen today: $305 at britishwaterfilter.com (SKU W9361138, 'Duke Berkefeld', page data marked out of stock); $488 at doulton.com/en-us (unavailable); The Filterium lists the 2.25-gallon system with four Ultra Sterasyl filters (W9361139) at $359, available, and a pair of Ultra Sterasyl filters at $84. No dealer is linked because none could be vouched for. Water Filter Guru is a specialist review site that buys units and sends before-and-after samples to SimpleLab Tap Score; it is the only hands-on test of this system found, so the test evidence is thinner than for the Platypus. It also reported: maker claims 800 gallons a pair of filters, 400 more realistic; water keeps flowing when the lower chamber is full, so it can overflow; untreated surface water clogs the candles fast and they need scrubbing; one of two tests detected dichloromethane at 2.16 ppb, not repeated. No Amazon ASIN was seen on a non-Amazon page today.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Doulton",
+              "title": "British Berkefeld Stainless Steel Gravity System + Ultra Sterasyl Ceramic Filters",
+              "url": "https://doulton.com/en-us/products/british-berkefeld-stainless-steel-gravity-system-ultra-sterasyl",
+              "verified": true,
+              "supports": "Sizes and dimensions (8.5 L: 500 mm tall, 224 mm across, 7.8 L of filtered water), two ceramic filters in the box, room for more filters to speed it up, the maker's list of what it reduces (bacteria, cysts, particles, microplastics, PFAS), 'Tested and Certified by NSF to NSF/ANSI Std 401', replace filters every six months, price."
+            },
+            {
+              "type": "standard_listing",
+              "name": "NSF",
+              "title": "NSF Certified Drinking Water Treatment Units listing: Doulton Water Filters, British Berkefeld SS2 Ultra Sterasyl",
+              "url": "https://info.nsf.org/Certified/DWTU/Listings.asp?TradeName=British+Berkefeld",
+              "verified": true,
+              "supports": "British Berkefeld SS2 Ultra Sterasyl (element W9121226) certified to NSF/ANSI 42 (particulate reduction, Class I), NSF/ANSI 53 (cyst reduction, turbidity reduction) and NSF/ANSI 401 (microplastics reduction). The listing has no bacteria, virus, chlorine or lead claim."
+            },
+            {
+              "type": "test_publication",
+              "name": "Water Filter Guru",
+              "title": "British Berkefeld Water Filter Review",
+              "url": "https://waterfilterguru.com/british-berkefeld-review/",
+              "verified": true,
+              "supports": "Tested the 2.25-gallon system with Ultra Sterasyl filters, with samples sent to SimpleLab Tap Score: pond water positive for E. coli and coliform showed none after filtering; 2.02 gallons in 7.5 hours (0.27 gallon an hour), the slowest steel countertop system it has tested; score 8.99; filters clog quickly on untreated surface water."
+            },
+            {
+              "type": "test_publication",
+              "name": "Water Filter Guru",
+              "title": "Best Gravity Water Filters",
+              "url": "https://waterfilterguru.com/best-gravity-water-filter/",
+              "verified": true,
+              "supports": "Updated September 7, 2026. Names the British Berkefeld its best stainless steel gravity filter and lists its NSF/ANSI 42, 53 and 401 certifications; notes that the ProOne Big+ and Alexapure Pro hold no performance certification for germs."
+            }
+          ],
+          "flags": [
+            "Sold out at Doulton's US store on November 17, 2026. Its equal: the same system sold with four Ultra Sterasyl filters (W9361139).",
+            "The NSF certificate covers cysts, turbidity, particles and microplastics. It does not cover bacteria or viruses."
+          ],
+          "flag_check": "NSF's listing opened on 2026-11-17 (see sources). CPSC recall database (saferproducts.gov) searched for 'Doulton' and 'Berkefeld' by recall title and product name on 2026-11-17: no recall found. No recall or counterfeit notice seen on the maker's page or in the review read."
+        },
+        "cadillac": {
+          "brand": "LifeStraw",
+          "model": "Community high-capacity water purifier",
+          "model_number": "LSC405 (Community), LSC024 (Community Autofill)",
+          "size": "A freestanding tank with its own stand: 22 x 22 x 33.5 in assembled, 17 lb empty, 13 gallons (50 L) in all. 0.02 micron membrane. Removes viruses (99.999%), bacteria (99.999999%) and parasites (99.999%). No carbon stage, so it does not improve taste or remove chemicals. Filter rated about 26,000 gallons (100,000 L); a replacement filter is $74.95. The maker gives a shelf life of about 5 years unused.",
+          "unit_size": 1,
+          "unit_label": "system",
+          "price_usd": 399.0,
+          "price_seen_at": "lifestraw.com",
+          "why": "The extra money buys virus removal that an outside body has checked: the World Health Organization's evaluation scheme lists the LifeStraw Community in its top class, comprehensive protection (three stars). It keeps treated water in its own tank, and its filter is rated for about 26,000 gallons, enough for a household and its neighbors.",
+          "weakness": "It is very large (almost 3 feet tall and 17 lb empty), it has no carbon stage so it does not improve taste, and the maker does not accept returns.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://lifestraw.com/products/lifestraw-community",
+              "verified": true,
+              "note": "This is LifeStraw's own store.",
+              "research_note": "2026-11-17: page read by direct request. The shop's product data lists LifeStraw Community (LSC405) at $379.00, unavailable, and LifeStraw Community Autofill (LSC024) at $399.00, available. The page text says $399.00, replacement filter $74.95, 'Not eligible for returns', size (assembled) 22 x 22 x 33.5 in, 17 lb without water."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-17 open-up pass: new Cadillac pick. It replaces the MSR Guardian Gravity Purifier (SKU 14005, $309.95, sold out at MSR's own store on November 17, 2026): a 2.6-gallon (10 L) hanging bag, 0.02 micron with a carbon stage, about half a quart a minute, cartridge rated about 800 gallons (3,000 L), replacement cartridge $249.95, 1 lb 2 oz. The MSR's virus claim (NSF protocol P248) rests on MSR's own published testing and no hands-on test of the gravity model was found; the LifeStraw Community has an outside evaluation (WHO International Scheme to Evaluate Household Water Treatment Technologies, Round I: 'Comprehensive protection', three stars), a far longer filter life and a far cheaper replacement filter. The MSR remains the purifier to buy if it must be small. No hands-on review of the LifeStraw Community by a test publication was found; its two sources are the maker and the WHO list. LifeStraw's page says it is 'tested to NSF P231 standards'; that is not an NSF certificate. The maker's flow rate was not seen on the page today, so none is stated. LifeStraw Max ($649.95, in stock) needs a pressurized source and was not weighed further; LifeStraw Mission ($99.95, in stock) stays out for the reason in the item note.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "LifeStraw",
+              "title": "LifeStraw Community",
+              "url": "https://lifestraw.com/products/lifestraw-community",
+              "verified": true,
+              "supports": "0.02 micron membrane; removes 99.999999% of bacteria, 99.999% of viruses and 99.999% of parasites; 50 L total capacity; filter life 26,000 gallons (100,000 L); assembled size 22 x 22 x 33.5 in, 17 lb; no carbon stage; not eligible for returns; the Autofill version adds a tap or hose connection; prices."
+            },
+            {
+              "type": "standard_listing",
+              "name": "World Health Organization",
+              "title": "International Scheme to Evaluate Household Water Treatment Technologies: products evaluated",
+              "url": "https://www.who.int/tools/international-scheme-to-evaluate-household-water-treatment-technologies/products-evaluated",
+              "verified": true,
+              "supports": "LifeStraw Community, LifeStraw SA (Vestergaard Group), membrane filtration, evaluation Round I: performance classification 'Comprehensive protection', three stars, the top class on the list."
+            }
+          ],
+          "flags": [
+            "Sold out at LifeStraw.com on November 17, 2026. Its equal: LifeStraw Community Autofill, the same purifier with a tap or hose connection."
+          ],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched for 'LifeStraw' by recall title and product name on 2026-11-17: no recall found. No recall or counterfeit notice seen on the maker's page."
+        },
+        "compact": {
           "brand": "Platypus",
           "model": "GravityWorks 4.0L Water Filter System",
           "model_number": "14240",
@@ -360,7 +470,7 @@
           "unit_label": "system",
           "price_usd": 134.95,
           "price_seen_at": "Platypus (cascadedesigns.com)",
-          "why": "The consensus best gravity filter: Editors' Choice for groups at OutdoorGearLab and best gravity filter at Switchback Travel. It filtered about a gallon in under five minutes in testing and, unlike the budget pick, includes a clean bag that stores the filtered water.",
+          "why": "The consensus best gravity filter among hiking testers: Editors' Choice for groups at OutdoorGearLab and best gravity filter at Switchback Travel. It filtered about a gallon in under five minutes in testing, includes a clean bag that stores the filtered water, and the whole kit stows smaller than a 1-quart bottle.",
           "weakness": "It clogs in murky water unless backflushed, the zip-top bag gets hard to seal, and its germ-removal claim comes from the maker's own per-unit testing rather than an outside certificate.",
           "links": [
             {
@@ -368,7 +478,7 @@
               "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
               "verified": true,
               "note": "Buy the 4.0L size (SKU 14240). This is Platypus's own store.",
-              "research_note": "2026-11-14: page loaded by direct request and the 4.0L showed as unavailable; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Add to cart' shown and the shop's product data marks the 4.0L available. 2026-11-16 alignment pass: old note: 4.0L is SKU 14240 at $134.95, in stock ('Add to cart') on November 15, 2026; the 6.0L (SKU 14241, $154.95) was sold out. This is Platypus's own shop."
+              "research_note": "2026-11-14: page loaded by direct request and the 4.0L showed as unavailable; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Add to cart' shown and the shop's product data marks the 4.0L available. 2026-11-16 alignment pass: old note: 4.0L is SKU 14240 at $134.95, in stock ('Add to cart') on November 15, 2026; the 6.0L (SKU 14241, $154.95) was sold out. This is Platypus's own shop. 2026-11-17 open-up pass: the shop's product data marks both the 4.0L (14240, $134.95) and the 6.0L (14241, $154.95) unavailable. The page still says every microfilter is individually tested to meet all EPA & NSF guidelines for the removal of 99.9999% of bacteria and 99.9% of protozoa."
             },
             {
               "label": "Amazon",
@@ -379,7 +489,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Key specification re-read on the maker's page on 2026-11-15: 'Every microfilter is individually tested to ensure it meets all EPA & NSF guidelines for the removal of 99.9999% of bacteria and 99.9% of protozoa'. That is the maker's own testing claim, not an NSF/ANSI listing, and the pick's flags say so. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: off the page from flags: No third-party certificate: NSF listing search for Cascade Designs returned no match on 2026-11-14. Independent evidence is OutdoorGearLab's SGS Labs check, not an NSF/ANSI certification.",
+          "research_note": "Key specification re-read on the maker's page on 2026-11-15: 'Every microfilter is individually tested to ensure it meets all EPA & NSF guidelines for the removal of 99.9999% of bacteria and 99.9% of protozoa'. That is the maker's own testing claim, not an NSF/ANSI listing, and the pick's flags say so. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: off the page from flags: No third-party certificate: NSF listing search for Cascade Designs returned no match on 2026-11-14. Independent evidence is OutdoorGearLab's SGS Labs check, not an NSF/ANSI certification. 2026-11-17 open-up pass: moved from Standard to Compact when the certified countertop system was restored as Standard. No equal is named in the stock flag: OutdoorGearLab scores the Katadyn BeFree Gravity 6L level with it (70, $120), but Katadyn's US site listed no BeFree Gravity system today, only an upgrade kit.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -412,74 +522,23 @@
               "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
               "verified": true,
               "supports": "Recommended for groups needing several liters at once; does not remove viruses."
-            }
-          ],
-          "flags": [],
-          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the maker's page or in the three reviews read."
-        },
-        "cadillac": {
-          "brand": "MSR",
-          "model": "Guardian Gravity Purifier",
-          "model_number": "14005",
-          "size": "2.6-gallon (10 L) hanging reservoir with hose and purifier; 1 lb 2 oz; packs to about 12 x 4 x 4 in. 0.02 micron hollow fiber plus activated carbon stage. Removes viruses (99.99%), bacteria (99.9999%), protozoa (99.9%). Maker's spec sheet still lists 'effective against chemicals/toxins: No'. About half a quart a minute; cartridge rated about 800 gallons (3,000 L).",
-          "unit_size": 1,
-          "unit_label": "system",
-          "price_usd": 309.95,
-          "price_seen_at": "MSR (cascadedesigns.com)",
-          "why": "The extra money buys virus removal: MSR states it meets NSF protocol P248, the US military test for viruses, bacteria and protozoa in worst-case water, so no separate bleach step is needed for germs. The 2.6-gallon bag covers a household's daily drinking water in two or three fills and cleans by opening a purge hose.",
-          "weakness": "It is slow (about 2 minutes a quart), and a replacement cartridge costs $249.95.",
-          "links": [
-            {
-              "label": "Manufacturer",
-              "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
-              "verified": true,
-              "note": "This is MSR's own store.",
-              "research_note": "2026-11-14: page loaded by direct request; WebFetch was rate-limited (HTTP 429). 2026-11-15: the shop's product data, read in a browser, marks SKU 14005 unavailable. 2026-11-16 alignment pass: old note: SKU 14005 at $309.95; sold out on November 15, 2026. This is MSR's own shop."
-            },
-            {
-              "label": "Amazon",
-              "url": "https://www.amazon.com/dp/B08Q329PWG",
-              "verified": false,
-              "note": "",
-              "research_note": "Amazon blocked automated access. ASIN seen on 2026-11-14 in Switchback Travel's link for the MSR Guardian Gravity Purifier."
-            }
-          ],
-          "research_note": "Recall check: on 2026-11-14 the CPSC recall search did not run for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database (Cascade Designs' only 2024 recall was camping cooking pots; a 2002 recall concerned MSR stove fuel; neither is a filter). 2026-11-16 alignment pass: removed from weakness: no hands-on review of the gravity model was found, only of the pump version that shares its technology. 2026-11-16 alignment pass: old link_note: Second source is thin: Switchback Travel only mentions the gravity model in passing. The stronger test evidence (OutdoorGearLab, CleverHiker, The Prepared) is for the Guardian pump, which uses the same 0.02 micron fiber. 2026-11-16 alignment pass: off the page from flags: Sold out at MSR's own store on November 15, 2026. | NSF P248 is a protocol, not a public certificate; NSF's listing has no Cascade Designs entry. The claim rests on MSR's published testing.",
-          "link_note": "",
-          "sources": [
-            {
-              "type": "manufacturer_spec",
-              "name": "MSR (Cascade Designs)",
-              "title": "Guardian Gravity Purifier",
-              "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
-              "verified": true,
-              "supports": "Meets NSF protocol P248 for viruses, bacteria and protozoa; meets US EPA guide standard for microbiological purifiers; 10 L reservoir; 0.02 micron; activated carbon; 0.5 L/min; 3,000+ L; 1 lb 2 oz; price."
             },
             {
               "type": "test_publication",
-              "name": "Switchback Travel",
-              "title": "Best Backpacking Water Filters of 2026",
-              "url": "https://www.switchbacktravel.com/backpacking/best-water-filters",
+              "name": "Bob Vila",
+              "title": "The Best Gravity Water Filters, Tested",
+              "url": "https://www.bobvila.com/reviews/best-gravity-water-filters-2025",
               "verified": true,
-              "supports": "Names the Guardian pump best premium purifier and notes MSR also makes the Guardian Gravity Purifier with the same technology in a gravity setup. No separate test of the gravity model."
-            },
-            {
-              "type": "test_publication",
-              "name": "OutdoorGearLab",
-              "title": "Best Backpacking Water Filters of 2026",
-              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
-              "verified": true,
-              "supports": "Pump version only: Guardian Purifier scored 9.3 for water quality with SGS Labs checks. The gravity model was not in the test."
+              "supports": "Tested the 6 L size among seven gravity filters over six weeks (article dated October 28, 2025): the fastest of the seven at about 1.75 L a minute, with the lowest water-quality score of the seven (3.8 out of 5)."
             }
           ],
           "flags": [
-            "NSF P248 is a test protocol, not an NSF certificate: the claim rests on MSR's published testing.",
-            "MSR's page does not say the gravity model survives freezing (the pump page does). Treat it as freeze-sensitive."
+            "Sold out at Platypus's own store on November 17, 2026."
           ],
-          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the MSR page."
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the maker's page or in the three reviews read. Searched again for 'Platypus' on 2026-11-17: no water filter recall."
         }
       },
-      "prices_seen": "2026-11-15"
+      "prices_seen": "2026-11-17"
     },
     {
       "id": "water-treatment-tablets",
@@ -542,7 +601,7 @@
         "Potable Aqua's original tablets are iodine, which does not kill Cryptosporidium.",
         "Tablets do not remove chemicals, fuel or sediment, and reviewers note a mild chlorine taste."
       ],
-      "research_note": "2026-11-14: Potable Aqua's site failed to load (TLS error) and no EPA record for its chlorine dioxide tablets was found. 2026-11-15: EPA's label system (PPLS) opened for 71847-4 (Aquatabs; labels of 2020-08-11 and 2026-09-25, both read: 'Mix well for at least 10 minutes, then allow to stand for 30 minutes before drinking') and for 70060-22 (Aseptrol SE; label of 2015-12-14 read: optional 'Micropur Purification' branding, one tablet per quart or litre, 4 hours in an opaque container or the dark). The quantity rule was changed from 14 days to a 3-day backup so that the printed arithmetic and the count agree; product-levels.json still forces one pack per household and a request to drop that override is in the helper's other.json. 2026-11-16 alignment pass: off the page from item_flags: Aquamira Water Treatment drops (two-part chlorine dioxide, about $15, treats 30 gal) are a favorite of hiking reviewers, but EPA's record for registration 71766-1, checked 2026-11-14, lists only bacteria as the target organizms, not viruses or parasites. They were left out for that reason. | Potable Aqua's chlorine dioxide tablets are not recommended here: no EPA record for them was confirmed. Potable Aqua's original tablets are iodine, which does not kill Cryptosporidium.",
+      "research_note": "2026-11-14: Potable Aqua's site failed to load (TLS error) and no EPA record for its chlorine dioxide tablets was found. 2026-11-15: EPA's label system (PPLS) opened for 71847-4 (Aquatabs; labels of 2020-08-11 and 2026-09-25, both read: 'Mix well for at least 10 minutes, then allow to stand for 30 minutes before drinking') and for 70060-22 (Aseptrol SE; label of 2015-12-14 read: optional 'Micropur Purification' branding, one tablet per quart or litre, 4 hours in an opaque container or the dark). The quantity rule was changed from 14 days to a 3-day backup so that the printed arithmetic and the count agree; product-levels.json still forces one pack per household and a request to drop that override is in the helper's other.json. 2026-11-16 alignment pass: off the page from item_flags: Aquamira Water Treatment drops (two-part chlorine dioxide, about $15, treats 30 gal) are a favorite of hiking reviewers, but EPA's record for registration 71766-1, checked 2026-11-14, lists only bacteria as the target organizms, not viruses or parasites. They were left out for that reason. | Potable Aqua's chlorine dioxide tablets are not recommended here: no EPA record for them was confirmed. Potable Aqua's original tablets are iodine, which does not kill Cryptosporidium. 2026-11-17 open-up pass: the top tier was weighed on merit and stays empty. SteriPEN (Katadyn Steripen Ultra, a USB-rechargeable UV purifier; Katadyn's page says it eliminates bacteria, protozoa and viruses in clear water, 1 liter in 90 seconds, 8,000 activations, and shows no price): OutdoorGearLab (updated October 12, 2026; samples checked by SGS Labs) scored it 61 out of 100 at $149 and wrote that it reached 99.9% for bacteria but 'fell short when it came to removing viruses, at only 91.5%'; CleverHiker rates it 4.4 out of 5 at $135 and notes it needs clear water, a charged battery and care with the exposed lamp. On that test the extra money does not buy more protection than an $18 pack of tablets. Aquamira Water Treatment drops: EPA's label system record for Reg. No. 71766-1 was opened again today: chlorine dioxide 2%, site 'human drinking water', pests 'animal pathogenic bacteria' and 'slime-forming bacteria' only; latest accepted label March 2, 2015. Why ours and not OutdoorGearLab's Aquamira Water Treatment Drops: OutdoorGearLab scores the drops 68 and Katadyn Micropur 57, but EPA's record for the drops (Reg. No. 71766-1) lists bacteria only, while the Micropur tablet's EPA-accepted label covers bacteria, viruses, Giardia and Cryptosporidium, and for water treatment the registered claim decides. CleverHiker's top chemical pick is Katadyn Micropur, the same as ours. Prices seen today: Aquatabs $14.95 at MSR's store (in stock); Micropur $18 as quoted by CleverHiker and OutdoorGearLab.",
       "tiers": {
         "budget": {
           "brand": "MSR",
@@ -552,7 +611,7 @@
           "unit_size": 1.98,
           "unit_label": "pack of 30",
           "price_usd": 14.95,
-          "price_seen_at": "MSR (cascadedesigns.com), November 15, 2026",
+          "price_seen_at": "MSR (cascadedesigns.com), November 17, 2026",
           "why": "Cheaper per gallon than chlorine dioxide tablets and much faster: the label's time is at least 10 minutes of mixing and then 30 minutes standing, against 4 hours. EPA Reg. No. 71847-4 covers bacteria, viruses and Giardia, and the EPA label lists 'MSR Aquatabs' by name.",
           "weakness": "It does not kill Cryptosporidium (the EPA label says 'not tested against cryptosporidium'), so it suits tap water under a boil notice better than surface water.",
           "links": [
@@ -561,7 +620,7 @@
               "url": "https://cascadedesigns.com/products/aquatabs",
               "verified": true,
               "note": "This is MSR's own store.",
-              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser. The maker's page says 'Fast: 30-minute treatment time'; the EPA-accepted label adds at least 10 minutes of mixing first. 2026-11-16 alignment pass: old note: SKU 00565 at $14.95, in stock ('Add to cart') on November 15, 2026. This is MSR's own shop."
+              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser. The maker's page says 'Fast: 30-minute treatment time'; the EPA-accepted label adds at least 10 minutes of mixing first. 2026-11-16 alignment pass: old note: SKU 00565 at $14.95, in stock ('Add to cart') on November 15, 2026. This is MSR's own shop. 2026-11-17 open-up pass: the shop's product data shows the 30 pack (00565) at $14.95, available."
             }
           ],
           "link_note": "Use the expiry date printed on the pack.",
@@ -612,7 +671,7 @@
               "url": "https://katadyn.com/en-us/products/8013692-katadyn-micropur-mp1-water-purifier-tablets-30-tab",
               "verified": true,
               "note": "Katadyn does not sell it direct; buy from a retailer.",
-              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser; one tablet per litre, 4-hour exposure time. The page does not print the EPA registration number. 2026-11-16 alignment pass: old note: Article 8013692. Katadyn's page shows no price and does not sell it direct; buy from a retailer."
+              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser; one tablet per litre, 4-hour exposure time. The page does not print the EPA registration number. 2026-11-16 alignment pass: old note: Article 8013692. Katadyn's page shows no price and does not sell it direct; buy from a retailer. 2026-11-17 open-up pass: page re-read by direct request; one tablet per liter, 4-hour exposure time, shelf life 5 years from manufacture, no price shown."
             },
             {
               "label": "Amazon",
@@ -666,10 +725,10 @@
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "Nothing verified does more than the Standard pick. All chlorine dioxide tablets use the same chemistry and the same 4-hour wait, and the popular two-part drops (Aquamira) are registered with EPA for bacteria only."
+        "cadillac": "More money buys nothing the job needs. In OutdoorGearLab's lab-checked test (updated October 2026) the $149 SteriPEN Ultra, a battery-powered UV purifier, scored 61 out of 100 and removed 91.5% of viruses, less than the tablets' labels claim, and it needs clear water and a charged battery. Every chlorine dioxide tablet uses the same chemistry and the same 4-hour wait, and the popular two-part drops (Aquamira) are registered with EPA for bacteria only."
       },
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: every chlorine dioxide tablet uses the same chemistry and the same 4-hour wait, so a pricier one buys nothing the job needs."
+      "prices_seen": "2026-11-17",
+      "tier_note": "Two picks: in OutdoorGearLab's lab-checked test the $149 SteriPEN Ultra UV purifier removed 91.5% of viruses, less than the tablets' labels claim, so more money buys nothing this job needs."
     },
     {
       "id": "water-bleach",
@@ -849,7 +908,7 @@
       "item_flags": [
         "Test strips are spoiled by moisture. Keep the bottle closed and check the expiry date."
       ],
-      "research_note": "2026-11-15 (audit A, W2): removed the sentence that treated a strip reading above the tap-water limit as an overdose, and the 4.0 mg/L limit it rested on; a correct emergency dose can read above that at first. Also removed from this block EPA's smell check and Ready.gov's 'discard after a second dose' line, each of which belongs to its own recipe; the bleach item now says the label's recipe comes first and that recipes are not mixed. Melitta's site refused automated readers on 2026-11-14. The official eCFR site refused automated readers, so 40 CFR 141.74 was read in Cornell's copy. 2026-11-16 alignment pass: off the page from item_flags: A chlorine strip only shows that chlorine is present. It cannot show that water is free of germs, Cryptosporidium, chemicals or fuel. | Cheap multi-parameter 'drinking water test kits' and TDS meters sold on marketplaces were not researched and none is recommended here.",
+      "research_note": "2026-11-15 (audit A, W2): removed the sentence that treated a strip reading above the tap-water limit as an overdose, and the 4.0 mg/L limit it rested on; a correct emergency dose can read above that at first. Also removed from this block EPA's smell check and Ready.gov's 'discard after a second dose' line, each of which belongs to its own recipe; the bleach item now says the label's recipe comes first and that recipes are not mixed. Melitta's site refused automated readers on 2026-11-14. The official eCFR site refused automated readers, so 40 CFR 141.74 was read in Cornell's copy. 2026-11-16 alignment pass: off the page from item_flags: A chlorine strip only shows that chlorine is present. It cannot show that water is free of germs, Cryptosporidium, chemicals or fuel. | Cheap multi-parameter 'drinking water test kits' and TDS meters sold on marketplaces were not researched and none is recommended here. 2026-11-17 open-up pass: no change to the picks. Budget stays empty because the Standard pick is already any-brand coffee filters. No gate was found in this item.",
       "tiers": {
         "budget": null,
         "standard": {
@@ -928,13 +987,13 @@
           ],
           "flags": [],
           "flag_check": "No recall or counterfeit notice seen on the maker's page. The CPSC recall database was not searched for this product.",
-          "research_note": "2026-11-14: the CPSC recall search did not run for automated access, so CPSC was not checked. Maker's page re-opened in a browser 2026-11-15: part 481026, bottle of 50, $20.49, ITS Method D99-003. 2026-11-16 alignment pass: old link_note: No Amazon link. No test publication covers these strips; the second source is the federal regulation."
+          "research_note": "2026-11-14: the CPSC recall search did not run for automated access, so CPSC was not checked. Maker's page re-opened in a browser 2026-11-15: part 481026, bottle of 50, $20.49, ITS Method D99-003. 2026-11-16 alignment pass: old link_note: No Amazon link. No test publication covers these strips; the second source is the federal regulation. 2026-11-17 open-up pass: maker's page re-read by direct request: part 481026, bottle of 50, $20.49."
         }
       },
       "empty_reason": {
         "budget": "The Standard pick, any paper coffee filter or clean cotton cloth, is already the cheapest thing that works."
       },
-      "prices_seen": "2026-11-15",
+      "prices_seen": "2026-11-17",
       "tier_note": "Use what you have: any clean paper coffee filter, paper towel or tightly woven cloth does the straining, and the chlorine strips are an optional extra."
     }
   ]

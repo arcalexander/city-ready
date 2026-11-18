@@ -2,7 +2,7 @@
 // the site, can read them on their own.
 //   planMarkdown   – "Download the whole plan": the plan as written. Nobody's ticks, picks or purchases.
 //   exportMarkdown – "Export": one signed-in person's ticks, dates, picks and purchases.
-import { TIERS, TIER_NAME, medName, medBrand } from './data.js';
+import { TIERS, PRICE_TIERS, TIER_NAME, medName, medBrand } from './data.js';
 import * as H from './household.js';
 import * as P from './plan.js';
 
@@ -181,7 +181,7 @@ function pickLines(D, it) {
     if (links.length) out.push(`    - Where to buy: ${links.map(l => `${l.label} ${l.url}${l.verified === false ? ' (link not confirmed)' : ''}`).join('; ')}`);
     if (src.length) out.push(`    - Sources: ${src.map(s => `${s.name} ${s.url}`).join('; ')}`);
   }
-  if (filled.length < TIERS.length && it.tier_note) out.push(`  - ${one(it.tier_note)}`);
+  if (PRICE_TIERS.filter(t => it.tiers[t]).length < PRICE_TIERS.length && it.tier_note) out.push(`  - ${one(it.tier_note)}`);
   else if (!filled.length) out.push(`  - No pick. ${one((it.empty_reason && it.empty_reason.standard) || '')}`);
   if (filled.some(t => it.tiers[t].price_usd != null)) out.push(`  - Prices seen ${longDate(it.prices_seen || it.checked)}.`);
   return out;
@@ -372,7 +372,7 @@ export function planMarkdown(D, h, hhSet, tier = 'standard', date = fileDate()) 
     `This file is the plan as written. It holds nobody's ticks, picks or purchases; those are in the other file, the Export (\`household-plan-export_${date}.md\`).`, '',
     full ? 'No household setup was filled in, so this is the full, unfiltered plan: every action and every product, including those meant only for some homes or households (each says who it applies to). Quantities are worked out for two adults in one home.'
       : 'This plan is filtered to the household setup printed at the top. Actions and products that do not apply to those answers are left out.', '',
-    `Product quantities and prices use the ${TIER_NAME[tier]} pick where one exists. Order of the lines under each product: Cadillac, Standard, Budget, My pick, Wirecutter, Consumer Reports, then other testers.`, '',
+    `Product quantities and prices use the ${TIER_NAME[tier]} pick where one exists. Order of the lines under each product: Cadillac, Standard, Budget, Compact (the best small one, where there is one), My pick, Wirecutter, Consumer Reports, then other testers.`, '',
     'Things that depend on the building (water, heat, power, alarms, storage, exits) have one tick box per home. Everything about people, bags, documents, money and medical has one tick box per household.', '',
     ...(notes.quantities ? [one(notes.quantities), ''] : []),
     'A line that starts with a star and says "same job as" is a repeat of another action. It has no box and is counted once, where the box is.', '');
@@ -389,7 +389,7 @@ export function exportMarkdown(D, h, hhSet, data, tier = 'standard', date = file
     '`[x]` means ticked, `[ ]` means not yet. Dates are the day the box was ticked. Item text is written in full so this file can be read without the site.', '',
     '## Household setup', '', ...setupLines(h, hhSet), '');
   if (!hhSet) L.push('Without a setup the site assumes two adults in a high-rise with no outdoor space, and this file uses the same assumption.', '');
-  L.push(`Quantities use the ${TIER_NAME[tier]} pick, or "My pick" where it names one of the three tiers.`, '');
+  L.push(`Quantities use the ${TIER_NAME[tier]} pick, or "My pick" where it names one of the listed picks.`, '');
   const pickNote = it => { const m = (data.picks || {})[it.id]; if (!m) return 'My pick: none chosen'; if (m.tier && it.tiers[m.tier]) return `My pick: ${it.tiers[m.tier].brand} ${it.tiers[m.tier].model} (the ${TIER_NAME[m.tier]} pick)`; return m.text ? `My pick: ${one(m.text)} (own choice)` : 'My pick: none chosen'; };
   for (const S of P.sectionsFor(D, h)) {
     if (S.calendar) continue;

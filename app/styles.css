@@ -252,6 +252,7 @@ input.tick:checked::after { opacity: 1; }
 .tiercol dd { margin: .05rem 0 0; font-size: .96rem; }
 .tiercol ul { margin: .1rem 0; padding-left: 1.05rem; } .tiercol details { margin-top: .6rem; font-size: .92rem; }
 .tiercol.empty { color: var(--muted); }
+.tiercol .tsub { margin: .1rem 0 0; color: var(--muted); }
 .compare .strip { border-top: 1px solid var(--line); padding: .9rem 1.05rem; display: grid; grid-template-columns: 1fr; gap: 1rem; }
 .compare .strip h3, .compare .strip h4 { font-family: var(--sans); font-size: .78rem; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); margin: 0 0 .35rem; }
 .compare .strip p { margin: .2rem 0; }
@@ -407,6 +408,8 @@ pre { background: var(--surface); border: 1px solid var(--line); border-radius: 
   .opener .text { padding: clamp(1.6rem, 4vw, 3.2rem) var(--gap); align-self: center; }
   .opener .pic { aspect-ratio: auto; min-height: 21rem; height: 100%; }
   .compare .tiers { grid-template-columns: repeat(3, 1fr); } .tiercol { border-top: 0; border-left: 1px solid var(--line); } .tiercol:first-child { border-left: 0; }
+  /* Four picks (with Compact): two rows of two, so no column is squeezed. */
+  .compare .tiers.n4 { grid-template-columns: repeat(2, 1fr); } .tiers.n4 .tiercol:nth-child(odd) { border-left: 0; } .tiers.n4 .tiercol:nth-child(n+3) { border-top: 1px solid var(--line); }
   .more .in { grid-template-columns: repeat(5, 1fr); }
 }
 @media (min-width: 1040px) {

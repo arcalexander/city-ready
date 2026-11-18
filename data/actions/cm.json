@@ -115,9 +115,9 @@
       "id": "CM-06",
       "level": 3,
       "section": "Without power or signal",
-      "title": "Consider license-free two-way radios for the household or the floor",
+      "title": "Consider two-way radios for the household or the floor",
       "why": "Handheld two-way radios need no network at all, which makes them useful over short distances when phones are down.",
-      "how": "Buy a set that needs no license where you live (in the US, radios sold as FRS), with a spare battery for each; a GMRS radio, such as this site's Cadillac pick, needs an FCC license before you use it. Two radios is the least that is any use: one for each person or group that may be apart, or one per floor contact. Ignore the range printed on the box, which assumes open country: inside concrete and steel buildings expect a few floors, and at street level a few blocks at best. Test them in your own building, from your unit to the lobby and from floor to floor in the stairwell, and note where they work. Agree one channel and fixed check-in times, and say nothing private, because anyone on the channel can listen.",
+      "how": "In the US there are four kinds, and what the FCC asks of you differs. FRS radios need no license: 22 channels, hand-held, at most 2 watts. GMRS radios share those channels with more power, and add mobile radios and repeaters; they need a license, which you can apply for at 18, which lasts 10 years and which covers your family members of any age; the FCC's page names no exam. CB needs no license either: 40 channels on a different band, so a CB set does not talk to FRS or GMRS radios. Ham (amateur) radio reaches furthest and has the most bands, but each person who transmits needs their own license, earned by passing a written exam given by volunteer examiners; most people start with the Technician class. For talking within a household or a building, FRS or GMRS is the place to start. Keep a spare battery for each radio. Two radios is the least that is any use: one for each person or group that may be apart, or one per floor contact. Ignore the range printed on the box, which assumes open country: inside concrete and steel buildings expect a few floors, and at street level a few blocks at best. Test them in your own building, from your unit to the lobby and from floor to floor in the stairwell, and note where they work. Agree one channel and fixed check-in times, and say nothing private, because anyone on the channel can listen.",
       "done": "The radios and spare batteries are at home, tested from your unit to the lobby and between floors, with the agreed channel and the places they work noted.",
       "cost": "mid",
       "time": "hour",
@@ -133,9 +133,13 @@
       ],
       "cites": [
         "aap-family-kit",
-        "preparedbc-apartments"
+        "preparedbc-apartments",
+        "fcc-frs",
+        "fcc-gmrs",
+        "fcc-cb",
+        "fcc-amateur"
       ],
-      "cite_todo": "An FCC page confirming that FRS radios need no license in the US (GMRS radios do). The indoor range figures are a cautious rule of thumb, not an official number."
+      "cite_todo": "The indoor range figures are a cautious rule of thumb, not an official number."
     },
     {
       "id": "CM-07",

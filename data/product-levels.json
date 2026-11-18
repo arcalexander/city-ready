@@ -20,7 +20,7 @@
       "qty": {
         "basis": "per_eater",
         "factor": 1,
-        "rule": "1 pack of 3,600 kcal for each person aged 6 or over: about 1,200 kcal a day for 3 days, which is not a full diet. A younger child gets food they already eat, not ration bars"
+        "rule": "1 pack of 3,600 kcal for each person aged 6 or over: about 1,200 kcal a day for 3 days, which is not a full diet. The case of 12 meals is counted as one for every four people, at one meal a day each. A younger child gets food they already eat, not ration bars"
       }
     },
     "rain-shell": {

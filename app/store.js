@@ -20,7 +20,7 @@ function clean(d) {
   d = d || {};
   const picks = {};
   for (const [k, v] of Object.entries(obj(d.picks))) {
-    if (v && ['cadillac', 'standard', 'budget'].includes(v.tier)) picks[k] = { tier: v.tier };
+    if (v && ['cadillac', 'standard', 'budget', 'compact'].includes(v.tier)) picks[k] = { tier: v.tier };
     else if (v && typeof v.text === 'string' && v.text.trim()) picks[k] = { text: v.text.trim().slice(0, 80) };
   }
   const files = {};

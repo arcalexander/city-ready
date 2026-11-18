@@ -1,17 +1,17 @@
 {
   "batch": "water-a",
-  "checked": "2026-11-15",
+  "checked": "2026-11-17",
   "items": [
     {
       "id": "water-container-rigid",
       "module": "water",
       "name": "Rigid water containers",
-      "need": "Taps in tall buildings can run dry as soon as the pumps lose power, so a household needs drinking water already stored inside the apartment.",
-      "how_to_choose": "Water weighs about 8.3 lb per gallon, so pick a size you can actually lift: a 7-gallon can is close to 60 lb full, a 5.5-gallon can close to 50 lb, and a 3.5-gallon brick about 30 lb. Measure the closet floor or the gap under the bed before you buy, and choose narrow or low shapes that tuck away. Spread containers along a wall or across several closets rather than in one tall stack, and keep them upright unless the maker says they can lie on their side. Buy food-grade containers made for drinking water, with a screw cap and a vent.",
+      "need": "Taps can run dry in an outage or a water-main break, and in tall buildings they stop as soon as the pumps lose power, so a household needs drinking water already stored at home.",
+      "how_to_choose": "Water weighs about 8.3 lb a gallon, so size decides whether you can move a container once it is full: a 3.5-gallon brick is about 30 lb, a 5.5-gallon can about 49 lb, a 7-gallon can about 60 lb, a 15-gallon barrel about 125 lb, and a 55-gallon barrel or tank about 480 lb. Cans of 7 gallons or less can be carried to a tap, to a car or down the stairs, and a leak spoils one can and not the whole supply, which is why the picks here are cans. A 30-gallon or 55-gallon barrel or stackable tank holds far more in one spot (two weeks for four people is 56 gallons) and suits a garage or basement with a concrete floor: fill it where it will stay, and plan on a siphon pump and a bung wrench unless it has a spigot. For a household of more than two with that kind of floor, one 55-gallon barrel holds about two weeks of water for four people. No barrel is ranked here yet; if you buy one, keep a few small cans you can carry as well. Measure the spot before you buy, whether it is a closet floor, the gap under a bed or a garage wall. Spread containers along a wall or across several closets rather than in one tall stack, and keep them upright unless the maker says they can lie on their side. Buy food-grade containers made for drinking water, with a screw cap and a vent.",
       "qty": {
         "basis": "water_gallons",
         "factor": 1,
-        "note": "Work it out in three steps: the gallons you want stored, less the gallons you already hold as sealed water, divided by the gallons in one purchased pack and rounded up. Example, two adults for 14 days: 28 gallons to store, 6 already held as sealed jugs, 22 still needed; that is 4 containers of 7 gallons (28 gallons, so 6 to spare). A two-pack is two containers: a WaterBrick two-pack holds 7 gallons, not 3.5, so the same household needs 4 two-packs, which is 8 bricks. The sealed water you bought for the first 3 days counts toward the 14-day target: keep it and add containers for the rest. Do not buy 14 days of containers on top of it."
+        "note": "Work it out in three steps: the gallons you want stored, less the gallons you already hold as sealed water, divided by the gallons in one purchased pack and rounded up. Example, two adults for 14 days: 28 gallons to store, 6 already held as sealed water, 22 still needed; that is 4 cans of 5.5 gallons (22 gallons), or 4 cans of 7 gallons (28 gallons, so 6 to spare). A two-pack is two containers: a WaterBrick two-pack holds 7 gallons, not 3.5, so the same household needs 4 two-packs, which is 8 bricks. The sealed water you bought for the first 3 days counts toward the 14-day target: keep it and add containers for the rest. Do not buy 14 days of containers on top of it."
       },
       "already_own": "Camping water jugs you already own are fine if they are food-grade, have only ever held drinking water, close tightly and do not smell of plastic or mold after washing. Clean and sanitize them before filling. Do not press old milk or juice jugs, or anything that has held chemicals or fuel, into service.",
       "safety_notes": [
@@ -67,10 +67,9 @@
         }
       ],
       "item_flags": [],
-      "research_note": "2026-11-15: Rhino-Pak pages opened in a browser. relianceoutdoors.com/products/rhino-pak still lists 5.5G/23L #8580-45 (the site is a catalogue: no price or buy button is shown for any container; its page data marks the item out of stock at $21.99). REI product 244873 'Rhino-Pak EcoCore 5.5 Gallons' $27.00 'currently unavailable'. Walmart item 14550465 out of stock. Fleet Farm SKU 100213506 $22.99 out of stock in store, not available to ship. Sportsman's Warehouse 'out of stock and is not likely to be available again'. OpticsPlanet 'Discontinued by Manufacturer'. The maker has published no discontinuation notice, so 'discontinued' is the retailer's word, not the maker's. The Rhino-Pak was the Standard pick until this date; it was taken out of the tiers because it cannot be bought, and the Aqua-Tainer moved from Budget to Standard so that the Standard container and the Standard pump fit each other. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for 'water container', 'water jug', Reliance, WaterBrick and Scepter: no recalls of drinking-water containers found. | Scepter fuel containers were recalled by CPSC in October 2025 and February 2026 (fire, burn and child-poisoning hazards). That recall covers fuel cans, not water cans, but never store drinking water in a fuel can. | The Reliance Rhino-Pak 5.5 gallon (part 8580-45) is The Prepared's top pick, but it could not be found for sale on November 15, 2026: REI, Walmart, Fleet Farm and Sportsman's Warehouse showed it out of stock, and OpticsPlanet says the maker has discontinued it. Reliance's own catalog still lists it and carries no such notice. If you find one it is a good buy: about 49 lb full and only 6 inches wide, so several stand side by side at the back of a closet. It pours from its own spout, Reliance's hand pump does not fit it, and it weeps if stored on its side. | The Scepter 5-gallon Military Water Container (part 05935) is a sturdy alternative named by The Prepared as its upgrade pick; no price was confirmed for it. 2026-11-16 alignment pass: safety note said twice, removed: Water that was not commercially bottled should be replaced every six months. (https://www.ready.gov/water) 2026-11-16 alignment pass: safety note said twice, removed: CDC advises at least one gallon of water per person per day, and suggests trying to store a 2-week supply if you can. Store more for pregnant women, sick people, pets and hot weather. (https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html)",
+      "research_note": "2026-11-17 open-up pass. Stock is now a flag, not a test: the Rhino-Pak is Standard again (maker still lists it, 'Back in Stock Soon'), the Aqua-Tainer is Budget again, the Scepter military can is the new top pick, and the WaterBrick is the Compact pick. Large storage weighed on merit today, with no size filter. Pages opened: The Prepared 'Best large water barrels and tanks' (https://theprepared.com/homestead/reviews/large-water-barrels-tanks/, by Thomas Gomez, last updated January 10, 2021; staff experience and 12 hours of research, no hands-on test; features the Smart Tank 50 Gallon stackable and the Legacy Premium 30 Gallon barrel, lists the Legacy 15 gal, Augason Farms 55 gal barrel and WaterPrepared 55 and 160 gal tanks without comment; says a 55-gallon tank holds over 440 lb of water, to check the floor, not to set plastic straight on hot concrete near fuel, and to keep a few 5 to 7 gallon cans as well); WaterPrepared's own page (Blue 55 Gallon Water Storage Tank, 22 x 28 x 30 in, stackable, BPA-free, made in USA, $269.00, was $289.00); Legacy Food Storage's pages (the same WaterPrepared 55-gallon tank at $299.00 with a treatment kit, empty weight 20 lb; a 30-gallon stackable tank with spigot; a 15-gallon barrel, 15.7 in across and 21.5 in high, about 125 lb full, with bung wrench and siphon hose; a 5-gallon stackable box, about 40 lb full); Primal Survivor's review of the WaterPrepared 55 (one author, November 18, 2024: sturdy, spigot sits low, hard to drain fully, about 500 lb full); Augason Farms' own site (the 55-gallon barrel kit address is now a 404 and the site lists only an 'Exodus 35 Gallon Water Tank' at $250.00, so its 55-gallon barrel is not on the maker's site today). Saratoga Farms 5-gallon stackables: The Prepared tested and disqualified them (arrived warped, cap ratchet broke, failed the drop test). No 'Lifetime' water barrel page was looked for. Result: no barrel or tank is a pick. The reason is evidence and use, not size: the only hands-on comparative test (The Prepared, ten containers) limits itself to cans and makes a can its top pick; True Prepper's best overall is also a can; no established outlet has run a hands-on test of barrels; and both The Prepared pages say to keep portable cans even beside a tank. A barrel cannot be moved full, and tap water you store yourself is replaced every 6 months, which means draining it. Per gallon a 55-gallon tank ($269, about $4.90 a gallon) costs about the same as the Standard can ($4.00), so it is not a budget choice either. If the editor wants a large-capacity pick shown, the best-supported one is the WaterPrepared 55 Gallon stackable tank (maker page plus The Prepared's list plus Primal Survivor's hands-on review), but that is one small outlet's test. how_to_choose now describes barrels and their weight plainly. Why ours and not True Prepper's Reliance Aqua-Tainer: The Prepared ran crush and drop tests on both cans, and the Aqua-Tainer failed them while the Rhino-Pak passed; the Aqua-Tainer is our Budget pick. Why ours and not Outdoor Life's Igloo 6-Gallon Camping Water Container: Outdoor Life tested for car camping, not for months of storage, and The Prepared disqualified the current Igloo 6-gallon can for its push-pin vent. Why ours and not Wirecutter's Reliance Aqua-Tainer 7-Gallon: in The Prepared's hands-on test of both cans the Aqua-Tainer failed the crush and drop tests that the Rhino-Pak passed, and most of its testers could not carry 7 gallons (about 60 lb) through the course while the 5.5-gallon Rhino-Pak carries like a suitcase; the Aqua-Tainer is our Budget pick, and it is the natural Standard if Reliance confirms the Rhino-Pak is gone. Not settled against Wirecutter's Augason Farms 55-Gallon Water Storage Barrel: no maker's page, price or stock could be confirmed on 2026-11-17 (augasonfarms.com answers the page reader with 'too many requests', its old 55-gallon kit address is a 404, the one page of the site that did open lists only a 35-gallon tank bundle, and Home Depot's listing for kit 6-07910 refuses the reader), and the only other tester page opened, The Prepared's large-tank guide, lists the barrel without comment; a barrel was weighed again and still has no tier, because a pick needs a maker's page and a price, but how_to_choose now says plainly that one 55-gallon barrel holds about two weeks of water for four people. | 2026-11-15: Rhino-Pak pages opened in a browser. relianceoutdoors.com/products/rhino-pak still lists 5.5G/23L #8580-45 (the site is a catalogue: no price or buy button is shown for any container; its page data marks the item out of stock at $21.99). REI product 244873 'Rhino-Pak EcoCore 5.5 Gallons' $27.00 'currently unavailable'. Walmart item 14550465 out of stock. Fleet Farm SKU 100213506 $22.99 out of stock in store, not available to ship. Sportsman's Warehouse 'out of stock and is not likely to be available again'. OpticsPlanet 'Discontinued by Manufacturer'. The maker has published no discontinuation notice, so 'discontinued' is the retailer's word, not the maker's. The Rhino-Pak was the Standard pick until this date; it was taken out of the tiers because it cannot be bought, and the Aqua-Tainer moved from Budget to Standard so that the Standard container and the Standard pump fit each other. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for 'water container', 'water jug', Reliance, WaterBrick and Scepter: no recalls of drinking-water containers found. | Scepter fuel containers were recalled by CPSC in October 2025 and February 2026 (fire, burn and child-poisoning hazards). That recall covers fuel cans, not water cans, but never store drinking water in a fuel can. | The Reliance Rhino-Pak 5.5 gallon (part 8580-45) is The Prepared's top pick, but it could not be found for sale on November 15, 2026: REI, Walmart, Fleet Farm and Sportsman's Warehouse showed it out of stock, and OpticsPlanet says the maker has discontinued it. Reliance's own catalog still lists it and carries no such notice. If you find one it is a good buy: about 49 lb full and only 6 inches wide, so several stand side by side at the back of a closet. It pours from its own spout, Reliance's hand pump does not fit it, and it weeps if stored on its side. | The Scepter 5-gallon Military Water Container (part 05935) is a sturdy alternative named by The Prepared as its upgrade pick; no price was confirmed for it. 2026-11-16 alignment pass: safety note said twice, removed: Water that was not commercially bottled should be replaced every six months. (https://www.ready.gov/water) 2026-11-16 alignment pass: safety note said twice, removed: CDC advises at least one gallon of water per person per day, and suggests trying to store a 2-week supply if you can. Store more for pregnant women, sick people, pets and hot weather. (https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html) | 2026-11-17, main worker: the helper read some shop pages by a plain command-line request after the reader was refused; the ones a flag rests on were re-read in Chrome. Container Authority: Scepter 05935 $69.97, 'Out of stock'. relianceoutdoors.com/products/rhino-pak: still lists '5.5G / 23L (#8580-45)'; no price shown.",
       "tiers": {
-        "budget": null,
-        "standard": {
+        "budget": {
           "brand": "Reliance",
           "model": "Aqua-Tainer 7 Gallon",
           "model_number": "9410-03",
@@ -78,9 +77,9 @@
           "unit_size": 7,
           "unit_label": "container",
           "price_usd": 23.99,
-          "price_seen_at": "Academy.com, November 15, 2026",
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com), November 17, 2026; Academy.com showed the same price on November 15, 2026",
           "unit_price": "$3.43 per gallon of capacity",
-          "why": "The Prepared's budget pick after hands-on tests: about $3.40 per gallon of capacity, with a built-in spigot that stows inside the cap. Reliance's hand pump, this site's Standard dispenser, screws on in place of that spigot.",
+          "why": "The Prepared's budget pick after hands-on tests, and True Prepper's best overall: about $3.40 per gallon of capacity, the most water for the money, with a built-in spigot that stows inside the cap. Reliance's hand pump, this site's Standard dispenser, screws on in place of that spigot.",
           "weakness": "At about 60 lb full it is too heavy for many people to move, so fill it where it will stay. The Prepared found the thin walls dent and bulge, and it failed their crush and drop tests, so do not stack it. A 4-gallon version (about 35 lb full) is on the same Reliance page.",
           "links": [
             {
@@ -95,7 +94,7 @@
               "url": "https://www.academy.com/p/reliance-original-aqua-tainer-7-gallon",
               "verified": true,
               "note": "Item 9410-03.",
-              "research_note": "2026-11-16 alignment pass: old note: Item 9410-03 at $23.99, with 'Add to cart' shown on November 15, 2026."
+              "research_note": "2026-11-16 alignment pass: old note: Item 9410-03 at $23.99, with 'Add to cart' shown on November 15, 2026. 2026-11-17: Academy answered a plain request with a 'verify you are a human' page, so the listing was not re-read today; it needs a browser."
             },
             {
               "label": "Amazon",
@@ -106,7 +105,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Budget pick until 2026-11-15; made Standard that day because the former Standard (Reliance Rhino-Pak 8580-45) could not be found for sale at five retailers and the Standard pump does not fit it. Sources re-opened 2026-11-15: Reliance page (browser), Academy (browser, $23.99, add to cart), The Prepared (budget pick; failed crush and drop tests; most testers could not carry 7 gallons through the course).",
+          "research_note": "2026-11-17 open-up pass: back to Budget, its place in The Prepared's test, now that the Rhino-Pak is Standard again. Maker page re-read today: both sizes are listed (4 gal #9405-03R, 7 gal #9410-03R), page data gives $22.99 and $23.99, and both show 'Back in Stock Soon' on the maker's own site. No sold-out flag was added because Academy had it with 'Add to cart' two days ago and could not be re-read today (bot check). The Prepared and True Prepper pages were both opened today. | Budget pick until 2026-11-15; made Standard that day because the former Standard (Reliance Rhino-Pak 8580-45) could not be found for sale at five retailers and the Standard pump does not fit it. Sources re-opened 2026-11-15: Reliance page (browser), Academy (browser, $23.99, add to cart), The Prepared (budget pick; failed crush and drop tests; most testers could not carry 7 gallons through the course).",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -123,6 +122,14 @@
               "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
               "verified": true,
               "supports": "Budget pick after 34 hours of research and hands-on fill, carry, leak, crush and drop tests; notes weight and durability limits."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Water Storage Containers",
+              "url": "https://trueprepper.com/best-water-storage-containers/",
+              "verified": true,
+              "supports": "Named best overall water storage container: inexpensive, spigot with a separate vent, stacks when empty; notes it is opaque, so the water level is hard to see."
             }
           ],
           "flags": [
@@ -130,7 +137,121 @@
           ],
           "flag_check": "Queried the CPSC recall database for 'Reliance', 'water container' and 'water jug' on 2026-11-14: no Reliance water container recalls (the Reliance results were unrelated companies and products)."
         },
+        "standard": {
+          "brand": "Reliance",
+          "model": "Rhino-Pak 5.5 Gallon",
+          "model_number": "8580-45",
+          "size": "5.5 US gal (23 L), 14.8 x 6.3 x 19.3 in, 2.9 lb empty, about 49 lb full",
+          "unit_size": 5.5,
+          "unit_label": "container",
+          "price_usd": 21.99,
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com), November 17, 2026, shown as 'Back in Stock Soon'",
+          "unit_price": "$4.00 per gallon of capacity",
+          "why": "The Prepared's top pick after hands-on tests of ten containers: the toughest can it found under $30, and it came through the crush and drop tests that the cheaper Aqua-Tainer failed. Reliance says the walls are a third thicker than its standard cans. At about 49 lb full and 6.3 inches wide it carries like a suitcase, and several stand side by side along a wall.",
+          "weakness": "It is hard to find for sale. The Prepared saw one side wall bow out over time and a slow drip at the cap and vent under a heavy stacked load, and the spout stores inside the can, where it sits in the drinking water. Reliance's hand pump does not fit it, and at 49 lb it is still too heavy for some people.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/rhino-pak",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-17: read with a plain curl request (the page fetch tool was rate-limited). Page lists 5.5G / 23L (#8580-45); the size selector reads '5.5G / 23L - Back in Stock Soon'; page data gives sku 08580-45, $21.99, OutOfStock. No discontinuation notice on the page."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-17 open-up pass: restored as Standard. It was Standard until 2026-11-15 and was taken out only because five retailers showed it out of stock (REI $27.00 'currently unavailable', Walmart, Fleet Farm $22.99, Sportsman's Warehouse 'not likely to be available again', OpticsPlanet 'Discontinued by Manufacturer'); those retailer pages were NOT re-opened today. The maker still lists it today with 'Back in Stock Soon', so the stock rule applies: it stays, flagged, with its equal. The equal named in the flag, Scepter's 5 Gallon Water Can #04933, had its maker page opened today (https://www.scepter.com/products/consumer-products/5-gallon-20-litre-water-can/: HDPE, BPA-free, spout stores inside, sold through Amazon, Bass Pro, Northern Tool, West Marine, Lowe's, AutoZone) and is described in The Prepared's test, opened today, as nearly winning the top or budget spot, the sturdiest can in the $20 class with the best pour; no price for it was seen today (Bass Pro, AutoZone, Northern Tool and Lowe's refused the reader). No Amazon ASIN for the Rhino-Pak was seen today, so no Amazon link. If Reliance confirms the Rhino-Pak is discontinued, the Scepter 04933 is the natural replacement. | 2026-11-17, main worker: the helper's 'Back in Stock Soon' came from the page's data, read by command line. In Chrome the page shows the 5.5G / 23L (#8580-45) style and no stock wording, price or buy button, so the flag now says what a visitor sees.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Rhino-Pak",
+              "url": "https://relianceoutdoors.com/products/rhino-pak",
+              "verified": true,
+              "supports": "Part number 8580-45, 5.5 gal (23 L), dimensions, 2.9 lb, walls 33% thicker than standard water containers, spout and vent cap, PFAS- and BPA-free food-safe claim."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Top pick after 34 hours of research and hands-on fill, carry, leak, crush and drop tests of ten containers; survived the drop and crush tests; notes the bowing side wall, slow drip under stacked load and the spout stored inside the can."
+            }
+          ],
+          "flags": [
+            "Hard to find: REI, Walmart, Fleet Farm and Sportsman's Warehouse each showed it out of stock on November 15, 2026. Reliance still lists it, but its own site is a catalog with no price or buy button. Its equal: Scepter 5 Gallon Water Can (04933)."
+          ],
+          "flag_check": "CPSC recall database queried on 2026-11-14 for 'Reliance', 'water container' and 'water jug': no Reliance water container recalls. Not queried again on 2026-11-17."
+        },
         "cadillac": {
+          "brand": "Scepter",
+          "model": "Military Water Container 5 Gallon",
+          "model_number": "05935 (sand); 04603 (black); 05177 (green)",
+          "size": "5 US gal (20 L), about 13.5 x 6.75 x 19 in and 4.5 lb empty (Outdoor Life's figures), about 46 lb full",
+          "unit_size": 5,
+          "unit_label": "container",
+          "price_usd": 69.97,
+          "price_seen_at": "Container Authority (containerauthority.com), a seller Scepter links to, November 17, 2026, free shipping",
+          "unit_price": "$13.99 per gallon of capacity",
+          "why": "The toughest can in two hands-on tests. The Prepared calls it the best water can it has tested: it passed the crush, drop and submersion tests, and the reviewers expect 10 to 20 years of use. Outdoor Life named it the most durable container in its test. The 4-inch fill opening is wide enough to clean through, and a small second cap is there for pouring.",
+          "weakness": "It costs about three and a half times as much per gallon as the Standard can. The Prepared's first can leaked at the vent cap and had to be replaced, Outdoor Life found the lid leaks when the can lies on its side and noted a strong plastic smell when new, and a spout or spigot costs extra.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.scepter.com/products/military-products/military-fuel-water-containers/military-water-container/5-gallon-20-litre-military-water-container-05935/",
+              "verified": true,
+              "note": "The maker's site is a catalog: buy from one of the sellers it lists."
+            },
+            {
+              "label": "Container Authority",
+              "url": "https://containerauthority.com/scepter-20l-military-water-can-tan-genuine-5-gallon-mwc-scepter-part-05935-free-shipping-container-authority/",
+              "verified": true,
+              "note": "Sand color, part 05935; black, blue and green are on the same site.",
+              "research_note": "2026-11-17: this address is the 'Lexington Container Company' link on Scepter's own where-to-buy list. The category page shows $69.97 for each color. Each product page carries two blocks of page data that disagree: the shop's own block gives $69.97 and OutOfStock for 05935, 04603, 05887 and 05177; a second hand-written block gives $59.97 and InStock. The displayed price matches the first block, so the pick is flagged sold out there. Worth a look in a browser."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B001IV8IYA",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon not read. ASIN seen on 2026-11-17 in the Amazon link on Scepter's own where-to-buy list for product #05935 (the link carried a tracking parameter, removed here)."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-17 open-up pass: new top pick. The WaterBrick held this tier before for its 'apartment shape', which is a size reason, not a quality one; it is now the Compact pick. Scepter's page gives no dimensions or weight; Outdoor Life gives 13.5 x 6.75 x 19 in, about 4.5 lb, 5.2 gal; Container Authority gives 18.5 x 13.5 x 6.5 in, 5.28 gal and 42 lb full. The Prepared priced it at about $50 after shipping and warned of marketplace listings at twice the list price; DS Tactical (Canada) showed 45.99 in Canadian dollars. Lowe's, AutoZone and Grainger links from Scepter's page refused the reader or were dead. Large barrels and tanks were weighed for this tier and not chosen: see the item's research note.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Scepter",
+              "title": "5 Gallon / 20 Litre Military Water Container - Generic Markings (#05935)",
+              "url": "https://www.scepter.com/products/military-products/military-fuel-water-containers/military-water-container/5-gallon-20-litre-military-water-container-05935/",
+              "verified": true,
+              "supports": "Product number, 5 gal capacity, food-grade and BPA-free material, colors, list of sellers."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Upgrade pick: the toughest container over five gallons in the test; passed crush, drop and submersion tests; 4 in fill opening and separate 1 in pour cap; first unit leaked at the vent cap and was replaced; spigot hose costs extra."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Water Containers",
+              "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+              "verified": true,
+              "supports": "Named most durable after home and car-camping use; size and weight; notes high price, a chemical smell when new and a lid that leaks when stored on its side."
+            }
+          ],
+          "flags": [
+            "Sold out at Container Authority on November 17, 2026. Its equal: none as tough in The Prepared's tests; the next toughest is the Standard pick.",
+            "Scepter sells fuel cans in the same shape: check that the listing says water container."
+          ],
+          "flag_check": "CPSC recall database queried on 2026-11-14 for 'Scepter': fuel containers were recalled in October 2025 and February 2026; no recall of the water container. Not queried again on 2026-11-17."
+        },
+        "compact": {
           "brand": "WaterBrick",
           "model": "Standard WaterBrick 3.5 Gallon, Blue, 2-pack",
           "model_number": "1833-0001-2",
@@ -139,10 +260,10 @@
           "unit_label": "2-pack (two 3.5-gallon bricks)",
           "units_per_pack": 2,
           "price_usd": 54.5,
-          "price_seen_at": "waterbrick.org, November 15, 2026 (shown as available on backorder)",
+          "price_seen_at": "waterbrick.org, November 17, 2026 (shown as available on backorder)",
           "unit_price": "$7.79 per gallon of capacity",
-          "why": "The apartment shape: each brick is only 6 inches tall, so it slides under a bed, and bricks interlock into a neat low stack. At about 30 lb full, most adults and teenagers can carry one. The Prepared names it the space-saver pick and found the body very solid.",
-          "weakness": "It costs more than twice as much per gallon as the Standard pick, and The Prepared rated the caps and add-on spigot as mediocre.",
+          "why": "The small pick: each brick is only 6 inches tall, so it slides under a bed, and bricks interlock into a neat low stack. At about 30 lb full, most adults and teenagers can carry one. The Prepared names it the space-saver pick and found the body very solid: 150 lb of load had no effect. True Prepper names it the best stacking container.",
+          "weakness": "It costs about twice as much per gallon as the Standard pick, and The Prepared rated the caps and add-on spigot as mediocre.",
           "links": [
             {
               "label": "Manufacturer",
@@ -176,27 +297,34 @@
               "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
               "verified": true,
               "supports": "Space-saver pick; unaffected by 150 lb of load; reviewers would stack three or four high; caps and spigot rated mediocre; expensive."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Water Storage Containers",
+              "url": "https://trueprepper.com/best-water-storage-containers/",
+              "verified": true,
+              "supports": "Named best stacking container: bricks nest and stack, with little wasted space; high price."
             }
           ],
           "flags": [
-            "The spigot is sold separately."
+            "The spigot is sold separately.",
+            "On backorder at waterbrick.org on November 17, 2026: it can be ordered and ships later. The nearest small can: Reliance Aqua-Tainer 4 Gallon (9405-03), about 35 lb full."
           ],
           "flag_check": "Queried the CPSC recall database for 'WaterBrick' on 2026-11-14: none found.",
-          "research_note": "2026-11-16 alignment pass: off the page from flags: Shown as 'available on backorder' on the maker's own site on November 15, 2026, and the matching spigot could not be ordered there. | The spigot is sold separately ($19.95 on waterbrick.org)."
+          "research_note": "2026-11-17 open-up pass: moved from Cadillac to the new Compact tier; its case was always its small size, not that it is the best container. Maker page re-read today: 'Blue Std WaterBrick 3.5 Gallon - 2 pack', SKU 1833-0001-2, $54.50, 'Available on backorder'; the site banner still advertises an old Black Friday sale. The 4-gallon Aqua-Tainer named in the flag is on Reliance's Aqua-Tainer page, read today (11.5 x 11.25 x 10.75 in, 1.5 lb, page data $22.99, 'Back in Stock Soon'); The Prepared tested only the 7-gallon size. | 2026-11-16 alignment pass: off the page from flags: Shown as 'available on backorder' on the maker's own site on November 15, 2026, and the matching spigot could not be ordered there. | The spigot is sold separately ($19.95 on waterbrick.org)."
         }
       },
-      "empty_reason": {
-        "budget": "The Standard pick is already the cheapest container an independent tester recommends. Cheaper still is sealed supermarket water, which needs no container at all."
-      },
-      "prices_seen": "2026-11-15",
-      "tier_note": "No Budget pick: the Standard can is already the cheapest container a tester recommends, and sealed supermarket water needs no container at all."
+      "empty_reason": {},
+      "prices_seen": "2026-11-17",
+      "tier_note": "The Budget can costs a little more than the Standard can because it holds 7 gallons against 5.5; per gallon stored it is the cheapest."
     },
     {
       "id": "water-sealed-bottled",
       "module": "water",
       "name": "Sealed bottled and long-life water",
       "need": "Factory-sealed water is ready to store the day you buy it and needs no cleaning, filling or treating.",
-      "how_to_choose": "Ordinary supermarket water is the cheapest and works well if you use it and replace it before the date on the bottle. Long-life emergency water costs far more per gallon; what you pay for is a stated multi-year shelf life and tough small packs that suit a grab bag or a shelf you will not check often. For a car-free household, carry weight matters: a gallon jug is about 8.5 lb and a 24-bottle case about 27 lb. Keep sealed water in a cool, dark place off the floor of a sunny room.",
+      "how_to_choose": "Ordinary supermarket water is the cheapest and works well if you use it and replace it before the date on the bottle. A case of half-liter bottles and a gallon jug do the same job: bottles need no cups and are easy to share or drop in a bag, while a jug pours for cooking and washing and makes the count simple, one jug for each person each day. Long-life emergency water costs far more per gallon; what you pay for is a stated multi-year shelf life and tough small packs that suit a grab bag or a shelf you will not check often. Know the weight before you carry it home: a gallon jug is about 8.5 lb and a 24-bottle case about 27 lb. Keep sealed water in a cool, dark place off the floor of a sunny room.",
       "qty": {
         "basis": "water_gallons",
         "factor": 1,
@@ -242,7 +370,49 @@
       ],
       "item_flags": [],
       "tiers": {
-        "budget": null,
+        "budget": {
+          "brand": "Good & Gather (Target)",
+          "model": "Purified Drinking Water, 24 bottles of 16.9 fl oz",
+          "model_number": "",
+          "size": "24 bottles of 16.9 fl oz (half a liter) each, about 3.2 US gal in all; the case weighs about 27 lb",
+          "unit_size": 3.17,
+          "unit_label": "case of 24 bottles",
+          "price_usd": 4.19,
+          "price_seen_at": "Target.com, November 17, 2026, in stock",
+          "unit_price": "about $1.32 a gallon",
+          "why": "A store-brand case is the cheapest sealed water there is: about $1.32 a gallon here, less than the Standard jug. One case is about three days of water for one person, the bottles need no cups, and cases stack. Any store's own-brand case does the same job, so buy the one sold nearest you.",
+          "weakness": "A 27 lb case is a heavier single carry than a jug, 24 small bottles make more plastic waste than three jugs, this brand is sold only at Target, and like all ordinary bottled water it has to be used and replaced by the date printed on it.",
+          "links": [
+            {
+              "label": "Target (brand owner)",
+              "url": "https://www.target.com/p/purified-drinking-water-24pk-16-9-fl-oz-bottles-good-gather-8482/-/A-54407104",
+              "verified": true,
+              "note": "Target's own brand, sold only at Target."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-17 open-up pass: new Budget pick; the tier was empty with the reason that any store-brand water does the job, and this names one. Target's page opened today with the page fetch tool: '$4.19 ($0.01/fluid ounce)', 24 bottles of 16.9 fl oz, 'In Stock', estimated shipping weight 27.04 lb. 24 x 16.9 = 405.6 fl oz = 3.17 gal, so $1.32 a gallon. A retailer listing does not count as a source; this page is used because Target owns the brand, so it is the brand owner's own page. That makes one product-specific source; the second is the FDA's general page, the same pattern as the Standard jug. No test publication reviews supermarket water for storage. Walmart's Great Value 40-pack ($5.97 on 2026-11-16, about $1.13 a gallon, seen by the main worker) is cheaper still but Walmart refuses the reader. No Amazon link: store brand.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Target (owner of the Good & Gather brand)",
+              "title": "Purified Drinking Water - 24pk/16.9 fl oz Bottles - Good & Gather",
+              "url": "https://www.target.com/p/purified-drinking-water-24pk-16-9-fl-oz-bottles-good-gather-8482/-/A-54407104",
+              "verified": true,
+              "supports": "Pack of 24 bottles of 16.9 fl oz, plastic bottles, shipping weight about 27 lb."
+            },
+            {
+              "type": "standard_listing",
+              "name": "FDA",
+              "title": "Bottled Water Everywhere: Keeping it Safe",
+              "url": "https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe",
+              "verified": true,
+              "supports": "General rule only: bottled water is regulated as a food with quality standards and plant inspections. Not specific to this brand."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search was run for this store brand on 2026-11-17."
+        },
         "standard": {
           "brand": "Crystal Geyser",
           "model": "Alpine Spring Water, 1 gallon jug",
@@ -250,9 +420,9 @@
           "size": "1 US gal (128 fl oz) PET jug, about 12 in tall, about 8.5 lb",
           "unit_size": 1,
           "unit_label": "1-gallon jug",
-          "price_usd": 1.49,
-          "price_seen_at": "Target.com, November 16, 2026, in stock",
-          "why": "A nationally sold gallon jug at well under $2. It is made of PET, the sturdier clear plastic used for soda bottles, not the thin cloudy plastic of milk-style jugs.",
+          "price_usd": 1.69,
+          "price_seen_at": "Target.com, November 17, 2026, in stock",
+          "why": "A nationally sold gallon jug at well under $2. It is made of PET, the sturdier clear plastic used for soda bottles, not the thin cloudy plastic of milk-style jugs. One jug is one person's water for one day, which keeps the count simple, and it pours for cooking and washing as well as drinking.",
           "weakness": "The jug has no handle, which makes it awkward to carry several at once, and like all ordinary bottled water it has to be used and replaced by the date printed on it.",
           "links": [
             {
@@ -270,7 +440,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "No test publication reviews supermarket gallon water for storage. No Amazon ASIN was seen on 2026-11-14. Target page re-opened in a browser 2026-11-15: the listing loads but showed no price without a store chosen, so the $1.69 price is as seen on 2026-11-14. 2026-11-16 alignment pass: old link_note: Checked against one product-specific source only (the maker's page). The second source is the FDA's general page on how all bottled water is regulated, not a listing for this brand. No Amazon link.",
+          "research_note": "2026-11-17 open-up pass: Target's page opened today with the page fetch tool: '$1.69 ($0.01/fluid ounce)', PET plastic #1, 'In Stock' (the $1.49 seen on 2026-11-16 was a different store's price). Crystal Geyser's brand page and the FDA page were both re-opened today. Weighed against a 24-pack case on merit: the two do the same job and neither is clearly better, so the jug stays Standard and the cheaper-per-gallon case fills Budget. | No test publication reviews supermarket gallon water for storage. No Amazon ASIN was seen on 2026-11-14. Target page re-opened in a browser 2026-11-15: the listing loads but showed no price without a store chosen, so the $1.69 price is as seen on 2026-11-14. 2026-11-16 alignment pass: old link_note: Checked against one product-specific source only (the maker's page). The second source is the FDA's general page on how all bottled water is regulated, not a listing for this brand. No Amazon link.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -290,7 +460,8 @@
             }
           ],
           "flags": [],
-          "flag_check": "Queried the FDA food enforcement database for 'Crystal Geyser' and 'CG Roxane' on 2026-11-14: no recall of Alpine Spring Water found (one closed 2017 recall of a different company's sparkling mineral water)."
+          "flag_check": "Queried the FDA food enforcement database for 'Crystal Geyser' and 'CG Roxane' on 2026-11-14: no recall of Alpine Spring Water found (one closed 2017 recall of a different company's sparkling mineral water).",
+          "unit_price": "$1.69 a gallon"
         },
         "cadillac": {
           "brand": "Datrex",
@@ -300,7 +471,7 @@
           "unit_size": 2.1,
           "unit_label": "case of 64 pouches",
           "price_usd": 29.95,
-          "price_seen_at": "American Nautical Services (amnautical.com)",
+          "price_seen_at": "American Nautical Services (amnautical.com), November 17, 2026",
           "why": "Foil pouches with a stated 5-year shelf life from the date of manufacture, listed as US Coast Guard approved for lifeboat use. One compact case sits on a closet shelf for years, and loose pouches drop into grab bags.",
           "weakness": "About $14 per gallon, so it suits a small no-maintenance reserve or a grab bag, not a household's whole two-week supply; many small pouches also mean a lot of tearing and waste.",
           "links": [
@@ -313,7 +484,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "2026-11-14: datrex.com returned HTTP 500 on three attempts, so the manufacturer page could not be opened; the Datrex spec sheet PDF loaded but its text could not be read by the tools that day (it was opened and read on 2026-11-15, see sources). The Coast Guard equipment database needs a search form submitted, so it was not used. No Amazon ASIN was confirmed. 2026-11-16 alignment pass: old link_note: The Coast Guard approval is as stated on Datrex's own specification sheet and on a marine supplier's listing; it was not checked in the Coast Guard's own equipment database. No link to the maker's shop and no Amazon link. 2026-11-16 alignment pass: off the page from flags: Prices vary widely between sellers: the same case was listed at $60.90 at another retailer on November 14, 2026.",
+          "research_note": "2026-11-17 open-up pass: the seller's page re-read today: $29.95 (list $34.95), SKU DX1000W, 'Add to cart'. True Prepper's pouch test (updated April 13, 2026) opened today and added as a source. The Datrex spec sheet PDF was not re-opened today. | 2026-11-14: datrex.com returned HTTP 500 on three attempts, so the manufacturer page could not be opened; the Datrex spec sheet PDF loaded but its text could not be read by the tools that day (it was opened and read on 2026-11-15, see sources). The Coast Guard equipment database needs a search form submitted, so it was not used. No Amazon ASIN was confirmed. 2026-11-16 alignment pass: old link_note: The Coast Guard approval is as stated on Datrex's own specification sheet and on a marine supplier's listing; it was not checked in the Coast Guard's own equipment database. No link to the maker's shop and no Amazon link. 2026-11-16 alignment pass: off the page from flags: Prices vary widely between sellers: the same case was listed at $60.90 at another retailer on November 14, 2026.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -338,6 +509,14 @@
               "url": "https://trueprepper.com/best-water-storage-containers/",
               "verified": true,
               "supports": "Recommends Datrex 125 ml pouches for vehicle kits: USCG/SOLAS approved, burst-proof packaging, about five years drinkable, handles temperature extremes."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Emergency Water Pouches & Bagged Water",
+              "url": "https://trueprepper.com/emergency-water-pouches/",
+              "verified": true,
+              "supports": "Named best overall water pouch against Mayday, SOS Food Lab and Mainstay: 64 pouches of 125 ml, 5-year shelf life, rated from 0 F to 210 F."
             }
           ],
           "flags": [
@@ -346,18 +525,16 @@
           "flag_check": "Queried the FDA food enforcement database for 'Datrex' and 'emergency drinking water' and the CPSC recall database on 2026-11-14: none found."
         }
       },
-      "empty_reason": {
-        "budget": "No separate pick. Store-brand water can cost less than the Standard jug: on November 16, 2026 Walmart listed its Great Value purified water at $5.97 for forty 16.9 oz bottles (about $1.13 a gallon), against $1.49 for the Standard gallon jug. Any sealed supermarket water with a date on it does the same job, so buy whichever is cheapest near you, in amounts you can carry upstairs. Cheaper still is tap water in your own containers, which is the next step up."
-      },
-      "prices_seen": "2026-11-15",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Blue Can Water (the 50-year canned water) appears to have left the market: its website address bluecanwater.com now redirects to an unrelated site, one retailer says the maker has ceased production, and SOS Products showed the 24-can case as temporarily out of stock at $36.98. Resellers ask far more. It is not recommended until supply is confirmed. | Queried the FDA food enforcement (recall) database on 2026-11-14 for Crystal Geyser, CG Roxane, Datrex, Puravai and 'emergency drinking water': the only result was a 2017 recall of Crystal Geyser sparkling mineral water from a different company (Crystal Geyser Water Company), long since closed. | Longer-life packaged water (20 to 50 years): none met this site's two-source rule. Blue Can Water appears to be out of production (see the note above). Puravai (20-year HDPE bottles, $49.99 for six bottles of at least 32 fl oz at thrivalist.com) is on sale, but the only sources found were the maker's own pages, and its purity claims rest on the maker's own testing.",
-      "tier_note": "No Budget pick: any sealed store-brand water with a date on it does the same job and can cost less than the Standard jug, so buy whichever is cheapest near you, in amounts you can carry upstairs."
+      "empty_reason": {},
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-17 open-up pass. Budget filled with a store-brand 24-pack of half-liter bottles; the Standard jug and the Datrex pouches stay. Canned and boxed long-life water weighed today for the top tier: bluecanwater.com still redirects to an unrelated site (wesellpolkcounty.com), so Blue Can is still not confirmed as on sale. Augason Farms' site sells 'Simpler Life Emergency Water, 12-Pack, 100 Year Shelf Life' in aluminum cans at $49.95, in stock (https://augasonfarms.com/products/12-pack-case-emergency-water); the can size was not stated in the text read, and the 100-year claim is the maker's own with no independent test found, so it fails the two-source rule. Legacy Food Storage sells 'Ready H2O Emergency Drinking Water, 12 Liters (3 Gallons), 20 Years' at $69.95 (maker's page only). True Prepper's pouch test does not cover cans or boxes. Datrex stays the top pick because it is the only long-life water with a maker's specification and an independent test behind it. | 2026-11-16 alignment pass: off the page from item_flags: Blue Can Water (the 50-year canned water) appears to have left the market: its website address bluecanwater.com now redirects to an unrelated site, one retailer says the maker has ceased production, and SOS Products showed the 24-can case as temporarily out of stock at $36.98. Resellers ask far more. It is not recommended until supply is confirmed. | Queried the FDA food enforcement (recall) database on 2026-11-14 for Crystal Geyser, CG Roxane, Datrex, Puravai and 'emergency drinking water': the only result was a 2017 recall of Crystal Geyser sparkling mineral water from a different company (Crystal Geyser Water Company), long since closed. | Longer-life packaged water (20 to 50 years): none met this site's two-source rule. Blue Can Water appears to be out of production (see the note above). Puravai (20-year HDPE bottles, $49.99 for six bottles of at least 32 fl oz at thrivalist.com) is on sale, but the only sources found were the maker's own pages, and its purity claims rest on the maker's own testing.",
+      "tier_note": "The Budget case costs more than one Standard jug only because it holds about three gallons; per gallon it is the cheaper of the two."
     },
     {
       "id": "water-bathtub-bladder",
       "module": "water",
       "name": "Bathtub water bladder",
-      "need": "With a few hours' warning, a bladder turns the bathtub into a sealed tank of 65 to 100 gallons of clean tap water, which matters in tall buildings where the taps stop when the pumps lose power.",
+      "need": "With a few hours' warning, a bladder turns the bathtub into a sealed tank of 65 to 100 gallons of clean tap water, filled before a storm, a freeze or an outage stops the taps.",
       "how_to_choose": "A bladder only helps if you fill it while the water is still running, so keep it in the bathroom and practice the steps once without filling it. Check that it fits your tub: a standard tub holds about 60 to 70 gallons, less than the headline number on the box. It is single-use in practice, because it cannot be dried out properly afterwards, and the tub is out of action while it is full. Buy a named brand from the maker or a known retailer and keep the hand pump with it.",
       "qty": {
         "basis": "fixed",
@@ -401,7 +578,7 @@
           "unit_size": 1,
           "unit_label": "kit",
           "price_usd": 36.95,
-          "price_seen_at": "aquapodkit.com, November 15, 2026 (shown as sold out)",
+          "price_seen_at": "aquapodkit.com, November 17, 2026 (shown as sold out)",
           "why": "The slightly cheaper of the two established brands, US-made from food-grade, BPA-free plastic, with a pump in the kit. Replacement liners are sold separately, so the pump can be kept after a liner is used.",
           "weakness": "The hand pump is slow: a magazine test of an earlier version took several minutes to fill a 3-gallon bucket, and that version's liner was thinner than waterBOB's.",
           "links": [
@@ -440,9 +617,11 @@
               "supports": "Mentions the AquaPodKit as a useful bonus but not a substitute for stored water."
             }
           ],
-          "flags": [],
+          "flags": [
+            "Sold out at aquapodkit.com on November 17, 2026. Its equal: waterBOB."
+          ],
           "flag_check": "Queried the CPSC recall database for 'AquaPod' on 2026-11-14: no recall of this product (one unrelated 2006 aquarium recall).",
-          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. The independent test dates from 2016 and covers an earlier version of the kit. 2026-11-16 alignment pass: off the page from flags: Sold out on the maker's site on November 15, 2026."
+          "research_note": "2026-11-17 open-up pass: maker page re-read today with a plain curl request: SKU 6155, $36.95, 'Sold Out'; the box kit ($39.95) and the liner alone ($24.95) are also sold out. The site banner says more stock is expected on AquaPodKit.com 'the week of November 23rd or sooner' and that stock is being sent to Amazon weekly. RECOIL OFFGRID's review was re-opened today (January 30, 2016; 4 mil liner; about 65 gal in a typical tub; filling a 3-gallon bucket took several minutes). Both bladders are sold out at their makers today, so each is named as the other's equal. | 2026-11-16 alignment pass: old link_note: No Amazon link. The independent test dates from 2016 and covers an earlier version of the kit. 2026-11-16 alignment pass: off the page from flags: Sold out on the maker's site on November 15, 2026."
         },
         "standard": {
           "brand": "waterBOB",
@@ -452,7 +631,7 @@
           "unit_size": 1,
           "unit_label": "bladder",
           "price_usd": 39,
-          "price_seen_at": "waterbob.com, November 15, 2026 (temporarily out of stock)",
+          "price_seen_at": "waterbob.com, November 17, 2026 (temporarily out of stock)",
           "why": "The best-known bathtub bladder, with a thick 10 mil food-grade liner and a pump in the box. The maker says it fills in 20 to 30 minutes. A long-form reader report on The Prepared describes four units stored for 11 years that still worked through a three-week water outage.",
           "weakness": "It cannot be dried and reused, and the included hand pump is hard work for people without strong hands.",
           "links": [
@@ -472,7 +651,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Wirecutter, widely reported to recommend this product, refuses automated readers and was not cited. The Prepared forum reader report (https://theprepared.com/forum/thread/waterbob-yes-or-no/) was opened on 2026-11-14 as field evidence only. Maker page re-opened in a browser 2026-11-15: 'Temporarily out of stock, expected availability early December', MSRP $39.00. 2026-11-16 alignment pass: old link_note: Out of stock at the maker on November 15, 2026; its page says to expect stock in early December. 2026-11-16 alignment pass: off the page from flags: Temporarily out of stock on the maker's site on November 15, 2026; the maker expects stock in early December. | The maker's page gives 16 weeks of freshness in one place and mentions a 4-week safe storage time in an FAQ. Treat 4 weeks as the cautious figure and disinfect older water before drinking.",
+          "research_note": "2026-11-17 open-up pass: maker page re-read today: $39.00, 'TEMPORARILY OUT OF STOCK - EXPECTED AVAILABILITY EARLY DECEMBER', 10 mil LLDPE, up to 100 gal, 20 to 30 minute fill, US shipping only. True Prepper's page re-opened today (updated May 12, 2026): waterBOB is its best tub water storage. It stays Standard, flagged; the AquaPod, its equal, is also sold out at its maker today. | Wirecutter, widely reported to recommend this product, refuses automated readers and was not cited. The Prepared forum reader report (https://theprepared.com/forum/thread/waterbob-yes-or-no/) was opened on 2026-11-14 as field evidence only. Maker page re-opened in a browser 2026-11-15: 'Temporarily out of stock, expected availability early December', MSRP $39.00. 2026-11-16 alignment pass: old link_note: Out of stock at the maker on November 15, 2026; its page says to expect stock in early December. 2026-11-16 alignment pass: off the page from flags: Temporarily out of stock on the maker's site on November 15, 2026; the maker expects stock in early December. | The maker's page gives 16 weeks of freshness in one place and mentions a 4-week safe storage time in an FAQ. Treat 4 weeks as the cautious figure and disinfect older water before drinking.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -492,18 +671,19 @@
             }
           ],
           "flags": [
-            "Use the water within 4 weeks, the shorter of the two storage times the maker gives, and disinfect older water before drinking."
+            "Use the water within 4 weeks, the shorter of the two storage times the maker gives, and disinfect older water before drinking.",
+            "Sold out at waterbob.com on November 17, 2026. Its equal: AquaPodKit AquaPod Bathtub Bladder."
           ],
           "flag_check": "Queried the CPSC recall database for 'waterBOB' and 'water bladder' on 2026-11-14 and again on 2026-11-15: none found."
         },
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "Only two established bathtub bladders with a traceable maker were found (waterBOB and AquaPod), and they cost about the same. Nothing on the market offers a real step up; the sensible upgrade is a second liner or more water stored in containers."
+        "cadillac": "No pricier bathtub bladder is sold to compare. Only two have a traceable maker, waterBOB and AquaPod, and they cost about the same; the other '100 gallon' tub bladders on marketplaces have no maker's page and no independent test behind them."
       },
-      "prices_seen": "2026-11-15",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Both makers' own shops showed their bladders as out of stock on November 15, 2026 (waterBOB says it expects stock in early December). Demand spikes before storms, so buy well ahead of hurricane or winter-storm season. | Cheap unbranded look-alike '100 gallon' tub bladders are sold on marketplaces at about $25 to $27. No maker page or independent test was found for them, so they are not recommended. | CPSC recall database queried on 2026-11-14 for 'waterBOB', 'AquaPod' and 'water bladder': no recalls of bathtub bladders (the single 'AquaPod' result is a 2006 aquarium recall by an unrelated company).",
-      "tier_note": "Two picks: the two established bladders cost about the same and nothing pricier does more; the sensible upgrade is a spare liner or more water in containers."
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-17 open-up pass. Top tier weighed again: one web search for other bathtub bladders or a tested step up found only waterBOB, AquaPod and unbranded marketplace look-alikes (one roundup on a listicle site names a 'Zipcase' 100-gallon bladder with no maker's page). No outlet has tested a pricier bladder because none is sold, so the tier stays empty. True Prepper's top tub pick is the waterBOB, the same as ours. | 2026-11-16 alignment pass: off the page from item_flags: Both makers' own shops showed their bladders as out of stock on November 15, 2026 (waterBOB says it expects stock in early December). Demand spikes before storms, so buy well ahead of hurricane or winter-storm season. | Cheap unbranded look-alike '100 gallon' tub bladders are sold on marketplaces at about $25 to $27. No maker page or independent test was found for them, so they are not recommended. | CPSC recall database queried on 2026-11-14 for 'waterBOB', 'AquaPod' and 'water bladder': no recalls of bathtub bladders (the single 'AquaPod' result is a 2006 aquarium recall by an unrelated company). | 2026-11-17, main worker, re-read in Chrome: waterbob.com 'TEMPORARILY OUT OF STOCK • EXPECTED AVAILABILITY EARLY DECEMBER'; aquapodkit.com banner says inventory 'the week of November 23rd or sooner'.",
+      "tier_note": "Two picks: only two bathtub bladders have a known maker, they cost about the same, and nothing pricier is sold; the step up is a spare liner or more water in containers."
     },
     {
       "id": "water-carry-collapsible",
@@ -542,7 +722,8 @@
       ],
       "item_flags": [],
       "tiers": {
-        "budget": {
+        "budget": null,
+        "standard": {
           "brand": "GSI Outdoors",
           "model": "Water Cube 10 Liter",
           "model_number": "55425",
@@ -550,9 +731,9 @@
           "unit_size": 1,
           "unit_label": "carrier",
           "price_usd": 12.95,
-          "price_seen_at": "gsioutdoors.com",
-          "why": "A cheap fold-flat cube with a handle and a tap, so it doubles as a countertop dispenser once home. Outdoor Life named the Water Cube its best collapsible container after camping use. The 2.6-gallon (10-liter) size keeps each load near 22 lb.",
-          "weakness": "The plastic is meant to fold and crease; Outdoor Life saw creasing after a couple of months, so it will not last for years of regular use.",
+          "price_seen_at": "gsioutdoors.com, November 17, 2026, in stock",
+          "why": "Outdoor Life's best collapsible container after home and car-camping use, at about $13. It has a handle and a tap, so it doubles as a countertop dispenser once home, and the 2.6-gallon (10-liter) size keeps each load near 22 lb.",
+          "weakness": "The plastic is meant to fold and crease; Outdoor Life saw creasing after a couple of months, so it will not last for years of regular use. It is carried in one hand, so on stairs take one at a time.",
           "links": [
             {
               "label": "Manufacturer",
@@ -583,9 +764,9 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database for 'GSI Outdoors' on 2026-11-14: one unrelated 2016 recall (children's water bottles); none for this product.",
-          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link."
+          "research_note": "2026-11-17 open-up pass: moved from Budget to Standard. Maker page re-read today: 10 L (SKU 55425) $12.95, in stock; 15 L $14.95 and 20 L $16.95 on the same page. Outdoor Life's article re-opened today. | 2026-11-16 alignment pass: old link_note: No Amazon link."
         },
-        "standard": {
+        "cadillac": {
           "brand": "MSR",
           "model": "Dromedary Bag 10 L",
           "model_number": "09588",
@@ -593,8 +774,8 @@
           "unit_size": 1,
           "unit_label": "bag",
           "price_usd": 64.95,
-          "price_seen_at": "cascadedesigns.com (MSR's own shop)",
-          "why": "A tough fabric-skinned water bag that lies flat inside an ordinary backpack, so the weight rides on your back and both hands stay free on the stairs. OutdoorGearLab's reviewers used Dromedary bags for nine years and call them the easiest way to haul water.",
+          "price_seen_at": "cascadedesigns.com (MSR's own shop), November 17, 2026, in stock",
+          "why": "The extra money buys a carrier that lasts for years and rides on your back: a tough fabric-skinned water bag that lies flat inside an ordinary backpack, so both hands stay free on the stairs. OutdoorGearLab's reviewers used Dromedary bags for nine years and call them the easiest way to haul water.",
           "weakness": "It costs about five times as much as a folding cube, and a soft bag is awkward to pour from and to stand up while filling.",
           "links": [
             {
@@ -626,23 +807,22 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database for 'Cascade Designs' and 'MSR' on 2026-11-14: recalls found concern camping pots (2024), avalanche probes and stove fuel, not water bags.",
-          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. The test article dates from 2013; the bag has since been updated with a new lining and 1,000-denier fabric."
-        },
-        "cadillac": null
+          "research_note": "2026-11-17 open-up pass: moved from Standard to Cadillac. Maker's shop re-read today: 10 L (SKU 09588) $64.95, in stock; 4 L $51.95, 6 L $59.95. OutdoorGearLab's article re-opened today (May 12, 2013; it describes the older 500-denier bag). | 2026-11-16 alignment pass: old link_note: No Amazon link. The test article dates from 2013; the bag has since been updated with a new lining and 1,000-denier fabric."
+        }
       },
       "empty_reason": {
-        "cadillac": "No purpose-built water backpack or larger soft carrier with two trustworthy sources could be confirmed. The MSR Dromedary carried in an ordinary backpack already does this job; the next candidates (HydraPak Seeker 10L at $65 and Expedition 8L at $48.75 on hydrapak.com) had only the maker's page as a source."
+        "budget": "The Standard cube, at about $13, is already the cheapest carrier a tester recommends. Clean 2-liter soda bottles in a backpack cost nothing."
       },
-      "research_note": "Cadillac tier, 2026-11-14: the test articles for the HydraPak candidates refused automated readers or sat behind a sign-in, so they were not read. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for GSI Outdoors, Cascade Designs, MSR, HydraPak and 'water bladder': no recalls of water carriers. (GSI had a 2016 recall of children's water bottles and Cascade Designs a 2024 recall of camping pots; neither concerns these products.)",
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: the Standard bag carried in an ordinary backpack already does this job, and nothing pricier does more."
+      "research_note": "2026-11-17 open-up pass. The top tier was empty because nothing beats the MSR Dromedary; that makes the Dromedary the top pick, not the Standard one. It is now Cadillac (the best available: it costs five times as much and buys durability and a hands-free carry), and the GSI Water Cube, the collapsible that Outdoor Life's test names best and that two for a household cost about $26, is Standard. Budget is empty because nothing cheaper has a test behind it. One web search today for newer tests of soft carriers (HydraPak Seeker and Expedition, Sea to Summit Watercell) on GearJunkie, CleverHiker, Treeline Review, OutdoorGearLab, Outdoor Life, Field & Stream, Switchback Travel, Section Hiker and Backpacker found none that tests a 2 to 3 gallon carrier, so those still have only their makers' pages. Why ours and not Outdoor Life's Igloo 6-Gallon Camping Water Container: that is a rigid 6-gallon can, about 50 lb full, and this item is the soft carrier that stores flat; its best collapsible, the GSI cube, is our Standard pick. Not settled against Wirecutter's Wolverine Tuff Bottle 20L Container: the maker's page was opened on 2026-11-17 (https://wolverinetuff.com/product/wolverine-tuff-bottle-with-18mm-fast-flow-spout/: 5.3 gal / 20 L or 2.6 gal / 10 L, two layers of film, 14 mil, handles top and bottom, pour spout and tethered cap, FDA food-contact polyethylene, made in USA, 'survive multiple 2 meter drops', $21.95 to $26.95 for the two sizes with no price or stock shown per size), but this helper cannot read Wirecutter's test, no second independent test could be opened (Escapees' write-up is a 404 and OutdoorHub's sits behind a pay gate and used bottles the company supplied), and one outlet's verdict plus the maker's own claims is not enough to move a pick; if Wirecutter's test backs the durability, the likely ladder is GSI cube Budget, Wolverine Tuff Standard, MSR Dromedary Cadillac, with the 44 lb full weight of the 20 L size said plainly. | Cadillac tier, 2026-11-14: the test articles for the HydraPak candidates refused automated readers or sat behind a sign-in, so they were not read. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for GSI Outdoors, Cascade Designs, MSR, HydraPak and 'water bladder': no recalls of water carriers. (GSI had a 2016 recall of children's water bottles and Cascade Designs a 2024 recall of camping pots; neither concerns these products.)",
+      "prices_seen": "2026-11-17",
+      "tier_note": "No Budget pick: at about $13 the Standard cube is already the cheapest carrier a tester recommends, and clean soda bottles in a backpack cost nothing."
     },
     {
       "id": "water-dispensing",
       "module": "water",
       "name": "Spigots and pumps for water containers",
       "need": "A full container is too heavy to tip and pour without spilling, so you need a clean way to draw off a cup at a time.",
-      "how_to_choose": "Match the dispenser to the container, because threads differ. The Aqua-Tainer, this site's Standard container, comes with a spigot and takes Reliance's 70 mm parts and its hand pump. A Rhino-Pak pours from the spout it comes with and does not take the Reliance pump. A WaterBrick needs its own spigot lid, sold separately. With a 7-gallon can, which weighs about 60 lb full, the pump is worth buying: it lets the can stay upright on the floor instead of being lifted onto its side at a counter edge. With a lighter container, a spigot or spout that came with it and works is enough. Keep hands and cups off the spout, and wash and sanitize dispenser parts when you clean the container.",
+      "how_to_choose": "Match the dispenser to the container, because threads differ. The Rhino-Pak, this site's Standard container, pours from the spout it comes with and does not take the Reliance pump. The Aqua-Tainer, the Budget container, comes with a spigot and takes Reliance's 70 mm parts and its hand pump. A WaterBrick needs its own spigot lid, sold separately, and a Scepter military can pours from its small cap unless you buy its spout. With a 7-gallon can, which weighs about 60 lb full, the pump is worth buying: it lets the can stay upright on the floor instead of being lifted onto its side at a counter edge. With a lighter container, a spigot or spout that came with it and works is enough. A barrel with no spigot needs a siphon or barrel pump sold as food-grade, and a wrench for its bung. Keep hands and cups off the spout, and wash and sanitize dispenser parts when you clean the container.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -677,7 +857,7 @@
           "unit_size": 1,
           "unit_label": "spigot kit",
           "price_usd": 7.99,
-          "price_seen_at": "Reliance's own listing (relianceoutdoors.com); the maker's site is a catalog, so buy from a retailer",
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com), November 17, 2026; the maker's site is a catalog, so buy from a retailer",
           "why": "An inexpensive spare for the spigot that comes with the Aqua-Tainer. The Prepared notes buyer reports of the white spigot and cap cracking with age, so a spare in the drawer keeps a 7-gallon can usable.",
           "weakness": "It only fits Reliance's 70 mm containers (Aqua-Tainer, Aqua-Pak, Water-Pak, Jumbo-Tainer and similar), and the container still has to lie on its side at a counter edge to pour.",
           "links": [
@@ -710,7 +890,7 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database for 'Reliance' on 2026-11-14: none for this product.",
-          "research_note": "2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed."
+          "research_note": "2026-11-17 open-up pass: maker page re-read today: #7210-03R, page data $7.99, 'Back in Stock Soon'. No equal is named because no other spigot page was opened today. | 2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed. | 2026-11-17, main worker: removed the flag 'Sold out at Reliance's own site on November 17, 2026': it came from page data read by command line, and Reliance's pages show a visitor no stock wording."
         },
         "standard": {
           "brand": "Reliance",
@@ -720,9 +900,9 @@
           "unit_size": 1,
           "unit_label": "pump",
           "price_usd": 19.99,
-          "price_seen_at": "Reliance's own listing (relianceoutdoors.com); the maker's site is a catalog, so buy from a retailer",
-          "why": "It screws on in place of the spigot on the Aqua-Tainer, this site's Standard container, and lifts water out of the top, so a 60 lb container can stay upright on the floor. No batteries, and it comes apart for cleaning.",
-          "weakness": "It does not fit the Rhino-Pak or the WaterBrick.",
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com), November 17, 2026; the maker's site is a catalog, so buy from a retailer",
+          "why": "It screws on in place of the spigot on the Aqua-Tainer, this site's Budget container, and lifts water out of the top, so a 60 lb container can stay upright on the floor. No batteries, and it comes apart for cleaning.",
+          "weakness": "It does not fit the Rhino-Pak, this site's Standard container, or the WaterBrick.",
           "links": [
             {
               "label": "Manufacturer",
@@ -733,7 +913,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Retailer listings (Cabela's, CampSaver) seen on 2026-11-14 only repeat the maker's specs and say it fits Aqua-Tainer, Aqua Pak and Water Pak jugs. A second look on 2026-11-15 could not add a second source. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this pump was found. No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Does not fit the Rhino-Pak (stated by the maker).",
+          "research_note": "2026-11-17 open-up pass: maker page re-read today: #7250-03, page data $19.99, in stock. With the Rhino-Pak back as the Standard container, this pump no longer fits the Standard container; it stays Standard here because it is the cheap manual answer for the 7-gallon can, the one container heavy enough to need a pump, and the Rhino-Pak pours from its own spout. Still one source only (the maker). | Retailer listings (Cabela's, CampSaver) seen on 2026-11-14 only repeat the maker's specs and say it fits Aqua-Tainer, Aqua Pak and Water Pak jugs. A second look on 2026-11-15 could not add a second source. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this pump was found. No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Does not fit the Rhino-Pak (stated by the maker).",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -755,9 +935,9 @@
           "unit_size": 1,
           "unit_label": "faucet",
           "price_usd": 99.99,
-          "price_seen_at": "dometic.com (US site), November 15, 2026, shown as out of stock",
-          "why": "It works with any container, including the ones the Reliance pump does not fit: drop the hose in, tap the top, and it pours a measured stream with one hand, then shuts off by itself. One charge moves about 40 gallons, and it has a small built-in light. GearJunkie's tester used one for over a year.",
-          "weakness": "It needs charging by USB, so keep it topped up and keep a manual spigot as a backup; it is also expensive for what is, in the end, a tap.",
+          "price_seen_at": "dometic.com (US site), November 17, 2026, in stock",
+          "why": "It works with any container, including the Rhino-Pak and the others the Reliance pump does not fit: drop the hose in, tap the top, and it pours a measured stream with one hand, then shuts off by itself. One charge moves about 40 gallons, and it has a small built-in light. GearJunkie's tester used one for over a year.",
+          "weakness": "It needs charging by USB, so keep it topped up and keep a manual spigot as a backup; its 23-inch hose will not reach the bottom of a tall barrel; and it is expensive for what is, in the end, a tap.",
           "links": [
             {
               "label": "Manufacturer",
@@ -768,7 +948,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "2026-11-14: REI and Backcountry pages did not load for automated access, so no retailer price was confirmed. No Amazon ASIN was seen. 2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Out of stock on the maker's US site on November 15, 2026.",
+          "research_note": "2026-11-17 open-up pass: the US page re-read today: $99.99, SKU 9600050794, page data InStock (it was out of stock on 2026-11-15). GearJunkie's review re-opened today (December 15, 2023; 23 in hose; micro-USB charging; shuts off after 1 liter or 1 minute). | 2026-11-14: REI and Backcountry pages did not load for automated access, so no retailer price was confirmed. No Amazon ASIN was seen. 2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Out of stock on the maker's US site on November 15, 2026.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -791,8 +971,8 @@
           "flag_check": "Queried the CPSC recall database for 'Dometic' on 2026-11-14: none found."
         }
       },
-      "prices_seen": "2026-11-15",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for Reliance, Dometic, and (since 2022) 'water pump' and 'water dispenser': no recalls of these products found. | Generic hand siphons and battery transfer pumps were not vetted in this check, so none is recommended here. Many are sold for fuel as well as water; only use one sold as food-grade and never one that has moved fuel."
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-17 open-up pass. No gate found here: the Dometic faucet is Cadillac on price and battery, not ruled out. how_to_choose and the picks' wording now follow the container tiers (Rhino-Pak Standard, Aqua-Tainer Budget, Scepter military can Cadillac, WaterBrick Compact) and say what a barrel needs. No universal manual pump with a test behind it was looked for today. | 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for Reliance, Dometic, and (since 2022) 'water pump' and 'water dispenser': no recalls of these products found. | Generic hand siphons and battery transfer pumps were not vetted in this check, so none is recommended here. Many are sold for fuel as well as water; only use one sold as food-grade and never one that has moved fuel."
     }
   ]
 }

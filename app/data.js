@@ -153,8 +153,12 @@ export async function loadAll(reader = fetchJson) {
   return D;
 }
 
-// Display order everywhere: Cadillac, Standard, Budget.
-export const TIERS = ['cadillac', 'standard', 'budget'];
-export const TIER_NAME = { budget: 'Budget', standard: 'Standard', cadillac: 'Cadillac' };
+// Display order everywhere: Cadillac, Standard, Budget, then Compact.
+export const TIERS = ['cadillac', 'standard', 'budget', 'compact'];
+// The three price tiers. Compact is a fourth pick beside them: the best small product, only where smaller
+// is a real trade. It is optional, and an item without one says nothing about it.
+export const PRICE_TIERS = ['cadillac', 'standard', 'budget'];
+export const TIER_NAME = { budget: 'Budget', standard: 'Standard', cadillac: 'Cadillac', compact: 'Compact' };
+export const COMPACT_IS = 'The best small one: for a small home, a bag or many flights of stairs.';
 // The section an action or product belongs to when it carries no `part`: by its old level number.
 export const SECTION_OF_LEVEL = ['first', 'bag', 'h72', 'w2'];

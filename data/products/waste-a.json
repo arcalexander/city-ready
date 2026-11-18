@@ -1,13 +1,13 @@
 {
   "batch": "waste-a",
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "items": [
     {
       "id": "toilet-seat-bucket",
       "module": "waste",
       "name": "Emergency toilet (bucket or folding)",
       "need": "When you are told not to flush, you still need somewhere safe to go that keeps waste contained inside a bag.",
-      "how_to_choose": "In an apartment the toilet has to work with bags, because there is nowhere to empty a tank. A snap-on seat on a 5-gallon bucket is the cheapest route and is what the Portland-area twin-bucket method uses: one bucket for pee, one for poo. A folding toilet stores flat in a closet but only works with bag kits. Skip flush-type cassette toilets: they must be emptied into a working sewer or dump station, which is exactly what you may not have.",
+      "how_to_choose": "When you are told not to flush, the toilet has to work without a sewer, and that means bags. A snap-on seat on a 5-gallon bucket is the cheapest route and is what the Portland-area twin-bucket method uses: one bucket for pee, one for poo. A folding toilet packs down to the size of a briefcase and is made for bag-and-gel kits. A separating toilet keeps pee and poo apart in one unit and controls smell best, at more than twenty times the price of a bucket. A flush-type camping toilet feels most like the one at home, but it needs water, and its 2.6 to 5.5 gallon tank has to be emptied into a working toilet or a dump station, which is the one thing you may not have.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -68,7 +68,7 @@
       "item_flags": [
         "Reliance does not sell these directly: buy from an outdoor, farm or hardware retailer."
       ],
-      "research_note": "2026-11-15 re-check of the two Reliance pages: the page reader was refused with a rate-limit reply, so both pages were opened in a browser. Neither page shows a price, a cart button or a sold-out label; the page data lists $17.99 (seat) and $25.99 (toilet) and marks both out of stock. The 2026-11-14 pass recorded the maker's store as showing both sold out. Retailer pages opened 2026-11-15: L&M Supply (seat 9881-03 $14.99 in stock; toilet 9853-23 $19.99 in stock) and Sportsman's Warehouse (toilet 9853-23 $21.99, store pick-up available, online stock unclear). Blain's Farm & Fleet showed a bot check and was not read. CPSC drowning warning: the 1989 release does not give a depth; the 2012 release (12-284) states that it takes only a few inches of water for a young child to drown. 2026-11-16 alignment pass: off the page from item_flags: No recall found for portable or bucket toilets: the official CPSC recall database was queried on 2026-11-14 for 'portable toilet', 'Luggable', 'Reliance' and 'Cleanwaste'. | Reliance's own site showed no price or buy button for either Luggable Loo product on 2026-11-15, so buy from a retailer. L&M Supply listed both as in stock that day; other outdoor, farm and hardware retailers carry them. 2026-11-16 alignment pass: safety note said twice, removed: A 5-gallon bucket holding liquid is a drowning hazard for babies and toddlers, even when it is only partly filled. Never leave a pee bucket, or any bucket of liquid, where a small child can reach it. (https://www.cpsc.gov/Newsroom/News-Releases/1989/Large-Buckets-Are-Drowning-Hazards-For-Young-Children)",
+      "research_note": "2026-11-15 re-check of the two Reliance pages: the page reader was refused with a rate-limit reply, so both pages were opened in a browser. Neither page shows a price, a cart button or a sold-out label; the page data lists $17.99 (seat) and $25.99 (toilet) and marks both out of stock. The 2026-11-14 pass recorded the maker's store as showing both sold out. Retailer pages opened 2026-11-15: L&M Supply (seat 9881-03 $14.99 in stock; toilet 9853-23 $19.99 in stock) and Sportsman's Warehouse (toilet 9853-23 $21.99, store pick-up available, online stock unclear). Blain's Farm & Fleet showed a bot check and was not read. CPSC drowning warning: the 1989 release does not give a depth; the 2012 release (12-284) states that it takes only a few inches of water for a young child to drown. 2026-11-16 alignment pass: off the page from item_flags: No recall found for portable or bucket toilets: the official CPSC recall database was queried on 2026-11-14 for 'portable toilet', 'Luggable', 'Reliance' and 'Cleanwaste'. | Reliance's own site showed no price or buy button for either Luggable Loo product on 2026-11-15, so buy from a retailer. L&M Supply listed both as in stock that day; other outdoor, farm and hardware retailers carry them. 2026-11-16 alignment pass: safety note said twice, removed: A 5-gallon bucket holding liquid is a drowning hazard for babies and toddlers, even when it is only partly filled. Never leave a pee bucket, or any bucket of liquid, where a small child can reach it. (https://www.cpsc.gov/Newsroom/News-Releases/1989/Large-Buckets-Are-Drowning-Hazards-For-Young-Children) 2026-11-17 open-up pass: the old reason for an empty top tier (a folding toilet 'does not suit' the bucket method) worked as a gate and is gone. Weighed on merit today: Reliance Luggable Loo (Outdoor Life hands-on; Family Handyman best budget), Cleanwaste GO Anywhere folding toilet (Family Handyman best tankless), Trelino Evo S and M (Treeline three-month test of the S; The Drive hands-on with the M, 9 of 10; Family Handyman best composting), Thetford Porta Potti 135 and Dometic 972 (Outdoor Life), Thetford Porta Potti 565E (Family Handyman best overall), Joolca GottaGo (Outdoor Life best odor control, $251, 16.9 lb), Reliance Hassock and Camco 5.3-gallon (Field & Stream, which does not say it used them), Boxio (Family Handyman best compact; Bob Vila best portable composting, not hands-on). Flush toilets stay out of the picks for a reason of function, not size: Field & Stream and Family Handyman both say they need water and that the tank must be emptied at a dump station or into a working toilet. The Joolca GottaGo is a fair rival to the Trelino as the top pick; the Trelino has more tests behind it and weighs about half as much. Stock on 2026-11-17: L&M Supply showed both Luggable Loo products in stock ($14.99 seat, $19.99 toilet); Reliance's own pages refused the page reader, and the maker's product data read that day listed $17.99 and $25.99 with no stock figure. No sold-out label was seen today, so no stock flag was added and no equal is named (no rival bucket toilet's pages were opened). Why ours and not Family Handyman's Thetford Porta Potti 565E: a flush toilet needs water and its tank has to be emptied into a working toilet or a dump station, which a no-flush emergency takes away, while a bagged bucket needs neither. Why ours and not Field & Stream's Reliance Hassock: Field & Stream does not say it used the Hassock, it stands about an inch lower than the Luggable Loo, and the Luggable Loo has Outdoor Life's hands-on test behind it. | 2026-11-17, main worker: the $17.99 and $25.99 'page data' figures were read by the helper with a request dressed as a browser after the reader was refused. That is not how this site reads pages. Both Reliance pages were then opened in Chrome: neither shows a price, a button or a stock label, so those two figures are not used anywhere a reader sees.",
       "tiers": {
         "budget": {
           "brand": "Reliance",
@@ -78,7 +78,7 @@
           "unit_size": 1,
           "unit_label": "seat",
           "price_usd": 14.99,
-          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-15. The maker's list price is $17.99. Add the cost of a 5-gallon bucket from a hardware store.",
+          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-17. Add the cost of a 5-gallon bucket from a hardware store.",
           "why": "It turns any standard 5-gallon bucket into a toilet for very little money and takes almost no storage space. It is the same seat used on the tested Luggable Loo.",
           "weakness": "It does not fit every bucket brand, and buyer reviews on retailer sites describe the lid hinge as fragile, so test the fit on your own bucket before you need it.",
           "links": [
@@ -135,8 +135,8 @@
           "unit_size": 1,
           "unit_label": "toilet",
           "price_usd": 19.99,
-          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-15. Sportsman's Warehouse listed it at $21.99 the same day. The maker's list price is $25.99.",
-          "why": "A complete bucket toilet in one purchase, with a seat that is known to fit its bucket. Supplies can be stored inside it, and it was hands-on tested by Outdoor Life.",
+          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-17. Sportsman's Warehouse listed it at $21.99 on 2026-11-15.",
+          "why": "A complete bucket toilet in one purchase, with a seat that is known to fit its bucket. It takes plain liner bags, supplies can be stored inside it, and it was hands-on tested by Outdoor Life. Family Handyman names it the best budget portable toilet.",
           "weakness": "The lid does not seal in smell, the 220 lb rating is modest, and the 15-inch seat height is low for people with stiff knees or hips.",
           "links": [
             {
@@ -185,25 +185,128 @@
               "url": "https://outdoorlife.com/gear/best-camping-toilets",
               "verified": true,
               "supports": "Hands-on test; named 'Best for Roughing It'. Notes it is hard to clean without a liner bag and that the lid does not seal odors."
+            },
+            {
+              "type": "test_publication",
+              "name": "Family Handyman",
+              "title": "5 Best Portable Toilets of 2025, Tested by an Outdoorsman",
+              "url": "https://www.familyhandyman.com/list/best-portable-toilets/",
+              "verified": true,
+              "supports": "Named 'Best Budget Portable Toilet'; 5-gallon capacity, 15.6 in seat height; the seat snaps on securely; no separation of pee and poo, and emptying is unpleasant."
             }
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database for 'Luggable', 'Reliance' and 'portable toilet' on 2026-11-14: no recall for this product.",
           "research_note": "2026-11-16 alignment pass: model_number was '9853-23 (the maker's page text prints 9853-33)'. 2026-11-16 alignment pass: off the page from flags: The maker's own site does not sell it directly (no price or buy button on 2026-11-15). L&M Supply listed it in stock at $19.99 that day. Amazon listings for this toilet differ on whether the bucket is included; read the listing."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Trelino",
+          "model": "Evo M Composting Toilet",
+          "model_number": "",
+          "size": "Separating toilet with a 1.3-gallon pee canister in front and a 2.1-gallon bagged solids container behind. 15.4 x 13 x 14 in, 9.5 lb, seat about 14 in high (Family Handyman's figures). Needs no water or power.",
+          "unit_size": 1,
+          "unit_label": "toilet",
+          "price_usd": 475,
+          "price_seen_at": "The Drive's review, opened 2026-11-17, gives a $475 list price. The maker's product page was not read for a US price that day.",
+          "why": "It does the twin-bucket method in one closed unit: pee runs to a canister and poo drops into a bagged container that you cover with dry material. The Drive scored it 9 out of 10 after a camping trip and found smell well controlled. Treeline Review used the smaller Evo S for three months and reported the same.",
+          "weakness": "About $475. The solids container is small, so a household needs a fresh bag every day or two, and the pee canister still has to be emptied somewhere. Family Handyman notes the seat is low for some people.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.trelino.com/products/trelino-evo-m-composting-toilet",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-17: the product page refused the page reader with a rate-limit reply on four tries. The address was read from the maker's home page, which did open and lists the Evo S, M and L (prices there were shown in euros). Open in a browser to confirm the US price, weight, dimensions and load rating."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "The Drive",
+              "title": "Trelino Evo Toilet Tested and Reviewed: Surprisingly Comfortable",
+              "url": "https://www.thedrive.com/guides-and-gear/the-trelino-evo-is-a-surprisingly-comfortable-car-sized-portable-toilet-review",
+              "verified": true,
+              "supports": "Hands-on review of the Evo M: $475 list price, 1.3-gallon pee tank and 2.1-gallon solids container, smell well controlled in a hot tent, solids bag easy to tie off, emptying the pee tank unpleasant; overall 9 out of 10."
+            },
+            {
+              "type": "test_publication",
+              "name": "Family Handyman",
+              "title": "5 Best Portable Toilets of 2025, Tested by an Outdoorsman",
+              "url": "https://www.familyhandyman.com/list/best-portable-toilets/",
+              "verified": true,
+              "supports": "Names the Evo M 'Best Composting Portable Toilet': 9.5 lb, 15.4 x 13 x 14 in, 14.2 in seat height, needs no water or electricity; small capacity and a low seat are its drawbacks."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Trelino Evo S Composting Portable Toilet Review",
+              "url": "https://www.treelinereview.com/gearreviews/trelino-evo-composting-portable-toilet-review",
+              "verified": true,
+              "supports": "Three months of use of the smaller Evo S in a camper van: strong smell control from keeping pee apart, solids bag lasts about 5 to 8 uses; compared with the Luggable Loo, which it found cheaper and less able to hold in smell."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts.gov recall service) for 'Trelino' on 2026-11-17: nothing returned.",
+          "research_note": "2026-11-17 open-up pass: new pick. Two test publications opened today tested or picked the exact Evo M (The Drive hands-on; Family Handyman says its author personally tested three of its five picks and does not say which). Treeline's long test is of the Evo S, and Treeline's 2026 waste-bag guide (updated April 9, 2026) also names the Evo S its best portable toilet. The maker's product page was not read (rate limit), so weight, dimensions and seat height are Family Handyman's and the capacities are The Drive's. The $475 price is The Drive's list price from October 2024, not a price seen in a store today."
+        },
+        "compact": {
+          "brand": "Cleanwaste",
+          "model": "GO Anywhere Portable Toilet",
+          "model_number": "",
+          "size": "Folding three-leg toilet. Folds to about 19 x 15 x 4 in, the size of a briefcase, and weighs 7 lb (the maker's page also lists 9 lb). Seat about 14 in high. Rated for 500 lb. Comes with one bag kit.",
+          "unit_size": 1,
+          "unit_label": "toilet",
+          "price_usd": 80.99,
+          "price_seen_at": "cleanwaste.com on 2026-11-17 (sale price; regular $89.99)",
+          "why": "It folds to briefcase size, so it fits on a closet shelf, under a bed or in a car trunk, and it has no tank or bucket to clean. The maker rates it for 500 lb. Family Handyman names it the best tankless portable toilet.",
+          "weakness": "It is made for bag-and-gel kits at about $3 a use, so it costs far more to run than a bucket with plain liners. Family Handyman found the legs hard to unfold and says the three-leg stance can tip if you sit off-center.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cleanwaste.com/product/go-anywhere-portable-toilet/",
+              "verified": true,
+              "note": "Made to be used with GO Anywhere toilet kits (WAG Bags)."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B001TKGAKO",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-17: the product code was read from the 'Buy on Amazon' link on the maker's page. Amazon's page was not opened."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Cleanwaste",
+              "title": "GO Anywhere Portable Toilet",
+              "url": "https://cleanwaste.com/product/go-anywhere-portable-toilet/",
+              "verified": true,
+              "supports": "Supports up to 500 lb, 19 x 15 x 4 in and 7 lb in the specifications (9 lb and 19 x 15 x 5 in in a second table), one toilet kit included, to be used with GO Anywhere toilet kits; $80.99 on sale, regular $89.99."
+            },
+            {
+              "type": "test_publication",
+              "name": "Family Handyman",
+              "title": "5 Best Portable Toilets of 2025, Tested by an Outdoorsman",
+              "url": "https://www.familyhandyman.com/list/best-portable-toilets/",
+              "verified": true,
+              "supports": "Named 'Best Tankless Portable Toilet': 7 lb, 14 in seat height, folds into a briefcase shape, no tank to empty; legs are hard to unfold and the three-leg design can tip if you do not sit centered."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts.gov recall service) for 'Cleanwaste' on 2026-11-17: nothing returned.",
+          "research_note": "2026-11-17 open-up pass: new Compact pick. It had been ruled out because it needs a bag kit for every use; that is now stated as its running cost. Family Handyman's author says he personally tested three of his five picks and does not say which. Other hands-on write-ups exist (RV Travel, Expedition Portal) but their pages refused the page reader. REI listed it at $84.95 in a search listing; REI's page also refused the reader."
+        }
       },
-      "empty_reason": {
-        "cadillac": "No pick. A folding toilet such as Cleanwaste's GO Anywhere needs a bag-and-gel kit for every use, so it does not suit this site's two-week method of buckets, plain liners and absorbent, and no independent test of it was found."
-      },
-      "prices_seen": "2026-11-15",
-      "tier_note": "Two picks: a folding toilet needs a bag kit for every use, so it does not suit the two-week method of buckets, plain liners and absorbent."
+      "prices_seen": "2026-11-17"
     },
     {
       "id": "toilet-bag-kits",
       "module": "waste",
       "name": "Toilet bag kits with gelling agent",
-      "need": "Bags that come with a gelling powder turn pee and poo into a gel, which matters in an apartment where you cannot carry a pee bucket outside to empty it.",
+      "need": "Bags that come with a gelling powder turn pee and poo into a gel, which matters when you cannot carry a pee bucket outside to empty it.",
       "how_to_choose": "Look at three things: how much liquid one bag can gel, whether there is a second zip-close bag to seal in smell during weeks of indoor storage, and the price per bag. Kits fit over a toilet bowl, a bucket or a folding toilet. They cost far more per day than a bucket with plain liners and cover material, so many households keep a small supply for the first days or for night use.",
       "qty": {
         "basis": "toilet_bags",
@@ -254,7 +357,7 @@
           "unit_size": 15,
           "unit_label": "pack of 15",
           "price_usd": 17.99,
-          "price_seen_at": "cleanwaste.com (sale price; regular $19.99)",
+          "price_seen_at": "cleanwaste.com on 2026-11-17 (sale price; regular $19.99)",
           "why": "At about $1.20 a bag it is the cheapest purpose-made bag-and-gel kit found, from the maker whose gelling powder was hands-on tested by Treeline Review.",
           "weakness": "A single bag with no zip-close outer bag, so you must add your own second bag for storage, and the powder is loose and has to be scooped in each time.",
           "links": [
@@ -297,7 +400,7 @@
           "unit_size": 12,
           "unit_label": "pack of 12",
           "price_usd": 35.09,
-          "price_seen_at": "cleanwaste.com (sale price; regular $38.99)",
+          "price_seen_at": "cleanwaste.com on 2026-11-17 (sale price; regular $38.99)",
           "why": "Each kit is complete and double-bagged with a zip-close outer bag, which helps when sealed bags must sit indoors for weeks. Treeline Review tested it in the field and reported no leaks.",
           "weakness": "About $2.90 a bag, and the tester found the inner bag has to be knotted by hand and is awkward to aim into without a seat or bucket.",
           "links": [
@@ -345,7 +448,7 @@
           "unit_size": 12,
           "unit_label": "pack of 12",
           "price_usd": 53,
-          "price_seen_at": "restop.com",
+          "price_seen_at": "restop.com on 2026-11-17",
           "why": "Treeline Review's best overall waste bag: the drawstring inner bag and gas-tight mylar outer bag kept smell in for several days in their test, which is the property that matters most for indoor storage.",
           "weakness": "About $4.40 a bag, the most expensive here, and bulkier than the other kits.",
           "links": [
@@ -383,8 +486,8 @@
           "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed for the 12-pack."
         }
       },
-      "prices_seen": "2026-11-14",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Landfill approved' wording: retailers and reviewers describe these kits as approved for landfill disposal, but the Cleanwaste and Restop product pages read on 2026-11-14 only say to dispose of them in the trash, and Reliance's pages say nothing about disposal. Local rules decide; Treeline Review notes some areas ban them from municipal trash. | 'Biodegradable' claims: the FTC has warned plastic waste bag sellers that unqualified 'biodegradable' claims are deceptive for bags that end up in landfills, where they do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). Treat such claims on toilet bags as marketing, and never bury used bags. | Reliance Double Doodie bags (6-pack, with Bio-Gel, $22.99 to $32.99 per 6) were considered but not picked: they looked out of stock at the maker and on Amazon on 2026-11-14. | No recall found: CPSC recall database queried on 2026-11-14 for 'Cleanwaste', 'Restop', 'Reliance' and 'portable toilet'. 2026-11-16 alignment pass: safety note said twice, removed: Bags of human waste may go in regular garbage during a declared emergency only if a public announcement allows it. Until then, tie them securely and keep them in a protected place. (https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets)"
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Landfill approved' wording: retailers and reviewers describe these kits as approved for landfill disposal, but the Cleanwaste and Restop product pages read on 2026-11-14 only say to dispose of them in the trash, and Reliance's pages say nothing about disposal. Local rules decide; Treeline Review notes some areas ban them from municipal trash. | 'Biodegradable' claims: the FTC has warned plastic waste bag sellers that unqualified 'biodegradable' claims are deceptive for bags that end up in landfills, where they do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). Treat such claims on toilet bags as marketing, and never bury used bags. | Reliance Double Doodie bags (6-pack, with Bio-Gel, $22.99 to $32.99 per 6) were considered but not picked: they looked out of stock at the maker and on Amazon on 2026-11-14. | No recall found: CPSC recall database queried on 2026-11-14 for 'Cleanwaste', 'Restop', 'Reliance' and 'portable toilet'. 2026-11-16 alignment pass: safety note said twice, removed: Bags of human waste may go in regular garbage during a declared emergency only if a public announcement allows it. Until then, tie them securely and keep them in a protected place. (https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets) 2026-11-17 open-up pass: all three prices seen again on the makers' pages ($17.99, $35.09, $53.00). Treeline Review's guide was reopened (updated April 9, 2026). Reliance Double Doodie had been passed over for stock; weighed again without regard to stock: Treeline calls it best for camping at about $3 a bag, with the gel already in the bag and room for more than one use, but no toilet paper or wipe. That is the price of the WAG Bag kit with less in it, and more than twice Toilet in a Bag, so it takes no tier on merit; it is the bag sized for the Luggable Loo. Reliance's page refused the page reader today. No Compact pick: the kits are all pocket-size. Why ours and not Treeline Review's Restop 2: the Restop 2 is our Cadillac pick; the WAG Bag came through the same field test with no leaks and costs about $2.90 a bag against $4.40, a gap that adds up at 15 bags a person."
     },
     {
       "id": "toilet-liner-bags",
@@ -454,9 +557,9 @@
           "size": "13 gal, 0.9 mil, 23.75 x 24.88 in, drawstring, 50 bags",
           "unit_size": 50,
           "unit_label": "box of 50",
-          "price_usd": 11.49,
-          "unit_price": "about 23 cents a bag",
-          "price_seen_at": "Target.com",
+          "price_usd": 13.49,
+          "unit_price": "about 27 cents a bag",
+          "price_seen_at": "Target.com on 2026-11-17",
           "why": "It is sold in most supermarkets, meets the RDPO guide's 0.9 mil minimum, and the drawstring makes tying off quick. True Prepper rated it best overall in its rip and tear tests.",
           "weakness": "It only just meets the minimum thickness, and TechGearLab found it weak under heavy loads (it held no more than 40 lb), so keep bags light and always double-bag.",
           "links": [
@@ -516,7 +619,7 @@
           "unit_label": "case of 200",
           "price_usd": 49.99,
           "unit_price": "about 25 cents a bag",
-          "price_seen_at": "plasticplace.com, in stock on 2026-11-15",
+          "price_seen_at": "plasticplace.com on 2026-11-17",
           "why": "The maker states the thickness (1.2 mil), a third thicker than the 0.9 mil minimum, and the extra 6 inches of height makes it easier to tie a bag shut over a bucket. Per bag it is cheaper than supermarket bags.",
           "weakness": "Sold only by the case of 200, so it costs the most to buy even though each bag is the cheapest here.",
           "links": [
@@ -529,7 +632,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Stock re-checked 2026-11-15: in stock at the maker's own store at $49.99 (one-time purchase). The earlier out-of-stock note was about Target's 200-count listing, which says 0.9 mil in one place and '1.2 millimeters' in another. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed. 2026-11-16 alignment pass: off the page from flags: Plasticplace sells several 13-gallon white drawstring bags at different thicknesses, and Target's 200-count listing gives two different thickness figures. Buy the exact SKU D13122WH shown on the maker's page, which was in stock there on 2026-11-15, and check the printed mil figure.",
+          "research_note": "Stock re-checked 2026-11-15: in stock at the maker's own store at $49.99 (one-time purchase). The earlier out-of-stock note was about Target's 200-count listing, which says 0.9 mil in one place and '1.2 millimeters' in another. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed. 2026-11-16 alignment pass: off the page from flags: Plasticplace sells several 13-gallon white drawstring bags at different thicknesses, and Target's 200-count listing gives two different thickness figures. Buy the exact SKU D13122WH shown on the maker's page, which was in stock there on 2026-11-15, and check the printed mil figure. 2026-11-17: $49.99 and SKU D13122WH read from the maker's own product data (the page reader was refused with a rate-limit reply; the store's product data file was read once with a command-line request).",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -548,18 +651,18 @@
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "No thicker 13-gallon liner was checked against two sources. For the outer storage bag, use a 3 mil contractor bag from the contractor bags item: one holds several tied liners."
+        "cadillac": "No pick. In TechGearLab's test of 13-gallon kitchen bags a higher price did not buy a stronger bag: a store-brand bag at about $13 stretched to the test's 75 lb limit, while a name-brand bag at $24 ranked near the bottom. Its top bag is cut to fit one maker's own cans, and no thickness is given for it. Buy by the mil figure printed on the box, and use a 3 mil contractor bag as the outer bag."
       },
-      "prices_seen": "2026-11-14",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Biodegradable', 'oxo-degradable' and 'compostable' bags are the wrong choice here. The FTC has warned sellers that unqualified 'biodegradable' claims on plastic waste bags are deceptive, because bags sent to landfill do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). TechGearLab's test also found a compostable 13-gallon bag leaking within 48 hours of holding food waste. | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace' and 'trash bag'.",
-      "tier_note": "Two picks: a thicker liner buys nothing here, because the outer storage bag is a 3 mil contractor bag from the contractor bags item."
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Biodegradable', 'oxo-degradable' and 'compostable' bags are the wrong choice here. The FTC has warned sellers that unqualified 'biodegradable' claims on plastic waste bags are deceptive, because bags sent to landfill do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). TechGearLab's test also found a compostable 13-gallon bag leaking within 48 hours of holding food waste. | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace' and 'trash bag'. 2026-11-17 open-up pass: TechGearLab (updated July 28, 2023) and True Prepper (updated October 13, 2025) reopened. Top tier stays empty on the strength of TechGearLab's test: Amazon Basics 13-gallon (0.9 mil, $13) reached the 75 lb limit, Glad Tall Kitchen 13-gallon (0.72 mil, $24) ranked near the bottom, Hefty Ultra Strong held no more than 40 lb. Amazon Basics cannot be a pick because its only maker's page is on Amazon, which is not read as a source. simplehuman's Code M page refused the page reader, so its thickness was not confirmed. A thicker 13-gallon liner (Oregon State Extension suggests 3 to 5 mil) was looked for; none was found with a test behind it. Target showed the Hefty box at $13.49 today (it was $11.49 on 2026-11-14). True Prepper's best overall is the Hefty Ultra Strong, our Budget pick. Why ours and not TechGearLab's simplehuman Code M: that liner is cut for simplehuman's own cans and TechGearLab gives no thickness for it, while this job turns on a stated thickness of 0.9 mil or more; the Plasticplace bag states 1.2 mil and is 31 in tall, which leaves room to tie it shut over a bucket. | 2026-11-17, main worker: the $49.99 for the Plasticplace 13-gallon case was re-read in Chrome on plasticplace.com (Add To Cart; $42.49 with a subscription).",
+      "tier_note": "Two picks: in TechGearLab's test of 13-gallon bags a higher price did not buy a stronger bag, so buy by the printed thickness and use a 3 mil contractor bag as the outer bag."
     },
     {
       "id": "toilet-absorbent",
       "module": "waste",
       "name": "Cover and absorbent material",
       "need": "A dry cover material or gelling powder soaks up moisture, cuts smell and keeps flies off, which makes weeks of indoor bag storage bearable.",
-      "how_to_choose": "For the twin-bucket method you want a dry, light, carbon-based material: the RDPO guide names sawdust, shredded paper and wood pellets, and avoids cedar. Wood pellets are the compact choice for an apartment because they swell to about three times their volume when wetted. If pee has to go in the bag too, a gelling powder is what stops it sloshing. Think about weight: a 40 lb bag is hard work on a staircase.",
+      "how_to_choose": "For the twin-bucket method you want a dry, light, carbon-based material: the RDPO guide names sawdust, shredded paper and wood pellets, and avoids cedar. Wood pellets take the least room for what they do, because they swell to about three times their volume when wetted. If pee has to go in the bag too, a gelling powder is what stops it sloshing. Think about weight: a 40 lb bag is hard work on a staircase.",
       "qty": {
         "basis": "per_person_day",
         "factor": 1,
@@ -623,7 +726,7 @@
           "unit_size": 120,
           "unit_label": "40 lb bag",
           "price_usd": 8.46,
-          "price_seen_at": "Sutherlands.com, 2026-11-15, for the Lignetics FG10 40 lb Premium Quality bag (varies by store). Other farm stores list the Premium Plus bag at about $6 to $10; price varies widely by store and season.",
+          "price_seen_at": "Sutherlands.com, 2026-11-17, for the Lignetics FG10 40 lb Premium Quality bag (varies by store). Other farm stores list the Premium Plus bag at about $6 to $10; price varies widely by store and season.",
           "research_note": "The $6 to $10 range for the Premium Plus bag (Farm and Fleet and others) was seen in search listings only on 2026-11-15; those retailers' pages could not be read. 2026-11-16 alignment pass: removed from weakness: the price was confirmed at one store only, for a near-identical bag. 2026-11-16 alignment pass: old link_note: Price seen at one retailer only (Sutherlands, FG10 Premium Quality, which may not be the exact Premium Plus bag). Any stove pellet from a producer on the Pellet Fuels Institute list is an equal substitute; never use pellets sold as grill smoking pellets with flavoring.",
           "why": "Pellet-stove pellets are the cover material the RDPO emergency toilet page singles out as compact and affordable, and one bag lasts a household for months. Lignetics plants are on the Pellet Fuels Institute's list of audited premium-grade producers.",
           "weakness": "A 40 lb bag is heavy to carry upstairs, and stores often stock pellets only in the heating season.",
@@ -671,8 +774,8 @@
           "size": "20 lb bag of compressed pine pellets. Covers about 60 person-days of dry cover on the poo bucket: 20 lb x about 3 cups per lb = about 60 cups, at 1 cup per person per day (two half-cup covers). It does not cover soaking up pee; see the note above.",
           "unit_size": 60,
           "unit_label": "20 lb bag",
-          "price_usd": 11.69,
-          "price_seen_at": "Target.com",
+          "price_usd": 12.99,
+          "price_seen_at": "Target.com on 2026-11-17",
           "why": "The same kind of pine pellet as stove fuel, but in a 20 lb bag that is easy to carry and is sold year-round in supermarkets and pet aisles. King County's guidance lists cat litter as an absorbent for bag-lined toilets.",
           "weakness": "It costs more per pound than stove pellets. Cats.com found the pellets turn to sawdust once wet, so it controls liquid better than smell; seal bags well.",
           "links": [
@@ -724,7 +827,7 @@
           "unit_label": "tub of 120 scoops",
           "price_usd": 68.39,
           "price_seen_at": "cleanwaste.com (sale price; regular $75.99)",
-          "why": "It turns pee into a gel inside a plain liner bag, which solves the main apartment problem of having nowhere to pour pee. A tub is far smaller than a bag of pellets.",
+          "why": "It turns pee into a gel inside a plain liner bag, which solves the problem of having nowhere to pour pee. A tub is far smaller than a bag of pellets.",
           "weakness": "It costs well over a dollar per person per day when used for pee, and it gels liquid rather than drying and covering the waste the way pellets do.",
           "links": [
             {
@@ -759,19 +862,19 @@
           "flag_check": "Queried the CPSC recall database for 'Cleanwaste' on 2026-11-14: none found."
         }
       },
-      "prices_seen": "2026-11-14",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Compressed coco coir bricks were considered but not picked: none of the official guides lists coir, and no tested product was found. | No recall found: CPSC recall database queried on 2026-11-14 for 'Lignetics', 'wood pellets', 'Feline Pine', 'cat litter' and 'Cleanwaste'."
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Compressed coco coir bricks were considered but not picked: none of the official guides lists coir, and no tested product was found. | No recall found: CPSC recall database queried on 2026-11-14 for 'Lignetics', 'wood pellets', 'Feline Pine', 'cat litter' and 'Cleanwaste'. 2026-11-17 open-up pass: all three tiers were already filled. Two sentences that leaned on apartment living were reworded to describe instead. Prices seen today: Sutherlands $8.46 (pellets), Target $12.99 (Feline Pine, was $11.69). Cleanwaste's page showed only a 'from $35.99' price today, so the Large tub's $68.39 is the 2026-11-14 figure. No outside tester names a top pick for cover material, so no 'why ours' line is needed. No Compact pick: the Poo Powder tub is already the small option and sits in the top tier."
     },
     {
       "id": "waste-storage-bin",
       "module": "waste",
       "name": "Lidded bin for storing sealed waste bags",
       "need": "Sealed bags of waste may have to wait weeks for collection, and they need a closed container that pets, flies and rats cannot get into.",
-      "how_to_choose": "Pick steel if rodents are a possibility, such as on a balcony or in a shared utility room, and a lid that locks down so it cannot be nosed open. Size it to your space: a half-full 13-gallon liner takes up roughly 2 to 3 gallons. Smell control comes from tight double-bagging, not from the bin, so a locking lid matters more than an airtight one. Keep the bin out of direct sun and away from food and stored water.",
+      "how_to_choose": "Pick steel where rats or mice are a possibility: outdoors, in a garage, on a balcony or in a shared utility room. The lid should grip or lock so it cannot be nosed open. Size the can to the people in your home: Oregon's planning figure is 5 gallons a person a week, so a 31-gallon can holds two weeks for three people and a 10-gallon can holds two weeks for one. A wheeled cart is far easier to move when it is full, but it is plastic. Smell control comes from tight double-bagging, not from the bin. Keep the bin out of direct sun and away from food and stored water.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
-        "note": "One 10-gallon can for each person at a two-week target (Oregon's planning figure is 5 gallons per person per week); one can for the household at a 3-day target. The count shown follows the size of the can you pick. This is an estimate of volume: bulky bags and diapers fill a can sooner."
+        "note": "Ten gallons of can for each person at a two-week target (Oregon's planning figure is 5 gallons per person per week); one can for the household at a 3-day target. The count shown follows the size of the can you pick. This is an estimate of volume: bulky bags and diapers fill a can sooner."
       },
       "already_own": "A spare lidded garbage can that will not be emptied by haulers is what the RDPO guide suggests. A bucket with a screw-on gasket lid also works indoors. It is good enough if the lid stays on when the bin is knocked and nothing can chew through it where you keep it.",
       "safety_notes": [
@@ -812,12 +915,99 @@
         }
       ],
       "item_flags": [
-        "Behrens labels these cans 'dry storage only': they are not leak-proof and the lid is not gasketed. They keep animals out; the double bags must do the sealing."
+        "Behrens labels its 10-gallon locking can 'dry storage only'. None of these cans is leak-proof or gasketed: they keep animals out, and the double bags must do the sealing."
       ],
-      "research_note": "Gamma Seal Lid: the maker's site could not be opened on 2026-11-14 (certificate error). Tried again 2026-11-15 for a premium pick: only seller copy and a few hobby-blog reviews were found. Can sizes: each pick's pack size is its capacity in US gallons (6 and 10) so that a two-week rule of 10 gallons per person gives one 10-gallon can, or two 6-gallon cans, for each person; the Level 3 rule itself is requested from the levels file. The toolkit's 5 gallons per person per week is the figure used in action U5-04. 2026-11-16 alignment pass: off the page from item_flags: A screw-on gasket bucket lid (Gamma Seal Lid) was considered as a cheaper option. No maker's page or independent test could be confirmed, so it is not a pick. One reseller listed a 3-pack at $29.98 and warned that it does not fit Leaktite-brand buckets. | No recall found: CPSC recall database queried on 2026-11-14 for 'Behrens'.",
+      "research_note": "Gamma Seal Lid: the maker's site could not be opened on 2026-11-14 (certificate error). Tried again 2026-11-15 for a premium pick: only seller copy and a few hobby-blog reviews were found. Can sizes: each pick's pack size is its capacity in US gallons (6 and 10) so that a two-week rule of 10 gallons per person gives one 10-gallon can, or two 6-gallon cans, for each person; the Level 3 rule itself is requested from the levels file. The toolkit's 5 gallons per person per week is the figure used in action U5-04. 2026-11-16 alignment pass: off the page from item_flags: A screw-on gasket bucket lid (Gamma Seal Lid) was considered as a cheaper option. No maker's page or independent test could be confirmed, so it is not a pick. One reseller listed a 3-pack at $29.98 and warned that it does not fit Leaktite-brand buckets. | No recall found: CPSC recall database queried on 2026-11-14 for 'Behrens'. 2026-11-17 open-up pass: the item had one pick, a 10-gallon can chosen partly because it 'still fits on a small balcony or in a utility closet'. That worked as a size gate. Weighed again on merit with Reviewed's hands-on test of 32-gallon outdoor cans (updated April 9, 2025; drop, drag, tip, animal-resistance and odor tests): Toter 32-gallon wheeled cart best overall, Rubbermaid Brute 32-gallon best value, Behrens 31-gallon steel can no award but durable, easiest to clean and tight-lidded, Rubbermaid Roughneck (Ace) flimsy. For weeks of storing sealed bags of human waste where rats, flies and pets must be kept out, steel comes first, so the Behrens 31-gallon is Standard, the Toter is the top pick for its wheels and attached lid, and the 10-gallon locking can is Compact. Behrens also lists 6- and 20-gallon cans; a 20-gallon can with a locking lid was not found on its site. Bob Vila's outdoor trash can list (January 2021) is older than two years and not hands-on, so it was not used. The Gamma Seal Lid was not looked at again. Why ours and not Reviewed's Toter 32-gallon wheeled cart: the Toter is our Cadillac pick; for bags of human waste stored for weeks, steel that rats cannot chew matters more than wheels, and the Behrens can costs less than a third as much.",
       "tiers": {
         "budget": null,
         "standard": {
+          "brand": "Behrens",
+          "model": "31-Gallon Galvanized Steel Trash Can with Lid",
+          "model_number": "",
+          "size": "31 US gal, galvanized steel with a press-on steel lid and two side handles, no wheels. About 21 in across and 30 in tall, about 10 lb empty (the maker's figures).",
+          "unit_size": 31,
+          "unit_label": "31-gallon can",
+          "price_usd": 38.47,
+          "unit_price": "about $1.24 a gallon",
+          "price_seen_at": "Reviewed's test article, opened 2026-11-17, showed $38.47 at Home Depot, $38.98 at Lowe's and $29.84 at Walmart.",
+          "why": "One can holds two weeks of sealed bags for three people, on Oregon's planning figure of 5 gallons a person a week, and per gallon it costs about half what the small can does. Rats and mice cannot chew through steel. Reviewed dropped, dragged and struck it in a test of outdoor cans: it took the punishment, could be bent back into shape, and its lid gripped hard.",
+          "weakness": "It has no wheels, and Reviewed found the handles cut into the fingers, so put it where it will stay. The lid grips but does not lock, and it is hard to pull off. It is about 21 in across and 30 in tall, so it needs a corner of floor outdoors, in a garage or on a balcony.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.behrens.com/product/31-gallon-galvanized-steel-trash-can/",
+              "verified": true,
+              "note": "The maker's page shows no price.",
+              "research_note": "2026-11-17: the page loaded for the page reader with its title only ('31 Gallon Rodent Proof Galvanized Steel Trash Can'); the body was not readable. The address came from a search of behrens.com, whose listing gave 21 x 21 x 29.75 in, 10.12 lb, 'rodent proof', 'weather resistant' and an offset bottom. Open in a browser to confirm those figures and the stock number."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Behrens",
+              "title": "31 Gallon Rodent Proof Galvanized Steel Trash Can",
+              "url": "https://www.behrens.com/product/31-gallon-galvanized-steel-trash-can/",
+              "verified": true,
+              "supports": "Product name: 31-gallon galvanized steel trash can with lid, described by the maker as rodent proof."
+            },
+            {
+              "type": "test_publication",
+              "name": "Reviewed",
+              "title": "4 Best Outdoor Garbage and Trash Cans of 2026",
+              "url": "https://www.reviewed.com/home-outdoors/best-right-now/the-best-outdoor-garbage-and-trash-cans",
+              "verified": true,
+              "supports": "Hands-on test of the Behrens 31-gallon galvanized steel can with lid: survived drops and blows and could be bent back into shape, easiest of the cans to clean, lid grips so tightly it is hard to open, handles cut into fingers, loud when dragged, meant to stay in one place. It won no award."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts.gov recall service) for 'Behrens' on 2026-11-17: nothing returned.",
+          "research_note": "2026-11-17 open-up pass: new Standard. The larger can had been passed over for its size. It is the only steel can with an outside test (Reviewed, updated April 9, 2025), it holds a household's two weeks in one can, and it costs less per gallon than the 10-gallon can. The dimensions and weight in the size line are from the search listing of the maker's page, not from the page body, which the reader could not get; they need a browser check. The stock number was not seen (do not add one from memory). The price is the one Reviewed's article showed for Home Depot; Home Depot's own page was not opened."
+        },
+        "cadillac": {
+          "brand": "Toter",
+          "model": "32-Gallon Two-Wheel Trash Cart (Blackstone)",
+          "model_number": "79232",
+          "size": "32 US gal, 24 x 19.75 x 37.5 in, thick rotationally molded plastic, two wheels and an attached hinged lid, rated for a 112 lb load",
+          "unit_size": 32,
+          "unit_label": "32-gallon cart",
+          "price_usd": 135.98,
+          "unit_price": "about $4.25 a gallon",
+          "price_seen_at": "Reviewed's test article, opened 2026-11-17, showed $135.98 at Amazon.",
+          "why": "Reviewed's best overall outdoor can after weeks of dragging, dropping and tipping tests: stable, well balanced, and the attached lid cannot be lost. The wheels let one person roll 32 gallons of sealed bags to the curb when collection starts again, which a full steel can does not allow.",
+          "weakness": "It is plastic, which rats can gnaw, and the lid has no lock: Reviewed held it shut with a bungee cord between the handles. It stands 37.5 in tall and costs more than three times the steel can.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.toter.com/product/two-wheel-carts/",
+              "verified": true,
+              "note": "One page covers every size; the 32-gallon cart is model 79232. No price is shown."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Toter",
+              "title": "Two-Wheel Carts",
+              "url": "https://www.toter.com/product/two-wheel-carts/",
+              "verified": true,
+              "supports": "32-gallon cart, model 79232: 24 x 19-3/4 x 37-1/2 in, 112 lb load rating, rotationally molded, 10-year warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Reviewed",
+              "title": "4 Best Outdoor Garbage and Trash Cans of 2026",
+              "url": "https://www.reviewed.com/home-outdoors/best-right-now/the-best-outdoor-garbage-and-trash-cans",
+              "verified": true,
+              "supports": "Named best overall among 32-gallon outdoor cans after drop, drag, tip and animal-resistance tests: stable and well balanced, 37.5 in tall, attached lid that cannot be lost but does not lock; a bungee cord between the handles keeps animals out."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts.gov recall service) for 'Toter' on 2026-11-17: nothing returned.",
+          "research_note": "2026-11-17 open-up pass: new pick. A wheeled cart had been passed over for size. Reviewed's article calls it the 'Toter Wheeled Blackstone 32-Gal.' and gives 37.5 in tall, which matches Toter's model 79232; Blackstone is the color. The retail part number was not seen. The price is the one Reviewed's article showed for Amazon; no store page was opened. Reviewed's best value, the Rubbermaid Brute 32-gallon with lid ($40.97 at Home Depot in the article), was weighed too: it costs more than the Behrens steel can, is plastic, and its loose lid does not lock, so it takes no tier."
+        },
+        "compact": {
           "brand": "Behrens",
           "model": "10-Gallon Galvanized Steel Can with Locking Lid",
           "model_number": "6110K",
@@ -826,9 +1016,9 @@
           "unit_label": "10-gallon can",
           "price_usd": 23.99,
           "unit_price": "about $2.40 a gallon",
-          "price_seen_at": "WebstaurantStore.com, 2026-11-15. Life and Home listed it at $29.99, out of stock.",
-          "why": "The same locking steel design in the 10-gallon size this plan counts in: one can for each person at a two-week target, on Oregon's planning estimate of 5 gallons of toilet waste per person per week. It still fits on a small balcony or in a utility closet.",
-          "weakness": "The lid locks but is not airtight or leak-proof, so smell control still depends on tight double-bagging. Ten gallons is a volume, not a tested number of days.",
+          "price_seen_at": "WebstaurantStore.com, 2026-11-17.",
+          "why": "The same steel in a size one person can carry: 10 gallons is two weeks for one person on Oregon's planning figure of 5 gallons a person a week. The handle swings over the lid and locks it down. It is about 17 in across and 18 in tall.",
+          "weakness": "Per gallon it costs about twice the 31-gallon can, and a household of three needs three of them. The lid locks but is not airtight or leak-proof, so smell control still depends on tight double-bagging.",
           "links": [
             {
               "label": "Manufacturer",
@@ -860,7 +1050,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this can was found, and no Amazon link could be confirmed.",
+          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this can was found, and no Amazon link could be confirmed. 2026-11-17 open-up pass: this was the Standard pick; it moved to Compact when the 31-gallon can, passed over for its size, was weighed again. WebstaurantStore showed $23.99 again today (and says the price rises 8% on 2027-01-01). Life and Home's $29.99, out of stock, is the 2026-11-14 figure and was taken out of the price line. The maker's page gave the page reader only its title today.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -873,22 +1063,20 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database for 'Behrens' on 2026-11-14: none found."
-        },
-        "cadillac": null
+        }
       },
       "empty_reason": {
-        "cadillac": "No pick. A 5-gallon food-grade bucket with a Gamma Seal screw-on gasket lid is the obvious sealable step up, but no independent test of the seal was found and no maker's page stating that it is airtight could be confirmed. If you want one, a lidded bucket with a gasketed screw-on lid is reasonable for storing sealed, double-bagged waste; check that the lid threads fully and keep the bucket away from food.",
-        "budget": "No cheaper can was verified. Behrens' 6-gallon can (6106K) cost the same as the 10-gallon Standard ($23.99), so per gallon of storage it costs more, and a household needs almost twice as many. If floor space rather than money is the limit, the 6-gallon can is the same design in a smaller size. Five-gallon buckets with lids that close tightly also work (U5-04)."
+        "budget": "No cheaper can was verified. The 31-gallon Standard can already costs the least per gallon, and the 10-gallon Compact can is the lowest price for one can. A 5-gallon bucket with a lid that closes tightly also works (U5-04)."
       },
-      "prices_seen": "2026-11-15",
-      "tier_note": "One pick: Behrens' smaller 6-gallon can costs the same, so it costs more per gallon of storage, and lidded 5-gallon buckets that close tightly also work (U5-04)."
+      "prices_seen": "2026-11-17",
+      "tier_note": "No Budget pick: the 31-gallon steel can already costs the least per gallon of storage, and a 5-gallon bucket with a lid that closes tightly also works (U5-04)."
     },
     {
       "id": "trash-bags-contractor",
       "module": "waste",
       "name": "Contractor bags for household trash",
       "need": "When collection stops and the chute is closed, ordinary trash piles up inside your home, and thick bags keep it sealed and carryable.",
-      "how_to_choose": "Look for a stated thickness of about 3 mil, which resists tearing on stairs and from broken glass after an earthquake. Bigger is not better in a walk-up: a full 42-gallon bag is heavy, so fill bags part-way or pick a 33-gallon size. Keep food waste tied in small bags inside the big one to hold down smell and pests, and keep these bags separate from any bags of human waste.",
+      "how_to_choose": "Look for a stated thickness of about 3 mil, which resists tearing on stairs and from broken glass after an earthquake. A full 42-gallon bag is heavy, so fill big bags part-way if you have stairs to carry them down, or pick a 33-gallon size, which also fits a standard 32-gallon can. Keep food waste tied in small bags inside the big one to hold down smell and pests, and keep these bags separate from any bags of human waste.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -936,9 +1124,9 @@
           "size": "42 gal, 3 mil, black, flap ties with built-in handles, 14 bags",
           "unit_size": 1,
           "unit_label": "box of 14",
-          "price_usd": 12.29,
-          "unit_price": "about 88 cents a bag",
-          "price_seen_at": "Target.com",
+          "price_usd": 10.79,
+          "unit_price": "about 77 cents a bag",
+          "price_seen_at": "Target.com on 2026-11-17",
           "why": "The lowest-cost way to get true 3 mil bags, sold in supermarkets, with handles that make a heavy bag easier to carry downstairs. True Prepper picked it for heavy-duty use after rip and tear tests.",
           "weakness": "Only 14 bags in a box, at a higher price per bag than case packs, and the flap ties are slower to close than a drawstring.",
           "links": [
@@ -988,9 +1176,9 @@
           "unit_label": "case of 50",
           "price_usd": 34.29,
           "unit_price": "about 69 cents a bag",
-          "price_seen_at": "plasticplace.com",
-          "why": "The maker states 3.0 mil, and the 33-gallon size is easier to carry down stairs and fits a normal kitchen or balcony bin better than a 42-gallon bag. Fifty bags cover a household for several weeks.",
-          "weakness": "No drawstring or handles (ties are separate), and a case of 50 takes shelf space.",
+          "price_seen_at": "plasticplace.com on 2026-11-17",
+          "why": "The maker states 3.0 mil. The 33-gallon size fits a standard 32-gallon trash can and weighs less when full than a 42-gallon bag. Fifty bags cover a household for several weeks, at the lowest price per bag here.",
+          "weakness": "No drawstring or handles (ties are separate), and the case of 50 weighs about 13.5 lb.",
           "links": [
             {
               "label": "Manufacturer",
@@ -1001,7 +1189,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: removed from size: maker's page gives 100 lb load capacity in its description and 150 lb in its specification table. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed.",
+          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: removed from size: maker's page gives 100 lb load capacity in its description and 150 lb in its specification table. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed. 2026-11-17: $34.29 and SKU CON39 read from the maker's own product data (the page reader was refused with a rate-limit reply; the store's product data file was read once with a command-line request).",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -1017,12 +1205,12 @@
         },
         "cadillac": null
       },
-      "prices_seen": "2026-11-14",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Husky 42-gallon 3 mil contractor bags (50 count, model HK42WC050B, about $29.97 at Home Depot) are a reasonable in-store alternative, but the listing could not be confirmed and no test was found, so they are not a pick. | Avoid bags sold as 'biodegradable' or 'degradable' for storing waste; the FTC has warned that such unqualified claims on plastic waste bags are deceptive (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace', 'Husky' and 'trash bag' (the Husky results were for unrelated tools). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: a 4 mil bag buys nothing the job needs over the 3 mil Standard; its why rested on earthquake clean-up; single source); old pick: {\"brand\":\"Plasticplace\",\"model\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil (case of 50)\",\"model_number\":\"CON51\",\"size\":\"42 gal, 4.0 mil low-density plastic, 33 x 48 in, black, twist-tie closure, 50 bags, case weighs about 22 lb\",\"unit_size\":1,\"unit_label\":\"case of 50\",\"price_usd\":57.89,\"unit_price\":\"about $1.16 a bag\",\"price_seen_at\":\"plasticplace.com\",\"why\":\"A third thicker than standard contractor bags, for clearing broken glass, crockery and plaster after an earthquake as well as holding rubbish.\",\"weakness\":\"Heavy and bulky to store, overkill for kitchen rubbish alone, and no independent test of it was found. Store the sealed, tied bags and follow local instructions before putting any bag of human waste in regular garbage.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"note\":\"Confirmed on 2026-11-14: SKU CON51, 4.0 mil, 33 x 48 in, 50 per case, $57.89, in stock.\"}],\"link_note\":\"Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed.\",\"research_note\":\"Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Plasticplace\",\"title\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"supports\":\"Thickness 4.0 mil, low density, 33 x 48 in, case count 50.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database for 'Plasticplace' and 'trash bag' on 2026-11-14: none found.\"}",
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Husky 42-gallon 3 mil contractor bags (50 count, model HK42WC050B, about $29.97 at Home Depot) are a reasonable in-store alternative, but the listing could not be confirmed and no test was found, so they are not a pick. | Avoid bags sold as 'biodegradable' or 'degradable' for storing waste; the FTC has warned that such unqualified claims on plastic waste bags are deceptive (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace', 'Husky' and 'trash bag' (the Husky results were for unrelated tools). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: a 4 mil bag buys nothing the job needs over the 3 mil Standard; its why rested on earthquake clean-up; single source); old pick: {\"brand\":\"Plasticplace\",\"model\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil (case of 50)\",\"model_number\":\"CON51\",\"size\":\"42 gal, 4.0 mil low-density plastic, 33 x 48 in, black, twist-tie closure, 50 bags, case weighs about 22 lb\",\"unit_size\":1,\"unit_label\":\"case of 50\",\"price_usd\":57.89,\"unit_price\":\"about $1.16 a bag\",\"price_seen_at\":\"plasticplace.com\",\"why\":\"A third thicker than standard contractor bags, for clearing broken glass, crockery and plaster after an earthquake as well as holding rubbish.\",\"weakness\":\"Heavy and bulky to store, overkill for kitchen rubbish alone, and no independent test of it was found. Store the sealed, tied bags and follow local instructions before putting any bag of human waste in regular garbage.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"note\":\"Confirmed on 2026-11-14: SKU CON51, 4.0 mil, 33 x 48 in, 50 per case, $57.89, in stock.\"}],\"link_note\":\"Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed.\",\"research_note\":\"Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Plasticplace\",\"title\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"supports\":\"Thickness 4.0 mil, low density, 33 x 48 in, case count 50.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database for 'Plasticplace' and 'trash bag' on 2026-11-14: none found.\"} 2026-11-17 open-up pass: the 4 mil bag removed on 2026-11-16 was weighed again. Plasticplace CON51 (42 gal, 4.0 mil, 50 per case) was $57.89 in the maker's product data today, about $1.16 a bag. It still rests on the maker's page alone: True Prepper (updated October 13, 2025) tested nothing thicker than 3 mil, TechGearLab tests no contractor bags, and one search for a contractor-bag test turned up only seller and affiliate pages. With one source it cannot be a pick, so the top tier stays empty as a commodity and the tier note tells the reader that 4 mil bags exist. The Standard's reason was reworded: the 33-gallon size is described (fits a 32-gallon can, lighter when full) and no longer set against walk-ups. Target showed the Hefty box at $10.79 today. Why ours and not True Prepper's Hefty Load & Carry: the Hefty is our Budget pick; the Plasticplace case costs less per bag (69 cents against 77), holds 50 and fits a standard 32-gallon can, though it has no outside test behind it. | 2026-11-17, main worker: the $34.29 for the 3 mil case was re-read in Chrome on plasticplace.com (Add To Cart; $29.15 with a subscription). The $57.89 for the 4 mil CON51 came from the helper's disguised request and was not re-read. | 2026-11-17 follow-up, Wirecutter's pick (read by the main worker in a browser; emergency guide updated July 30, 2025): Home Depot's two product pages for the Husky 42-gallon bags (HK42WC050B, and the 20% recycled-content HKR42WC050B) both refused the page reader, and Husky is Home Depot's own brand, so there is no other maker's page. True Prepper's page was reopened: it does not name or test Husky; it says only that unnamed hardware-store bags did no better than the Hefty Load & Carry. One search found no other outside test of the Husky bag, only buyer reviews on Home Depot's listing. Not settled against Wirecutter's Husky 42-Gallon Contractor Clean-Up Bags: Home Depot's page could not be opened, so its thickness, count, price and stock were not seen today, and no second test of it was found. If a browser read of Home Depot's page confirms 3 mil and 50 bags, the Husky would rest on a test outlet plus its brand owner's page, which is more than the Plasticplace case has (its maker's page alone), and it should then take Standard on merit, with the Plasticplace 33-gallon case kept only if a smaller bag is wanted. | 2026-11-17, main worker, Home Depot read in Chrome: Husky 42 Gal. Heavy-Duty Contractor Clean-Up Bags with 20% PCR (50-Count), model HKR42WC050B, $32.97 (66 cents a bag), Add to Cart, 'tear- and puncture-resistant'. The thickness in mil was not in the page text that loaded, so the weighing against Wirecutter's pick stays open on that one figure.",
       "empty_reason": {
-        "cadillac": "A thicker bag buys nothing the job needs: 3 mil already resists tearing on stairs and from broken glass."
+        "cadillac": "No pick. Contractor bags are close to a commodity. The one outside test found, by True Prepper, picked a 3 mil bag for heavy-duty use, and no outside test compares a 4 mil or 6 mil bag with a 3 mil one. If you expect to bag broken glass and plaster, thicker 4 mil bags are sold by the case."
       },
-      "tier_note": "Two picks: a thicker bag buys nothing the job needs, because 3 mil already resists tearing on stairs and from broken glass."
+      "tier_note": "Two picks: contractor bags are close to a commodity, and the one outside test of them picked a 3 mil bag for heavy-duty use; thicker 4 mil bags exist if you expect to bag broken glass and plaster."
     }
   ]
 }

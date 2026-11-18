@@ -1,19 +1,19 @@
 {
   "batch": "bags-a",
-  "checked": "2026-11-14",
+  "checked": "2026-11-17",
   "items": [
     {
       "id": "bag-bugout-pack",
       "module": "bags",
-      "name": "Grab bag: 25 to 40 liter carry-on backpack",
-      "need": "One adult needs a pack that carries 72 hours of supplies down many flights of stairs and across a city on foot, with the weight on the hips and nothing about it that says it is full of supplies.",
-      "how_to_choose": "Look for 25 to 40 liters (both picks are 40), a padded hip belt that really takes weight, and a harness that adjusts to your torso; The Prepared's bag guide says any bag over 30 to 35 liters should have a hip belt. Pick a plain travel pack in black or gray, with no camouflage and no webbing, sized for airline carry-on so it also fits buses, trains and hotel lobbies. Check whether a rain cover is included or the fabric is water resistant, and line the inside with a trash bag either way. Empty weight matters when you total the bag: the two picks weigh about 2.8 lb and 3.5 lb before you pack anything.",
+      "name": "Grab bag backpack",
+      "need": "One adult needs a pack that carries 72 hours of supplies on foot, down stairs and across town, with the weight on the hips and nothing about it that says it is full of supplies.",
+      "how_to_choose": "A padded hip belt that really takes weight and a harness that fits your torso matter most. The Prepared's bag guide says any bag over 30 to 35 liters should have a hip belt, that a basic kit needs more than 25 liters, and that most people end up between 40 and 55 liters. All three picks hold 40 liters and are at or near airline carry-on size, so they also go on buses and trains; a bigger pack carries more and weighs more on your back. Pick a plain pack in black or gray, with no camouflage and no webbing. Check whether a rain cover is included or the fabric is water resistant, and line the inside with a trash bag either way. Empty weight counts when you total the bag: the picks weigh about 2.8 lb, 3.5 lb and 4.4 lb before you pack anything.",
       "qty": {
         "basis": "per_adult",
         "factor": 1,
         "note": "One pack per adult. Children carry a small school bag with their own water, snack, light and a comfort item."
       },
-      "already_own": "A travel or hiking backpack of 30 to 45 liters with a padded hip belt is good enough if it is a plain color and the zippers and seams are sound. Test it: load about 20 lb, tighten the hip belt and walk down and up your building's stairs. If the weight hangs on your shoulders or the bag swings, it is not good enough.",
+      "already_own": "Any travel or hiking backpack that holds your kit and has a padded hip belt is good enough if it is a plain color and the zippers and seams are sound. Test it: load about 20 lb, tighten the hip belt and walk down and up a few flights of stairs. If the weight hangs on your shoulders or the bag swings, it is not good enough.",
       "safety_notes": [
         {
           "text": "Ready.gov's basic kit list includes water, several days of non-perishable food, a radio, flashlight, first aid kit, extra batteries, whistle, dust mask, sanitation items, local maps and a phone with chargers and a backup battery. It says to keep the kit in one or two easy-to-carry containers.",
@@ -33,9 +33,8 @@
       "item_flags": [
         "Travel packs change version often. Check the liters, weight and hip belt on the label of the pack you are actually buying."
       ],
-      "research_note": "REI.com blocked automated access on 2026-11-14 (HTTP 403, and it would not load in the browser), so REI product pages in this file could not be opened and are marked unverified. | item_flags[0] was: REI.com blocked automated access on 2026-11-14, so REI product pages in this file could not be opened and are marked unverified. REI pages opened by WebFetch on 2026-11-16. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Tortuga Pro Backpack 40L (reviewed by OutdoorGearLab as the Travel Backpack Pro 40L) (no model number), $350 at Tortugabackpacks.com; sources: Tortuga https://www.tortugabackpacks.com/products/travel-backpack-40l; OutdoorGearLab https://www.outdoorgearlab.com/reviews/travel/travel-backpack/tortuga-travel-backpack-pro-40l; OutdoorGearLab https://www.outdoorgearlab.com/topics/travel/best-travel-backpack. Weighed 4.4 lb empty against 3.5 lb for the Standard; its extras (waterproof sailcloth, wider belt) are covered by the Standard hip belt and a liner bag.",
-      "tier_note": "Two picks: a pack that costs more mostly adds weight and waterproof fabric, and a trash-bag liner keeps the contents dry for far less.",
-      "prices_seen": "2026-11-16",
+      "research_note": "REI.com blocked automated access on 2026-11-14 (HTTP 403, and it would not load in the browser), so REI product pages in this file could not be opened and are marked unverified. | item_flags[0] was: REI.com blocked automated access on 2026-11-14, so REI product pages in this file could not be opened and are marked unverified. REI pages opened by WebFetch on 2026-11-16. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Tortuga Pro Backpack 40L (reviewed by OutdoorGearLab as the Travel Backpack Pro 40L) (no model number), $350 at Tortugabackpacks.com; sources: Tortuga https://www.tortugabackpacks.com/products/travel-backpack-40l; OutdoorGearLab https://www.outdoorgearlab.com/reviews/travel/travel-backpack/tortuga-travel-backpack-pro-40l; OutdoorGearLab https://www.outdoorgearlab.com/topics/travel/best-travel-backpack. Weighed 4.4 lb empty against 3.5 lb for the Standard; its extras (waterproof sailcloth, wider belt) are covered by the Standard hip belt and a liner bag. | 17 Nov 2026 (open-up pass): Cadillac restored: Tortuga Pro Backpack 40L, $350 (maker page and OutdoorGearLab review both opened today; OutdoorGearLab overall 83 against 75 for the Farpoint 40). Item renamed from 'Grab bag: 25 to 40 liter carry-on backpack'; the liter range and carry-on wording in how_to_choose and already_own now describe instead of exclude. REI and Osprey pages answered HTTP 403 today, so the Budget and Standard prices are still those seen on 2026-11-16. The Prepared's bag guide (updated March 2025, opened today) names no single best bag; it lists the larger Osprey Farpoint 55 among its mid-price picks and says most people should aim for 40 to 55 liters. The Farpoint 55 was not weighed here: no page for it was opened today. Why ours and not OutdoorGearLab's Cotopaxi Allpa 35L: OutdoorGearLab found the Allpa's back panel loses shape above about 25 lb and scored its carry comfort 8.2, against 10.0 for the Farpoint 40 with its frame, fixed padded hip belt and adjustable torso; a grab bag is carried full and on foot, so comfort under load counts for more here than the travel organization and access that put the Allpa first. Why ours and not CleverHiker's Cotopaxi Allpa 35: CleverHiker scores the two packs the same for comfort (4.7 of 5) and puts the Allpa ahead on organization and features, which matter less in a grab bag than OutdoorGearLab's finding that the Farpoint 40 carries a heavy load best. | 17 Nov 2026 (Wirecutter follow-up): Osprey.com and REI pages for the Farpoint 55 answered HTTP 403, so its price and maker's weight were not seen today. Tests opened: Pack Hacker's Farpoint 55 review (updated February 27, 2026: 8.0 of 10, main pack 4.234 lb, 22 x 14 x 9 in, padded harness and hip belt praised, daypack join called awkward) and OutdoorGearLab's review of the older version (November 2016: 67 overall, comfort 8.0, main pack too large for carry-on). The Prepared lists it among its mid-price picks. Why ours and not Wirecutter's Osprey Farpoint 55 / Fairview 55: it is the same Osprey harness, frame and hip belt as our Standard with a zip-off 15-liter daypack added, at about 4.2 lb for the main pack (Pack Hacker, February 2026) against 3.5 lb; no test opened shows it carrying a load better than the Farpoint 40, which OutdoorGearLab scored 10 of 10 for carry comfort in November 2026, a 72-hour kit for one adult fits in 40 liters (The Prepared says a basic kit needs more than 25), and Wirecutter's guide judges travel, where the daypack earns its place; a household that wants more room loses nothing by choosing the 55.",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "REI Co-op",
@@ -149,18 +148,66 @@
           "flag_check": "Queried the CPSC recall database (title contains 'Osprey') on 2026-11-14: only the 2016 and 2017 Poco child-carrier recalls; no Farpoint or Fairview packs.",
           "research_note": "link_note was: No Amazon link is given."
         },
-        "cadillac": null
-      },
-      "empty_reason": {
-        "cadillac": "More money buys mostly waterproof fabric and a wider hip belt on a heavier pack (4.4 lb empty); the Standard already carries on a padded hip belt, and a trash-bag liner keeps the contents dry."
+        "cadillac": {
+          "brand": "Tortuga",
+          "model": "Pro Backpack 40L (OutdoorGearLab reviews it as the Travel Backpack Pro 40L)",
+          "model_number": "",
+          "size": "40 L; 22 x 14 x 8 in; 4.4 lb (about 70 oz) empty; harness slides up and down to fit your torso, with load lifters; wide, padded, removable hip belt (fits 23 to 68 in); waterproof recycled sailcloth with water-resistant zippers; padded sleeve for a 16 in laptop",
+          "weight_oz": 70.4,
+          "unit_size": 1,
+          "unit_label": "pack",
+          "price_usd": 350,
+          "price_seen_at": "Tortugabackpacks.com, seen November 17, 2026",
+          "why": "OutdoorGearLab scored it 83 overall against 75 for the Standard, with the second-best carry comfort of the 17 packs it tested (8.7 of 10). The extra money buys a harness that slides to fit your torso, one of the widest and most padded hip belts the testers had seen, and a sailcloth shell that kept gear dry in light to medium rain with no cover.",
+          "weakness": "It weighs 4.4 lb empty, almost a pound more than the Standard, and costs $350. The Standard still scored higher for carry comfort alone (10 of 10 against 8.7), and the hip belt clasp is stiff to open.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.tortugabackpacks.com/products/travel-backpack-40l",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-17 (WebFetch): 'Pro Backpack 40L', $350, 4.4 lb (2 kg), 22 x 14 x 8 in, ECOPAK EPX200 sailcloth, hip belt fits 23-68 in, height-adjustable torso (no numeric range), Add to Cart shown. The cart panel text read 'Sorry, looks like we don't have enough of this product', so stock is not clear; no stock flag is set. No SKU on the page."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Tortuga",
+              "title": "Pro Backpack 40L",
+              "url": "https://www.tortugabackpacks.com/products/travel-backpack-40l",
+              "verified": true,
+              "supports": "Price, 40 L, 4.4 lb, 22 x 14 x 8 in, waterproof recycled sailcloth, hip belt fit range, height-adjustable harness, 16 in laptop sleeve."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Tortuga Travel Backpack Pro 40L Review",
+              "url": "https://www.outdoorgearlab.com/reviews/travel/travel-backpack/tortuga-travel-backpack-pro-40l",
+              "verified": true,
+              "supports": "Top Pick: Best for Work Travel; overall 83, ranked 3 of 17; carry comfort 8.7; 4.4 lb measured; wide padded removable hip belt, adjustable torso, load lifters; kept gear dry in light to medium rain. Updated November 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best Travel Backpacks",
+              "url": "https://www.outdoorgearlab.com/topics/travel/best-travel-backpack",
+              "verified": true,
+              "supports": "Side-by-side scores for 17 packs: Tortuga Pro 40L 83, Osprey Farpoint 40 75 (carry comfort 10.0). Updated November 4, 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recall service queried for recall titles containing 'Tortuga' on November 17, 2026: no results.",
+          "research_note": "Restored 2026-11-17 (open-up pass). It was removed on 2026-11-16 for its empty weight (4.4 lb against 3.5 lb); weight is now stated, not used to rule it out."
+        }
       }
     },
     {
       "id": "water-bottle",
       "module": "bags",
-      "name": "Water bottle, about 1 quart (1 liter)",
+      "name": "Water bottle for the bag",
       "need": "Water is the heaviest and most urgent thing in the bag, and a tough 1-liter bottle is how you carry it, refill it and treat it.",
-      "how_to_choose": "Choose about 1 quart (32 oz, about 1 liter) with a lid that cannot leak in a bag, and weigh it empty: a full quart of water already adds about 2 lb. Mouth size decides which filter fits. Squeeze filters with 28 mm threads, such as the Sawyer Squeeze, screw straight onto narrow bottles like the smartwater bottle, and do not screw onto a 63 mm Nalgene or a 54 mm Klean Kanteen wide mouth. Wide mouths are easier to fill from a faucet or tub, to clean, and to drop purification tablets into; Nalgene says its wide mouth fits most filtration devices and Klean Kanteen says the same of its Wide bottle, but check your own filter's thread before you rely on it. The Standard bottle here and the Standard portable filter (the Sawyer Squeeze) do not thread together: the filter comes with its own pouch, so fill the pouch, screw the filter onto it and squeeze the water into the bottle. Only a single-wall, uninsulated steel bottle can be used to boil water; never heat an insulated bottle or a plastic one.",
+      "how_to_choose": "About 1 quart (32 oz, about 1 liter) is the usual size for a bag bottle, and the count of two for each adult assumes it; a bigger bottle is fine if you will carry it. Pick a lid that cannot leak in a bag, and weigh the bottle empty: a full quart of water already adds about 2 lb. An insulated steel bottle keeps water cold but weighs about twice as much as a plastic one. Mouth size decides which filter fits. Squeeze filters with 28 mm threads, such as the Sawyer Squeeze, screw straight onto narrow bottles like the smartwater bottle, and do not screw onto a 63 mm Nalgene or a 54 mm Klean Kanteen wide mouth. Wide mouths are easier to fill from a faucet or tub, to clean, and to drop purification tablets into; Nalgene says its wide mouth fits most filtration devices and Klean Kanteen says the same of its Wide bottle, but check your own filter's thread before you rely on it. The Standard bottle here and the Standard portable filter (the Sawyer Squeeze) do not thread together: the filter comes with its own pouch, so fill the pouch, screw the filter onto it and squeeze the water into the bottle. Only a single-wall, uninsulated steel bottle can be used to boil water; never heat an insulated bottle or a plastic one.",
       "qty": {
         "basis": "per_adult",
         "factor": 2,
@@ -207,7 +254,7 @@
       "item_flags": [
         "This site's Standard filter, the Sawyer Squeeze, has the narrow 28 mm thread. It screws onto the Budget smartwater bottle, but not onto the Standard Nalgene (63 mm cap) or the Cadillac Klean Kanteen (54 mm opening). With a wide-mouth bottle, fill the filter's own pouch and squeeze the water through into the bottle, or make the grab bag's second bottle a narrow 28 mm one (BG-13)."
       ],
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "smartwater (Coca-Cola)",
@@ -218,7 +265,7 @@
           "unit_size": 1,
           "unit_label": "bottle",
           "price_usd": 2.39,
-          "price_seen_at": "Target.com, single 33.8 fl oz bottle, seen November 16, 2026",
+          "price_seen_at": "Target.com, single 33.8 fl oz bottle, seen November 17, 2026",
           "why": "It costs about $3 full of water, weighs almost nothing, and CleverHiker found it sturdier than typical disposable bottles and a direct fit for 28 mm squeeze filters like the Sawyer Squeeze, which is why long-distance hikers reuse them for months.",
           "weakness": "It is still a thin disposable bottle: it cannot be heated, is hard to wash by hand, and should be replaced when it cracks, clouds or smells.",
           "links": [
@@ -272,7 +319,7 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database (title contains 'bottle', 2020 onward) on 2026-11-14: no smartwater entry. Bottled water is FDA-regulated; FDA's recalls page (entries dated 2026-11-02 to 2026-11-13) did not mention smartwater.",
-          "research_note": "price_seen_at was: CleverHiker's typical single-bottle price; no shop price was checked (price_usd 3.0). Target.com page opened 2026-11-16 (WebFetch): smartwater 33.8 fl oz bottle, $2.39."
+          "research_note": "price_seen_at was: CleverHiker's typical single-bottle price; no shop price was checked (price_usd 3.0). Target.com page opened 2026-11-16 (WebFetch): smartwater 33.8 fl oz bottle, $2.39. | Target.com page opened again 2026-11-17 (WebFetch): $2.39."
         },
         "standard": {
           "brand": "Nalgene",
@@ -283,7 +330,7 @@
           "unit_size": 1,
           "unit_label": "bottle",
           "price_usd": 16.99,
-          "price_seen_at": "Nalgene.com",
+          "price_seen_at": "Nalgene.com, seen November 17, 2026",
           "why": "The standard tough bottle: OutdoorGearLab and CleverHiker both name it their value pick after drop and leak tests, it has volume marks for dosing purification tablets, and the lid is tethered so it cannot be lost.",
           "weakness": "The wide mouth spills when you drink on the move, it does not thread onto the Sawyer Squeeze or other 28 mm squeeze filters (use the filter's own pouch), and it cannot be heated.",
           "links": [
@@ -329,7 +376,8 @@
             }
           ],
           "flags": [],
-          "flag_check": "Queried the CPSC recall database (title contains 'Nalgene') on 2026-11-14: no results."
+          "flag_check": "Queried the CPSC recall database (title contains 'Nalgene') on 2026-11-14: no results.",
+          "research_note": "Nalgene.com page opened again 2026-11-17 (WebFetch): $16.99, 6.25 oz, 63 mm cap, Add to cart shown."
         },
         "cadillac": {
           "brand": "Klean Kanteen",
@@ -353,7 +401,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "The Prepared's Amazon link (ASIN B07998K8RR) is for the Klean Kanteen Wide single-wall bottle it reviewed in the 27 oz size; Amazon blocked access so the listing's size could not be confirmed, and it is not used here. | weakness was: Bare steel gets too hot to hold and the cap must come off before heating; painted finishes scorch, so buy brushed stainless. Klean Kanteen's product description does not mention heating; an answer in the questions section of its product page says the single-wall brushed bottle can go on a stove or fire with the cap removed. | link_note was: No Amazon link is given: the one seen was for a smaller size of this bottle.",
+          "research_note": "The Prepared's Amazon link (ASIN B07998K8RR) is for the Klean Kanteen Wide single-wall bottle it reviewed in the 27 oz size; Amazon blocked access so the listing's size could not be confirmed, and it is not used here. | weakness was: Bare steel gets too hot to hold and the cap must come off before heating; painted finishes scorch, so buy brushed stainless. Klean Kanteen's product description does not mention heating; an answer in the questions section of its product page says the single-wall brushed bottle can go on a stove or fire with the cap removed. | link_note was: No Amazon link is given: the one seen was for a smaller size of this bottle. | Kleankanteen.com answered HTTP 429 to WebFetch on 2026-11-17; price and stock are those seen in a browser on 2026-11-14.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -376,14 +424,14 @@
           "flag_check": "Queried the CPSC recall database (title contains 'Klean Kanteen') on 2026-11-14: one 2010 recall of bottle spouts (choking hazard), not this bottle or cap."
         }
       },
-      "research_note": "item_flags moved off the page: The Nalgene 38 oz stainless bottle that The Prepared recommends for boiling is no longer listed on Nalgene's site, so it is treated as discontinued."
+      "research_note": "item_flags moved off the page: The Nalgene 38 oz stainless bottle that The Prepared recommends for boiling is no longer listed on Nalgene's site, so it is treated as discontinued. | 17 Nov 2026 (open-up pass): no pick had been passed over for size, cells or stock; the Nalgene 38 oz steel bottle stays out because its maker no longer lists it. Item renamed from 'Water bottle, about 1 quart (1 liter)' and the first sentence of how_to_choose now describes the usual size instead of requiring it. The Prepared's canteen guide (December 2020, opened today) names no single top pick; it lists the Nalgene Wide-Mouth and the single-wall Klean Kanteen Wide, both picks here. Why ours and not OutdoorGearLab's Hydro Flask Wide Mouth: it is an insulated bottle that OutdoorGearLab weighed at 12.8 oz empty in the 20 oz size and priced at $40, against 6.25 oz and $17 for the quart Nalgene, and a double-wall bottle cannot be used to boil water; cold drinks are not the job of a grab bag bottle, and OutdoorGearLab names the Nalgene its Best Buy. Why ours and not CleverHiker's Hydro Flask Wide Mouth: CleverHiker lists the 32 oz Hydro Flask at 15.5 oz and $45, more than twice the weight and price of the Nalgene it names its most durable budget bottle, and the grab bag holds two bottles for each adult."
     },
     {
       "id": "food-ration-bars",
       "module": "bags",
       "name": "No-cook emergency food for the bag",
       "need": "Food that needs no stove, no water and no fridge, and that survives years in a bag or a hot car, keeps you moving for three days when stores are closed.",
-      "how_to_choose": "Lifeboat-style ration bars are the lightest way to carry calories: about 1.5 lb for 3,600 kcal with a 5-year shelf life, and The Prepared's oven test found they hold up to heat. Be plain about what they are: one 3,600 kcal pack is about 1,200 kcal a day for three days. That keeps an adult going, but it is not a full diet. This site counts ration packs only for people aged 6 or over: a younger child gets food they already eat, not ration bars. Look for a US Coast Guard approval number on the wrapper rather than vague claims. Ready-to-eat meal pouches (MREs) are real food at 900 to 1,250 kcal a meal, but they weigh about 1.6 lb each and lose shelf life quickly in heat.",
+      "how_to_choose": "Lifeboat-style ration bars are the lightest way to carry calories: about 1.5 lb for 3,600 kcal with a 5-year shelf life, and The Prepared's oven test found they hold up to heat. Be plain about what they are: one 3,600 kcal pack is about 1,200 kcal a day for three days. That keeps an adult going, but it is not a full diet. This site counts ration packs only for people aged 6 or over: a younger child gets food they already eat, not ration bars. Look for a US Coast Guard approval number on the wrapper rather than vague claims. Ready-to-eat meals (MREs) are real food at 900 to 1,250 kcal a meal; they weigh about 1.7 lb each, and heat shortens their life (the maker of the Cadillac pick gives about 4 years at 80 F and 1.5 years at 100 F).",
       "qty": {
         "basis": "per_eater",
         "factor": 1,
@@ -411,9 +459,9 @@
         "Ration bars are wheat-based (Datrex lists flour with malted barley, palm oil shortening, cane sugar and coconut flavoring). They are not suitable for people who must avoid gluten.",
         "Makers sell these by the case. Single packs are sold by preparedness stores; check the manufacture date on any single pack."
       ],
-      "research_note": "Prompt 6.9 / A-W10: tiers reordered on 2026-11-16. Datrex's own page (opened 2026-11-16) links 'USCG CERT FOR DX3600F' (COA_160_046_19-20250924.pdf) and says the ration meets USCG requirements; that certificate PDF could not be read by the page reader, and the Coast Guard's CGMIX equipment search is a form the page reader cannot submit (both in pending.json). sosfoodlab.com/mainstay-products (opened 2026-11-16) says only that the bars 'meet many government safety and viability standards' and does not name the Coast Guard; the SOS Food Lab store page answered HTTP 429 three times. So Datrex moves to Standard, and Mainstay (dearer and with no stated approval) leaves the tiers. Budget is left empty because the Datrex is also the cheapest pack found. | 16 Nov 2026 (P4): Mainstay 3600 removed from Standard: maker store page sold out and no Coast Guard wording; sosfoodlab.com Mainstay page and 2021 spec PDF no USCG wording; Aircraft Spruce says Mainstay 'meets the US Coast Guard standards (160.046/23/0)', which is not an approval statement, and CGMIX could not be searched (form only). Datrex moved to Standard on its USCG certificate 160.046/19/0 (expires 2030-09-24). Sopakco Sure-Pak 12 removed from Cadillac: its 320 oz case weight was counted in the grab bag and car kit at the Cadillac tier (grab bag 29.7 lb), and the maker gives 1.5 years' shelf life at 100 F, against the car kit's heat note. Sure-Pak prices 2026-11-16: $113.40 with heaters, $103.95 without. | item_flags moved off the page: The S.O.S. 3600 and Mainstay 3600 bars are both listed in maker SOS Food Lab's own store, and both showed sold out on November 16, 2026. / The Mainstay 3600 from SOS Food Lab (nine 400 kcal bars, made in a nut-free facility) is not a pick here, because its maker's pages do not name Coast Guard approval. / Mainstay 3600 bars carry no Coast Guard approval statement on their maker's pages, and the maker's store showed them sold out on November 16, 2026, so they are not a pick here.",
-      "tier_note": "One pick: it is the cheapest bar found with a current Coast Guard approval, and ready-to-eat meals cost more, weigh about 10 lb a person for three days and keep less well in heat.",
-      "prices_seen": "2026-11-16",
+      "research_note": "Prompt 6.9 / A-W10: tiers reordered on 2026-11-16. Datrex's own page (opened 2026-11-16) links 'USCG CERT FOR DX3600F' (COA_160_046_19-20250924.pdf) and says the ration meets USCG requirements; that certificate PDF could not be read by the page reader, and the Coast Guard's CGMIX equipment search is a form the page reader cannot submit (both in pending.json). sosfoodlab.com/mainstay-products (opened 2026-11-16) says only that the bars 'meet many government safety and viability standards' and does not name the Coast Guard; the SOS Food Lab store page answered HTTP 429 three times. So Datrex moves to Standard, and Mainstay (dearer and with no stated approval) leaves the tiers. Budget is left empty because the Datrex is also the cheapest pack found. | 16 Nov 2026 (P4): Mainstay 3600 removed from Standard: maker store page sold out and no Coast Guard wording; sosfoodlab.com Mainstay page and 2021 spec PDF no USCG wording; Aircraft Spruce says Mainstay 'meets the US Coast Guard standards (160.046/23/0)', which is not an approval statement, and CGMIX could not be searched (form only). Datrex moved to Standard on its USCG certificate 160.046/19/0 (expires 2030-09-24). Sopakco Sure-Pak 12 removed from Cadillac: its 320 oz case weight was counted in the grab bag and car kit at the Cadillac tier (grab bag 29.7 lb), and the maker gives 1.5 years' shelf life at 100 F, against the car kit's heat note. Sure-Pak prices 2026-11-16: $113.40 with heaters, $103.95 without. | item_flags moved off the page: The S.O.S. 3600 and Mainstay 3600 bars are both listed in maker SOS Food Lab's own store, and both showed sold out on November 16, 2026. / The Mainstay 3600 from SOS Food Lab (nine 400 kcal bars, made in a nut-free facility) is not a pick here, because its maker's pages do not name Coast Guard approval. / Mainstay 3600 bars carry no Coast Guard approval statement on their maker's pages, and the maker's store showed them sold out on November 16, 2026, so they are not a pick here. | 17 Nov 2026 (open-up pass): the Coast Guard's approved-equipment list (CGMIX, series 160.046, form submitted and read today, list last updated November 16, 2026) shows: 160.046/19/0 Datrex DX3600F, Approved; 160.046/21/1 Datrex DX2400F, Approved; 160.046/36/0 SOS Food Lab S.O.S. Emergency Food Ration, 3,682 calories, Approved; 160.046/24/0 and /25/0 SOS Food Lab 2,400-calorie rations, Approved; 160.046/28/0 Lighthouse for the Blind ER Bar 2400 or 3600, Approved; 160.046/20/0 Mainstay Products Inc Mainstay 3600, EXPIRED; 160.046/23/0 Mainstay 2400, EXPIRED; Mayday entries Former or Expired; 160.046/51/0 Seven Oceans, Approved. Mainstay weighed again on merit: its maker's store (sos-food-lab-llc.myshopify.com, opened today) sells Mainstay 3600 at $93.75 for a case of 7 ($13.39 a pack) and S.O.S. 3600 at $71.00 for a case of 5 ($14.20 a pack), against $9.05 a pack for Datrex by the case; SOS Products sells single Datrex 3600 and S.O.S. 3600 packs at the same $6.50 sale price. So Mainstay is dearer and its listed approval is expired, and it stays out on those grounds, not on a price-order rule. Budget stays empty because the Standard is the cheapest approved 3,600 kcal ration found; the S.O.S. 3600 (The Prepared's joint top pick, current approval) is its equal at the same single-pack price. Cadillac restored: Sopakco Sure-Pak 12 with heaters, $113.40 (maker pages opened today). The Prepared's ration test (prices August 2022) found its two top picks, Datrex and SOS, were also the cheapest per calorie, so no dearer bar is a Cadillac; the Cadillac is a different kind of food. The quantity rule printed for this item ('1 pack of 3,600 kcal for each person') does not describe the Cadillac case.",
+      "tier_note": "Two picks: the Standard is also the cheapest ration found with a current Coast Guard approval, so there is no cheaper pick, and the Cadillac is a case of full meals that weighs about 20 lb.",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": null,
         "standard": {
@@ -426,7 +474,7 @@
           "unit_label": "3,600 kcal pack",
           "price_usd": 9.05,
           "unit_price": "about $9 a pack in the maker's case of 20",
-          "price_seen_at": "Datrex.com, case of 20 for $181.00, seen November 16, 2026 (per-pack price worked out from that). SOS Products sold single packs for $6.50 on sale (regular $7.50) the same day",
+          "price_seen_at": "Datrex.com, case of 20 for $181.00, seen November 17, 2026 (per-pack price worked out from that). SOS Products sold single packs for $6.50 on sale (regular $7.50) the same day",
           "why": "It carries a current US Coast Guard approval (160.046/19/0) and is The Prepared's top pick: it did best in their oven test and tastes like a shortbread cookie. The 18 small, individually wrapped bars are easy to ration and share. One pack is 1,200 kcal a day for 72 hours.",
           "weakness": "A survival ration, not a diet: 1,200 kcal a day of flour, fat and sugar, with wheat and barley in it. The maker sells it only by the case of 20; single packs come from preparedness stores.",
           "links": [
@@ -464,6 +512,15 @@
               "research_note": "Read in a real browser by the Claude Code session on 2026-11-16, and opened again by the overnight audit the same day."
             },
             {
+              "type": "standard_listing",
+              "name": "US Coast Guard",
+              "title": "USCG Approved Equipment Search: approval series 160.046, emergency provisions for merchant vessels",
+              "url": "https://cgmix.uscg.mil/Equipment/EquipmentSearch.aspx",
+              "verified": true,
+              "supports": "Lists approval 160.046/19/0, Datrex DX3600F emergency ration, 3,600 calories, 684 g net, with the status Approved.",
+              "research_note": "Read 2026-11-17: the search form was submitted for series 160.046 with status ALL; 34 records; the page said 'Last Update: Monday, November 16, 2026'. The form has no address for a results page, so the link opens the search form."
+            },
+            {
               "type": "manufacturer_spec",
               "name": "Datrex",
               "title": "Datrex Emergency Food Ration 3600 kcal 20 Pack Case DX3600F",
@@ -484,13 +541,71 @@
             "Check the wrapper of the pack you buy for US Coast Guard approval number 160.046/19/0."
           ],
           "flag_check": "CPSC does not cover food. FDA's recalls page (entries dated 2 to November 13, 2026) did not mention Datrex when checked on November 14, 2026; older FDA records were not searched.",
-          "research_note": "size was: 3,600 kcal per pack: 18 individually wrapped 200 kcal bars; 24.8 oz (720 g) packed, 684 g (24.1 oz) net on the Coast Guard certificate; 3.5 x 2.5 x 4.5 in; 5-year shelf life from manufacture; mild coconut flavor; contains wheat and barley. US Coast Guard approval 160.046/19/0, valid to September 24, 2030. The maker's page gives no storage range; The Prepared cites the Coast Guard requirement as about -22 F to 149 F | why was: The one bar here with a current US Coast Guard approval (160.046/19/0, renewed in September 2025 and valid to September 2030), and The Prepared's top pick: it did best in their oven test and tastes like a shortbread biscuit. The 18 small, individually wrapped bars are easy to ration and share. One pack is 1,200 kcal a day for 72 hours. | flags[0] was: US Coast Guard approval number 160.046/19/0, expiring September 24, 2030, is on the certificate the maker links (read on November 16, 2026). Check the wrapper of the pack you buy for that number."
+          "research_note": "size was: 3,600 kcal per pack: 18 individually wrapped 200 kcal bars; 24.8 oz (720 g) packed, 684 g (24.1 oz) net on the Coast Guard certificate; 3.5 x 2.5 x 4.5 in; 5-year shelf life from manufacture; mild coconut flavor; contains wheat and barley. US Coast Guard approval 160.046/19/0, valid to September 24, 2030. The maker's page gives no storage range; The Prepared cites the Coast Guard requirement as about -22 F to 149 F | why was: The one bar here with a current US Coast Guard approval (160.046/19/0, renewed in September 2025 and valid to September 2030), and The Prepared's top pick: it did best in their oven test and tastes like a shortbread biscuit. The 18 small, individually wrapped bars are easy to ration and share. One pack is 1,200 kcal a day for 72 hours. | flags[0] was: US Coast Guard approval number 160.046/19/0, expiring September 24, 2030, is on the certificate the maker links (read on November 16, 2026). Check the wrapper of the pack you buy for that number. | Datrex.com and both SOS Products pages opened again 2026-11-17 (WebFetch): $181.00 a case of 20; single Datrex 3600 $6.50 sale, $7.50 regular."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Sopakco",
+          "model": "Sure-Pak 12 Meals with Heaters (case of 12 ready-to-eat meals)",
+          "model_number": "",
+          "size": "Case of 12 full meals, two each of six menus, each about 900 to 1,250 kcal with a flameless heater; about 20 lb a case, about 1.7 lb a meal; maker's guide to shelf life: about 5.5 years at 70 F, 4 years at 80 F, 2.5 years at 90 F and 1.5 years at 100 F",
+          "weight_oz": 320,
+          "unit_size": 4,
+          "unit_label": "case of 12 meals",
+          "price_usd": 113.4,
+          "unit_price": "about $9.45 a meal",
+          "price_seen_at": "Surepak-12.com (the maker's store), seen November 17, 2026; $103.95 without heaters",
+          "why": "Full meals instead of ration bars: an entree, sides and a flameless heater that needs no stove, from a company that packs the military's meals. One meal a day matches the calories of the Standard ration pack, and three a day is a real diet. The Prepared lists Sure-Pak among its civilian MRE picks.",
+          "weakness": "Heavy and bulky: a case weighs about 20 lb, and three days at one meal a day is about 5 lb a person against 1.5 lb for the Standard. It keeps about 4 years at 80 F and 1.5 years at 100 F, against 5 years for the bars, so it suits a closet better than a hot car. Sold by the case only.",
+          "links": [
+            {
+              "label": "Manufacturer (store)",
+              "url": "https://www.surepak-12.com/buy-now/",
+              "verified": true,
+              "note": "One case covers four people for 72 hours at one meal a day, or one person for four days at three.",
+              "research_note": "Opened 2026-11-17 (WebFetch): SurePak-12 Meals with Heaters (12 meals) $113.40, without heaters $103.95, Add to cart shown, stock not stated."
+            },
+            {
+              "label": "Manufacturer (shelf life and weights)",
+              "url": "https://www.surepak-12.com/faqs/",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Sopakco",
+              "title": "Sure-Pak 12: frequently asked questions",
+              "url": "https://www.surepak-12.com/faqs/",
+              "verified": true,
+              "supports": "About 900 to 1,250 calories a meal; case about 19 lb without heaters and 20 lb with; shelf life about 5.5 years at 70 F, 4 years at 80 F, 2.5 years at 90 F, 1.5 years at 100 F; sold by the case of 12 only."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Sopakco",
+              "title": "Sure-Pak 12: buy now",
+              "url": "https://www.surepak-12.com/buy-now/",
+              "verified": true,
+              "supports": "Price of the case of 12 with heaters and without."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best MRE (Meal Ready to Eat)",
+              "url": "https://theprepared.com/gear/reviews/mre/",
+              "verified": true,
+              "supports": "Lists Sure-Pak, Sopakco's civilian meal, among its three MRE picks; gives the usual MRE as about 1,250 calories and 1.1 to 1.6 lb. Updated May 2020.",
+              "research_note": "The Prepared describes taking apart a military-issue Sopakco meal; the page does not say it ate the Sure-Pak case itself. No hands-on test of this exact case by a test publication was found on 2026-11-17 (Outdoor Life MRE address returned 404; one web search returned only small affiliate sites)."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC does not cover food. No FDA or USDA recall page was searched for Sopakco on November 17, 2026.",
+          "research_note": "Restored 2026-11-17 (open-up pass). It was removed on 2026-11-16 because its 320 oz case weight was counted in the bag total and for its shorter life in heat; weight and heat life are now stated, not used to rule it out. unit_size is 4 because the item counts one 3,600 kcal pack per eater: 12 meals at one a day for 72 hours feed four people about the same calories. weight_oz is the whole case, so the plan's bag weight will count 20 lb for any household of one to four; a person carries three meals (about 5 lb) and the rest stays home. The maker's page says the heaters are not recommended for young children or elderly people because of the heat; no safety sentence was added here."
+        }
       },
       "empty_reason": {
-        "budget": "The Standard is the cheapest bar found with a current Coast Guard approval, at about $7 to $9 a pack. A cheaper bar without an approval saves a dollar or two and has not been held to the Coast Guard's storage and shelf-life rules.",
-        "cadillac": "Ready-to-eat meals (MREs) are real food, but three days of them weigh about 10 lb a person, and heat shortens their life to about 18 months at 100 F (Sopakco's figure for its Sure-Pak meals), so they do not suit a bag or a car. Spend the extra on a day of food you already eat."
+        "budget": "The Standard is also the cheapest: no 3,600 kcal ration with a current US Coast Guard approval was found for less. The S.O.S. 3600 costs the same by the single pack and more by the case, and Mainstay 3600 costs more by the case and no current Coast Guard approval was found for it."
       }
     },
     {
@@ -522,8 +637,7 @@
         }
       ],
       "item_flags": [],
-      "tier_note": "Two picks: a pricier jacket buys little more dryness than the Standard on a walk home.",
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Frogg Toggs",
@@ -547,7 +661,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "Shortfall: only the manufacturer source is verified. Poncho guides were tried at CleverHiker, OutdoorGearLab, Outdoor Life, GearJunkie, Field & Stream, Treeline Review and Switchback Travel on 2026-11-14; none had an openable poncho guide, and web search was unavailable. No Amazon ASIN was seen. | weakness was: No independent test of this poncho was found, the maker does not call it waterproof, and any poncho flaps in wind and leaves forearms and lower legs wet. | link_note was: Checked against one source only: no independent test of this poncho was found. | flags[0] was: Only one source supports this pick; treat it as provisional.",
+          "research_note": "Shortfall: only the manufacturer source is verified. Poncho guides were tried at CleverHiker, OutdoorGearLab, Outdoor Life, GearJunkie, Field & Stream, Treeline Review and Switchback Travel on 2026-11-14; none had an openable poncho guide, and web search was unavailable. No Amazon ASIN was seen. | weakness was: No independent test of this poncho was found, the maker does not call it waterproof, and any poncho flaps in wind and leaves forearms and lower legs wet. | link_note was: Checked against one source only: no independent test of this poncho was found. | flags[0] was: Only one source supports this pick; treat it as provisional. | Froggtoggs.com answered HTTP 429 to WebFetch on 2026-11-17. One web search for a poncho test found Task & Purpose (best value pick), but its page returned 410 and 404, so the pick still rests on the maker alone.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -607,19 +721,82 @@
               "url": "https://www.cleverhiker.com/apparel/best-rain-jackets/",
               "verified": true,
               "supports": "Ranks the Patagonia Torrentshell 3L best overall at $190.",
-              "research_note": "Opened 2026-11-14 for the old Cadillac pick; not reopened 2026-11-16."
+              "research_note": "Opened again 2026-11-17: Torrentshell 3L is still Best Rain Jacket Overall, $190 (page updated October 15, 2026)."
             }
           ],
           "flags": [],
           "flag_check": "CPSC recalls searched for Patagonia on November 16, 2026: an infant base-layer set (2023) and a stuffed toy (1995); no jackets.",
-          "research_note": "why was: OutdoorGearLab's best rain jacket overall in its November 2026 update, and CleverHiker's top pick too: a true 3-layer shell with pit zips that scored 8.5 of 10 for water resistance, against 7 for the lighter 2.5-layer jacket it replaces here, at the same price. | weakness was: At about 14 oz it is the heaviest of the three picks, and it takes more room in the bag than a lightweight jacket."
+          "research_note": "why was: OutdoorGearLab's best rain jacket overall in its November 2026 update, and CleverHiker's top pick too: a true 3-layer shell with pit zips that scored 8.5 of 10 for water resistance, against 7 for the lighter 2.5-layer jacket it replaces here, at the same price. | weakness was: At about 14 oz it is the heaviest of the three picks, and it takes more room in the bag than a lightweight jacket. | Patagonia.com showed a maintenance notice to WebFetch on 2026-11-17, so the price is still the one seen on 2026-11-16. OutdoorGearLab and CleverHiker pages opened again 2026-11-17: both still name it best overall."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Arc'teryx",
+          "model": "Beta SL Jacket (men's; a women's version is sold)",
+          "model_number": "X000010854",
+          "size": "3-layer Gore-Tex ePE shell with a knit backer; 12 oz (340 g) per Arc'teryx, 11.2 oz measured by OutdoorGearLab; 12 in pit zips; adjustable helmet-compatible hood; stows in its own pocket",
+          "weight_oz": 12,
+          "unit_size": 1,
+          "unit_label": "jacket",
+          "price_usd": 500,
+          "price_seen_at": "Arcteryx.com, seen November 17, 2026",
+          "why": "The top score of the 19 rain jackets OutdoorGearLab tested: 84 overall against 78 for the Standard, and the only jacket to beat it for water resistance (9.0 against 8.5), while breathing better and weighing less. CleverHiker names it the most protective jacket for wet conditions. The extra money buys a shell that stays dry through hours of wind-driven rain.",
+          "weakness": "At $500 it costs more than two and a half times the Standard for a gain that shows only in long, heavy rain. CleverHiker found the fabric crinkly and the fit roomy.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854",
+              "verified": true,
+              "note": "Men's page; a women's version is sold on the same site.",
+              "research_note": "Opened 2026-11-17 (WebFetch): Beta SL Jacket Men's, X000010854, $500.00, 340 g, 3L Gore-Tex ePE with C-Knit backer, pit zips, StormHood, sizes XS to XXL with Add to cart; stock not stated. The women's page was not opened; CleverHiker lists a women's weight (10 oz)."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0FX3KCKYC",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in OutdoorGearLab's buy link for the Beta SL on 2026-11-17; the Amazon page was not opened."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Arc'teryx",
+              "title": "Beta SL Jacket Men's",
+              "url": "https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854",
+              "verified": true,
+              "supports": "Price, model number, 340 g weight, 3-layer Gore-Tex ePE fabric, pit zips, adjustable helmet-compatible hood."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Arc'teryx Beta SL Review",
+              "url": "https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/arcteryx-beta-sl",
+              "verified": true,
+              "supports": "Upgrade pick; overall 84, ranked 1 of 19; water resistance 9.0, breathability 8.0; 11.2 oz measured; 12 in pit zips; stows in its own pocket. Review dated March 2025."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Rain Jackets for Men",
+              "url": "https://www.outdoorgearlab.com/topics/clothing-mens/best-rain-jacket-men",
+              "verified": true,
+              "supports": "Side-by-side scores: Beta SL 84 overall and 9.0 for water resistance; Torrentshell 3L 78 and 8.5. Updated November 3, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Rain Jackets of 2026",
+              "url": "https://www.cleverhiker.com/apparel/best-rain-jackets/",
+              "verified": true,
+              "supports": "Most Protective Rain Jacket for Wet Conditions, rated 4.8 of 5; $500; 12 oz men's, 10 oz women's; crinkly fabric and roomy fit noted. Updated October 15, 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recall service queried for recall titles containing 'Arc'teryx' on November 17, 2026: one recall, ski mountaineering boots (2017); no jackets.",
+          "research_note": "Restored 2026-11-17 (open-up pass). It was removed on 2026-11-16 on a judgment that $500 buys nothing the job needs, with no test named; OutdoorGearLab's test shows it does buy more (84 against 78 overall, 9.0 against 8.5 for water resistance, 8.0 against 7.0 for breathability, 11.2 oz against 12.7 oz)."
+        }
       },
-      "research_note": "16 Nov 2026 (P4): Black Diamond Fineline Stretch Shell (AP745038, $189, 320 g; header 'Out of Stock' but many variants available on 2026-11-16) replaced at Standard by the Patagonia Torrentshell 3L at the same price: OutdoorGearLab (updated 2026-11-03) best overall, water resistance 8.5 v 7.0; CleverHiker best overall per this file's own Cadillac source (opened 2026-11-14, not reopened). | item_flags moved off the page: No independent test of a rain poncho was found, so the Budget pick rests on the maker's page alone. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Arc'teryx Beta SL Jacket (men's; a women's version is sold) (X000010854), $500 at Arcteryx.com; sources: Arc'teryx https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854; OutdoorGearLab https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/arcteryx-beta-sl; CleverHiker https://www.cleverhiker.com/apparel/best-rain-jackets/. Owner names the $500 rain shell as not buying anything the job needs (prompt 6.3).",
-      "empty_reason": {
-        "cadillac": "A $500 shell is a little drier in an all-day downpour than the Standard 3-layer jacket; a walk home does not need the difference."
-      }
+      "research_note": "16 Nov 2026 (P4): Black Diamond Fineline Stretch Shell (AP745038, $189, 320 g; header 'Out of Stock' but many variants available on 2026-11-16) replaced at Standard by the Patagonia Torrentshell 3L at the same price: OutdoorGearLab (updated 2026-11-03) best overall, water resistance 8.5 v 7.0; CleverHiker best overall per this file's own Cadillac source (opened 2026-11-14, not reopened). | item_flags moved off the page: No independent test of a rain poncho was found, so the Budget pick rests on the maker's page alone. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Arc'teryx Beta SL Jacket (men's; a women's version is sold) (X000010854), $500 at Arcteryx.com; sources: Arc'teryx https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854; OutdoorGearLab https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/arcteryx-beta-sl; CleverHiker https://www.cleverhiker.com/apparel/best-rain-jackets/. Owner names the $500 rain shell as not buying anything the job needs (prompt 6.3). | 17 Nov 2026 (open-up pass): Cadillac restored: Arc'teryx Beta SL, $500 (maker page, OutdoorGearLab review and roundup, and CleverHiker all opened today). Our Standard is the top pick of both OutdoorGearLab and CleverHiker, so no 'why ours' sentence is needed. No pick here had been passed over for size or stock."
     },
     {
       "id": "emergency-bivvy",
@@ -819,7 +996,7 @@
           "flag_check": "Queried the CPSC recall database (title contains 'blanket', 2018 onward) on 2026-11-14: nothing for bivvy sacks or this maker."
         }
       },
-      "research_note": "item_flags moved off the page: All three picks are from one brand, SOL (Survive Outdoors Longer), because it is the brand both test outlets picked."
+      "research_note": "item_flags moved off the page: All three picks are from one brand, SOL (Survive Outdoors Longer), because it is the brand both test outlets picked. | 17 Nov 2026 (open-up pass): no size, cell, price or stock gate found in this item's text. Surviveoutdoorslonger.com answered HTTP 429 to WebFetch four times on 2026-11-17, so no price was seen today and the Escape Bivvy's sold-out flag keeps its November 16 date; it needs a browser check and, if still sold out, a named equal. Outdoor Life's blanket test (February 2024) and OutdoorGearLab's bivy test (December 2024) were opened again today. Why ours and not Outdoor Life's S.O.L. Heavy Duty Emergency Blanket: that blanket is the Budget pick here; the same test named the Emergency Bivvy best for warmth because a closed sack lets little heat out, it weighs half as much (3.8 oz against 8 oz), and getting through one cold night is the job, where the blanket's edge is toughness and reuse. Why ours and not OutdoorGearLab's Outdoor Research Helium Bivy: OutdoorGearLab's test is of camping bivy shelters that go over a sleeping bag; its top pick costs $300 and weighs 17.1 oz and is a different kind of product from a heat-reflecting emergency layer, and its emergency pick from the same test, the SOL Escape, is the Cadillac here."
     },
     {
       "id": "walking-socks-gloves",
@@ -850,7 +1027,7 @@
         }
       ],
       "item_flags": [],
-      "research_note": "Sock makers do not publish weights, so weight_oz is null for all three. No glove product was researched in the bags-a batch; see work-gloves in bags-b.json. | item_flags moved off the page: Sock makers do not publish weights; OutdoorGearLab's measured weights are given in the size line where it has one. / Work gloves have their own item on this site; the gloves advice here is general.",
+      "research_note": "Sock makers do not publish weights, so weight_oz is null for all three. No glove product was researched in the bags-a batch; see work-gloves in bags-b.json. | item_flags moved off the page: Sock makers do not publish weights; OutdoorGearLab's measured weights are given in the size line where it has one. / Work gloves have their own item on this site; the gloves advice here is general. | 17 Nov 2026 (open-up pass): no size, price or stock gate found in this item's text. OutdoorGearLab (April 2025) and CleverHiker (April 2026) sock tests opened again today. Darntough.com and Danishendurance.com answered HTTP 429 to WebFetch, so no price was seen today. Why ours and not OutdoorGearLab's Darn Tough Hiker Full Cushion: that sock is the Cadillac pick here; OutdoorGearLab says it is not ideal in hot weather, and the thinner Light Hiker Micro Crew, which CleverHiker ranks best overall and OutdoorGearLab names best lightweight, fits the ordinary shoes most people will be wearing, in any season.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
@@ -1066,7 +1243,7 @@
       "item_flags": [
         "CPSC recalled the Olight M2R Pro and Warrior Mini flashlights in March 2022 for a burn hazard; if you own one, read the recall notice. The Olight pick here is a different model."
       ],
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Olight",
@@ -1128,7 +1305,7 @@
           "unit_size": 1,
           "unit_label": "light",
           "price_usd": 16.95,
-          "price_seen_at": "Thrunite.com",
+          "price_seen_at": "Thrunite.com, seen November 17, 2026",
           "why": "For about the same money as a AAA light it recharges from your phone cable and power bank and has three brightness levels. Outdoor Life tested it and named it best budget compact light, praising the positive click switch.",
           "weakness": "Top brightness steps down from 405 to about 157 lumens after a short time, and a rechargeable light kept in a drawer at work must be topped up every few months.",
           "links": [
@@ -1167,7 +1344,8 @@
             }
           ],
           "flags": [],
-          "flag_check": "Queried the CPSC recall database (title contains 'ThruNite', and separately 'flashlight') on 2026-11-14: no ThruNite results."
+          "flag_check": "Queried the CPSC recall database (title contains 'ThruNite', and separately 'flashlight') on 2026-11-14: no ThruNite results.",
+          "research_note": "Thrunite.com opened again 2026-11-17 (WebFetch): $16.95, 34 g, 3.26 in; the page's spec table still wrongly lists an 18650 battery and 2001-2500 lumens; no water resistance rating given."
         },
         "cadillac": {
           "brand": "Nitecore",
@@ -1231,17 +1409,18 @@
             }
           ],
           "flags": [],
-          "flag_check": "Queried the CPSC recall database (title contains 'Nitecore', and separately 'flashlight') on 2026-11-14: no Nitecore results."
+          "flag_check": "Queried the CPSC recall database (title contains 'Nitecore', and separately 'flashlight') on 2026-11-14: no Nitecore results.",
+          "research_note": "Nitecorestore.com answered HTTP 429 to WebFetch on 2026-11-17; the price is the one seen in a browser on 2026-11-14."
         }
       },
-      "research_note": "item_flags were: CPSC recalled two Olight models (M2R Pro and Warrior Mini) for a burn hazard in March 2022. The Olight pick here, the i3E EOS, is a different model and was not part of that recall. / Two lights that appear in older guides, the Lumintop EDC01 and the Nitecore TINI2, are no longer listed on their makers' sites."
+      "research_note": "item_flags were: CPSC recalled two Olight models (M2R Pro and Warrior Mini) for a burn hazard in March 2022. The Olight pick here, the i3E EOS, is a different model and was not part of that recall. / Two lights that appear in older guides, the Lumintop EDC01 and the Nitecore TINI2, are no longer listed on their makers' sites. | 17 Nov 2026 (open-up pass): no cell-type, price or stock gate found: the three picks are one AAA light and two USB-C lights, and how_to_choose describes both kinds without ruling either out. Nitecore.com (opened today) heads the TINI2 page 'Discontinued' and points to the TINI3; no test of the TINI3 was opened, so it is not weighed. 1Lumen's keychain guide (opened today) names no single best light; its best rechargeable, the Nitecore TUP2, is the Cadillac here. Why ours and not Outdoor Life's Nitecore EDC 29: Outdoor Life's top everyday-carry light is a 5.6 oz, $110 flashlight, which is the job of this site's flashlight item, not of the light that lives on a key ring; its keychain pick, the Nitecore Tini2 Ti, is marked discontinued on Nitecore's own site, and its budget compact pick, the ThruNite Archer Mini, is the Standard here."
     },
     {
       "id": "paper-map-compass",
       "module": "bags",
       "name": "Paper map and baseplate compass",
       "need": "When phone networks are down or the battery is flat, a paper street map and a compass still tell you which way home is.",
-      "how_to_choose": "The map matters most, and it has to be of your own city, so it cannot be one product here. Get a current folded street map that shows your home, your workplace and the bridges, tunnels and main roads between them: your regional AAA office gives maps to members, transit agencies hand out system maps, and National Geographic's City Destination maps (waterproof and tear-resistant, $9.95 to $11.95) cover a limited list of large cities such as Boston, Chicago and Los Angeles. Mark two walking routes home and keep the map in a zip bag. For the compass, a clear baseplate model from an established maker is enough: in a street grid you only need to find north and hold a direction. Adjustable declination and a sighting mirror matter if you might also navigate open country.",
+      "how_to_choose": "The map matters most, and it has to be of your own city, so it cannot be one product here. Get a current folded street map that shows your home, your workplace and the bridges, tunnels and main roads between them: your regional AAA office gives maps to members, transit agencies hand out system maps, and National Geographic's City Destination maps (waterproof and tear-resistant, $9.95 to $11.95) cover a limited list of large cities such as Boston, Chicago and Los Angeles. Mark two walking routes home and keep the map in a zip bag. For the compass, a clear baseplate model from an established maker is enough: in a street grid you only need to find north and hold a direction. Adjustable declination and a sighting mirror, as on the Cadillac pick, matter if your way home could leave the streets for open country.",
       "qty": {
         "basis": "per_adult",
         "factor": 1,
@@ -1268,8 +1447,7 @@
         "These Suunto models are the NH versions, balanced for the northern hemisphere. They are correct for the United States.",
         "AAA and transit agency maps vary by region; ask your own."
       ],
-      "research_note": "Map source checked 2026-11-14: National Geographic City Destination Maps page (https://www.natgeomaps.com/travel-maps/city-destination-maps) opened in a browser. AAA and transit agency map availability varies by region and was not checked. | item_flags moved off the page: All three picks are compasses. A city street map cannot be one product for every reader, so where to get one is described under How to choose. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Suunto MC-2 NH Mirror Compass (SS004231001), $75 at Suunto US store (us.suunto.com); sources: Suunto https://us.suunto.com/products/suunto-mc-2-mirror-nh-compass; Outdoor Life https://www.outdoorlife.com/gear/best-compasses/; The Prepared https://theprepared.com/gear/reviews/compass/. Owner names the $75 compass as not buying anything the job needs (prompt 6.3).",
-      "tier_note": "Two picks: in a street grid you only need to find north and hold a direction, so a mirror sighting compass buys nothing the walk home needs.",
+      "research_note": "Map source checked 2026-11-14: National Geographic City Destination Maps page (https://www.natgeomaps.com/travel-maps/city-destination-maps) opened in a browser. AAA and transit agency map availability varies by region and was not checked. | item_flags moved off the page: All three picks are compasses. A city street map cannot be one product for every reader, so where to get one is described under How to choose. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Suunto MC-2 NH Mirror Compass (SS004231001), $75 at Suunto US store (us.suunto.com); sources: Suunto https://us.suunto.com/products/suunto-mc-2-mirror-nh-compass; Outdoor Life https://www.outdoorlife.com/gear/best-compasses/; The Prepared https://theprepared.com/gear/reviews/compass/. Owner names the $75 compass as not buying anything the job needs (prompt 6.3). | 17 Nov 2026 (open-up pass): Cadillac restored: Suunto MC-2 NH Mirror Compass (Outdoor Life and The Prepared pages opened today; Suunto's own specs page opened today; the US store answered HTTP 429, so the $75 price is the one seen on 2026-11-14 and the Budget and Standard prices were not seen again). Why ours and not Outdoor Life's Suunto MC-2: the MC-2 is the Cadillac pick here; The Prepared names the A-30 best for most people and says adjustable declination is not worth it for people who seldom use a compass, and the MC-2's mirror and clinometer serve sighting in open country more than finding north on a street. | 17 Nov 2026 (Wirecutter follow-up): Suunto.com specs pages for the A-10 NH and A-30 NH Metric opened today (no price shown; the US store still answered HTTP 429). The A-10 page calls it a minimal baseplate compass and lists no lens or luminescent markings; the A-30 page lists a magnifying lens and luminescent markings. Why ours and not Wirecutter's Suunto A-10: the A-10 is the Budget pick here; for $11 more the A-30 adds a magnifying lens for small street names and markings that glow in the dark (Suunto's pages for both, opened today), The Prepared names the A-30 best for most people, and Outdoor Life's tester sometimes needed several tries to set the A-10.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
@@ -1372,10 +1550,72 @@
           "flags": [],
           "flag_check": "Queried the CPSC recall database (title contains 'Suunto') on 2026-11-14: dive equipment only; no compasses."
         },
-        "cadillac": null
-      },
-      "empty_reason": {
-        "cadillac": "In a street grid you only need north and a direction; a mirror sighting compass at $75 adds declination and sighting tools that a walk home does not use."
+        "cadillac": {
+          "brand": "Suunto",
+          "model": "MC-2 NH Mirror Compass",
+          "model_number": "SS004231001",
+          "size": "Mirror sighting compass on a clear baseplate with a magnifying lens; about 2.6 oz (The Prepared's figure); adjustable declination; clinometer for slope angle; luminescent markings; the mirror lid covers the capsule; balanced for the northern hemisphere; made in Finland; limited lifetime warranty",
+          "weight_oz": 2.6,
+          "unit_size": 1,
+          "unit_label": "compass",
+          "price_usd": 75,
+          "price_seen_at": "Suunto US store (us.suunto.com), seen November 14, 2026",
+          "why": "Outdoor Life's best compass overall and The Prepared's upgrade pick. The extra money buys a sighting mirror for taking an exact bearing on a landmark, declination you set once, and a lid that protects the capsule in a bag and can signal for help.",
+          "weakness": "About twice the price and more than twice the weight of the Standard, Outdoor Life says it can overwhelm a beginner, and on city streets you will use little of what it adds.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.suunto.com/en-us/Products/Compasses/suunto-mc-2/suunto-mc-2-nh-mirror-compass/",
+              "verified": true,
+              "note": "Specs page; the price shows in the Suunto US store.",
+              "research_note": "Opened 2026-11-17 (WebFetch): 'Suunto MC-2 NH Mirror Compass', mirror for sighting bearings, luminescent markings, magnifying lens, made in Finland, limited lifetime warranty. Price, SKU and weight did not load for the reader."
+            },
+            {
+              "label": "Suunto US store",
+              "url": "https://us.suunto.com/products/suunto-mc-2-mirror-nh-compass",
+              "verified": false,
+              "note": "",
+              "research_note": "us.suunto.com answered HTTP 429 to WebFetch on 2026-11-17 (four tries). The address, the $75 price and the model number SS004231001 are from the 2026-11-14 pass, which opened the page in a browser. Needs a browser check."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00009V2YO",
+              "verified": false,
+              "note": "",
+              "research_note": "ASIN seen in Outdoor Life's buy link for the Suunto MC-2 on 2026-11-17; the Amazon page was not opened."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Suunto",
+              "title": "Suunto MC-2 NH Mirror Compass",
+              "url": "https://www.suunto.com/en-us/Products/Compasses/suunto-mc-2/suunto-mc-2-nh-mirror-compass/",
+              "verified": true,
+              "supports": "Sighting mirror, luminescent markings, magnifying lens on the baseplate, made in Finland, limited lifetime warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The 7 Best Compasses of 2026",
+              "url": "https://www.outdoorlife.com/gear/best-compasses/",
+              "verified": true,
+              "supports": "Named Best Overall; declination adjustment and slope indicator; base model is for the northern hemisphere; pricier and can overwhelm beginners. Published July 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best compass for survival",
+              "url": "https://theprepared.com/gear/reviews/compass/",
+              "verified": true,
+              "supports": "Upgrade pick; 2.6 oz; folding mirror cover, clinometer, declination adjustment, luminescent markings. Article dated April 2020."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recall service queried for recall titles containing 'Suunto' on November 17, 2026: three recalls, all dive equipment (2006, 2014, 2017); no compasses.",
+          "research_note": "Restored 2026-11-17 (open-up pass). It was removed on 2026-11-16 on a judgment that a $75 compass buys nothing the job needs, with no test named; Outdoor Life (July 2026) names it best overall and The Prepared names it the upgrade pick."
+        }
       }
     }
   ]

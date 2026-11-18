@@ -1,6 +1,6 @@
 {
  "note": "What established outside testers currently pick for the same kind of item. A fact and a link only: these are not sources for this site's picks and never the reason a product was chosen. Each review page was opened on the checked date. Rules are in data/products/SCHEMA.md. Consumer Reports entries are link-only (link_only: true): a link to its public category page, never a pick, score or rank.",
- "checked": "2026-11-15",
+ "checked": "2026-11-17",
  "items": {
   "air-purifier-hepa": [
    {
@@ -8,6 +8,13 @@
     "link_only": true,
     "url": "https://www.consumerreports.org/appliances/air-purifiers/",
     "checked": "2026-11"
+   },
+   {
+    "outlet": "HouseFresh",
+    "product": "Coway Airmega Mighty2",
+    "url": "https://housefresh.com/levoit-core-300-review/",
+    "checked": "2026-11",
+    "same_as": "standard"
    },
    {
     "outlet": "TechGearLab",
@@ -21,7 +28,7 @@
     "product": "Coway Airmega Mighty2 (AP-1512N)",
     "url": "https://www.nytimes.com/wirecutter/reviews/best-air-purifier/",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "standard"
    }
   ],
   "baby-carrier": [
@@ -70,7 +77,7 @@
     "product": "Nestout Fan-1",
     "url": "https://www.outdoorlife.com/gear/best-camping-fans-2026/",
     "checked": "2026-11",
-    "same_as": "cadillac"
+    "same_as": null
    },
    {
     "outlet": "Wirecutter",
@@ -96,7 +103,7 @@
     "product": "WOLFBOX MegaVolt24",
     "url": "https://www.techgearlab.com/topics/tools/best-jump-starter",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "standard"
    }
   ],
   "car-tire-inflator": [
@@ -105,7 +112,7 @@
     "product": "DeWalt 20V MAX Tire Inflator",
     "url": "https://gearjunkie.com/motors/best-portable-tire-air-compressors",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "standard"
    }
   ],
   "child-backpack": [
@@ -162,6 +169,13 @@
   ],
   "emergency-radio": [
    {
+    "outlet": "Bob Vila",
+    "product": "Midland ER310",
+    "url": "https://www.bobvila.com/articles/best-hand-crank-radio/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
     "outlet": "GearJunkie",
     "product": "Midland ER310PRO",
     "url": "https://gearjunkie.com/technology/best-emergency-radio",
@@ -207,7 +221,7 @@
     "product": "Adventure Medical Kits Mountain Series Backpacker Kit",
     "url": "https://www.nytimes.com/wirecutter/reviews/best-outdoor-first-aid-medical-kit/",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "standard"
    }
   ],
   "flashlight": [
@@ -216,7 +230,7 @@
     "product": "Fenix PD36R ACE",
     "url": "https://gearjunkie.com/outdoor/hiking/best-flashlights",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "cadillac"
    },
    {
     "outlet": "Wirecutter",
@@ -235,6 +249,13 @@
     "same_as": null
    },
    {
+    "outlet": "GearJunkie",
+    "product": "Fenix HM55R Renegade",
+    "url": "https://gearjunkie.com/outdoor/best-headlamps",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   },
+   {
     "outlet": "Wirecutter",
     "product": "Black Diamond Spot Headlamp",
     "url": "https://www.nytimes.com/wirecutter/reviews/best-headlamp/",
@@ -248,7 +269,7 @@
     "product": "LuminAid Packlite Max 2-in-1",
     "url": "https://www.cleverhiker.com/camping/best-lanterns/",
     "checked": "2026-11",
-    "same_as": "standard"
+    "same_as": null
    },
    {
     "outlet": "OutdoorGearLab",
@@ -256,6 +277,20 @@
     "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-lantern",
     "checked": "2026-11",
     "same_as": "cadillac"
+   },
+   {
+    "outlet": "Treeline Review",
+    "product": "Coast EAL22 Lantern",
+    "url": "https://treelinereview.com/gearreviews/best-camping-lanterns-and-camping-lights",
+    "checked": "2026-11",
+    "same_as": "budget"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "UST 60-Day Duro Lantern",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "standard"
    }
   ],
   "manual-can-opener": [
@@ -291,7 +326,14 @@
     "product": "Suunto MC-2",
     "url": "https://www.outdoorlife.com/gear/best-compasses/",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "cadillac"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Suunto A-10",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "budget"
    }
   ],
   "pet-carrier": [
@@ -394,21 +436,21 @@
     "product": "REI Co-op Siesta Hooded 20",
     "url": "https://gearjunkie.com/camping/best-sleeping-bags",
     "checked": "2026-11",
-    "same_as": "standard"
+    "same_as": null
    },
    {
     "outlet": "OutdoorGearLab",
     "product": "ALPS OutdoorZ Redwood",
     "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-camping-sleeping-bag",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "cadillac"
    },
    {
     "outlet": "Wirecutter",
     "product": "REI Co-op Siesta Hooded 20 Sleeping Bag",
     "url": "https://www.nytimes.com/wirecutter/reviews/best-sleeping-bag-for-car-camping/",
     "checked": "2026-11",
-    "same_as": "standard",
+    "same_as": null,
     "product2": "Kelty TruComfort Doublewide 20"
    }
   ],
@@ -498,7 +540,7 @@
     "product": "Darn Tough Hiker Full Cushion",
     "url": "https://www.outdoorgearlab.com/topics/shoes-and-boots/best-hiking-socks",
     "checked": "2026-11",
-    "same_as": null
+    "same_as": "cadillac"
    },
    {
     "outlet": "Wirecutter",
@@ -530,14 +572,14 @@
     "product": "Platypus GravityWorks",
     "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
     "checked": "2026-11",
-    "same_as": "standard"
+    "same_as": "compact"
    },
    {
     "outlet": "OutdoorGearLab",
     "product": "Platypus GravityWorks",
     "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
     "checked": "2026-11",
-    "same_as": "standard"
+    "same_as": "compact"
    }
   ],
   "water-filter-portable": [
@@ -554,6 +596,13 @@
     "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
     "checked": "2026-11",
     "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Sawyer Mini Water Filtration System",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
    }
   ],
   "water-treatment-tablets": [
@@ -561,6 +610,14 @@
     "outlet": "CleverHiker",
     "product": "Katadyn Micropur",
     "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Potable Aqua Chlorine Dioxide Water Purification Tablets",
+    "product2": "Katadyn Micropur MP1 Purification Tablets",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
     "checked": "2026-11",
     "same_as": "standard"
    }
@@ -580,7 +637,120 @@
     "product": "Reliance Rhino 5.5 gal",
     "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
     "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Reliance Aqua-Tainer 7-Gallon",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "budget"
+   }
+  ],
+  "water-carry-collapsible": [
+   {
+    "outlet": "Outdoor Life",
+    "product": "GSI Outdoors Folding Water Cube",
+    "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Wolverine Tuff Bottle 20L Container",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
     "same_as": null
+   }
+  ],
+  "hand-sanitizer": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Purell Advanced Hand Sanitizer",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "trash-bags-contractor": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Husky 42-Gallon Contractor Clean-Up Bags (50-Count)",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "respirator-n95": [
+   {
+    "outlet": "Wirecutter",
+    "product": "3M 8511 N95 Cool Flow Valve Particulate Respirator",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "whistle": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Shoreline Marine Emergency Survival Whistle",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "work-gloves": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Custom Leathercraft 124 Flex Grip WorkRight Gloves",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "food-storage-bins": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Iris Clear Weathertight Totes",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "car-power-inverter": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Bestek 300W Power Inverter",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "first-aid-kit-home": [
+   {
+    "outlet": "Wirecutter",
+    "product": "First Aid Only 298 Piece All-Purpose First Aid Kit (FAO-442)",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "batteries-disposable": [
+   {
+    "outlet": "Wirecutter",
+    "product": "AmazonBasics D Cell Alkaline Batteries",
+    "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "car-blanket": [
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Kelty Biggie Blanket",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-camping-blanket",
+    "checked": "2026-11",
+    "same_as": "standard"
    }
   ]
  }

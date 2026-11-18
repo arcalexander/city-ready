@@ -38,7 +38,7 @@
         }
       ],
       "item_flags": [],
-      "research_note": "2026-11-14 and 2026-11-15: Amazon, Walmart, Lowe's and Ace refused the page reader, so no retail price was read on a retailer's own page. 2026-11-16 alignment pass: off the page from item_flags: No recall of disposable nitrile gloves was found in the CPSC recall database on 2026-11-14 (searched recall titles for 'gloves' since 2020 and for 'Ammex'). | Retail prices were not confirmed on the retailers' own pages. The prices below come from review pages and search listings and may be out of date.",
+      "research_note": "2026-11-14 and 2026-11-15: Amazon, Walmart, Lowe's and Ace refused the page reader, so no retail price was read on a retailer's own page. 2026-11-16 alignment pass: off the page from item_flags: No recall of disposable nitrile gloves was found in the CPSC recall database on 2026-11-14 (searched recall titles for 'gloves' since 2020 and for 'Ammex'). | Retail prices were not confirmed on the retailers' own pages. The prices below come from review pages and search listings and may be out of date. 2026-11-17 open-up pass: GearLab's and Reviewed's review pages were reopened; their picks are unchanged (GearLab list prices $45 Gloveworks and $29 MedPride; Reviewed shows Venom Steel at $17.99 Amazon and Walmart, $27.98 Lowe's). No pick here was passed over for size, cells, price ceiling, brand or stock, so no tier changed. Why ours and not GearLab's Ammex Gloveworks HD Green: it is this site's top-tier pick, but at 8 mil it dulls touch, takes effort to peel off and lists at more than twice the price, while Reviewed's separate test of 11 gloves put the 6 mil Venom Steel first, and 6 mil is the thickness this item asks for when tying off bags.",
       "tiers": {
         "budget": {
           "brand": "MedPride",
@@ -97,7 +97,7 @@
           "unit_size": 1,
           "unit_label": "box of 100",
           "price_usd": 17.99,
-          "price_seen_at": "Amazon and Walmart price as shown on Reviewed's review page (Lowe's shown at $27.98); not confirmed on the retailers' own pages.",
+          "price_seen_at": "Amazon and Walmart price as shown on Reviewed's review page on 2026-11-17 (Lowe's shown at $27.98); not confirmed on the retailers' own pages.",
           "why": "Reviewed's best overall disposable glove. The two-layer, 6 mil build survived knife slashes and held more than ten pounds before tearing, which is what you want when tying off waste bags.",
           "weakness": "The common box is one-size-fits-most, and testers with small hands found it too big.",
           "links": [
@@ -146,7 +146,7 @@
           "unit_size": 1,
           "unit_label": "box of 100",
           "price_usd": 45,
-          "price_seen_at": "List price shown on GearLab's 2023 review page. Resellers listed it at about $22 to $32 a box, so shop around.",
+          "price_seen_at": "List price shown on GearLab's review page on 2026-11-17 (the review is dated 2023). Resellers listed it at about $22 to $32 a box, so shop around.",
           "why": "GearLab's best overall glove: the most durable of nine tested, with the best cut and puncture resistance, a textured grip that works wet, and the most protection from hot water. The extra thickness earns its cost for sewage clean-up and heavy bleach work.",
           "weakness": "Thick enough to dull your sense of touch, and it takes effort to peel off. It is sold as an industrial glove, not a medical exam glove.",
           "links": [
@@ -196,7 +196,7 @@
           "research_note": "2026-11-16 alignment pass: old link_note: The maker's ordering page could not be confirmed. True Value's page for the same item (Gloveworks HD green nitrile, 8 mil, 100 count, model GWGN44100 for medium) matches the product but showed no price."
         }
       },
-      "prices_seen": "2026-11-15"
+      "prices_seen": "2026-11-17"
     },
     {
       "id": "hand-sanitizer",
@@ -306,7 +306,7 @@
         },
         "cadillac": null
       },
-      "research_note": "Budget tier, rechecked 2026-11-15: Germ-X (62% ethyl alcohol, Vi-Jon) has a working maker site (germx.com, which says 'Contains 62% alcohol' for Germ-X Original) but no price there, and DailyMed's name search returned no Germ-X label under the names tried. Walmart's Equate sanitizer labels exist in DailyMed but were last published in 2017 to 2020, so they were not treated as current. 2026-11-16 alignment pass: off the page from item_flags: FDA do-not-use list checked on 2026-11-14 (https://www.fda.gov/drugs/drug-alerts-and-statements/fda-updates-hand-sanitizers-consumers-should-not-use). The whole table was read. GOJO/Purell, Vi-Jon/Germ-X and Clorox do not appear on it. | The FDA page says it is no longer being updated and points to the FDA drug recalls page for newer actions. The latest entry seen was added 04/17/2024: Aruba Aloe Hand Sanitizer Gel and Spray, recalled 4/5/2024 because it contains methanol. | No hand sanitizer recall was returned by the CPSC recall database for titles containing 'hand sanitizer' or 'Purell' on 2026-11-14. Sanitizer is a drug regulated by FDA, so FDA is the main place to check.",
+      "research_note": "Budget tier, rechecked 2026-11-15: Germ-X (62% ethyl alcohol, Vi-Jon) has a working maker site (germx.com, which says 'Contains 62% alcohol' for Germ-X Original) but no price there, and DailyMed's name search returned no Germ-X label under the names tried. Walmart's Equate sanitizer labels exist in DailyMed but were last published in 2017 to 2020, so they were not treated as current. 2026-11-16 alignment pass: off the page from item_flags: FDA do-not-use list checked on 2026-11-14 (https://www.fda.gov/drugs/drug-alerts-and-statements/fda-updates-hand-sanitizers-consumers-should-not-use). The whole table was read. GOJO/Purell, Vi-Jon/Germ-X and Clorox do not appear on it. | The FDA page says it is no longer being updated and points to the FDA drug recalls page for newer actions. The latest entry seen was added 04/17/2024: Aruba Aloe Hand Sanitizer Gel and Spray, recalled 4/5/2024 because it contains methanol. | No hand sanitizer recall was returned by the CPSC recall database for titles containing 'hand sanitizer' or 'Purell' on 2026-11-14. Sanitizer is a drug regulated by FDA, so FDA is the main place to check. 2026-11-17 open-up pass: kept as one pick. Sanitizer is a commodity: any bottle with at least 60% alcohol from a maker not on FDA's do-not-use list does the job, and no product was passed over for size, price, brand or stock. GOJO's page returned HTTP 403 to the page reader today, so nothing was re-priced.",
       "empty_reason": {
         "budget": "No pick. Cheaper sanitizers such as Germ-X (62% alcohol) and store brands do the same job, but no current official drug listing could be matched to one, so none met this site's rule of two sources. See 'If you already own' for how to check any bottle.",
         "cadillac": "Above the 60% minimum, more money buys scent, skin feel or packaging, not more germ kill. Larger bottles of the standard pick (DailyMed lists a 1 L size, NDC 21749-972-33) are the same formula and are better value, not a better product."
@@ -343,7 +343,7 @@
         }
       ],
       "item_flags": [],
-      "research_note": "2026-11-14: Medline's product page refused the page reader; the Adventure Medical Kits page showed sold out in search results and then gave errors; the Outdoor Wipes and Medline pages were refused or rate-limited on every attempt. 2026-11-16 alignment pass: off the page from item_flags: No recall of bathing or body wipes was found in the CPSC recall database on 2026-11-14 (titles containing 'wipes' since 2018 returned three unrelated products). | Hospital bathing packs such as Medline ReadyBath Luxe are the logical step up, but neither the maker's page nor an independent test could be confirmed, so they are not listed. | Adventure Medical Kits Adventure Bath Wipes were Territory Supply's top pick, but they looked sold out at the maker and its page could not be confirmed, so they were left out. 2026-11-16 alignment pass: standard pick removed (Step 6.2: the owner names wipes as a product with no real spread; one pick kept); old pick: {\"brand\":\"CleanLife Products (No Rinse)\",\"model\":\"No Rinse Bathing Wipes, pack of 8\",\"model_number\":\"01000\",\"size\":\"8 pre-moistened wipes, each about 8 x 8 in, in a resealable pack\",\"unit_size\":1,\"unit_label\":\"pack of 8\",\"price_usd\":4.75,\"unit_price\":\"$4.75 a wash (one pack of 8 cloths)\",\"price_seen_at\":\"MaxiAids.com (list price $9.99)\",\"why\":\"This is the caregiver's version of a wash: one pack is one full bath, with a fresh cloth for each body area. Territory Supply found them very thick and moist without dripping, and they are alcohol-free and latex-free.\",\"weakness\":\"The pack price is low but one pack is one wash, so it costs about four times as much per wash as the Budget pick, and the wipes are lightly scented.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"note\":\"Body care page lists No Rinse Bathing Wipes, SKU 01000, with ingredients. It does not show price, count or wipe size.\"},{\"label\":\"MaxiAids\",\"url\":\"https://maxiaids.com/product/no-rinse-bathing-wipes\",\"verified\":true,\"note\":\"8 wipes per package, $4.75, in stock on 2026-11-14.\"},{\"label\":\"Amazon\",\"url\":\"https://www.amazon.com/dp/B00CBKLSF8\",\"verified\":false,\"note\":\"It comes from Territory Supply's buy link.\",\"research_note\":\"2026-11-14: Amazon refused the page reader; the product code was seen in Territory Supply's buy link that day.\"}],\"link_note\":\"The one-pack-per-bath figure comes from retailer listings; the maker's page does not state it.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"CleanLife Products\",\"title\":\"Body Care\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"supports\":\"Product name, SKU 01000, latex-free and alcohol-free, ingredient list.\"},{\"type\":\"test_publication\",\"name\":\"Territory Supply\",\"title\":\"Tested: The Best Body Wipes When You Can't Take Shower\",\"url\":\"https://www.territorysupply.com/best-body-wipes\",\"verified\":true,\"supports\":\"Used in the field among eight wipes (updated April 2024): very thick and moist, 8 x 8 in, no rinse needed, slight fragrance. A smaller outdoor-gear site, not a lab.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-14: nothing for CleanLife or No Rinse products.\"}",
+      "research_note": "2026-11-14: Medline's product page refused the page reader; the Adventure Medical Kits page showed sold out in search results and then gave errors; the Outdoor Wipes and Medline pages were refused or rate-limited on every attempt. 2026-11-16 alignment pass: off the page from item_flags: No recall of bathing or body wipes was found in the CPSC recall database on 2026-11-14 (titles containing 'wipes' since 2018 returned three unrelated products). | Hospital bathing packs such as Medline ReadyBath Luxe are the logical step up, but neither the maker's page nor an independent test could be confirmed, so they are not listed. | Adventure Medical Kits Adventure Bath Wipes were Territory Supply's top pick, but they looked sold out at the maker and its page could not be confirmed, so they were left out. 2026-11-16 alignment pass: standard pick removed (Step 6.2: the owner names wipes as a product with no real spread; one pick kept); old pick: {\"brand\":\"CleanLife Products (No Rinse)\",\"model\":\"No Rinse Bathing Wipes, pack of 8\",\"model_number\":\"01000\",\"size\":\"8 pre-moistened wipes, each about 8 x 8 in, in a resealable pack\",\"unit_size\":1,\"unit_label\":\"pack of 8\",\"price_usd\":4.75,\"unit_price\":\"$4.75 a wash (one pack of 8 cloths)\",\"price_seen_at\":\"MaxiAids.com (list price $9.99)\",\"why\":\"This is the caregiver's version of a wash: one pack is one full bath, with a fresh cloth for each body area. Territory Supply found them very thick and moist without dripping, and they are alcohol-free and latex-free.\",\"weakness\":\"The pack price is low but one pack is one wash, so it costs about four times as much per wash as the Budget pick, and the wipes are lightly scented.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"note\":\"Body care page lists No Rinse Bathing Wipes, SKU 01000, with ingredients. It does not show price, count or wipe size.\"},{\"label\":\"MaxiAids\",\"url\":\"https://maxiaids.com/product/no-rinse-bathing-wipes\",\"verified\":true,\"note\":\"8 wipes per package, $4.75, in stock on 2026-11-14.\"},{\"label\":\"Amazon\",\"url\":\"https://www.amazon.com/dp/B00CBKLSF8\",\"verified\":false,\"note\":\"It comes from Territory Supply's buy link.\",\"research_note\":\"2026-11-14: Amazon refused the page reader; the product code was seen in Territory Supply's buy link that day.\"}],\"link_note\":\"The one-pack-per-bath figure comes from retailer listings; the maker's page does not state it.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"CleanLife Products\",\"title\":\"Body Care\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"supports\":\"Product name, SKU 01000, latex-free and alcohol-free, ingredient list.\"},{\"type\":\"test_publication\",\"name\":\"Territory Supply\",\"title\":\"Tested: The Best Body Wipes When You Can't Take Shower\",\"url\":\"https://www.territorysupply.com/best-body-wipes\",\"verified\":true,\"supports\":\"Used in the field among eight wipes (updated April 2024): very thick and moist, 8 x 8 in, no rinse needed, slight fragrance. A smaller outdoor-gear site, not a lab.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-14: nothing for CleanLife or No Rinse products.\"} 2026-11-17 open-up pass: top tier filled again (CleanLife No Rinse Bathing Wipes; maker page, MaxiAids and Territory Supply all opened today). Territory Supply's own top pick, Adventure Medical Kits Adventure Bath Wipes (8 x 8 in, 8 to a resealable pack, its thickest and most absorbent), and its 'big adventure days' pick, Outdoor Wipes XL Sport Wipes (12 x 24 in, 12 wrapped singly), were left out on 2026-11-14 partly for stock. Stock is no longer a test, but both makers' pages returned HTTP 429 to the page reader on every try today (adventuremedicalkits.com/products/adventure-bath-wipes-pkg-8 and outdoorwipes.com/products/sport-wipes-xl), so neither could be given two opened sources; they are listed for a browser check, and either could take the top tier from the CleanLife pack. No other established tester of body wipes was found today (one search: the results were affiliate lists). Why ours and not Territory Supply's Adventure Medical Kits Adventure Bath Wipes: Venture's wipes are wrapped one by one, so an opened bag does not dry out in storage, and one 12 x 12 in wipe a wash costs about $1.12, where an eight-cloth pack is one wash; the eight-cloth kind of wash is this site's top tier.",
       "tiers": {
         "budget": null,
         "standard": {
@@ -355,7 +355,7 @@
           "unit_label": "bag of 25",
           "price_usd": 27.95,
           "unit_price": "about $1.12 a wash (one wipe)",
-          "price_seen_at": "venturewipes.com",
+          "price_seen_at": "venturewipes.com, 2026-11-17",
           "why": "The cheapest way to cover a daily wash: the maker says one 12 x 12 in wipe is large enough for the whole body, so a bag covers 25 person-days at about $1.12 each. Each wipe is wrapped on its own, so the rest of the bag does not dry out.",
           "weakness": "One wipe per wash is a quick clean, not a thorough one, and the maker's page gives no full ingredient list.",
           "links": [
@@ -390,21 +390,77 @@
           "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-14: nothing for Venture Wipes. The maker's page does not carry a do-not-flush warning; treat them as not flushable.",
           "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "CleanLife Products (No Rinse)",
+          "model": "No Rinse Bathing Wipes, pack of 8",
+          "model_number": "01000",
+          "size": "8 pre-moistened wipes in a pack, each about 8 x 8 in",
+          "unit_size": 1,
+          "unit_label": "pack of 8",
+          "price_usd": 4.75,
+          "unit_price": "$4.75 a wash (one pack of 8 cloths)",
+          "price_seen_at": "MaxiAids.com, 2026-11-17, in stock (list price $9.99)",
+          "why": "A fuller wash than one large wipe: eight thick cloths in a pack, so each part of the body gets a fresh one. Territory Supply found them very thick and moist without dripping, and the maker lists them as free of alcohol and latex.",
+          "weakness": "One pack is one wash, so it costs about four times as much per wash as the Standard pick, and the wipes are lightly scented.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cleanlifeproducts.com/body-care/",
+              "verified": true,
+              "note": "Body care page: No Rinse Bathing Wipes, SKU 01000, with ingredients.",
+              "research_note": "Opened 2026-11-17. The page does not show price, count or wipe size."
+            },
+            {
+              "label": "MaxiAids",
+              "url": "https://maxiaids.com/product/no-rinse-bathing-wipes",
+              "verified": true,
+              "note": "8 wipes per package.",
+              "research_note": "Opened 2026-11-17: $4.75 (list $9.99), in stock, item 150902."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00CBKLSF8",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-17: Amazon was not opened; the product code was seen in Territory Supply's buy link that day."
+            }
+          ],
+          "link_note": "This site counts one pack of 8 cloths as one wash; the maker's page gives no figure.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "CleanLife Products",
+              "title": "Body Care",
+              "url": "https://cleanlifeproducts.com/body-care/",
+              "verified": true,
+              "supports": "Product name, SKU 01000, latex-free and alcohol-free, ingredient list (includes fragrance)."
+            },
+            {
+              "type": "test_publication",
+              "name": "Territory Supply",
+              "title": "Tested: The Best Body Wipes When You Can't Take Shower",
+              "url": "https://www.territorysupply.com/best-body-wipes",
+              "verified": true,
+              "supports": "Used in the field among eight wipes (updated April 2024): thick and moist without dripping, 8 x 8 in, 8 to a pack. A smaller outdoor-gear site, not a lab."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-17: three recalls (tattoo numbing wipes, medicated hemorrhoidal wipes, dog eyelid wipes), nothing for CleanLife or No Rinse products.",
+          "research_note": "2026-11-17 open-up pass: restored. This pick was the Standard until 2026-11-16, when it was taken off under a one-pick rule for wipes. It returns as the top tier because an eight-cloth wash is a real step up from one wipe. 'One pack is one wash' is this site's reading; neither the maker's page nor MaxiAids states it."
+        }
       },
       "empty_reason": {
-        "cadillac": "No premium pick met this site's rule of two sources. Outdoor Wipes XL Sport Wipes (12 x 24 in, a Territory Supply award winner) and Medline ReadyBath Luxe hospital packs were the candidates, but neither maker's page nor a price could be confirmed.",
-        "budget": "One pick only: wipes are much alike, and the single pick is also the cheapest per wash."
+        "budget": "No cheaper pick: the Standard wipe is the cheapest per wash found, and baby wipes you already have do for hands and face."
       },
-      "prices_seen": "2026-11-14",
-      "tier_note": "One pick: these are much alike, and a pricier pack buys nothing the job needs; baby wipes you already have do for hands and face."
+      "prices_seen": "2026-11-17",
+      "tier_note": "Two picks, compared by the cost of one wash and not by the pack price: the Standard wipe is the cheapest per wash found, and baby wipes you already have do for hands and face."
     },
     {
       "id": "handwash-station",
       "module": "waste",
       "name": "Low-water handwashing station",
       "need": "A jug with a tap over a basin lets you wash your hands properly with soap using a cup of water or less each time.",
-      "how_to_choose": "You need three things: a container with a spigot you can open and close easily, soap, and a basin or bucket underneath to catch the dirty water. Keep it small. A 2.5 to 3 gallon jug weighs about 25 lb full, fits on a counter and can be refilled from your stored water. A slow, steady flow saves water, and a tap you can shut with a wrist or elbow keeps clean hands clean. Empty the basin into the tub or a working drain, never onto a balcony.",
+      "how_to_choose": "You need three things: a container with a spigot you can open and close easily, soap, and a basin or bucket underneath to catch the dirty water. A 2.5 to 3 gallon jug weighs about 25 lb full, sits on a counter and is refilled from your stored water. A 5 gallon container with a tap needs fewer refills but weighs over 40 lb full, so fill it where it will stand. A slow, steady flow saves water, and a tap you can shut with a wrist or elbow keeps clean hands clean. Empty the basin into the tub or a working drain, never onto a balcony.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -501,7 +557,7 @@
           "unit_size": 1,
           "unit_label": "jug",
           "price_usd": 69.99,
-          "price_seen_at": "Dometic.com (US), in stock",
+          "price_seen_at": "Dometic.com (US), 2026-11-17, in stock",
           "why": "A rigid, counter-sized jug with a built-in spigot that gives a slow, measured flow, which is what stretches water. Outdoor Life named it the most versatile container it tested and found the spigot simple enough that no add-on is needed.",
           "weakness": "Expensive for a jug, and awkward to carry when full.",
           "links": [
@@ -511,6 +567,13 @@
               "verified": true,
               "note": "Model HYDJ11, spigot and quick-connect fitting included.",
               "research_note": "2026-11-16 alignment pass: old note: $69.99, in stock, model HYDJ11, spigot and quick-connect fitting included."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B09Y1BV8Y3",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-17: Amazon was not opened; the product code was seen in Outdoor Life's buy link for this jug that day."
             }
           ],
           "link_note": "You still need a basin or bucket under the spigot.",
@@ -536,21 +599,76 @@
           "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-14: none found.",
           "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. You still need a basin or bucket under the spigot."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Dometic",
+          "model": "GO Hydration Water Jug 11L with GO Hydration Water Faucet",
+          "model_number": "HYDJ11 jug (SKU 9600050824) plus HYDWF faucet (SKU 9600050794)",
+          "size": "2.9 US gal (11 L) jug plus a rechargeable faucet: 0.79 lb, magnetic base, about 40 gallons (150 L) a charge, splash resistant (IPX4)",
+          "unit_size": 1,
+          "unit_label": "jug and faucet set",
+          "price_usd": 169.98,
+          "price_seen_at": "Dometic.com (US), 2026-11-17: jug $69.99 plus faucet $99.99",
+          "why": "The faucet turns the jug into running water you start with a double tap, and it shuts itself off after a minute or a liter, so nobody holds a tap open or leaves it running. GearJunkie used one for over a year with no faults and found it used less water than tipping a jug.",
+          "weakness": "The faucet costs more than the jug it sits on and needs USB charging through an older micro-USB lead. Outdoor Life judged the jug's own spigot good enough without it.",
+          "links": [
+            {
+              "label": "Manufacturer (faucet)",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794",
+              "verified": true,
+              "note": "Model HYDWF.",
+              "research_note": "Opened 2026-11-17: $99.99, shown as out of stock, no add-to-cart button."
+            },
+            {
+              "label": "Manufacturer (jug)",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824",
+              "verified": true,
+              "note": "Model HYDJ11.",
+              "research_note": "Opened 2026-11-17: $69.99, in stock."
+            }
+          ],
+          "link_note": "You still need a basin or bucket under the faucet.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Dometic",
+              "title": "Dometic GO Hydration Water Faucet",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794",
+              "verified": true,
+              "supports": "Model HYDWF, price, 150 L per charge, automatic shut-off, USB charging, weight, IPX4, made to fit the Hydration Water Jug."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "Dometic GO Hydration Water Faucet Review",
+              "url": "https://gearjunkie.com/camping/dometic-go-hydration-water-faucet-review",
+              "verified": true,
+              "supports": "More than a year of use with the 11L jug (December 2023): no faults, used for washing hands, less water used than tipping a jug, shuts off after one minute or one liter; pressure too low for a shower."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Water Containers",
+              "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+              "verified": true,
+              "supports": "Tested the jug (Most Versatile pick); judged the faucet add-on very expensive and not needed."
+            }
+          ],
+          "flags": [
+            "Sold out at Dometic.com on November 17, 2026 (the faucet; the jug was in stock)."
+          ],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-17: none found.",
+          "research_note": "2026-11-17 open-up pass: restored. Taken off on 2026-11-16 as not buying anything the job needs, with no test named for that. Weighed again: GearJunkie's year of use found real gains (touch start, automatic shut-off, less water than tipping a jug), and Outdoor Life's view that it is not needed is kept in the weakness. No equal to the sold-out faucet was opened today, so the flag names none."
+        }
       },
-      "prices_seen": "2026-11-14",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: No tested foot-pump camping sink was found. The foot-pump stations sold online come from marketplace brands with no independent test that could be opened, so none is listed. | CPSC recall database checked on 2026-11-14 for 'Dometic' (no results) and 'GSI' (one unrelated 2016 recall of children's water bottles). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: the owner names the $170 jug and faucet as not buying anything the job needs; the jug's own spigot does the job); old pick: {\"brand\":\"Dometic\",\"model\":\"GO Hydration Water Jug 11L with GO Hydration Water Faucet\",\"model_number\":\"HYDJ11 jug (SKU 9600050824) plus HYDWF faucet (SKU 9600050794)\",\"size\":\"11 L jug plus a rechargeable tap: 0.79 lb, magnetic base, about 150 L per charge, IPX4\",\"unit_size\":1,\"unit_label\":\"jug and faucet set\",\"price_usd\":169.98,\"price_seen_at\":\"Dometic.com (US): jug $69.99 plus faucet $99.99\",\"why\":\"The faucet turns the jug into running water you start with a double tap. It shuts itself off after a minute or a liter, so nobody leaves it running. GearJunkie used one for over a year with no faults.\",\"weakness\":\"It costs more than the jug it sits on, needs USB charging (an older micro-USB lead) and adds little that the jug's own spigot cannot do.\",\"links\":[{\"label\":\"Manufacturer (faucet)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"note\":\"$99.99. Shown as out of stock online on 2026-11-14, with a find-in-store option.\"},{\"label\":\"Manufacturer (jug)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824\",\"verified\":true,\"note\":\"$69.99, in stock.\"}],\"link_note\":\"No Amazon link is given because none could be confirmed.\",\"research_note\":\"2026-11-14: REI's listing for the faucet refused the page reader.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Dometic\",\"title\":\"Dometic GO Hydration Water Faucet\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"supports\":\"Model HYDWF, price, 150 L per charge, automatic shut-off, USB charging, weight, fits the Hydration Water Jug.\"},{\"type\":\"test_publication\",\"name\":\"GearJunkie\",\"title\":\"Dometic GO Hydration Water Faucet Review\",\"url\":\"https://gearjunkie.com/camping/dometic-go-hydration-water-faucet-review\",\"verified\":true,\"supports\":\"More than a year of use with the 11L jug (December 2023): reliable, saves water, shuts off after one minute or one liter; pressure too low for showering.\"},{\"type\":\"test_publication\",\"name\":\"Outdoor Life\",\"title\":\"The Best Camping Water Containers\",\"url\":\"https://www.outdoorlife.com/gear/best-camping-water-containers/\",\"verified\":true,\"supports\":\"Tested the jug; judged the faucet add-on very expensive and not necessary.\"}],\"flags\":[\"The faucet was listed as out of stock on Dometic's US site on 2026-11-14.\"],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-14: none found.\"}",
-      "empty_reason": {
-        "cadillac": "Nothing pricier does more: a self-closing faucet adds little that the Standard jug's own spigot cannot do."
-      },
-      "tier_note": "Two picks: a self-closing faucet adds little that the Standard jug's own spigot cannot do, so this site does not suggest paying more."
+      "prices_seen": "2026-11-17",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: No tested foot-pump camping sink was found. The foot-pump stations sold online come from marketplace brands with no independent test that could be opened, so none is listed. | CPSC recall database checked on 2026-11-14 for 'Dometic' (no results) and 'GSI' (one unrelated 2016 recall of children's water bottles). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: the owner names the $170 jug and faucet as not buying anything the job needs; the jug's own spigot does the job); old pick: {\"brand\":\"Dometic\",\"model\":\"GO Hydration Water Jug 11L with GO Hydration Water Faucet\",\"model_number\":\"HYDJ11 jug (SKU 9600050824) plus HYDWF faucet (SKU 9600050794)\",\"size\":\"11 L jug plus a rechargeable tap: 0.79 lb, magnetic base, about 150 L per charge, IPX4\",\"unit_size\":1,\"unit_label\":\"jug and faucet set\",\"price_usd\":169.98,\"price_seen_at\":\"Dometic.com (US): jug $69.99 plus faucet $99.99\",\"why\":\"The faucet turns the jug into running water you start with a double tap. It shuts itself off after a minute or a liter, so nobody leaves it running. GearJunkie used one for over a year with no faults.\",\"weakness\":\"It costs more than the jug it sits on, needs USB charging (an older micro-USB lead) and adds little that the jug's own spigot cannot do.\",\"links\":[{\"label\":\"Manufacturer (faucet)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"note\":\"$99.99. Shown as out of stock online on 2026-11-14, with a find-in-store option.\"},{\"label\":\"Manufacturer (jug)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824\",\"verified\":true,\"note\":\"$69.99, in stock.\"}],\"link_note\":\"No Amazon link is given because none could be confirmed.\",\"research_note\":\"2026-11-14: REI's listing for the faucet refused the page reader.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Dometic\",\"title\":\"Dometic GO Hydration Water Faucet\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"supports\":\"Model HYDWF, price, 150 L per charge, automatic shut-off, USB charging, weight, fits the Hydration Water Jug.\"},{\"type\":\"test_publication\",\"name\":\"GearJunkie\",\"title\":\"Dometic GO Hydration Water Faucet Review\",\"url\":\"https://gearjunkie.com/camping/dometic-go-hydration-water-faucet-review\",\"verified\":true,\"supports\":\"More than a year of use with the 11L jug (December 2023): reliable, saves water, shuts off after one minute or one liter; pressure too low for showering.\"},{\"type\":\"test_publication\",\"name\":\"Outdoor Life\",\"title\":\"The Best Camping Water Containers\",\"url\":\"https://www.outdoorlife.com/gear/best-camping-water-containers/\",\"verified\":true,\"supports\":\"Tested the jug; judged the faucet add-on very expensive and not necessary.\"}],\"flags\":[\"The faucet was listed as out of stock on Dometic's US site on 2026-11-14.\"],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-14: none found.\"} 2026-11-17 open-up pass: the top tier holds the jug-and-faucet set again (see the pick's note). The 'Keep it small' sentence in how_to_choose was rewritten to describe jug sizes instead of ruling large ones out. Larger containers were weighed: of the five Outdoor Life tested, only the Dometic jug, the GSI cube (sold up to 5.3 gallons, in the Budget pick's size line) and a UST roll-up have a tap, and a station needs a tap, so no larger rigid jug displaced the Standard pick. One search today for a tested foot-pump or purpose-built handwashing station again found only affiliate lists (SereneLife, Outvita, Outsunny and kleankin units with no established test), so none is listed. GSI's pages returned HTTP 429 to the page reader today, so the Budget price was not re-read. No compact pick was added: the Budget cube already folds. Why ours and not Outdoor Life's Igloo 6-Gallon Camping Water Container: it has a pour spout and no tap, and Outdoor Life found hands cannot be rinsed with it one-handed, while a handwashing station needs a tap that runs over a basin."
     },
     {
       "id": "laundry-manual",
       "module": "waste",
       "name": "Hand-powered laundry",
       "need": "Over two to four weeks without power or running water, you need a way to wash underwear, socks and soiled items in a gallon or so of water.",
-      "how_to_choose": "In an apartment, small and foldable beats big. A wash bag does a couple of shirts or a few pairs of underwear at a time, uses little water and stores in a drawer. Plan how you will dry things: wring hard, then hang over the tub. Wash little and often, and keep heavy items such as jeans and towels for when services return.",
+      "how_to_choose": "A wash bag does a couple of shirts or a few pairs of underwear at a time, uses little water and rolls up small enough for a drawer. A tub washer you crank or plunge takes a bigger load, but in the one hands-on comparison found, the tub models used 5 to 10 gallons of water a load. Plan how you will dry things: wring hard, then hang over the tub. Wash little and often, and keep heavy items such as jeans and towels for when services return.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -664,11 +782,11 @@
         "cadillac": null
       },
       "empty_reason": {
-        "cadillac": "The natural premium pick, the Lavario Portable Clothes Washer, appears to have gone out of production (a retailer reports production paused with no plans to resume as of April 2025, and the maker's site could not be reached). No other larger hand-powered washer had an independent test that could be found."
+        "cadillac": "No pick. Commonsense Home used four hand-powered washers for about a week each (page updated December 2024). The largest, the Lavario, took 10 gallons of water for a light to medium load, the other two tub washers took 5 gallons a load, and a plain plunger used in a bucket cleaned best. With water short, a bigger washer did not buy a better wash."
       },
       "prices_seen": "2026-11-15",
-      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Lavario Portable Clothes Washer, the best-known hand-powered tub washer and a Trailer Life staff pick, appears to be discontinued. A retailer's FAQ (thecabindepot.com) says the maker paused production with no plans to resume as of April 1, 2025, and the maker's own site could not be reached. It is not listed. | Plunger-style washers (for example the Breathing Mobile Washer) and the hand-crank WonderWash were considered, but no credible independent test of either was found, so neither is listed. | CPSC recall database returned nothing for 'Scrubba' on 2026-11-14.",
-      "tier_note": "Two picks: no larger hand-powered washer with an independent test is on sale, and a clean bucket does the same job for nothing."
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Lavario Portable Clothes Washer, the best-known hand-powered tub washer and a Trailer Life staff pick, appears to be discontinued. A retailer's FAQ (thecabindepot.com) says the maker paused production with no plans to resume as of April 1, 2025, and the maker's own site could not be reached. It is not listed. | Plunger-style washers (for example the Breathing Mobile Washer) and the hand-crank WonderWash were considered, but no credible independent test of either was found, so neither is listed. | CPSC recall database returned nothing for 'Scrubba' on 2026-11-14. 2026-11-17 open-up pass: tub washers weighed against the bags on merit, whatever their size. Opened today: Commonsense Home, 'Portable Clothes Washer Review and Comparison' (https://commonsensehome.com/portable-clothes-washer/, updated December 12, 2024; a homesteading site, hands-on, four washers used about a week each by a family of five): Breathing Mobile Washer plunger cleaned best and was the cheapest; The Laundry POD was its favorite for its spin basket, 5 gallons a full load; Wonder Washer (WonderWash) 5 gallons a full load, no wringing, arrives in parts; Lavario 10 gallons for a light to medium load, heavy effort, clothes left very wet. Popular Science (2020) lists the Lavario for outdoor trips without a stated test. Bob Vila's portable-washer page is about full-size electric machines. lavario.com opened today and says only that ordering is not possible right now. The Lavario is left out on merit, not stock: 10 gallons a load is the wrong trade when water is the short supply. The WonderWash (The Laundry Alternative) is the open question: about the Scrubba's price, bigger loads, but its maker's page (laundry-alternative.com/products/the-wonderwash) returned HTTP 429 on every try and Apartment Therapy's hands-on review returned HTTP 403, so it has one opened source and was not adopted; it is listed for a browser check as a candidate for the top tier. No maker's site was found for the Breathing Mobile Washer (one search: marketplace listings only), so the plunger stays in 'If you already own'. No compact pick was added: both picks are already bags that roll up. thescrubba.com returned HTTP 429 today, so prices were not re-read; CHOICE's and Pack Hacker's reviews were reopened and are unchanged. Why ours and not Commonsense Home's Laundry POD: its spin basket is a real plus, but it took about 5 gallons a full load in that trial and has no measured cleaning result, while the Scrubba has CHOICE's measured soil removal and washes a small load in little water; no maker's page for the Laundry POD was opened today.",
+      "tier_note": "Two picks: in Commonsense Home's trial of four hand-powered washers the tub models took 5 to 10 gallons of water a load and a plain plunger in a bucket cleaned best, so a bigger washer buys little when water is short."
     },
     {
       "id": "disinfectant-surface",
@@ -737,17 +855,17 @@
         "Ordinary Clorox Disinfecting Wipes (EPA Reg. No. 5813-79) are bleach-free and are not on EPA's List G for norovirus. Do not rely on them after vomiting, diarrhea or sewage contact.",
         "CDC says not to use splashless or laundry-only bleach, or bleach with no stated strength, for disinfecting."
       ],
-      "research_note": "2026-11-15 re-check of EPA List G (updated 3 June 2026, https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline): it lists registration 5813-111 (Clorox Disinfecting Bleach), 5813-21 (Clorox Clean Up Cleaner + Bleach) and 777-99 (Reckitt; Lysol Disinfectant Spray carries EPA #777-99 on lysol.com, but List G shows the entry under a code name, so it was not adopted). Retailer pages for the bleach and the spray refused the page reader or timed out on 2026-11-14. Bleach doses re-opened 2026-11-15: CDC's surface page (label directions first; 5 tablespoons per gallon or 4 teaspoons per quart; 1 minute) says nothing about drinking water, and CDC's water page (label first; 8 drops per gallon or 2 per quart of 5% to 9% bleach; 30 minutes) says nothing about surfaces, so the two are kept in separate notes. The Budget pick's bottle (EPA Reg. No. 5813-120) is the same bottle the water bleach item describes; its label's drinking-water dose is given there, not here. 2026-11-16 alignment pass: off the page from item_flags: Ordinary Clorox Disinfecting Wipes (EPA Reg. No. 5813-79) are bleach-free and were NOT on EPA's List G for norovirus when checked on 2026-11-14. Do not rely on them after vomiting, diarrhea or sewage contact. | CPSC recall database, titles containing 'Clorox', checked 2026-11-14: three recalls (Mistolin and Lestoil cleaners in Puerto Rico, September 2026; Pine-Sol scented cleaners, October 2022; Liquid-Plumr, 2016). None involves the three picks here. | No retail price was confirmed on a retailer's own page for the bleach or the spray; the maker's pages show none. | EPA's List G (updated June 3, 2026, read again on 2026-11-15) includes the registration numbers of all three picks here. No consumer disinfecting wipe could be matched by name to List G, so the premium pick is a wipe labeled for healthcare settings.",
+      "research_note": "2026-11-15 re-check of EPA List G (updated 3 June 2026, https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline): it lists registration 5813-111 (Clorox Disinfecting Bleach), 5813-21 (Clorox Clean Up Cleaner + Bleach) and 777-99 (Reckitt; Lysol Disinfectant Spray carries EPA #777-99 on lysol.com, but List G shows the entry under a code name, so it was not adopted). Retailer pages for the bleach and the spray refused the page reader or timed out on 2026-11-14. Bleach doses re-opened 2026-11-15: CDC's surface page (label directions first; 5 tablespoons per gallon or 4 teaspoons per quart; 1 minute) says nothing about drinking water, and CDC's water page (label first; 8 drops per gallon or 2 per quart of 5% to 9% bleach; 30 minutes) says nothing about surfaces, so the two are kept in separate notes. The Budget pick's bottle (EPA Reg. No. 5813-120) is the same bottle the water bleach item describes; its label's drinking-water dose is given there, not here. 2026-11-16 alignment pass: off the page from item_flags: Ordinary Clorox Disinfecting Wipes (EPA Reg. No. 5813-79) are bleach-free and were NOT on EPA's List G for norovirus when checked on 2026-11-14. Do not rely on them after vomiting, diarrhea or sewage contact. | CPSC recall database, titles containing 'Clorox', checked 2026-11-14: three recalls (Mistolin and Lestoil cleaners in Puerto Rico, September 2026; Pine-Sol scented cleaners, October 2022; Liquid-Plumr, 2016). None involves the three picks here. | No retail price was confirmed on a retailer's own page for the bleach or the spray; the maker's pages show none. | EPA's List G (updated June 3, 2026, read again on 2026-11-15) includes the registration numbers of all three picks here. No consumer disinfecting wipe could be matched by name to List G, so the premium pick is a wipe labeled for healthcare settings. 2026-11-17 open-up pass: no wording changed (every disinfectant and bleach sentence is tied to an official source or the label). Target's pages for the bleach ($3.99, in stock, EPA Reg. No. 5813-120 shown) and the spray ($5.29, in stock, 1.84% sodium hypochlorite) were reopened today. All three tiers are filled and none was chosen or passed over for size, price, brand or stock. Left for the main worker: the Budget pick's size line says the 43 fl oz bottle is 'suggested for an apartment', which reads as a size gate.",
       "tiers": {
         "budget": {
           "brand": "Clorox",
           "model": "Disinfecting Bleach, Unscented",
           "model_number": "EPA Reg. No. 5813-120",
-          "size": "43 fl oz bottle suggested for an apartment (also sold in 11, 24, 81 and 121 fl oz); 7.5% sodium hypochlorite per the EPA registration",
+          "size": "43 fl oz bottle (also sold in 11, 24, 81 and 121 fl oz); 7.5% sodium hypochlorite per the EPA registration",
           "unit_size": 1,
           "unit_label": "bottle",
           "price_usd": 3.99,
-          "price_seen_at": "Target.com, 43 fl oz bottle, November 16, 2026",
+          "price_seen_at": "Target.com, 43 fl oz bottle, November 17, 2026",
           "why": "The cheapest and most capable choice. It is on EPA's List G for norovirus (6 minutes wet) and List K for C. difficile spores, and one small bottle makes many gallons of disinfectant.",
           "weakness": "You have to measure and mix it with water fresh each day, and it bleaches fabric and corrodes metal.",
           "links": [
@@ -812,7 +930,7 @@
           "unit_size": 1,
           "unit_label": "32 fl oz spray bottle",
           "price_usd": 5.29,
-          "price_seen_at": "Target.com, Clorox Original Clean-Up All Purpose Cleaner with Bleach, 32 fl oz spray, $5.29, in stock, 2026-11-16 (listing shows 1.84% sodium hypochlorite; EPA number not printed on the listing itself)",
+          "price_seen_at": "Target.com, Clorox Original Clean-Up All Purpose Cleaner with Bleach, 32 fl oz spray, $5.29, in stock, 2026-11-17 (listing shows 1.84% sodium hypochlorite; EPA number not printed on the listing itself)",
           "why": "Ready-to-use bleach in a spray bottle: nothing to measure and no clean water spent on mixing. It is on EPA's List G for norovirus with a 5-minute contact time. After vomiting or diarrhea, keep the surface visibly wet for 5 minutes, not the 30 seconds the maker gives for everyday germs.",
           "weakness": "It is not on EPA's List K for C. difficile spores, the maker says to rinse the surface with water afterwards, and it damages many fabrics and finishes.",
           "links": [
@@ -915,7 +1033,7 @@
           "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Clorox' and 'wipes' on 2026-11-14: nothing for this product."
         }
       },
-      "prices_seen": "2026-11-14"
+      "prices_seen": "2026-11-17"
     },
     {
       "id": "menstrual-backup",
@@ -962,9 +1080,59 @@
       "item_flags": [
         "Reusable products need clean water. A cup must be rinsed and should be boiled between cycles; period underwear must be rinsed and machine washed."
       ],
-      "research_note": "Tiers re-ordered 2026-11-15 so that they agree with the item's own advice that boxed pads are the simplest backup: pads moved from Budget to Standard, the cup from Standard to Cadillac, and the period underwear pick (Aisle Boost Hipster) left the tiers. Pages opened 2026-11-15: always.com product page; FDA device listing for Always pads; The Fresh Grocer listing (42-count, $9.99); allmatters.com product page (opened in a browser after the page reader was rate-limited); FDA device listing for AllMatters; Reviewed's menstrual cup review; periodaisle.com product page ($48.00 regular, $19.20 on sale). Searched 2026-11-15 for an independent test of disposable pads: Reviewed's pads address was not found, Good Housekeeping could not be fetched, CHOICE (Australia, 2022) tests brands not sold in the US and locks its scores, and the other results were affiliate lists. The Walmart price of $8.67 for the 42-count pack was seen in search listings only. No store-brand pad was researched to two sources, so Budget is empty. 2026-11-16 alignment pass: off the page from item_flags: PFAS in period underwear: Thinx settled a class action (Dickens v. Thinx Inc., US District Court, Southern District of New York) for up to $5 million over claims that its underwear contained PFAS despite being marketed as safe. Thinx denied the claims and admitted no wrongdoing (NPR report republished by WHYY, January 2023). | Knix settled a similar class action (Spencer v. Knix Wear Inc., same court) for $1.4 million without admitting wrongdoing; the claim deadline was March 2024 (Top Class Actions). | Mamavation, a consumer-advocacy site, had period underwear tested for fluorine as a marker of PFAS (detection limit 10 ppm). It reports Thinx samples at 132 to 940 ppm, Knix at 17 to 373 ppm and Proof at 234 ppm, and no detection for Aisle, Modibodi, Period and several others. Results apply only to the samples tested. | Which? (UK) tested period pants in July 2026 and found PFAS-related substances above EU limits in two of the three brands it sent for chemical analyzis. The public page does not name them. | CPSC recall database returned nothing for titles containing 'menstrual' or 'underwear' (since 2018) on 2026-11-14. FDA device recalls were not searched. | No independent product test of disposable pads could be found, so the pad pick rests on the maker's page and an FDA device listing rather than a test. | Period underwear was a pick here until 2026-11-15 (Aisle Boost Hipster, $48 a pair at regular price). It was taken off the list of backup picks because it has to be rinsed and machine washed, which costs the most water of the three kinds, and several pairs are needed for one cycle. If you already wear it, keep a pack of pads for days when you cannot wash.",
+      "research_note": "Tiers re-ordered 2026-11-15 so that they agree with the item's own advice that boxed pads are the simplest backup: pads moved from Budget to Standard, the cup from Standard to Cadillac, and the period underwear pick (Aisle Boost Hipster) left the tiers. Pages opened 2026-11-15: always.com product page; FDA device listing for Always pads; The Fresh Grocer listing (42-count, $9.99); allmatters.com product page (opened in a browser after the page reader was rate-limited); FDA device listing for AllMatters; Reviewed's menstrual cup review; periodaisle.com product page ($48.00 regular, $19.20 on sale). Searched 2026-11-15 for an independent test of disposable pads: Reviewed's pads address was not found, Good Housekeeping could not be fetched, CHOICE (Australia, 2022) tests brands not sold in the US and locks its scores, and the other results were affiliate lists. The Walmart price of $8.67 for the 42-count pack was seen in search listings only. No store-brand pad was researched to two sources, so Budget is empty. 2026-11-16 alignment pass: off the page from item_flags: PFAS in period underwear: Thinx settled a class action (Dickens v. Thinx Inc., US District Court, Southern District of New York) for up to $5 million over claims that its underwear contained PFAS despite being marketed as safe. Thinx denied the claims and admitted no wrongdoing (NPR report republished by WHYY, January 2023). | Knix settled a similar class action (Spencer v. Knix Wear Inc., same court) for $1.4 million without admitting wrongdoing; the claim deadline was March 2024 (Top Class Actions). | Mamavation, a consumer-advocacy site, had period underwear tested for fluorine as a marker of PFAS (detection limit 10 ppm). It reports Thinx samples at 132 to 940 ppm, Knix at 17 to 373 ppm and Proof at 234 ppm, and no detection for Aisle, Modibodi, Period and several others. Results apply only to the samples tested. | Which? (UK) tested period pants in July 2026 and found PFAS-related substances above EU limits in two of the three brands it sent for chemical analyzis. The public page does not name them. | CPSC recall database returned nothing for titles containing 'menstrual' or 'underwear' (since 2018) on 2026-11-14. FDA device recalls were not searched. | No independent product test of disposable pads could be found, so the pad pick rests on the maker's page and an FDA device listing rather than a test. | Period underwear was a pick here until 2026-11-15 (Aisle Boost Hipster, $48 a pair at regular price). It was taken off the list of backup picks because it has to be rinsed and machine washed, which costs the most water of the three kinds, and several pairs are needed for one cycle. If you already wear it, keep a pack of pads for days when you cannot wash. 2026-11-17 open-up pass: Budget filled with Stayfree Maxi Super Pads (maker's home page, FDA listing and The Fresh Grocer's listing opened today). Store-brand pads may cost less still, but a store's own listing is a retailer page and does not count as a source. Always price re-read today at The Fresh Grocer ($9.99 on sale, regular $11.19). The cup's price was not re-read. No pick here was passed over for size, price ceiling, brand or stock; period underwear stays off the list for the water it costs to wash, which is a reason of merit.",
       "tiers": {
-        "budget": null,
+        "budget": {
+          "brand": "Stayfree",
+          "model": "Maxi Super Pads, Without Wings, Unscented",
+          "model_number": "",
+          "size": "Priced here as the pack of 48 pads; also sold in packs of 24 and 66. Super absorbency, unscented, no wings.",
+          "unit_size": 1,
+          "unit_label": "pack of 48",
+          "price_usd": 7.99,
+          "unit_price": "about 17 cents a pad",
+          "price_seen_at": "The Fresh Grocer, 48-count pack, 2026-11-17 (66-count $10.49, 24-count $4.89)",
+          "why": "A name-brand unscented maxi pad at about 17 cents a pad, against about 24 cents for the Standard pick. It does the same job with no water needed.",
+          "weakness": "No wings, and like every disposable pad it adds to the trash you must store.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.stayfree.com/products/stayfree-maxi-pads-super-without-wings",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-17: the product page returned HTTP 429 to the page reader on every try. The address was read from the brand's home page, which did open and lists this pad by name."
+            },
+            {
+              "label": "The Fresh Grocer",
+              "url": "https://www.thefreshgrocer.com/sm/pickup/rsid/415/product/stayfree-maxi-super-pads-jumbo-pack-48-count-id-00078300070368",
+              "verified": true,
+              "note": "A regional grocer; many pharmacies and supermarkets sell the same pack.",
+              "research_note": "Opened 2026-11-17: 48-count pack, $7.99 (17 cents each), add-to-cart shown, fragrance-free, UPC 00078300070368."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Stayfree (Essity)",
+              "title": "Stayfree home page",
+              "url": "https://www.stayfree.com/",
+              "verified": true,
+              "supports": "The brand's own site lists Stayfree Maxi Super Pads, Without Wings as one of its two maxi pads. The site belongs to Essity Hygiene and Health AB."
+            },
+            {
+              "type": "standard_listing",
+              "name": "FDA Establishment Registration & Device Listing",
+              "title": "Essity HMS North America Inc. - pad, menstrual, unscented (product code HHD): STAYFREE Maxi Pads",
+              "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?lid=1002965&lpcd=HHD",
+              "verified": true,
+              "supports": "Stayfree Maxi Pads are listed with FDA as a Class 1 medical device (unscented menstrual pad, product code HHD, regulation 884.5435) by Essity HMS North America Inc., registration number 2515444. This is registration and listing, not FDA approval."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Stayfree' on 2026-11-17: none. FDA device recalls were not searched.",
+          "research_note": "2026-11-17 open-up pass: new pick. The maker source is the brand's home page because its product page refused the page reader; pack counts, 'unscented' and the price come from The Fresh Grocer's listings opened today. Like the Standard pick it rests on a maker page and an FDA listing, not a test: one search today found no established tester of disposable pads."
+        },
         "standard": {
           "brand": "Always",
           "model": "Maxi Size 2 Long Super Pads with Wings, Unscented",
@@ -974,7 +1142,7 @@
           "unit_label": "pack of 42",
           "price_usd": 9.99,
           "unit_price": "about 24 cents a pad",
-          "price_seen_at": "The Fresh Grocer, 42-count pack, 2026-11-15. Other stores listed it from $8.67 to $11.99.",
+          "price_seen_at": "The Fresh Grocer, 42-count pack, 2026-11-17 (sale price; regular $11.19). Other stores listed it from $8.67 to $11.99.",
           "why": "Boxed pads are the simplest backup: they need no water, nothing is inserted with hands you could not wash, and they store for years in their wrappers. This is a mainstream, unscented, mid-absorbency size sold in most pharmacies and supermarkets, so it suits almost everyone, including a teenager.",
           "weakness": "Disposable, so they add to the trash you must store.",
           "links": [
@@ -1074,11 +1242,7 @@
           "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'menstrual' on 2026-11-14: none. FDA device recalls were not searched."
         }
       },
-      "empty_reason": {
-        "budget": "No pick. Store-brand maxi pads cost less per pad and do the same job, but none was checked against two sources. If you already use a brand of pad, an extra pack of that is the right backup."
-      },
-      "prices_seen": "2026-11-15",
-      "tier_note": "No Budget pick: store-brand pads do the same job for less, and an extra pack of the pads you already use is the right backup."
+      "prices_seen": "2026-11-17"
     }
   ]
 }

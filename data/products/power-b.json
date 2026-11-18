@@ -7,13 +7,13 @@
       "module": "power",
       "name": "Headlamps",
       "need": "When the power is out, stairwells and corridors in a tall building can be fully dark once the emergency lights run down, and a headlamp gives each person light while keeping both hands free for the handrail, bags or a child.",
-      "how_to_choose": "Pick a light that runs on AAA cells, or on both AAA cells and a rechargeable pack (often called dual-fuel or hybrid), so it keeps working after the built-in battery is dead. Look at the runtime on the medium setting, not the top lumen number: about 100 to 200 lumens is plenty for stairs and rooms, and the highest mode drains batteries in two to four hours. A lock function stops the lamp switching on inside a bag. Water resistance of IPX4 is enough indoors; a higher rating only matters if you will be out in heavy rain.",
+      "how_to_choose": "Know what powers the lamp, and keep spare cells or a way to recharge it. Some headlamps run on AAA cells, some on a rechargeable battery charged by USB, and some on either (often called dual-fuel or hybrid). A lamp that takes AAA cells keeps going as long as you have spares; a rechargeable lamp is usually brighter and runs longer on a charge, and in a long outage it needs a power bank. Look at the runtime on the medium setting, not the top lumen number: about 100 to 200 lumens is plenty for stairs and rooms, and the highest mode drains batteries in two to four hours. A lock function stops the lamp switching on inside a bag. Water resistance of IPX4 is enough indoors; a higher rating only matters if you will be out in heavy rain.",
       "qty": {
         "basis": "per_adult",
         "factor": 1,
         "note": "One for each adult and teenager aged 14 or over; add one for each younger child old enough to wear one. A carried baby or toddler needs none."
       },
-      "already_own": "Any working LED headlamp from camping, running or DIY is good enough if it takes AAA or AA cells you can replace, or if you can recharge it from a power bank. Test it now: put in fresh batteries, leave it on medium for an hour and check that it stays bright and the strap still holds.",
+      "already_own": "Any working LED headlamp from camping, running or DIY is good enough. Know what it runs on: keep spare cells for one that takes AAA or AA cells, and a cable and a power bank for one that recharges. Test it now: put in fresh batteries or charge it, leave it on medium for an hour and check that it stays bright and the strap still holds.",
       "safety_notes": [
         {
           "text": "Use flashlights and headlamps, not candles, when the power is out. US fire data counts about 20 home candle fires reported every day on average.",
@@ -31,7 +31,7 @@
         }
       ],
       "item_flags": [],
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "Petzl",
@@ -134,68 +134,70 @@
           "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Spot 400', 'Black Diamond' and 'headlamp': no recall of this headlamp. Black Diamond's recent recalls cover avalanche transceivers, a harness and crampons. A 2004 recall covered batteries for older Black Diamond headlamps."
         },
         "cadillac": {
-          "brand": "Petzl",
-          "model": "Actik Core (625 lumens)",
-          "model_number": "E065AB00 to E065AB03 (color variants)",
-          "size": "625 lumens max; 100 lumens for 7 hours (plus 2 hours reserve) on the included CORE rechargeable pack, or 100 lumens for 10 hours on 3 AAA; 7 lumens for 100 hours on low; red light; CORE pack 1250 mAh, recharges in 3.5 hours; also takes 3 AAA (not included); IPX4; 3.1 oz",
+          "brand": "Fenix",
+          "model": "HM55R Renegade",
+          "model_number": "HM55R",
+          "size": "1,200 lumens max; in GearJunkie's testing about 350 lumens for 6.5 hours on the high spotlight and 130 lumens for 12.5 hours on medium, with 147 hours listed on low; removable 1600 mAh rechargeable cell (Fenix ARB-L18-1600, included), charged by USB-C in the lamp; spot, flood and red light; IP68; 3.7 oz with battery and headband",
           "unit_size": 1,
           "unit_label": "headlamp",
-          "price_usd": 87.95,
-          "price_seen_at": "Petzl.com (US store)",
-          "why": "The rechargeable pack is included, so daily use costs nothing in batteries, and the same lamp takes three AAA cells when the pack is dead. It is the brightest of the three and has a red mode for dark shared rooms. A lock stops it switching on in a bag.",
-          "weakness": "It is only splash resistant (IPX4), its top 625 lumens needs the CORE pack (450 on AAA cells), and no USB-C cable comes in the box.",
+          "price_usd": 74.95,
+          "price_seen_at": "fenixlighting.com",
+          "why": "GearJunkie's best overall headlamp of 2026 (9.1 of 10), ahead of the Black Diamond lamps it had ranked first for two years. It is about three times as bright as the Standard pick, holds a useful 350 lumens for a whole evening, is sealed against dust and water, and recharges from a power bank by USB-C.",
+          "weakness": "It runs only on its own rechargeable cell and cannot take AAA cells, so a spare means a second Fenix cell or a power bank. The controls take some learning, and the pages read list no lock function.",
           "links": [
             {
               "label": "Manufacturer",
-              "url": "https://www.petzl.com/US/en/Sport/Headlamps/ACTIK-CORE",
+              "url": "https://fenixlighting.com/products/fenix-hm55r-renegade-headlamp",
               "verified": true,
               "note": "",
-              "research_note": "Opened 2026-11-14. Shows Actik Core at $87.95 with full specs."
+              "research_note": "Not opened on 2026-11-17: Fenix's US store (Shopify) returned HTTP 429 to WebFetch. URL seen in web search results that day. Listed in the helper report under needs_browser."
             },
             {
-              "label": "Amazon",
-              "url": "https://www.amazon.com/dp/B0FHKTNR6T",
-              "verified": false,
+              "label": "Fenix model guide",
+              "url": "https://www.fenixlighting.com/blogs/news/fenix-hm55r-renegade-everything-to-know",
+              "verified": true,
               "note": "",
-              "research_note": "Amazon blocked automated access.ASIN seen today in CleverHiker's Actik Core buy link."
+              "research_note": "Opened 2026-11-17 by WebFetch. Shows $74.95, 1200 lumens, replaceable ARB-L18-1600 1600 mAh cell, USB-C, 3.70 oz, IP68."
             }
           ],
-          "link_note": "The CORE pack charges through a USB-C port; Petzl does not include the cable.",
+          "link_note": "",
           "sources": [
             {
               "type": "manufacturer_spec",
-              "name": "Petzl",
-              "title": "ACTIK CORE - Multisport Headlamps",
-              "url": "https://www.petzl.com/US/en/Sport/Headlamps/ACTIK-CORE",
+              "name": "Fenix Lighting (US)",
+              "title": "Fenix HM55R Renegade: Everything to Know",
+              "url": "https://www.fenixlighting.com/blogs/news/fenix-hm55r-renegade-everything-to-know",
               "verified": true,
-              "supports": "Lumens, burn times on CORE and on AAA, 3.1 oz weight, IPX4, battery capacity and charge time, reference numbers, price."
+              "supports": "Price, 1,200 lumens max, replaceable 1600 mAh ARB-L18-1600 cell, USB-C charging, 3.70 oz, IP68 to 2 meters, ten modes including three red levels."
             },
             {
               "type": "test_publication",
-              "name": "CleverHiker",
-              "title": "Best Headlamps of 2026, Tested & Reviewed",
-              "url": "https://www.cleverhiker.com/backpacking/best-hiking-backpacking-camping-headlamps/",
+              "name": "GearJunkie",
+              "title": "The Best Headlamps of 2026",
+              "url": "https://gearjunkie.com/outdoor/best-headlamps",
               "verified": true,
-              "supports": "Named Best Well-Rounded Headlamp at $88 after hands-on testing; guide updated April 14, 2026."
+              "supports": "Named Best Overall (9.1 of 10) at $75; about 350 lumens for 6.5 hours on high and 130 lumens for 12.5 hours on medium; submersion, freezing and drop tests; guide updated November 10, 2026."
             }
           ],
           "flags": [],
-          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Actik', 'Petzl' and 'headlamp': no recall of this model."
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov recall API) on 2026-11-17 for 'Fenix': no recalls returned.",
+          "research_note": "Added 2026-11-17 (open-up pass). Fenix's summary says up to 120 hours max runtime; GearJunkie's table says 147 hours on low; GearJunkie's figure is shown and attributed. Lock function: neither page read mentions one; fenixlight.com has an FAQ titled 'How to prevent accidentally activating the HM55R?' whose answer text did not load. No Amazon ASIN seen. Fenix's US product page and REI's page were not readable (HTTP 429 and 403). | 2026-11-17: fenixlighting.com read in Chrome: $74.95 (MSRP $100.00), ADD TO CART, 3.7 oz, up to 1,200 lumens. The word 'lock' was not found in the page text."
         }
-      }
+      },
+      "research_note": "Open-up pass 2026-11-17. Gate found and rewritten: how_to_choose told the reader to pick a lamp that runs on AAA cells or is dual-fuel, and already_own accepted an owned lamp only if it took AAA or AA cells or recharged from a power bank. Tests re-opened by WebFetch on 2026-11-17: CleverHiker (updated April 14, 2026; over 40 lamps; Best Overall Black Diamond Spot 400-R $80, runner-up BioLite Range 500, Best Value Spot 400 $60, Best Budget Petzl Tikkina $20, Best Well-Rounded Petzl Actik Core $88) and GearJunkie (updated November 10, 2026; about 200 lamps since 2013; Best Overall Fenix HM55R Renegade $75 9.1, Best Budget Petzl Tikkina 7.2, Spot 400-R 'Best Time-Tested' 8.1, BioLite Range 500 8.3, Fenix HM65R V2 'Brightest' $100 9.0). OutdoorGearLab's headlamp page served a 2018 version to the reader and was not used. Cadillac changed from Petzl Actik Core to Fenix HM55R Renegade: the Actik Core held the tier under the old AAA preference; on the tests read it is CleverHiker's 'well-rounded' pick and not any tester's top pick, while the HM55R is the top pick of the largest and most recent test, is brighter, IP68 against IPX4, and costs $13 less. What the Actik Core still does that the HM55R does not: run on three AAA cells. Why ours and not CleverHiker's Black Diamond Spot 400-R: it is the same lamp with the battery sealed in for $20 more; the Spot 400 runs on three AAA cells or Black Diamond's rechargeable pack, CleverHiker itself names it Best Value, and its buying advice says to look for standard cells where charging may be impractical, which is what a long outage is. Why ours and not GearJunkie's Fenix HM55R Renegade: it is our Cadillac; it is the better lamp, but a household buys one per adult, it costs $15 more each, and it runs only on its own rechargeable cell, where the Spot 400 runs on AAA cells or a rechargeable pack. Wirecutter's line is left to the main worker. Removed Cadillac pick, kept for the record: {\"brand\": \"Petzl\", \"model\": \"Actik Core (625 lumens)\", \"model_number\": \"E065AB00 to E065AB03 (color variants)\", \"size\": \"625 lumens max; 100 lumens for 7 hours (plus 2 hours reserve) on the included CORE rechargeable pack, or 100 lumens for 10 hours on 3 AAA; 7 lumens for 100 hours on low; red light; CORE pack 1250 mAh, recharges in 3.5 hours; also takes 3 AAA (not included); IPX4; 3.1 oz\", \"unit_size\": 1, \"unit_label\": \"headlamp\", \"price_usd\": 87.95, \"price_seen_at\": \"Petzl.com (US store)\", \"why\": \"The rechargeable pack is included, so daily use costs nothing in batteries, and the same lamp takes three AAA cells when the pack is dead. It is the brightest of the three and has a red mode for dark shared rooms. A lock stops it switching on in a bag.\", \"weakness\": \"It is only splash resistant (IPX4), its top 625 lumens needs the CORE pack (450 on AAA cells), and no USB-C cable comes in the box.\", \"links\": [{\"label\": \"Manufacturer\", \"url\": \"https://www.petzl.com/US/en/Sport/Headlamps/ACTIK-CORE\", \"verified\": true, \"note\": \"\", \"research_note\": \"Opened 2026-11-14. Shows Actik Core at $87.95 with full specs.\"}, {\"label\": \"Amazon\", \"url\": \"https://www.amazon.com/dp/B0FHKTNR6T\", \"verified\": false, \"note\": \"\", \"research_note\": \"Amazon blocked automated access.ASIN seen today in CleverHiker's Actik Core buy link.\"}], \"link_note\": \"The CORE pack charges through a USB-C port; Petzl does not include the cable.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Petzl\", \"title\": \"ACTIK CORE - Multisport Headlamps\", \"url\": \"https://www.petzl.com/US/en/Sport/Headlamps/ACTIK-CORE\", \"verified\": true, \"supports\": \"Lumens, burn times on CORE and on AAA, 3.1 oz weight, IPX4, battery capacity and charge time, reference numbers, price.\"}, {\"type\": \"test_publication\", \"name\": \"CleverHiker\", \"title\": \"Best Headlamps of 2026, Tested & Reviewed\", \"url\": \"https://www.cleverhiker.com/backpacking/best-hiking-backpacking-camping-headlamps/\", \"verified\": true, \"supports\": \"Named Best Well-Rounded Headlamp at $88 after hands-on testing; guide updated April 14, 2026.\"}], \"flags\": [], \"flag_check\": \"Queried the CPSC recall database on 2026-11-14 for 'Actik', 'Petzl' and 'headlamp': no recall of this model.\"} | 2026-11-17, main worker: Why ours and not Wirecutter's Black Diamond Spot Headlamp: it is the same lamp; Black Diamond's page calls it the Spot 400, and the match is not marked on the page only because the names differ."
     },
     {
       "id": "flashlight",
       "module": "power",
       "name": "Handheld flashlights",
       "need": "A handheld flashlight throws light further than a headlamp for checking a dark corridor, a fuse panel or a stairwell landing, and it is the light you can hand to a neighbor or leave by the door.",
-      "how_to_choose": "Choose one that runs on AA cells, or one that recharges by USB-C and can also take AA cells, so it shares batteries with the rest of the kit and can be topped up from a power bank. A low mode of 30 to 100 lumens that lasts many hours matters more than a very high top number. Pick a slim light that fits a coat pocket and can stand on its tail to light a room off the ceiling.",
+      "how_to_choose": "Know what cells a flashlight takes, and stock spares or a way to recharge it. A light that runs on AA cells shares spares with other gear. A light built around a rechargeable lithium-ion cell is usually brighter and runs longer on a charge, and it tops up from a power bank by USB-C; its spare is a second cell of the same kind. Some lights take both. A low mode of 30 to 100 lumens that lasts many hours matters more than a very high top number. Some lights stand on their tail to light a room off the ceiling and some do not; each pick's notes say which.",
       "qty": {
         "basis": "fixed",
         "factor": 2,
         "note": "Two per household: one by the front door and one by the bed."
       },
-      "already_own": "Any LED flashlight that takes AA or AAA cells, or recharges by USB, will do. Check that the batteries have not leaked, fit fresh ones, and make sure it has a low mode. Old bulb flashlights that take D cells work but are dim and heavy; keep them as spares.",
+      "already_own": "Any LED flashlight that works will do. Know what cells it takes (AAA, AA, C, D, CR123A or a rechargeable lithium-ion cell) and keep spares, or the charging cable, with it. Check that the batteries have not leaked, fit fresh ones, and make sure it has a low mode. An old bulb flashlight that takes D cells still works; it is dimmer and heavier than an LED light, and it needs its own D cells.",
       "safety_notes": [
         {
           "text": "Use flashlights, not candles, if the power goes out.",
@@ -216,8 +218,7 @@
         "Counterfeit brand-name flashlights are sold on marketplaces. Buy from the maker or a seller the maker lists.",
         "The Standard pick's rechargeable pack is lithium-ion, and Acebeam's page states no UL or ETL listing for it."
       ],
-      "tier_note": "Two picks: a more expensive flashlight buys nothing this job needs.",
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
           "brand": "ThruNite",
@@ -334,18 +335,73 @@
           "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Acebeam' and 'flashlight': no Acebeam recalls found.",
           "research_note": "Old price $49.90 at BatteryJunction.com on 2026-11-14. 2026-11-16 acebeam.com (WebFetch): $34.90 sale, $49.90 original; pack is the 14100P USB-C Li-ion; no UL or ETL listing on the page."
         },
-        "cadillac": null
+        "cadillac": {
+          "brand": "Fenix",
+          "model": "PD36R ACE",
+          "model_number": "PD36R ACE",
+          "size": "3,000 lumens max; maker-rated runtimes as reported by The Gadgeteer: 30 lumens for about 63 hours, 150 lumens for about 22 hours, 350 lumens for about 9 hours, 1,000 lumens for about 3.5 hours; runs on one 21700 lithium-ion cell, 5,000 mAh (Fenix ARB-L21-5000 V2.0, included), charged by USB-C in the light in about 3 hours; IP68; 6.4 oz with battery; 5.75 in long; does not stand on its tail",
+          "unit_size": 1,
+          "unit_label": "flashlight",
+          "price_usd": 109.95,
+          "price_seen_at": "fenixlighting.com",
+          "why": "GearJunkie's best overall flashlight of 2026 (9.7 of 10). The Gadgeteer measured its brightness and beam distance and found both close to Fenix's claims. One charge lasts about 63 hours on the lowest mode, it recharges from a power bank by USB-C, and the cell can be swapped for a charged spare.",
+          "weakness": "It runs only on its own 21700 lithium-ion cell, so a spare is a second protected 21700 cell, not AA cells from the drawer. It cannot stand on its tail, the top mode steps down within about a minute as the light heats up, and it costs about three times the Standard pick.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.fenixlight.com/?p=6840",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-17 by WebFetch. Fenix's global site: PD36R ACE, 3000 lumens, 415 m, 63 h max runtime, ARB-L21-5000 V2.0 cell included, USB-C about 3 hours, 146 mm, 181.6 g, IP68, 1 m drop. No price or stock on this page."
+            },
+            {
+              "label": "Fenix US store",
+              "url": "https://www.fenixlighting.com/products/fenix-pd36r-ace-flashlight",
+              "verified": true,
+              "note": "",
+              "research_note": "Not opened on 2026-11-17: Fenix's US store (Shopify) returned HTTP 429 to WebFetch. URL from web search results that day, whose snippet said $109.95 and 'Out of stock'; neither was confirmed on the page. Listed in the helper report under needs_browser."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Fenix",
+              "title": "Fenix PD36R ACE",
+              "url": "https://www.fenixlight.com/?p=6840",
+              "verified": true,
+              "supports": "3,000 lumens max, 415 m beam, 63-hour longest runtime, included 5,000 mAh 21700 cell, USB-C charging in about 3 hours, 5.75 in, 6.41 oz with battery, IP68, 1 meter drop rating."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Flashlights of 2026",
+              "url": "https://gearjunkie.com/outdoor/hiking/best-flashlights",
+              "verified": true,
+              "supports": "Named Best Overall (9.7 of 10) at $110 after runtime, brightness, drop and water tests; notes it gets hot on turbo and cannot tail stand; guide dated August 11, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Gadgeteer",
+              "title": "This 3,000-Lumen Fenix Flashlight Lets You Ditch the Modes You Don't Need",
+              "url": "https://the-gadgeteer.com/2026/09/30/fenix-pd36r-ace-flashlight-configurable-modes/",
+              "verified": true,
+              "supports": "Hands-on review, September 30, 2026: measured 2,972 lumens at 30 seconds and a 414 m beam; charge took 2 hours 39 minutes; lists runtimes per mode; cannot stand on its tail; $109.95."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov recall API) on 2026-11-17 for 'Fenix': no recalls returned.",
+          "research_note": "Restored 2026-11-17 (open-up pass). It had been removed under the old rule that a pick must take AA cells, recharge by USB-C and stand on its tail. Stock on 2026-11-17 is not known: Fenix's US store could not be read; a search snippet for that page said 'Out of stock'. If the main worker sees it sold out, the flag form is: Sold out at Fenix's US store on November 17, 2026. Its equal: (none opened today; GearJunkie's next-ranked general lights are the Olight ArkPro, 9.3, and Nitecore P27iX, 9.2, whose maker pages were not opened). No Amazon ASIN seen. Battery Junction and REI pages returned HTTP 429 and 403. | 2026-11-17: fenixlighting.com read in Chrome: $109.95 (MSRP $186.00), ADD TO CART, 3,000 lumens, 21700 battery, ships in 1 business day."
+        }
       },
-      "empty_reason": {
-        "cadillac": "No pick. A step up from the Standard would still have to take AA cells, recharge by USB-C and stand on its tail, and none was confirmed on two sources. The Fenix PD36R ACE was removed: it runs only on its own 21700 cell and cannot stand on its tail."
-      }
+      "research_note": "Open-up pass 2026-11-17. Gates found and rewritten: how_to_choose required AA cells (or USB-C plus AA), a slim coat-pocket body and a tail stand; already_own accepted only AA, AAA or USB lights; the Cadillac tier was empty because a step up 'would still have to take AA cells, recharge by USB-C and stand on its tail'. Tests re-opened by WebFetch on 2026-11-17: GearJunkie (dated August 11, 2026: Best Overall Fenix PD36R ACE $110 9.7; Best Budget Acebeam TAC 2AA 7.7; Best EDC Olight ArkPro $130 9.3; Best Tactical Nitecore P27iX $160 9.2; Nitecore P20iX 7.8; ThruNite Archer 2A V3 6.7; Coast G32 6.6, failed a 10-foot drop; Olight Prowess 7.9), Outdoor Life (updated June 2, 2025; no best-overall label; Sofirn IF23 'Best for Home' $40, Nitecore EDC 29 'Best for EDC' $110, Olight Baton 3 'Best Compact', Thrunite Archer Mini 'Best Budget Compact' $20, Wurkkos FC13 named without a review) and The Gadgeteer's PD36R ACE review. OutdoorGearLab has no flashlight guide at the address tried, and The Prepared's flashlight page was not found. Rivals named in the brief and not picked: Fenix PD36R Pro and PD35 V3, Streamlight ProTac and Stylus Pro, Maglite: none appears in a test read today; Olight, Nitecore, Sofirn and Coast lights appear in the tests above and none outranks the PD36R ACE in a test that names a best overall. Cadillac: Fenix PD36R ACE, restored. Standard stays the Acebeam TAC 2AA. Why ours and not GearJunkie's Fenix PD36R ACE: it is our Cadillac; it is the better light in the same test (9.7 against 7.7), but a household needs two, it costs about three times as much, and the job (a corridor, a fuse panel, a stairwell) is done by the TAC 2AA, which also runs on its USB-C pack or two AA cells. Wirecutter's ThruNite Archer 2A C is left to the main worker. | Wirecutter follow-up 2026-11-17 (its pick read by the main worker in a browser; Wirecutter not opened here). Opened by WebFetch: ThruNite's Archer 2A C page (https://www.thrunite.com/archer-2a-c/: $39.99; a 1600 mAh USB-C rechargeable cell, 1018 lumens on it, or two AA cells at 500 lumens and 93 m; the page's spec table says 600-700 lumens and one line says the battery ships separately; no weight, length, water rating, runtimes or tail stand given; Amazon ASIN B0C6DPFL55 seen in its Canada and Germany links only) and The Gadgeteer's review of April 1, 2024 (free sample from ThruNite, maker's figures only, no measurements: cell and USB-C cable in the box, 213 lumens for about 5.5 hours, 20 lumens for 37 hours, IPX8, 6.1 in, 3.6 oz; its text says the light does not run on AA cells, which contradicts ThruNite's page and Wirecutter). Why ours and not Wirecutter's ThruNite Archer 2A C: the two are the same kind of light at about the same price (a USB-C rechargeable pack that swaps for two AA cells) and close to equal; the Acebeam TAC 2AA stays because it is brighter on both its pack and on AA cells by the makers' figures (1,600 and about 630 lumens against 1,018 and 500), GearJunkie measured its runtime (about 110 lumens for 9.8 hours), and Acebeam's page gives full runtime tables and an IP68 rating, where ThruNite's page contradicts itself on output and on whether the cell is in the box. If the Acebeam is sold out, the Archer 2A C is its equal. The tail stand Wirecutter reports for the Archer 2A C is not stated for the Acebeam on any page read."
     },
     {
       "id": "lantern",
       "module": "power",
       "name": "Room lanterns",
       "need": "A lantern lights a whole room evenly for cooking, eating and reading through long evenings without power, which a flashlight beam does badly.",
-      "how_to_choose": "Look at how long it runs on a low or medium setting, because that is how it will be used for hours each night. A lantern that recharges by USB can be topped up from a power bank or power station, and one that takes AAA cells can use the battery stash. Compact or fold-flat models suit small apartments. A built-in solar panel only helps if you have a window that gets direct sun, and even then a full charge takes two or more sunny days.",
+      "how_to_choose": "Look at how long it runs on a low or medium setting, because that is how it will be used for hours each night. Then look at what it runs on. A lantern on D cells runs longest and needs nothing kept charged, but it is heavy and needs its own stock of D cells. A rechargeable lantern can be topped up from a power bank or power station and needs a top-up every few months in storage. A small lantern on AAA or AA cells shares cells with headlamps and flashlights and lights a small room. A built-in solar panel only helps if you have a window that gets direct sun, and even then a full charge takes two or more sunny days.",
       "qty": {
         "basis": "fixed",
         "factor": 2,
@@ -377,119 +433,104 @@
       ],
       "item_flags": [
         "Energizer recalled about 4,100 Large Power Indicator Lanterns, model BGAAL9 with date code June 2024, on January 15, 2026, because the lithium-ion battery can overheat. Check any Energizer rechargeable lantern you own.",
-        "The Standard and Cadillac picks have built-in rechargeable batteries (lithium-ion on Goal Zero's page), and neither maker's page states a UL or ETL listing."
+        "The Cadillac pick has a built-in lithium-ion battery, and Goal Zero's page states no UL or ETL listing for it. The other three picks run on ordinary cells."
       ],
-      "prices_seen": "2026-11-14",
+      "prices_seen": "2026-11-17",
       "tiers": {
         "budget": {
-          "brand": "Black Diamond",
-          "model": "Moji",
-          "model_number": "",
-          "size": "200 lumens max, dimmable; maker lists a maximum burn time of 120 hours (on the lowest setting); runs on 3 AAA cells or the optional BD 1500 rechargeable pack; IPX4; 4.2 oz; pocket sized, with a double hook for hanging",
+          "brand": "Coast",
+          "model": "EAL22 Emergency Area Lantern",
+          "model_number": "EAL22",
+          "size": "1,250 lumens on high and 95 on low, with warm, cool and red light. Treeline Review lists 9 to 135 hours of runtime. Takes three D cells or Coast's ZX1010 rechargeable pack; neither is included. 9.33 in tall, 34.6 oz. Rated IP54.",
           "unit_size": 1,
           "unit_label": "lantern",
-          "price_usd": 29.95,
-          "price_seen_at": "BlackDiamondEquipment.com",
-          "why": "It is small, cheap and runs on the same AAA cells as the headlamps, so there is nothing to keep charged. CleverHiker named it its most budget-friendly lantern.",
-          "weakness": "It has no USB charging unless you buy the separate rechargeable pack, and Black Diamond does not publish a runtime at full brightness, which will be far shorter than 120 hours.",
+          "price_usd": 43.99,
+          "price_seen_at": "coastportland.com",
+          "why": "Treeline Review's best lantern overall after six months of use, at less than half the Standard pick's list price. It lights a whole room, has a warm setting, and takes the same D cells as the Standard pick, or Coast's own rechargeable pack.",
+          "weakness": "It runs about nine hours on high, against 41 for the Standard pick. Treeline Review found the handle can come unhooked. No cells in the box, and it cannot charge a phone.",
           "links": [
             {
               "label": "Manufacturer",
-              "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
+              "url": "https://coastportland.com/products/eal22",
               "verified": true,
-              "note": "",
-              "research_note": "Opened 2026-11-14. Shows Moji Lantern at $29.95 with specs."
-            },
-            {
-              "label": "Amazon",
-              "url": "https://www.amazon.com/dp/B09NQL39X5",
-              "verified": false,
-              "note": "",
-              "research_note": "Amazon blocked automated access.ASIN seen today in CleverHiker's Moji buy link."
-            }
-          ],
-          "link_note": "This is the Moji that runs on AAA cells, not the rechargeable Moji R+.",
-          "sources": [
-            {
-              "type": "manufacturer_spec",
-              "name": "Black Diamond Equipment",
-              "title": "Moji Lantern",
-              "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
-              "verified": true,
-              "supports": "200 lumens, 120-hour max burn time, 3 AAA or BD 1500, IPX4, 4.2 oz, price."
-            },
-            {
-              "type": "test_publication",
-              "name": "CleverHiker",
-              "title": "Best Lanterns of 2026, Tested & Reviewed",
-              "url": "https://www.cleverhiker.com/camping/best-lanterns/",
-              "verified": true,
-              "supports": "Named Most Budget-Friendly Lantern at $35; guide updated September 8, 2026."
-            }
-          ],
-          "flags": [],
-          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Moji', 'Black Diamond' and 'lantern': no recall of this lantern.",
-          "research_note": "OutdoorGearLab tested the rechargeable Moji R+ ($50), a different model."
-        },
-        "standard": {
-          "brand": "LuminAID",
-          "model": "PackLite Max 2-in-1 Power Lantern",
-          "model_number": "",
-          "size": "150 lumens max; up to 50 hours on low and about 5 hours on high; 2000 mAh battery recharged by USB or by its solar panel in 16 to 20 hours of sun; USB-A output to top up a phone; inflates to a 6 in cube and packs 1 in flat; waterproof; about 8.5 oz",
-          "unit_size": 1,
-          "unit_label": "lantern",
-          "price_usd": 60.0,
-          "price_seen_at": "LuminAID.com",
-          "why": "It packs flat in a drawer, gives soft even room light, recharges from a USB power bank or slowly from a sunny window, and can give a phone a small top-up. Two test publications have used it and CleverHiker ranks it best overall.",
-          "weakness": "It is not bright, and solar charging is slow: the maker's own figure is 16 to 20 hours of sun for a full charge.",
-          "links": [
-            {
-              "label": "Manufacturer",
-              "url": "https://luminaid.com/products/packlite-max-phone-charger",
-              "verified": true,
-              "note": "",
-              "research_note": "Opened November 15, 2026. Shows PackLite Max 2-in-1 at $60.00, on backorder."
-            },
-            {
-              "label": "Amazon",
-              "url": "https://www.amazon.com/dp/B0CVYMMHJ4",
-              "verified": false,
-              "note": "",
-              "research_note": "Amazon blocked automated access.ASIN seen today in the buy links of both OutdoorGearLab and CleverHiker for this model."
+              "note": ""
             }
           ],
           "link_note": "",
-          "research_note": "The USB recharge time (1 to 2 hours, from LuminAID's blog as shown in search results) was not confirmed on a page opened on 2026-11-14. Re-opened 2026-11-15 in the desktop browser pane (Shopify product pages returned HTTP 429 to WebFetch): $60.00, 'this item is currently on backorder, with more stock arriving next month. Please be aware that your order will arrive after Christmas.' Old size: 150 lumens max in the spec table (the same page also says 200 in its description); up to 50 hours on low and about 5 hours on high; 2000 mAh battery recharged by USB or by its solar panel in 16 to 20 hours of sun; USB-A output to top up a phone; inflates to a 6 in cube and packs 1 in flat; waterproof; weight listed as both 12.5 oz and 8.5 oz on the maker's page Old link_note: Weight differs by source: LuminAID's page shows 12.5 oz in one place and 8.5 oz in another, and OutdoorGearLab lists 8.4 oz. The USB recharge time was not confirmed. Removed flag: On backorder at LuminAID's own store on November 15, 2026: the page says more stock arrives next month and orders will arrive after Christmas. If you need a lantern sooner, the Budget and Cadillac picks were both in stock at their makers on the same day.",
           "sources": [
             {
               "type": "manufacturer_spec",
-              "name": "LuminAID",
-              "title": "PackLite Max 2-in-1 Power Lantern",
-              "url": "https://luminaid.com/products/packlite-max-phone-charger",
+              "name": "Coast",
+              "title": "EAL22 1250 Lumen Lantern",
+              "url": "https://coastportland.com/products/eal22",
               "verified": true,
-              "supports": "Lumens, 50-hour max runtime, 2000 mAh battery, solar recharge time, phone charging, price, backorder notice."
+              "supports": "1,250 lumens, 135 hours at most, 95 lumens on low, three D cells or the ZX1010 pack (not included), IP54, 9.33 in, 34.6 oz, $43.99."
             },
             {
               "type": "test_publication",
-              "name": "CleverHiker",
-              "title": "Best Lanterns of 2026, Tested & Reviewed",
-              "url": "https://www.cleverhiker.com/camping/best-lanterns/",
+              "name": "Treeline Review",
+              "title": "Best Camping Lanterns and Camping Lights",
+              "url": "https://treelinereview.com/gearreviews/best-camping-lanterns-and-camping-lights",
               "verified": true,
-              "supports": "Named Best Lantern Overall; lists up to 50 hours on low and up to 5 hours on high; updated September 8, 2026."
+              "supports": "Named best overall after six months of road trips and camping; 34.6 oz, 9 to 135 hours, IP54; the handle can unhook; it cannot charge a phone."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search ran today: CPSC's search page returned the unfiltered list to the reader on 2026-11-17.",
+          "research_note": "2026-11-17: Coast's page read in Chrome (WebFetch got HTTP 429): $43.99, both 'ADD TO CART' and 'NOTIFY ME' in the page text, so stock was not clear. The page title says IPX4 and the specification table says IP54; the table is used. Runtime on high is Treeline's low end (9 hours), not read on Coast's page."
+        },
+        "standard": {
+          "brand": "UST",
+          "model": "60-Day DURO LED Lantern",
+          "model_number": "1146779",
+          "size": "1,200 lumens on high, 200 on medium, 20 on low. The maker's runtimes: 41 hours on high, 192 hours on medium, 60 days on low. Takes six D cells, not included. About 3.1 lb (49.6 oz) with the cells in. The maker calls it water-resistant and gives no rating.",
+          "unit_size": 1,
+          "unit_label": "lantern",
+          "price_usd": 101.99,
+          "unit_price": "list price; $50.99 on sale at UST",
+          "price_seen_at": "ustgear.com",
+          "why": "It is the brightest lantern two testers tried, and it runs for days on one set of cells: the maker gives 41 hours on high and 60 days on low. Wirecutter names it the best tabletop lantern in its emergency guide, and Treeline Review names it the best lantern for emergency preparedness. Nothing in it needs charging, so it can sit in a closet for years with its cells stored beside it.",
+          "weakness": "It is big and heavy, about 3 lb with its six D cells, and Treeline Review found the top setting harsh. D cells are a size few other things take, so it needs a stock of its own. It cannot charge a phone.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.ustgear.com/lighting/60-day-duro-led-lantern/1146779.html",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "Other stores sell it too. Check that the listing says 60-Day and six D cells: the 30-Day DURO is a smaller lantern.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "UST",
+              "title": "60-Day DURO LED Lantern",
+              "url": "https://www.ustgear.com/lighting/60-day-duro-led-lantern/1146779.html",
+              "verified": true,
+              "supports": "The three brightness levels and their runtimes, six D cells not included, the list and sale prices, and UST's own answer on the page that it weighs 3.1 lb with its cells."
             },
             {
               "type": "test_publication",
-              "name": "OutdoorGearLab",
-              "title": "The Best Lanterns of 2026 | Tested & Ranked",
-              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-lantern",
+              "name": "Treeline Review",
+              "title": "Best Camping Lanterns and Camping Lights",
+              "url": "https://treelinereview.com/gearreviews/best-camping-lanterns-and-camping-lights",
               "verified": true,
-              "supports": "Included in the tested lineup as a solar and USB lantern that can charge a phone; no award and no measured runtime for this model."
+              "supports": "Named the best camping lantern for emergency preparedness; lists 49.6 oz; found it sturdy, bright and long-running, and its top setting harsh."
+            },
+            {
+              "type": "test_publication",
+              "name": "Wirecutter",
+              "title": "The Best Emergency Preparedness Supplies",
+              "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+              "verified": true,
+              "supports": "Named the best tabletop lantern: the brightest it tested, in a sturdy shell."
             }
           ],
           "flags": [
-            "On backorder at LuminAID's own store on November 16, 2026: the page says more stock arrives next month and orders will arrive after Christmas."
+            "Sold out at UST's own store on November 17, 2026; the page offers an email when it is back. Its equal: the UST 30-Day DURO 1000, which takes three D cells and was in stock at UST the same day."
           ],
-          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'LuminAID', 'PackLite' and 'lantern': no recalls found."
+          "flag_check": "No recall search ran today: CPSC's search page returned the unfiltered list to the reader on 2026-11-17.",
+          "research_note": "2026-11-17 open-up pass: made Standard at the owner's word (PROMPT_open-up, Part A 1). UST's page read by WebFetch and again in Chrome: $101.99 struck to $50.99 ('50% OFF'), 'Out of stock', 'we are currently sold out', restock email box; no weight or dimensions in the spec list; a UST Customer Support answer on the page gives 3.1 lb with six D cells. Treeline (updated September 29, 2026) gives 49.6 oz in its table; its review text also says '29.28 oz with 4 D batteries', which is the 30-Day's weight and was not used. Wirecutter's emergency guide (updated July 30, 2025) read in Chrome; it showed $78 at Amazon and $64 at Walmart, neither opened. The brief's leads for Battery Junction (discontinued), Knife Country and Walmart were not re-opened: Battery Junction's guessed address returned 404. No ASIN was seen on a page opened today, so no Amazon link. The equal: UST 30-Day DURO 1000, SKU 1156908, ustgear.com/sale/30-day-duro-1000-led-lantern/1156908.html read in Chrome: $66.99 struck to $33.49, 'In Stock', three D cells, 1.9 lb with batteries, IPX4; OutdoorGearLab (updated October 14, 2026) names the 30-Day Duro its pick for power outages and emergencies and measured 9 hours on high and 33 days on low."
         },
         "cadillac": {
           "brand": "Goal Zero",
@@ -499,8 +540,8 @@
           "unit_size": 1,
           "unit_label": "lantern",
           "price_usd": 79.95,
-          "price_seen_at": "GoalZero.com",
-          "why": "It is bright enough for a whole room, lasts for days on low, charges a phone and has a hand crank as a last resort. OutdoorGearLab ranks it best overall and CleverHiker the most versatile.",
+          "price_seen_at": "goalzero.com",
+          "why": "The rechargeable pick. It is bright enough for a whole room, lasts for days on low, charges a phone and has a hand crank as a last resort. OutdoorGearLab ranks it best overall and CleverHiker the most versatile.",
           "weakness": "The crank is slow (the maker says one minute of cranking gives about ten minutes of light), the battery needs topping up every three to six months, and OutdoorGearLab found the outer cover brittle.",
           "links": [
             {
@@ -546,21 +587,80 @@
             }
           ],
           "flags": [],
-          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Goal Zero', 'Lighthouse' and 'lantern': no recall of this lantern. Goal Zero recalls exist for other products (Yeti 3000X power stations in August 2026, and cables and power supplies in earlier years)."
+          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Goal Zero', 'Lighthouse' and 'lantern': no recall of this lantern. Goal Zero recalls exist for other products (Yeti 3000X power stations in August 2026, and cables and power supplies in earlier years).",
+          "research_note": "2026-11-17: goalzero.com read in Chrome: $79.95, Add to cart, 1.1 lb, 4.5 x 5 x 6.5 in, Li-ion NMC 18.98 Wh. OutdoorGearLab (updated October 14, 2026) measured 3.2 hours on its highest setting. It lists for less than the Standard pick's list price; it is in the top tier as the best rechargeable lantern, not as the dearest."
+        },
+        "compact": {
+          "brand": "Black Diamond",
+          "model": "Moji",
+          "model_number": "",
+          "size": "200 lumens at most, dimmable. Takes three AAA cells or Black Diamond's BD 1500 rechargeable pack, sold separately. The maker lists up to 120 hours on the lowest setting. 4.2 oz as CleverHiker weighed it; it fits in a palm. Rated IPX4.",
+          "unit_size": 1,
+          "unit_label": "lantern",
+          "price_usd": 29.95,
+          "price_seen_at": "blackdiamondequipment.com",
+          "why": "The smallest lantern here that two testers have used: 4 oz, palm-sized, and on the same AAA cells as most headlamps. CleverHiker names it its most budget-friendly lantern. Right for a bag, a bedside or a bathroom.",
+          "weakness": "At 200 lumens it lights a small room or a table, not a large room. Treeline Review could not reach the 120 hours the maker claims, and the maker gives no runtime at full brightness.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-14. Shows Moji Lantern at $29.95 with specs."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B09NQL39X5",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access.ASIN seen today in CleverHiker's Moji buy link."
+            }
+          ],
+          "link_note": "This is the Moji that runs on AAA cells, not the rechargeable Moji R+.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Black Diamond Equipment",
+              "title": "Moji Lantern",
+              "url": "https://www.blackdiamondequipment.com/products/moji-lantern",
+              "verified": true,
+              "supports": "200 lumens, 120-hour max burn time, 3 AAA or BD 1500, IPX4, 4.2 oz, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Lanterns of 2026, Tested & Reviewed",
+              "url": "https://www.cleverhiker.com/camping/best-lanterns/",
+              "verified": true,
+              "supports": "Named Most Budget-Friendly Lantern at $35; guide updated September 8, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Camping Lanterns and Camping Lights",
+              "url": "https://treelinereview.com/gearreviews/best-camping-lanterns-and-camping-lights",
+              "verified": true,
+              "supports": "Tested the Moji+: 200 lumens, 3.5 oz, three AAA cells or the BD 1500 pack; the testers could not reach the advertised 120 hours."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Moji', 'Black Diamond' and 'lantern': no recall of this lantern.",
+          "research_note": "OutdoorGearLab tested the rechargeable Moji R+ ($50), a different model. | 2026-11-17 open-up pass: moved from Budget to the new Compact pick. Black Diamond's page read in Chrome: $29.95, 'Add to bag', 'Item Is in Stock!' (the brief's lead had seen 'Out of Stock' beside the button earlier in the day). Weighed against the other small candidates: Black Diamond Apollo (250 lumens, built-in rechargeable battery plus three AA, 10.2 oz, $70; OutdoorGearLab measured 2.75 hours on high) costs more than twice as much and weighs more than twice as much; Streamlight Siege AA (200 lumens, three AA, 8.8 to 9.1 oz, 7 hours on high and 37 on low per streamlight.com, read in Chrome) has no test publication behind it that was opened today, so it has one source. OutdoorGearLab's best compact lantern is the Moji R+ ($50), the rechargeable version of this one."
         }
       },
-      "research_note": "Old item_flags: CPSC recall, January 15, 2026: Energizer Large Power Indicator Lanterns, model BGAAL9, date code June 2024, about 4,100 units, lithium-ion battery can overheat. This is not one of the picks, but check any Energizer rechargeable lantern you already own. 2026-11-16 (WebFetch): LuminAID $60, backorder, chemistry not stated, no listing; Goal Zero Lighthouse 600 $79.95, 'Cell chemistry: Li-ion NMC', no listing."
+      "research_note": "Old item_flags: CPSC recall, January 15, 2026: Energizer Large Power Indicator Lanterns, model BGAAL9, date code June 2024, about 4,100 units, lithium-ion battery can overheat. This is not one of the picks, but check any Energizer rechargeable lantern you already own. 2026-11-16 (WebFetch): LuminAID $60, backorder, chemistry not stated, no listing; Goal Zero Lighthouse 600 $79.95, 'Cell chemistry: Li-ion NMC', no listing. | 2026-11-17 open-up pass (D-91): the LuminAID PackLite Max 2-in-1 left the picks. It was Standard because it packs flat; that was the apartment lens working as a gate. It gives 150 lumens, and OutdoorGearLab scores it 49 against 81 for the Lighthouse 600. Why ours and not CleverHiker's LuminAid Packlite Max 2-in-1: at 150 lumens it does not light a whole room, and two home-emergency guides (Wirecutter, Treeline Review) name the 60-Day DURO for outages. Why ours and not Treeline Review's Coast EAL22: Treeline's own emergency pick is the DURO, which runs 41 hours on high against about 9; the EAL22 is the Budget pick. Why ours and not OutdoorGearLab's Goal Zero Lighthouse 600: it runs 3.2 hours on high by their own measure and has to be kept charged; it is the Cadillac pick, and their own pick for outages is the 30-Day Duro, the Standard pick's smaller sibling."
     },
     {
       "id": "batteries-disposable",
       "module": "power",
-      "name": "Disposable AA and AAA batteries",
+      "name": "Disposable batteries",
       "need": "Headlamps, flashlights, lanterns and radios are only useful while they have power, and sealed disposable cells are the one supply that sits ready for years with no charging.",
-      "how_to_choose": "Buy name-brand cells with a printed use-by date and store them in their packaging at room temperature. Alkaline cells are cheap and keep for 10 years or more, but they can leak inside devices, so store them outside the device. Lithium AA and AAA cells (lithium iron disulfide) cost several times more, but they keep for about 25 years, weigh less, work in the cold and are sold as leak proof. Count what your devices take before buying: most of the picks here use AAA cells in threes or AA cells in twos and threes.",
+      "how_to_choose": "Count what cells each device takes before you buy, and stock spares for each kind: AAA, AA, C, D, 9 V, CR123A and coin cells are all different sizes, and none stands in for another. A lantern that takes D cells needs its own D cells: the Standard lantern here takes six. Buy name-brand cells with a printed use-by date and store them in their packaging at room temperature. Alkaline cells are cheap and keep for years: Energizer gives up to 15 years in storage for its MAX AA and AAA cells, up to 10 for C and D, and up to 5 for 9 V. They can leak inside devices, so store them outside the device. Lithium AA and AAA cells (lithium iron disulfide) cost several times more, but they keep for about 25 years, weigh less, work in the cold and are sold as leak proof; check each device's manual first, because some makers advise against them. The picks are priced as sets of AA and AAA cells because those are the sizes most small lights and radios take; the same alkaline brands sell C, D and 9 V cells.",
       "qty": {
         "basis": "count_yourself",
         "factor": 1,
-        "note": "Count the cells in every light and radio you own and keep twice that number spare. Example: two headlamps that each take three AAA cells hold six cells between them, so keep twelve spare AAA cells. Count the cells in your radio and flashlights the same way, AA and AAA separately. A light with a built-in rechargeable battery needs a way to charge it, not spare cells."
+        "note": "Count the cells in every light, lantern and radio you own, each size on its own line, and keep twice that number spare. Example: two headlamps that each take three AAA cells hold six cells between them, so keep twelve spare AAA cells. A lantern that takes six D cells needs twelve spare D cells. A light with a built-in rechargeable battery needs a way to charge it, not spare cells."
       },
       "already_own": "Check the date printed on any batteries you have. Unopened name-brand alkaline cells inside their date are fine. Throw out any with white crust or dampness, and do not mix old and new cells in one device.",
       "safety_notes": [
@@ -608,14 +708,14 @@
         }
       ],
       "item_flags": [],
-      "research_note": "No current lab test of AA alkaline brands could be read on 2026-11-14: CNET's and Wirecutter's guides could not be fetched with the research tools, and Consumer Reports' current ratings were not reachable. Audit fixes 2026-11-15: the per-person estimate (8 AA and 6 AAA per person for 14 days) was removed from the quantity rule; unit sizes were set to 1 because the count now comes from the reader's own devices. The worked example uses the Black Diamond Spot 400, whose page (re-opened 2026-11-15) says it runs on three AAA cells. Old item_flags: The alkaline picks are checked against the makers' own pages and second-hand reports of tests; no independent lab test of these exact cells was confirmed. Treat them as sound brand choices, not test winners.",
+      "research_note": "No current lab test of AA alkaline brands could be read on 2026-11-14: CNET's and Wirecutter's guides could not be fetched with the research tools, and Consumer Reports' current ratings were not reachable. Audit fixes 2026-11-15: the per-person estimate (8 AA and 6 AAA per person for 14 days) was removed from the quantity rule; unit sizes were set to 1 because the count now comes from the reader's own devices. The worked example uses the Black Diamond Spot 400, whose page (re-opened 2026-11-15) says it runs on three AAA cells. Old item_flags: The alkaline picks are checked against the makers' own pages and second-hand reports of tests; no independent lab test of these exact cells was confirmed. Treat them as sound brand choices, not test winners. | Open-up pass 2026-11-17. Renamed from 'Disposable AA and AAA batteries'. how_to_choose and the quantity rule no longer assume AA and AAA only: the reader counts every cell size. The D-cell sentence was added because the Standard lantern becomes the UST 60-Day Duro, which takes six D cells (main worker's note). Makers' D-cell pages opened today: Energizer MAX (covers D, E95) and Rayovac High Energy D. No D, C or 9 V pack was priced: Battery Junction returned HTTP 429 to WebFetch. CR123A and coin cells are named in how_to_choose only; no pick or price for them. The existing CPSC coin-cell safety note still says none of this page's picks use coin cells; the main worker should check that against any new pick elsewhere. No current lab test of disposable cells could be read again today (CNET and Wirecutter not readable), so the picks stand as on 2026-11-14. | Wirecutter follow-up 2026-11-17 (its pick read by the main worker in a browser; Wirecutter not opened here). Not settled against Wirecutter's AmazonBasics D Cell Alkaline Batteries: the only maker page for it is on Amazon, which this site does not read as a source, and one web search found no test of the D cell by another established outlet (only forum discharge logs, a 1995 Practical Sailor test and affiliate lists, none opened). What was opened: SlashGear's April 21, 2026 roundup, which reports that Amazon Basics AA alkaline cells did worst of four brands in CNET's test and lost to Kirkland in Project Farm's and Lumencraft's tests, while its AAA cells topped CNET's; no D-cell result is reported. So no Amazon Basics cell is a pick. D-cell line weighed for the Standard lantern (six D cells): the Standard pick now names Energizer MAX D (E95; maker: up to 10 years in storage) and the Budget pick names Rayovac High Energy D (10 years); neither has a price, because Battery Junction returned HTTP 429 to WebFetch twice today.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
           "brand": "Rayovac",
           "model": "High Energy alkaline, AA and AAA (loose cells)",
           "model_number": "815 (AA), 824 (AAA)",
-          "size": "One set = 8 AA + 6 AAA loose cells, 1.5 V alkaline; maker states a 12-year power guarantee in storage and a design that prevents damaging leaks",
+          "size": "One set = 8 AA + 6 AAA loose cells, 1.5 V alkaline; maker states a 12-year power guarantee in storage and a design that prevents damaging leaks; Rayovac also sells High Energy D cells, with a 10-year storage claim",
           "unit_size": 1,
           "unit_label": "set of 8 AA + 6 AAA loose cells",
           "price_usd": 5.74,
@@ -638,6 +738,13 @@
               "research_note": "Opened 2026-11-14."
             },
             {
+              "label": "Manufacturer (D)",
+              "url": "https://rayovac.com/product/d-high-energy-alkaline-batteries/",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-17 by WebFetch. No price, model number or pack size on the page."
+            },
+            {
               "label": "Battery Junction (AA, loose)",
               "url": "https://www.batteryjunction.com/products/rayovac-high-energy-815-aa-battery-bulk",
               "verified": true,
@@ -652,8 +759,8 @@
               "research_note": "Opened 2026-11-14. $0.41 each, in stock."
             }
           ],
-          "link_note": "The set of 8 AA and 6 AAA is only a convenient way to price loose cells; buy the number your own count gives.",
-          "research_note": "Shortfall: both verified sources are the maker's own pages, so this pick does not meet the two-independent-sources rule. CNET's alkaline battery test is reported to include Rayovac, but CNET could not be opened. No Amazon ASIN was seen on 2026-11-14. The set size came from an earlier per-person estimate (8 AA + 6 AAA for 1 person for 14 days), now withdrawn. Second pass 2026-11-15: SlashGear's 21 April 2026 article says CNET tested Rayovac among four brands but gives no Rayovac result, and no other independent test of Rayovac High Energy was found (no Rayovac figures in CHOICE, lygte-info or SlashGear). Shortfall remains. Old weakness: No independent test of this exact cell was confirmed, and the product page does not spell out a warranty for devices damaged by leaks. Old link_note: Checked against the maker's own pages only: no independent test result for this cell was confirmed, so treat it as a brand choice and not a test winner. No Amazon link is given. The set of 8 AA and 6 AAA is only a convenient way to price loose cells; buy the number your own count gives. Unopened source moved out of sources on 2026-11-16: {\"type\": \"test_publication\", \"name\": \"CNET\", \"title\": \"Best Alkaline Batteries for Your Devices in 2026\", \"url\": \"https://www.cnet.com/home/energy-and-utilities/best-alkaline-batteries/\", \"verified\": false, \"supports\": \"Not opened, so not counted as a source. SlashGear reports that this test covered Energizer, Duracell, Rayovac and Amazon Basics.\", \"research_note\": \"The page responds but its content could not be read: CNET does not allow this research tool to fetch it.\"}",
+          "link_note": "The set of 8 AA and 6 AAA is only a convenient way to price loose cells; buy the number, and the sizes, your own count gives.",
+          "research_note": "Shortfall: both verified sources are the maker's own pages, so this pick does not meet the two-independent-sources rule. CNET's alkaline battery test is reported to include Rayovac, but CNET could not be opened. No Amazon ASIN was seen on 2026-11-14. The set size came from an earlier per-person estimate (8 AA + 6 AAA for 1 person for 14 days), now withdrawn. Second pass 2026-11-15: SlashGear's 21 April 2026 article says CNET tested Rayovac among four brands but gives no Rayovac result, and no other independent test of Rayovac High Energy was found (no Rayovac figures in CHOICE, lygte-info or SlashGear). Shortfall remains. Old weakness: No independent test of this exact cell was confirmed, and the product page does not spell out a warranty for devices damaged by leaks. Old link_note: Checked against the maker's own pages only: no independent test result for this cell was confirmed, so treat it as a brand choice and not a test winner. No Amazon link is given. The set of 8 AA and 6 AAA is only a convenient way to price loose cells; buy the number your own count gives. Unopened source moved out of sources on 2026-11-16: {\"type\": \"test_publication\", \"name\": \"CNET\", \"title\": \"Best Alkaline Batteries for Your Devices in 2026\", \"url\": \"https://www.cnet.com/home/energy-and-utilities/best-alkaline-batteries/\", \"verified\": false, \"supports\": \"Not opened, so not counted as a source. SlashGear reports that this test covered Energizer, Duracell, Rayovac and Amazon Basics.\", \"research_note\": \"The page responds but its content could not be read: CNET does not allow this research tool to fetch it.\"} | 2026-11-17: Rayovac's D High Energy page opened; D cells added to the description. No D-cell price was seen.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -672,6 +779,14 @@
               "supports": "Same 12-year storage guarantee and leak-prevention claim for the AAA size."
             },
             {
+              "type": "manufacturer_spec",
+              "name": "Rayovac",
+              "title": "D HIGH ENERGY Alkaline Batteries",
+              "url": "https://rayovac.com/product/d-high-energy-alkaline-batteries/",
+              "verified": true,
+              "supports": "D size: 10 years in storage; designed to prevent damaging leaks."
+            },
+            {
               "type": "test_publication",
               "name": "SlashGear",
               "title": "Are Amazon Basics AA Batteries Better Than Costco's? These Tests Have The Answer",
@@ -686,8 +801,8 @@
         "standard": {
           "brand": "Energizer",
           "model": "MAX alkaline, AA 24-pack plus AAA 24-pack",
-          "model_number": "E91 (AA), E92 (AAA)",
-          "size": "One unit = one 24-pack of AA plus one 24-pack of AAA, 1.5 V alkaline; maker says they hold power for up to 15 years in storage and are designed to protect devices from damaging leaks for up to two years after the cells are fully used",
+          "model_number": "E91 (AA), E92 (AAA); the D cell is E95",
+          "size": "One unit = one 24-pack of AA plus one 24-pack of AAA, 1.5 V alkaline; maker says they hold power for up to 15 years in storage and are designed to protect devices from damaging leaks for up to two years after the cells are fully used; MAX is also sold as C and D cells (maker: up to 10 years in storage) and 9 V (up to 5 years); for a lantern that takes six D cells, add MAX D cells (E95) to cover your count",
           "unit_size": 1,
           "unit_label": "pair of 24-packs (24 AA + 24 AAA)",
           "price_usd": 28.87,
@@ -717,8 +832,8 @@
               "research_note": "Opened 2026-11-14. $16.88, in stock. The retailer's text still quotes the older 10-year shelf life."
             }
           ],
-          "link_note": "One pair of 24-packs covers a count of up to 24 spare cells of each size; buy more or fewer to match your own count.",
-          "research_note": "Shortfall: only the maker's page is a verified primary source. The independent evidence is second-hand: SlashGear's summary of tests by others, and a CNET test that could not be opened. No Amazon ASIN was seen on 2026-11-14. Earlier unit_size arithmetic (withdrawn 2026-11-15 with the per-person estimate): 24 AA / 8 per person = 3 people; 24 AAA / 6 per person = 4 people; the smaller number, 3, was used. Second pass 2026-11-15: SlashGear (21 April 2026) reports Project Farm's YouTube ranking put Energizer Max above Costco Kirkland and behind only Duracell among alkalines. CHOICE (Australia) has an Energizer Max review page, but its scores are members-only. No further independent source was reachable. Old link_note: The independent evidence for this pick is second-hand: a summary of other people's tests, not a test this site could open. No Amazon link is given. One pair of 24-packs covers a count of up to 24 spare cells of each size; buy more or fewer to match your own count. Unopened source moved out of sources on 2026-11-16: {\"type\": \"test_publication\", \"name\": \"CNET\", \"title\": \"Best Alkaline Batteries for Your Devices in 2026\", \"url\": \"https://www.cnet.com/home/energy-and-utilities/best-alkaline-batteries/\", \"verified\": false, \"supports\": \"Not opened, so not counted as a source.\", \"research_note\": \"The page responds but its content could not be read: CNET does not allow this research tool to fetch it.\"}",
+          "link_note": "One pair of 24-packs covers a count of up to 24 spare cells of each size; buy more or fewer, and add C, D or 9 V cells, to match your own count.",
+          "research_note": "Shortfall: only the maker's page is a verified primary source. The independent evidence is second-hand: SlashGear's summary of tests by others, and a CNET test that could not be opened. No Amazon ASIN was seen on 2026-11-14. Earlier unit_size arithmetic (withdrawn 2026-11-15 with the per-person estimate): 24 AA / 8 per person = 3 people; 24 AAA / 6 per person = 4 people; the smaller number, 3, was used. Second pass 2026-11-15: SlashGear (21 April 2026) reports Project Farm's YouTube ranking put Energizer Max above Costco Kirkland and behind only Duracell among alkalines. CHOICE (Australia) has an Energizer Max review page, but its scores are members-only. No further independent source was reachable. Old link_note: The independent evidence for this pick is second-hand: a summary of other people's tests, not a test this site could open. No Amazon link is given. One pair of 24-packs covers a count of up to 24 spare cells of each size; buy more or fewer to match your own count. Unopened source moved out of sources on 2026-11-16: {\"type\": \"test_publication\", \"name\": \"CNET\", \"title\": \"Best Alkaline Batteries for Your Devices in 2026\", \"url\": \"https://www.cnet.com/home/energy-and-utilities/best-alkaline-batteries/\", \"verified\": false, \"supports\": \"Not opened, so not counted as a source.\", \"research_note\": \"The page responds but its content could not be read: CNET does not allow this research tool to fetch it.\"} | 2026-11-17: Energizer's MAX page re-opened by WebFetch; it covers AA (E91), AAA (E92), C (E93), D (E95), 9 V and a 6-volt battery. No D-cell price was seen.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -726,7 +841,7 @@
               "title": "Energizer MAX - North America",
               "url": "https://energizer.com/batteries/energizer-max-alkaline-batteries/",
               "verified": true,
-              "supports": "AA and AAA hold power for up to 15 years in storage; designed to protect devices against damaging leaks for up to two years after fully used."
+              "supports": "AA and AAA hold power for up to 15 years in storage; designed to protect devices against damaging leaks for up to two years after fully used. C (E93) and D (E95) up to 10 years in storage; 9 V up to 5 years."
             },
             {
               "type": "test_publication",
@@ -752,12 +867,12 @@
           "brand": "Energizer",
           "model": "Ultimate Lithium, AA 8-pack plus AAA 8-pack",
           "model_number": "L91 (AA), L92 (AAA)",
-          "size": "One unit = one 8-pack of AA plus one 8-pack of AAA, 1.5 V lithium iron disulfide, not rechargeable; maker says up to 25 years in storage, works from -40 F to 140 F, and guaranteed leak proof under standard use; lighter than alkaline cells",
+          "size": "One unit = one 8-pack of AA plus one 8-pack of AAA, 1.5 V lithium iron disulfide, not rechargeable; maker says up to 25 years in storage, works from -40 F to 140 F, and guaranteed leak proof under standard use; lighter than alkaline cells; the line is AA, AAA and 9 V only, so C-cell and D-cell devices need alkaline cells",
           "unit_size": 1,
           "unit_label": "pair of 8-packs (8 AA + 8 AAA)",
           "price_usd": 57.16,
           "price_seen_at": "BatteryJunction.com ($30.20 for 8 AA + $26.96 for 8 AAA)",
-          "why": "These can sit in a closet for two decades and still work, will not leak into a stored flashlight or radio, and keep working in an unheated winter apartment.",
+          "why": "These can sit in a closet for two decades and still work, will not leak into a stored flashlight or radio, and keep working in an unheated home in winter.",
           "weakness": "They cost roughly five to eight times as much per cell as the alkaline picks at the prices seen today, and a fresh cell starts slightly above 1.5 V, so check that each device's manual allows lithium AA or AAA cells.",
           "links": [
             {
@@ -783,7 +898,7 @@
             }
           ],
           "link_note": "One pair of 8-packs covers a count of up to 8 spare cells of each size; a 24-pack of AA was also seen at $74.30 for a larger count.",
-          "research_note": "No Amazon ASIN was seen on 2026-11-14. The Consumer Reports test is from 2014; its current ratings could not be reached. Earlier unit_size arithmetic (withdrawn 2026-11-15 with the per-person estimate): 8 AA / 8 per person = 1 person; 8 AAA / 6 per person = 1.3 people; the smaller number, 1, was used. | 2026-11-16: a Consumer Reports test was listed as a second source; removed under D-22 (link only). It was: [{\"type\": \"test_publication\", \"name\": \"Consumer Reports\", \"title\": \"The best AA batteries - and best bargains (Batteries That Last When You Need Them)\", \"url\": \"https://www.consumerreports.org/cro/news/2014/10/batteries-that-last-when-you-need-them/index.htm\", \"verified\": true, \"supports\": \"Consumer Reports' published AA battery test from December 2014, which included this battery. This site does not repeat its findings; see their page.\"}]",
+          "research_note": "No Amazon ASIN was seen on 2026-11-14. The Consumer Reports test is from 2014; its current ratings could not be reached. Earlier unit_size arithmetic (withdrawn 2026-11-15 with the per-person estimate): 8 AA / 8 per person = 1 person; 8 AAA / 6 per person = 1.3 people; the smaller number, 1, was used. | 2026-11-16: a Consumer Reports test was listed as a second source; removed under D-22 (link only). It was: [{\"type\": \"test_publication\", \"name\": \"Consumer Reports\", \"title\": \"The best AA batteries - and best bargains (Batteries That Last When You Need Them)\", \"url\": \"https://www.consumerreports.org/cro/news/2014/10/batteries-that-last-when-you-need-them/index.htm\", \"verified\": true, \"supports\": \"Consumer Reports' published AA battery test from December 2014, which included this battery. This site does not repeat its findings; see their page.\"}] | 2026-11-17: Energizer's Ultimate Lithium page re-opened by WebFetch; sizes listed are AA, AAA and 9 V (9 V: up to 10 years, 'leak-resistant'). C. Crane's Skywave 2 page, opened the same day, advises against lithium AA cells in that radio; this is the example behind 'some makers advise against them'.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -791,7 +906,7 @@
               "title": "Energizer Ultimate Lithium - North America",
               "url": "https://energizer.com/batteries/energizer-ultimate-lithium-batteries/",
               "verified": true,
-              "supports": "AA and AAA last up to 25 years in storage; -40 F to 140 F; leak proof, guaranteed, based on standard use."
+              "supports": "AA and AAA last up to 25 years in storage; -40 F to 140 F; leak proof, guaranteed, based on standard use. The page lists AA, AAA and 9 V sizes only."
             }
           ],
           "flags": [],
@@ -804,7 +919,7 @@
       "module": "power",
       "name": "Rechargeable AA/AAA batteries and charger",
       "need": "In an outage that lasts longer than the disposable stash, rechargeable cells can be refilled again and again from a power bank, a power station or a neighbor's working outlet.",
-      "how_to_choose": "Choose low-self-discharge nickel-metal hydride (NiMH) cells, which hold most of their charge for years on the shelf. Pick a charger that charges each cell separately and stops when it is full. A charger with a USB input runs straight from a power bank or a power station's USB port; a wall-plug charger needs the power station's AC outlet, which wastes more of its stored energy. Start with AA cells, and add a pack of AAA cells if your headlamps and lantern use them.",
+      "how_to_choose": "Choose low-self-discharge nickel-metal hydride (NiMH) cells, which hold most of their charge for years on the shelf. Pick a charger that charges each cell separately and stops when it is full. A charger with a USB input runs straight from a power bank or a power station's USB port; a wall-plug charger needs the power station's AC outlet, which wastes more of its stored energy. Count what your devices take first. The chargers and cells here cover AA and AAA sizes only, so a light that runs on C or D cells, such as a D-cell lantern, still needs disposable cells. Every kit here comes with AA cells; add a pack of rechargeable AAA cells if your lights use them.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
@@ -828,9 +943,9 @@
         }
       ],
       "item_flags": [
-        "Every kit here comes with four AA cells and no AAA cells. If your headlamps and lantern take AAA cells, add a pack of rechargeable AAA cells to match your own count."
+        "Every kit here comes with four AA cells and no AAA cells. If your headlamps or other lights take AAA cells, add a pack of rechargeable AAA cells to match your own count."
       ],
-      "research_note": "Panasonic's global and Canadian eneloop pages blocked automated access on 2026-11-14 and again on 2026-11-15 (HTTP 403 Forbidden). No Amazon ASIN was confirmed for these exact kit model numbers. Old item_flags: The kit model numbers were confirmed on Panasonic's US battery site and at a specializt retailer. The charger's charge times were not confirmed on a Panasonic page. | Every kit here comes with four AA cells and no AAA cells. If your headlamps and lantern take AAA cells, add a pack of rechargeable AAA cells to match your own count. | No Amazon links are given for these kits.",
+      "research_note": "Panasonic's global and Canadian eneloop pages blocked automated access on 2026-11-14 and again on 2026-11-15 (HTTP 403 Forbidden). No Amazon ASIN was confirmed for these exact kit model numbers. Old item_flags: The kit model numbers were confirmed on Panasonic's US battery site and at a specializt retailer. The charger's charge times were not confirmed on a Panasonic page. | Every kit here comes with four AA cells and no AAA cells. If your headlamps and lantern take AAA cells, add a pack of rechargeable AAA cells to match your own count. | No Amazon links are given for these kits. | Open-up pass 2026-11-17. No cell-type, size, price or stock gate was found: the item is by nature a NiMH AA and AAA kit. how_to_choose now says plainly that these chargers do not cover C or D cells. Weighed again: one web search for current tests of rechargeable AA cells and chargers returned Digital Camera World (already a source; best overall eneloop pro), Which? (UK, member-only scores), a Swiss Saldo test reported by Galaxus (March 2026) and older Project Farm results that name IKEA Ladda as the value cell; none was opened, and none tests a charger kit, so the picks stand. Why ours and not Digital Camera World's Panasonic eneloop pro: it is our Cadillac; standard eneloop keeps up to 70% of its charge after ten years against up to 85% after one year for the pro cell, which matters more for a kit that mostly sits in storage.",
       "prices_seen": "2026-11-14",
       "tiers": {
         "budget": {
@@ -990,13 +1105,13 @@
       "module": "power",
       "name": "Emergency radio with NOAA weather band",
       "need": "When cell networks are jammed or down, broadcast radio and NOAA Weather Radio are how officials tell you what is happening, where to go and when power or water will return.",
-      "how_to_choose": "Get a radio that receives AM, FM and the seven NOAA weather channels, and that can run on batteries you can replace or recharge by USB. An alert function sounds an alarm when the National Weather Service sends a warning on your local channel. Do not buy for the hand crank or the little solar panel: testers get about nine minutes of listening from one minute of cranking and under an hour of listening from an hour of direct sun, so treat both as a last resort. County codes: neither pick here has SAME county coding. They sound for every warning on the channel they are tuned to, which covers the whole broadcast area, and they never ask for a county code. A radio with SAME (Specific Area Message Encoding) lets you enter your county's code so that it sounds only for your area; those are mostly desktop radios that run from the wall with battery backup. If you want county-only alerts, add one of those, and look for the Public Alert or NOAA Weather Radio All Hazards logo that the National Weather Service recommends.",
+      "how_to_choose": "Get a radio that receives AM, FM and the seven NOAA weather channels, and know what powers it: cells you can replace, a built-in battery you recharge by USB, or both. An alert function sounds an alarm when the National Weather Service sends a warning on your local channel. What testers measured from hand cranks and solar panels: GearJunkie got about nine minutes of radio from one minute of cranking, and about 45 minutes from an hour of direct sun, on the Midland ER310PRO, and about five minutes per minute of cranking on the Sangean MMR-88. Bob Vila got about nine minutes per minute of cranking on the Midland ER310. That is enough to hear a forecast with no other power, and a slow way to fill a battery. County codes: none of the picks here has SAME county coding. They sound for every warning on the channel they are tuned to, which covers the whole broadcast area, and they never ask for a county code. A radio with SAME (Specific Area Message Encoding) lets you enter your county's code so that it sounds only for your area; those are mostly desktop radios that run from the wall with battery backup. Midland's WR120 is one, and GearJunkie's review of it says it does not receive AM or FM. If you want county-only alerts, add one of those, and look for the Public Alert or NOAA Weather Radio All Hazards logo that the National Weather Service recommends.",
       "qty": {
         "basis": "fixed",
         "factor": 1,
         "note": "One per household."
       },
-      "already_own": "Any battery radio that gets AM and FM is useful for local news. Check whether it also has a weather band (marked WX or 162 MHz). If it does and it works on fresh batteries, it is good enough. A car radio is not a substitute in an apartment building.",
+      "already_own": "Any battery radio that gets AM and FM is useful for local news. Check whether it also has a weather band (marked WX or 162 MHz). If it does and it works on fresh batteries, it is good enough. A car radio also works, if your car is parked where you can reach it.",
       "safety_notes": [
         {
           "text": "NOAA Weather Radio is a nationwide network of more than 1,000 transmitters that broadcasts official warnings, watches and forecasts 24 hours a day on seven VHF frequencies from 162.400 to 162.550 MHz. It covers non-weather emergencies too, and needs a receiver built to pick it up.",
@@ -1028,24 +1143,22 @@
         }
       ],
       "item_flags": [
-        "Neither pick has SAME county coding, so neither takes a county code: tune to your local channel. A step that asks for a county code applies only to a radio that has SAME.",
+        "None of the picks has SAME county coding, so none takes a county code: tune to your local channel. A step that asks for a county code applies only to a radio that has SAME.",
         "The Cadillac pick has a 10,000 mAh lithium-ion battery, and Midland's page states no UL or ETL listing for it."
       ],
-      "research_note": "Audit fixes 2026-11-15 (prompt 6.2). midlandusa.com product pages returned HTTP 429 to WebFetch all session, so they were read in the desktop browser pane (page text only, no sign-in): ER310 $89.99 'temporarily out of stock. We expect it back soon', button Sold Out; ER310PRO $109.99 'temporarily out of stock. We expect it back later in December', button Sold Out; ER10VP $34.99, Add to cart active; WR120B $54.99, Add to cart active, 'features S.A.M.E. technology to provide localized alerts for your specific county', battery backup 3 AA. No page text for the ER10VP, ER310 or ER310PRO mentions SAME, county or Public Alert. Midland's ER210 page was not opened (its address is not known; a guessed one did not exist). Removed Standard pick, kept for the record: Midland ER310 Portable Emergency Crank Weather Radio, model ER310, $89.99; AM, FM and NOAA weather band with alert; 3500 mAh rechargeable battery (maker says up to 45 hours), micro-USB, hand crank, solar panel, tray for 6 AA cells; 8.0 x 3.4 x 2.4 in; sources https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio and Bob Vila, The Best Hand-Crank Radios (Best Overall, last updated January 10, 2025; its test lists the earlier 2600 mAh battery) https://www.bobvila.com/articles/best-hand-crank-radio/ ; Amazon ASIN B015QIC1PW seen in Bob Vila's buy link, never opened. It can go back in when Midland restocks it. Midland Support, by e-mail to the site's owner, November 17, 2026: lithium iron disulfide AA cells are safe in the ER310's six-AA backup compartment (about 1.7-1.8 V open-circuit, dropping toward 1.5 V under load) and can be left installed because they are not prone to leaking. If the ER310 goes back in, say this in its blurb: lithium AAs left in the tray make it a radio that still works after years in a bin. Budget tier left empty: GearJunkie's budget pick (RadioShack Multi Band Radio, about $30) was not researched at its maker. Test guides re-opened 2026-11-15 by WebFetch: GearJunkie (updated November 10, 2026), Outdoor Life (updated May 23, 2025), Bob Vila (updated January 10, 2025). Old item_flags: SAME county coding: Standard pick (Midland ER10VP), no. Cadillac pick (Midland ER310PRO), no. Neither maker page claims SAME or Public Alert certification. If an action tells you to enter a county code, that step applies only to a radio that has SAME; with these picks, tune to your local channel and stop there. | A radio that does take a county code: Midland's WR120B desktop weather-alert radio, $54.99 and in stock at Midland on November 15, 2026. Its page says it uses SAME to alert for your own county and runs from the wall with three AA cells as backup. GearJunkie, which tested it, says it has no AM/FM, so it is an add-on for alerts while you sleep and not a replacement for the kit radio. It is not one of this page's picks. | Stock on November 15, 2026 at Midland's own store: the ER10VP was in stock; the ER310 and the ER310PRO were sold out, with the ER310PRO expected back later in December. The ER310, this page's earlier Standard pick, was taken off because it could not be bought there. Check other retailers.",
-      "tier_note": "Two picks: the Standard pick is already a low-priced radio with a weather alert, and a cheaper one gives up the alert or the maker's support.",
-      "prices_seen": "2026-11-15",
+      "research_note": "Audit fixes 2026-11-15 (prompt 6.2). midlandusa.com product pages returned HTTP 429 to WebFetch all session, so they were read in the desktop browser pane (page text only, no sign-in): ER310 $89.99 'temporarily out of stock. We expect it back soon', button Sold Out; ER310PRO $109.99 'temporarily out of stock. We expect it back later in December', button Sold Out; ER10VP $34.99, Add to cart active; WR120B $54.99, Add to cart active, 'features S.A.M.E. technology to provide localized alerts for your specific county', battery backup 3 AA. No page text for the ER10VP, ER310 or ER310PRO mentions SAME, county or Public Alert. Midland's ER210 page was not opened (its address is not known; a guessed one did not exist). Removed Standard pick, kept for the record: Midland ER310 Portable Emergency Crank Weather Radio, model ER310, $89.99; AM, FM and NOAA weather band with alert; 3500 mAh rechargeable battery (maker says up to 45 hours), micro-USB, hand crank, solar panel, tray for 6 AA cells; 8.0 x 3.4 x 2.4 in; sources https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio and Bob Vila, The Best Hand-Crank Radios (Best Overall, last updated January 10, 2025; its test lists the earlier 2600 mAh battery) https://www.bobvila.com/articles/best-hand-crank-radio/ ; Amazon ASIN B015QIC1PW seen in Bob Vila's buy link, never opened. It can go back in when Midland restocks it. Midland Support, by e-mail to the site's owner, November 17, 2026: lithium iron disulfide AA cells are safe in the ER310's six-AA backup compartment (about 1.7-1.8 V open-circuit, dropping toward 1.5 V under load) and can be left installed because they are not prone to leaking. If the ER310 goes back in, say this in its blurb: lithium AAs left in the tray make it a radio that still works after years in a bin. Budget tier left empty: GearJunkie's budget pick (RadioShack Multi Band Radio, about $30) was not researched at its maker. Test guides re-opened 2026-11-15 by WebFetch: GearJunkie (updated November 10, 2026), Outdoor Life (updated May 23, 2025), Bob Vila (updated January 10, 2025). Old item_flags: SAME county coding: Standard pick (Midland ER10VP), no. Cadillac pick (Midland ER310PRO), no. Neither maker page claims SAME or Public Alert certification. If an action tells you to enter a county code, that step applies only to a radio that has SAME; with these picks, tune to your local channel and stop there. | A radio that does take a county code: Midland's WR120B desktop weather-alert radio, $54.99 and in stock at Midland on November 15, 2026. Its page says it uses SAME to alert for your own county and runs from the wall with three AA cells as backup. GearJunkie, which tested it, says it has no AM/FM, so it is an add-on for alerts while you sleep and not a replacement for the kit radio. It is not one of this page's picks. | Stock on November 15, 2026 at Midland's own store: the ER10VP was in stock; the ER310 and the ER310PRO were sold out, with the ER310PRO expected back later in December. The ER310, this page's earlier Standard pick, was taken off because it could not be bought there. Check other retailers. | Open-up pass 2026-11-17. Gates found and removed: the Standard tier required stock at the maker's store on the day (the ER310 was taken off for it and the ER10VP moved up), the Budget tier was empty for an 'in stock at its maker' reason, and how_to_choose told readers not to buy for the crank or solar panel. Now: Budget Midland ER10VP, Standard Midland ER310 (restored), Cadillac Midland ER310PRO, Compact C. Crane CC Skywave 2. how_to_choose now gives the testers' crank and solar measurements and lets the reader weigh them. Tests opened by WebFetch on 2026-11-17: GearJunkie (updated November 10, 2026; Best Overall Midland ER310PRO 8.9; Best Budget RadioShack Multi Band $30 6.6, two D cells, no alert described; C. Crane CCRadio Solar BT 8.2 $110; C. Crane 'WX Pocket' 7.7 $75; Kaito KA500 Voyager 7.5 $60, 600 mAh; C. Crane Skywave 2 7.3 $110; Midland WR120 7.9 $52, SAME, wall power with three AA backup; Sangean MMR-88 6.7 $77, 850 mAh, 5 minutes of radio per minute of cranking), Outdoor Life (page dated May 23, 2025; Best Overall Midland ER210; Best Value FosPower $40; Eton FRX3+ 'Best Rated'; Best Budget Midland ER10VP; C. Crane CCRadio Solar needed its antenna fully out and still had static), Bob Vila hand-crank radios (updated January 10, 2025; Best Overall Midland ER310; DaringSnail MD090P; Raynic CR1009Pro 'Best Digital Tuning', still about three-quarters full after 24 hours of play; Kaito KA500 'Best Shortwave'; FosPower A1 'Best Compact'; Eton Scorpion II, 5 minutes per minute of cranking), Bob Vila's ER310 Pro review (September 8, 2026) and The Prepared (updated December 21, 2020: C. Crane Skywave for most people; reports reliability complaints about the Kaito KA500 and Eton Scorpion II; Eton FRX3 a staff favorite). Not readable: CNN Underscored (HTTP 451), TechGearLab (HTTP 410). No Popular Mechanics, CNET or Tom's Guide radio test was found in one search. Not picked, on the tests read: Midland ER210 (Outdoor Life's top; the ER310 has the larger battery and the six-AA tray), Eton FRX3+ and Odyssey (no tester's top pick; no measurements), C. Crane CCRadio Solar BT (GearJunkie 8.2, but Outdoor Life found static on the Solar), Sangean MMR-88 (6.7, small battery; MMR-99 in no test read), Kaito KA500 (600 mAh battery; reliability complaints reported by The Prepared), Raynic CR1009Pro and FosPower A1 (no alert standby confirmed; FosPower lost a plastic part in Bob Vila's drop test), RadioShack Multi Band (no alert). Midland WR120: a SAME desk radio, named in how_to_choose as an add-on; GearJunkie's page contradicts itself on AM/FM (its spec table lists AM/FM, its review text and cons say none) and partly describes a 'WR210'; Midland's page as read on 2026-11-15 mentions no AM or FM. Why ours and not GearJunkie's Midland ER310PRO: it is our Cadillac; the ER310 keeps the tray for six AA cells that the PRO gave up, so it still plays when its built-in battery is flat and there is nothing to charge from, and it costs $20 less. Why ours and not Outdoor Life's Midland ER210: the ER210 is the smaller model; Outdoor Life lists its power as USB, crank and solar with no AA tray, and Bob Vila's hand-crank test puts the ER310 first. Why ours and not The Prepared's C. Crane Skywave: that guide is from 2020 and its pick is a pocket AA radio with no crank, light or phone charging; its successor, the Skywave 2, is our Compact pick. midlandusa.com returned HTTP 429 all day, so no Midland price, stock or cell count was re-read on 2026-11-17; Midland prices and stock are as read on 2026-11-15 and 2026-11-16. | 2026-11-17, main worker: Why ours and not Wirecutter's Midland ER310PRO: it is our Cadillac, and Wirecutter's own emergency guide (updated July 30, 2025, read in Chrome today) names the plain ER310, which keeps a tray for AA cells and costs $20 less; its radio guide, read on November 15, names the PRO.",
+      "prices_seen": "2026-11-17",
       "tiers": {
-        "budget": null,
-        "standard": {
+        "budget": {
           "brand": "Midland",
           "model": "ER10VP Compact Emergency Alert AM/FM Weather Radio",
           "model_number": "ER10VP",
           "size": "AM, FM and NOAA weather band with audio and visual weather alert; SAME county coding: no; runs on 3 AA cells (included); LED flashlight with SOS strobe; headphone jack; 5 x 3 x 1.2 in",
           "unit_size": 1,
           "unit_label": "radio",
-          "price_usd": 34.99,
-          "price_seen_at": "MidlandUSA.com, November 15, 2026 (in stock)",
-          "why": "A pocket radio from an established weather-radio maker, with a real alert function. It runs on the same AA cells as the rest of the kit, with no built-in battery to age, and Outdoor Life's testers named it their budget pick.",
+          "price_usd": 39.99,
+          "price_seen_at": "midlandusa.com",
+          "why": "The cheapest radio here with a real weather alert, from an established weather-radio maker. It runs on three AA cells, with no built-in battery to age, and Outdoor Life's testers named it their budget pick.",
           "weakness": "AA cells are its only power source: there is no rechargeable battery, crank, solar panel or USB port. It has no SAME county coding, so it sounds for every warning on its channel and cannot be set to your county alone.",
           "links": [
             {
@@ -1057,7 +1170,7 @@
             }
           ],
           "link_note": "",
-          "research_note": "No Amazon ASIN for the ER10VP was confirmed. Moved from Budget to Standard on 2026-11-15 because the earlier Standard pick (ER310) was sold out at the maker and marked unavailable. Maker page read in the desktop browser pane on 2026-11-15 (WebFetch got HTTP 429); Outdoor Life guide re-opened by WebFetch the same day. Old why: It is the radio you can buy today: a pocket set from an established weather-radio maker with a real alert function, in stock at the maker. It runs on the same AA cells as the rest of the kit, with no built-in battery to age, and Outdoor Life's testers named it their budget pick. Old link_note: No Amazon link is given. Outdoor Life's text says to keep spare AAA batteries, but Midland's page says the radio takes 3 AA cells; Midland's figure is used. Removed flag: No SAME county coding: it does not take a county code.",
+          "research_note": "No Amazon ASIN for the ER10VP was confirmed. Moved from Budget to Standard on 2026-11-15 because the earlier Standard pick (ER310) was sold out at the maker and marked unavailable. Maker page read in the desktop browser pane on 2026-11-15 (WebFetch got HTTP 429); Outdoor Life guide re-opened by WebFetch the same day. Old why: It is the radio you can buy today: a pocket set from an established weather-radio maker with a real alert function, in stock at the maker. It runs on the same AA cells as the rest of the kit, with no built-in battery to age, and Outdoor Life's testers named it their budget pick. Old link_note: No Amazon link is given. Outdoor Life's text says to keep spare AAA batteries, but Midland's page says the radio takes 3 AA cells; Midland's figure is used. Removed flag: No SAME county coding: it does not take a county code. | 2026-11-17 (open-up pass): moved back from Standard to Budget, where it sat before the stock rule moved it. Outdoor Life guide re-opened by WebFetch that day (Best Budget; page dated May 23, 2025). Midland's page was not re-read (HTTP 429); price and stock are as read on 2026-11-15. Old why: A pocket radio from an established weather-radio maker, with a real alert function. It runs on the same AA cells as the rest of the kit, with no built-in battery to age, and Outdoor Life's testers named it their budget pick. | 2026-11-17: Midland's page read in Chrome: $39.99 (it was $34.99 on November 15), Add to cart.",
           "sources": [
             {
               "type": "manufacturer_spec",
@@ -1078,6 +1191,75 @@
           ],
           "flags": [],
           "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'Midland' and 'weather radio', and again on November 15, 2026 for 'Midland': the only Midland result is a 1999 recall of an older weather radio (model 74-200). No recall of the ER10VP."
+        },
+        "standard": {
+          "brand": "Midland",
+          "model": "ER310 Portable Emergency Crank Weather Radio",
+          "model_number": "ER310",
+          "size": "AM, FM and NOAA weather band with alert; SAME county coding: no; 3500 mAh rechargeable battery (maker says up to 45 hours of radio), charged by micro-USB, hand crank or solar panel, plus a tray for 6 AA cells (not included); USB output to charge a phone; LED flashlight with SOS; 8.0 x 3.4 x 2.4 in; about 1.5 lb",
+          "unit_size": 1,
+          "unit_label": "radio",
+          "price_usd": 89.99,
+          "price_seen_at": "midlandusa.com",
+          "why": "It has three ways to keep playing: a built-in rechargeable battery, a hand crank and solar panel, and a tray for six AA cells. Midland's support staff say lithium AA cells are safe in the tray and can be left installed, which makes it a radio that still works after years in a bin. Bob Vila's testers named it the best hand-crank radio overall.",
+          "weakness": "It charges through the older micro-USB plug, and its built-in battery is about a third the size of the Cadillac pick's. Bob Vila's test got about nine minutes of radio from a minute of cranking. It has no SAME county coding, so it sounds for every warning on its channel.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+              "verified": true,
+              "note": "",
+              "research_note": "Not opened on 2026-11-17: midlandusa.com returned HTTP 429 to WebFetch. Read in the desktop browser pane on 2026-11-15 (see the item's research_note): $89.99, 'temporarily out of stock. We expect it back soon', button Sold Out. Listed in the helper report under needs_browser."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B015QIC1PW",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon is not read as a source. ASIN seen on 2026-11-17 in the buy link of Bob Vila's hand-crank radio guide."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Midland",
+              "title": "ER310 Portable Emergency Crank Weather Radio",
+              "url": "https://midlandusa.com/products/er310-portable-emergency-crank-weather-radio",
+              "verified": true,
+              "supports": "Bands, NOAA weather alert, 3500 mAh battery and 45-hour claim, micro-USB, crank, solar panel, six-AA tray, size, price.",
+              "research_note": "Not opened on 2026-11-17 (HTTP 429). The facts are from the 2026-11-15 browser read recorded in the item's research_note."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "This Handy Device Keeps You Informed During an Emergency, Even Without Power (The Best Hand-Crank Radios)",
+              "url": "https://www.bobvila.com/articles/best-hand-crank-radio/",
+              "verified": true,
+              "supports": "Named Best Overall after three days of field tests of reception, sound, drops and battery life; about 9 minutes of playback per minute of cranking; six-AA backup; 1.46 lb; the unit tested had the earlier 2,600 mAh battery; last updated January 10, 2025."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "Midland ER310 Pro vs. ER310: Is Upgrading Worth It?",
+              "url": "https://www.bobvila.com/reviews/midland-er310-pro-emergency-radio-review/",
+              "verified": true,
+              "supports": "Describes the ER310 beside the ER310 Pro: 3,500 mAh battery, AA compartment, one-way micro-USB port, about 45 hours of playback; published September 8, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "Wirecutter",
+              "title": "The Best Emergency Preparedness Supplies",
+              "url": "https://www.nytimes.com/wirecutter/reviews/emergency-preparedness/",
+              "verified": true,
+              "supports": "Its emergency radio pick: better reception, a brighter flashlight and more useful charging than the other radios it tested, and one minute of cranking gave about 10 minutes of radio."
+            }
+          ],
+          "flags": [
+            "Sold out at Midland's own store on November 17, 2026; Midland says it expects it back soon. Its equal: the Midland ER310PRO, the Cadillac pick, which Midland expects back later in December. Other stores sell both."
+          ],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov recall API) on 2026-11-17 for 'Midland': the only result is a 1999 recall of an older weather radio (model 74-200). No recall of the ER310.",
+          "research_note": "Restored as Standard on 2026-11-17 (open-up pass). It was the Standard pick until 2026-11-15, when it was taken off only because Midland's store showed it sold out; stock is now a flag, not a test. Both verified sources are Bob Vila pages (one roundup, one comparison review); the maker page could not be re-read on 2026-11-17 and is marked unverified until the main worker opens it in a browser. CNN Underscored's emergency-radio test, which a search result says ranks the ER310 first, returned HTTP 451 and is not counted. The stock flag carries the 2026-11-15 date because that is when the page was last read; the main worker should re-read and re-date it. Midland Support, by e-mail on November 17, 2026 (recorded by the main worker in the item's research_note): lithium iron disulfide AA cells are safe in the six-AA tray and can be left installed. Weight: Bob Vila lists 1.46 lb. | 2026-11-17: Midland's page read in Chrome (the reader got HTTP 429): $89.99, 'High demand! The ER310 is temporarily out of stock. We expect it back soon.' Wirecutter's emergency guide (updated July 30, 2025) read in Chrome the same day; it showed $70 at Amazon and $80 at Walmart and REI, none opened."
         },
         "cadillac": {
           "brand": "Midland",
@@ -1134,14 +1316,54 @@
             }
           ],
           "flags": [
-            "Sold out at Midland's own store on November 16, 2026; Midland expects it back later in December."
+            "Sold out at Midland's own store on November 17, 2026; Midland expects it back later in December. Its equal: the Midland ER310, the Standard pick, which has the same radio with a smaller battery and takes AA cells as a backup."
           ],
           "flag_check": "Queried the CPSC recall database on 2026-11-14 for 'ER310', 'Midland' and 'weather radio', and again on November 15, 2026 for 'Midland': the only Midland result is a 1999 recall of an older weather radio. No recall of the ER310PRO.",
-          "research_note": "Removed flag: Sold out at Midland's own store on November 15, 2026; the page says it is expected back later in December. Check other retailers, or buy the Standard pick now. Removed flag: No SAME county coding: it does not take a county code. 2026-11-16 (WebFetch): $109.99, sold out, 'rechargeable lithium-ion battery', no UL or ETL listing on the page."
+          "research_note": "Removed flag: Sold out at Midland's own store on November 15, 2026; the page says it is expected back later in December. Check other retailers, or buy the Standard pick now. Removed flag: No SAME county coding: it does not take a county code. 2026-11-16 (WebFetch): $109.99, sold out, 'rechargeable lithium-ion battery', no UL or ETL listing on the page. | 2026-11-17 (open-up pass): GearJunkie (updated November 10, 2026) and Bob Vila's review re-opened by WebFetch; Midland's page not re-read (HTTP 429), so the stock flag keeps its November 16 date. GearJunkie lists it at $100, 8 x 3.5 x 2.5 in, no IP rating, and says it charged a phone about three times. | 2026-11-17: Midland's page read in Chrome: $109.99, 'temporarily out of stock. We expect it back later in December.'"
+        },
+        "compact": {
+          "brand": "C. Crane",
+          "model": "CC Skywave 2 AM, FM, shortwave, weather and airband radio",
+          "model_number": "SKWV2",
+          "size": "AM, FM, shortwave, aviation band and the seven NOAA weather channels, with an alert you switch on for 4, 8 or 16 hours at a time; SAME county coding: no; runs on 2 AA cells (not included): about 60 hours on the speaker or 70 hours on earbuds, by the maker's figures; about 4.8 x 3 x 1 in; 6 oz without batteries; case and earbuds included",
+          "unit_size": 1,
+          "unit_label": "radio",
+          "price_usd": 109.99,
+          "price_seen_at": "CCrane.com, November 17, 2026 (in stock)",
+          "why": "A coat-pocket radio that plays for days on two AA cells and brings in shortwave and aircraft bands as well as local news and weather. GearJunkie's testers called its NOAA reception excellent.",
+          "weakness": "It has no flashlight, crank, solar panel or built-in battery, and it cannot charge a phone. The weather alert listens only for the 4, 8 or 16 hours you set. C. Crane advises against lithium AA cells in it. It costs about three times the Budget pick, which is nearly as small.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://ccrane.com/cc-skywave-2-with-am-fm-shortwave-noaa-weather-alert-and-the-vhf-aviation-band/",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-17 by WebFetch. Item SKWV2, $109.99, 'In Stock; Usually ships within 1 business day'."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "C. Crane",
+              "title": "CC Skywave 2 with AM, FM, Shortwave, NOAA Weather + Alert and the VHF Aviation Band",
+              "url": "https://ccrane.com/cc-skywave-2-with-am-fm-shortwave-noaa-weather-alert-and-the-vhf-aviation-band/",
+              "verified": true,
+              "supports": "Bands, weather alert for 4, 8 or 16 hours, two AA cells not included, 60 to 70 hours of battery life, size, 6 oz, box contents, price, stock, advice against lithium cells."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Emergency Radios of 2026",
+              "url": "https://gearjunkie.com/technology/best-emergency-radio",
+              "verified": true,
+              "supports": "Named Best Global Coverage (7.3 of 10) at $110; 5.5 oz; NOAA reception described as excellent; no flashlight or beacon; updated November 10, 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov recall API) on 2026-11-17 for 'Crane': the only result is a 2009 recall of Crane Plumbing bathtubs. No recall of a C. Crane radio.",
+          "research_note": "Added 2026-11-17 (open-up pass) as the Compact pick. The Prepared's radio guide (updated December 21, 2020) names the earlier CC Skywave its pick for most people; it is not counted as a source because it covers the earlier model and is older than 24 months. GearJunkie lists the weight as 5.5 oz; C. Crane says 6 oz without batteries. Also weighed for Compact: C. Crane's pocket weather radio that GearJunkie calls the 'WX Pocket' ($75, 3.8 oz, two AA, 7.7 of 10, reception weaker than radios with a telescoping antenna); its maker page was not found (two guessed addresses did not exist), so it has one source. The Midland ER10VP (Budget) is nearly as small and far cheaper; the Skywave 2 is here for its reception, runtime and extra bands. No Amazon ASIN seen."
         }
-      },
-      "empty_reason": {
-        "budget": "No pick. The Standard pick is also the cheapest radio that met this site's two-source rule and was in stock at its maker on November 15, 2026."
       }
     },
     {

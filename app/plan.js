@@ -95,7 +95,7 @@ export function pickFor(item, tier, data) {
   const mine = data && data.picks && data.picks[item.id];
   if (mine && mine.tier && item.tiers[mine.tier]) return { pick: item.tiers[mine.tier], tier: mine.tier, mine: true };
   if (item.tiers[tier]) return { pick: item.tiers[tier], tier };
-  for (const t of ['standard', 'budget', 'cadillac']) if (item.tiers[t]) return { pick: item.tiers[t], tier: t };
+  for (const t of ['standard', 'budget', 'cadillac', 'compact']) if (item.tiers[t]) return { pick: item.tiers[t], tier: t };
   return { pick: null, tier };
 }
 export const myPickText = (item, data) => {
@@ -319,7 +319,7 @@ export function skyPage(D, h, hhSet, data) {
     }
     // A store line links one pick for each product: the Standard pick, or the only one there is.
     const buys = (l.buy || []).map(id => D.itemById[id]).filter(Boolean).map(it => {
-      const pick = it.tiers && (it.tiers.standard || it.tiers.budget || it.tiers.cadillac);
+      const pick = it.tiers && (it.tiers.standard || it.tiers.budget || it.tiers.cadillac || it.tiers.compact);
       return pick ? { it, pick } : null;
     }).filter(Boolean);
     return { l, text, acts, also, applies, units, box: total > 0, done: total > 0 && done === total, buys };

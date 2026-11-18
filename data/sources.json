@@ -5940,7 +5940,7 @@
       "verified_by": "webfetch",
       "checked": "2026-11-15",
       "key_facts": [
-        "Last updated January 10, 2025. Midland ER310 Best Overall (the pick removed today for stock)."
+        "Last updated January 10, 2025. Midland ER310 Best Overall. It was taken off the picks on November 15 because its maker showed it sold out, and put back as the Standard pick on November 17: stock is a flag, not a test."
       ]
     },
     {
@@ -9273,6 +9273,71 @@
         "\"Flammable liquids, storage of combustibles, gas appliances and electrical tools can lead to fires.\"",
         "Page last reviewed April 1, 2023. It gives no amount and says nothing about apartments."
       ]
+    },
+    {
+      "id": "fcc-frs",
+      "publisher": "Federal Communications Commission",
+      "title": "Family Radio Service (FRS)",
+      "url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/family-radio-service-frs",
+      "ok": true,
+      "verified_by": "browser",
+      "checked": "2026-11-17",
+      "key_facts": [
+        "FRS is licensed by rule: an individual license is not required to operate an FRS radio, at any age, for personal or business use.",
+        "There are 22 FRS channels in the 462 MHz and 467 MHz range, all shared with GMRS, which requires an individual license.",
+        "Channels 1 to 7 and 15 to 22 are limited to 2 W; channels 8 to 14 to 0.5 W.",
+        "The usual range of an FRS device on channels 8 to 14 is less than one-half mile; longer range is possible on the other channels depending on conditions.",
+        "An FRS transmitter may not be modified and must be certified by the FCC."
+      ],
+      "note": "Opened in Chrome on 2026-11-17; the site refuses the automated reader."
+    },
+    {
+      "id": "fcc-gmrs",
+      "publisher": "Federal Communications Commission",
+      "title": "General Mobile Radio Service (GMRS)",
+      "url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/general-mobile-radio-service-gmrs",
+      "ok": true,
+      "verified_by": "browser",
+      "checked": "2026-11-17",
+      "key_facts": [
+        "GMRS is a licensed radio service on channels around 462 MHz and 467 MHz, most used for short-distance two-way voice with hand-held radios, mobile radios and repeater systems.",
+        "You may apply for a GMRS license if you are 18 or older and not a representative of a foreign government.",
+        "With a license, any family member, regardless of age, can operate GMRS stations and units within the licensed system.",
+        "In 2017 the FCC increased the license term from 5 to 10 years.",
+        "The page (updated August 14, 2024) does not state the fee, and names no examination."
+      ],
+      "note": "Opened in Chrome on 2026-11-17; the site refuses the automated reader. The fee was not found on the FCC's application-fees page as opened."
+    },
+    {
+      "id": "fcc-cb",
+      "publisher": "Federal Communications Commission",
+      "title": "Citizens Band Radio Service (CBRS)",
+      "url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/citizens-band-radio-service-cbrs",
+      "ok": true,
+      "verified_by": "browser",
+      "checked": "2026-11-17",
+      "key_facts": [
+        "CB is a private, two-way, short-distance voice communications service for personal or business activities of the general public.",
+        "It is authorized 40 channels between 26.965 MHz and 27.405 MHz.",
+        "An individual license is not required to operate a CB station."
+      ],
+      "note": "Opened in Chrome on 2026-11-17; the site refuses the automated reader."
+    },
+    {
+      "id": "fcc-amateur",
+      "publisher": "Federal Communications Commission",
+      "title": "Amateur Radio Service",
+      "url": "https://www.fcc.gov/wireless/bureau-divisions/mobility-division/amateur-radio-service",
+      "ok": true,
+      "verified_by": "browser",
+      "checked": "2026-11-17",
+      "key_facts": [
+        "The amateur service is for qualified persons of any age who are interested in radio technique solely with a personal aim and without pecuniary interest.",
+        "The license class is determined by the skill and knowledge the licensee demonstrates in an examination given by volunteer examiners in their community.",
+        "Most new amateur operators start at the Technician Class and may advance to General or Amateur Extra.",
+        "The written examinations are built from question pools that have been made public."
+      ],
+      "note": "Opened in Chrome on 2026-11-17; the site refuses the automated reader."
     }
   ]
 }

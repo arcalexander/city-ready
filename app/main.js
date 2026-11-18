@@ -1,6 +1,6 @@
 import { config } from '../config.js';
 import { createStore, deviceHousehold } from './store.js';
-import { D, loadAll, TIERS, TIER_NAME, SECTION_OF_LEVEL, medName, medBrand } from './data.js';
+import { D, loadAll, TIERS, PRICE_TIERS, TIER_NAME, COMPACT_IS, SECTION_OF_LEVEL, medName, medBrand } from './data.js';
 import * as H from './household.js';
 import * as P from './plan.js';
 import * as X from './exporter.js';
@@ -273,7 +273,7 @@ function hhLine() {
   return `<p class="hhline noprint">${S.hhSet ? 'Set for' : 'Showing the plan for'} ${esc(peopleWords(h))} in ${esc(where)}. <a href="#/setup">${S.hhSet ? 'Change' : 'Make it yours'}</a>${ask}${haz}</p>`;
 }
 function tierChips() {
-  return `<div class="chips noprint" role="group" aria-label="Price tier">${TIERS.map(t => `<button data-cmd="tier" data-tier="${t}" aria-pressed="${S.tier === t}">${TIER_NAME[t]}</button>`).join('')}</div>`;
+  return `<div class="chips noprint" role="group" aria-label="Which pick">${TIERS.map(t => `<button data-cmd="tier" data-tier="${t}" aria-pressed="${S.tier === t}">${TIER_NAME[t]}</button>`).join('')}</div>`;
 }
 function pickLabel(it) {
   const mine = (S.data.picks || {})[it.id], { pick, tier } = pickFor(it);
@@ -650,7 +650,7 @@ V.item = (id) => {
     const links = (p.links || []).filter(l => safeUrl(l.url));
     const srcOk = confirmedSources(p);
     const qtys = it.optional ? '' : depths.map(L => { const n = homes.length ? H.qtyFor(it, p, L, P.hhOfUnit(it, S.hh, homes[0]), it.override) : 0; return n ? (depths.length > 1 ? `${chainSec(L).name}: ${n}` : `${n}`) : ''; }).filter(Boolean).join(' · ');
-    return `<div class="tiercol${mine && mine.tier === t ? ' mine' : ''}"><div class="tname">${filled.length > 1 ? TIER_NAME[t] : 'The pick'}${mine && mine.tier === t ? ' · my pick' : ''}</div>
+    return `<div class="tiercol${mine && mine.tier === t ? ' mine' : ''}"><div class="tname">${filled.length > 1 ? TIER_NAME[t] : 'The pick'}${mine && mine.tier === t ? ' · my pick' : ''}</div>${t === 'compact' && filled.length > 1 ? `<p class="small tsub">${COMPACT_IS}</p>` : ''}
       <h3>${esc(p.brand)} ${esc(p.model)}</h3>
       ${p.price_usd != null ? `<div class="price">${money(p.price_usd)}${p.unit_price ? ` <span class="small unitprice">(${esc(p.unit_price)})</span>` : ''}</div>` : ''}
       ${provisional(p) ? '<p class="small">This pick rests on one source.</p>' : ''}
@@ -698,7 +698,7 @@ V.item = (id) => {
     <div class="kv"><b>If you already own something similar</b>${text(it.already_own)}</div></div>
     ${it.list === 'first-aid-kit' ? `<h2>The list</h2><div class="read">${kitBody()}</div>` : ''}
     <h2>${filled.length === 1 ? 'The pick' : filled.length ? 'The picks' : 'The pick: build it'}</h2>
-    ${filled.length < TIERS.length && (it.tier_note || !filled.length) ? `<p class="read">${esc(it.tier_note || (it.empty_reason && it.empty_reason.standard) || 'No pick.')}</p>` : ''}
+    ${PRICE_TIERS.filter(t => it.tiers[t]).length < PRICE_TIERS.length && (it.tier_note || !filled.length) ? `<p class="read">${esc(it.tier_note || (it.empty_reason && it.empty_reason.standard) || 'No pick.')}</p>` : ''}
     ${filled.some(t => it.tiers[t].price_usd != null) ? `<p class="small">Prices seen ${longDate(it.prices_seen || it.checked)}. Prices change; treat them as a guide.</p>` : ''}
     <div class="compare"><div class="tiers n${filled.length}">${tiers}</div><div class="strip">${myPick}${bought}</div>${others}</div>
     ${(it.safety_notes || []).length ? `<div class="read"><h2>Safety notes</h2><ul>${it.safety_notes.map(n => `<li>${esc(n.text)} <span class="small">Source: ${esc(n.source_name)}, ${ext(n.url, n.source_title || n.url)}${n.verified === false ? ' <span class="unver">(link could not be opened)</span>' : ''}</span></li>`).join('')}</ul></div>` : ''}
@@ -782,7 +782,8 @@ V.shopping = (key) => {
     rows += `<tr><th colspan="4">${esc(m.name)}</th></tr>`;
     for (const { it, n, hh, q, L } of list) {
       const mine = (S.data.picks || {})[it.id], ownText = mine && mine.text && !mine.tier ? mine.text : '';
-      const sel = pickFor(it), p = mine && mine.tier ? sel.pick : it.tiers[S.tier], ol = P.ownedLevel(S.data, it.id, n);
+      // Compact is optional: an item without a Compact pick is priced by its Standard pick.
+      const sel = pickFor(it), p = mine && mine.tier ? sel.pick : (it.tiers[S.tier] || (S.tier === 'compact' ? sel.pick : null)), ol = P.ownedLevel(S.data, it.id, n);
       const had = ol >= it.level ? P.need(it, Math.min(ol, L), hh, S.tier, S.data) : 0;
       const buy = Math.max(0, q - had), name = `<a href="#/item/${esc(it.id)}">${esc(it.name)}</a>${homeTag(n)}`;
       if (!buy) { haveRows += `<li>${esc(it.name)}${n ? ' (' + esc(H.homeLabel(S.hh, n).toLowerCase()) + ')' : ''} (${q})</li>`; continue; }
@@ -806,7 +807,7 @@ V.shopping = (key) => {
   <tfoot><tr><td colspan="3">Running total, ${TIER_NAME[S.tier]} tier</td><td class="num">${money(Math.round(total * 100) / 100)}</td></tr></tfoot></table>` : '<p>Nothing left to buy here.</p>'}
   ${skipped ? `<p class="small">${skipped} item${skipped > 1 ? 's have' : ' has'} no pick at this tier and ${skipped > 1 ? 'are' : 'is'} not in the total.</p>` : ''}
   ${own ? `<p class="small">${own} item${own > 1 ? 's use' : ' uses'} a pick you typed yourself, so the site has no price for ${own > 1 ? 'them' : 'it'}; ${own > 1 ? 'they are' : 'it is'} not in the total.</p>` : ''}
-  <p class="small">Where you chose one of the listed picks as “My pick”, that pick and its price are used instead of the tier above. Prices are those seen on the "last checked" date on each item page, before tax and shipping.</p>
+  <p class="small">${S.tier === 'compact' ? 'Compact is the best small one. Few items have one; the rest are priced by their Standard pick. ' : ''}Where you chose one of the listed picks as “My pick”, that pick and its price are used instead of the tier above. Prices are those seen on the "last checked" date on each item page, before tax and shipping.</p>
   ${optRows ? `<h2>Optional extras (not in the total)</h2><ul>${optRows}</ul>` : ''}
   ${haveRows ? `<h2>Already ticked as bought</h2><ul>${haveRows}</ul>` : ''}
   ${cab.length ? `<h2>Medicine cabinet (not in the total)</h2><p class="small">Medicines and tools from the <a href="#/medicine">family medicine cabinet</a>, for the ages in your setup. A store brand with the same drug, strength and form on its Drug Facts panel is the same medicine.</p><ul>${cab.map(c => `<li><b>${esc(medName(c.line))}</b>${medBrand(c.line) ? ` (${esc(medBrand(c.line))})` : ''}: ${c.qty} × ${esc((c.line.qty || {}).unit || 'pack')}${c.line.pack ? `; ${esc(c.line.pack)}` : ''}</li>`).join('')}</ul>` : ''}
@@ -1007,7 +1008,7 @@ V.about = () => {
   <ul><li>Every pick was researched on the web on the "last checked" date shown on its page. Nothing is recommended from memory.</li>
   <li>Every pick needs at least two independent sources: an established test publication, the manufacturer's specification, or a recognized listing (NSF/ANSI, NIOSH, UL or ETL, EPA).</li>
   <li>Links were opened to confirm they reach the right product. Where a link could not be confirmed, the page says so.</li>
-  <li>No affiliate tags. Nobody paid to be listed.</li><li>We name other testers\u2019 picks so readers can compare; we are not affiliated with any of them, and their names belong to their owners.</li><li>Where no trustworthy product exists at a tier, the tier is left empty with the reason.</li></ul>
+  <li>No affiliate tags. Nobody paid to be listed.</li><li>We name other testers\u2019 picks so readers can compare; we are not affiliated with any of them, and their names belong to their owners.</li><li>No product is ruled out before it is compared: not for its size, the batteries it takes, its price, its brand, or whether it was in stock that day. Each pick states its cost, size, weight and batteries, and the weighing is yours.</li><li>Standard is the best for most households. Budget is the cheapest that genuinely works. Cadillac is the best there is, where more money buys real capability. Compact, where an item has one, is the best small one, for a small home, a bag or many flights of stairs.</li><li>A pick that is sold out stays, with a warning and the product to buy in its place.</li><li>Where no trustworthy product exists at a tier, the tier is left empty with the reason.</li></ul>
   <h2>Product data files</h2><ul>${D.productFiles.map(f => `<li>${esc(f.path)}: ${f.count} items, last checked ${fmtDate(f.checked)}</li>`).join('')}</ul>
   ${D.missing.length ? `<div class="warn"><b>Data not loaded:</b> ${D.missing.map(esc).join(', ')}</div>` : ''}
   <h2>Assumptions behind the quantities</h2><ul>${D.assumptions.map(a => `<li>${esc(a)}</li>`).join('')}</ul>
