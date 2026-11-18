@@ -1,0 +1,538 @@
+{
+  "module": "pl",
+  "title": "Power and Light",
+  "intro": "A long power outage is the most likely long emergency in a city home. This module helps you work out how much backup power you really need, keep phones and lights going on batteries, and avoid the fire and carbon monoxide risks that come with improvised power.",
+  "credit": "",
+  "actions": [
+    {
+      "id": "PL-01",
+      "level": 3,
+      "section": "Size your backup power",
+      "title": "Size your backup power from your power audit",
+      "why": "Knowing your daily watt-hours stops you buying a battery that is too small to help or far bigger than you need.",
+      "how": "Take the list from your power audit (X1-03). Measure real use where you can: a plug-in power meter shows the watt-hours (Wh) a device uses over a day, which matters most for anything that cycles on and off, such as a refrigerator. Where you cannot measure, multiply the watts printed on the label or charger, which is the most the item draws, by the hours you would run it in a day: watts × hours = Wh a day. Add the items together, then multiply by the days you want to cover. Rough examples, all estimates: a phone is about 15 Wh per full charge; a 5-watt LED lantern for 5 hours is 25 Wh; a CPAP with the humidifier off, at 30 to 60 watts for 8 hours, is 240 to 480 Wh a night; a refrigerator is about 1,000 to 1,500 Wh a day. A power station gives you roughly 85% of the capacity printed on it, so divide your total by 0.85 to find the size to look for. Capacity is only half of it: the station's output in watts must also cover everything you would run at the same time (PL-03). The site works out the phones-and-one-lantern part from your household setup and shows the sum; add the rest from your own audit.",
+      "done": "Your power audit list has a watt-hour figure beside each item, a daily total, and the battery size that total calls for.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "calc": "power"
+    },
+    {
+      "id": "PL-02",
+      "level": 1,
+      "section": "Phones and internet",
+      "title": "Keep a charged power bank for every phone",
+      "why": "Your phone is your alerts, your map and your link to family, and without power from the wall it is dead within a day or two.",
+      "how": "Get one power bank for each phone, each about 10,000 mAh, which is roughly two full phone charges (an estimate). Keep it with a short cable that fits your phone, in or beside your bag. Set a calendar reminder to charge every power bank back to full every 3 months.",
+      "done": "Each phone has its own power bank, charged and kept with a cable that fits in or beside your bag, and a reminder to recharge them is in your calendar.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "power-bank",
+        "usb-charging-kit"
+      ]
+    },
+    {
+      "id": "PL-03",
+      "level": 3,
+      "section": "Size your backup power",
+      "title": "Choose a power station only if your numbers call for one",
+      "why": "A power station is the most expensive item in this module, and many households need nothing more than power banks and battery lights.",
+      "how": "Take your daily watt-hours from PL-01, measured where you can, multiply by your days, and divide by 0.85. Example 1 (estimates throughout): two phones (30 Wh), a lantern (25 Wh) and a 10-watt router for 6 hours (60 Wh) come to 115 Wh a day; three days is 345 Wh, and 345 ÷ 0.85 is about 410 Wh, so a 300 Wh station is too small; look for more than 410 Wh. Example 2: a CPAP at 45 watts for 8 hours is 360 Wh a night, which is about 425 Wh of printed capacity, so a 1,000 Wh station gives about two nights. Example 3: a refrigerator at 1,200 Wh a day needs about 1,400 Wh of printed capacity for each day, so even a 2,000 Wh station runs it for little more than a day unless you can recharge. If phones and lights are all you need, skip the station and rely on power banks (PL-02). Check output as well as capacity: the station's continuous output in watts must be higher than everything you would run at the same time added together, and a motor, such as a refrigerator's, needs more for a moment when it starts. For a medical device, confirm the choice with its supplier first (U2-106) and test the whole setup for a full night before you rely on it.",
+      "done": "Your written sums either show power banks are enough, or match a power station now at home that has run everything on your list at the same time.",
+      "cost": "high",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "A power station is the apartment-safe replacement for a generator: it burns no fuel and makes no exhaust, so it can be used indoors. Follow PL-17 for charging and storing it.",
+      "products": [
+        "power-station-compact",
+        "power-station-large"
+      ],
+      "calc": "power"
+    },
+    {
+      "id": "PL-04",
+      "level": 2,
+      "section": "Stay safe with power",
+      "title": "Cross fuel generators off your list",
+      "why": "Generator exhaust contains carbon monoxide, a gas you cannot see or smell, and CPSC counts an average of nearly 100 deaths a year in the United States from the carbon monoxide of portable generators.",
+      "how": "A gasoline, diesel or propane generator must only ever run outdoors, at least 20 feet from every window, door and vent, with the exhaust pointing away from the building. Never run one indoors, in a garage, in a hallway or on a balcony, even with doors and windows open. If you live in an apartment you cannot meet that rule, so do not buy one: plan on batteries (PL-01 to PL-03).",
+      "done": "Every adult at home has heard the generator rule, and if you live in an apartment there is no fuel generator in your home or on your list to buy.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "There is no safe spot for a fuel generator in or on an apartment building: a balcony sends the exhaust into your home and the homes above, and a parking garage traps it.",
+      "cites": [
+        "cpsc-flood-2023",
+        "cpsc-generator",
+        "cpsc-co",
+        "cdc-co",
+        "ready-outage"
+      ]
+    },
+    {
+      "id": "PL-05",
+      "level": 2,
+      "same_as": "U2-106",
+      "section": "Stay safe with power",
+      "title": "Make a power plan for any medical device that plugs in",
+      "why": "A device that someone needs to breathe, to sleep safely or to receive treatment must not depend on mains power alone.",
+      "how": "If anyone at home uses a powered medical device (oxygen concentrator, CPAP, home dialysis, feeding or infusion pump, powered wheelchair), call the company that supplies it, or your doctor, and ask: does it have a battery or can one be added, how many hours does the battery last, and what backup do they recommend. Call your electricity company, tell them someone at your address depends on medical equipment, and ask to go on their medical or priority-restoration list; this does not guarantee power, so you still need a backup. Decide now where you would go while you still have battery hours left: a relative with power, a shelter with power, or a hospital. Write the device model, the supplier's number, the battery hours and where you would go by hand on the printable medical summary and keep it with the device; the site stores none of it. If a life-sustaining device loses power and you have no backup, call 911 (or your local emergency number) straight away.",
+      "done": "The device model, supplier's number, battery hours and where you would go are on the medical summary kept with the device, and your electricity company has been told.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "With the elevators out you may not be able to leave quickly, so tell building management which unit has someone on powered medical equipment and plan to leave early, while you still have battery hours.",
+      "worksheet": "medical-summary",
+      "cites": [
+        "ready-disability",
+        "fda-medical-devices",
+        "hhs-empower",
+        "ready-outage",
+        "redcross-outage"
+      ]
+    },
+    {
+      "id": "PL-06",
+      "level": 2,
+      "same_as": "U6-22",
+      "section": "Light",
+      "title": "Put a headlamp beside every bed",
+      "why": "A headlamp leaves both hands free for the stair rail, a child or a bag when the building goes dark.",
+      "how": "Get one LED headlamp for each adult, and one for each child old enough to wear one and switch it on (the child's headlamp in the Bags list fits a small head). Hang it on the bedpost or keep it in the bedside drawer, always in the same place, with its batteries in. Keep one of its spare sets of batteries (PL-09) beside it and check it when you test your kit (PL-20).",
+      "done": "A working headlamp with batteries in it and a spare set beside it is at every bed, one for each adult and each child old enough to use one.",
+      "cites": [
+        "ready-outage"
+      ],
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation",
+        "earthquake"
+      ],
+      "products": [
+        "headlamp"
+      ]
+    },
+    {
+      "id": "PL-07",
+      "level": 2,
+      "section": "Light",
+      "title": "Light one room with battery lanterns, not candles",
+      "why": "Candles start thousands of home fires every year, and a battery lantern gives more light with none of that risk.",
+      "how": "Choose the one room you will live in during an outage and get one or two LED lanterns for it; a lantern lights a whole room, where a flashlight lights one spot. Stand the lantern on a high shelf or hang it from a hook so the light spreads. Put candles away during an outage and use only flashlights and battery lanterns. A solar or hand-crank lantern is a useful backup that needs no batteries.",
+      "done": "One or two working LED lanterns are kept in the room you would live in during an outage, with a shelf or hook picked out for them.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "lantern"
+      ],
+      "cites": [
+        "redcross-outage",
+        "nfpa-candles"
+      ]
+    },
+    {
+      "id": "PL-08",
+      "level": 2,
+      "section": "Light",
+      "title": "Carry your own light on the stairs",
+      "why": "The emergency lights in hallways and stairwells run on backup power for a limited time, which may be far shorter than an outage.",
+      "how": "Keep a small flashlight or headlamp by your front door and take it every time you leave home during an outage, even at midday, because most stairwells have no windows. On the stairs, wear a headlamp so one hand stays on the rail. Ask management how long your building's emergency lighting lasts (PL-22).",
+      "done": "A small flashlight or headlamp that works is kept by your front door.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "products": [
+        "flashlight",
+        "headlamp"
+      ],
+      "cite_todo": "No official source found for how long building emergency lighting must last (it depends on local code), so the action tells the reader to ask management."
+    },
+    {
+      "id": "PL-09",
+      "level": 2,
+      "section": "Batteries",
+      "title": "Standardize on AA and AAA batteries and stock spares",
+      "why": "When every light and radio takes the same two battery sizes, any spare fits any device.",
+      "how": "When you buy lights, radios and fans, pick ones that take AA or AAA cells. Count the cells in every light and radio you own and keep twice that number spare. For example, two headlamps that each take three AAA cells hold six between them, so keep twelve spare AAA cells; count the radio and each flashlight the same way, AA and AAA separately. A light that charges by USB needs a charged power bank (PL-02), not spare cells. Keep spares in their packet in a cool, dry drawer, and take the batteries out of anything you will not use for months so that a leak cannot ruin it. Do not mix old and new cells in one device. List each battery-powered item with the size and number of cells it takes, and replace the spares by the date printed on the pack.",
+      "done": "The spare AA and AAA cells in your drawer number twice the cells in your lights and radios, counted separately, and are still in their packets.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "batteries-disposable"
+      ]
+    },
+    {
+      "id": "PL-10",
+      "level": 3,
+      "section": "Batteries",
+      "title": "Add rechargeable cells and a USB charger",
+      "why": "Rechargeable cells can be refilled from a power bank, a power station or a solar panel, so your lights can outlast your stock of disposables.",
+      "how": "Buy at least one full set of AA and AAA nickel-metal hydride (NiMH) cells for the lights and radio you use most; look for 'pre-charged' or 'low self-discharge' on the pack, which means they hold their charge in storage. Add a charger that plugs into a USB port, so it works from a power bank. Recharge the set when you test your kit (PL-20), and keep your disposable spares as the reserve.",
+      "done": "A full set of rechargeable AA and AAA cells and a USB charger are at home, and the charger has filled the cells from a power bank once.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "batteries-rechargeable-kit"
+      ]
+    },
+    {
+      "id": "PL-11",
+      "level": 2,
+      "section": "Light",
+      "title": "Plug in power-failure lights from bed to front door",
+      "why": "A light that comes on by itself the moment the power fails saves you searching for one in the dark.",
+      "how": "Power-failure lights are an extra, not a must: if you add them, look for a plug-in light with a UL listing that switches on by itself when the power fails and lifts out of the outlet to use as a flashlight. If you have them, plug one in the bedroom and one in the hall on the way to the front door, in outlets that are not hidden behind furniture. Press each one's test button when you test your kit (PL-20). Without them, the headlamp at each bed (U6-22) and the light by the front door (PL-08) do the same job.",
+      "done": "Any power-failure lights you have are plugged in on the way from the bedroom to the front door and lit when you pressed their test buttons, or the headlamp at each bed and the light by the front door are in place.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "night-lights-power-failure"
+      ]
+    },
+    {
+      "id": "PL-12",
+      "level": 2,
+      "section": "Phones and internet",
+      "title": "Learn your phone's battery-saving settings",
+      "why": "A phone set to save power lasts much longer between charges, which matters when every charge comes out of a battery.",
+      "how": "Find and try these now on every phone: low power mode (also called battery saver), screen brightness turned down, and airplane mode. In an outage, turn on low power mode at once, close apps you are not using, and send texts in place of calls. Where there is no signal, switch to airplane mode and check for messages at set times, because a phone hunting for a signal drains fast. Keep one phone in each group on for alerts (CM-12); on the others, use airplane mode between your agreed check-in times. Switch off Wi-Fi and Bluetooth if you are not using them, and do not stream, play games or scroll.",
+      "done": "Every phone at home has had low power mode, a dimmed screen and airplane mode switched on and off once by the person who uses it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "cites": [
+        "fcc-emergency-comms",
+        "fema-comms-plan"
+      ]
+    },
+    {
+      "id": "PL-13",
+      "level": 2,
+      "section": "Before and during an outage",
+      "title": "Charge everything when a storm or heat wave is forecast",
+      "why": "Severe weather is usually forecast days ahead, and that warning is your chance to start an outage with every battery full.",
+      "how": "When a warning is issued, plug in every phone, power bank, power station, laptop, rechargeable light and radio, and keep them topped up until the weather has passed, with the frozen bottles of water (U4-08) already in the freezer. If you have a car, fill the tank or charge it.",
+      "done": "Everyone at home has heard what to charge when a warning is issued, and each thing to be charged has its charger with it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat",
+        "cold"
+      ],
+      "cites": [
+        "fda-food-outage",
+        "ready-outage"
+      ]
+    },
+    {
+      "id": "PL-14",
+      "level": 2,
+      "section": "Before and during an outage",
+      "title": "Unplug, and leave one light on, when the power goes",
+      "why": "Power often returns with a surge that can damage electronics, and anything left switched on will start up again whether or not you are there.",
+      "how": "Check your breaker panel first; if no switch has tripped and the hallway is dark too, it is an outage. Turn off the stove and any heater or iron that was on, and unplug computers, televisions and other electronics. Leave one light switched on so you can see when the power is back. Keep the fridge and freezer doors shut and follow your fridge and freezer plan (X3-03).",
+      "done": "Everyone at home has heard the steps for when the power goes and can point to the breaker panel.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "cites": [
+        "redcross-outage",
+        "ready-outage",
+        "foodsafety-outage"
+      ]
+    },
+    {
+      "id": "PL-15",
+      "level": 3,
+      "section": "Size your backup power",
+      "title": "Be realistic about solar charging",
+      "why": "A folding solar panel only makes useful power in direct sun, which many apartments never get.",
+      "how": "Before buying, watch your windows and balcony on a clear day and count the hours of direct sun; with fewer than about 4, skip solar. A panel behind glass or in part shade gives only a small part of its rating. As a rough estimate, a 100-watt panel in full sun outdoors delivers about 70 watts, so 4 good hours give about 280 Wh: enough for phones, lights and a router, not a refrigerator. If you buy one, check more than the plug: a plug that fits is not a panel that is compatible, so the panel's voltage and watts must be inside the input limits printed in your power station's manual.",
+      "done": "The hours of direct sun at your windows or balcony are written down, and any panel you bought is within the input limits in your power station's manual.",
+      "cost": "high",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "A balcony or an opening window in direct sun is the only realistic spot; never hang a panel where it could fall, and check your lease before putting anything on a railing or roof.",
+      "products": [
+        "solar-panel-portable"
+      ]
+    },
+    {
+      "id": "PL-16",
+      "level": 2,
+      "part": "car",
+      "section": "Phones and internet",
+      "title": "Charge from the car without breathing its exhaust",
+      "why": "A car can recharge phones for days, but an engine running in a garage fills the space with carbon monoxide.",
+      "how": "Plug a USB car adapter into the 12-volt outlet to charge phones and power banks; a small plug-in inverter of about 150 watts will also run a laptop charger. To protect the car's own battery, charge with the engine running, or only for short spells with it off. Run the engine only outdoors in the open air, never in a garage, even with the garage door open, and keep the exhaust pipe clear.",
+      "done": "A USB car adapter is in the car and has charged a phone from the 12-volt outlet.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "has": [
+          "car"
+        ]
+      },
+      "apartment": "An underground or enclosed parking garage counts as indoors: drive out to the open street before you run the engine, and check you can get the car out with no power (HR-21).",
+      "products": [
+        "car-power-inverter",
+        "usb-charging-kit"
+      ],
+      "cites": [
+        "cdc-co",
+        "fema-p2143"
+      ]
+    },
+    {
+      "id": "PL-17",
+      "level": 2,
+      "part": "household",
+      "section": "Stay safe with power",
+      "title": "Charge and store lithium batteries safely",
+      "why": "Power banks, power stations and e-bike batteries hold a lot of energy and can catch fire if they are damaged, poorly made or badly charged.",
+      "how": "Buy only batteries and chargers that carry the mark of a recognized testing laboratory, and use the charger that came with the device or one made for it. Unplug it once the battery is full. Store batteries at room temperature, out of direct sun and away from anything that can burn, and never where a fire would block your way out of a room or your home. Stop using and stop charging any battery that swells, smells, gets very hot, changes color, leaks or makes odd noises, or that has been recalled. A damaged or recalled battery does not go in the trash, curbside recycling or a store's battery drop-off box: follow the recall notice or ask your local household hazardous-waste service first. Ordinary used batteries go to a battery recycling point, never the household trash or recycling bin.",
+      "done": "Each lithium battery and charger in your home has been looked over against this action, and is now kept and charged the way it describes.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Keep charging batteries away from your front door, and never charge an e-bike or scooter in the hallway or stairwell (HR-23).",
+      "cites": [
+        "nfpa-lithium",
+        "usfa-lithium",
+        "cpsc-recall-anker-2025"
+      ]
+    },
+    {
+      "id": "PL-18",
+      "level": 2,
+      "section": "Before and during an outage",
+      "title": "Label the switches in your breaker panel",
+      "why": "In the dark you need to see at a glance whether a switch has tripped and what it feeds.",
+      "how": "Open your panel (you found it in U2-97) and check that each breaker has a label. For any that do not: warn the household, shut down computers, switch that one breaker off, see which lights and outlets go dead, write the room on the label, and switch it back on. If a breaker trips, push it fully off and then on once; if it trips again, leave it off and call management or an electrician. Note where the panel is, by hand, on the printable Building information sheet.",
+      "done": "Every breaker in your panel has a label naming what it feeds, and the panel's location is written on the Building information sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Your panel is usually inside your unit, often near the front door or in a closet; the building's main switches and meter room are not yours to touch.",
+      "worksheet": "building-info"
+    },
+    {
+      "id": "PL-19",
+      "level": 3,
+      "section": "Phones and internet",
+      "title": "Keep your home internet running for a few hours",
+      "why": "Home Wi-Fi keeps news, messages and Wi-Fi calling going for as long as the router has power and the network outside your home is still up.",
+      "how": "If you have a power station (PL-03), read the watts on the labels of your modem and router; together they are usually about 10 to 20 watts (an estimate). At 15 watts, 6 hours a day uses about 90 Wh. Try it once: unplug both from the wall, plug them into the power station, and check the connection still works. Expect it to fail anyway if the building's or the provider's own equipment has lost power, and fall back on cellular data.",
+      "done": "Your modem and router have run from the power station with the wall plugs out, and a web page loaded while they did.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "In many buildings the internet passes through shared equipment in a basement or riser closet, which may have no backup power; ask management (PL-22)."
+    },
+    {
+      "id": "PL-20",
+      "level": 3,
+      "section": "Before and during an outage",
+      "title": "Test your power kit when the clocks change",
+      "why": "Batteries run down and leak unnoticed in storage, and a check twice a year catches it before you need them.",
+      "how": "On the two days a year the clocks change (or any two dates six months apart), switch on every flashlight, headlamp, lantern and radio. Charge every power bank and power station to full, and look over every battery for leaks, swelling or a passed date. Press the test buttons on your power-failure lights and on your smoke and carbon monoxide alarms. Put a repeating reminder in your calendar now.",
+      "done": "A repeating reminder for the two test days is in your calendar, and you have done the first test.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "cites": [
+        "nfpa-smoke-alarms",
+        "nfpa-co"
+      ]
+    },
+    {
+      "id": "PL-21",
+      "level": 3,
+      "section": "Before and during an outage",
+      "title": "Keep a battery or USB fan for hot nights",
+      "why": "Moving air makes a warm room easier to sleep in, and a small fan can run for hours from a power bank.",
+      "how": "Get a small fan that runs on a built-in rechargeable battery or a USB cable. A USB fan draws about 2 to 5 watts, so a 10,000 mAh power bank runs it for roughly 6 to 12 hours (an estimate). Use it to pull cooler air in at night, and for comfort while the room is below 90 °F (32 °C). Above that a fan can make the body hotter, and at no temperature does a fan prevent heat illness in people at higher risk: cool your skin with water (HC-06) or go somewhere cool (HC-07).",
+      "done": "A small battery or USB fan is at home and has run from its own battery or from one of your power banks.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "products": [
+        "battery-fan"
+      ],
+      "cites": [
+        "cdc-heat",
+        "ready-heat",
+        "preparedbc-heat",
+        "cdc-cooling-fans"
+      ]
+    },
+    {
+      "id": "PL-22",
+      "level": 3,
+      "section": "Before and during an outage",
+      "title": "Ask what your building's backup power runs, and for how long",
+      "why": "Some buildings have a generator or batteries for a few essentials, and knowing which ones, and for how many hours, changes your whole plan.",
+      "how": "Ask management in writing: is there a generator or battery backup; does it run the emergency lights, the fire alarm, an elevator, the water pumps, the heating and the door entry system; how many hours of fuel or battery does it have; and who refuels it. Write the answers by hand on the printable Building information sheet and keep it with your plan. Plan as if everything not on that list stops when the power does.",
+      "done": "Management's written answers on what the backup power runs and for how many hours are on the Building information sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "worksheet": "building-info"
+    },
+    {
+      "id": "PL-23",
+      "level": 3,
+      "section": "Size your backup power",
+      "title": "Keep your power station from draining itself",
+      "why": "A power station's outlets use power whenever they are switched on, even with nothing plugged in, so one left on can be empty on the day you need it.",
+      "how": "The maker of one common power station says this, as its own guidance for its own models: an output that is switched on draws a little power from the battery even with nothing plugged in, and the AC outlets draw the most; on one of its larger models, AC outlets left on with nothing plugged in use about 240 Wh in a day. See it on yours: note the charge at bedtime with the AC outlets on and nothing plugged in, and again in the morning. Switch the AC outlets on only while something is plugged into them. Store the station with every output switched off. Keep it plugged into the wall in storage if its manual allows; if not, recharge it as often as its maker says (this maker says fully every 3 months) and keep it in a cool, dry place.",
+      "done": "Your power station sits in a cool, dry place with every output switched off, and a reminder to recharge it as often as its maker says is in your calendar.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "cites": [
+        "goalzero-yeti-1500-faq",
+        "goalzero-yeti-display",
+        "goalzero-product-care"
+      ]
+    }
+  ]
+}

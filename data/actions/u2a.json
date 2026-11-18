@@ -1,0 +1,2029 @@
+{
+  "module": "u2",
+  "part": "a",
+  "title": "Your Emergency Plan",
+  "intro": "This module turns good intentions into a written plan and a set of supplies. You decide how your household gets warnings, how you find each other, what you take if you leave and what you keep at home if you stay. Start with the easy items and add the rest a few at a time.",
+  "credit": "Based on Unit 2 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "U2-01",
+      "level": 1,
+      "section": "Make the plan",
+      "title": "Find out which hazards are likely where you live",
+      "why": "A plan built for the wrong emergency leaves you unready for the ones that actually happen in your area.",
+      "how": "Open your city or county emergency management website, or phone the fire department's non-emergency line, and ask which hazards they plan for. Write down the three to five most likely ones, for example a long power outage, a heat wave, a winter storm, flooding, wildfire smoke or an earthquake. Beside each, note whether you would most likely stay home or have to leave. Enter your address in any flood, wildfire or evacuation-zone map the website links to, and keep the list with your plan.",
+      "done": "Your three to five most likely hazards are written down, each marked stay home or leave.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Ask the same question about your building: low floors can flood or take sewage backups, and in a power outage elevators and running water may stop, so ask your building whether your floor's water depends on pumps.",
+      "cites": [
+        "toronto-power-failure",
+        "ready-plan"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-02",
+      "level": 0,
+      "section": "Make the plan",
+      "title": "Pick one out-of-area contact and text them tonight",
+      "why": "When local lines are jammed, a call or text to another region often still gets through, so one distant person can pass messages between you.",
+      "how": "Choose a relative or friend who lives in another city or state, far enough away that the same event would not hit them. Text them now: \"You are our emergency check-in person. If something happens here, we will each text you where we are.\" Have everyone in the household save that number under the same name.",
+      "done": "One person outside your area has replied yes, and their number is saved in every phone.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 3,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-plan",
+        "fema-comms-plan"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-03",
+      "level": 1,
+      "section": "Make the plan",
+      "title": "Draw your ways out of the neighborhood",
+      "why": "The way you normally leave may be blocked, and a second route is hard to invent under stress.",
+      "how": "On a paper map, draw two routes out of your neighborhood that head in different directions and can be walked, plus a driving route if you have a car. Print the Evacuation plan sheet, add the routes by hand and keep it with your bag. The ways out of the home itself are a Household job (X2-09).",
+      "done": "Your routes out of the neighborhood are drawn by hand on the printed Evacuation plan sheet, and it is with your bag.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "earthquake"
+      ],
+      "apartment": "Your two ways to the street are two different stairwells, never the elevator; your building's fire safety plan says when to use them.",
+      "worksheet": "evacuation-plan",
+      "cites": [
+        "nfpa-escape",
+        "ready-evac"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "X2-09",
+      "level": 1,
+      "part": "household",
+      "split_from": "U2-03",
+      "section": "Home safety map",
+      "scope": "home",
+      "title": "Sketch two ways out of every room",
+      "why": "The way you normally leave may be blocked, and a second route is hard to invent under stress.",
+      "how": "Sketch your home and mark two ways out of each room where two exist, then the two ways from your front door to the street. Show the sketch to everyone who lives with you, and keep it with the rest of your home safety map.",
+      "done": "A sketch of your home shows two ways out of each room where two exist and two ways from the front door to the street, and everyone at home has seen it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Your two ways to the street are two different stairwells, never the elevator; your building's fire safety plan says when to use them.",
+      "cites": [
+        "nfpa-escape"
+      ]
+    },
+    {
+      "id": "U2-04",
+      "level": 1,
+      "same_as": "U2-89",
+      "section": "Make the plan",
+      "title": "Agree where you will meet if you cannot go home",
+      "why": "If your home or street is closed off and phones are down, a place agreed in advance is the only way to find each other.",
+      "how": "Choose one public place outside your neighborhood that everyone can reach on foot or by transit and get into easily, such as a library, a community center or a friend's home. Write its name and address on the Meeting places sheet by hand and give everyone a copy. Agree how long to wait there and what to do next, for example \"wait two hours, then go to Grandma's\".",
+      "done": "The place's name and address are on the Meeting places sheet, everyone at home holds a copy, and all have agreed how long to wait.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "earthquake"
+      ],
+      "worksheet": "meeting-places",
+      "cites": [
+        "ready-plan"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-05",
+      "level": 1,
+      "section": "Make the plan",
+      "title": "Agree how you will reach each other if you are apart",
+      "why": "Most emergencies start while the household is spread across work, school and errands.",
+      "how": "Agree one order to follow: first text each other, then text the out-of-area contact, then go to the meeting place. Keep messages short, such as \"I am OK. At the library.\", and do not assume one arrived until you get a reply. Print the Wallet contact cards sheet, cut out a card for each person, write the key numbers on it by hand and carry it.",
+      "done": "Each person carries a filled-in card from the Wallet contact cards sheet and has said the order aloud: text each other, text the contact, then the meeting place.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "wallet-card",
+      "cites": [
+        "fema-comms-plan",
+        "fcc-emergency-comms"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-06",
+      "level": 1,
+      "section": "Make the plan",
+      "title": "Give your plan to the people who would look for you",
+      "why": "Relatives and friends can only help, or stop worrying, if they know where you would go and who to call.",
+      "how": "Hand or send a copy of your meeting places, your out-of-area contact and the addresses you would go to, to that contact and to two other relatives or friends. A photo of the filled-in worksheets is enough. Ask each of them to keep it where they can find it without the internet.",
+      "done": "Your out-of-area contact and two other relatives or friends have each replied that they hold a copy of your plan.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-07",
+      "level": 1,
+      "same_as": "BG-04",
+      "section": "Make the plan",
+      "title": "Pack a grab bag around the six Ps",
+      "why": "A short memory aid stops you forgetting the things that cannot be replaced when you have minutes to leave.",
+      "how": "Pack one bag per person around six headings: people and pets (food, water, clothing, hygiene and comfort items), prescriptions (medicines, glasses, hearing aids, medical devices), phones and chargers, plastic (bank cards) and cash, papers (ID and key documents), and pictures or other keepsakes. Pack ahead whatever can live in the bag. Write the rest, such as daily medicines, phone and wallet, on a grab list taped to the top of the bag.",
+      "done": "Each person's bag is packed under the six headings, with a grab list of the last-minute items taped to its top.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "cites": [
+        "ready-kit"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-08",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Collect the emergency gear you already own",
+      "why": "Most homes already hold part of a kit, and finding it first stops you buying things twice.",
+      "how": "Walk through every room with a box and collect flashlights, spare batteries, power banks, a battery radio, first-aid supplies, blankets and any camping gear. Test each item, charge what can be charged and throw out leaking batteries. Put everything in one known place and list what is missing.",
+      "done": "Every item you found is tested and in one known place, with a written list of what is missing.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-09",
+      "level": 0,
+      "section": "Get alerts",
+      "title": "Sign up for your city or county emergency alerts",
+      "why": "Local alerts carry the instructions that matter most, such as which streets to leave and where help is, and most systems only reach people who have registered.",
+      "how": "Search for the name of your city or county plus \"emergency alerts\" and open the official government page. Register your cell number and your home address, and choose text messages. If the system offers other languages, choose one every adult at home can read. Add a second address such as work or school if the form allows, and have every adult in the home sign up on their own phone.",
+      "done": "You have received the confirmation text or email from your city or county alert system.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-alerts"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-10",
+      "level": 0,
+      "section": "Get alerts",
+      "title": "Switch on Wireless Emergency Alerts on every phone",
+      "why": "These alerts go to every phone in a danger area with no sign-up, so they reach you wherever you are.",
+      "how": "On an iPhone, open Settings, then Notifications, scroll to the bottom and switch on every item under Government Alerts. On an Android phone, open Settings, then Safety and emergency, then Wireless emergency alerts (or search Settings for \"emergency alerts\") and switch them all on. Do this on every phone in the household, including children's phones.",
+      "done": "Every phone in the home shows its government alert switches on.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "nws-wea",
+        "ready-alerts",
+        "fema-wea-phone"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-11",
+      "level": 1,
+      "only": { "state": ["OR"] },
+      "section": "Get alerts",
+      "title": "Register with OR-Alert if you live in Oregon",
+      "why": "Oregon runs one statewide front door that routes you to your county's alert system.",
+      "how": "Go to oralert.gov, choose your county and create an account with your cell number, email and home address. Add work and school addresses if the form allows. Add a landline if you have one, and choose text messages.",
+      "done": "Your OR-Alert account shows your cell number, email and home address.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "region": {
+        "label": "Oregon",
+        "general": "Outside Oregon, sign up with your own city or county alert system instead (U2-09)."
+      },
+      "cites": [
+        "ready-alerts",
+        "oregon-2wr"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-12",
+      "level": 1,
+      "section": "Get alerts",
+      "title": "Install an earthquake early-warning app if your region has one",
+      "why": "A few seconds of warning before the shaking arrives is enough time to get under cover.",
+      "how": "In Oregon, Washington and California, install the free MyShake app, allow it to use your location and send notifications, and leave it installed. When it sounds, drop, take cover and hold on at once without waiting to feel the shaking.",
+      "done": "The warning app for your region is on your phone with location and notifications allowed.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Wherever you live, install the FEMA app and one weather app that sends alerts for your location, and add your region's own hazard app if it has one."
+      },
+      "cites": [
+        "ready-quake",
+        "fema-app"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-13",
+      "same_as": "U2-40",
+      "level": 2,
+      "section": "Get alerts",
+      "title": "Buy a weather-alert radio",
+      "why": "A radio with its own batteries keeps bringing official warnings when the power, the internet and the phone network are all down.",
+      "how": "In the United States, buy a radio that receives NOAA Weather Radio (the seven weather-band channels between 162.400 and 162.550 MHz) and runs on batteries or a hand crank. Find your nearest transmitter and channel on the National Weather Service's NOAA Weather Radio page, tune the radio to it and write the channel on a label on the back. Outside the United States, buy a battery AM/FM radio and label it with the station your authorities use for emergency broadcasts.",
+      "done": "The radio plays your weather or emergency station on battery or crank power, and the channel is written on a label on its back.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold",
+        "shelter",
+        "evacuation"
+      ],
+      "apartment": "Reception is weaker inside concrete and steel buildings, so test the radio near a window and note where it works best.",
+      "products": [
+        "emergency-radio"
+      ],
+      "cites": [
+        "nws-nwr",
+        "ready-alerts"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-14",
+      "level": 2,
+      "section": "Get alerts",
+      "title": "Follow your local emergency management office online",
+      "why": "During a slow-moving event such as a storm or heat wave, the local office posts updates far more often than it sends alerts.",
+      "how": "Find the office's social media accounts through links on its official website, so you know they are genuine. Follow them on the one or two platforms you already use and switch on notifications for their posts. Do the same for your power and water utilities. Bookmark the office's website and your state's emergency management website on every phone in the household, after checking that each address is an official government one, such as a .gov domain. Follow your fire department's official accounts too. Treat social media as an extra: it needs data and battery, so it does not replace phone alerts and a radio.",
+      "done": "Your phone shows you following your emergency management office and your power and water utilities, with notifications on for their posts.",
+      "cites": [
+        "ready-alerts"
+      ],
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-15",
+      "level": 3,
+      "section": "Practice",
+      "title": "Talk the plan through every three months",
+      "why": "People forget plans they have only heard once, and phone numbers, schools and workplaces change.",
+      "how": "Set a repeating reminder every three months. Spend 20 minutes together going over who the out-of-area contact is, where the meeting places are, where the bags are kept and what has changed since last time. Correct the paper worksheets by hand as you go.",
+      "done": "A reminder that repeats every three months is set, and the first talk-through is done with the paper worksheets corrected by hand.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-16",
+      "level": 1,
+      "section": "Practice",
+      "title": "Walk your way out, from your door to the meeting place",
+      "why": "Walking a route shows the locked door, the dark stairwell or the hour-long walk that a map does not.",
+      "how": "With everyone who lives with you, walk one of your routes out of the neighborhood as far as your meeting place. Leaving the home by each exit is practiced in the Household drill (U2-159). Carry your bags and time the whole trip. Note anything that slowed you, such as a blocked door, a child who tired or a bag that was too heavy, and change the plan to fit. To test the whole plan, start without warning at an hour when everyone is home, and have one person text your out-of-area contact from the meeting place. Set a date to repeat the test in 6 months. Back home, ask each child what was hard and what they would pack differently.",
+      "done": "Everyone at home has walked one route to the meeting place with their bags, and the time is written down.",
+      "cites": [
+        "ready-plan"
+      ],
+      "cost": "free",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "earthquake"
+      ],
+      "apartment": "Use the stairs for the whole test, and check that each stairwell door opens and where it lets you out at street level. Let children push the stairwell door open themselves so they know how heavy it is.",
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-17",
+      "level": 1,
+      "section": "Practice",
+      "title": "Practice getting your pet ready to leave in under five minutes",
+      "why": "Frightened animals hide or fight the carrier, and that can cost you the minutes you have.",
+      "how": "Keep the carrier or the harness and leash in the same place near the door. Once a month, time yourself putting the cat in the carrier or the dog on its leash and walking to the exit, and reward the animal afterward. Leave the carrier open at home between drills so it becomes a familiar place.",
+      "done": "The carrier or the harness and leash are kept by the door, and one timed run to the exit took under five minutes.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "products": [
+        "pet-carrier",
+        "pet-harness-leash"
+      ],
+      "cites": [
+        "ready-pets"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-18",
+      "same_as": "U2-163",
+      "level": 3,
+      "section": "Practice",
+      "title": "Join the Great ShakeOut drill and Oregon's Great Camp-In",
+      "why": "A fixed public date makes sure the drill actually happens each year.",
+      "how": "Register your household at shakeout.org and, on the third Thursday of October, practice drop, cover and hold on for one minute wherever you are. Oregon's Great Camp-In asks households to live on their emergency supplies for a weekend; check the Oregon emergency management website for the date. After each one, write down what you would change.",
+      "done": "Your household has taken part in one drill, and the list of what you would change is written down.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Join your own area's yearly drill if it has one, or hold a lights-out evening at home with no mains power and no tap water."
+      },
+      "apartment": "For the Camp-In, camp indoors in one room instead of outside.",
+      "cites": [
+        "shakeout",
+        "ready-quake"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-19",
+      "level": 2,
+      "section": "Make the plan",
+      "title": "Plan around the aids and devices people in your home rely on",
+      "why": "A plan that works for a fit adult can fail someone who uses a wheelchair, a breathing machine or hearing aids.",
+      "how": "For each person, list every aid they depend on, such as a wheelchair, walker, hearing aids, glasses, a CPAP machine or an oxygen concentrator, and what keeps it working: spare batteries, a charger or a manual backup. Decide how warnings will reach anyone who cannot hear or see an alert, for example a phone set to flash and vibrate, or a named neighbor who knocks. Write this by hand on the Household sheet.",
+      "done": "Each person's aids, what keeps them working and how warnings reach them are written by hand on the Household sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Add how each person gets down the stairs when the elevator is out, and where they wait if they cannot.",
+      "worksheet": "household-sheet",
+      "cites": [
+        "ready-disability"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-20",
+      "same_as": "FN-12",
+      "level": 2,
+      "section": "Make the plan",
+      "title": "Ask your doctor or pharmacist how to keep spare doses",
+      "why": "Pharmacies may be shut or out of stock for days, and some medicines cannot safely be skipped.",
+      "how": "At your next appointment, or by phone this week, ask your prescriber or pharmacist: \"How can I keep an emergency supply of each of my medicines?\" Ask about a 90-day prescription, an early refill and what your insurer allows. Aim for the number of days the site works out from your household setup, with at least 7 if your prescriber agrees, and keep no more than they allow; refill as soon as you are allowed so the spare is always there.",
+      "done": "Your prescriber or pharmacist has told you how to keep a spare supply of each medicine and how many days they allow.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "medication_days",
+      "cites": [
+        "cdc-medications-emergency",
+        "redcross-kit"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-21",
+      "same_as": "MD-03",
+      "level": 1,
+      "section": "Documents",
+      "title": "Scan your key documents and photos onto a protected drive",
+      "why": "A drive the size of a thumb can hold every paper and photo you would need to prove who you are and rebuild.",
+      "how": "Use your phone's built-in document scanner to save each important paper as a PDF, and copy the family photos you could not replace. Put the files on a USB stick or external drive that is encrypted with a password, and keep it in your grab bag. Tick off each item on the Document checklist; the site holds none of your files.",
+      "done": "The encrypted drive holds your scanned papers and photos, opens with its password, sits in your grab bag, and the Document checklist is ticked.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "usb-drive-encrypted"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "ready-financial"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-22",
+      "level": 1,
+      "scope": "home",
+      "section": "Documents",
+      "title": "Add proof of where you live and work",
+      "why": "Aid programs, insurers and officials letting residents back in often ask for proof of address, and renters have no deed to show.",
+      "how": "Copy the signed lease or rental agreement for this home and one recent utility bill for this address in your name; if you own the home, use the deed or a mortgage statement in place of the lease. Put the paper copies in your document pouch and the scans on your protected drive. Tick them off on the Document checklist. Add one letter from your employer confirming your job, if you can get one; it goes in the pouch once, not once for each home. Swap the bill for a newer one at each annual review.",
+      "done": "Copies of the lease or deed and a recent utility bill for this home are in your document pouch and on your protected drive, and ticked on the Document checklist.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "fema-disaster-assistance"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-23",
+      "same_as": "U8-10",
+      "level": 3,
+      "section": "Get alerts",
+      "title": "Update your alert sign-up whenever you move or change number",
+      "why": "Local alerts are sent by address and phone number, so an old entry sends your warnings somewhere else.",
+      "how": "Add \"update emergency alerts\" to your moving checklist and to your yearly review. When your address or mobile number changes, log in to your city or county alert account that week and correct it, or register afresh if you have moved to a new area. Check every adult's entry, not just your own.",
+      "done": "The words \"update emergency alerts\" are on your moving checklist and your yearly review, and every adult's alert entry shows their current address and number.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-alerts"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-24",
+      "same_as": "U8-11",
+      "level": 3,
+      "section": "Get alerts",
+      "title": "Add alerts for the other places you spend time",
+      "why": "You are as likely to be at work, at school or at a relative's home as in your own when a warning goes out.",
+      "how": "In your local alert account, add the addresses of your workplace, your children's schools and any relative you would go to help. If one of them is in another city or county, sign up with that area's system too. In the FEMA app you can follow up to five locations anywhere in the United States.",
+      "done": "Your alert account lists the address of each workplace, school and relative you would go to help.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-alerts",
+        "fema-app"
+      ],
+      "toolkit_page": "6-8"
+    },
+    {
+      "id": "U2-25",
+      "level": 1,
+      "section": "Practice",
+      "title": "Send your child on a hunt for their grab bag items",
+      "why": "Children stay calmer and help more when they chose and packed their own things.",
+      "how": "Write or draw a list of six to eight things for the child's bag, such as a flashlight, a water bottle, a snack, a warm top, a small toy and a family photo. Give them 15 minutes to find each one at home and pack it themselves. Or take a walk together and spot things that relate to emergencies, such as fire hydrants, exit signs and the meeting place.",
+      "done": "Your child has packed every item on the list into their own bag, or has pointed out the meeting place on your walk.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "under5",
+          "school_age"
+        ]
+      },
+      "toolkit_page": "45"
+    },
+    {
+      "id": "U2-26",
+      "same_as": "U2-16",
+      "level": 3,
+      "section": "Practice",
+      "title": "Run a one-hour rehearsal of the plan with your children",
+      "why": "Acting the plan out once makes it familiar, so a real event is less frightening for a child.",
+      "how": "Pick an hour after dinner or at a weekend. Say \"we need to leave\", then have everyone fetch their bag and shoes, leave by your planned exit and walk to the meeting place just outside your building. Back home, ask each child what was hard and what they would pack differently.",
+      "done": "Everyone has fetched their bag and shoes and walked to the meeting place outside your building, and each child has said what was hard.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "child"
+        ]
+      },
+      "apartment": "Use the stairs, and let children push the stairwell door open themselves so they know how heavy it is.",
+      "toolkit_page": "45"
+    },
+    {
+      "id": "U2-27",
+      "level": 3,
+      "section": "Practice",
+      "title": "Repeat the rehearsal as a game every few months",
+      "why": "Young children forget within weeks, and repeating it as play keeps the steps fresh without making them anxious.",
+      "how": "Set a reminder every three or four months. Change one thing each time: use the other exit, do it after dark with flashlights, or time it and try to beat the last result. Keep it short and finish with something the children enjoy.",
+      "done": "A reminder every three or four months is set, and the first repeat is done with one thing changed.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "under5",
+          "school_age"
+        ]
+      },
+      "toolkit_page": "45"
+    },
+    {
+      "id": "U2-28",
+      "same_as": "BG-02",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Choose a backpack you already own as your grab bag",
+      "why": "A bag you already have costs nothing and leaves both hands free on stairs and in crowds.",
+      "how": "Pick a sturdy backpack with two shoulder straps, such as an old school or hiking bag, one for each person who can carry one. Empty it, check the zips and straps, and put it by the door you would leave through. If nothing suitable is in the house, the product list shows what to look for.",
+      "done": "Each person who can carry one has an emptied backpack with working zips and straps by the door you would leave through.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "bag-bugout-pack"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-29",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Keep your home supplies together in a lidded bin",
+      "why": "Supplies scattered across cabinets and closets get used up or cannot be found in the dark.",
+      "how": "Buy one or two plastic bins with clip-on lids, about 12 to 18 gallons each, and label them \"emergency supplies\". Put the gear that is not food or water inside: lights, radio, batteries, first-aid kit, hygiene items. Pack each bin light enough for one adult to lift, and tape a list of the contents inside the lid.",
+      "done": "The gear is in labeled bins that one adult can lift, each with a list of its contents taped inside the lid.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Two small bins that slide under a bed or sit on a closet floor work better than one large one, and they can be carried down the stairs.",
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-30",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Move anything water would ruin into a waterproof container",
+      "why": "Burst pipes, sprinklers, floods and rain destroy papers, matches and electronics long before they harm cans and bottles.",
+      "how": "Put documents, electronics, matches, medicines and spare clothing into a container with a gasket seal, such as a latching waterproof box or a roll-top dry bag. For a cheap version, line an ordinary bin with a heavy trash bag and twist it shut before closing the lid. Keep paper documents in their own waterproof pouch inside the grab bag.",
+      "done": "Documents, electronics, matches, medicines and spare clothing are in a sealed container, and the papers are in a waterproof pouch inside the grab bag.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Choose a size you can carry down the stairs by yourself and store it off the floor, where a leak from the unit above will not pool around it.",
+      "products": [
+        "document-pouch"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-31",
+      "same_as": "U7-07",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Put a first-aid kit together for the home",
+      "why": "When ambulances are delayed and pharmacies are shut, small injuries have to be treated at home.",
+      "how": "Buy a ready-made home kit sized for a family, or fill a box with: plasters in mixed sizes, sterile gauze pads, a roller bandage, adhesive tape, antiseptic wipes, antibiotic ointment, two pairs of non-latex gloves, tweezers, scissors, a thermometer, an instant cold pack, an emergency blanket and a first-aid booklet. Keep it where every adult can reach it. Once a year, replace anything used or past its date.",
+      "done": "The first-aid kit holds every item on the list and sits where every adult can reach it.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "first-aid-kit-home"
+      ],
+      "cites": [
+        "redcross-firstaid-kit"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-32",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Collect empty containers that are safe for drinking water",
+      "why": "Having containers ready is the first step to stored water, and lets you fill up fast when a warning comes.",
+      "how": "Save clean 2-liter soda bottles with screw caps, or buy food-grade water containers. Do not use milk or juice cartons and jugs, glass, or anything that has ever held bleach, cleaners or other chemicals. The site works out how many gallons your household needs from your household setup, so you know how many containers to collect.",
+      "done": "Clean, safe containers are set aside, enough to hold the gallons the site works out for your household.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "heat"
+      ],
+      "products": [
+        "water-container-rigid"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-33",
+      "same_as": "U4-14",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Fill your containers with three days of drinking water",
+      "why": "Taps can stop within hours of a power failure or a main break, and people need water every day.",
+      "how": "Wash each container with dish soap and rinse it. Then shake 1 teaspoon of plain unscented household bleach in 1 quart (about 1 liter) of water around the inside, wait 30 seconds, pour it out and let the container air-dry. Fill it from the cold tap, cap it tightly, label it \"drinking water\" with the date, and store it somewhere cool and dark, away from chemicals; refill every 6 months. Plan on 1 gallon (about 4 liters) per person per day: the site works out the three-day total from your household setup.",
+      "done": "Capped containers labeled \"drinking water\" with the date hold the three-day amount the site works out for your household, stored cool and dark.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 40,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "heat"
+      ],
+      "products": [
+        "water-container-rigid",
+        "water-sealed-bottled"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store",
+        "ready-water"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-34",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Build your water store up to two weeks for everyone",
+      "why": "After a major disaster, water service can take far longer than three days to come back.",
+      "how": "Two weeks means 14 gallons for each person; the site works out your household total from your setup. Add to your store in steps, for example one extra container or case of sealed water each week, mixing your own filled containers with store-bought sealed water if you prefer. Date every container, refill home-filled ones every 6 months and replace sealed water by its printed date.",
+      "done": "Your dated containers add up to the two-week amount the site works out for your household.",
+      "cost": "mid",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "heat"
+      ],
+      "apartment": "Water weighs 8.3 pounds a gallon, so two weeks for four people is about 465 pounds: spread it across several rooms, low down and against walls, not in one stack.",
+      "products": [
+        "water-container-rigid",
+        "water-sealed-bottled"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store",
+        "ready-water"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-35",
+      "same_as": "U4-10",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Keep supplies for making doubtful water safe to drink",
+      "why": "If your stored water runs out, you need a way to make other water safe to drink.",
+      "how": "Keep three things together: a small bottle of plain unscented bleach (5% to 9% on the label) with a dropper, replaced every year; a pack of water treatment tablets; and a portable water filter. Use the drinking-water directions printed on your own bottle if it has them: they are written for that exact strength. If the label gives none, check that it is plain unscented bleach of 5% to 9% sodium hypochlorite and use CDC's table: 8 drops per gallon of clear water, or 2 drops per quart. Double it if the water is cloudy, colored or very cold. Stir and wait at least 30 minutes before drinking. Bleach does not make water safe from fuel or chemicals. Most portable filters do not remove viruses, so add bleach or tablets after filtering. Where you can heat water, a rolling boil for 1 minute (3 minutes above 5,000 feet) is the surest method.",
+      "done": "Plain unscented bleach with a dropper, a pack of water treatment tablets and a portable water filter are kept together in one place.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "water-filter-portable",
+        "water-treatment-tablets",
+        "water-bleach"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-36",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Put three days of ready-to-eat food in each grab bag",
+      "why": "If you have to leave quickly, it may be many hours before you reach anywhere that serves food.",
+      "how": "Pack three days of ready-to-eat food for each person in the grab bag: one 3,600 kcal ration pack (about 1,200 kcal a day, which keeps you going but is not a full diet) plus a day of snacks you already eat. Small children get food they already eat, never ration bars or whole nuts. Check the dates twice a year and eat and replace anything close to expiry.",
+      "done": "Each grab bag holds three days of ready-to-eat food for its owner, with dates you have checked.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "food-ration-bars"
+      ],
+      "cites": [
+        "cdc-choking-hazards"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-37",
+      "same_as": "X3-01",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Set aside three days of food that needs no cooking",
+      "why": "In an outage, shops may be shut and an electric kitchen cannot cook, so the first days depend on what is already on your shelf.",
+      "how": "Stock three days of shelf-stable food your household already eats and can eat cold: canned fish, beans, meat, fruit and vegetables, nut butter, crackers, cereal, long-life milk and snack bars. The site works out the amount from your household setup. Keep it together on one shelf with a manual can opener, and write the purchase month on each item.",
+      "done": "The three-day amount of no-cook food the site works out is on one shelf with a manual can opener, each item marked with its purchase month.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "cold",
+        "heat"
+      ],
+      "products": [
+        "manual-can-opener"
+      ],
+      "calc": "food",
+      "cites": [
+        "ready-food"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-38",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Build your food store up to two weeks for everyone",
+      "why": "After a major disaster, stores and deliveries can stay disrupted well beyond the first three days.",
+      "how": "Each time you shop, buy a few extra of the shelf-stable foods you already eat until you reach the 14-day amount the site works out from your household setup. Store the newest at the back and eat from the front, replacing what you use. Include some food that needs no cooking for every day, and enough for any special diet in the household.",
+      "done": "Your shelves hold the 14-day amount the site works out for your household, with the newest at the back.",
+      "cost": "high",
+      "time": "ongoing",
+      "minutes": 30,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "cold",
+        "heat"
+      ],
+      "apartment": "Spread it across under-bed bins, closet floors and high shelves, in hard-sided containers that keep pests out.",
+      "products": [
+        "food-storage-bins"
+      ],
+      "calc": "food",
+      "cites": [
+        "ready-food"
+      ],
+      "toolkit_page": "46"
+    },
+    {
+      "id": "U2-39",
+      "same_as": "U6-22",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Get a battery light for each person and a lantern for the room",
+      "why": "Battery lights let you move safely in a dark home or stairwell without the fire risk that candles bring.",
+      "how": "Have one LED flashlight or headlamp per person, kept by each bed, and one LED lantern to light the room you gather in. Choose models that take AA or AAA batteries so one stock of spares fits everything. Store the spare batteries beside the lights, and do not use candles.",
+      "done": "A working battery light is by each bed, a lantern is in the room you gather in, and spare batteries are beside the lights.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "apartment": "A headlamp matters most on the stairs, where you need a hand for the rail and the building's emergency lighting may have run down.",
+      "products": [
+        "flashlight",
+        "lantern",
+        "headlamp"
+      ],
+      "cites": [
+        "redcross-outage",
+        "ready-outage"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-40",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Put a battery, hand-crank or solar radio in the kit",
+      "why": "Broadcast radio is often the only source of official news once phone batteries and networks give out.",
+      "how": "Keep one AM/FM radio that runs without wall power: on replaceable batteries, a hand crank or a small solar panel. If you bought a weather-alert radio, it counts. Store it in the kit with a spare set of batteries beside it, and test it every 6 months. In the United States, choose one that also receives the NOAA weather band, then write your local stations on a label stuck to the radio (see CM-11).",
+      "done": "The radio plays a station on battery, crank or solar power and is in the kit with a spare set of batteries beside it.",
+      "apartment": "Reception can be weak deep inside a concrete building, so test the radio at a window and note where it works best.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "shelter",
+        "evacuation"
+      ],
+      "products": [
+        "emergency-radio",
+        "pocket-radio"
+      ],
+      "cites": [
+        "ready-kit",
+        "nws-nwr",
+        "ready-alerts"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-41",
+      "same_as": "PL-09",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Stock spare batteries for every device in the kit",
+      "why": "A light or radio is only useful for as long as its batteries last.",
+      "how": "List each battery-powered item in your kit with the size and number of batteries it takes. Count the cells in every light and radio you own and keep twice that number spare. For example, two headlamps that each take three AAA cells need twelve spare AAA cells, on top of the six in the lamps. Keep them in their packaging in a cool, dry place, outside the devices, and replace them by the date printed on the pack.",
+      "done": "The list of battery sizes is written, and the kit holds twice as many spare cells as your lights and radios take, still in their packaging.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "batteries-disposable"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-42",
+      "same_as": "U3-15",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Set aside plates, cups and utensils that need no dishwashing",
+      "why": "Washing dishes uses water you will want for drinking.",
+      "how": "Put a pack of 50 paper plates, a pack of 50 paper cups and a box of disposable cutlery with your food store, or about three plates and two cups per person per day. Add one reusable cup and spoon per person, marked with their name, which can be wiped clean.",
+      "done": "Paper plates, paper cups and disposable cutlery are with your food store, with a named reusable cup and spoon for each person.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-43",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Add what your baby or small child needs",
+      "why": "Babies and toddlers cannot go without or make do, and their supplies are the first to sell out.",
+      "how": "Store diapers and wipes in the current size, and baby food. If your baby has formula, store it ready-to-feed where your baby's own formula is sold that way, because it needs no water; otherwise store the powder with sealed bottled water measured for it, and mix each feed fresh. Add disposable cups for when bottles cannot be washed in safe water. The site works out diaper numbers from your household setup. Keep to the brands your child already uses, add a spare comfort item, and check sizes every three months.",
+      "done": "Diapers in the current size and the number the site works out are stored with wipes, baby food and, if your baby has formula, ready-to-feed formula or the powder with sealed bottled water for it, and cups.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "has": [
+          "under5",
+          "diapers",
+          "formula"
+        ]
+      },
+      "products": [
+        "diaper-kit",
+        "infant-formula-ready"
+      ],
+      "calc": "diapers",
+      "cites": [
+        "cdc-infant-formula",
+        "cdc-infant-feeding",
+        "aap-family-kit"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-44",
+      "same_as": "U3-22",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Keep a fire extinguisher by your exit and learn to use it",
+      "why": "A small fire caught in its first moments can be put out before it spreads, but only if the extinguisher is within reach and you know how it works.",
+      "how": "Buy a multipurpose extinguisher marked ABC, big enough for a small fire but light enough for every adult to lift, and mount it near your exit door. Learn the four steps on the label: pull the pin, aim at the base of the fire, squeeze the handle, sweep from side to side. Use it only on a small fire that is not spreading, once everyone else is leaving and the fire department has been called, and keep your back to a clear way out. Check now and then that the pressure gauge needle is in the green.",
+      "done": "The ABC extinguisher is mounted near your exit door with its gauge needle in the green, and every adult has lifted it and read the four steps on its label.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Also find the extinguisher cabinets, hose reels and alarm pull stations on your floor, since the nearest one may be in the corridor.",
+      "products": [
+        "fire-extinguisher"
+      ],
+      "cites": [
+        "nfpa-extinguisher",
+        "ready-homefire"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-45",
+      "same_as": "U6-05",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Keep the tools for your shut-offs beside the shut-offs",
+      "why": "A burst pipe has to be stopped in minutes, which leaves no time to search for a tool.",
+      "how": "Ask your gas and water utilities which tool each of your shut-offs needs; usually it is an adjustable wrench of 12 inches or longer for the gas meter valve and a meter key for a street-side water valve. Tie or hang each tool within reach of its valve. Leaving comes before any valve. If you smell gas or hear hissing, get everyone out at once. Touch no switches, appliances or phones on the way, and do not stop to find or turn a valve. Do not go back in. From a safe distance call the gas utility's emergency number or 911. Only the utility turns the gas back on.",
+      "done": "The tool your utility named for each shut-off is tied or hung within reach of its valve.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "HR-15",
+      "apartment": "In an apartment the meters and main valves belong to the building and are not yours to touch; learn your own breaker panel and fixture valves instead, which need no tools.",
+      "cites": [
+        "peoples-gas-emergency",
+        "nicor-gas-safety",
+        "dte-gas-leak",
+        "ready-skills"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-46",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Pack one full change of clothes for each person",
+      "why": "Wet or dirty clothing makes people cold and miserable quickly, and you may leave in whatever you were wearing.",
+      "how": "For each person, pack the change of clothes on the Grab bag list: 2 underwear, 2 pairs of socks, 1 long-sleeved top, 1 pair of long trousers and 1 warm layer, sealed in a zip bag inside their grab bag. Use clothes you already own. Swap them when the season changes and whenever a child has grown.",
+      "done": "Each grab bag holds its owner's change of clothes from the Grab bag list, sealed in a zip bag.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "cold"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-47",
+      "same_as": "U6-12",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Set aside a warm blanket or sleeping bag for each person",
+      "why": "With the heating off, bedding is what keeps people warm overnight.",
+      "how": "Count the blankets, duvets and sleeping bags you own and make sure there is at least one warm layer per person beyond what is on the beds. Store the spares together where you can find them in the dark. If you are short, a sleeping bag packs smaller than a blanket and can go with you if you leave.",
+      "done": "One spare warm blanket or sleeping bag per person, beyond what is on the beds, is stored together where you can find it in the dark.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "cold",
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "sleeping-bag"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-48",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Keep a pair of sturdy shoes for each person with the bags",
+      "why": "You may have to walk a long way, over broken glass or debris, in whatever is on your feet.",
+      "how": "For each person, choose closed-toe shoes or boots with a thick sole that are already worn in, such as old trainers or walking shoes. Tie them to the grab bag or stand them beside it with a pair of socks tucked inside. Check children's sizes every 6 months.",
+      "done": "A pair of worn-in closed-toe shoes with socks inside is tied to each person's grab bag or stands beside it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "earthquake"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-49",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Seal matches or a lighter in a waterproof container",
+      "why": "A dry way to light a flame is useful outdoors after you have left home, and matches are ruined by a single soaking.",
+      "how": "Put a box of matches or two lighters in a small screw-top tub or a zip bag and keep it in the kit, out of children's reach. They are for outdoor use only, such as lighting a camp stove well away from any building. Indoors, use battery lights instead of candles. If you smell gas, follow the gas steps (AR-13).",
+      "done": "Matches or two lighters are sealed in a screw-top tub or zip bag in the kit, out of children's reach.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Nothing in an apartment plan needs a flame: do not burn candles, fuel or camp stoves indoors or on a balcony.",
+      "cites": [
+        "redcross-outage"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-50",
+      "same_as": "MD-01",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Put cash in small bills in your grab bag",
+      "why": "Card readers and cash machines stop working when the power or the network is down.",
+      "how": "Keep notes of $1, $5, $10 and $20, since shops may not be able to give change. Official guides differ on how much, from about $150 to a week of essentials; the site suggests a figure from your household setup and labels it as an estimate. Build it up by $5 or $10 a week, and keep it in a sealed envelope in the bag's document pouch.",
+      "done": "A sealed envelope in your grab bag's document pouch holds small bills up to the figure the site suggests for your household.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "calc": "cash",
+      "cites": [
+        "ready-financial",
+        "fema-effak"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-51",
+      "same_as": "AR-09",
+      "level": 2,
+      "section": "Gather supplies",
+      "title": "Store pre-cut plastic sheeting and duct tape for sealing a room",
+      "why": "If a chemical release means you are told to seal a room, you will have minutes to do it and no time to measure or shop.",
+      "how": "Pick a room on the highest floor you can, with the fewest windows, doors and vents. Measure each opening, cut a piece of plastic sheeting 4 mil or thicker several inches larger on every side, and label each piece with the opening it fits. Store the pieces in that room with a full roll of duct tape and a pair of scissors. A sealed room is for a few hours (AR-11 has the air limit); stay until officials say the air is clear or tell you to leave.",
+      "done": "A labeled piece of plastic sheeting cut for every opening of your chosen room is stored in it with a full roll of duct tape and scissors.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "shelter"
+      ],
+      "apartment": "Shared ventilation can carry outside air into your unit, so ask management how the building's air system is shut down and cut pieces for your vents and exhaust fans too.",
+      "products": [
+        "plastic-sheeting-tape"
+      ],
+      "cites": [
+        "fema-shelter-room-faq",
+        "osha-shelter-in-place",
+        "ready-shelter",
+        "ready-chemical"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-52",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Pack a spare phone charger and cable for each phone",
+      "why": "Your phone is your alerts, map, light and contact list, and the charger you use every day will be left in the wall when you leave.",
+      "how": "Put a wall plug and a cable that fits each phone in the household into the grab bag, and keep them there. Add a charged power bank and top it up every three months. Label the cables if your phones use different connectors.",
+      "done": "The grab bag holds a wall plug and a cable that you have seen charge each phone, and a charged power bank.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "usb-charging-kit",
+        "power-bank"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-53",
+      "level": 3,
+      "section": "Gather supplies",
+      "title": "Add a solar charger only if you have direct sun",
+      "why": "In an outage that lasts longer than your power banks, sunlight is one of the few ways to recharge a phone.",
+      "how": "Choose a folding panel of about 20 watts or more with a USB output, and use it to refill a power bank rather than charging a phone directly. Test it for a full sunny day and note how much charge the power bank gained. If it gained little, put the money into a second power bank instead.",
+      "done": "The panel has been tested for a full sunny day, and how much charge the power bank gained is written down.",
+      "cost": "mid",
+      "time": "afternoon",
+      "minutes": 30,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Panels need direct sun: behind window glass or in the shade of other buildings the output drops sharply, so test from your own window or balcony before relying on one.",
+      "products": [
+        "solar-panel-portable",
+        "power-bank"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-54",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Put a spare set of keys in your grab bag",
+      "why": "People who leave in a hurry often lock themselves out of their home or car.",
+      "how": "Have copies cut of your home key, and of your mailbox, storage and bike-lock keys if you use them; add a spare car key if you have a car. Put the set on one ring in an inside pocket of the grab bag. Give a second home key to someone you trust who lives nearby.",
+      "done": "A ring of spare keys you have tried in each lock is in an inside pocket of the grab bag, and a trusted person nearby holds a second home key.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Electronic fobs and keypads may not open doors when the power is out, so ask management for a physical key or the manual way in.",
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-55",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "Gather supplies",
+      "title": "Add a pair of work gloves for each adult",
+      "why": "Clearing broken glass, moving debris or carrying heavy loads with bare hands leads to cuts that are hard to keep clean without running water.",
+      "how": "Buy one pair of leather or heavy-duty work gloves per adult, in a size that fits snugly. Keep one pair in each grab bag and, if you have more, a pair with the shoes beside the bed.",
+      "done": "Each adult has tried on their own pair of work gloves, and a pair is in each grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "work-gloves"
+      ],
+      "toolkit_page": "46-47"
+    },
+    {
+      "id": "U2-56",
+      "same_as": "U5-01",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock hand sanitizer with at least 60% alcohol",
+      "why": "When the taps are off, clean hands are still what stops stomach bugs passing round a household.",
+      "how": "Check the label says at least 60% alcohol. Keep one large bottle where your emergency toilet will be, one in the kitchen and a small one in each grab bag. Sanitizer works poorly on hands that are visibly dirty or greasy, so wash those with soap and a little water first.",
+      "done": "Sanitizer labeled at least 60% alcohol is where your emergency toilet will be, in the kitchen and in each grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "hand-sanitizer"
+      ],
+      "cites": [
+        "cdc-sanitizer",
+        "cdc-handwashing"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-57",
+      "level": 3,
+      "section": "Hygiene and health supplies",
+      "title": "Add sunscreen and insect repellent to the kit",
+      "why": "Leaving home on foot or waiting in line outdoors for water can mean hours outside, when you would normally be indoors.",
+      "how": "Put one bottle of the broad-spectrum sunscreen and one of the insect repellent your household already uses in the grab bag, in a sealed plastic bag in case they leak. Check the expiration dates once a year and replace them when they pass.",
+      "done": "A bottle of sunscreen and one of insect repellent, both in date, are in the grab bag inside a sealed plastic bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "heat"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-58",
+      "same_as": "U5-06",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock period products for a full cycle",
+      "why": "Shops may be shut for the whole of a period, and there may be little water for washing.",
+      "how": "For each person who menstruates, store at least one full cycle of the pads, tampons or cup they normally use, and two cycles once you are planning for two weeks. Add a few days' worth to their grab bag, with small sealable bags for used items. Used products go in the trash, never down the toilet.",
+      "done": "At least one full cycle of each person's usual products is stored, with a few days' worth and sealable bags in their grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "menstrual-backup"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-59",
+      "same_as": "FN-12",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Keep a spare supply of every prescription medicine",
+      "why": "Running out of a daily medicine can turn an inconvenience into a medical emergency.",
+      "how": "For each prescription, hold spare doses for the number of days the site works out from your household setup, with at least 7 if your prescriber agrees; keep only what your prescriber or pharmacist allows. Keep them in their original labeled containers, use the oldest first and put each new refill at the back. Daily medicines cannot live in the grab bag, so write them first on the grab list taped to it.",
+      "done": "Every prescription has the agreed spare supply at home, in its labeled container, rotated oldest first.",
+      "cost": "mid",
+      "time": "ongoing",
+      "minutes": 20,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "medication_days",
+      "cites": [
+        "cdc-medications-emergency",
+        "redcross-kit"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-60",
+      "same_as": "X7-04",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock the common over-the-counter medicines you use",
+      "why": "Headaches, fevers and upset stomachs still happen in an emergency, and the pharmacy may be closed.",
+      "how": "Keep one unopened pack each of a pain and fever reliever, oral rehydration salts, an antihistamine, an anti-diarrhea medicine, an antacid and a laxative, choosing the ones your household already uses. If children live with you, ask their doctor or pharmacist which medicines to keep, and write each child's dose for their current weight on the medication list (FN-04). The usual two are children's liquid acetaminophen, and children's ibuprofen only for a child aged 6 months or more, each with an oral syringe marked in milliliters. Do not give aspirin to a child or teenager unless their doctor says to. Do not give anti-diarrhea medicine to a baby, toddler or young child, or cough-and-cold medicine to a child under 4, unless their doctor says to. Never give honey to a baby under 12 months. For a child with diarrhea or vomiting, ask the doctor about oral rehydration solution and stock what they advise. Check the expiry dates once a year.",
+      "done": "One unopened, in-date pack of each medicine your household uses is stored, and any child's dose from their doctor or pharmacist is written on the Medication list.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-kit",
+        "aap-acetaminophen",
+        "aap-ibuprofen",
+        "aap-reye-syndrome",
+        "fda-cough-cold-children",
+        "niddk-diarrhea-treatment",
+        "cdc-botulism-prevention"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-61",
+      "same_as": "AR-05",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Keep N95 respirators for everyone who can wear one",
+      "why": "Wildfire smoke and the dust from damaged buildings carry fine particles that cloth and surgical masks do not stop.",
+      "how": "Buy respirators marked NIOSH and N95 (AR-05 says how many to keep), and keep some in the grab bags and the rest with the home kit. Have each person try one on: it should seal against the face all round, which a beard prevents. N95s are not made to fit small children, so plan to keep children indoors in cleaner air instead.",
+      "done": "Each person who can wear one has tried on a respirator that sealed all round the face, and the rest are split between the grab bags and the home kit.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "smoke",
+        "earthquake"
+      ],
+      "products": [
+        "respirator-n95"
+      ],
+      "cites": [
+        "niosh-n95",
+        "cdc-wildfire-smoke",
+        "cdc-wildfire-stay-safe"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-62",
+      "same_as": "U5-01",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock moist wipes for washing without water",
+      "why": "Wipes keep skin clean when there is no water to spare for washing.",
+      "how": "Store one pack of at least 50 body or baby wipes per person for each week you are planning for, plus a small pack in each grab bag. Keep the packs sealed so they do not dry out, and replace them every two years. Put used wipes in the trash; they block drains if flushed.",
+      "done": "Sealed packs of wipes are stored, one per person for each week you are planning for, with a small pack in each grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "products": [
+        "body-wipes"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-63",
+      "level": 3,
+      "section": "Hygiene and health supplies",
+      "title": "Stock heavy-duty garbage bags",
+      "why": "Strong bags hold trash while collections are stopped, line an emergency toilet and keep gear dry.",
+      "how": "Keep one roll of large, thick contractor-grade bags for household trash and one roll of heavy-duty 13-gallon kitchen bags, at least 0.9 mil thick, for lining a toilet or bucket. Store both with your hygiene supplies. The toilet actions in the Waste and Hygiene module work out how many liner bags your household needs.",
+      "done": "One roll of contractor-grade bags and one roll of heavy-duty 13-gallon kitchen bags are stored with your hygiene supplies.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "trash-bags-contractor",
+        "toilet-liner-bags"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-64",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock a surface disinfectant that kills norovirus",
+      "why": "With little water for cleaning, a ready disinfectant by the toilet is the simplest way to keep the toilet area and food surfaces from spreading stomach bugs.",
+      "how": "Keep one surface disinfectant whose EPA Reg. No. is on EPA's List G for norovirus: a ready-to-use bleach spray, bleach wipes, or plain disinfecting bleach mixed fresh each day. Most ordinary household disinfecting wipes are not on that list. Keep it by the emergency toilet. Wipe the toilet seat, door handles and food surfaces every day, and leave the surface wet for the norovirus time on the label or on List G. It is for surfaces, not skin; used wipes and cloths go in the trash.",
+      "done": "A surface disinfectant whose EPA Reg. No. is on List G is kept where the emergency toilet will be.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "disinfectant-surface"
+      ],
+      "toolkit_page": "47",
+      "cites": [
+        "epa-list-g-norovirus",
+        "cdc-norovirus-clean"
+      ]
+    },
+    {
+      "id": "U2-65",
+      "same_as": "U3-29",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Set aside extra paper towels",
+      "why": "Paper towels do the drying and wiping that cloths cannot do once there is no water to wash the cloths.",
+      "how": "Keep at least four rolls beyond what you normally have in the house, stored with the kit. Use them to dry hands, wipe plates and pans clean instead of washing them, and mop up spills.",
+      "done": "At least four rolls of paper towels beyond your normal supply are stored with the kit.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-66",
+      "level": 2,
+      "section": "Hygiene and health supplies",
+      "title": "Stock spare soap",
+      "why": "Washing with soap and water removes more kinds of germs than hand sanitizer does.",
+      "how": "Keep two bars of soap or one bottle of liquid soap per person beyond what is in use, and put a travel-size one in each grab bag. With little water, wet your hands, lather for 20 seconds, then rinse with a small pour from a jug or bottle. Wash after using the toilet and before touching food.",
+      "done": "Spare soap, two bars or one bottle per person, is stored, and a travel-size one is in each grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "cites": [
+        "cdc-handwashing"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-67",
+      "same_as": "MD-02",
+      "level": 1,
+      "section": "Documents",
+      "title": "Copy your driver's license or ID card and your passport",
+      "why": "A copy of your photo ID speeds up replacing the original and dealing with a bank, a pharmacy or an aid desk, though the Red Cross says its shelters ask for no ID.",
+      "how": "Photocopy or scan the front and back of each adult's license or ID card and the first two pages of each passport. Put the paper copies in the document pouch in your grab bag and the scans in your own protected storage. Tick the item on the Document checklist; the site keeps no copies.",
+      "done": "Copies of each adult's ID and passport pages are in the grab bag's document pouch, the scans are in your protected storage, and the Document checklist is ticked.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "document-pouch"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "redcross-shelter"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-68",
+      "level": 1,
+      "section": "Documents",
+      "title": "Find your Social Security card and secure the number",
+      "why": "The number is needed to apply for aid, benefits and replacement documents.",
+      "how": "Find each household member's Social Security card. Keep the card, and any copy of it, in your safe place at home with your other important papers, not in a wallet or a bag. Make sure each adult knows their number by heart. Tick the item on the Document checklist.",
+      "done": "Every household member's Social Security card is in your safe place at home, not in a wallet, and the item is ticked on the Document checklist.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "usagov-identity-theft",
+        "ssa-number-card-leaflet"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-69",
+      "level": 1,
+      "section": "Documents",
+      "title": "Copy each person's birth certificate",
+      "why": "A birth certificate proves identity and family relationships, and it is the document needed to replace most others.",
+      "how": "Find the certificate for every member of the household and photocopy or scan it. If one is missing, order a certified copy now from the vital records office of the state or country of birth; it usually costs under $30 and takes several weeks. Keep the originals in your safe place at home and the copies in the grab bag pouch, then tick the item on the Document checklist.",
+      "done": "A copy of each person's birth certificate is in the grab bag pouch, any missing one is on order, and the item is ticked on the Document checklist.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-70",
+      "level": 2,
+      "scope": "home",
+      "section": "Documents",
+      "title": "Copy the lease or deed for this home and any car kept there",
+      "why": "Proof that you rent or own your home may be needed for insurance claims, disaster aid and being let back into a closed-off area.",
+      "how": "Copy every signed page of the lease for this home, or its deed and mortgage statement if you own it. For each car kept at this home, copy its title or lease and its registration. File the copies with your other documents and tick the item on the Document checklist.",
+      "done": "Copies of the lease or deed for this home, and the title and registration of each car kept there, are with your documents.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-71",
+      "same_as": "U2-88",
+      "level": 2,
+      "section": "Documents",
+      "title": "List your bank, card and investment accounts with their helpline numbers",
+      "why": "If your cards or phone are lost, you need to know who to call to stop a card, move money or delay a payment.",
+      "how": "For each bank, credit card and investment account, write by hand on the Bank and bills list: the institution, the type of account, the last four digits of the number and the customer-service phone number. Never write PINs or passwords on it. Keep the sheet with your documents and tick the item on the Document checklist; the site stores none of this.",
+      "done": "Every account is written by hand on the Bank and bills list with its helpline number, and the sheet is with your documents.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "bank-list",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-72",
+      "level": 2,
+      "section": "Documents",
+      "title": "Copy your health and life insurance details",
+      "why": "Hospitals and pharmacies ask for insurance details before treatment or refills, and your family would need the life policy details if the worst happened.",
+      "how": "Copy both sides of every health, dental and prescription insurance card. For each life insurance policy, note the insurer, the claims phone number and, only if you need it to tell policies apart, the last four digits of the policy number. Write these by hand on the Insurance and legal list, keep it with your documents and tick the item on the Document checklist.",
+      "done": "Both sides of every health, dental and prescription insurance card are copied and kept with your documents.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-73",
+      "same_as": "MD-06",
+      "level": 2,
+      "section": "Documents",
+      "title": "Put a copy of your belongings catalog with your documents",
+      "why": "An insurance claim is settled faster and more fully when you can show what you owned.",
+      "how": "Once you have a record of your belongings, on the Belongings catalog, as photos or as a room-by-room video, save a copy somewhere outside your home: on your protected drive in the grab bag, or in your own secure online storage. If you have not made one yet, a slow video of each room with drawers and closets open takes about 20 minutes. Tick the item on the Document checklist.",
+      "done": "A copy of your belongings record is saved outside your home, and the item is ticked on the Document checklist.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-74",
+      "level": 3,
+      "section": "Documents",
+      "title": "Put a copy of your will with your documents",
+      "why": "A will that nobody can find cannot be acted on.",
+      "how": "If you have a will, note on the Document checklist where the signed original is kept, put a copy with your documents and tell your executor where both are. If you have none, make an appointment with a lawyer or a legal aid service to make one; the rules differ by state and country. Do the same for any power of attorney or advance directive.",
+      "done": "A copy of each will, power of attorney and directive is with your documents and your executor knows where the signed originals are.",
+      "cost": "high",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-75",
+      "level": 2,
+      "section": "Documents",
+      "title": "Copy your marriage certificate",
+      "why": "It proves a legal relationship when you claim on a partner's insurance, deal with their accounts or make decisions on their behalf.",
+      "how": "Find your marriage or civil union certificate, and any divorce or custody papers, and photocopy or scan them. Keep the originals in your safe place at home and the copies with your other documents. Tick the item on the Document checklist.",
+      "done": "Copies of marriage, divorce and custody papers are with your documents, and the legal papers list says where each original is kept.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-76",
+      "level": 2,
+      "section": "Documents",
+      "title": "Copy adoption, citizenship and immigration papers",
+      "why": "These are among the slowest and most expensive papers to replace, and they prove your right to stay, work and care for your children.",
+      "how": "Gather adoption decrees, naturalization or citizenship certificates, green cards, visas and any military service records, and photocopy or scan each one. Keep the originals in a fire- and water-resistant box at home or in a bank safe-deposit box, and the copies with your other documents. Tick the item on the Document checklist.",
+      "done": "Copies of adoption, citizenship and immigration papers are with your documents and the originals are in a fire- and water-resistant place.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-77",
+      "level": 1,
+      "section": "Documents",
+      "title": "Get copies of your medicine and eyeglass prescriptions",
+      "why": "A written prescription lets a pharmacy or eyeglass store you have never used replace lost medicines or glasses.",
+      "how": "Ask your pharmacy to print the current medication list for each person, showing the drug, strength and dose, and ask your eye doctor for a copy of each glasses or contact lens prescription. Put the paper copies in the document pouch in your grab bag. Tick the item on the Document checklist.",
+      "done": "A pharmacy printout of each person's medicines and a copy of every glasses or contact-lens prescription are in the grab bag's document pouch.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-78",
+      "level": 3,
+      "section": "Documents",
+      "title": "Back up your important files to an external drive",
+      "why": "A computer or phone lost to fire, water or theft takes years of photos and records with it unless a copy lives somewhere else.",
+      "how": "Copy your documents folder and your photo library from each computer and phone to an external drive that is encrypted with a password. Keep the drive away from the computer, in your grab bag or at another address, and refresh the copy every three months. Tick the item on the Document checklist.",
+      "done": "An encrypted drive kept away from the computer holds your files and photos, opens with its password, and is ticked on the Document checklist.",
+      "cost": "mid",
+      "time": "afternoon",
+      "minutes": 90,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "usb-drive-encrypted"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-79",
+      "level": 3,
+      "section": "Comfort",
+      "title": "Pack books, games and comfort items for days without power",
+      "why": "Long days without power or screens are easier on everyone when there is something to read, play and look forward to.",
+      "how": "Put two or three unread paperbacks per person and two or three games that need no power, with all their pieces, in the home kit. Add a deck of cards with a slip giving the rules of two games your household likes. Add a notebook, four pencils with a sharpener and a pen. Put a few shelf-stable treats each person enjoys, such as chocolate, cookies, hard candy, instant coffee, tea bags or drink powder, with the emergency food, marked with the month, and swap them when you rotate the rest. In each grab bag, put one small book, a deck of cards, and a small notepad and pencil. If children live with you, add for each child a familiar soft toy or blanket (a spare of the favorite if you can get one), picture or chapter books, a coloring book with crayons, snacks they already like and, for a baby, a spare of the pacifier they use now. Let each child help choose, put a smaller set in their own bag, and swap items as they grow. A baby under 1 sleeps with no blanket or soft toy in their sleep space (FN-34).",
+      "done": "The books, games, cards, paper and pencils, and any child's comfort items are in the home kit, a smaller set is in each grab bag, and the treats are with the emergency food.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "cites": [
+        "aap-family-kit",
+        "cdc-safe-sleep"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-80",
+      "level": 3,
+      "same_as": "U2-79",
+      "section": "Comfort",
+      "title": "Add games that need no power",
+      "why": "Shared games pass the time and lower tension when a household is stuck indoors together.",
+      "how": "Put two or three board games, puzzles or travel games that suit your household with the home kit. Check all the pieces are there. Choose at least one that the whole household can play together.",
+      "done": "Two or three games with all their pieces are with the home kit, and at least one suits the whole household.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-81",
+      "level": 3,
+      "same_as": "U2-79",
+      "section": "Comfort",
+      "title": "Put a deck of cards in each grab bag",
+      "why": "A deck of cards weighs almost nothing and gives hours of play for any number of people.",
+      "how": "Add one standard 52-card deck to each grab bag and one to the home kit. Tuck in a slip of paper with the rules of two games your household likes.",
+      "done": "A deck of cards is in each grab bag and one is in the home kit, with a slip of rules for two games tucked in.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-82",
+      "level": 3,
+      "same_as": "U2-79",
+      "section": "Comfort",
+      "title": "Add a few comfort foods to your food store",
+      "why": "A familiar treat lifts spirits, and children are more likely to eat when something they like is on offer.",
+      "how": "Add a few shelf-stable treats each person enjoys, such as chocolate, biscuits, hard sweets, instant coffee, tea bags or drink powder. Store them with the emergency food, write the month on them and swap them when you rotate the rest.",
+      "done": "A few shelf-stable treats for each person are with the emergency food, each marked with the month.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "47"
+    },
+    {
+      "id": "U2-83",
+      "level": 3,
+      "same_as": "U2-79",
+      "section": "Comfort",
+      "title": "Add paper, pencils and a coloring book",
+      "why": "Paper and pencils are how you leave notes and keep records when phones are flat, and drawing keeps children occupied.",
+      "how": "Put a notebook, four pencils with a sharpener and a pen in the home kit, and a small notepad and pencil in each grab bag. For children, add a coloring or activity book and a small pack of crayons or colored pencils.",
+      "done": "A notebook, four pencils with a sharpener and a pen are in the home kit, and a notepad and pencil are in each grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "toolkit_page": "47"
+    }
+  ]
+}

@@ -1,0 +1,798 @@
+{
+  "batch": "water-a",
+  "checked": "2026-11-15",
+  "items": [
+    {
+      "id": "water-container-rigid",
+      "module": "water",
+      "name": "Rigid water containers",
+      "need": "Taps in tall buildings can run dry as soon as the pumps lose power, so a household needs drinking water already stored inside the apartment.",
+      "how_to_choose": "Water weighs about 8.3 lb per gallon, so pick a size you can actually lift: a 7-gallon can is close to 60 lb full, a 5.5-gallon can close to 50 lb, and a 3.5-gallon brick about 30 lb. Measure the closet floor or the gap under the bed before you buy, and choose narrow or low shapes that tuck away. Spread containers along a wall or across several closets rather than in one tall stack, and keep them upright unless the maker says they can lie on their side. Buy food-grade containers made for drinking water, with a screw cap and a vent.",
+      "qty": {
+        "basis": "water_gallons",
+        "factor": 1,
+        "note": "Work it out in three steps: the gallons you want stored, less the gallons you already hold as sealed water, divided by the gallons in one purchased pack and rounded up. Example, two adults for 14 days: 28 gallons to store, 6 already held as sealed jugs, 22 still needed; that is 4 containers of 7 gallons (28 gallons, so 6 to spare). A two-pack is two containers: a WaterBrick two-pack holds 7 gallons, not 3.5, so the same household needs 4 two-packs, which is 8 bricks. The sealed water you bought for the first 3 days counts toward the 14-day target: keep it and add containers for the rest. Do not buy 14 days of containers on top of it."
+      },
+      "already_own": "Camping water jugs you already own are fine if they are food-grade, have only ever held drinking water, close tightly and do not smell of plastic or mold after washing. Clean and sanitize them before filling. Do not press old milk or juice jugs, or anything that has held chemicals or fuel, into service.",
+      "safety_notes": [
+        {
+          "text": "Store at least 1 gallon of water per person per day for 3 days, and aim for a 2-week supply if you can. Store more for pregnant or sick people, pets and hot weather.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Plan on at least one gallon per person per day for several days, for drinking and sanitation. In very hot weather the need can double.",
+          "source_name": "FEMA / Ready.gov",
+          "source_title": "Water",
+          "url": "https://www.ready.gov/water",
+          "verified": true
+        },
+        {
+          "text": "Use FDA-approved food-grade water storage containers. If you cannot, pick a container with a tight-closing top, made of durable unbreakable material (not glass), with a narrow neck if possible. Never use a container that has held toxic chemicals such as bleach or pesticides.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "For stored water, use thoroughly washed plastic containers such as soft drink bottles, which are the best choice. Never use a container that has held toxic substances.",
+          "source_name": "FEMA (archived page, Food and Water in an Emergency)",
+          "source_title": "Food and Water in an Emergency",
+          "url": "https://webharvest.gov/peth04/20041015031112/http://www.fema.gov/rrr/foodwtr.shtm",
+          "verified": true,
+          "research_note": "Archived FEMA page. The older FEMA and Red Cross booklet also warns against reusing milk jugs, but its PDF could not be opened on 2026-11-14."
+        },
+        {
+          "text": "To sanitize a container: wash it with soap and rinse well. Mix 1 teaspoon of unscented liquid household chlorine bleach (5% to 9% sodium hypochlorite) in 1 quart of water, pour it in, close the container and shake so the mix touches every inside surface. Wait at least 30 seconds, pour it out, let the container air-dry, then fill with clean water and close it tightly.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Replace tap water you stored yourself every 6 months.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Keep stored water somewhere cool (50 to 70 F), out of direct sunlight and away from gasoline, pesticides and other toxic substances. Label each container 'drinking water' with the date you filled it.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "research_note": "2026-11-15: Rhino-Pak pages opened in a browser. relianceoutdoors.com/products/rhino-pak still lists 5.5G/23L #8580-45 (the site is a catalogue: no price or buy button is shown for any container; its page data marks the item out of stock at $21.99). REI product 244873 'Rhino-Pak EcoCore 5.5 Gallons' $27.00 'currently unavailable'. Walmart item 14550465 out of stock. Fleet Farm SKU 100213506 $22.99 out of stock in store, not available to ship. Sportsman's Warehouse 'out of stock and is not likely to be available again'. OpticsPlanet 'Discontinued by Manufacturer'. The maker has published no discontinuation notice, so 'discontinued' is the retailer's word, not the maker's. The Rhino-Pak was the Standard pick until this date; it was taken out of the tiers because it cannot be bought, and the Aqua-Tainer moved from Budget to Standard so that the Standard container and the Standard pump fit each other. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for 'water container', 'water jug', Reliance, WaterBrick and Scepter: no recalls of drinking-water containers found. | Scepter fuel containers were recalled by CPSC in October 2025 and February 2026 (fire, burn and child-poisoning hazards). That recall covers fuel cans, not water cans, but never store drinking water in a fuel can. | The Reliance Rhino-Pak 5.5 gallon (part 8580-45) is The Prepared's top pick, but it could not be found for sale on November 15, 2026: REI, Walmart, Fleet Farm and Sportsman's Warehouse showed it out of stock, and OpticsPlanet says the maker has discontinued it. Reliance's own catalog still lists it and carries no such notice. If you find one it is a good buy: about 49 lb full and only 6 inches wide, so several stand side by side at the back of a closet. It pours from its own spout, Reliance's hand pump does not fit it, and it weeps if stored on its side. | The Scepter 5-gallon Military Water Container (part 05935) is a sturdy alternative named by The Prepared as its upgrade pick; no price was confirmed for it. 2026-11-16 alignment pass: safety note said twice, removed: Water that was not commercially bottled should be replaced every six months. (https://www.ready.gov/water) 2026-11-16 alignment pass: safety note said twice, removed: CDC advises at least one gallon of water per person per day, and suggests trying to store a 2-week supply if you can. Store more for pregnant women, sick people, pets and hot weather. (https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html)",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Reliance",
+          "model": "Aqua-Tainer 7 Gallon",
+          "model_number": "9410-03",
+          "size": "7 US gal (26 L), 11.5 x 11.25 x 15.75 in, 2 lb empty, about 60 lb full",
+          "unit_size": 7,
+          "unit_label": "container",
+          "price_usd": 23.99,
+          "price_seen_at": "Academy.com, November 15, 2026",
+          "unit_price": "$3.43 per gallon of capacity",
+          "why": "The Prepared's budget pick after hands-on tests: about $3.40 per gallon of capacity, with a built-in spigot that stows inside the cap. Reliance's hand pump, this site's Standard dispenser, screws on in place of that spigot.",
+          "weakness": "At about 60 lb full it is too heavy for many people to move, so fill it where it will stay. The Prepared found the thin walls dent and bulge, and it failed their crush and drop tests, so do not stack it. A 4-gallon version (about 35 lb full) is on the same Reliance page.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+              "verified": true,
+              "note": "Page covers the 4-gallon and 7-gallon sizes. The maker's site is a catalog: buy from a retailer.",
+              "research_note": "2026-11-14: read with curl after the page fetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; no price or buy button is shown to a visitor."
+            },
+            {
+              "label": "Academy Sports",
+              "url": "https://www.academy.com/p/reliance-original-aqua-tainer-7-gallon",
+              "verified": true,
+              "note": "Item 9410-03.",
+              "research_note": "2026-11-16 alignment pass: old note: Item 9410-03 at $23.99, with 'Add to cart' shown on November 15, 2026."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B001QC31G6",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access (HTTP 503). ASIN seen in search results on 2026-11-14 for 'Reliance Products Aqua-Tainer 7 Gallon Rigid Water Container, Blue'."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Budget pick until 2026-11-15; made Standard that day because the former Standard (Reliance Rhino-Pak 8580-45) could not be found for sale at five retailers and the Standard pump does not fit it. Sources re-opened 2026-11-15: Reliance page (browser), Academy (browser, $23.99, add to cart), The Prepared (budget pick; failed crush and drop tests; most testers could not carry 7 gallons through the course).",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Aqua-Tainer",
+              "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l",
+              "verified": true,
+              "supports": "Capacity, dimensions, weight, hideaway spigot, vent cap, PFAS- and BPA-free, LFGB certified and FDA compliant food-contact claim."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Budget pick after 34 hours of research and hands-on fill, carry, leak, crush and drop tests; notes weight and durability limits."
+            }
+          ],
+          "flags": [
+            "Too heavy for many people when full (about 60 lb). Fill it in place, or choose the 4-gallon size."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'Reliance', 'water container' and 'water jug' on 2026-11-14: no Reliance water container recalls (the Reliance results were unrelated companies and products)."
+        },
+        "cadillac": {
+          "brand": "WaterBrick",
+          "model": "Standard WaterBrick 3.5 Gallon, Blue, 2-pack",
+          "model_number": "1833-0001-2",
+          "size": "Sold as a pack of 2 bricks of 3.5 US gal each, so one pack is two containers and holds 7 gal; each brick 18 x 9 x 6 in, 2.5 lb empty, about 30 lb full",
+          "unit_size": 7,
+          "unit_label": "2-pack (two 3.5-gallon bricks)",
+          "units_per_pack": 2,
+          "price_usd": 54.5,
+          "price_seen_at": "waterbrick.org, November 15, 2026 (shown as available on backorder)",
+          "unit_price": "$7.79 per gallon of capacity",
+          "why": "The apartment shape: each brick is only 6 inches tall, so it slides under a bed, and bricks interlock into a neat low stack. At about 30 lb full, most adults and teenagers can carry one. The Prepared names it the space-saver pick and found the body very solid.",
+          "weakness": "It costs more than twice as much per gallon as the Standard pick, and The Prepared rated the caps and add-on spigot as mediocre.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.waterbrick.org/product/waterbrick-standard-3-5-gallon-blue/",
+              "verified": true,
+              "note": "2-pack of two bricks.",
+              "research_note": "2026-11-16 alignment pass: old note: 2-pack at $54.50, shown as 'available on backorder'. The site banner still advertises an old Black Friday sale, so the shop may not be actively maintained."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0053GVRWQ",
+              "verified": false,
+              "note": "Check the pack size: this listing may be a single brick, not the 2-pack.",
+              "research_note": "Amazon blocked automated access. ASIN seen in search results on 2026-11-14 for a single 'WaterBrick 1833-0001 Stackable ... 3.5 gal ... Blue'. 2026-11-16 alignment pass: old note: This listing appeared to be a single brick, not the 2-pack; check the pack size before buying."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "WaterBrick International",
+              "title": "Product Specifications",
+              "url": "https://www.waterbrick.org/product-specifications/",
+              "verified": true,
+              "supports": "3.5 gal capacity, 9 x 18 x 6 in, 2.52 lb empty, HDPE body, BPA-free, FDA-compliant materials, 3.25 in lid with gasket."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Space-saver pick; unaffected by 150 lb of load; reviewers would stack three or four high; caps and spigot rated mediocre; expensive."
+            }
+          ],
+          "flags": [
+            "The spigot is sold separately."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'WaterBrick' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: off the page from flags: Shown as 'available on backorder' on the maker's own site on November 15, 2026, and the matching spigot could not be ordered there. | The spigot is sold separately ($19.95 on waterbrick.org)."
+        }
+      },
+      "empty_reason": {
+        "budget": "The Standard pick is already the cheapest container an independent tester recommends. Cheaper still is sealed supermarket water, which needs no container at all."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "No Budget pick: the Standard can is already the cheapest container a tester recommends, and sealed supermarket water needs no container at all."
+    },
+    {
+      "id": "water-sealed-bottled",
+      "module": "water",
+      "name": "Sealed bottled and long-life water",
+      "need": "Factory-sealed water is ready to store the day you buy it and needs no cleaning, filling or treating.",
+      "how_to_choose": "Ordinary supermarket water is the cheapest and works well if you use it and replace it before the date on the bottle. Long-life emergency water costs far more per gallon; what you pay for is a stated multi-year shelf life and tough small packs that suit a grab bag or a shelf you will not check often. For a car-free household, carry weight matters: a gallon jug is about 8.5 lb and a 24-bottle case about 27 lb. Keep sealed water in a cool, dark place off the floor of a sunny room.",
+      "qty": {
+        "basis": "water_gallons",
+        "factor": 1,
+        "note": "Enough sealed water for the first 3 days: 1 gallon for each person a day. At two weeks, keep it: it counts toward the 14-day total, and your own containers hold the rest."
+      },
+      "already_own": "Any unopened, commercially bottled water you already have counts. Check that the seal is intact and the date has not passed, then add it to your total.",
+      "safety_notes": [
+        {
+          "text": "Unopened commercially bottled water is the safest and most reliable emergency water supply. Observe the expiration date on store-bought water.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Keep commercially bottled water sealed in its original container and store it in a cool, dark place.",
+          "source_name": "FEMA / Ready.gov",
+          "source_title": "Water",
+          "url": "https://www.ready.gov/water",
+          "verified": true
+        },
+        {
+          "text": "Store at least 1 gallon per person per day for 3 days, and aim for 2 weeks if you can.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Bottled water sold in the US is regulated by the FDA as a food, with rules on identity, quality limits for contaminants and manufacturing practice.",
+          "source_name": "FDA",
+          "source_title": "Bottled Water Everywhere: Keeping it Safe",
+          "url": "https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe",
+          "verified": true
+        },
+        {
+          "text": "Keep water away from direct sunlight and away from gasoline, pesticides and other toxic substances.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Crystal Geyser",
+          "model": "Alpine Spring Water, 1 gallon jug",
+          "model_number": "",
+          "size": "1 US gal (128 fl oz) PET jug, about 12 in tall, about 8.5 lb",
+          "unit_size": 1,
+          "unit_label": "1-gallon jug",
+          "price_usd": 1.49,
+          "price_seen_at": "Target.com, November 16, 2026, in stock",
+          "why": "A nationally sold gallon jug at well under $2. It is made of PET, the sturdier clear plastic used for soda bottles, not the thin cloudy plastic of milk-style jugs.",
+          "weakness": "The jug has no handle, which makes it awkward to carry several at once, and like all ordinary bottled water it has to be used and replaced by the date printed on it.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.crystalgeyserplease.com/our-water",
+              "verified": true,
+              "note": "Brand page; confirms a gallon size and 50% recycled PET bottles but has no per-size product page."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/crystal-geyser-spring-water-1gal-128-fl-oz-jug/-/A-47952563",
+              "verified": true,
+              "note": "PET #1 jug, no handle.",
+              "research_note": "2026-11-16 alignment pass: old note: $1.49, in stock on November 16, 2026, PET #1 jug, no handle."
+            }
+          ],
+          "link_note": "",
+          "research_note": "No test publication reviews supermarket gallon water for storage. No Amazon ASIN was seen on 2026-11-14. Target page re-opened in a browser 2026-11-15: the listing loads but showed no price without a store chosen, so the $1.69 price is as seen on 2026-11-14. 2026-11-16 alignment pass: old link_note: Checked against one product-specific source only (the maker's page). The second source is the FDA's general page on how all bottled water is regulated, not a listing for this brand. No Amazon link.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "CG Roxane (Crystal Geyser Alpine Spring Water)",
+              "title": "Products | Crystal Geyser Natural Alpine Spring Water",
+              "url": "https://www.crystalgeyserplease.com/our-water",
+              "verified": true,
+              "supports": "Spring water bottled at the source, sizes up to one gallon, bottles made with 50% recycled PET."
+            },
+            {
+              "type": "standard_listing",
+              "name": "FDA",
+              "title": "Bottled Water Everywhere: Keeping it Safe",
+              "url": "https://www.fda.gov/consumers/consumer-updates/bottled-water-everywhere-keeping-it-safe",
+              "verified": true,
+              "supports": "General rule only: bottled water is regulated as a food with quality standards and plant inspections. Not specific to this brand."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the FDA food enforcement database for 'Crystal Geyser' and 'CG Roxane' on 2026-11-14: no recall of Alpine Spring Water found (one closed 2017 recall of a different company's sparkling mineral water)."
+        },
+        "cadillac": {
+          "brand": "Datrex",
+          "model": "Emergency Drinking Water pouches, case of 64 x 125 ml",
+          "model_number": "DX1000W",
+          "size": "64 pouches of 4.2 fl oz (125 ml) each, 2.1 US gal (8 L) per case; case 13.25 x 9.75 x 6.75 in, 20.5 lb",
+          "unit_size": 2.1,
+          "unit_label": "case of 64 pouches",
+          "price_usd": 29.95,
+          "price_seen_at": "American Nautical Services (amnautical.com)",
+          "why": "Foil pouches with a stated 5-year shelf life from the date of manufacture, listed as US Coast Guard approved for lifeboat use. One compact case sits on a closet shelf for years, and loose pouches drop into grab bags.",
+          "weakness": "About $14 per gallon, so it suits a small no-maintenance reserve or a grab bag, not a household's whole two-week supply; many small pouches also mean a lot of tearing and waste.",
+          "links": [
+            {
+              "label": "American Nautical Services",
+              "url": "https://www.amnautical.com/products/datrex-emergency-overwrap-water-8-liters-64-bags-per-case-125-ml-per-bag",
+              "verified": true,
+              "note": "Item DX1000W.",
+              "research_note": "2026-11-14: read with curl after the page fetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser. 2026-11-16 alignment pass: old note: Item DX1000W at $29.95, shown as available on November 15, 2026."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-14: datrex.com returned HTTP 500 on three attempts, so the manufacturer page could not be opened; the Datrex spec sheet PDF loaded but its text could not be read by the tools that day (it was opened and read on 2026-11-15, see sources). The Coast Guard equipment database needs a search form submitted, so it was not used. No Amazon ASIN was confirmed. 2026-11-16 alignment pass: old link_note: The Coast Guard approval is as stated on Datrex's own specification sheet and on a marine supplier's listing; it was not checked in the Coast Guard's own equipment database. No link to the maker's shop and no Amazon link. 2026-11-16 alignment pass: off the page from flags: Prices vary widely between sellers: the same case was listed at $60.90 at another retailer on November 14, 2026.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Datrex specification, as reproduced by American Nautical Services",
+              "title": "Datrex Emergency Overwrap Water 8 Liters, 64 Bags Per Case, 125 ML Per Bag",
+              "url": "https://www.amnautical.com/products/datrex-emergency-overwrap-water-8-liters-64-bags-per-case-125-ml-per-bag",
+              "verified": true,
+              "supports": "Item number DX1000W, 64 pouches of 125 ml, case size and weight, 5-year shelf life from manufacture, approvals listed as United States Coast Guard."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Datrex",
+              "title": "Datrex DX1000W Emergency Drinking Water specification sheet",
+              "url": "https://cdn.shopify.com/s/files/1/0067/8828/4534/files/Datrex-DX1000W-emergency-water.pdf",
+              "verified": true,
+              "supports": "Maker spec sheet: 125 ml polymer-foil pouches, 64 per case (8 L), 5-year shelf life from manufacture, USCG, Canadian Coast Guard and SOLAS approvals, case 20.5 lb."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Water Storage Containers",
+              "url": "https://trueprepper.com/best-water-storage-containers/",
+              "verified": true,
+              "supports": "Recommends Datrex 125 ml pouches for vehicle kits: USCG/SOLAS approved, burst-proof packaging, about five years drinkable, handles temperature extremes."
+            }
+          ],
+          "flags": [
+            "Prices vary widely between sellers: the same case has been listed at about twice this price elsewhere."
+          ],
+          "flag_check": "Queried the FDA food enforcement database for 'Datrex' and 'emergency drinking water' and the CPSC recall database on 2026-11-14: none found."
+        }
+      },
+      "empty_reason": {
+        "budget": "No separate pick. Store-brand water can cost less than the Standard jug: on November 16, 2026 Walmart listed its Great Value purified water at $5.97 for forty 16.9 oz bottles (about $1.13 a gallon), against $1.49 for the Standard gallon jug. Any sealed supermarket water with a date on it does the same job, so buy whichever is cheapest near you, in amounts you can carry upstairs. Cheaper still is tap water in your own containers, which is the next step up."
+      },
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Blue Can Water (the 50-year canned water) appears to have left the market: its website address bluecanwater.com now redirects to an unrelated site, one retailer says the maker has ceased production, and SOS Products showed the 24-can case as temporarily out of stock at $36.98. Resellers ask far more. It is not recommended until supply is confirmed. | Queried the FDA food enforcement (recall) database on 2026-11-14 for Crystal Geyser, CG Roxane, Datrex, Puravai and 'emergency drinking water': the only result was a 2017 recall of Crystal Geyser sparkling mineral water from a different company (Crystal Geyser Water Company), long since closed. | Longer-life packaged water (20 to 50 years): none met this site's two-source rule. Blue Can Water appears to be out of production (see the note above). Puravai (20-year HDPE bottles, $49.99 for six bottles of at least 32 fl oz at thrivalist.com) is on sale, but the only sources found were the maker's own pages, and its purity claims rest on the maker's own testing.",
+      "tier_note": "No Budget pick: any sealed store-brand water with a date on it does the same job and can cost less than the Standard jug, so buy whichever is cheapest near you, in amounts you can carry upstairs."
+    },
+    {
+      "id": "water-bathtub-bladder",
+      "module": "water",
+      "name": "Bathtub water bladder",
+      "need": "With a few hours' warning, a bladder turns the bathtub into a sealed tank of 65 to 100 gallons of clean tap water, which matters in tall buildings where the taps stop when the pumps lose power.",
+      "how_to_choose": "A bladder only helps if you fill it while the water is still running, so keep it in the bathroom and practice the steps once without filling it. Check that it fits your tub: a standard tub holds about 60 to 70 gallons, less than the headline number on the box. It is single-use in practice, because it cannot be dried out properly afterwards, and the tub is out of action while it is full. Buy a named brand from the maker or a known retailer and keep the hand pump with it.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per bathtub. No bathtub, no bladder: store more water in containers instead."
+      },
+      "already_own": "A clean bathtub filled directly holds water for flushing and washing, but an open tub is not a clean drinking-water container and a worn plug can leak it away overnight. If you already own a bladder, check that the liner, fill sleeve and pump are all in the box and that it has never been filled.",
+      "safety_notes": [
+        {
+          "text": "Plan on at least 1 gallon of water per person per day. A filled bathtub bladder can cover a household for many days, but it does not replace water stored in advance, because it only works if you get warning.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "If you are unsure whether stored water is still safe, boil it, or disinfect it with plain unscented bleach by the directions on its own label (U4-10).",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Use containers made of food-grade material for drinking water, and keep stored water away from toxic substances such as cleaning chemicals kept in the bathroom.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Demand spikes before storms, so buy well ahead of hurricane or winter-storm season.",
+        "Unbranded look-alike '100 gallon' tub bladders sold on marketplaces are not recommended: none has a maker's page or an independent test behind it."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "AquaPodKit",
+          "model": "AquaPod Bathtub Bladder (Bag kit)",
+          "model_number": "6155",
+          "size": "Holds 65 to 100 gal depending on the tub; fits standard tubs 60 in or longer; includes liner and hand pump",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "price_usd": 36.95,
+          "price_seen_at": "aquapodkit.com, November 15, 2026 (shown as sold out)",
+          "why": "The slightly cheaper of the two established brands, US-made from food-grade, BPA-free plastic, with a pump in the kit. Replacement liners are sold separately, so the pump can be kept after a liner is used.",
+          "weakness": "The hand pump is slow: a magazine test of an earlier version took several minutes to fill a 3-gallon bucket, and that version's liner was thinner than waterBOB's.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.aquapodkit.com/products/aquapod-packaged-in-a-bag",
+              "verified": true,
+              "note": "The same kit in a box, and a liner on its own, are on the same page.",
+              "research_note": "2026-11-14: read with curl. 2026-11-15: opened in a browser; the buy button reads 'Sold out'. The box-kit and liner prices are as seen on 2026-11-14. 2026-11-16 alignment pass: old note: $36.95, sold out on November 15, 2026. The same kit in a box is $39.95 and a liner on its own is $24.95."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "AquaPodKit",
+              "title": "AquaPod Bathtub Bladder - Emergency Water Storage Solution (Bag kit)",
+              "url": "https://www.aquapodkit.com/products/aquapod-packaged-in-a-bag",
+              "verified": true,
+              "supports": "65 to 100 gal capacity, food-grade BPA-free FDA-compliant material, made in USA, pump included, fits 60 in tubs, 15-minute setup."
+            },
+            {
+              "type": "test_publication",
+              "name": "RECOIL OFFGRID",
+              "title": "Review: AquaPodKit Emergency Water Storage",
+              "url": "https://offgridweb.com/preparation/review-aquapodkit-emergency-water-storage/",
+              "verified": true,
+              "supports": "Hands-on setup of two kits in a bathtub (2016): about 65 gal in a typical tub, 10 to 15 minutes to fill, pump works but is slow; judged a useful, affordable tool."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Mentions the AquaPodKit as a useful bonus but not a substitute for stored water."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'AquaPod' on 2026-11-14: no recall of this product (one unrelated 2006 aquarium recall).",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. The independent test dates from 2016 and covers an earlier version of the kit. 2026-11-16 alignment pass: off the page from flags: Sold out on the maker's site on November 15, 2026."
+        },
+        "standard": {
+          "brand": "waterBOB",
+          "model": "waterBOB Emergency Drinking Water Storage (bathtub bladder)",
+          "model_number": "",
+          "size": "Holds up to 100 gal (a standard tub takes about 60 to 70); 10 mil food-grade LLDPE liner; 1 lb packed; includes fill sleeve and siphon pump",
+          "unit_size": 1,
+          "unit_label": "bladder",
+          "price_usd": 39,
+          "price_seen_at": "waterbob.com, November 15, 2026 (temporarily out of stock)",
+          "why": "The best-known bathtub bladder, with a thick 10 mil food-grade liner and a pump in the box. The maker says it fills in 20 to 30 minutes. A long-form reader report on The Prepared describes four units stored for 11 years that still worked through a three-week water outage.",
+          "weakness": "It cannot be dried and reused, and the included hand pump is hard work for people without strong hands.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://waterbob.com/order-waterbob",
+              "verified": true,
+              "note": "US shipping only.",
+              "research_note": "2026-11-16 alignment pass: old note: $39.00, 'temporarily out of stock, expected availability early December'. US shipping only."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B001AXLUX2",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access. ASIN seen in search results on 2026-11-14 for 'waterBOB Bathtub Emergency Water Storage Bladder Up To 100 Gallon Capacity'."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Wirecutter, widely reported to recommend this product, refuses automated readers and was not cited. The Prepared forum reader report (https://theprepared.com/forum/thread/waterbob-yes-or-no/) was opened on 2026-11-14 as field evidence only. Maker page re-opened in a browser 2026-11-15: 'Temporarily out of stock, expected availability early December', MSRP $39.00. 2026-11-16 alignment pass: old link_note: Out of stock at the maker on November 15, 2026; its page says to expect stock in early December. 2026-11-16 alignment pass: off the page from flags: Temporarily out of stock on the maker's site on November 15, 2026; the maker expects stock in early December. | The maker's page gives 16 weeks of freshness in one place and mentions a 4-week safe storage time in an FAQ. Treat 4 weeks as the cautious figure and disinfect older water before drinking.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "waterBOB (Hunker Up, LLC)",
+              "title": "Order waterBOB",
+              "url": "https://waterbob.com/order-waterbob",
+              "verified": true,
+              "supports": "Capacity up to 100 gal, 10 mil food-grade LLDPE within FDA guidelines, siphon pump included, 20 to 30 minute fill, water fresh up to 16 weeks, price and stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Water Storage Containers",
+              "url": "https://trueprepper.com/best-water-storage-containers/",
+              "verified": true,
+              "supports": "Names waterBOB the best bathtub bladder: 100 gal, 10 mil LLDPE, fill cap and siphon pump included; notes it is single-use and hard to dry and repack."
+            }
+          ],
+          "flags": [
+            "Use the water within 4 weeks, the shorter of the two storage times the maker gives, and disinfect older water before drinking."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'waterBOB' and 'water bladder' on 2026-11-14 and again on 2026-11-15: none found."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "Only two established bathtub bladders with a traceable maker were found (waterBOB and AquaPod), and they cost about the same. Nothing on the market offers a real step up; the sensible upgrade is a second liner or more water stored in containers."
+      },
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Both makers' own shops showed their bladders as out of stock on November 15, 2026 (waterBOB says it expects stock in early December). Demand spikes before storms, so buy well ahead of hurricane or winter-storm season. | Cheap unbranded look-alike '100 gallon' tub bladders are sold on marketplaces at about $25 to $27. No maker page or independent test was found for them, so they are not recommended. | CPSC recall database queried on 2026-11-14 for 'waterBOB', 'AquaPod' and 'water bladder': no recalls of bathtub bladders (the single 'AquaPod' result is a 2006 aquarium recall by an unrelated company).",
+      "tier_note": "Two picks: the two established bladders cost about the same and nothing pricier does more; the sensible upgrade is a spare liner or more water in containers."
+    },
+    {
+      "id": "water-carry-collapsible",
+      "module": "water",
+      "name": "Collapsible water carriers",
+      "need": "If water is handed out at a street tanker, a hydrant station or a lower floor, someone has to carry it home and up the stairs, and soft carriers take almost no space until that day.",
+      "how_to_choose": "Think in stair-loads, not gallons: 2.5 gallons (10 liters) weighs about 22 lb. On stairs carry one at a time, in one hand or on your back, so that a hand stays on the rail; two at once, one in each hand, is for level ground only. Bags that ride inside a backpack keep both hands free. Thin fold-flat cubes are cheap but crease and wear out; fabric-skinned bags last for years. Sanitize carriers before first use, and treat water from an uncertain source before drinking it.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 2,
+        "note": "Two per household, a fixed number: two people can each carry one, or one person can make two trips. On stairs carry one at a time and keep a hand on the rail."
+      },
+      "already_own": "A hiking hydration bladder, a camping water cube or clean 2-liter soda bottles in a backpack all work. Check that the caps seal, the seams do not weep when squeezed full, and nothing smells musty after washing.",
+      "safety_notes": [
+        {
+          "text": "Before use, wash a container with soap, rinse, then sanitize with 1 teaspoon of unscented household bleach (5% to 9%) in 1 quart of water, shaking to wet all inside surfaces for at least 30 seconds before pouring it out.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "If you cannot be sure collected water is safe, boil it, or disinfect it with plain unscented bleach by the directions on its own label (U4-10). Boiling and bleach do not make water with fuel or toxic chemicals in it safe.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Use food-grade containers for drinking water and never one that has held toxic chemicals.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tiers": {
+        "budget": {
+          "brand": "GSI Outdoors",
+          "model": "Water Cube 10 Liter",
+          "model_number": "55425",
+          "size": "2.6 US gal (10 L), folds to about 8 x 8 x 2.5 in, 6 oz empty, about 22 lb full",
+          "unit_size": 1,
+          "unit_label": "carrier",
+          "price_usd": 12.95,
+          "price_seen_at": "gsioutdoors.com",
+          "why": "A cheap fold-flat cube with a handle and a tap, so it doubles as a countertop dispenser once home. Outdoor Life named the Water Cube its best collapsible container after camping use. The 2.6-gallon (10-liter) size keeps each load near 22 lb.",
+          "weakness": "The plastic is meant to fold and crease; Outdoor Life saw creasing after a couple of months, so it will not last for years of regular use.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.gsioutdoors.com/products/water-cube",
+              "verified": true,
+              "note": "Also sold in 4-gallon (15 L) and 5.3-gallon (20 L) sizes.",
+              "research_note": "2026-11-14: read with curl after the page fetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; all three sizes available. 2026-11-16 alignment pass: old note: 10 L at $12.95, in stock on November 15, 2026; 15 L ($14.95) and 20 L ($16.95) on the same page."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "GSI Outdoors",
+              "title": "Water Cube",
+              "url": "https://www.gsioutdoors.com/products/water-cube",
+              "verified": true,
+              "supports": "Sizes, folded dimensions, weight, polyethylene material, integrated handle and tap, lifetime warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Water Containers",
+              "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+              "verified": true,
+              "supports": "Named best collapsible (listed as GSI Outdoors Folding Water Cube, 2.6 / 3.9 / 5.3 gal) after home and car-camping use; notes creasing and that it does not fold fully flat."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'GSI Outdoors' on 2026-11-14: one unrelated 2016 recall (children's water bottles); none for this product.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link."
+        },
+        "standard": {
+          "brand": "MSR",
+          "model": "Dromedary Bag 10 L",
+          "model_number": "09588",
+          "size": "2.6 US gal (10 L), 12.5 x 23 in flat, 10 oz empty, about 23 lb full",
+          "unit_size": 1,
+          "unit_label": "bag",
+          "price_usd": 64.95,
+          "price_seen_at": "cascadedesigns.com (MSR's own shop)",
+          "why": "A tough fabric-skinned water bag that lies flat inside an ordinary backpack, so the weight rides on your back and both hands stay free on the stairs. OutdoorGearLab's reviewers used Dromedary bags for nine years and call them the easiest way to haul water.",
+          "weakness": "It costs about five times as much as a folding cube, and a soft bag is awkward to pour from and to stand up while filling.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cascadedesigns.com/products/dromedary-bags",
+              "verified": true,
+              "note": "This is MSR's own store.",
+              "research_note": "2026-11-14: read with curl; msrgear.com redirects to this shop. 2026-11-15: stock and price confirmed in a browser from the shop's own product data (SKU 09588). 2026-11-16 alignment pass: old note: 10 L size at $64.95, in stock on November 15, 2026. This is MSR's own shop."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "MSR (Cascade Designs)",
+              "title": "Dromedary Bags",
+              "url": "https://cascadedesigns.com/products/dromedary-bags",
+              "verified": true,
+              "supports": "10 L capacity, weight, dimensions, 1,000-denier fabric with BPA-free food-grade lining, 3-in-1 cap, perimeter webbing, made in USA, SKU 09588."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Water Storage Solution for Backpacking",
+              "url": "https://www.outdoorgearlab.com/expert-advice/the-best-water-storage-solution-for-backpacking",
+              "verified": true,
+              "supports": "Nine years of use; recommends the 10 L Dromedary for hauling large volumes; notes it is harder to drink from than a rigid bottle."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Cascade Designs' and 'MSR' on 2026-11-14: recalls found concern camping pots (2024), avalanche probes and stove fuel, not water bags.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. The test article dates from 2013; the bag has since been updated with a new lining and 1,000-denier fabric."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No purpose-built water backpack or larger soft carrier with two trustworthy sources could be confirmed. The MSR Dromedary carried in an ordinary backpack already does this job; the next candidates (HydraPak Seeker 10L at $65 and Expedition 8L at $48.75 on hydrapak.com) had only the maker's page as a source."
+      },
+      "research_note": "Cadillac tier, 2026-11-14: the test articles for the HydraPak candidates refused automated readers or sat behind a sign-in, so they were not read. 2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for GSI Outdoors, Cascade Designs, MSR, HydraPak and 'water bladder': no recalls of water carriers. (GSI had a 2016 recall of children's water bottles and Cascade Designs a 2024 recall of camping pots; neither concerns these products.)",
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: the Standard bag carried in an ordinary backpack already does this job, and nothing pricier does more."
+    },
+    {
+      "id": "water-dispensing",
+      "module": "water",
+      "name": "Spigots and pumps for water containers",
+      "need": "A full container is too heavy to tip and pour without spilling, so you need a clean way to draw off a cup at a time.",
+      "how_to_choose": "Match the dispenser to the container, because threads differ. The Aqua-Tainer, this site's Standard container, comes with a spigot and takes Reliance's 70 mm parts and its hand pump. A Rhino-Pak pours from the spout it comes with and does not take the Reliance pump. A WaterBrick needs its own spigot lid, sold separately. With a 7-gallon can, which weighs about 60 lb full, the pump is worth buying: it lets the can stay upright on the floor instead of being lifted onto its side at a counter edge. With a lighter container, a spigot or spout that came with it and works is enough. Keep hands and cups off the spout, and wash and sanitize dispenser parts when you clean the container.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One working dispenser for the household, a fixed number. The spigot or spout that came with your container counts; buy a pump only if it fits that container, and keep a spare spigot if you rely on the original."
+      },
+      "already_own": "The spigot or spout that came with your container is enough if it seals and does not drip. Check it is not cracked and that the vent opens. Do not use a siphon or pump that has ever moved fuel or chemicals.",
+      "safety_notes": [
+        {
+          "text": "Clean and sanitize anything that touches stored drinking water: wash with soap, rinse, then use 1 teaspoon of unscented household bleach (5% to 9%) in 1 quart of water for at least 30 seconds.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        },
+        {
+          "text": "Prefer containers with a narrow neck or opening and a tightly closing top, and never use equipment that has held toxic chemicals.",
+          "source_name": "CDC",
+          "source_title": "How to Create an Emergency Water Supply",
+          "url": "https://www.cdc.gov/water-emergency/about/how-to-create-and-store-an-emergency-water-supply.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Many generic hand siphons and battery transfer pumps are sold for fuel as well as water: use only one sold as food-grade, and never one that has moved fuel."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "Reliance",
+          "model": "Replacement 70mm Spigot Assembly",
+          "model_number": "7210-03R",
+          "size": "Fits Reliance containers with a 70 mm (2.75 in) opening made after 2015; includes spigot, cap, vent cap and vent plug",
+          "unit_size": 1,
+          "unit_label": "spigot kit",
+          "price_usd": 7.99,
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com); the maker's site is a catalog, so buy from a retailer",
+          "why": "An inexpensive spare for the spigot that comes with the Aqua-Tainer. The Prepared notes buyer reports of the white spigot and cap cracking with age, so a spare in the drawer keeps a 7-gallon can usable.",
+          "weakness": "It only fits Reliance's 70 mm containers (Aqua-Tainer, Aqua-Pak, Water-Pak, Jumbo-Tainer and similar), and the container still has to lie on its side at a counter edge to pour.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/replacement-70mm-spigot-assembly",
+              "verified": true,
+              "note": "The maker's site is a catalog: buy from a retailer.",
+              "research_note": "2026-11-14: read with curl after the page fetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; no price or buy button is shown to a visitor, and the page's own product data gives $7.99 and marks it out of stock."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Replacement 70mm Spigot Assembly",
+              "url": "https://relianceoutdoors.com/products/replacement-70mm-spigot-assembly",
+              "verified": true,
+              "supports": "Part number, what is in the kit, which containers it fits, post-2015 fit note, food-contact compliance claim."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best Emergency Water Storage Containers for Home",
+              "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+              "verified": true,
+              "supports": "Describes the Aqua-Tainer's reversible spigot and reports of the spigot and cap cracking over time."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Reliance' on 2026-11-14: none for this product.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed."
+        },
+        "standard": {
+          "brand": "Reliance",
+          "model": "Anti-Gravity Water Pump",
+          "model_number": "7250-03",
+          "size": "Hand pump with faucet-style spout and 16.5 in intake tube (can be trimmed); about 8 oz (250 ml) per stroke; 1.2 lb",
+          "unit_size": 1,
+          "unit_label": "pump",
+          "price_usd": 19.99,
+          "price_seen_at": "Reliance's own listing (relianceoutdoors.com); the maker's site is a catalog, so buy from a retailer",
+          "why": "It screws on in place of the spigot on the Aqua-Tainer, this site's Standard container, and lifts water out of the top, so a 60 lb container can stay upright on the floor. No batteries, and it comes apart for cleaning.",
+          "weakness": "It does not fit the Rhino-Pak or the WaterBrick.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/anti-gravity-pump",
+              "verified": true,
+              "note": "The maker's site is a catalog: buy from a retailer.",
+              "research_note": "2026-11-14: read with curl after the page fetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; no price or buy button is shown to a visitor, and the page's own product data gives $19.99 and marks it in stock. The page says: used in place of the hideaway spigot, sized to fit most Reliance rigid containers, 'does not fit Rhino Pak water containers'."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Retailer listings (Cabela's, CampSaver) seen on 2026-11-14 only repeat the maker's specs and say it fits Aqua-Tainer, Aqua Pak and Water Pak jugs. A second look on 2026-11-15 could not add a second source. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this pump was found. No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Does not fit the Rhino-Pak (stated by the maker).",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Anti-Gravity Water Pump",
+              "url": "https://relianceoutdoors.com/products/anti-gravity-pump",
+              "verified": true,
+              "supports": "Fits most Reliance rigid containers in place of the hideaway spigot, does not fit Rhino-Pak, 8 oz per pump, 16.5 in tube, food-safe BPA-free plastic."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Reliance' and 'water pump' on 2026-11-14: none found."
+        },
+        "cadillac": {
+          "brand": "Dometic",
+          "model": "GO Hydration Water Faucet",
+          "model_number": "HYDWF (SKU 9600050794)",
+          "size": "Rechargeable tap-to-pour faucet, 2.7 x 6.7 x 6.1 in, 0.8 lb, about 40 gallons (150 L) per charge, magnetic base, hose with quick-connect fitting",
+          "unit_size": 1,
+          "unit_label": "faucet",
+          "price_usd": 99.99,
+          "price_seen_at": "dometic.com (US site), November 15, 2026, shown as out of stock",
+          "why": "It works with any container, including the ones the Reliance pump does not fit: drop the hose in, tap the top, and it pours a measured stream with one hand, then shuts off by itself. One charge moves about 40 gallons, and it has a small built-in light. GearJunkie's tester used one for over a year.",
+          "weakness": "It needs charging by USB, so keep it topped up and keep a manual spigot as a backup; it is also expensive for what is, in the end, a tap.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-14: the international page (dometic.com/en/...) showed a placeholder price. 2026-11-15: the US page (/en-us/) opened in a browser shows $99.99, SKU 9600050794, 0.79 lb, 'Out of stock'. 2026-11-16 alignment pass: old note: $99.99, out of stock ('Notify me') on November 15, 2026."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-14: REI and Backcountry pages did not load for automated access, so no retailer price was confirmed. No Amazon ASIN was seen. 2026-11-16 alignment pass: old link_note: No retailer link and no Amazon link: none was confirmed. 2026-11-16 alignment pass: off the page from flags: Out of stock on the maker's US site on November 15, 2026.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Dometic",
+              "title": "Dometic GO Hydration Water Faucet",
+              "url": "https://www.dometic.com/en/product/dometic-go-hydration-water-faucet-9600050794",
+              "verified": true,
+              "supports": "Model and SKU, up to 150 L per charge, USB charging, size and weight, BPA-free food-grade materials, IPX4, magnetic base, automatic shut-off, works with any water container."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "Dometic GO Hydration Water Faucet Review",
+              "url": "https://gearjunkie.com/camping/dometic-go-hydration-water-faucet-review",
+              "verified": true,
+              "supports": "Over a year of use; works with any container as long as the 23 in hose end stays under water; shuts off after 1 liter or 1 minute; flow is fine for filling bottles and washing up; $100 MSRP."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Dometic' on 2026-11-14: none found."
+        }
+      },
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: CPSC recall database queried on 2026-11-14 for Reliance, Dometic, and (since 2022) 'water pump' and 'water dispenser': no recalls of these products found. | Generic hand siphons and battery transfer pumps were not vetted in this check, so none is recommended here. Many are sold for fuel as well as water; only use one sold as food-grade and never one that has moved fuel."
+    }
+  ]
+}

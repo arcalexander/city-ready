@@ -1,0 +1,416 @@
+{
+  "note": "The seven sections of the plan, in order. `level` is the old level number an action or product carried (0 Tonight, 1 The Bag, 2 72 Hours, 3 Two Weeks): an action or product with no `part` of its own belongs to the section with its level. Household and Car have no level; their actions and products carry `\"part\": \"household\"` or `\"part\": \"car\"`. The number also sets how many days a quantity is worked out for, so it stays in the data and never reaches the reader. `lead` groups name their actions and products by ID, in reading order; other sections group by module in `order`. `retired` lists IDs that were removed and must never be reused: a tick saved against one stays in the person's record and is not shown. A section may have `parts` (the Bag has three): each names its modules and any single actions by ID, one part is the `rest`, and `item_modules` says which part lists a module's products. `more_intro` opens the list of actions marked `more`, printed at the end of Two weeks at home with no tick box. The `access` block is printed once, in 72 hours at home, closed.",
+  "sections": [
+    {
+      "key": "first",
+      "name": "First steps",
+      "short": "First steps",
+      "level": 0,
+      "pic": "level0",
+      "icon": "tonight",
+      "summary": "Free things that take under 30 minutes in total. No shopping.",
+      "intro": "Free actions you can finish tonight in under half an hour. They cost nothing and each one still helps if you never do another thing.",
+      "order": [
+        "u1",
+        "u2",
+        "hr",
+        "u5",
+        "u6"
+      ]
+    },
+    {
+      "key": "household",
+      "name": "Household",
+      "short": "Household",
+      "level": null,
+      "pic": "first-aid",
+      "icon": "alerts",
+      "summary": "The everyday safety setup of a home: alarms, a way out in a fire, a first-aid kit, a medicine cabinet and child safety.",
+      "intro": "The everyday safety setup every home should have: working alarms, a way out in a fire, a first-aid kit, a medicine cabinet and, with children, locks. It is done once and kept up. It is not emergency preparation, and nothing here appears again in a later section.",
+      "order": [],
+      "lead": [
+        {
+          "name": "Alarms, extinguishers and fire blankets",
+          "icon": "alerts",
+          "intro": "A working alarm in the right places comes first. Smoke alarms go inside each bedroom. Outside each sleeping area and on each level, one combination unit can do both jobs, in place of a separate smoke alarm and carbon monoxide alarm. Count your own bedrooms, sleeping areas and levels: the number of alarms is yours to work out, not one for the household.",
+          "ids": [
+            "HC-23",
+            "HC-22",
+            "U3-22",
+            "U6-11",
+            "U2-101",
+            "X6-05",
+            "X6-11",
+            "HC-25",
+            "HR-13",
+            "PL-17",
+            "HR-23",
+            "HR-17"
+          ],
+          "items": [
+            "smoke-alarm",
+            "co-alarm",
+            "smoke-co-combo-alarm",
+            "fire-extinguisher",
+            "fire-blanket"
+          ]
+        },
+        {
+          "name": "The way out in a fire",
+          "icon": "building",
+          "intro": "Two ways out of every room, and one place outside where everyone meets.",
+          "ids": [
+            "X2-09",
+            "X6-09",
+            "HR-04",
+            "HR-05",
+            "HR-02",
+            "HR-03",
+            "HR-06",
+            "HR-07",
+            "HR-12",
+            "U2-89",
+            "U2-159",
+            "U2-160",
+            "HR-30"
+          ]
+        },
+        {
+          "name": "First-aid kit and medicine cabinet",
+          "icon": "firstaid",
+          "intro": "One full first-aid kit where every adult can reach it, and a medicine cabinet that fits the ages in your home.",
+          "ids": [
+            "U7-07",
+            "U2-98",
+            "U7-08",
+            "X7-04",
+            "FN-04",
+            "U7-05",
+            "U7-06",
+            "X7-07"
+          ],
+          "items": [
+            "first-aid-kit-home"
+          ],
+          "cabinet": true
+        },
+        {
+          "name": "Child safety",
+          "icon": "child",
+          "intro": "Locks and storage for the things that hurt small children most often at home, and the number to call.",
+          "ids": [
+            "FN-27",
+            "FN-36",
+            "FN-37",
+            "FN-38",
+            "FN-39"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "bag",
+      "name": "Bag",
+      "short": "Bag",
+      "level": 1,
+      "pic": "level1",
+      "icon": "bag",
+      "summary": "A grab bag by the door for leaving in a hurry, and the add-ons for a child, a baby or toddler and a pet.",
+      "intro": "A grab bag waits by the door so you can leave within minutes and manage for 72 hours on foot or by transit. The bag comes first, complete. After it come the plan for where you would go, and the papers and phone setup that go with you.",
+      "note_top": {
+        "by": "A note from Alex.",
+        "action": "X7-07",
+        "sentences": [
+          {
+            "text": "I carry Narcan, and I'd like you to as well.",
+            "own": true,
+            "cites": []
+          },
+          {
+            "text": "Narcan is a naloxone nasal spray that reverses an opioid overdose.",
+            "cites": [
+              "fda-narcan-otc-approval",
+              "cdc-lifesaving-naloxone"
+            ]
+          },
+          {
+            "text": "It is sold without a prescription at most pharmacies, and it will not hurt someone who isn't overdosing.",
+            "cites": [
+              "fda-narcan-otc-approval",
+              "cdc-naloxone-faq",
+              "cdc-lifesaving-naloxone"
+            ]
+          },
+          {
+            "text": "Fentanyl now turns up in pills made to look like ordinary prescriptions, so an overdose can happen to someone who never meant to take an opioid.",
+            "cites": [
+              "dea-facts-fentanyl",
+              "dea-fake-pills-alert-2021"
+            ]
+          },
+          {
+            "text": "Keep one at home and one in your bag, and read the instructions on the box once.",
+            "cites": [
+              "cdc-lifesaving-naloxone"
+            ]
+          },
+          {
+            "text": "You would only ever use it on someone else.",
+            "cites": [
+              "cdc-lifesaving-naloxone"
+            ]
+          }
+        ]
+      },
+      "order": [
+        "bg",
+        "md",
+        "u1",
+        "u2",
+        "cm",
+        "fn",
+        "u6",
+        "u4",
+        "u3",
+        "u7",
+        "pl",
+        "ar"
+      ],
+      "parts": [
+        {
+          "name": "The bag",
+          "intro": "The grab bag, what goes in it and how to keep it ready. The bag list is the only specification.",
+          "modules": [
+            "bg",
+            "u7",
+            "pl",
+            "ar",
+            "u4",
+            "u3",
+            "u5"
+          ],
+          "item_modules": [
+            "fn"
+          ],
+          "ids": [
+            "U2-99"
+          ]
+        },
+        {
+          "name": "Where you would go",
+          "intro": "When you would leave, where you would meet, how you would travel, and who and what comes with you.",
+          "rest": true
+        },
+        {
+          "name": "Papers and phones",
+          "intro": "The copies, cash and phone setup that leave with you.",
+          "modules": [
+            "md",
+            "cm"
+          ],
+          "ids": [
+            "U2-22",
+            "U2-68",
+            "U2-69",
+            "U2-77",
+            "U2-11",
+            "U2-12",
+            "U2-155"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "car",
+      "name": "Car",
+      "short": "Car",
+      "level": null,
+      "pic": "car",
+      "icon": "car",
+      "only": {
+        "has": [
+          "car"
+        ]
+      },
+      "summary": "The kit that lives in the car, the winter add-on, checking the route in winter, and charging from the car.",
+      "intro": "Shown because your setup says you have a car. The kit that lives in the car, what to add for winter, and how to charge from the car without breathing its exhaust.",
+      "order": [],
+      "lead": [
+        {
+          "name": "The car kit and the car",
+          "icon": "car",
+          "intro": "One small tote in the trunk, and the few car habits that matter in heat, cold and an outage.",
+          "ids": [
+            "BG-08",
+            "BG-22",
+            "HC-26",
+            "HC-28",
+            "PL-16",
+            "HC-12",
+            "HR-21"
+          ],
+          "items": [
+            "car-escape-tool",
+            "car-jump-starter",
+            "car-tire-inflator",
+            "car-warning-triangles",
+            "car-blanket",
+            "car-power-inverter"
+          ],
+          "bag": "car"
+        }
+      ]
+    },
+    {
+      "key": "h72",
+      "name": "72 hours at home",
+      "short": "72 hours",
+      "level": 2,
+      "pic": "level2",
+      "icon": "shelter",
+      "summary": "Three days in your home with no power, no tap water and no flushing.",
+      "intro": "Three days at home with no power, no tap water and no flushing toilet, without leaving the building for supplies. Much of what you bought for the bag counts here too, and the site shows what you already have.",
+      "waypoint": {
+        "title": "72 hours is a waypoint, not the finish",
+        "text": "For decades the standard advice was to be ready for three days. Emergency managers have moved on from it. After a large disaster, Oregon's emergency management department says it could take days to weeks for responders to reach everyone, and that people should expect to be without services and assistance for at least two weeks. Sewers and wastewater systems take longer to repair than drinking water. Three days of supplies gets you through the common, shorter outages, which is why it is its own section here. It is the halfway mark. The next section takes the same supplies to two weeks.",
+        "cites": [
+          "oregon-2wr",
+          "oregon-cascadia"
+        ]
+      },
+      "order": [
+        "u1",
+        "u4",
+        "u3",
+        "u5",
+        "pl",
+        "hr",
+        "hc",
+        "ar",
+        "u7",
+        "u6",
+        "u2",
+        "md",
+        "cm",
+        "fn",
+        "nb",
+        "u8"
+      ]
+    },
+    {
+      "key": "w2",
+      "name": "Two weeks at home",
+      "short": "Two weeks",
+      "level": 3,
+      "pic": "level3",
+      "icon": "shelter",
+      "summary": "The same supplies scaled to 14 days, plus storage, rotation, neighbors and the annual review.",
+      "intro": "Everything from 72 hours at home scaled up to two weeks (or 30 days if you chose that), plus the things that only matter over a longer stretch: storage and rotation, laundry, trash, more power, your neighbors and your building. It ends with a review you repeat once a year.",
+      "order": [
+        "u1",
+        "u4",
+        "u3",
+        "u5",
+        "pl",
+        "hc",
+        "ar",
+        "u7",
+        "hr",
+        "nb",
+        "u6",
+        "u2",
+        "md",
+        "cm",
+        "fn",
+        "u8"
+      ]
+    },
+    {
+      "key": "keep",
+      "name": "Keep it up",
+      "short": "Keep it up",
+      "level": null,
+      "calendar": true,
+      "pic": "",
+      "icon": "plan",
+      "summary": "A calendar of every job in the plan that has to be repeated. Nothing new to tick.",
+      "intro": "A calendar, not more to do. Every job in the plan that has to be repeated is gathered here by month. Each line points back to the action that owns it, and that is where it is ticked.",
+      "order": []
+    }
+  ],
+  "retired": {
+    "actions": [
+      "BG-06",
+      "BG-07"
+    ],
+    "items": [
+      "bag-gethome-pack",
+      "bag-edc-pouch"
+    ],
+    "bags": [
+      "daily"
+    ],
+    "why": "The daily bag was dropped on November 16, 2026 (DECISIONS D-56)."
+  },
+  "assumptions": [
+    "Children: the setup asks how many children are in each age band (under 1, 1 to 2, 3 to 5, 6 to 9, 10 to 13, 14 to 17), and how many are in diapers, fed formula, or cannot walk a mile. A teenager of 14 to 17 counts as an adult for bags, food, water and respirators. A setup saved before the bands existed keeps working: its infants become \"under 1\" and its children are asked for their ages once.",
+    "Hazards: each home is asked which of six hazards happen there (earthquakes, tornadoes, hurricanes or coastal flooding, river or flash flooding, wildfire smoke, a nuclear power plant within 10 miles). Actions for a hazard show only for a home that has it. Until you answer, every hazard's actions are shown, each with its \"Applies to\" line.",
+    "Not asked: age over 65, disability, medical devices and renting. Actions for those are shown to everyone under one heading, so nothing about anyone's health is stored.",
+    "Water: 1 US gallon per person per day (the CDC and FEMA figure), plus half a gallon per pet per day. The pet figure is this site's own assumption; ask your vet.",
+    "Days: the Bag is a 72-hour bag. 72 hours at home is 3 days. Two weeks at home is 14 days, or 30 if you chose 30.",
+    "Toilet bags: 5 uses per person per day, the planning figure in Koto City's emergency toilet guide, one bag per use, for the first three days. Children in diapers are not counted. After three days the plan switches to a bucket, liners and absorbent, at one liner per person per day (this site's assumption).",
+    "Formula: ready-to-feed bottles are counted in feeds, one bottle for each feed: feeds a day × days × formula-fed babies. Eight feeds a day is this site's assumption until you change it in the setup.",
+    "Diapers: 8 a day for each child in diapers. This site's assumption; newborns use more.",
+    "Respirators: 6 for each adult or teenager aged 14 or over (2 a day for 3 smoky days). This site's assumption. No respirator is counted for a younger child.",
+    "Spare batteries: no figure by headcount. Count the cells in every light and radio you own and keep twice that number spare.",
+    "Cash: official guides give no single figure. This site's rule is three days of food and local transport for your household plus one night's lodging; if that is out of reach, start with $200 in small bills.",
+    "Power: a phone needs about 15 watt-hours for a full charge and a 5-watt lantern about 25 watt-hours for five hours. A power station delivers about 85% of its printed capacity. Estimates: measure your own devices where you can.",
+    "Walking: 2 miles an hour for an adult with a bag and stops. This site's assumption.",
+    "Anything that needs digging, burning, outdoor cooking or outdoor shelter is shown only to households with a yard. A balcony is not treated as a place to cook or run fuel.",
+    "Quantities round up to whole packs, and each prints its rule beside it. Optional extras show no baseline quantity and stay out of totals.",
+    "One box per job: where Oregon's toolkit and this site both list the same job, one action has the tick box and the others point to it. A pointer is not counted. A tick saved on a pointer earlier still counts.",
+    "Time and cost for a section are sums of each action's own estimate. Cost is a range, because each action carries a band (free, under $25, $25 to $100, over $100) and not a price.",
+    "Two homes: anything that depends on the building (water, food storage, waste, power and light, heat and cold, air, shelter, the building itself) is tracked once for each home, with that home's own type, floor, outdoor space, climate, state and hazards. Everything about people, bags, documents, money and medical is tracked once per household. Product quantities for a home are worked out for the whole household at that home.",
+    "States: Legal and Medical items that differ by state show only for the states you choose. Illinois and Michigan have their own items; any other state sees the general item and a pointer to that state's own form.",
+    "Sections: First steps, Household, Bag, Car, 72 hours at home and Two weeks at home each hold their own actions and products, and nothing sits in two of them. Household is the everyday safety setup of a home and is not emergency preparation. Car shows only when the setup says you have a car. Two weeks at home may ask for more of something 72 hours at home already bought; that is the same product at a larger amount, listed once.",
+    "Medicine cabinet: lines show for the age bands in your setup. Amounts are in packages, never doses, and are this site's assumption unless the line says otherwise. Doses go by weight, from the label or the child's doctor."
+  ],
+  "notes": {
+    "before0": "This plan is for getting ready on an ordinary day. In an emergency the hazard in front of you and official instructions come first: leave, shelter or call 911 as they say, and come back to this list afterwards. The site keeps a tick and a date for each line and nothing else: what you write on a worksheet stays on your paper or in your own Google Drive.",
+    "quantities": "The numbers here are targets worked out from your household setup, and each one prints the rule it came from. What you already own counts, and it counts once: tick it as bought and the list shrinks.",
+    "after0": "These are first checks, not finished jobs. Anything that turned out to need a repair, a battery or a purchase stays open until it is done, and the later sections come back to each one."
+  },
+  "access": {
+    "name": "If someone at home has a disability, a mobility limit or a powered medical device",
+    "icon": "firstaid",
+    "intro": "The setup does not ask about disability, age over 65 or medical devices, so that nothing about anyone's health is stored. Open this block if any of it applies to someone at home. Until you open it, its boxes are left out of this section's counts and hours.",
+    "ids": [
+      "U2-19",
+      "U2-102",
+      "U2-103",
+      "U2-104",
+      "U2-106",
+      "U2-107",
+      "U2-109",
+      "U2-110",
+      "U2-111",
+      "U2-112",
+      "U2-113",
+      "U2-162",
+      "FN-14",
+      "FN-15",
+      "FN-16",
+      "FN-17",
+      "FN-20",
+      "FN-21",
+      "X7-03",
+      "U1-38",
+      "U1-39",
+      "U1-40",
+      "PL-05",
+      "HR-10",
+      "HR-11"
+    ]
+  },
+  "more_intro": "Lines from Oregon's toolkit that are not preparedness for a city household. A title and one line each. They have no tick box and are not counted in the boxes, the hours or the cost."
+}

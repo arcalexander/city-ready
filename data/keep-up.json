@@ -1,0 +1,554 @@
+{
+  "note": "Months are this site's suggestion wherever the plan names none: jobs done twice a year sit in March and November, when the clocks change; jobs done every three months sit in January, April, July and October; once-a-year jobs sit in January with the annual review. Move any of them to dates you will remember. A job the plan ties to a season or a month keeps it.",
+  "monthly_intro": "A few minutes, on a day you pick.",
+  "dated_intro": "These follow a date printed on the thing, the date on a paper, or something that happens. Put each date in your own calendar when you do the action.",
+  "entries": [
+    {
+      "action": "HC-23",
+      "text": "Press the test button on every smoke alarm.",
+      "when": "monthly"
+    },
+    {
+      "action": "HC-22",
+      "text": "Press the test button on every carbon monoxide alarm.",
+      "when": "monthly"
+    },
+    {
+      "action": "X3-09",
+      "text": "Look in and around the food bins for droppings or chewed corners.",
+      "when": "monthly"
+    },
+    {
+      "action": "U2-17",
+      "text": "Time yourself getting the pet into its carrier or onto its leash and to the exit.",
+      "when": "monthly"
+    },
+    {
+      "action": "PL-02",
+      "text": "Charge every power bank back to full.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "U3-11",
+      "text": "Check the dates on stored food and move anything within six months of its date into the kitchen.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "U2-78",
+      "text": "Refresh the backup copy on the external drive.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "U2-15",
+      "text": "Talk the plan through with everyone at home.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "U2-27",
+      "text": "Repeat the rehearsal as a game with young children.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 or 4 months"
+    },
+    {
+      "action": "BG-10",
+      "text": "Check the sizes of the diapers and clothes in the infant and toddler add-on.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "U2-43",
+      "text": "Check the baby’s or small child’s sizes in the home kit.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "FN-31",
+      "text": "Swap the contents of the overnight bag left at childcare.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
+    },
+    {
+      "action": "PL-20",
+      "text": "Test the power kit: switch on every light and radio, charge the power banks and power stations, check the batteries, recharge the rechargeable cells and press each power-failure light’s test button.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "twice a year, when the clocks change"
+    },
+    {
+      "action": "BG-16",
+      "text": "Empty each grab bag: swap the clothing for the season, check sizes, replace anything that expires within six months and update the document copies.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "twice a year, when the clocks change"
+    },
+    {
+      "action": "X7-04",
+      "text": "Check the expiration date on every package in the medicine cabinet and replace anything out of date or nearly so.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "U4-17",
+      "text": "Replace stored tap water: empty, clean, refill and write the new date.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "X6-09",
+      "text": "Run a home fire drill.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "at least twice a year"
+    },
+    {
+      "action": "U2-160",
+      "text": "Repeat the leave-the-home drill from other rooms and by your second way out.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "twice a year"
+    },
+    {
+      "action": "U2-40",
+      "text": "Test the battery, hand-crank or solar radio.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "HR-24",
+      "text": "Try every window and note which ones open and how far.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "twice a year"
+    },
+    {
+      "action": "X2-07",
+      "text": "Replace the water, snacks and medicine in the kit at work, and swap the warm layer or sun hat for the season.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "BG-20",
+      "text": "Take a new photo of each child, and one of you together.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "BG-11",
+      "text": "Swap the pet food in the pet bag for fresh.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "U2-114",
+      "text": "Check the pet’s ID tag can still be read.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "every 6 months"
+    },
+    {
+      "action": "U2-114",
+      "text": "Check the fit of the spare leash, collar and harness.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "twice a year"
+    },
+    {
+      "action": "FN-26",
+      "text": "Check dates and batteries in an older relative’s supplies.",
+      "months": [
+        3,
+        11
+      ],
+      "every": "each visit, or at least twice a year"
+    },
+    {
+      "action": "HC-23",
+      "text": "Replace the 9-volt backup battery in any smoke alarm that has one.",
+      "months": [
+        11
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "MD-19",
+      "text": "Work through the annual review sheet.",
+      "months": [
+        1
+      ],
+      "every": "once a year, on a date you will remember"
+    },
+    {
+      "action": "HR-30",
+      "text": "Walk one stairwell down and back up with your bags and headlamps.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U7-07",
+      "text": "Replace anything used or past its date in the home first-aid kit.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "MD-13",
+      "text": "Check your second way to pay has not expired and that you know its PIN.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U2-144",
+      "text": "Update the Household sheet.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U2-22",
+      "text": "Swap the utility bill in your papers for a newer one.",
+      "months": [
+        1
+      ],
+      "every": "at each annual review"
+    },
+    {
+      "action": "U8-10",
+      "text": "Check every adult’s emergency alert registration.",
+      "months": [
+        1
+      ],
+      "every": "once a year, and when you move"
+    },
+    {
+      "action": "U2-114",
+      "text": "Retake the pet photos.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U4-10",
+      "text": "Replace the one bottle of plain bleach you keep for treating water, cans that got wet and the dish line.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U4-31",
+      "text": "Check the water-heater straps are still tight.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "U4-32",
+      "text": "Flush the water heater, following the maker’s instructions.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "NB-10",
+      "text": "Hold one stair walk or building drill.",
+      "months": [
+        1
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "MN-16",
+      "text": "Read a credit report from each bureau.",
+      "months": [
+        1
+      ],
+      "every": "every 12 months"
+    },
+    {
+      "action": "MN-19",
+      "text": "Collect the new IRS Identity Protection PIN.",
+      "months": [
+        1
+      ],
+      "every": "each year"
+    },
+    {
+      "action": "MN-22",
+      "text": "Each adult pays each essential bill alone, with no shared password.",
+      "months": [
+        1
+      ],
+      "every": "every 12 months"
+    },
+    {
+      "action": "MD-17",
+      "text": "Buy flood insurance well before storm season: many policies take effect only 30 days after you buy them.",
+      "months": [
+        4
+      ],
+      "every": "before storm season"
+    },
+    {
+      "action": "AR-15",
+      "text": "Ask the doctor about smoke days and check reliever inhalers and medicines are stocked.",
+      "months": [
+        5
+      ],
+      "every": "before smoke season"
+    },
+    {
+      "action": "U2-57",
+      "text": "Check the expiration dates on sunscreen and insect repellent and replace them.",
+      "months": [
+        5
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "FN-07",
+      "text": "Check each school and childcare pick-up list.",
+      "months": [
+        9
+      ],
+      "every": "every September"
+    },
+    {
+      "action": "U3-23",
+      "text": "Have the wood stove or fireplace and its chimney cleaned and inspected.",
+      "months": [
+        9
+      ],
+      "every": "every year, before you count on it"
+    },
+    {
+      "action": "HC-15",
+      "text": "Fit the window-film kit over the warm room’s windows.",
+      "months": [
+        10
+      ],
+      "every": "before winter"
+    },
+    {
+      "action": "HC-20",
+      "text": "Find the water shut-off valves and ask how the building’s pipes are protected.",
+      "months": [
+        10
+      ],
+      "every": "before winter"
+    },
+    {
+      "action": "HC-26",
+      "text": "Add the winter items to the car kit and keep the tank near full.",
+      "months": [
+        10
+      ],
+      "every": "from the first frost"
+    },
+    {
+      "action": "U1-44",
+      "text": "Check the sizes of everyone’s warm clothes.",
+      "months": [
+        10
+      ],
+      "every": "every fall"
+    },
+    {
+      "action": "U2-163",
+      "text": "Do the ShakeOut drill on the third Thursday of October, check the bags and replace anything out of date.",
+      "months": [
+        10
+      ],
+      "every": "once a year"
+    },
+    {
+      "action": "HC-23",
+      "text": "Replace any smoke alarm more than 10 years past the date of manufacture printed on its back.",
+      "when": "dated"
+    },
+    {
+      "action": "HC-22",
+      "text": "Replace the carbon monoxide alarm by the date its maker gives.",
+      "when": "dated"
+    },
+    {
+      "action": "U3-22",
+      "text": "Replace the fire extinguisher at the date on its label, or after any use.",
+      "when": "dated"
+    },
+    {
+      "action": "PL-09",
+      "text": "Replace the spare batteries by the date printed on the pack.",
+      "when": "dated"
+    },
+    {
+      "action": "X4-08",
+      "text": "Replace sealed bottled water before its printed date, and drink the old bottles.",
+      "when": "dated"
+    },
+    {
+      "action": "BG-11",
+      "text": "Replace the pet’s sealed water bottles by the date printed on them.",
+      "when": "dated"
+    },
+    {
+      "action": "LG-03",
+      "text": "Renew the short-term care authority for your children before the paper runs out.",
+      "when": "dated"
+    },
+    {
+      "action": "LG-18",
+      "text": "Illinois: sign a new short-term guardian appointment before the old one ends.",
+      "when": "dated",
+      "every": "runs no longer than 365 days"
+    },
+    {
+      "action": "LG-26",
+      "text": "Michigan: sign a new delegation of parental powers before the old one runs out.",
+      "when": "dated",
+      "every": "runs no more than 180 days"
+    },
+    {
+      "action": "LG-22",
+      "text": "Illinois: renew the declaration for mental health treatment.",
+      "when": "dated",
+      "every": "three years after signing"
+    },
+    {
+      "action": "ME-14",
+      "text": "Michigan: reaffirm the MI-POST form.",
+      "when": "dated",
+      "every": "every year, and after any change the state lists"
+    },
+    {
+      "action": "U7-11",
+      "text": "Book the first-aid and CPR course again before the certificate lapses.",
+      "when": "dated"
+    },
+    {
+      "action": "FN-32",
+      "text": "Review each child’s part of the plan.",
+      "when": "dated",
+      "every": "on each birthday"
+    },
+    {
+      "action": "FN-04",
+      "text": "Update each child’s dose on the medication list as the child grows: ask the doctor or pharmacist.",
+      "when": "dated"
+    },
+    {
+      "action": "FN-12",
+      "text": "Refill prescriptions on the first day allowed and use the oldest first.",
+      "when": "dated",
+      "every": "each refill"
+    },
+    {
+      "action": "X7-05",
+      "text": "Update the one-page medical summary.",
+      "when": "dated",
+      "every": "whenever a medicine changes"
+    },
+    {
+      "action": "MD-09",
+      "text": "Print a fresh set of recovery codes.",
+      "when": "dated",
+      "every": "whenever you use one or change phones"
+    },
+    {
+      "action": "LG-16",
+      "text": "Review and update or re-sign every legal paper affected.",
+      "when": "dated",
+      "every": "after a move, marriage, divorce, birth or death"
+    },
+    {
+      "action": "MN-08",
+      "text": "Recheck beneficiaries and account owners.",
+      "when": "dated",
+      "every": "after a marriage, divorce, birth or death"
+    }
+  ]
+}

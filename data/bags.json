@@ -1,0 +1,833 @@
+{
+ "note": "Itemized bag lists. Each bag has zones in packing order. An entry is either a product item (`item`, an ID from data/products) or a plain thing (`text`). `est_oz` is an estimated weight used when the product pick has no published weight, or when only part of a pack is carried (set `use_est` to true to force it). `tier` forces which tier's pick is shown for that entry (the child's pack that fits each age band). Weights marked est. on the site are estimates. A listed weight is the contents only: no list has a row for the empty adult pack, and an entry with no weight and no `est_oz` is counted as not weighed. The child's bag is one bag entry per age band, each a complete list, so each band has its own total. `main` marks the grab bag, the one complete bag; `addon` marks the lists that go on top. `cites` on a bag lists the source IDs (data/sources.json) its safety lines rest on; `band` on a child's bag is the household age-band key it is for.",
+ "intro": "The grab bag and its add-ons, built for a city: on foot or by transit, down the stairs, nothing that looks like a kit bag. Nothing here assumes a campsite, a fire or a car, apart from the car kit, and nothing counts on a shelter having food, water and toilets. These lists are the only specification for each bag: the Bag actions point here and do not repeat them. Every weight is an estimate of the contents, so weigh your own packed bags.",
+ "bags": [
+  {
+   "id": "grab",
+   "main": true,
+   "cites": [
+    "cdc-choking-hazards",
+    "cdc-water-safe"
+   ],
+   "name": "Grab bag",
+   "purpose": "Kept by the door, one for each adult and teenager. It keeps one adult going for 72 hours on the way to, and at, a friend’s home, a hotel or a public shelter.",
+   "target": "About 15% of your body weight, and no more than 20%. The percentages are a common rule of thumb, not an official figure: the real test is carrying it down your stairs and for a mile. Your own medicines and extras come on top. The listed weight is an estimate of the contents: it leaves out the empty pack, which adds 3 to 4.5 lb, and anything you carry for a child or a pet",
+   "notes": [
+    "Other guides call this a go-bag or a bug-out bag. On this site it is the grab bag.",
+    "One grab bag per adult, and one for each teenager of 14 or over. The radio and the filter are listed in every bag: pack each once for the household and the other bags are lighter.",
+    "Keep it by the door, not in a storage locker, with a worn-in pair of sturdy closed shoes and socks beside it for each person.",
+    "Food here is three days: the ration pack and a day of food you already eat. One 3,600 kcal pack is about 1,200 kcal a day, which keeps an adult going but is not a full diet."
+   ],
+   "zones": [
+    {
+     "name": "Bottom of the bag: things you need last",
+     "why": "Soft and light.",
+     "items": [
+      {
+       "text": "Change of clothes in a zip bag: 2 underwear, 2 pairs of socks, 1 long-sleeved top, 1 pair of long pants, 1 warm layer",
+       "qty": 1,
+       "note": "The two pairs of socks are the walking socks listed in this bag, not two more. In the cold season your coat, hat and gloves go on you.",
+       "est_oz": 42
+      },
+      {
+       "item": "walking-socks-gloves",
+       "qty": 2,
+       "label": "Pair of walking socks",
+       "est_oz": 3
+      },
+      {
+       "text": "Warm hat and thin gloves in the cold months; sun hat in the hot months",
+       "qty": 1,
+       "est_oz": 4
+      },
+      {
+       "item": "emergency-bivvy",
+       "qty": 1,
+       "est_oz": 4
+      },
+      {
+       "text": "Toiletries in a zip bag: toothbrush, small toothpaste, soap sheet or small soap, menstrual supplies, small towel",
+       "qty": 1,
+       "est_oz": 8
+      }
+     ]
+    },
+    {
+     "name": "Middle, against your back: the heavy things",
+     "why": "Weight close to your spine carries best.",
+     "items": [
+      {
+       "item": "water-bottle",
+       "qty": 2,
+       "note": "Filled. Two liters (about 2 quarts) is a day's drinking for a walking adult in mild weather. A squeeze filter with the narrow 28 mm thread does not screw onto a wide-mouth bottle: with one, use the filter's own pouch, or make one of the two bottles a narrow 28 mm one (BG-13).",
+       "est_oz": 6.3,
+       "label": "Water bottles"
+      },
+      {
+       "text": "Water in the bottles (1 liter, about 1 quart, each)",
+       "qty": 2,
+       "est_oz": 35
+      },
+      {
+       "item": "food-ration-bars",
+       "qty": 1,
+       "note": "One 3,600 kcal pack is about 1,200 kcal a day for three days: enough to keep going, not a full diet. Add the day of familiar food below. Not for a small child."
+      },
+      {
+       "text": "Familiar no-cook food for a day: nuts, dried fruit, crackers, nut butter",
+       "qty": 1,
+       "note": "For a small child pack food they already eat, never ration bars or whole nuts.",
+       "est_oz": 16
+      },
+      {
+       "item": "power-bank",
+       "qty": 1,
+       "note": "The smallest one you own is fine here.",
+       "est_oz": 8.8
+      },
+      {
+       "text": "Charging cable for your phone",
+       "qty": 1,
+       "est_oz": 1
+      },
+      {
+       "item": "usb-charging-kit",
+       "qty": 1,
+       "est_oz": 5,
+       "use_est": true,
+       "note": "Wall plug and the cables your devices use."
+      }
+     ]
+    },
+    {
+     "name": "Top of the bag: things you may need fast",
+     "why": "Rain, light, first aid, water treatment, air and news.",
+     "items": [
+      {
+       "item": "rain-shell",
+       "qty": 1,
+       "est_oz": 10
+      },
+      {
+       "item": "headlamp",
+       "qty": 1,
+       "est_oz": 3
+      },
+      {
+       "text": "Spare batteries for the headlamp, if it takes them",
+       "qty": 1,
+       "est_oz": 1.5
+      },
+      {
+       "item": "first-aid-kit-bag",
+       "qty": 1,
+       "note": "Add blister bandages.",
+       "est_oz": 6
+      },
+      {
+       "item": "work-gloves",
+       "qty": 1,
+       "est_oz": 4.5
+      },
+      {
+       "item": "respirator-n95",
+       "qty": 1,
+       "label": "N95 respirators (2, flat in a zip bag)",
+       "est_oz": 0.8,
+       "use_est": true
+      },
+      {
+       "item": "eye-protection",
+       "qty": 1,
+       "label": "Close-fitting goggles, with the respirators",
+       "note": "For dust and debris after a collapse or a storm, not for gas or fumes (AR-14)."
+      },
+      {
+       "item": "water-filter-portable",
+       "qty": 1,
+       "label": "Portable water filter, with the filter's own pouch",
+       "note": "Not every filter screws onto every bottle. Fill the filter's own pouch and squeeze the water through into your bottle, unless you have checked that the two thread together. A filter does not replace water you carry unless a refill point on your route is known to be safe.",
+       "est_oz": 3.5
+      },
+      {
+       "item": "water-treatment-tablets",
+       "qty": 1,
+       "est_oz": 1,
+       "use_est": true,
+       "note": "A strip or two of tablets as a backup to the filter."
+      },
+      {
+       "item": "pocket-radio",
+       "qty": 1,
+       "est_oz": 4
+      }
+     ]
+    },
+    {
+     "name": "Outside pockets",
+     "why": "Small things you reach for while walking.",
+     "items": [
+      {
+       "item": "whistle",
+       "qty": 1,
+       "est_oz": 0.5
+      },
+      {
+       "item": "paper-map-compass",
+       "qty": 1,
+       "note": "Paper map with your meeting places and routes marked (BG-21).",
+       "est_oz": 3,
+       "use_est": true
+      },
+      {
+       "item": "multi-tool-bladeless",
+       "qty": 1,
+       "note": "No knife blade (BG-18). The bladed multi-tool stays at home.",
+       "est_oz": 9
+      },
+      {
+       "text": "Spare glasses or contact lenses, hearing-aid batteries and a spare set of keys",
+       "qty": 1,
+       "note": "An old pair of glasses is better than none. Things in daily use that you cannot duplicate go on the grab list on top of the bag (BG-14).",
+       "est_oz": 4
+      },
+      {
+       "text": "Toilet kit: 3 one-use toilet bags, tissues, small hand sanitizer",
+       "qty": 1,
+       "est_oz": 9
+      },
+      {
+       "text": "Notebook, pencil, permanent marker, a few zip bags",
+       "qty": 1,
+       "est_oz": 4
+      }
+     ]
+    },
+    {
+     "name": "On your body when you leave, never in the bag",
+     "why": "If the bag is lost or stolen you still have these.",
+     "items": [
+      {
+       "text": "Phone, keys and wallet",
+       "qty": 1,
+       "note": "Fill in the phone's emergency medical ID and download an offline map of your city.",
+       "est_oz": 0
+      },
+      {
+       "text": "Wallet contact card, filled in by hand",
+       "qty": 1,
+       "note": "It lives in your wallet (CM-02).",
+       "est_oz": 0.1
+      },
+      {
+       "text": "Cash in small bills and coins ($20 to $40 at least)",
+       "qty": 1,
+       "note": "In your wallet, apart from the cash in the document pouch, so your cash is in two places (BG-17).",
+       "est_oz": 1
+      },
+      {
+       "item": "document-pouch",
+       "qty": 1,
+       "note": "Copies of ID and key documents, the wallet contact card, cash in small bills (MD-01 has the amount). Copies only: the fire chest for originals is a separate item and stays at home. The Social Security card copy and your printed recovery codes stay in the fire chest at home, never in the pouch.",
+       "label": "Waterproof document pouch",
+       "est_oz": 2
+      },
+      {
+       "text": "Prescription medicines for 7 days if your supply allows and never fewer than 3, and a few days of any other medicine you take, with the written list",
+       "qty": 1,
+       "note": "In their labeled containers. A medicine that must stay cold goes on the grab list on top of the bag (BG-14).",
+       "est_oz": 4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "car",
+   "name": "Car kit",
+   "cites": [
+    "ready-car",
+    "ready-winter",
+    "nws-winter-during"
+   ],
+   "only": {
+    "has": [
+     "car"
+    ]
+   },
+   "purpose": "Stays in the car all year. It covers a breakdown, a long standstill and a night stranded in bad weather.",
+   "target": "One small tote that fits in the trunk. Weight does not matter here; heat does, so choose water and food that tolerate a hot car and swap them twice a year. The listed weight is a guide only: the inflator and the tote are not weighed, and the water is counted for two seats",
+   "notes": [
+    "This list is the only definition of the car kit, the winter add-on included.",
+    "Ready.gov says to keep the fuel tank full. As a floor, never let it fall below half, or an electric car below half charge.",
+    "The escape tool lives within reach of the driver's seat, not in the trunk.",
+    "The water figure, about 2 quarts (2 liters) per seat, is this site's own. The official car-kit lists name water but give no amount.",
+    "If the car is stuck in snow or cold, stay in it. To keep warm, run the engine for about 10 minutes each hour with a window open a little, and clear snow from the exhaust pipe first (National Weather Service)."
+   ],
+   "zones": [
+    {
+     "name": "Within reach of the driver",
+     "items": [
+      {
+       "item": "car-escape-tool",
+       "qty": 1,
+       "est_oz": 1
+      },
+      {
+       "item": "flashlight",
+       "qty": 1,
+       "est_oz": 5
+      },
+      {
+       "text": "Phone charging cable and 12 V USB charger",
+       "qty": 1,
+       "est_oz": 2
+      }
+     ]
+    },
+    {
+     "name": "In the tote",
+     "items": [
+      {
+       "item": "car-jump-starter",
+       "qty": 1,
+       "note": "Recharge it every 3 months."
+      },
+      {
+       "item": "car-tire-inflator",
+       "qty": 1
+      },
+      {
+       "item": "car-warning-triangles",
+       "qty": 1
+      },
+      {
+       "item": "car-blanket",
+       "qty": 1,
+       "note": "One per seat you normally fill."
+      },
+      {
+       "item": "first-aid-kit-bag",
+       "qty": 1,
+       "est_oz": 6
+      },
+      {
+       "item": "work-gloves",
+       "qty": 1,
+       "est_oz": 4.5
+      },
+      {
+       "item": "rain-shell",
+       "qty": 1,
+       "est_oz": 10
+      },
+      {
+       "item": "food-ration-bars",
+       "qty": 1,
+       "note": "Ration bars tolerate heat better than ordinary snacks."
+      },
+      {
+       "text": "Water: about 2 quarts (2 liters) per seat, in sealed pouches or bottles, replaced every six months",
+       "qty": 1,
+       "note": "This site's own figure. The weight shown is for two seats.",
+       "est_oz": 141
+      },
+      {
+       "item": "paper-map-compass",
+       "qty": 1,
+       "note": "Paper road map of your region.",
+       "est_oz": 3,
+       "use_est": true
+      },
+      {
+       "text": "Toilet bags, tissues, hand sanitizer",
+       "qty": 1,
+       "est_oz": 8
+      }
+     ]
+    },
+    {
+     "name": "Winter add-on (freezing climates)",
+     "items": [
+      {
+       "text": "Ice scraper and snow brush",
+       "qty": 1,
+       "est_oz": 8
+      },
+      {
+       "text": "Folding shovel",
+       "qty": 1,
+       "est_oz": 24
+      },
+      {
+       "text": "Bag of sand or non-clumping cat litter for traction",
+       "qty": 1,
+       "est_oz": 160
+      },
+      {
+       "text": "Hat, mittens and spare socks for each person",
+       "qty": 1,
+       "est_oz": 12
+      }
+     ]
+    }
+   ],
+   "addon": true
+  },
+  {
+   "id": "child-3-5",
+   "band": "a3_5",
+   "cites": [
+    "aap-backpack",
+    "cdc-choking-hazards"
+   ],
+   "name": "Child's bag, ages 3 to 5",
+   "only": {
+    "has": [
+     "under5"
+    ]
+   },
+   "purpose": "A very small bag the child carries, so they have water, a snack, a light, something familiar and a card that says who they belong to. An adult carries everything else.",
+   "target": "About 2 lb as listed, with the bag itself counted, and never more than 15% of the child's body weight, which is the American Academy of Pediatrics' limit for a school backpack. Treat that as a ceiling, not a target",
+   "notes": [
+    "Under 3: no bag. An adult carries everything; see the infant and toddler add-on.",
+    "The age bands are examples. A child carries only what they can manage on your real route, and for some that is the comfort item alone.",
+    "Adults keep the essentials. This child's main water, three days of food they already eat, a change of clothes and any medicines go in an adult's grab bag: weigh that bag again once they are in.",
+    "The ID card is a blank card you fill in by hand.",
+    "Let the child pack and repack the bag. A child who has handled the bag will carry it."
+   ],
+   "zones": [
+    {
+     "name": "In the bag",
+     "why": "Light, and theirs.",
+     "items": [
+      {
+       "item": "child-backpack",
+       "qty": 1,
+       "tier": "budget",
+       "note": "A pack of about 5 to 8 liters. The pick shown is the one its product page lists for this age band."
+      },
+      {
+       "text": "Comfort item: a small soft toy or blanket",
+       "qty": 1,
+       "est_oz": 5
+      },
+      {
+       "text": "Small water bottle (about 12 fl oz), filled",
+       "qty": 1,
+       "est_oz": 16
+      },
+      {
+       "text": "Two familiar snacks",
+       "qty": 1,
+       "note": "Food the child already eats, never ration bars or whole nuts.",
+       "est_oz": 4
+      },
+      {
+       "text": "A small light of their own",
+       "qty": 1,
+       "note": "A child's headlamp, if they can work it.",
+       "est_oz": 2
+      },
+      {
+       "text": "ID card with your names and phone numbers, in a zip bag, and a family photo",
+       "qty": 1,
+       "note": "In an inside pocket (BG-20).",
+       "est_oz": 0.5
+      }
+     ]
+    }
+   ],
+   "addon": true
+  },
+  {
+   "id": "child-6-9",
+   "band": "a6_9",
+   "cites": [
+    "aap-backpack"
+   ],
+   "name": "Child's bag, ages 6 to 9",
+   "only": {
+    "has": [
+     "school_age"
+    ]
+   },
+   "purpose": "A small bag the child carries, so they have water, a snack, a light, a rain layer, something familiar and a card that says who they belong to.",
+   "target": "About 5 lb as listed, with the bag itself counted, and never more than 15% of the child's body weight, which is the American Academy of Pediatrics' limit for a school backpack. Lighter is better",
+   "notes": [
+    "The age bands are examples. A child carries only what they can manage on your real route, and for some that is the comfort item alone.",
+    "Adults keep the essentials. This child's main water, three days of food they already eat, a change of clothes and any medicines go in an adult's grab bag: weigh that bag again once they are in.",
+    "The ID card is a blank card you fill in by hand.",
+    "Let the child pack and repack the bag. A child who has handled the bag will carry it."
+   ],
+   "zones": [
+    {
+     "name": "Bottom of the bag",
+     "why": "Soft things.",
+     "items": [
+      {
+       "item": "child-backpack",
+       "qty": 1,
+       "tier": "standard",
+       "note": "A pack of about 10 to 18 liters. The pick shown is the one its product page lists for this age band."
+      },
+      {
+       "text": "Change of underwear and socks, a warm hat and a warm layer",
+       "qty": 1,
+       "est_oz": 16
+      },
+      {
+       "text": "Comfort item: a small soft toy or blanket",
+       "qty": 1,
+       "est_oz": 5
+      },
+      {
+       "text": "Small game, cards or coloring book and pencils",
+       "qty": 1,
+       "est_oz": 6
+      }
+     ]
+    },
+    {
+     "name": "Top and pockets",
+     "why": "What they reach for themselves.",
+     "items": [
+      {
+       "text": "Water bottle (about 16 fl oz), filled",
+       "qty": 1,
+       "est_oz": 21
+      },
+      {
+       "text": "Two familiar snacks",
+       "qty": 1,
+       "note": "Food the child already eats.",
+       "est_oz": 4
+      },
+      {
+       "text": "Rain jacket or poncho in the child's own size",
+       "qty": 1,
+       "note": "No pick on this site: the adult rain shell on the other lists does not fit a child.",
+       "est_oz": 6
+      },
+      {
+       "item": "child-headlamp",
+       "qty": 1,
+       "est_oz": 2
+      },
+      {
+       "item": "whistle",
+       "qty": 1,
+       "est_oz": 0.5
+      },
+      {
+       "text": "ID card with your names and phone numbers, in a zip bag, and a family photo",
+       "qty": 1,
+       "note": "In an inside pocket (BG-20).",
+       "est_oz": 0.5
+      }
+     ]
+    }
+   ],
+   "addon": true
+  },
+  {
+   "id": "child-10-13",
+   "band": "a10_13",
+   "cites": [
+    "aap-backpack",
+    "cdc-wildfire-stay-safe"
+   ],
+   "name": "Child's bag, ages 10 to 13",
+   "only": {
+    "has": [
+     "school_age"
+    ]
+   },
+   "purpose": "A bag an older child carries: their own water, a day of their own food, a light, a rain layer, warm layers and a card that says who they belong to.",
+   "target": "About 9 lb as listed, with the bag itself counted, and never more than 15% of the child's body weight, which is the American Academy of Pediatrics' limit for a school backpack. For a lighter child, move the food and the second warm layer to an adult's bag",
+   "notes": [
+    "The age bands are examples. A child carries only what they can manage on your real route, and for some that is the comfort item alone.",
+    "Adults keep the essentials. This child's main water, three days of food they already eat, a change of clothes and any medicines go in an adult's grab bag: weigh that bag again once they are in.",
+    "The pack shown is the largest and heaviest of the three. A light school backpack the child already owns does the same job.",
+    "The ID card is a blank card you fill in by hand.",
+    "Let the child pack and repack the bag. A child who has handled the bag will carry it.",
+    "Aged 14 and up: no child's bag. A teenager packs an adult grab bag, held to 15% of their own weight."
+   ],
+   "zones": [
+    {
+     "name": "Bottom of the bag",
+     "why": "Soft things.",
+     "items": [
+      {
+       "item": "child-backpack",
+       "qty": 1,
+       "tier": "cadillac",
+       "note": "A pack of about 18 to 30 liters. The pick shown is the one its product page lists for this age band."
+      },
+      {
+       "text": "Change of underwear and socks, a warm hat and two warm layers",
+       "qty": 1,
+       "est_oz": 24
+      },
+      {
+       "item": "emergency-bivvy",
+       "qty": 1,
+       "est_oz": 4
+      },
+      {
+       "text": "A book, cards or a small game",
+       "qty": 1,
+       "est_oz": 6
+      }
+     ]
+    },
+    {
+     "name": "Middle",
+     "why": "The heavy things, close to their back.",
+     "items": [
+      {
+       "text": "Larger water bottle (25 to 32 fl oz), filled",
+       "qty": 1,
+       "est_oz": 34
+      },
+      {
+       "text": "Their own food for a day: things they already eat",
+       "qty": 1,
+       "est_oz": 16
+      },
+      {
+       "text": "A small power bank and cable if they carry a phone",
+       "qty": 1,
+       "est_oz": 6
+      }
+     ]
+    },
+    {
+     "name": "Top and pockets",
+     "why": "What they reach for themselves.",
+     "items": [
+      {
+       "text": "Rain jacket or poncho in the child's own size",
+       "qty": 1,
+       "note": "No pick on this site: the adult rain shell on the other lists does not fit a child.",
+       "est_oz": 8
+      },
+      {
+       "item": "child-headlamp",
+       "qty": 1,
+       "est_oz": 2
+      },
+      {
+       "item": "whistle",
+       "qty": 1,
+       "est_oz": 0.5
+      },
+      {
+       "text": "Their own small first-aid basics: bandages, antiseptic wipes",
+       "qty": 1,
+       "est_oz": 2
+      },
+      {
+       "text": "A respirator or mask in a size that fits over the child's nose and under the chin",
+       "qty": 1,
+       "note": "CDC says children aged 2 and over can wear one. Check the fit on this child before you rely on it.",
+       "est_oz": 0.5
+      },
+      {
+       "text": "ID card with your names and phone numbers, in a zip bag, and a family photo",
+       "qty": 1,
+       "note": "In an inside pocket (BG-20).",
+       "est_oz": 0.5
+      }
+     ]
+    }
+   ],
+   "addon": true
+  },
+  {
+   "id": "infant",
+   "name": "Infant and toddler add-on",
+   "cites": [
+    "cdc-infant-formula",
+    "cdc-cup-feeding",
+    "cdc-clean-feeding-items",
+    "cdc-safe-sleep",
+    "nichd-safe-sleep"
+   ],
+   "only": {
+    "has": [
+     "baby",
+     "carried",
+     "diapers"
+    ]
+   },
+   "purpose": "Goes into an adult's grab bag, or its own small bag, for each child under 3 and for any older child who is still in diapers or cannot walk a mile. A child who cannot walk the distance is worn in a carrier so both hands are free on the stairs.",
+   "target": "Weigh it packed. Formula is the heavy part: three days at 8 feeds a day is 24 bottles, which is 48 fl oz (about 3.1 lb of liquid) in 2 fl oz bottles or 192 fl oz (about 12.5 lb) in 8 fl oz bottles, before packaging. With powder, the sealed water for the feeds weighs about the same as ready-to-feed would, and the powder container comes on top. With two adults, split it between their two grab bags. The listed weight below leaves out the carrier, the diapers, the formula and the crib, which are the heaviest things here, and the child",
+   "notes": [
+    "If the baby is breastfed, keep breastfeeding: it needs no water, power or supplies. If the baby is formula-fed, pack the baby's own formula, counted in feeds and not in fluid ounces: ready-to-feed where it is sold that way, otherwise the powder with sealed bottled water.",
+    "An adult wearing a child on their back cannot also wear a backpack: that adult wears the bag on the front, or the second adult or the named helper carries it.",
+    "Pack only the lines that fit this child: no formula for a toddler, no solids for a newborn, no diapers for a child who is out of them.",
+    "Strollers do not work on stairs or in crowds. Use the carrier."
+   ],
+   "zones": [
+    {
+     "name": "Worn",
+     "items": [
+      {
+       "item": "baby-carrier",
+       "qty": 1,
+       "note": "One for each child who cannot walk a mile. Check the maker's age and weight limits against this child, and practice on your stairs (FN-03)."
+      }
+     ]
+    },
+    {
+     "name": "In the bag",
+     "items": [
+      {
+       "item": "diaper-kit",
+       "qty": 1,
+       "note": "For any child in diapers. About 24 to 30 diapers for three days, wipes, changing pads and disposal bags."
+      },
+      {
+       "item": "infant-formula-ready",
+       "qty": 1,
+       "only": {
+        "has": [
+         "formula_rtf"
+        ]
+       },
+       "note": "The baby's own formula, ready to feed. Three days of ready-to-feed formula, counted in feeds (the feeds in a normal day times three), with a sterile single-use nipple or a disposable cup for each feed; reusable bottles and nipples cannot be cleaned on the move."
+      },
+      {
+       "text": "The baby's own powdered formula for three days, sealed bottled water measured for each feed, and a clean bottle or a new disposable cup for each feed",
+       "qty": 1,
+       "only": {
+        "has": [
+         "formula_powder"
+        ]
+       },
+       "note": "For a formula sold only as powder. Mix each feed fresh, only as much as the baby will take, and use it within 1 hour from the start of the feed; throw out what is left. Without safe water, bottles and nipples are hard to clean, so CDC says to feed from a disposable cup, a new cup for each feed. Not weighed: it depends on the feeds."
+      },
+      {
+       "text": "Two full changes of clothes, a warm hat, two burp cloths",
+       "qty": 1,
+       "est_oz": 12
+      },
+      {
+       "text": "A light blanket",
+       "qty": 1,
+       "note": "For wrapping a child you are holding. Keep it out of the place where a baby sleeps.",
+       "est_oz": 8
+      },
+      {
+       "text": "Pacifiers and one familiar small toy",
+       "qty": 1,
+       "est_oz": 3
+      },
+      {
+       "text": "Any fever medicine your child's doctor has advised, with its dosing syringe and the written dose (FN-04)",
+       "qty": 1,
+       "est_oz": 5
+      },
+      {
+       "text": "For babies and toddlers on solids: three days of the food they already eat, in pouches or jars, and a spoon",
+       "qty": 1,
+       "est_oz": 30
+      }
+     ]
+    },
+    {
+     "name": "Not in the bag",
+     "why": "Too big to carry far. Ready to take by car, or already where you would go.",
+     "items": [
+      {
+       "text": "A portable crib or play yard for each baby, or check that the place you would go has one",
+       "qty": 1,
+       "note": "A baby sleeps on their back on a firm, flat surface of their own (FN-34). Not weighed: it does not go in the bag."
+      }
+     ]
+    }
+   ],
+   "addon": true
+  },
+  {
+   "id": "pet",
+   "name": "Pet bag",
+   "cites": [
+    "ready-pets",
+    "redcross-shelter"
+   ],
+   "only": {
+    "has": [
+     "pets"
+    ]
+   },
+   "purpose": "One bag per pet, kept beside the carrier, so the animal can leave with you and be accepted where you are going.",
+   "target": "Light enough to carry with the pet in the other hand: about 5 lb for a cat or small dog, not counting the carrier. The listed weight leaves out the carrier, the food and bowl, and the litter tray",
+   "notes": [
+    "Practice getting the animal into the carrier quickly. It is the step that fails on the day.",
+    "The Red Cross says its shelters welcome pets, which may be housed nearby and not beside you; service animals are always welcome. Hotels and other shelters set their own rules, and Ready.gov says many do not allow pets inside. So still know which friends, hotels and boarding kennels will take your pet."
+   ],
+   "zones": [
+    {
+     "name": "Ready by the door",
+     "items": [
+      {
+       "item": "pet-carrier",
+       "qty": 1,
+       "note": "Labeled with your name and phone number, written by hand."
+      },
+      {
+       "item": "pet-harness-leash",
+       "qty": 1,
+       "note": "The harness picks shown are for a dog. For a cat, the backup to the carrier is a cat harness.",
+       "est_oz": 8
+      }
+     ]
+    },
+    {
+     "name": "In the bag",
+     "items": [
+      {
+       "item": "pet-bowl-food",
+       "qty": 1,
+       "note": "Three days of the food your pet already eats, in a sealed container, and a collapsible bowl."
+      },
+      {
+       "text": "Water for the pet: about 1 quart",
+       "qty": 1,
+       "est_oz": 35
+      },
+      {
+       "item": "pet-litter-portable",
+       "qty": 1,
+       "note": "Cats only."
+      },
+      {
+       "text": "Waste bags",
+       "qty": 1,
+       "est_oz": 2
+      },
+      {
+       "text": "Medicines with written instructions",
+       "qty": 1,
+       "est_oz": 3
+      },
+      {
+       "text": "Copy of vaccination record, the vet's number, microchip number and a photo of you with your pet, in a zip bag",
+       "qty": 1,
+       "est_oz": 1
+      },
+      {
+       "text": "A small blanket or towel that smells of home, and one toy",
+       "qty": 1,
+       "est_oz": 8
+      }
+     ]
+    }
+   ],
+   "addon": true
+  }
+ ],
+ "how_it_works": "Your grab bag waits by the door, packed. When you have to leave, you pick it up and go. It is your 72-hour bag: one for each adult and each teenager of 14 or over. The car kit, the child's bag for each age band, the infant and toddler add-on and the pet bag are add-ons on top."
+}

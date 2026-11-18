@@ -1,0 +1,941 @@
+{
+  "batch": "water-b",
+  "checked": "2026-11-15",
+  "items": [
+    {
+      "id": "water-filter-portable",
+      "module": "water",
+      "name": "Portable water filter",
+      "need": "A small filter lets you make doubtful tap water or collected water safer to drink when you cannot boil it, and it fits in a grab bag.",
+      "how_to_choose": "Look for a hollow-fiber filter from a known brand with a stated pore size of 0.2 micron or smaller and published lab results. These filters remove bacteria and parasites but not viruses, chemicals, fuel or heavy metals, so pair them with bleach or tablets when sewage may be in the water. Pick one that threads onto an ordinary 28 mm drink bottle, so you can fill containers at the sink instead of only sipping through it. A 28 mm thread is the narrow soda-bottle size: it does not screw onto a wide-mouth bottle such as a 63 mm Nalgene. If your bottle is wide-mouthed, fill the filter's own pouch or a narrow 28 mm bottle with the doubtful water and squeeze it through the filter into your bottle. Check whether the filter comes with a pouch; not all do. Most hollow-fiber filters are ruined if they freeze after first use, so store them indoors and do not leave one in a cold car or on a winter balcony.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 0.5,
+        "note": "One filter for every two adults, and at least one per household."
+      },
+      "already_own": "A backpacking squeeze or pump filter from Sawyer, LifeStraw, Katadyn, Platypus or MSR that you already own is fine if it has never frozen while wet, still flows after backflushing, and is under its rated volume. A fridge pitcher or tap-mounted carbon filter is not a substitute: most are not rated for bacteria or parasites. If you bought a filter cheaply from an unknown marketplace seller, treat it as suspect and replace it.",
+      "safety_notes": [
+        {
+          "text": "Portable filters do not remove all germs and do not remove viruses. To remove bacteria a filter needs an absolute pore size of 0.3 micron or smaller, and 1 micron or smaller for parasites such as Giardia and Cryptosporidium. The squeeze, straw and gravity filters on this page are 0.1 to 0.2 micron, so they do not stop viruses.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Use two steps when water may carry sewage: filter first, then disinfect with chlorine, chlorine dioxide or iodine to kill the viruses and bacteria a filter leaves behind.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Boiling is the most reliable way to kill germs. Bring clear water to a rolling boil for 1 minute. CDC says 3 minutes above 6,500 feet; EPA says 3 minutes above 5,000 feet (1,000 m). Using 3 minutes above 5,000 feet satisfies both.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        },
+        {
+          "text": "Water that contains fuel, toxic chemicals or radioactive material cannot be made safe by boiling or disinfecting. Use bottled water or another source.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Floodwater can contain human and animal waste and household, medical and industrial hazardous waste, including chemicals. Do not filter or treat floodwater for drinking; stay out of it and use stored or bottled water.",
+          "source_name": "CDC",
+          "source_title": "Safety Guidelines: Floodwater",
+          "url": "https://www.cdc.gov/floods/safety/floodwater-after-a-disaster-or-emergency-safety.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Counterfeit Sawyer MINI filters carrying Sawyer's trademark and packaging have been sold by third parties on online marketplaces, Sawyer warns. Buy filters from the brand's own store, a known outdoor retailer, or a marketplace listing sold by the brand itself.",
+        "The Prepared warns that many low-priced filter brands on Amazon are white-label products from unknown makers with no real company behind them, and advises avoiding them.",
+        "Hollow-fiber filters (Sawyer, LifeStraw, Platypus, Katadyn BeFree) can crack internally if water inside them freezes. The damage cannot be seen. Sawyer states a filter suspected of freezing must be replaced and is not covered by warranty."
+      ],
+      "research_note": "Audit A asked whether every filter was really unavailable on 2026-11-14 or the checker was blocked. Makers' pages were re-opened in a browser on 2026-11-15. LifeStraw Peak Straw: every colour and pack sold out ('Notify me when available'). MSR Guardian: 'Notify me when available'. Sawyer Squeeze: the 'This product is out of stock' text recorded on 2026-11-14 sits in the page's code but is hidden from a visitor (an unused shop template); the visible page shows $45.99 and 'Find in Stores'. Retailer stock (REI, Amazon) was not checked: those sites refuse automated readers and Amazon is never read as a source. 2026-11-16 alignment pass: off the page from item_flags: Counterfeits: Sawyer has a standing notice (dated October 25, 2018) that counterfeit Sawyer MINI filters carrying its trademark, packaging and UPC were sold by third parties on online marketplaces. The fakes were found in the slim clamshell pack, have a taller ridged cap and do not thread properly onto 28 mm bottles. Sawyer says to email counterfeit@sawyer.com if in doubt. Buy filters from the brand's own store, a known outdoor retailer, or a marketplace listing sold by the brand itself. https://sawyer.com/counterfeit/ | Stock on November 16, 2026: REI listed the Sawyer Squeeze for pre-order at $45.95 ('Most pre-orders ship in 30 days or less'). LifeStraw's Peak Straw and MSR's Guardian were sold out at their makers on November 15, 2026. Check stock before you plan around any of them.",
+      "tiers": {
+        "budget": {
+          "brand": "LifeStraw",
+          "model": "Peak Series Straw",
+          "model_number": "LSPSLSPAN1 (Dark Mountain Gray), LSPSPMB21 (Mountain Blue)",
+          "size": "7.7 x 1.26 in, 2.3 oz. Thread: 28 mm, the narrow drink-bottle size; the maker says it attaches to some standard plastic bottles. No pouch or bottle is included. Pore size 0.2 micron. Removes bacteria (99.999999%), parasites (99.999%), microplastics, silt. Does not remove viruses, chemicals, heavy metals or salt. Rated life about 1,000 gallons (4,000 L). Not freeze tolerant.",
+          "unit_size": 1,
+          "unit_label": "filter",
+          "price_usd": 24.95,
+          "price_seen_at": "LifeStraw.com",
+          "why": "The cheapest filter in OutdoorGearLab's current test that still scored 71 out of 100, level with the Sawyer Squeeze. Unlike the original LifeStraw it threads onto 28 mm drink bottles and gravity hoses, so it can fill a cup or pot, and LifeStraw publishes lab reports for it.",
+          "weakness": "It comes with no bottle or pouch, so you must supply a squeezable 28 mm bottle, and its 0.2 micron pores and 1,000-gallon life are less generous than the Sawyer's.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://lifestraw.com/products/lifestraw-peak-series-straw",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429) on this site. 2026-11-15: opened in a browser; 'This product is out of stock', 'Notify me when available', and the shop's own product data shows all four variants unavailable. 2026-11-16 alignment pass: old note: $24.95; every color and pack sold out on November 15, 2026."
+            }
+          ],
+          "link_note": "",
+          "research_note": "No ASIN for this exact product was seen in any page opened on 2026-11-14, and web search ran out before one could be found. Recall check: on 2026-11-14 the CPSC recalls page did not run the query for automated access (only the default recent list showed), so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: old link_note: No Amazon link. Sold out at the maker; try an outdoor retailer. 2026-11-16 alignment pass: off the page from flags: Sold out in every color and pack at LifeStraw.com on November 15, 2026. | NSF's online listing returned no products under the trade name LifeStraw on 2026-11-14. The P231 claim rests on LifeStraw's own published lab reports, not an NSF certificate.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "LifeStraw",
+              "title": "LifeStraw Peak Series Straw",
+              "url": "https://lifestraw.com/products/lifestraw-peak-series-straw",
+              "verified": true,
+              "supports": "0.2 micron membrane, removal percentages, 4,000 L life, 2.3 oz, 28 mm thread, price $24.95, statement that it meets US EPA and NSF P231 standards for bacteria and parasites, no chemical or heavy-metal removal."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+              "verified": true,
+              "supports": "Tested 20 products, bought at retail, with water samples sent to SGS Labs. Peak Straw scored 71/100, list price $25, 2.3 oz, listed as not freeze tolerant and no virus removal."
+            }
+          ],
+          "flags": [
+            "It comes with no pouch, so the bag-list line 'with the filter's own pouch' does not apply to this pick: carry a squeezable 28 mm bottle with it.",
+            "Not NSF-certified: its claim to meet NSF P231 rests on LifeStraw's own published lab reports."
+          ],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall is mentioned on the maker's page or in the reviews read, and LifeStraw's testing page carries no counterfeit notice."
+        },
+        "standard": {
+          "brand": "Sawyer",
+          "model": "Squeeze Water Filtration System",
+          "model_number": "SP129",
+          "size": "Filter about 3 oz; kit 8.2 oz with two reusable squeeze pouches of its own, backflush plunger, gravity tubing and inline adapters. Thread: 28 mm, the narrow drink-bottle size. It screws onto its own pouches and onto standard 28 mm bottles, and does not screw onto a wide-mouth bottle: for one of those, fill a pouch and squeeze the water through into the bottle. Pore size 0.1 micron absolute. Removes bacteria (99.99999%), protozoa such as Giardia and Cryptosporidium (99.9999%), microplastics. Does not remove viruses, chemicals or heavy metals. Rated up to 100,000 gal per independent reviews; lifetime limited warranty. Not freeze tolerant once wet.",
+          "unit_size": 1,
+          "unit_label": "filter kit",
+          "price_usd": 45.99,
+          "price_seen_at": "Sawyer.com",
+          "why": "Top overall pick at CleverHiker, best-value pick at OutdoorGearLab and best ultralight pick at Switchback Travel. It has the finest pores of the common squeeze filters, screws onto ordinary 28 mm bottles, can run as a gravity filter with the included tubing, and has no cartridge to replace.",
+          "weakness": "The included pouches wear out and flow slows unless you backflush it with the syringe, and like all filters of this type it does nothing against viruses or chemicals.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+              "verified": true,
+              "note": "The page sends you to retailers ('Find in Stores').",
+              "research_note": "The 'out of stock' text recorded on 2026-11-14 is in the page's code but hidden from a visitor (an unused shop template), as seen in a browser on 2026-11-15. It was not a stock notice. 2026-11-16 alignment pass: old note: SP129CL at $45.99 on November 15, 2026. The page sends you to retailers ('Find in Stores')."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00B1OSU4W",
+              "verified": false,
+              "note": "Buy only from a listing sold by Sawyer itself; see the counterfeit warning.",
+              "research_note": "Amazon returned HTTP 503 to automated access. ASIN seen on 2026-11-14 in the Amazon links on CleverHiker and OutdoorGearLab (link text names Sawyer Products SP129)."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Thread and pouches confirmed on Sawyer's page in a browser on 2026-11-15: 'fits standard water bottles with 28 mm threads'; kit includes '2 Reusable BPA-Free Collapsible Pouch'. Recall check: on 2026-11-14 the CPSC recall search page did not run the query for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: off the page from flags: On November 16, 2026 REI listed it as a pre-order. Sawyer's own page still lists it.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Sawyer",
+              "title": "Squeeze Water Filtration System (SP129CL)",
+              "url": "https://www.sawyer.com/product/squeeze-water-filter-system",
+              "verified": true,
+              "supports": "0.1 micron absolute hollow-fiber membrane, removal percentages, kit contents, weight, price, independent lab report reference (S05-03)."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Sawyer Squeeze Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-water-filter/sawyer-squeeze",
+              "verified": true,
+              "supports": "Score 71/100, Best Buy award, about 40 seconds per liter measured, rated 100,000 gal, not freeze tolerant. Tested the $65 kit with a CNOC bladder."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+              "verified": true,
+              "supports": "Best overall, 4.6/5, $46; notes pouches wear out, needs backflushing, no virus or chemical removal."
+            },
+            {
+              "type": "test_publication",
+              "name": "Switchback Travel",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.switchbacktravel.com/backpacking/best-water-filters",
+              "verified": true,
+              "supports": "Best ultralight filter for solo use, $46, 3 oz; criticizes the included pouches."
+            }
+          ],
+          "flags": [
+            "Sawyer's counterfeit notice concerns the MINI, not the Squeeze, but the same advice applies: buy from Sawyer, a known outdoor retailer, or a marketplace listing sold by Sawyer."
+          ],
+          "flag_check": "Read Sawyer's counterfeit notice (https://sawyer.com/counterfeit/) on 2026-11-14. CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall is mentioned by Sawyer or in the four reviews read."
+        },
+        "cadillac": {
+          "brand": "MSR",
+          "model": "Guardian Purifier (pump)",
+          "model_number": "14003",
+          "size": "8.25 x 4.4 in, 1 lb 1 oz. Pore size 0.02 micron. Removes viruses, bacteria, protozoa and sediment. Does not remove chemicals or toxins. Pumps about 0.66 gallon (2.5 L) a minute; cartridge rated more than 2,600 gallons (10,000 L). Built to survive freezing.",
+          "unit_size": 1,
+          "unit_label": "purifier",
+          "price_usd": 399.95,
+          "price_seen_at": "MSR (cascadedesigns.com)",
+          "why": "The only pick here that physically removes viruses, so it does the filter and disinfect steps in one. It cleans itself on every stroke, tolerates freezing, and scored highest for water quality (9.3/10) in OutdoorGearLab's lab-checked test.",
+          "weakness": "It costs about nine times as much as the Sawyer, weighs over a pound, and still does not remove chemicals or fuel.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cascadedesigns.com/products/guardian-purifier",
+              "verified": true,
+              "note": "This is MSR's own store.",
+              "research_note": "2026-11-14: page loaded by direct request; the WebFetch tool was rate-limited (HTTP 429). 2026-11-15: opened in a browser; the button reads 'Notify me when available' and the shop's product data marks SKU 14003 unavailable. 2026-11-16 alignment pass: old note: SKU 14003 at $399.95; sold out ('Notify me when available') on November 15, 2026. This is MSR's own shop."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B019ERWU66",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access. ASIN seen on 2026-11-14 in CleverHiker's Amazon link for the MSR Guardian."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Recall check: on 2026-11-14 the CPSC recall search page did not run the query for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database (Cascade Designs' only 2024 recall was camping cooking pots; a 2002 recall concerned MSR stove fuel; neither is a filter). 2026-11-16 alignment pass: off the page from flags: Sold out at MSR's own store on November 15, 2026. | NSF P248 is a test protocol, not a public certificate. NSF's online listing returned no products for Cascade Designs on 2026-11-14, so the P248 claim rests on MSR's published testing.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "MSR (Cascade Designs)",
+              "title": "Guardian Purifier",
+              "url": "https://cascadedesigns.com/products/guardian-purifier",
+              "verified": true,
+              "supports": "Meets NSF protocol P248 for viruses, bacteria, protozoa and sediment; 0.02 micron; 2.5 L/min; 10,000+ L; 490 g; withstands freezing; 'Effective against chemicals/toxins: No'."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+              "verified": true,
+              "supports": "Top Pick for murky water, score 75/100, water quality 9.3, freeze tolerant, virus removal, $400, 20.5 oz as weighed."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+              "verified": true,
+              "supports": "Best filter for the worst water, 4.6/5; removes viruses, self-cleaning, heavy and expensive."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best portable survival water filters",
+              "url": "https://theprepared.com/gear/reviews/portable-water-filters/",
+              "verified": true,
+              "supports": "Calls it one of the best survival filters available; freeze-resistant; notes it has no carbon stage."
+            }
+          ],
+          "flags": [
+            "NSF P248 is a test protocol, not an NSF certificate: the claim rests on MSR's published testing."
+          ],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the MSR page or in the reviews read."
+        }
+      },
+      "prices_seen": "2026-11-15"
+    },
+    {
+      "id": "water-filter-household",
+      "module": "water",
+      "name": "Household gravity water filter",
+      "need": "If you shelter at home for two to four weeks under a boil-water notice or with collected water, a gravity filter treats several gallons a day without fuel or power.",
+      "how_to_choose": "Buy only a system whose germ-removal claims are backed by a certificate or by published lab tests, and check what the test actually covers. Bag-style gravity filters fold flat in a drawer and hang from a door hook or shower rod, which suits a small apartment better than a tall steel urn. Standard filters (0.2 micron) still need a disinfection step for viruses; a purifier (0.02 micron) does both. None of these makes water with fuel, chemicals or floodwater safe. If money is tight, the budget pick plus bleach does the same job as the pricier ones, just more slowly.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "Optional extra: stored water, boiling and bleach already cover a household. If you choose to have one, one system per household."
+      },
+      "already_own": "A backpacking gravity or squeeze filter you already own will do the same job in smaller batches. A countertop urn such as a Berkey is not a substitute unless its filter elements have an independent certificate or published lab tests for bacteria and parasites; see the warnings below. Fridge pitchers and tap-mounted carbon filters improve taste but most are not rated for germs, so do not rely on them during a boil-water notice.",
+      "safety_notes": [
+        {
+          "text": "Portable filters do not remove viruses. After filtering, add a disinfectant such as chlorine or chlorine dioxide to kill remaining viruses and bacteria, or boil the water.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Boiling is the best way to kill germs: a rolling boil for 1 minute, or 3 minutes at altitude (above 5,000 feet per EPA, above 6,500 feet per CDC).",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Boiling and disinfection do not destroy heavy metals, salts or most other chemicals. Do not use water with floating material, a dark color or a questionable smell.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        },
+        {
+          "text": "Water containing fuel, toxic chemicals or radioactive material cannot be made safe by boiling or disinfecting; use bottled water or a different source.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Floodwater can carry sewage and chemical, biological and radiological hazardous waste. Do not collect, filter and drink it.",
+          "source_name": "CDC",
+          "source_title": "Safety Guidelines: Floodwater",
+          "url": "https://www.cdc.gov/floods/safety/floodwater-after-a-disaster-or-emergency-safety.html",
+          "verified": true
+        },
+        {
+          "text": "Store at least one gallon of water per person per day. Let cloudy water settle or strain it through coffee filters or layers of clean cloth before treating it.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Water",
+          "url": "https://www.ready.gov/water",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Berkey is not recommended: in 2022 and 2023 EPA issued stop-sale orders saying Black Berkey filter elements were sold with germ-killing claims without the required pesticide registration. These are stop-sale orders, not a recall.",
+        "Berkey's newer 'Phoenix' elements are certified only for taste, odor and lead-free materials (NSF/ANSI 42 and 372) and make no germ claims, so a Berkey fitted with them is a taste filter, not an emergency filter. Black Berkey elements sold on marketplaces may be old stock or counterfeit.",
+        "Hollow-fiber cartridges can be destroyed by freezing once wet. Store the filter indoors."
+      ],
+      "research_note": "Berkey notes, 2026-11-14: the Fifth Circuit opinion file (No. 23-11189) could not be read that day. Search results described a class action filed in late 2022 alleging the filters do not perform as advertised; those pages were not opened and its status is not confirmed, so it is not stated to readers. Wirecutter's Berkey review could not be opened (nytimes.com refuses automated readers). Stock, 2026-11-15, makers' pages opened in a browser: LifeStraw Peak Gravity 3L sold out in both colours; Platypus GravityWorks 4.0L in stock ('Add to cart'), 6.0L sold out; MSR Guardian Gravity sold out. The 2026-11-14 note that the GravityWorks 4.0L was unavailable no longer holds. 2026-11-16 alignment pass: off the page from item_flags: Berkey (New Millennium Concepts) is not recommended. EPA Region 8 issued Stop Sale, Use or Removal Orders under the pesticide law FIFRA: to dealer James Enterprise on December 27, 2022, then six more orders between February and May 2023, including one to Berkey International on May 8, 2023 (docket FIFRA-08-2023-0038). EPA's position is that Black Berkey elements contain silver, were sold with germ-killing claims such as removing 'up to 99.999% of viruses', and were never registered. The orders are stop-sale orders, not a recall. | Berkey court status as verified on 2026-11-14: a federal judge in the Northern District of Texas dismissed the manufacturer's suit against EPA for lack of standing (reported by Bloomberg Law, November 20, 2023). In Berkey International v. EPA, No. 24-1917, the US Court of Appeals for the First Circuit on September 18, 2026 upheld the denial of a preliminary injunction, finding Berkey unlikely to succeed. The Fifth Circuit also issued an opinion on August 9, 2024 (No. 23-11189); its outcome is not confirmed here. | Berkey certification: no NSF/ANSI performance certification for Black Berkey elements was found. Berkey's own page says only that third-party labs 'reported that the elements meet ANSI/NSF (Std. 53) protocol', which is a lab report, not a certificate. | Berkey availability on 2026-11-14: berkeywater.com lists Black Berkey elements as 'out of stock or limited availability' with no price and will not sell to California or Iowa residents. The company now promotes 'Phoenix Gravity New Millennium Edition' elements, which are carbon elements certified only to NSF/ANSI 42 (taste and odor) and 372 (lead-free materials). Their own page makes no bacteria or virus claims and tells users to disinfect unsafe water first. A Berkey fitted with these is a taste filter, not an emergency filter. Black Berkey elements sold on marketplaces may be old stock or counterfeit; Berkey itself posts counterfeit and unauthorised-seller notices. | If you want a steel countertop urn, the one with a real certificate is the British Berkefeld (Doulton) stainless gravity system with Ultra Sterasyl ceramic candles. NSF's listing, checked 2026-11-14, shows the 'British Berkefeld SS2 Ultra Sterasyl' certified to NSF/ANSI 42 (particulates, class I), 53 (cysts and turbidity) and 401 (microplastics). Bacteria removal is the maker's own test claim, not part of the NSF listing, and it does not remove viruses. The 8.5 L size is 19.25 in tall and was $305 in stock at britishwaterfilter.com and $488 but unavailable at doulton.com/en-us. It was not chosen as a pick because of price and size for an apartment. | NSF's online listing returned no products for the trade name LifeStraw or the company Cascade Designs (MSR, Platypus) on 2026-11-14. Their claims rest on published manufacturer and independent lab testing, and on OutdoorGearLab's SGS Labs checks, not on NSF certificates. IAPMO and WQA listings were not searched. | LifeStraw Mission and LifeStraw Family ($99.95 and $69.09 at LifeStraw.com) are 0.02 micron gravity purifiers with published lab dossiers for virus removal, but the only hands-on review found (OutdoorGearLab, 2016) called the Mission confusing and extremely slow, so they were not picked.",
+      "tiers": {
+        "budget": {
+          "brand": "LifeStraw",
+          "model": "Peak Series Gravity Filter System 3L",
+          "model_number": "LSPSFX3LMB1 (Mountain Blue), LSPSFX3LAN1 (Dark Mountain Gray)",
+          "size": "3-liter (about 3-quart) hanging bag with hose, 8.1 oz, packs to the size of a fist. 0.2 micron membrane; removes bacteria and parasites, not viruses or chemicals. Filter rated about 500 gallons (2,000 L), enough for a household for months.",
+          "unit_size": 1,
+          "unit_label": "system",
+          "price_usd": 65.95,
+          "price_seen_at": "LifeStraw.com",
+          "why": "OutdoorGearLab's best-value gravity filter (70/100), with a tough bag, a backflush syringe and a filter that also works as a straw or squeeze filter. LifeStraw publishes lab data for the membrane.",
+          "weakness": "There is no clean-water bag, so you filter straight into your own pot or bottle about 3 quarts at a time, and it took up to about 1.5 minutes a quart in testing.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-3l",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-14: page loaded by direct request; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Sold Out', 'Notify me when available', and the shop's product data shows both colours unavailable. 2026-11-16 alignment pass: old note: $65.95; both colors sold out on November 15, 2026."
+            }
+          ],
+          "link_note": "",
+          "research_note": "No ASIN for this exact product was seen in any page opened on 2026-11-14. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: old link_note: No Amazon link. Sold out at the maker; try an outdoor retailer. 2026-11-16 alignment pass: off the page from flags: Sold out in both colors at LifeStraw.com on November 15, 2026.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "LifeStraw",
+              "title": "LifeStraw Peak Series Gravity Filter System - 3L",
+              "url": "https://lifestraw.com/products/lifestraw-peak-series-gravity-3l",
+              "verified": true,
+              "supports": "0.2 micron membrane, bacteria and parasite removal percentages, 2,000 L life, statement that it meets US EPA and NSF P231 standards for bacteria and parasites, downloadable performance data sheet."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "LifeStraw Peak Gravity 3L Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-water-filter/lifestraw-peak-gravity-3l",
+              "verified": true,
+              "supports": "Score 70/100, $66, 8.1 oz, 30 to 90 seconds per liter, durable bag, no clean-water vessel, not freeze tolerant."
+            }
+          ],
+          "flags": [
+            "Not NSF-listed; the P231 claim rests on LifeStraw's published lab data."
+          ],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. NSF listing searched for 'lifestraw' on 2026-11-14: no match. No recall mentioned by the maker or reviewer."
+        },
+        "standard": {
+          "brand": "Platypus",
+          "model": "GravityWorks 4.0L Water Filter System",
+          "model_number": "14240",
+          "size": "Two 1-gallon (4 L) bags (dirty and clean), hoses and filter; 11.5 oz; stows smaller than a 1-quart bottle. 0.2 micron hollow fiber; removes bacteria (99.9999%) and protozoa (99.9%), not viruses or chemicals. Cartridge rated about 400 gallons (1,500 L).",
+          "unit_size": 1,
+          "unit_label": "system",
+          "price_usd": 134.95,
+          "price_seen_at": "Platypus (cascadedesigns.com)",
+          "why": "The consensus best gravity filter: Editors' Choice for groups at OutdoorGearLab and best gravity filter at Switchback Travel. It filtered about a gallon in under five minutes in testing and, unlike the budget pick, includes a clean bag that stores the filtered water.",
+          "weakness": "It clogs in murky water unless backflushed, the zip-top bag gets hard to seal, and its germ-removal claim comes from the maker's own per-unit testing rather than an outside certificate.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+              "verified": true,
+              "note": "Buy the 4.0L size (SKU 14240). This is Platypus's own store.",
+              "research_note": "2026-11-14: page loaded by direct request and the 4.0L showed as unavailable; WebFetch was rate-limited (HTTP 429). 2026-11-15: opened in a browser; 'Add to cart' shown and the shop's product data marks the 4.0L available. 2026-11-16 alignment pass: old note: 4.0L is SKU 14240 at $134.95, in stock ('Add to cart') on November 15, 2026; the 6.0L (SKU 14241, $154.95) was sold out. This is Platypus's own shop."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00A9A2HKM",
+              "verified": false,
+              "note": "Check the listing is the 4.0 L GravityWorks before you buy.",
+              "research_note": "Amazon blocked automated access. ASIN seen on 2026-11-14 in CleverHiker's Amazon link for the Platypus GravityWorks. OutdoorGearLab links a different listing, B0CV9RPT8Y."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Key specification re-read on the maker's page on 2026-11-15: 'Every microfilter is individually tested to ensure it meets all EPA & NSF guidelines for the removal of 99.9999% of bacteria and 99.9% of protozoa'. That is the maker's own testing claim, not an NSF/ANSI listing, and the pick's flags say so. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: off the page from flags: No third-party certificate: NSF listing search for Cascade Designs returned no match on 2026-11-14. Independent evidence is OutdoorGearLab's SGS Labs check, not an NSF/ANSI certification.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Platypus (Cascade Designs)",
+              "title": "GravityWorks Water Filter System",
+              "url": "https://cascadedesigns.com/products/gravityworks-water-filter-system",
+              "verified": true,
+              "supports": "0.2 micron, 1.75 L/min, 1,500 L cartridge, 11.5 oz, 'every microfilter is individually tested to ensure it meets all EPA & NSF guidelines' for bacteria and protozoa, not effective against viruses."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Platypus GravityWorks Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/backpacking-water-filter/platypus-gravityworks",
+              "verified": true,
+              "supports": "Score 70/100, Editors' Choice for group use, 4 L in under 5 minutes, water quality 7.8 with samples checked by SGS Labs, not freeze tolerant, clogs in murky water."
+            },
+            {
+              "type": "test_publication",
+              "name": "Switchback Travel",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.switchbacktravel.com/backpacking/best-water-filters",
+              "verified": true,
+              "supports": "Best gravity filter for groups, $135, 11.5 oz; bulky and needs a decent source to fill."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+              "verified": true,
+              "supports": "Recommended for groups needing several liters at once; does not remove viruses."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the maker's page or in the three reviews read."
+        },
+        "cadillac": {
+          "brand": "MSR",
+          "model": "Guardian Gravity Purifier",
+          "model_number": "14005",
+          "size": "2.6-gallon (10 L) hanging reservoir with hose and purifier; 1 lb 2 oz; packs to about 12 x 4 x 4 in. 0.02 micron hollow fiber plus activated carbon stage. Removes viruses (99.99%), bacteria (99.9999%), protozoa (99.9%). Maker's spec sheet still lists 'effective against chemicals/toxins: No'. About half a quart a minute; cartridge rated about 800 gallons (3,000 L).",
+          "unit_size": 1,
+          "unit_label": "system",
+          "price_usd": 309.95,
+          "price_seen_at": "MSR (cascadedesigns.com)",
+          "why": "The extra money buys virus removal: MSR states it meets NSF protocol P248, the US military test for viruses, bacteria and protozoa in worst-case water, so no separate bleach step is needed for germs. The 2.6-gallon bag covers a household's daily drinking water in two or three fills and cleans by opening a purge hose.",
+          "weakness": "It is slow (about 2 minutes a quart), and a replacement cartridge costs $249.95.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
+              "verified": true,
+              "note": "This is MSR's own store.",
+              "research_note": "2026-11-14: page loaded by direct request; WebFetch was rate-limited (HTTP 429). 2026-11-15: the shop's product data, read in a browser, marks SKU 14005 unavailable. 2026-11-16 alignment pass: old note: SKU 14005 at $309.95; sold out on November 15, 2026. This is MSR's own shop."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B08Q329PWG",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access. ASIN seen on 2026-11-14 in Switchback Travel's link for the MSR Guardian Gravity Purifier."
+            }
+          ],
+          "research_note": "Recall check: on 2026-11-14 the CPSC recall search did not run for automated access, so CPSC was not checked that day; the 2026-11-15 check used the saferproducts.gov recall database (Cascade Designs' only 2024 recall was camping cooking pots; a 2002 recall concerned MSR stove fuel; neither is a filter). 2026-11-16 alignment pass: removed from weakness: no hands-on review of the gravity model was found, only of the pump version that shares its technology. 2026-11-16 alignment pass: old link_note: Second source is thin: Switchback Travel only mentions the gravity model in passing. The stronger test evidence (OutdoorGearLab, CleverHiker, The Prepared) is for the Guardian pump, which uses the same 0.02 micron fiber. 2026-11-16 alignment pass: off the page from flags: Sold out at MSR's own store on November 15, 2026. | NSF P248 is a protocol, not a public certificate; NSF's listing has no Cascade Designs entry. The claim rests on MSR's published testing.",
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "MSR (Cascade Designs)",
+              "title": "Guardian Gravity Purifier",
+              "url": "https://cascadedesigns.com/products/guardian-gravity-purifier",
+              "verified": true,
+              "supports": "Meets NSF protocol P248 for viruses, bacteria and protozoa; meets US EPA guide standard for microbiological purifiers; 10 L reservoir; 0.02 micron; activated carbon; 0.5 L/min; 3,000+ L; 1 lb 2 oz; price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Switchback Travel",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.switchbacktravel.com/backpacking/best-water-filters",
+              "verified": true,
+              "supports": "Names the Guardian pump best premium purifier and notes MSR also makes the Guardian Gravity Purifier with the same technology in a gravity setup. No separate test of the gravity model."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+              "verified": true,
+              "supports": "Pump version only: Guardian Purifier scored 9.3 for water quality with SGS Labs checks. The gravity model was not in the test."
+            }
+          ],
+          "flags": [
+            "NSF P248 is a test protocol, not an NSF certificate: the claim rests on MSR's published testing.",
+            "MSR's page does not say the gravity model survives freezing (the pump page does). Treat it as freeze-sensitive."
+          ],
+          "flag_check": "CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water filters. No recall or counterfeit notice seen on the MSR page."
+        }
+      },
+      "prices_seen": "2026-11-15"
+    },
+    {
+      "id": "water-treatment-tablets",
+      "module": "water",
+      "name": "Water treatment tablets",
+      "need": "Tablets weigh almost nothing, keep for years and disinfect water when you cannot boil it, which makes them the backup for a grab bag and for viruses that filters miss.",
+      "how_to_choose": "Buy only tablets with an EPA registration number on the pack, and follow the pack: each brand has its own tablet size, amount of water and wait, and the pack's directions are the ones written for that tablet. Chlorine dioxide tablets are the only kind that also kill Cryptosporidium, and their label wait is 4 hours. Chlorine (NaDCC) tablets are quicker but are not a flat 30 minutes: the label EPA accepted for Aquatabs says to mix well for at least 10 minutes and then let the water stand for 30, and it makes no claim for Cryptosporidium. Tablets do not remove dirt or chemicals, so strain or filter cloudy water first. They are costly for treating all of a household's water for two weeks: use stored water, boiling and bleach for the bulk, and keep tablets for the grab bag and as a backup.",
+      "qty": {
+        "basis": "per_person",
+        "factor": 1,
+        "rule": "3 days of treated water for each person (3 gallons each), divided by what one pack treats and rounded up",
+        "note": "Tablets are the backup, so the count is 3 days of water for each person: 3 gallons. One pack of 30 Micropur tablets treats about 8 gallons (30 liters), which covers two people for 3 days; a household of three or four needs two packs. Treating all your water for 14 days with tablets alone would take two packs per person; this count leaves that out, because stored water, boiling and bleach cover the bulk."
+      },
+      "already_own": "Tablets you already have are usable if the foil is intact and the printed expiry date has not passed. Check the active ingredient: chlorine dioxide and NaDCC are fine; old iodine tablets are a last resort and CDC advises against them for pregnant people and those with thyroid problems, and for more than a few weeks' use.",
+      "safety_notes": [
+        {
+          "text": "Follow the label on tablets and drops; each product is made for a specific amount of water. They kill viruses and bacteria but may not kill parasites. Iodine and chlorine tablets do not kill Cryptosporidium. Chlorine dioxide tablets do if used correctly.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Avoid iodine-treated water if you are pregnant, have thyroid problems or are sensitive to iodine, and nobody should drink it for more than a few weeks.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Disinfection tablets vary in strength; follow the instructions on the label. If water is cloudy, let it settle and filter it through a clean cloth, paper towel or coffee filter first.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        },
+        {
+          "text": "Chemical treatment does not make water with fuel, toxic chemicals or radioactive material safe.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Chlorine dioxide tablet label (EPA Reg. No. 70060-22): one tablet per quart or liter, wait 4 hours in an opaque container or in the dark; kills bacteria, viruses, Giardia and Cryptosporidium.",
+          "source_name": "EPA",
+          "source_title": "Pesticide Product Label, Aseptrol-SE Water Purifier Tablets, accepted 12/14/2015",
+          "url": "https://www3.epa.gov/pesticides/chem_search/ppls/070060-00022-20151214.pdf",
+          "verified": true
+        },
+        {
+          "text": "NaDCC chlorine tablet label (Aquatabs, EPA Reg. No. 71847-4): strain or settle the water first, add the tablet to the amount of water its chart gives, mix well for at least 10 minutes, then let it stand for 30 minutes before drinking. The label covers bacteria, viruses and Giardia and says the product was not tested against Cryptosporidium.",
+          "source_name": "EPA",
+          "source_title": "Pesticide Product Label, Aquatabs, accepted 09/25/2026",
+          "url": "https://www3.epa.gov/pesticides/chem_search/ppls/071847-00004-20260925.pdf",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Potable Aqua's original tablets are iodine, which does not kill Cryptosporidium.",
+        "Tablets do not remove chemicals, fuel or sediment, and reviewers note a mild chlorine taste."
+      ],
+      "research_note": "2026-11-14: Potable Aqua's site failed to load (TLS error) and no EPA record for its chlorine dioxide tablets was found. 2026-11-15: EPA's label system (PPLS) opened for 71847-4 (Aquatabs; labels of 2020-08-11 and 2026-09-25, both read: 'Mix well for at least 10 minutes, then allow to stand for 30 minutes before drinking') and for 70060-22 (Aseptrol SE; label of 2015-12-14 read: optional 'Micropur Purification' branding, one tablet per quart or litre, 4 hours in an opaque container or the dark). The quantity rule was changed from 14 days to a 3-day backup so that the printed arithmetic and the count agree; product-levels.json still forces one pack per household and a request to drop that override is in the helper's other.json. 2026-11-16 alignment pass: off the page from item_flags: Aquamira Water Treatment drops (two-part chlorine dioxide, about $15, treats 30 gal) are a favorite of hiking reviewers, but EPA's record for registration 71766-1, checked 2026-11-14, lists only bacteria as the target organizms, not viruses or parasites. They were left out for that reason. | Potable Aqua's chlorine dioxide tablets are not recommended here: no EPA record for them was confirmed. Potable Aqua's original tablets are iodine, which does not kill Cryptosporidium.",
+      "tiers": {
+        "budget": {
+          "brand": "MSR",
+          "model": "Aquatabs Water Purification Tablets, 30 pack",
+          "model_number": "00565",
+          "size": "30 foil-sealed 49 mg NaDCC (chlorine) tablets. Label dose: 1 tablet per 2 quarts of clear room-temperature water, or 1 tablet per 0.75 liter of river, lake or well water. Label time: mix well for at least 10 minutes, then let stand 30 minutes. Follow the pack you buy. At the stronger dose a pack treats about 6 gallons (22.5 L), just under two people's 3-day share; at the clear-water dose it treats 15 gallons (60 quarts), five people for 3 days.",
+          "unit_size": 1.98,
+          "unit_label": "pack of 30",
+          "price_usd": 14.95,
+          "price_seen_at": "MSR (cascadedesigns.com), November 15, 2026",
+          "why": "Cheaper per gallon than chlorine dioxide tablets and much faster: the label's time is at least 10 minutes of mixing and then 30 minutes standing, against 4 hours. EPA Reg. No. 71847-4 covers bacteria, viruses and Giardia, and the EPA label lists 'MSR Aquatabs' by name.",
+          "weakness": "It does not kill Cryptosporidium (the EPA label says 'not tested against cryptosporidium'), so it suits tap water under a boil notice better than surface water.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cascadedesigns.com/products/aquatabs",
+              "verified": true,
+              "note": "This is MSR's own store.",
+              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser. The maker's page says 'Fast: 30-minute treatment time'; the EPA-accepted label adds at least 10 minutes of mixing first. 2026-11-16 alignment pass: old note: SKU 00565 at $14.95, in stock ('Add to cart') on November 15, 2026. This is MSR's own shop."
+            }
+          ],
+          "link_note": "Use the expiry date printed on the pack.",
+          "research_note": "The only ASIN seen on 2026-11-14 was inferred from a table position on OutdoorGearLab, not clearly tied to this product, so it is not recorded. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: old link_note: No Amazon link. Shelf life is not stated on the pages opened; use the expiry date printed on the pack.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "MSR (Cascade Designs)",
+              "title": "AquaTabs Water Purification Tablets, 30 Pack",
+              "url": "https://cascadedesigns.com/products/aquatabs",
+              "verified": true,
+              "supports": "EPA registered in all 50 states; effective against viruses, bacteria and Giardia cysts; 30-minute treatment; each tablet treats up to 2 quarts; box of 30; made in Ireland."
+            },
+            {
+              "type": "standard_listing",
+              "name": "US EPA Pesticide Product Label System",
+              "title": "Aquatabs, EPA Reg. No. 71847-4, label accepted 09/25/2026",
+              "url": "https://www3.epa.gov/pesticides/chem_search/ppls/071847-00004-20260925.pdf",
+              "verified": true,
+              "supports": "Registrant Medentech Ltd; sodium dichloroisocyanurate 16.88%; alternate name 'MSR Aquatabs'; 49 mg tablet doses (2 qt at 2.6 ppm, 0.75 L at 6.5 ppm); mix well for at least 10 minutes, then stand 30 minutes; kills bacteria, viruses and Giardia; 'not tested against cryptosporidium'. The label accepted 08/11/2020 gives the same directions."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+              "verified": true,
+              "supports": "MSR Aquatabs tested, score 60/100, $15, 30-minute treatment, 16 gal per 30 tablets, not effective against Cryptosporidium, recommended as emergency backup."
+            }
+          ],
+          "flags": [],
+          "flag_check": "EPA's label system on 2026-11-15 shows registration 71847-4 with a label accepted on September 25, 2026; no stop-sale order was found. CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water treatment products."
+        },
+        "standard": {
+          "brand": "Katadyn",
+          "model": "Micropur MP1 Water Purifier Tablets, 30 pack",
+          "model_number": "8013692",
+          "size": "30 individually foil-sealed chlorine dioxide tablets, 0.9 oz. 1 tablet per quart or liter. Label wait time 4 hours, in the dark, for full effect including Cryptosporidium. Shelf life 5 years from manufacture. Follow the pack you buy. A pack treats about 8 gallons (30 L): two people's 3-day share with a few tablets over. Treating everything for 14 days with tablets alone would take two packs per person.",
+          "unit_size": 2.64,
+          "unit_label": "pack of 30",
+          "price_usd": 18,
+          "price_seen_at": "List price quoted by CleverHiker, Switchback Travel and OutdoorGearLab (Katadyn.com shows no price)",
+          "why": "The one widely sold tablet whose EPA-accepted label covers bacteria, viruses, Giardia and Cryptosporidium. Top chemical pick at CleverHiker and Switchback Travel, with a five-year shelf life and single-dose foil packs.",
+          "weakness": "Full protection takes 4 hours, and at nearly 60 cents a quart it is far too expensive to treat all of a household's water.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://katadyn.com/en-us/products/8013692-katadyn-micropur-mp1-water-purifier-tablets-30-tab",
+              "verified": true,
+              "note": "Katadyn does not sell it direct; buy from a retailer.",
+              "research_note": "2026-11-14: page loaded by direct request. 2026-11-15: opened in a browser; one tablet per litre, 4-hour exposure time. The page does not print the EPA registration number. 2026-11-16 alignment pass: old note: Article 8013692. Katadyn's page shows no price and does not sell it direct; buy from a retailer."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B000H3DNF4",
+              "verified": false,
+              "note": "Check the pack shows an EPA Reg. No. beginning 70060-22.",
+              "research_note": "Amazon blocked automated access. ASIN seen on 2026-11-14 in CleverHiker's Amazon link for Katadyn Micropur Purification Tablets, 30 count."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Key specification (EPA registration) confirmed 2026-11-15: EPA's label system lists 70060-22, Aseptrol SE Water Purifier Tablets, and the label accepted 2015-12-14 carries the optional brand 'Micropur Purification' with the same dose and 4-hour wait as Katadyn's page. Katadyn's own distributor number was not confirmed: on 2026-11-14 a copy of the pack label in Washington State University's pesticide label database showed EPA Est. No. 83330-MN-1, and a search result for the same file gave EPA Reg. No. 70060-22-39444, which was not opened. Recall check: on 2026-11-14 the CPSC recall search did not run for automated access; the 2026-11-15 check used the saferproducts.gov recall database. 2026-11-16 alignment pass: off the page from flags: Katadyn sells these under the EPA registration of the tablet's maker, No. 70060-22, whose EPA-accepted label carries the Micropur name. That registration was confirmed in EPA's label system on November 15, 2026; Katadyn's own distributor number was not. Check that the EPA Reg. No. on the pack you buy begins 70060-22.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Katadyn",
+              "title": "Katadyn Micropur MP1 Water Purifier Tablets (30 Tab)",
+              "url": "https://katadyn.com/en-us/products/8013692-katadyn-micropur-mp1-water-purifier-tablets-30-tab",
+              "verified": true,
+              "supports": "1 tablet per liter, 30 liters per pack, 4-hour exposure time, shelf life 5 years from date of manufacture, effective against bacteria, protozoa, cysts and viruses."
+            },
+            {
+              "type": "standard_listing",
+              "name": "US EPA Pesticide Product Label System",
+              "title": "Aseptrol-SE Water Purifier Tablets, EPA Reg. No. 70060-22, label accepted 12/14/2015",
+              "url": "https://www3.epa.gov/pesticides/chem_search/ppls/070060-00022-20151214.pdf",
+              "verified": true,
+              "supports": "Base registration (BASF) for the tablet Katadyn distributes; label carries optional 'Micropur Purification' branding. Sodium chlorite 6.4%, NaDCC dihydrate 1.0%; 1 tablet per quart or liter; 4 hours; kills 99.99% of bacteria and viruses and 99.9% of Giardia and Cryptosporidium cysts."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+              "verified": true,
+              "supports": "Best chemical water purification, 4.5/5, $18 for 30; up to 4 hours for Cryptosporidium; slight chemical taste."
+            },
+            {
+              "type": "test_publication",
+              "name": "Switchback Travel",
+              "title": "Best Backpacking Water Filters of 2026",
+              "url": "https://www.switchbacktravel.com/backpacking/best-water-filters",
+              "verified": true,
+              "supports": "Best chemical treatment; $18 for 30 tablets, 0.9 oz; 15 minutes for viruses and bacteria, 30 for Giardia, 4 hours for Cryptosporidium; about $0.60 per liter."
+            }
+          ],
+          "flags": [
+            "Katadyn sells these under the tablet maker's EPA registration, No. 70060-22: check that the EPA Reg. No. on the pack you buy begins 70060-22."
+          ],
+          "flag_check": "EPA's label system checked for 70060-22 on 2026-11-14 and 2026-11-15: registered for human drinking water, latest label accepted in 2015, no stop-sale order found. CPSC recall database (saferproducts.gov) searched by product name and maker on 2026-11-15: no recall found for this brand's water treatment products."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "Nothing verified does more than the Standard pick. All chlorine dioxide tablets use the same chemistry and the same 4-hour wait, and the popular two-part drops (Aquamira) are registered with EPA for bacteria only."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: every chlorine dioxide tablet uses the same chemistry and the same 4-hour wait, so a pricier one buys nothing the job needs."
+    },
+    {
+      "id": "water-bleach",
+      "module": "water",
+      "name": "Plain unscented bleach and a dropper",
+      "need": "A small bottle of plain bleach is the cheapest way to disinfect many gallons of clear water when you cannot boil it.",
+      "how_to_choose": "Read the label, not the front of the bottle. You want regular unscented liquid bleach that says 'disinfecting' or 'kills germs', shows an EPA Reg. No., and states its sodium hypochlorite strength (5% to 9%). Look for drinking-water directions on the label too: if the bottle has them, they are the ones to follow. Buy the smallest bottle you can find, write the purchase date on it, and replace it every year because bleach weakens with age. Keep a clean medicine dropper taped to the bottle, since doses are counted in drops.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One small bottle and one dropper per household. Even an 11 oz bottle treats hundreds of gallons."
+      },
+      "already_own": "Bleach already under the sink is fine if the label says it disinfects, it is unscented and not 'splashless', it states 5% to 9% sodium hypochlorite, and it is less than a year old and kept at room temperature. If the label gives its own drinking-water dose, use it. The label on Clorox's 7.5% bleach (EPA registration 5813-120) gives 4 drops per quart, or 25 drops (about a quarter teaspoon) for 1.75 gallons, a 30-minute wait, and a second dose with 15 more minutes if the water has no slight chlorine smell. Keep the label with the kit. Any clean medicine dropper or oral syringe works for measuring.",
+      "safety_notes": [
+        {
+          "text": "The bottle's own label comes first. CDC says to follow the instructions on the bleach label for disinfecting drinking water. Only if the label gives none, check that it is plain unscented bleach of 5% to 9% sodium hypochlorite and use CDC's table: 2 drops per quart or liter, or 8 drops per gallon of clear water. Double it if the water is cloudy, colored or very cold. Stir and wait at least 30 minutes before drinking.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "The label EPA accepted for Clorox's 7.5% bleach (registration 5813-120, July 8, 2024) has its own directions for emergency drinking water: strain or settle the water, add 4 drops per quart, or 25 drops (a quarter teaspoon) for 1.75 gallons, and let it stand 30 minutes. It should then smell slightly of chlorine; if not, repeat the dose and wait 15 more minutes. The label says the product works against viruses and bacteria only, and that it will not make chemically contaminated water drinkable.",
+          "source_name": "EPA",
+          "source_title": "Pesticide Product Label, CRB (Clorox Disinfecting Bleach), EPA Reg. No. 5813-120, accepted 07/08/2024, pages 50 to 51",
+          "url": "https://www3.epa.gov/pesticides/chem_search/ppls/005813-00120-20240708.pdf",
+          "verified": true
+        },
+        {
+          "text": "Use only regular, unscented chlorine bleach labeled for disinfection. Do not use scented or color-safe bleach or bleach with added cleaners. Use fresh bleach, or bleach stored at room temperature for less than one year. Measure with a clean dropper.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        },
+        {
+          "text": "Boiling is preferred when you can do it: rolling boil for 1 minute, 3 minutes at altitude (above 5,000 feet per EPA, above 6,500 feet per CDC).",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Chlorine does not kill Cryptosporidium, and bleach does nothing for chemicals: boiling and disinfection do not destroy heavy metals, salts or most other chemicals, and water with fuel or toxic chemicals cannot be made safe at home. Filter first, then disinfect, when parasites are a concern.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "The bottle's own label comes first; CDC's table is only for a bottle whose label gives no drinking-water directions. Clorox's label dose (4 drops per quart) is about double CDC's table (2 drops per quart): that is not an error, so with a Clorox bottle use the label's dose, wait and smell check together. This site's rule: use one recipe from start to finish, and do not take a dose from one and a check from another.",
+        "Do NOT use: scented bleach, 'splashless' or 'no-splash' bleach, color-safe (non-chlorine) bleach, bleach gels or pens, bleach with added cleaners, or pool chemicals. Clorox states on its own product page that its no-splash bleaches 'are not registered disinfectants'; they are thickened and must not be used for water.",
+        "US bleach strength has changed over the years (6%, 8.25%, now 7.5% for Clorox). Check the percentage on your bottle before counting drops. If the label gives no drinking-water directions, CDC's table covers any strength from 5% to 9%."
+      ],
+      "research_note": "2026-11-15: label hierarchy reversed as the audit-fixes prompt (item 2.2) directs. The EPA-accepted label for 5813-120 dated 07/08/2024 was found through EPA's Pesticide Product Label System and read: PDF page 51 (printed 'Page 50 of 56'), section 'For emergency disinfection of drinking water (potable)': 25 drops or 1/4 teaspoon to 1.75 gallons (4 drops to 1 quart), stand 30 minutes, slight chlorine odor, else repeat the dose and stand an additional 15 minutes; 'only effective against viruses and bacteria'; page 1 gives sodium hypochlorite 7.5%. Removed from the shown notes: EPA's separate 6% and 8.25% table with its smell check, Ready.gov's 5.25% to 6% recipe, and a Clorox representative's Q&A reply on Target's page (a retailer Q&A is not an authority), so that no recipe is blended with another. Clorox's shelf-life page could not be opened on 2026-11-14. Store brands, 2026-11-15: Target's up&up regular bleach is scented, 7.5%, and its page shows no EPA Reg. No.; an EPA label for Reg. No. 70271-24 lists up&up as an alternate brand at 8.25% but its scent could not be confirmed; Giant's 'Our Brand' is 7.5% with no EPA number shown. 2026-11-16 alignment pass: off the page from item_flags: The bottle's own label comes first; CDC's table is for a bottle whose label gives no drinking-water directions. This site's rule: use one recipe from start to finish, with its own dose, wait and check. Do not take a dose from one and a check from another. | Bleach loses strength with time and heat. EPA says to use bleach stored at room temperature for less than one year. | Clorox's label dose (4 drops per quart) is about double the dose in CDC's table (2 drops per quart). That is not an error to correct: the label is written for that exact product. With a Clorox bottle, use the label's dose, wait and smell check together. | Store-brand bleach: no nationally sold, unscented store brand with a confirmed EPA registration number was found. Target's up&up regular bleach (121 oz) is scented, and Giant's own brand shows no EPA number on its page.",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Clorox",
+          "model": "Disinfecting Bleach, Regular (unscented)",
+          "model_number": "EPA Reg. No. 5813-120",
+          "size": "Sold in 11, 24, 43, 81 and 121 fl oz bottles; buy the smallest you can find. 7.5% sodium hypochlorite (7.1% available chlorine). At the label's dose of a quarter teaspoon for 1.75 gallons, even the 11 fl oz bottle (66 teaspoons) treats more than 400 gallons.",
+          "unit_size": 1,
+          "unit_label": "bottle",
+          "price_usd": 3.99,
+          "price_seen_at": "Target.com, 43 fl oz bottle, November 16, 2026. The 121 fl oz bottle was $7.99 on November 15.",
+          "why": "Its EPA-accepted label includes directions for emergency disinfection of drinking water, it states its strength, and it is sold almost everywhere, so the exact product is easy to find and check.",
+          "weakness": "It is not effective against Cryptosporidium (the label says viruses and bacteria only), it weakens within about a year, and the same brand sells look-alike scented and no-splash bottles that must not be used.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.clorox.com/products/clorox-disinfecting-bleach/",
+              "verified": true,
+              "note": "Unscented, five sizes; the page cites EPA Reg. No. 5813-120. No price or retailer shown."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/clorox-disinfecting-bleach-regular-43oz/-/A-77787196",
+              "verified": true,
+              "note": "43 fl oz. The listing shows sodium hypochlorite 7.5% and EPA Reg. No. 5813-120.",
+              "research_note": "2026-11-16 alignment pass: old note: 43 fl oz, $3.99 online on November 16, 2026. The listing shows sodium hypochlorite 7.5% and EPA Reg. No. 5813-120."
+            }
+          ],
+          "link_note": "Buy it at a supermarket or pharmacy and check the label in hand.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox",
+              "title": "Clorox Disinfecting Bleach",
+              "url": "https://www.clorox.com/products/clorox-disinfecting-bleach/",
+              "verified": true,
+              "supports": "Product name, unscented, sizes, EPA Reg. No. 5813-120."
+            },
+            {
+              "type": "standard_listing",
+              "name": "US EPA Pesticide Product Label System",
+              "title": "CRB (Clorox Disinfecting Bleach), EPA Reg. No. 5813-120, label dated 07/08/2024",
+              "url": "https://www3.epa.gov/pesticides/chem_search/ppls/005813-00120-20240708.pdf",
+              "verified": true,
+              "supports": "Sodium hypochlorite 7.5%; alternate brand names Clorox Bleach, Clorox Disinfecting Bleach, Clorox Regular Bleach; section 'For emergency disinfection of drinking water (potable)', pages 50 to 51: 25 drops or 1/4 tsp per 1.75 gal (4 drops per quart), stand 30 minutes, slight chlorine smell, else repeat the dose and stand 15 more minutes; effective against viruses and bacteria only."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox",
+              "title": "How to Disinfect and Purify Drinking Water with Bleach",
+              "url": "https://www.clorox.com/learn/water-purification-how-much-bleach-purify-water-for-drinking/",
+              "verified": true,
+              "supports": "Names Clorox Disinfecting Bleach for emergency water treatment; only regular unscented bleach; 30-minute wait."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox",
+              "title": "Clorox No-Splash Bleach, Unscented",
+              "url": "https://www.clorox.com/products/clorox-splash-less-bleach/",
+              "verified": true,
+              "supports": "Statement that no-splash bleaches are not registered disinfectants and are thicker than Disinfecting Bleach."
+            }
+          ],
+          "flags": [
+            "Shelf is crowded with near-identical Clorox bottles (scented, no-splash, 'Performance'). Confirm 'Disinfecting Bleach', no scent named, and EPA Reg. No. 5813-120 on the back label."
+          ],
+          "flag_check": "EPA label system: 5813-120 registered, latest label 07/08/2024 (checked 2026-11-14 and 2026-11-15). CPSC recall database searched for 'bleach' on 2026-11-15: no recall of Clorox Disinfecting Bleach found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. Buy it at a supermarket or pharmacy and check the label in hand. 2026-11-16 alignment pass: off the page from flags: The label's own drinking-water dose differs from CDC's table. With this bottle, follow the label (see the notes above)."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "No nationally sold store-brand regular unscented bleach was confirmed with both its sodium hypochlorite strength and an EPA Reg. No. If you buy a store brand, check the back label for 'disinfecting', 5% to 9% sodium hypochlorite, an EPA Reg. No., no scent and no 'splashless' wording. Then follow its own drinking-water directions, or CDC's table if it gives none.",
+        "cadillac": "There is no better bleach to pay more for. Stronger, 'germicidal' or larger bottles add nothing for treating drinking water and age the same way."
+      },
+      "prices_seen": "2026-11-16",
+      "tier_note": "One pick: there is no better bleach to pay more for, and a store brand does the same job if its back label shows 'disinfecting', 5% to 9% sodium hypochlorite, an EPA Reg. No., no scent and no 'splashless' wording."
+    },
+    {
+      "id": "water-test-and-prefilter",
+      "module": "water",
+      "name": "Pre-filter and chlorine check supplies",
+      "need": "Straining cloudy water first makes boiling, bleach and tablets work properly and keeps filters from clogging; a chlorine strip is an optional check that bleach-treated water has chlorine in it.",
+      "how_to_choose": "For pre-filtering, any clean paper coffee filter, paper towel or tightly woven clean cloth does the job; no special product is needed. For checking, buy strips that read free chlorine specifically, in small steps between 0 and about 4 mg/L; pool strips and total-chlorine strips are too coarse. No home test tells you water is free of germs or chemicals. A strip shows only that some chlorine is present: it is never proof of safety, and it does not tell you when the water is ready.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One pack of coffee filters for every household. The chlorine strips in the Cadillac tier are optional."
+      },
+      "already_own": "Coffee filters, paper towels or a clean cotton cloth already in the kitchen are enough for straining. Pool or aquarium test strips are a rough stand-in only if they read free chlorine, are in date and have been kept dry.",
+      "safety_notes": [
+        {
+          "text": "If water is cloudy, filter it through a clean cloth, paper towel or coffee filter, or let it settle and pour off the clear water, before boiling or disinfecting. Straining does not remove germs by itself.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "A chlorine strip shows only that some chlorine is present. It does not decide when the water is ready: the wait on your bottle's own label does, or CDC's wait of at least 30 minutes when the label gives no drinking-water directions.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "If treated water tastes too strongly of chlorine, pour it from one clean container to another and let it stand for a few hours before you drink it.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        },
+        {
+          "text": "Do not use water with floating material, a dark color or a questionable smell, and remember that neither straining nor disinfection removes heavy metals, salts or most chemicals.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Test strips are spoiled by moisture. Keep the bottle closed and check the expiry date."
+      ],
+      "research_note": "2026-11-15 (audit A, W2): removed the sentence that treated a strip reading above the tap-water limit as an overdose, and the 4.0 mg/L limit it rested on; a correct emergency dose can read above that at first. Also removed from this block EPA's smell check and Ready.gov's 'discard after a second dose' line, each of which belongs to its own recipe; the bleach item now says the label's recipe comes first and that recipes are not mixed. Melitta's site refused automated readers on 2026-11-14. The official eCFR site refused automated readers, so 40 CFR 141.74 was read in Cornell's copy. 2026-11-16 alignment pass: off the page from item_flags: A chlorine strip only shows that chlorine is present. It cannot show that water is free of germs, Cryptosporidium, chemicals or fuel. | Cheap multi-parameter 'drinking water test kits' and TDS meters sold on marketplaces were not researched and none is recommended here.",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Any brand",
+          "model": "Paper coffee filters (basket or No. 4 cone), plus a clean cotton cloth",
+          "model_number": "",
+          "size": "Pack of 100 or more; flat and light, fits in a drawer. Use a fresh filter each batch, set in a funnel or sieve over a clean pot.",
+          "unit_size": 1,
+          "unit_label": "pack",
+          "price_usd": null,
+          "price_seen_at": "No price recorded: any brand will do.",
+          "why": "CDC, EPA and Ready.gov all name coffee filters or clean cloth as the way to strain cloudy water before boiling or treating it, and the bleach label says the same. Brand makes no difference, and every household needs some.",
+          "weakness": "It only removes visible grit; the water still has to be boiled or disinfected.",
+          "links": [],
+          "link_note": "Any supermarket sells them.",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "CDC",
+              "title": "How to Make Water Safe in an Emergency",
+              "url": "https://www.cdc.gov/water-emergency/about/index.html",
+              "verified": true,
+              "supports": "Official guidance, not a product listing: filter cloudy water through a clean cloth, paper towel or coffee filter before boiling or disinfecting."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "Emergency Disinfection of Drinking Water",
+              "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+              "verified": true,
+              "supports": "Official guidance, not a product listing: let cloudy water settle and filter it through a clean cloth, paper towel or coffee filter."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No specific product, so no recall search applies.",
+          "research_note": "2026-11-16 alignment pass: old link_note: Generic item, so no manufacturer or Amazon link is given and no test publication exists for this use. The two sources are official guidance pages rather than product tests."
+        },
+        "cadillac": {
+          "brand": "Industrial Test Systems (SenSafe)",
+          "model": "SenSafe Free Chlorine Water Check test strips, bottle of 50, added to the coffee filters",
+          "model_number": "481026",
+          "size": "Bottle of 50 strips. Reads free chlorine from 0 to over 6 mg/L in steps of 0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 1.2, 1.5, 2.0, 2.6, 4.0 and above 6.0.",
+          "unit_size": 1,
+          "unit_label": "bottle of 50",
+          "price_usd": 20.49,
+          "price_seen_at": "SenSafe.com",
+          "why": "An optional check on top of the coffee filters. It is the only test strip written into the federal drinking-water rule: 40 CFR 141.74 lets states approve the ITS free chlorine strip (Method D99-003). It reads in fine steps across the range that matters after bleach treatment.",
+          "weakness": "It is optional, costs more than the bleach it checks, has a limited shelf life once opened, and tells you nothing about germs or chemicals.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://sensafe.com/sensafe-free-chlorine-water-check-test-strips/",
+              "verified": true,
+              "note": "Part no. 481026.",
+              "research_note": "2026-11-16 alignment pass: old note: Part no. 481026, $20.49 on November 15, 2026; stock level not shown."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Industrial Test Systems",
+              "title": "SenSafe Free Chlorine Water Check Test Strips",
+              "url": "https://sensafe.com/sensafe-free-chlorine-water-check-test-strips/",
+              "verified": true,
+              "supports": "Part number, 50 tests, range and steps, price, claim of EPA approval under ITS method D99-003 (Federal Register, March 12, 2007)."
+            },
+            {
+              "type": "standard_listing",
+              "name": "40 CFR 141.74 (as reproduced by Cornell Legal Information Institute)",
+              "title": "40 CFR 141.74 - Analytical and monitoring requirements",
+              "url": "https://www.law.cornell.edu/cfr/text/40/141.74",
+              "verified": true,
+              "supports": "Paragraph (a)(2): states may approve the ITS free chlorine test strip, Method D99-003, for determining free chlorine. Read in Cornell's copy of the regulation."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall or counterfeit notice seen on the maker's page. The CPSC recall database was not searched for this product.",
+          "research_note": "2026-11-14: the CPSC recall search did not run for automated access, so CPSC was not checked. Maker's page re-opened in a browser 2026-11-15: part 481026, bottle of 50, $20.49, ITS Method D99-003. 2026-11-16 alignment pass: old link_note: No Amazon link. No test publication covers these strips; the second source is the federal regulation."
+        }
+      },
+      "empty_reason": {
+        "budget": "The Standard pick, any paper coffee filter or clean cotton cloth, is already the cheapest thing that works."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "Use what you have: any clean paper coffee filter, paper towel or tightly woven cloth does the straining, and the chlorine strips are an optional extra."
+    }
+  ]
+}

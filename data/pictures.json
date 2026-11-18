@@ -1,0 +1,411 @@
+{
+ "note": "Every photograph on the site: the file, where it is used, the source page, the author, the license as read on the source page, and the date it was taken down from the source. Built by scripts/make-pictures.py. Drawings and icons are made for this site (app/art.js) and are not listed here. The site shows no product pictures of its own.",
+ "taken": "2026-11-15",
+ "pictures": [
+  {
+   "slot": "cover",
+   "title": "City through a window at dusk",
+   "file": "pictures/cover",
+   "width": 1600,
+   "height": 994,
+   "alt": "A city seen at dusk through a large dark-framed window, rooftops and a railway line below a soft pink and blue sky.",
+   "used": [
+    "The cover of the home page"
+   ],
+   "source_page": "https://commons.wikimedia.org/wiki/File:City_view_from_window_frame_(Unsplash).jpg",
+   "library": "Wikimedia Commons (file re-hosted from Unsplash, tagged CC0)",
+   "author": "Fabrizio Verrecchia",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_seen": "LicenseShortName: CC0; UsageTerms: Creative Commons Zero, Public Domain Dedication",
+   "taken": "2026-11-15",
+   "changes": "Cropped, resized and compressed."
+  },
+  {
+   "slot": "level0",
+   "title": "Evening table by a window",
+   "file": "pictures/level0",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A small round table with an open laptop and two wooden chairs beside a tall window, lit by a glowing globe pendant lamp in the evening.",
+   "used": [
+    "First steps: opener and home page card"
+   ],
+   "source_page": "https://commons.wikimedia.org/wiki/File:Laptop_on_a_living_room_table_(Unsplash).jpg",
+   "library": "Wikimedia Commons (file re-hosted from Unsplash, tagged CC0)",
+   "author": "Henry McIntosh",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_seen": "LicenseShortName: CC0; UsageTerms: Creative Commons Zero, Public Domain Dedication",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "highrise",
+   "title": "Apartment tower",
+   "file": "pictures/highrise",
+   "width": 1600,
+   "height": 900,
+   "alt": "The top of a tall residential apartment block with rows of glazed balconies against a blue sky with soft clouds.",
+   "used": [
+    "High-Rise and Apartment, in each section"
+   ],
+   "source_page": "https://commons.wikimedia.org/wiki/File:Apartment_High_Rise_Building_(Unsplash).jpg",
+   "library": "Wikimedia Commons (file re-hosted from Unsplash, tagged CC0)",
+   "author": "Jimmy Chang",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_seen": "LicenseShortName: CC0; UsageTerms: Creative Commons Zero, Public Domain Dedication",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "legal",
+   "title": "Pen and paper",
+   "file": "pictures/legal",
+   "width": 1600,
+   "height": 1200,
+   "alt": "A wooden fountain pen lying on a blank sheet of paper on a gray wooden table, with a bunch of pink tulips in the corner.",
+   "used": [
+    "Legal: opener and home page card"
+   ],
+   "source_page": "https://www.pexels.com/photo/brown-and-black-pen-on-paper-356390/",
+   "library": "Pexels",
+   "author": "Pixabay (the account name shown on the Pexels page)",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "money",
+   "title": "Coins, bills and a budget notebook",
+   "file": "pictures/money",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A few dollar bills, a handful of coins, a calculator and a spiral notebook of handwritten monthly figures with a black pen on a brown table.",
+   "used": [
+    "Money: opener and home page card"
+   ],
+   "source_page": "https://www.pexels.com/photo/white-notebook-on-the-table-5466798/",
+   "library": "Pexels",
+   "author": "olia danilevich",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "medical",
+   "title": "Weekly pill organizer",
+   "file": "pictures/medical",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A clear plastic weekly pill organizer with day labels, a few pills inside and loose tablets and capsules beside it on a white surface, a stethoscope blurred behind.",
+   "used": [
+    "Medical: opener and home page card"
+   ],
+   "source_page": "https://commons.wikimedia.org/wiki/File:Pill_Organizer_With_Vitamins_And_Medicines.jpg",
+   "library": "Wikimedia Commons",
+   "author": "Stevepb",
+   "licence": "CC0 1.0",
+   "licence_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "licence_seen": "LicenseShortName 'CC0' in API extmetadata today; LicenseUrl http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "documents",
+   "title": "Notebook, pen and passport",
+   "file": "pictures/documents",
+   "width": 1600,
+   "height": 1063,
+   "alt": "A black pen on a blank squared spiral notebook, with a passport and a phone partly visible on a dark wooden desk.",
+   "used": [
+    "Money and Documents, in each section"
+   ],
+   "source_page": "https://www.pexels.com/photo/black-click-pen-on-spring-notebook-164645/",
+   "library": "Pexels",
+   "author": "Pixabay (the account name shown on the Pexels page)",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed.",
+   "position": "70% 50%"
+  },
+  {
+   "slot": "children",
+   "title": "A child with a backpack",
+   "file": "pictures/children",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A small boy seen from behind in a striped polo and shorts, wearing a blue dinosaur-print backpack, walking along a paved sidewalk beside a building entrance.",
+   "used": [
+    "Family Needs, in each section",
+    "Bag list: the child's bag"
+   ],
+   "source_page": "https://www.pexels.com/photo/boy-with-backpack-walking-12960435/",
+   "library": "Pexels",
+   "author": "Atlantic Ambience",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "pets",
+   "title": "A cat in a window",
+   "file": "pictures/pets",
+   "width": 1472,
+   "height": 968,
+   "alt": "An orange and white cat sitting in a window seen from behind, silhouetted against the light, with an open book on the sill.",
+   "used": [
+    "Pets sections in the sections",
+    "Bag list: the pet bag"
+   ],
+   "source_page": "https://www.pexels.com/photo/orange-cat-sitting-by-the-window-16398478/",
+   "library": "Pexels",
+   "author": "Ánh Đặng",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Cropped, resized and compressed."
+  },
+  {
+   "slot": "neighbours",
+   "title": "Apartment walkways and doors",
+   "file": "pictures/neighbours",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A multistory apartment building interior seen from above, with open walkways, metal railings and wooden doors on each floor.",
+   "used": [
+    "Neighbors and Building, in each section"
+   ],
+   "source_page": "https://www.pexels.com/photo/modern-indoor-apartment-hallway-with-railings-33806350/",
+   "library": "Pexels",
+   "author": "Valentin Ivantsov",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "Page shows 'Free' under the License heading, linking to the Pexels license page (https://www.pexels.com/license/)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "water",
+   "title": "Kitchen tap and a glass",
+   "file": "pictures/water",
+   "width": 1600,
+   "height": 1066,
+   "alt": "A bright kitchen counter with a steel tap over a sink and an empty drinking glass beside it.",
+   "used": [
+    "Water, in each section"
+   ],
+   "source_page": "https://unsplash.com/photos/a-kitchen-counter-with-a-sink-and-a-window-eWVddhVW8XQ",
+   "library": "Unsplash",
+   "author": "Valeriia Miller",
+   "licence": "Unsplash License",
+   "licence_url": "https://unsplash.com/license",
+   "licence_seen": "Free to use under the Unsplash License",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "food",
+   "title": "Jars on a pantry shelf",
+   "file": "pictures/food",
+   "width": 1600,
+   "height": 1068,
+   "alt": "Clip-top glass jars of flour, lentils, grains and dried fruit lined up on a white pantry shelf.",
+   "used": [
+    "Food, in each section"
+   ],
+   "source_page": "https://unsplash.com/photos/a-row-of-jars-filled-with-different-types-of-food-e6PwBakXOJM",
+   "library": "Unsplash",
+   "author": "Steven Ungermann",
+   "licence": "Unsplash License",
+   "licence_url": "https://unsplash.com/license",
+   "licence_seen": "Free to use under the Unsplash License",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "power",
+   "title": "A phone charging from a power bank",
+   "file": "pictures/power",
+   "width": 1600,
+   "height": 900,
+   "alt": "A smartphone showing 11 percent charge lies on a black power bank, joined by a short orange cable, on a wooden table.",
+   "used": [
+    "Power and Light, in each section"
+   ],
+   "source_page": "https://www.pexels.com/photo/smartphone-charging-with-portable-power-bank-37475677/",
+   "library": "Pexels",
+   "author": "Eleonora Vokueva",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License heading reads \"Free\" and links to pexels.com/license/",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "light",
+   "title": "Flashlight and headlamp on a table",
+   "file": "pictures/light",
+   "width": 1600,
+   "height": 1066,
+   "alt": "A small black LED flashlight standing on a wooden table with a headlamp strap beside it, in a softly blurred warm room.",
+   "used": [
+    "The Light section of Power and Light"
+   ],
+   "source_page": "https://www.pexels.com/photo/black-cylindrical-device-733087/",
+   "library": "Pexels",
+   "author": "Francesco Paggiaro",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License heading reads \"Free\" and links to pexels.com/license/",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "heat",
+   "title": "A city street in snow",
+   "file": "pictures/heat",
+   "width": 1600,
+   "height": 1066,
+   "alt": "A quiet city avenue under fresh snow at dusk, with apartment blocks, bare trees and glowing street lamps.",
+   "used": [
+    "Heat and Cold, in each section"
+   ],
+   "source_page": "https://unsplash.com/photos/snow-covered-road-between-buildings-during-daytime-7KFmBUfzkUg",
+   "library": "Unsplash",
+   "author": "JavyGo",
+   "licence": "Unsplash License",
+   "licence_url": "https://unsplash.com/license",
+   "licence_seen": "Free to use under the Unsplash License",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "sanitation",
+   "title": "A bar of soap",
+   "file": "pictures/sanitation",
+   "width": 1600,
+   "height": 1066,
+   "alt": "A pink bar of soap resting on a slatted wooden dish on a wooden surface.",
+   "used": [
+    "Waste and Hygiene, in each section"
+   ],
+   "source_page": "https://unsplash.com/photos/a-piece-of-soap-sitting-on-top-of-a-wooden-block-vfPrG_uSbv4",
+   "library": "Unsplash",
+   "author": "Andreas Jabusch",
+   "licence": "Unsplash License",
+   "licence_url": "https://unsplash.com/license",
+   "licence_seen": "Free to use under the Unsplash License",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "first-aid",
+   "title": "A first-aid kit laid out",
+   "file": "pictures/first-aid",
+   "width": 1600,
+   "height": 1066,
+   "alt": "A red first-aid pouch with a bandage roll, scissors, cotton buds, tweezers and blister packs laid out on a gray surface.",
+   "used": [
+    "First Aid, in each section",
+    "Household: opener and home page card"
+   ],
+   "source_page": "https://www.pexels.com/photo/5673523/",
+   "library": "Pexels",
+   "author": "Roger Brown",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License heading reads \"Free\" and links to pexels.com/license/",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed.",
+   "position": "75% 50%"
+  },
+  {
+   "slot": "air",
+   "title": "A city under haze",
+   "file": "pictures/air",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A hazy city skyline of tall towers behind low rooftops and dense trees under a pale beige sky.",
+   "used": [
+    "Air, in each section"
+   ],
+   "source_page": "https://unsplash.com/photos/city-skyline-with-trees-and-buildings-under-a-hazy-sky-E5Zbs88aS9k",
+   "library": "Unsplash",
+   "author": "Qeis Ismail",
+   "licence": "Unsplash License",
+   "licence_url": "https://unsplash.com/license",
+   "licence_seen": "Free to use under the Unsplash License",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "level1",
+   "title": "A backpack and shoes, ready",
+   "file": "pictures/level1",
+   "width": 1600,
+   "height": 1067,
+   "alt": "A plain black backpack with a gray hoodie draped over it stands on a herringbone wooden floor beside a pair of black sneakers.",
+   "used": [
+    "Bag: opener and home page card",
+    "Bag list: opener"
+   ],
+   "source_page": "https://www.pexels.com/photo/high-angle-shot-of-a-black-sneakers-and-backpack-on-wooden-flooring-8472909/",
+   "library": "Pexels",
+   "author": "MART PRODUCTION",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License: Free (links to the Pexels License page); no sponsored/premium marking seen",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "level2",
+   "title": "Jars of dry food in a cupboard",
+   "file": "pictures/level2",
+   "width": 1600,
+   "height": 1067,
+   "alt": "Two shelves of a white kitchen cabinet hold glass jars of grains and rice above clear containers of lentils, grains and pasta.",
+   "used": [
+    "72 hours at home: opener and home page card"
+   ],
+   "source_page": "https://www.pexels.com/photo/dry-goods-in-glass-containers-on-a-shelf-8580727/",
+   "library": "Pexels",
+   "author": "RDNE Stock project",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License: Free (links to the Pexels License page)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  },
+  {
+   "slot": "level3",
+   "title": "A kitchen shelf of jars",
+   "file": "pictures/level3",
+   "width": 1600,
+   "height": 1068,
+   "alt": "An open wooden kitchen shelf above white tiles holds glass jars of pasta, flour, salt and oats beside cups and a tin.",
+   "used": [
+    "Two weeks at home: opener and home page card"
+   ],
+   "source_page": "https://www.pexels.com/photo/glass-jars-on-a-wooden-shelf-in-a-kitchen-6654122/",
+   "library": "Pexels",
+   "author": "Arina Krasnikova",
+   "licence": "Pexels License",
+   "licence_url": "https://www.pexels.com/license/",
+   "licence_seen": "License: Free (links to the Pexels License page)",
+   "taken": "2026-11-15",
+   "changes": "Resized and compressed."
+  }
+ ]
+}

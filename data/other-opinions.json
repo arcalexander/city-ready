@@ -1,0 +1,587 @@
+{
+ "note": "What established outside testers currently pick for the same kind of item. A fact and a link only: these are not sources for this site's picks and never the reason a product was chosen. Each review page was opened on the checked date. Rules are in data/products/SCHEMA.md. Consumer Reports entries are link-only (link_only: true): a link to its public category page, never a pick, score or rank.",
+ "checked": "2026-11-15",
+ "items": {
+  "air-purifier-hepa": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/appliances/air-purifiers/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "TechGearLab",
+    "product": "Blueair Blue Pure 311i Max",
+    "url": "https://www.techgearlab.com/topics/health-fitness/best-air-purifier",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Coway Airmega Mighty2 (AP-1512N)",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-air-purifier/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "baby-carrier": [
+   {
+    "outlet": "BabyGearLab",
+    "product": "BabyBjorn One",
+    "url": "https://www.babygearlab.com/topics/getting-around/best-baby-carrier",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Líllébaby Complete 6-in-1 All Seasons",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-carriers/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "bag-bugout-pack": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Cotopaxi Allpa 35",
+    "url": "https://www.cleverhiker.com/travel/best-travel-backpacks/",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Cotopaxi Allpa 35L",
+    "url": "https://www.outdoorgearlab.com/topics/travel/best-travel-backpack",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Osprey Farpoint 55 Men’s Travel Pack",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-travel-backpack/",
+    "checked": "2026-11",
+    "same_as": null,
+    "product2": "Osprey Fairview 55 Women’s Travel Pack"
+   }
+  ],
+  "battery-fan": [
+   {
+    "outlet": "Outdoor Life",
+    "product": "Nestout Fan-1",
+    "url": "https://www.outdoorlife.com/gear/best-camping-fans-2026/",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Shark FlexBreeze Outdoor & Indoor Fan",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-cordless-fans/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "car-escape-tool": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Lifehammer Evolution",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-car-window-breaker-tools/",
+    "checked": "2026-11",
+    "same_as": null,
+    "product2": "Lifeline Evac-Pro"
+   }
+  ],
+  "car-jump-starter": [
+   {
+    "outlet": "TechGearLab",
+    "product": "WOLFBOX MegaVolt24",
+    "url": "https://www.techgearlab.com/topics/tools/best-jump-starter",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "car-tire-inflator": [
+   {
+    "outlet": "GearJunkie",
+    "product": "DeWalt 20V MAX Tire Inflator",
+    "url": "https://gearjunkie.com/motors/best-portable-tire-air-compressors",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "child-backpack": [
+   {
+    "outlet": "Wirecutter",
+    "product": "REI Co-op Tarn 12",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-camping-and-hiking-backpacks-for-kids/",
+    "checked": "2026-11",
+    "same_as": null,
+    "product2": "REI Co-op Tarn 18"
+   }
+  ],
+  "child-headlamp": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Black Diamond Wiz Kid Headlamp",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-headlamp/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "co-alarm": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/home-garden/smoke-carbon-monoxide-detectors/",
+    "checked": "2026-11"
+   }
+  ],
+  "cooler": [
+   {
+    "outlet": "Outdoor Life",
+    "product": "Titan Pro 55Q High Performance",
+    "url": "https://www.outdoorlife.com/gear/best-coolers-2026/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "diaper-kit": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/babies-kids/diapers/",
+    "checked": "2026-11"
+   }
+  ],
+  "electric-kettle-low-watt": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/appliances/electric-kettles/",
+    "checked": "2026-11"
+   }
+  ],
+  "emergency-radio": [
+   {
+    "outlet": "GearJunkie",
+    "product": "Midland ER310PRO",
+    "url": "https://gearjunkie.com/technology/best-emergency-radio",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Midland ER310PRO",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-emergency-weather-radio/",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   }
+  ],
+  "eye-protection": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Radians MR0111ID Mirage",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-safety-glasses/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "fire-extinguisher": [
+   {
+    "outlet": "Wirecutter",
+    "product": "First Alert PRO5",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-fire-extinguisher/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "first-aid-kit-bag": [
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Surviveware Small",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-first-aid-kit",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Adventure Medical Kits Mountain Series Backpacker Kit",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-outdoor-first-aid-medical-kit/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "flashlight": [
+   {
+    "outlet": "GearJunkie",
+    "product": "Fenix PD36R ACE",
+    "url": "https://gearjunkie.com/outdoor/hiking/best-flashlights",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "ThruNite Archer 2A C",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-flashlight/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "headlamp": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Black Diamond Spot 400-R",
+    "url": "https://www.cleverhiker.com/backpacking/best-hiking-backpacking-camping-headlamps/",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Black Diamond Spot Headlamp",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-headlamp/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "lantern": [
+   {
+    "outlet": "CleverHiker",
+    "product": "LuminAid Packlite Max 2-in-1",
+    "url": "https://www.cleverhiker.com/camping/best-lanterns/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Goal Zero Lighthouse 600",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-lantern",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   }
+  ],
+  "manual-can-opener": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Kuhn Rikon Auto Safety Lid Lifter/Can Opener",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-can-opener/",
+    "checked": "2026-11",
+    "same_as": "standard",
+    "product2": "EZ-Duz-It"
+   }
+  ],
+  "multi-tool": [
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Leatherman Wave+",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-multi-tool",
+    "checked": "2026-11",
+    "same_as": "standard",
+    "product2": "Roxon Flex"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Leatherman Skeletool CX",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-multitool/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "paper-map-compass": [
+   {
+    "outlet": "Outdoor Life",
+    "product": "Suunto MC-2",
+    "url": "https://www.outdoorlife.com/gear/best-compasses/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "pet-carrier": [
+   {
+    "outlet": "Wirecutter",
+    "product": "SturdiBag Pro 3.0",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-travel-carrier-for-cats-and-small-dogs/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "pet-harness-leash": [
+   {
+    "outlet": "Treeline Review",
+    "product": "Non-stop dogwear Line Harness 5.0",
+    "url": "https://www.treelinereview.com/gearreviews/best-dog-harnesses",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Ruffwear Front Range Harness",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-dog-harness/",
+    "checked": "2026-11",
+    "same_as": null,
+    "product2": "Non-Stop Dogwear Trekking Line Harness Clip’n"
+   }
+  ],
+  "power-bank": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/electronics-computers/portable-chargers/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "TechGearLab",
+    "product": "INIU Portable Charger 10000",
+    "url": "https://www.techgearlab.com/topics/electronics/best-portable-charger",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Belkin BoostCharge Plus 10K",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-usb-battery-packs/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "power-station-compact": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/home-garden/generators/portable-power-stations/c200262/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "EcoFlow River 2 Pro",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-portable-power-stations/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "power-station-large": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/home-garden/generators/portable-power-stations/c200262/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Jackery Explorer 2000 v2",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-power-station",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "rain-shell": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Patagonia Torrentshell 3L",
+    "url": "https://www.cleverhiker.com/apparel/best-rain-jackets/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Patagonia Torrentshell 3L",
+    "url": "https://www.outdoorgearlab.com/topics/clothing-mens/best-rain-jacket-men",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "sleeping-bag": [
+   {
+    "outlet": "GearJunkie",
+    "product": "REI Co-op Siesta Hooded 20",
+    "url": "https://gearjunkie.com/camping/best-sleeping-bags",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "ALPS OutdoorZ Redwood",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-camping-sleeping-bag",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "REI Co-op Siesta Hooded 20 Sleeping Bag",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-sleeping-bag-for-car-camping/",
+    "checked": "2026-11",
+    "same_as": "standard",
+    "product2": "Kelty TruComfort Doublewide 20"
+   }
+  ],
+  "smoke-alarm": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/home-garden/smoke-carbon-monoxide-detectors/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "First Alert SM500V Interconnected Battery-Operated Smoke Alarm with Voice Alerts",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-basic-smoke-alarm/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "solar-panel-portable": [
+   {
+    "outlet": "Consumer Reports",
+    "link_only": true,
+    "url": "https://www.consumerreports.org/electronics-computers/portable-chargers/portable-solar-panels/c201021/",
+    "checked": "2026-11"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Renogy 200W Portable",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-portable-solar-panel",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Allpowers SP012 Solar Panel 100W",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-portable-solar-battery-pack/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "toilet-bag-kits": [
+   {
+    "outlet": "Treeline Review",
+    "product": "Restop 2",
+    "url": "https://treelinereview.com/gearreviews/human-waste-bag-wag-bag-toilet-kits",
+    "checked": "2026-11",
+    "same_as": "cadillac"
+   }
+  ],
+  "two-way-radios": [
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Rocky Talkie Mountain Radio",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-walkie-talkies",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "usb-charging-kit": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Anker PowerPort III Nano",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-multiport-usb-wall-charger/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "usb-drive-encrypted": [
+   {
+    "outlet": "Wirecutter",
+    "product": "Amazon Basics USB Flash Drive",
+    "url": "https://www.nytimes.com/wirecutter/reviews/the-best-usb-3-0-thumb-drive/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "walking-socks-gloves": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Darn Tough Light Hiker Micro Crew",
+    "url": "https://www.cleverhiker.com/apparel/best-hiking-socks/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Darn Tough Hiker Full Cushion",
+    "url": "https://www.outdoorgearlab.com/topics/shoes-and-boots/best-hiking-socks",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "Wirecutter",
+    "product": "Darn Tough Light Hiker Micro Crew Lightweight Hiking Socks",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-hiking-socks/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "water-bottle": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Hydro Flask Wide Mouth",
+    "url": "https://www.cleverhiker.com/backpacking/best-water-bottles/",
+    "checked": "2026-11",
+    "same_as": null
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Hydro Flask Wide Mouth",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-water-bottle",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "water-filter-household": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Platypus GravityWorks",
+    "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "Platypus GravityWorks",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "water-filter-portable": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Sawyer Squeeze",
+    "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   },
+   {
+    "outlet": "OutdoorGearLab",
+    "product": "LifeStraw Peak Squeeze",
+    "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-backpacking-water-filter",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "water-treatment-tablets": [
+   {
+    "outlet": "CleverHiker",
+    "product": "Katadyn Micropur",
+    "url": "https://www.cleverhiker.com/backcountry/best-backpacking-water-filters/",
+    "checked": "2026-11",
+    "same_as": "standard"
+   }
+  ],
+  "fire-chest": [
+   {
+    "outlet": "Wirecutter",
+    "product": "SentrySafe FPW082KSB",
+    "url": "https://www.nytimes.com/wirecutter/reviews/best-fireproof-document-safe/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ],
+  "water-container-rigid": [
+   {
+    "outlet": "The Prepared",
+    "product": "Reliance Rhino 5.5 gal",
+    "url": "https://theprepared.com/homestead/reviews/best-two-week-emergency-water-storage-containers/",
+    "checked": "2026-11",
+    "same_as": null
+   }
+  ]
+ }
+}

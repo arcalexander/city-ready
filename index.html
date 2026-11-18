@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>City Ready: a complete household plan for apartments and high-rises</title>
+<meta name="description" content="A complete household plan for people who live in cities: step-by-step preparedness for apartments and high-rises, what to buy, and legal, money and medical checklists.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>(function(){var k=(location.search.match(/[?&]look=(civic|paper|slate|night)/)||[])[1];try{k=k||localStorage.getItem("cityready.look")}catch(e){}document.documentElement.setAttribute("data-look",/^(civic|paper|slate|night)$/.test(k||"")?k:"civic")})()</script>
+<link rel="preload" href="fonts/ibm-plex-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="app/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="bar">
+    <a class="brand" href="#/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8 7.5 9.5 4.4-1.5 7.5-4.9 7.5-9.5V6L12 3Z"/><path d="m9 12 2.2 2.2L15.5 10"/></svg>City Ready</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="more">Menu</button>
+    <div class="acct" id="acct"></div>
+  </div>
+  <nav class="primary" id="primaryNav" aria-label="Sections and checklists"></nav>
+</header>
+<nav class="more" id="more" aria-label="More" hidden></nav>
+<main id="main" tabindex="-1"><p class="wrap page">Loading…</p></main>
+<div class="prompt noprint" id="prompt" role="dialog" aria-labelledby="promptTitle" hidden></div>
+<footer class="foot">
+  <div class="in">
+    <div class="noprint" id="tools"></div>
+    <div class="noprint" id="looks"></div>
+    <div>
+      <h2>About</h2>
+      <p class="links"><a href="#/privacy">Privacy</a> <a href="#/about">How we choose, and sources</a> <a href="#/credits">Picture credits</a> <a href="#/account">Account</a></p>
+      <p>Built on the structure of Oregon's <a href="https://www.oregon.gov/oem/hazardsprep/pages/2-weeks-ready.aspx" rel="noopener">Be 2 Weeks Ready</a> toolkit (Oregon Department of Emergency Management), rewritten and extended for apartments. Not affiliated with any agency or manufacturer. No affiliate links.</p>
+    </div>
+  </div>
+</footer>
+<noscript><p style="padding:1rem">This site needs JavaScript to show the plan.</p></noscript>
+<script type="module" src="app/main.js"></script>
+</body>
+</html>

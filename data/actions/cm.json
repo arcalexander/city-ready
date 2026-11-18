@@ -1,0 +1,405 @@
+{
+  "module": "cm",
+  "title": "Staying in Touch",
+  "intro": "Phones are the first thing people reach for in an emergency and the first thing to clog. This module sets up the simple habits and paper backups that keep a household in contact when networks are jammed, the power is out or a phone is lost. It is modest about technology: every gadget here has limits, and the paper card has the fewest.",
+  "credit": "",
+  "actions": [
+    {
+      "id": "CM-01",
+      "level": 2,
+      "section": "When networks are jammed",
+      "title": "Text, don't call",
+      "why": "In an emergency everyone calls at once and voice networks jam, while a short text needs far less capacity and can get through when a call cannot.",
+      "how": "Agree on a standard message with your household: who you are, how you are, where you are and what you will do next, for example 'Sam, OK, at library, walking home by 6'. Send texts first and keep any call brief; if a call fails, wait 10 seconds before redialing. Do not assume a text arrived until you get a reply, and in a long power outage expect delays or no service at all. Call 911 or your local emergency number only for a life-threatening emergency.",
+      "done": "Each person at home has said the household's standard message aloud in their own words: who, how, where and what next.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "fcc-emergency-comms",
+        "fema-comms-plan"
+      ]
+    },
+    {
+      "id": "CM-02",
+      "level": 1,
+      "section": "Paper backups",
+      "title": "Give everyone a paper contact card",
+      "why": "Few people know phone numbers by heart any more, so a dead, lost or locked phone cuts a person off unless the numbers are also on paper.",
+      "how": "Print one blank wallet contact card per person from this site and fill each in by hand: your out-of-area contact, every household member's cell number, work and school numbers, and your two meeting places. Put a card in every wallet, every bag and each child's backpack, and tape one inside a kitchen cabinet door. Rewrite the cards whenever a number changes.",
+      "done": "A filled-in wallet contact card is in every wallet, every bag and each child's backpack, and one is taped inside a kitchen cabinet door.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "wallet-card",
+      "cites": [
+        "fema-comms-plan",
+        "ready-plan"
+      ]
+    },
+    {
+      "id": "CM-03",
+      "level": 2,
+      "section": "When networks are jammed",
+      "title": "Agree check-in times and a no-contact fallback",
+      "why": "Fixed times save battery and worry, and a fallback that needs no phone means silence does not leave people guessing.",
+      "how": "Pick set check-in times, such as 9 in the morning, noon and 6 in the evening, when everyone texts the household and the out-of-area contact. One phone or radio in each group stays on for alerts the whole time; only the other phones save power between check-ins (CM-12). Agree on a fallback for no contact at all: for example, if nobody has got through by the second check-in, each adult goes to your meeting place at noon, and again at 6 in the evening, but only when the way there is safe and officials allow it. Nobody crosses a hazard or leaves a supervised school or childcare to meet a clock; a child stays with staff until an adult comes (FN-07). Write the times, the place and who keeps the alert phone on by hand on every wallet contact card.",
+      "done": "The check-in times, the meeting place and who keeps the alert phone on are written on every wallet contact card, and everyone at home has agreed them.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-plan",
+        "nws-wea",
+        "fema-wea-phone",
+        "nws-wea-factsheet"
+      ]
+    },
+    {
+      "id": "CM-04",
+      "level": 2,
+      "section": "Without power or signal",
+      "title": "Find out what stops working at home without power",
+      "why": "Several of the ways you reach people depend on power in your home or building, and a calm day is the time to learn which.",
+      "how": "Unplug your router for two minutes and see what is left: home internet, Wi-Fi calling, internet-based home phone lines and cordless handsets all stop with it, and in a real outage the building intercom and door buzzer stop too. With the router off, try a call and a text from each room over the cell network; if you have no signal indoors, find the nearest spot that does, such as a window, the lobby or the street. Cell networks also depend on power, so expect cell service to weaken or fail in a long outage. Tell regular visitors and caregivers that the buzzer will not work, and agree on another way to be let in.",
+      "done": "You have tried a call and a text in each room with the router unplugged, and your regular visitors and caregivers have agreed on another way to be let in.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "A router on a battery helps only if the building's own network equipment still has power, so do not count on it.",
+      "cites": [
+        "fcc-emergency-comms"
+      ]
+    },
+    {
+      "id": "CM-05",
+      "level": 3,
+      "section": "Phone setup",
+      "title": "Learn your phone's satellite messaging if it has it",
+      "why": "Some recent phones can send a short emergency text by satellite when there is no cell or Wi-Fi signal, but only if you already know how to use it.",
+      "how": "Search your phone's settings and the maker's support pages for 'satellite' to see whether your model, country and plan support it; many phones do not. If yours does, run the built-in demo or practice mode now, outdoors. Expect limits: it needs a clear view of the sky, so it does not work indoors and may struggle between tall buildings, and one message can take from half a minute to several minutes. Treat it as a last resort for emergencies, not a replacement for your plan.",
+      "done": "Your phone's settings or its maker's support page has shown whether it supports satellite messaging, and if it does you have run the demo outdoors.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "cite_todo": "Which phones, carriers and countries offer satellite messaging, and its limits, change often; link the phone makers' and carriers' own support pages."
+    },
+    {
+      "id": "CM-06",
+      "level": 3,
+      "section": "Without power or signal",
+      "title": "Consider license-free two-way radios for the household or the floor",
+      "why": "Handheld two-way radios need no network at all, which makes them useful over short distances when phones are down.",
+      "how": "Buy a set that needs no license where you live (in the US, radios sold as FRS), with a spare battery for each; a GMRS radio, such as this site's Cadillac pick, needs an FCC license before you use it. Two radios is the least that is any use: one for each person or group that may be apart, or one per floor contact. Ignore the range printed on the box, which assumes open country: inside concrete and steel buildings expect a few floors, and at street level a few blocks at best. Test them in your own building, from your unit to the lobby and from floor to floor in the stairwell, and note where they work. Agree one channel and fixed check-in times, and say nothing private, because anyone on the channel can listen.",
+      "done": "The radios and spare batteries are at home, tested from your unit to the lobby and between floors, with the agreed channel and the places they work noted.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "two-way-radios"
+      ],
+      "cites": [
+        "aap-family-kit",
+        "preparedbc-apartments"
+      ],
+      "cite_todo": "An FCC page confirming that FRS radios need no license in the US (GMRS radios do). The indoor range figures are a cautious rule of thumb, not an official number."
+    },
+    {
+      "id": "CM-07",
+      "same_as": "PL-12",
+      "level": 2,
+      "section": "Phone setup",
+      "title": "Stretch your phone battery",
+      "why": "With no way to recharge, how you use the phone decides whether it lasts one day or several.",
+      "how": "As soon as the power goes, turn on low power mode, dim the screen, close apps you do not need, and switch off Wi-Fi and Bluetooth if you are not using them. Keep one phone in each group on for alerts (CM-12); on the others, use airplane mode between your agreed check-in times. Text in place of calling, and do not stream, play games or scroll. Keep a charged power bank for each phone. If you charge from a car, do it outdoors and never in a closed garage, because of carbon monoxide.",
+      "done": "There is a charged power bank for each phone, and each person has found low power mode and airplane mode on their own phone.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "power-bank"
+      ],
+      "cites": [
+        "fcc-emergency-comms",
+        "fema-comms-plan",
+        "cdc-co"
+      ]
+    },
+    {
+      "id": "CM-08",
+      "level": 1,
+      "section": "Phone setup",
+      "title": "Download offline maps of your city",
+      "why": "A map app needs a data connection unless the map is already stored on the phone.",
+      "how": "While on Wi-Fi, open your maps app, find the offline or download option, and save an area that covers home, work, school, your meeting places and the two places you would go. Do it on every phone in the household. Test it in airplane mode: you should still see the streets and, on most phones, your position, which comes from GPS and needs no network. Let the app keep the maps updated, and carry the paper map as the backup.",
+      "done": "With every phone in airplane mode, its maps app still shows the streets around home, work, school, your meeting places and the two places you would go.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "CM-09",
+      "level": 2,
+      "section": "When networks are jammed",
+      "title": "Pick one group chat for the household",
+      "why": "One agreed place for updates stops messages being scattered across apps that some people never check.",
+      "how": "Create one group that includes every household member and your out-of-area contact, in the app everyone already uses, and give it a clear name. Make a plain SMS group with the same people as well, because chat apps need data and SMS sometimes works when data does not. Agree that in an emergency all updates go there and nowhere else, and that each person answers with at least 'OK' so the sender knows it arrived. Send a test message today.",
+      "done": "The group chat and a plain SMS group both hold every household member and your out-of-area contact, and each person has answered the test message.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "fema-comms-plan",
+        "aap-family-kit"
+      ]
+    },
+    {
+      "id": "CM-10",
+      "level": 2,
+      "section": "Paper backups",
+      "title": "Leave a note on your door if you leave",
+      "why": "A note tells family, neighbors and responders that your home is empty and that nobody inside needs help.",
+      "how": "Keep paper, a marker and tape by the door. If you leave in an emergency, tape a note to the door with the date and time, the words 'all out, all safe' and the number of people and pets who left. Do not write your destination or phone numbers where passers-by can read them; give those to your out-of-area contact and a neighbor you trust. If your floor has agreed an OK or HELP door sign, use that as well.",
+      "done": "Paper, a marker and tape are by the front door, and everyone at home has heard what the note says and what it leaves out.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "CM-11",
+      "level": 2,
+      "section": "Without power or signal",
+      "title": "Write the stations on the radio",
+      "why": "Broadcast radio keeps working when phones and internet do not, but only if you can find the right station in the dark.",
+      "how": "Look up the AM or FM stations that carry emergency alerts for your area and, in the US, your NOAA Weather Radio channel (one of seven between 162.400 and 162.550 MHz) at weather.gov/nwr. Write the numbers on a strip of tape stuck to the radio, and tune it to the main station before you put it away. Test reception inside your home: concrete and steel weaken it, so find the window or room where it comes in clearly. If your radio has SAME county coding, enter your county's code from the National Weather Service website, so that it sounds only for your area. Your city or county emergency management website often lists the stations that carry Emergency Alert System messages, under 'alerts' or 'stay informed'. If it lists none, use your main local news stations on AM and FM and the nearest public radio station. If you have a car, save the same stations as presets on its radio. Outside the United States, find your national weather service's warning channel instead.",
+      "done": "The station numbers are on tape stuck to the radio, it is tuned to the main station, and you have found the spot at home where it comes in clearly.",
+      "apartment": "Without a car, the battery radio at home is your only broadcast receiver, so also copy the frequencies onto the back of your wallet contact card (CM-02).",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "emergency-radio",
+        "pocket-radio"
+      ],
+      "cites": [
+        "nws-nwr",
+        "ready-alerts",
+        "nws-nwr-receivers"
+      ]
+    },
+    {
+      "id": "CM-12",
+      "level": 2,
+      "section": "Phone setup",
+      "title": "Keep one phone on for alerts",
+      "why": "Official alerts reach only phones that are switched on and connected, so a household that is saving battery still needs one phone listening.",
+      "how": "In a long outage, keep one phone on with emergency alerts enabled and the volume up, one in each group if you are apart, and keep the others off or in airplane mode. Swap to the next phone when the first drops to about 20%, and recharge them from a power bank in turn. A phone in airplane mode receives no Wireless Emergency Alerts. Keep the battery radio as your second channel.",
+      "done": "Every phone shows emergency alerts switched on, and everyone at home has heard which phone stays on first in a long outage.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "cites": [
+        "fema-wea-phone",
+        "ready-alerts",
+        "fcc-wea-guide"
+      ]
+    },
+    {
+      "id": "CM-13",
+      "level": 2,
+      "same_as": "U2-147",
+      "section": "Paper backups",
+      "title": "Save important numbers outside your phone",
+      "why": "Your contact list is only as available as your phone, your passcode and the network.",
+      "how": "Print the emergency numbers sheet, one for each person, and write in by hand the numbers you would need if your phone were gone: family, doctor, pharmacy, school, employer, building management, your insurer's claims line and the utilities. Keep one copy with your documents and one in the grab bag. Have each person memorize two numbers: the out-of-area contact and one household member. The site stores none of these numbers; it records only that you did this and when.",
+      "done": "Each person has a filled-in emergency numbers sheet, one copy with your documents and one in the grab bag, and each can recite two numbers from memory.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "contacts",
+      "cites": [
+        "ready-plan"
+      ]
+    },
+    {
+      "id": "CM-14",
+      "level": 3,
+      "section": "Phone setup",
+      "title": "Learn the emergency SOS shortcut on your phone",
+      "why": "A button shortcut can call for help when you cannot unlock the phone, see the screen or speak.",
+      "how": "Search your phone's settings for 'SOS' and read how it is triggered on your model; on many phones it is pressing the side button quickly several times, or holding the side button and a volume button together. Check what it does: it calls the emergency number, and on many phones it also texts your location to the emergency contacts you have set. Learn how to cancel it so you do not call by accident, and show everyone in the household, including older children.",
+      "done": "Everyone at home, older children included, has been shown how emergency SOS is triggered and canceled on their phone.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ]
+    },
+    {
+      "id": "CM-15",
+      "level": 3,
+      "section": "When networks are jammed",
+      "title": "Know how to check on people after a disaster",
+      "why": "Thousands of people calling into a disaster area at once jam the networks that the people inside it need.",
+      "how": "Send one text to the person and then wait; do not redial over and over. Ask your shared out-of-area contact, who collects and passes on everyone's status, and check the household group chat and any 'marked safe' feature on social networks. For someone you still cannot reach after a large disaster, use the official reunification service run by the Red Cross or the local authorities, found through their own websites. Do not call 911 to ask after someone unless you believe their life is in danger, and do not travel into the affected area to look.",
+      "done": "Every adult at home has heard the steps read aloud and can name the out-of-area contact you would all ask.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-plan",
+        "fcc-emergency-comms"
+      ],
+      "cite_todo": "The current Red Cross reunification service page; the 'Safe and Well' registry named in older guides may have been replaced."
+    },
+    {
+      "id": "CM-16",
+      "level": 1,
+      "section": "Phone setup",
+      "title": "Set up each phone so that losing it is not a crisis",
+      "why": "Your phone holds your plan, your contacts and the codes that open your accounts, and it can be lost or stolen on an ordinary day.",
+      "how": "On each phone, set a screen lock with a passcode of at least six digits and switch on the maker's finder (search the settings for 'find'), which lets you locate, lock or erase the phone from another device. Ask your cell carrier to put a PIN on the account and to switch on its lock against moving your number to another SIM or another carrier; the large carriers offer this free, under names such as number lock or account lock. Passwords, sign-in codes and recovery codes are set up in MD-08 and MD-09; check that you could use them without this phone. Write the carrier's customer service number and the phone's IMEI number (shown in the phone's settings) by hand on the printable emergency numbers sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "contacts",
+      "cites": [
+        "ftc-protect-phone",
+        "ftc-sim-swap",
+        "fcc-sim-port-rule",
+        "verizon-number-lock",
+        "att-account-lock",
+        "google-find-device"
+      ],
+      "done": "Each phone shows its finder switched on, the carrier has confirmed the lock on your number, and the carrier's number and the phone's IMEI are written on the emergency numbers sheet."
+    },
+    {
+      "id": "CM-17",
+      "level": 1,
+      "section": "Phone setup",
+      "title": "Learn the first hour after a phone is lost or stolen",
+      "why": "Until the phone is locked and the line is suspended, whoever holds it may be able to read your messages and reset your passwords, so the order of the first steps matters.",
+      "how": "Work in this order, from another device and another phone. First, sign in to the maker's finder, try to locate the phone and mark it as lost, which locks it. Second, call your carrier and ask them to suspend the line and block the phone; carriers say to try the finder before you suspend. Third, change the passwords of your email and the other accounts on the phone, using your printed recovery codes (MD-09) where a sign-in asks for the lost phone, and report any cards saved on it as lost (MD-15). Fourth, if the phone was stolen or cannot be found, erase it from the finder, which cannot be undone, and report it to the police. The printable emergency numbers sheet carries this list; keep a filled-in copy with your documents, because you will not have the phone to read it on.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "contacts",
+      "cites": [
+        "att-lost-device",
+        "verizon-lost-phone",
+        "apple-lost-iphone",
+        "google-find-device",
+        "ftc-sim-swap"
+      ],
+      "done": "A paper copy of the first-hour list, with your carrier's number filled in, is with your documents."
+    },
+    {
+      "id": "CM-18",
+      "level": 2,
+      "section": "Paper backups",
+      "title": "Keep a one-page event log beside the radio",
+      "why": "Tired people lose track of when the power went off, what officials said and what has been used.",
+      "how": "Print the event log sheet and keep it with a pen beside the radio. When something starts, write one line for each thing that matters: the time, what you heard and who said it, what you decided, who is doing it and when you will check again. Note the time the power or the water went off, the fridge and room temperatures if you have thermometers, each official instruction, each check-in and what is running low. Mark each piece of news as confirmed or as rumor. Write each dose of medicine, with its time, on the dose sheet kept with that person's medicine (FN-04) and not here: with more than one caregiver it is easy to give a dose twice.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "event-log",
+      "cites": [
+        "aap-otc-guide"
+      ],
+      "cite_todo": "FEMA's CERT Basic Training Participant Manual (2019), Unit 6, on keeping written records during an incident, to support the log itself.",
+      "done": "A blank event log and a pen are beside the radio."
+    }
+  ]
+}

@@ -1,0 +1,1084 @@
+{
+  "batch": "waste-b",
+  "checked": "2026-11-14",
+  "items": [
+    {
+      "id": "gloves-disposable",
+      "module": "waste",
+      "name": "Disposable nitrile gloves",
+      "need": "Gloves keep waste, sewage and bleach off your skin at a time when you cannot wash your hands properly afterwards.",
+      "how_to_choose": "Buy powder-free nitrile, not latex, so allergies are not a problem. Thin exam gloves (about 3 to 4 mil) are fine for quick jobs. For tying off toilet bags, scrubbing or handling bleach, 6 mil or more tears far less often. A box of 100 is about the size of a tissue box, so storage is not an issue. Check your hand size before you buy; a glove that is too small rips when you pull it on.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One box of 100 gloves (50 pairs) per household for two weeks. That allows three to four pairs a day for toilet-bag changes and cleaning. Add a second box for five or more people, or if someone is ill. This is this site's estimate, not an official figure."
+      },
+      "already_own": "Any unopened box of powder-free nitrile or vinyl gloves will do. Pull one on and stretch it: if it tears easily, feels sticky or has gone brittle, replace the box. Reusable dish gloves also work for cleaning if you disinfect them after each use and keep them only for that job.",
+      "safety_notes": [
+        {
+          "text": "Wear rubber or disposable gloves when you clean up vomit or diarrhea and when you handle soiled laundry. Wash your hands afterwards.",
+          "source_name": "CDC",
+          "source_title": "How to Prevent Norovirus",
+          "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "Gloves do not replace handwashing. Wash with soap and water after you take them off, even if they did not tear.",
+          "source_name": "CDC",
+          "source_title": "Preventing C. diff",
+          "url": "https://www.cdc.gov/c-diff/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "Wear gloves when using bleach if the label says to, and wash your hands after cleaning or disinfecting.",
+          "source_name": "CDC",
+          "source_title": "Cleaning and Disinfecting with Bleach",
+          "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "research_note": "2026-11-14 and 2026-11-15: Amazon, Walmart, Lowe's and Ace refused the page reader, so no retail price was read on a retailer's own page. 2026-11-16 alignment pass: off the page from item_flags: No recall of disposable nitrile gloves was found in the CPSC recall database on 2026-11-14 (searched recall titles for 'gloves' since 2020 and for 'Ammex'). | Retail prices were not confirmed on the retailers' own pages. The prices below come from review pages and search listings and may be out of date.",
+      "tiers": {
+        "budget": {
+          "brand": "MedPride",
+          "model": "Nitrile Gloves - Examination (Powder Free)",
+          "model_number": "MPR-50504 (medium); MPR-50502 to MPR-50507 cover X-Small to XX-Large",
+          "size": "Box of 100 gloves. The maker's page does not state thickness; resellers list about 3.5 to 4 mil.",
+          "unit_size": 1,
+          "unit_label": "box of 100",
+          "price_usd": 9.99,
+          "price_seen_at": "Walmart listing for the blue Medium box of 100, 2026-11-15; not confirmed on the retailer's own page. Other sellers $12 to $26; GearLab listed $29 in 2023.",
+          "why": "GearLab bought and tested nine disposable gloves and named this its top nitrile exam glove. It fits snugly, keeps good finger feel and resisted cuts and punctures better than most thin exam gloves in the test.",
+          "weakness": "It is thin, gives little protection from hot water, and the maker does not publish the thickness.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.medpride.com/product/nitrile-gloves/",
+              "verified": true,
+              "note": "Page lists reorder numbers and 100 per box, 10 boxes per case."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00GS8W3T4",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader; the product code was seen in GearLab's buy link that day. 2026-11-16 alignment pass: old note: It comes from GearLab's buy link for this glove."
+            }
+          ],
+          "link_note": "Prices vary a lot by seller, so compare.",
+          "research_note": "MedPride's own page gave a server error on 2026-11-15, though it loaded on 2026-11-14. 2026-11-16 alignment pass: old link_note: Prices vary a lot by seller, so compare. The maker does not publish a thickness.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "MedPride",
+              "title": "Nitrile Gloves - Examination",
+              "url": "https://www.medpride.com/product/nitrile-gloves/",
+              "verified": true,
+              "supports": "Powder-free nitrile exam glove, sizes, reorder numbers, 100 gloves per box. Thickness is not stated."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearLab",
+              "title": "Best Disposable Gloves",
+              "url": "https://www.techgearlab.com/topics/health-fitness/best-disposable-gloves",
+              "verified": true,
+              "supports": "Named best nitrile exam model after hands-on tests of nine gloves (updated August 23, 2023). Notes poor hot-water protection."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'gloves' since 2020 on 2026-11-14: two results, neither for disposable gloves or MedPride. FDA device recalls were not searched."
+        },
+        "standard": {
+          "brand": "Venom Steel",
+          "model": "Rip Resistant Industrial Nitrile Gloves",
+          "model_number": "VEN6145",
+          "size": "Box of 100 gloves, 6 mil, two-layer nitrile, 9.5 in long, one size fits most",
+          "unit_size": 1,
+          "unit_label": "box of 100",
+          "price_usd": 17.99,
+          "price_seen_at": "Amazon and Walmart price as shown on Reviewed's review page (Lowe's shown at $27.98); not confirmed on the retailers' own pages.",
+          "why": "Reviewed's best overall disposable glove. The two-layer, 6 mil build survived knife slashes and held more than ten pounds before tearing, which is what you want when tying off waste bags.",
+          "weakness": "The common box is one-size-fits-most, and testers with small hands found it too big.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://venomsteel.com/products/rip-resistant-industrial-nitrile-gloves/",
+              "verified": true,
+              "note": "Brand site of Medline Industries. Shows 6 mil, two layers, 9.5 in, latex-free and powder-free. No price or box count."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00Y2OFGMW",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader; the product code was seen in Reviewed's buy link that day. 2026-11-16 alignment pass: old note: It comes from Reviewed's buy link for this glove."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Venom Steel (Medline Industries)",
+              "title": "Rip Resistant Industrial Nitrile Gloves",
+              "url": "https://venomsteel.com/products/rip-resistant-industrial-nitrile-gloves/",
+              "verified": true,
+              "supports": "6 mil thickness, two layers of nitrile, 9.5 in length, latex-free and powder-free."
+            },
+            {
+              "type": "test_publication",
+              "name": "Reviewed (USA Today)",
+              "title": "The Best Disposable Gloves",
+              "url": "https://www.reviewed.com/home-outdoors/best-right-now/the-best-disposable-gloves",
+              "verified": true,
+              "supports": "Best Overall after cut, tear, heat and chemical tests of 11 gloves (page dated May 5, 2023). Measured 6 mil at palm and fingertip; box of 100."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'gloves' since 2020 on 2026-11-14: nothing for Venom Steel or Medline gloves. FDA device recalls were not searched.",
+          "research_note": "2026-11-16 alignment pass: model_number was 'VEN6145 (seen on retailer listings; the maker's page does not print a part number)'."
+        },
+        "cadillac": {
+          "brand": "AMMEX",
+          "model": "Gloveworks HD Green Nitrile Industrial Gloves",
+          "model_number": "GWGN (GWGN44100 medium, GWGN46100 large, GWGN48100 X-large, GWGN49100 XX-large)",
+          "size": "Box of 100 gloves, 8 mil (the maker's blog says 8 to 9 mil), raised diamond texture, sizes M to XXL",
+          "unit_size": 1,
+          "unit_label": "box of 100",
+          "price_usd": 45,
+          "price_seen_at": "List price shown on GearLab's 2023 review page. Resellers listed it at about $22 to $32 a box, so shop around.",
+          "why": "GearLab's best overall glove: the most durable of nine tested, with the best cut and puncture resistance, a textured grip that works wet, and the most protection from hot water. The extra thickness earns its cost for sewage clean-up and heavy bleach work.",
+          "weakness": "Thick enough to dull your sense of touch, and it takes effort to peel off. It is sold as an industrial glove, not a medical exam glove.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://order.ammex.com/s/product/gwgn49100/01tf20000089sSkAAI",
+              "verified": false,
+              "note": "AMMEX order page for the XX-large box.",
+              "research_note": "2026-11-14: the page answered but its content is drawn by a script and could not be read."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00MGSGRIS",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader; the product code was seen in GearLab's buy link that day. 2026-11-16 alignment pass: old note: It comes from GearLab's buy link for this glove."
+            },
+            {
+              "label": "True Value",
+              "url": "https://www.truevalue.com/product/649712/ammex-gloveworks-nitrile-heavy-duty-green-medium-8-mil-disposable-gloves-100-count-649712/",
+              "verified": true,
+              "note": "Listing confirms GWGN44100, 8 mil, 100 count.",
+              "research_note": "2026-11-16 alignment pass: old note: Listing confirms GWGN44100, 8 mil, 100 count. No price shown and it was marked unavailable online on 2026-11-14."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "AMMEX",
+              "title": "3 Reasons You Need Green Nitrile Gloves",
+              "url": "https://blog.ammex.com/3-reasons-you-need-green-nitrile-gloves/",
+              "verified": true,
+              "supports": "Maker's own description of Gloveworks HD Green: 8 to 9 mil, powder-free, raised diamond texture. Post dated 2017, updated 2018."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearLab",
+              "title": "Best Disposable Gloves",
+              "url": "https://www.techgearlab.com/topics/health-fitness/best-disposable-gloves",
+              "verified": true,
+              "supports": "Best Overall (Editors' Choice) of nine gloves; most durable and most heat-resistant; noted as expensive and less tactile."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Ammex' and 'gloves' on 2026-11-14: none found for this product.",
+          "research_note": "2026-11-16 alignment pass: old link_note: The maker's ordering page could not be confirmed. True Value's page for the same item (Gloveworks HD green nitrile, 8 mil, 100 count, model GWGN44100 for medium) matches the product but showed no price."
+        }
+      },
+      "prices_seen": "2026-11-15"
+    },
+    {
+      "id": "hand-sanitizer",
+      "module": "waste",
+      "name": "Alcohol hand sanitizer",
+      "need": "When the taps are dry, sanitizer is the fallback for cleaning your hands after the toilet and before eating.",
+      "how_to_choose": "Check the label for at least 60% alcohol. Buy a known brand from a regular store, not an unfamiliar name from a marketplace. A pump bottle that can sit by the toilet and the food area gets used more than a pocket bottle. Sanitizer is a backup: keep some water and soap for hands that are visibly dirty or after caring for someone with vomiting or diarrhea.",
+      "qty": {
+        "basis": "per_eater",
+        "factor": 1,
+        "note": "One 12 fl oz bottle for each person aged 6 or over, and never fewer than one for the household; one bottle covers 3 days or two weeks. An adult cleans a younger child's hands, and the bottle stays out of a small child's reach. Arithmetic: about 8 uses a day at roughly 0.1 fl oz (3 mL) each is about 0.8 fl oz a day, or about 11.4 fl oz in 14 days; the bottle holds 12 fl oz. The amount per use and 8 uses a day are this site's assumptions; CDC only says to cover all surfaces of both hands.",
+        "rule": "1 for each person aged 6 or over, and never fewer than 1 for the household. An adult cleans a younger child's hands, and the bottle stays out of a small child's reach"
+      },
+      "already_own": "Any sanitizer you already have is fine if the label shows 60% alcohol or more, it is within its expiry date, and its maker is not on the FDA's do-not-use list. Check how much is left against the per-person amount above.",
+      "safety_notes": [
+        {
+          "text": "Washing with soap and water is the best way to clean hands in most situations. Use sanitizer only when soap and water are not available.",
+          "source_name": "CDC",
+          "source_title": "Hand Sanitizer Guidelines and Recommendations",
+          "url": "https://www.cdc.gov/clean-hands/about/hand-sanitizer.html",
+          "verified": true
+        },
+        {
+          "text": "Use a sanitizer with at least 60% alcohol. Cover all surfaces of both hands and rub until dry, which takes about 20 seconds. Do not wipe it off early.",
+          "source_name": "CDC",
+          "source_title": "Hand Sanitizer Guidelines and Recommendations",
+          "url": "https://www.cdc.gov/clean-hands/about/hand-sanitizer.html",
+          "verified": true
+        },
+        {
+          "text": "Sanitizer does not kill all germs and may not work well on visibly dirty or greasy hands. Soap and water work better against norovirus, Cryptosporidium and C. difficile.",
+          "source_name": "CDC",
+          "source_title": "Hand Sanitizer Guidelines and Recommendations",
+          "url": "https://www.cdc.gov/clean-hands/about/hand-sanitizer.html",
+          "verified": true
+        },
+        {
+          "text": "Hand sanitizer does not work well against norovirus. It can be used in addition to handwashing but not instead of it.",
+          "source_name": "CDC",
+          "source_title": "How to Prevent Norovirus",
+          "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "Hand sanitizer is flammable, and drinking even a small amount can cause alcohol poisoning in a child. Store it away from heat and flame and out of reach of children and pets, supervise children who use it, and let hands dry fully before going near a flame.",
+          "source_name": "FDA",
+          "source_title": "Safely Using Hand Sanitizer",
+          "url": "https://www.fda.gov/consumers/consumer-updates/safely-using-hand-sanitizer",
+          "verified": true,
+          "research_note": "Re-opened 2026-11-16 (FDA, Safely Using Hand Sanitizer, content current as of 04/12/2023): supervise children using hand sanitizer; store out of reach of pets and children; drinking even a small amount can cause alcohol poisoning in children; flammable, keep away from heat and flames, rub until fully dry."
+        }
+      ],
+      "item_flags": [
+        "Reasons products are on the FDA list include methanol, 1-propanol, benzene, acetaldehyde and acetal contamination, too little alcohol, microbial contamination, packaging that looks like a drink or food pouch, and makers that did not answer FDA records requests. Avoid unfamiliar brands and anything packaged like a drink."
+      ],
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Purell",
+          "model": "Advanced Hand Sanitizer Refreshing Gel, 12 fl oz pump bottle",
+          "model_number": "3659-12",
+          "size": "12 fl oz (354 mL) table-top pump bottle, 70% ethyl alcohol",
+          "unit_size": 1,
+          "unit_label": "12 fl oz bottle",
+          "price_usd": 8.99,
+          "price_seen_at": "Staples.com listing; not confirmed on the retailer's own page.",
+          "why": "70% ethyl alcohol, well above the 60% minimum, from the largest US maker, with a current FDA drug label listing. A pump bottle can sit by the toilet and be used with one hand.",
+          "weakness": "It costs more per ounce than store brands with the same job, and like all sanitizers it does little against norovirus or on dirty hands.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.gojo.com/Product/3659-12",
+              "verified": true,
+              "note": "GOJO's page for SKU 3659-12, the 12 fl oz table-top pump bottle.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: GOJO page for PURELL Advanced Hand Sanitizer Gel, SKU 3659-12, 12 fl oz table-top pump bottle. The page shows a 70% ethyl alcohol label (it may be the Canadian label); the US drug listing is the DailyMed source."
+            },
+            {
+              "label": "Staples",
+              "url": "https://www.staples.com/purell-advanced-refreshing-gel-hand-sanitizer-12-oz/product_SS205125855",
+              "verified": false,
+              "note": "Model 3659-12.",
+              "research_note": "2026-11-14: Staples refused the page reader; the listing and its price were seen in that day's search results. 2026-11-16 alignment pass: old note: The listing showed $8.99 for the 12 oz bottle, model 3659-12."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "DailyMed (US National Library of Medicine)",
+              "title": "PURELL ADVANCED HAND SANITIZER REFRESHING GEL (alcohol) gel - GOJO Industries, Inc.",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e3cc01f3-beec-43e4-9d8a-8917f4bb7aeb",
+              "verified": true,
+              "supports": "Official drug label listing: ethyl alcohol 70%, labeler GOJO, NDC 21749-972, label version 7 published July 2025. The package sizes listed there are 30 mL to 1.5 L and do not name the 354 mL bottle separately."
+            },
+            {
+              "type": "test_publication",
+              "name": "Real Simple (via Yahoo)",
+              "title": "We Tested Dozens of Hand Sanitizers - These Are the 6 Best",
+              "url": "https://www.yahoo.com/lifestyle/tested-dozens-hand-sanitizers-6-173902333.html",
+              "verified": true,
+              "supports": "Purell Advanced, with 70 percent ethyl alcohol, was one of the picks from a beauty-team trial. Dated January 2021 and light on method, so treat it as a minor source."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Read the full FDA do-not-use hand sanitizer table on 2026-11-14: no GOJO or Purell entry. CPSC recall database returned nothing for 'Purell'.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed for this exact bottle."
+        },
+        "cadillac": null
+      },
+      "research_note": "Budget tier, rechecked 2026-11-15: Germ-X (62% ethyl alcohol, Vi-Jon) has a working maker site (germx.com, which says 'Contains 62% alcohol' for Germ-X Original) but no price there, and DailyMed's name search returned no Germ-X label under the names tried. Walmart's Equate sanitizer labels exist in DailyMed but were last published in 2017 to 2020, so they were not treated as current. 2026-11-16 alignment pass: off the page from item_flags: FDA do-not-use list checked on 2026-11-14 (https://www.fda.gov/drugs/drug-alerts-and-statements/fda-updates-hand-sanitizers-consumers-should-not-use). The whole table was read. GOJO/Purell, Vi-Jon/Germ-X and Clorox do not appear on it. | The FDA page says it is no longer being updated and points to the FDA drug recalls page for newer actions. The latest entry seen was added 04/17/2024: Aruba Aloe Hand Sanitizer Gel and Spray, recalled 4/5/2024 because it contains methanol. | No hand sanitizer recall was returned by the CPSC recall database for titles containing 'hand sanitizer' or 'Purell' on 2026-11-14. Sanitizer is a drug regulated by FDA, so FDA is the main place to check.",
+      "empty_reason": {
+        "budget": "No pick. Cheaper sanitizers such as Germ-X (62% alcohol) and store brands do the same job, but no current official drug listing could be matched to one, so none met this site's rule of two sources. See 'If you already own' for how to check any bottle.",
+        "cadillac": "Above the 60% minimum, more money buys scent, skin feel or packaging, not more germ kill. Larger bottles of the standard pick (DailyMed lists a 1 L size, NDC 21749-972-33) are the same formula and are better value, not a better product."
+      },
+      "prices_seen": "2026-11-14",
+      "tier_note": "One pick: above 60% alcohol a pricier sanitizer buys scent or packaging, not more germ kill, and any sanitizer with at least 60% alcohol from a maker not on FDA's do-not-use list does the same job."
+    },
+    {
+      "id": "body-wipes",
+      "module": "waste",
+      "name": "Rinse-free bathing wipes",
+      "need": "With no running water, large bathing wipes let each person wash their whole body every day and avoid rashes and infections.",
+      "how_to_choose": "For a full-body wash, adult bathing wipes are bigger and thicker than baby wipes. Look at the cost per wash, not the pack price. A single large wipe per wash is the cheapest route; an eight-cloth pack gives a fuller wash, one cloth per body area. Sealed or individually wrapped packs do not dry out in a closet. Used wipes go in the trash, never down the toilet.",
+      "qty": {
+        "basis": "per_person_day",
+        "factor": 1,
+        "note": "An optional extra: it has no baseline quantity and stays out of the totals. Baby wipes are fine for hands and face: one pack of 60 to 80 per person per week (U5-01). If you also want a full wash, plan one per person per day; each pick's size line shows how many washes one pack gives."
+      },
+      "already_own": "Baby wipes or facial wipes you already have will do for a few days if you use several per wash. Check that the pack is still moist and has not passed its date. A washcloth with a cup of water and a little soap also works if you can spare the water.",
+      "safety_notes": [
+        {
+          "text": "Never flush wipes of any kind. Flush only toilet paper; wipes can block the pipes in your building and the sewers beyond it. Put used wipes in the trash.",
+          "source_name": "EPA",
+          "source_title": "EPA Encourages Americans to Only Flush Toilet Paper",
+          "url": "https://www.epa.gov/newsreleases/epa-encourages-americans-only-flush-toilet-paper",
+          "verified": true
+        },
+        {
+          "text": "A body wipe does not count as hand hygiene. After using the toilet or handling waste, wash with soap and water, or use a sanitizer with at least 60% alcohol if there is none.",
+          "source_name": "CDC",
+          "source_title": "About Handwashing",
+          "url": "https://www.cdc.gov/clean-hands/about/index.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "research_note": "2026-11-14: Medline's product page refused the page reader; the Adventure Medical Kits page showed sold out in search results and then gave errors; the Outdoor Wipes and Medline pages were refused or rate-limited on every attempt. 2026-11-16 alignment pass: off the page from item_flags: No recall of bathing or body wipes was found in the CPSC recall database on 2026-11-14 (titles containing 'wipes' since 2018 returned three unrelated products). | Hospital bathing packs such as Medline ReadyBath Luxe are the logical step up, but neither the maker's page nor an independent test could be confirmed, so they are not listed. | Adventure Medical Kits Adventure Bath Wipes were Territory Supply's top pick, but they looked sold out at the maker and its page could not be confirmed, so they were left out. 2026-11-16 alignment pass: standard pick removed (Step 6.2: the owner names wipes as a product with no real spread; one pick kept); old pick: {\"brand\":\"CleanLife Products (No Rinse)\",\"model\":\"No Rinse Bathing Wipes, pack of 8\",\"model_number\":\"01000\",\"size\":\"8 pre-moistened wipes, each about 8 x 8 in, in a resealable pack\",\"unit_size\":1,\"unit_label\":\"pack of 8\",\"price_usd\":4.75,\"unit_price\":\"$4.75 a wash (one pack of 8 cloths)\",\"price_seen_at\":\"MaxiAids.com (list price $9.99)\",\"why\":\"This is the caregiver's version of a wash: one pack is one full bath, with a fresh cloth for each body area. Territory Supply found them very thick and moist without dripping, and they are alcohol-free and latex-free.\",\"weakness\":\"The pack price is low but one pack is one wash, so it costs about four times as much per wash as the Budget pick, and the wipes are lightly scented.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"note\":\"Body care page lists No Rinse Bathing Wipes, SKU 01000, with ingredients. It does not show price, count or wipe size.\"},{\"label\":\"MaxiAids\",\"url\":\"https://maxiaids.com/product/no-rinse-bathing-wipes\",\"verified\":true,\"note\":\"8 wipes per package, $4.75, in stock on 2026-11-14.\"},{\"label\":\"Amazon\",\"url\":\"https://www.amazon.com/dp/B00CBKLSF8\",\"verified\":false,\"note\":\"It comes from Territory Supply's buy link.\",\"research_note\":\"2026-11-14: Amazon refused the page reader; the product code was seen in Territory Supply's buy link that day.\"}],\"link_note\":\"The one-pack-per-bath figure comes from retailer listings; the maker's page does not state it.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"CleanLife Products\",\"title\":\"Body Care\",\"url\":\"https://cleanlifeproducts.com/body-care/\",\"verified\":true,\"supports\":\"Product name, SKU 01000, latex-free and alcohol-free, ingredient list.\"},{\"type\":\"test_publication\",\"name\":\"Territory Supply\",\"title\":\"Tested: The Best Body Wipes When You Can't Take Shower\",\"url\":\"https://www.territorysupply.com/best-body-wipes\",\"verified\":true,\"supports\":\"Used in the field among eight wipes (updated April 2024): very thick and moist, 8 x 8 in, no rinse needed, slight fragrance. A smaller outdoor-gear site, not a lab.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-14: nothing for CleanLife or No Rinse products.\"}",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Venture Wipes",
+          "model": "Venture Wipes 25-Count Bag",
+          "model_number": "VW-25ct",
+          "size": "25 individually wrapped wipes, each 12 x 12 in",
+          "unit_size": 25,
+          "unit_label": "bag of 25",
+          "price_usd": 27.95,
+          "unit_price": "about $1.12 a wash (one wipe)",
+          "price_seen_at": "venturewipes.com",
+          "why": "The cheapest way to cover a daily wash: the maker says one 12 x 12 in wipe is large enough for the whole body, so a bag covers 25 person-days at about $1.12 each. Each wipe is wrapped on its own, so the rest of the bag does not dry out.",
+          "weakness": "One wipe per wash is a quick clean, not a thorough one, and the maker's page gives no full ingredient list.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://venturewipes.com/store/Venture-Wipes-25-Count-Bag-p352766979",
+              "verified": true,
+              "note": "SKU VW-25ct, 25 individually wrapped 12 x 12 in wipes.",
+              "research_note": "2026-11-16 alignment pass: old note: Price $27.95, SKU VW-25ct, 25 wipes, 12 x 12 in, individually wrapped."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Venture Wipes",
+              "title": "Venture Wipes 25-Count Bag",
+              "url": "https://venturewipes.com/store/Venture-Wipes-25-Count-Bag-p352766979",
+              "verified": true,
+              "supports": "Size, count, individual wrapping, price, and the claim that one wipe is large enough to clean the entire body."
+            },
+            {
+              "type": "test_publication",
+              "name": "Territory Supply",
+              "title": "Tested: The Best Body Wipes When You Can't Take Shower",
+              "url": "https://www.territorysupply.com/best-body-wipes",
+              "verified": true,
+              "supports": "One of eight wipes used in the field (updated April 2024). Noted as fragrance-free, textured, among the largest tested and with one of the shortest ingredient lists. A smaller outdoor-gear site, not a lab."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'wipes' since 2018 on 2026-11-14: nothing for Venture Wipes. The maker's page does not carry a do-not-flush warning; treat them as not flushable.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No premium pick met this site's rule of two sources. Outdoor Wipes XL Sport Wipes (12 x 24 in, a Territory Supply award winner) and Medline ReadyBath Luxe hospital packs were the candidates, but neither maker's page nor a price could be confirmed.",
+        "budget": "One pick only: wipes are much alike, and the single pick is also the cheapest per wash."
+      },
+      "prices_seen": "2026-11-14",
+      "tier_note": "One pick: these are much alike, and a pricier pack buys nothing the job needs; baby wipes you already have do for hands and face."
+    },
+    {
+      "id": "handwash-station",
+      "module": "waste",
+      "name": "Low-water handwashing station",
+      "need": "A jug with a tap over a basin lets you wash your hands properly with soap using a cup of water or less each time.",
+      "how_to_choose": "You need three things: a container with a spigot you can open and close easily, soap, and a basin or bucket underneath to catch the dirty water. Keep it small. A 2.5 to 3 gallon jug weighs about 25 lb full, fits on a counter and can be refilled from your stored water. A slow, steady flow saves water, and a tap you can shut with a wrist or elbow keeps clean hands clean. Empty the basin into the tub or a working drain, never onto a balcony.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One station per household, set up next to the toilet area or the kitchen. Add a bar or bottle of soap and a basin or bucket to catch the water."
+      },
+      "already_own": "A drinks cooler or water dispenser with a spigot, set on the edge of a counter over a bucket, does the same job. Check that the tap does not drip when closed and that you can work it with soapy hands.",
+      "safety_notes": [
+        {
+          "text": "Wash hands with soap and clean water poured or run over them, never in a tub or basin of water that has already been used. CDC says hands can pick up germs from water that looks dirty, is contaminated or has been used before, which is why it recommends clean, running water. So hands are never washed in the dish tubs.",
+          "source_name": "CDC",
+          "source_title": "Hand Hygiene Frequently Asked Questions",
+          "url": "https://www.cdc.gov/clean-hands/faq/index.html",
+          "verified": true
+        },
+        {
+          "text": "If clean tap water is not available, CDC says to make a temporary handwashing station from a large water jug.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        },
+        {
+          "text": "Wet your hands with clean water, lather with soap, scrub for at least 20 seconds including the backs of the hands, between the fingers and under the nails, rinse, and dry with a clean towel.",
+          "source_name": "CDC",
+          "source_title": "About Handwashing",
+          "url": "https://www.cdc.gov/clean-hands/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Wash after using the toilet, before preparing food or eating, after touching trash, and before and after caring for someone who is sick with vomiting or diarrhea.",
+          "source_name": "CDC",
+          "source_title": "About Handwashing",
+          "url": "https://www.cdc.gov/clean-hands/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Soap and water is the best way to clean hands in most situations and works better than sanitizer against norovirus, Cryptosporidium and C. difficile, and on dirty hands.",
+          "source_name": "CDC",
+          "source_title": "Hand Sanitizer Guidelines and Recommendations",
+          "url": "https://www.cdc.gov/clean-hands/about/hand-sanitizer.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tiers": {
+        "budget": {
+          "brand": "GSI Outdoors",
+          "model": "Water Cube 10 Liter",
+          "model_number": "55425",
+          "size": "2.6 US gal (10 L); 8 x 8 x 2.5 in and 6 oz as GSI lists it; built-in tap. Also sold in 4-gallon (15 L) and 5.3-gallon (20 L) sizes.",
+          "unit_size": 1,
+          "unit_label": "container",
+          "price_usd": 12.95,
+          "price_seen_at": "gsioutdoors.com, November 16, 2026 (10 L $12.95; 15 L $14.95; 20 L $16.95)",
+          "why": "A do-it-yourself station: set the cube on a counter edge with the spigot over a bucket or dishpan, and add soap. Outdoor Life named it the best collapsible container, with good flow from the spigot and no separate air vent to fiddle with, and it folds flat when the emergency is over.",
+          "weakness": "The soft plastic creases with folding and will wear out in time, and it does not fold completely flat.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.gsioutdoors.com/products/water-cube",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: 10 L at $12.95, 8 x 8 x 2.5 in and 6 oz; 'Add to cart' shown on November 16, 2026. The words 'sold out or unavailable' appear beside every size on the page, which is the shop's own label, not a stock count, so check at checkout."
+            }
+          ],
+          "link_note": "This is the same cube as the Budget collapsible water carrier, so one cube can do both jobs.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Water Containers",
+              "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+              "verified": true,
+              "supports": "Best Collapsible pick after home and car-camping tests that included hand washing. Sizes, packed size, spigot and material. Page header says updated August 1, 2022."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "GSI Outdoors",
+              "title": "Water Cube",
+              "url": "https://gsioutdoors.com/water-cube.html",
+              "verified": true,
+              "supports": "10 L, 15 L and 20 L sizes, dimensions and weights, built-in tap, $12.95 regular price."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'GSI' on 2026-11-14: one GSI Outdoors recall, for children's insulated water bottles in 2016, not this product.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link. This is the same cube as the Budget pick under collapsible water carriers, so one cube can do both jobs."
+        },
+        "standard": {
+          "brand": "Dometic",
+          "model": "GO Hydration Water Jug 11L",
+          "model_number": "HYDJ11 (SKU 9600050823 Ash, 9600050824 Glacier)",
+          "size": "2.9 US gal (11 L); 7 x 14.5 x 10 in; 3.9 lb empty, about 28 lb full; built-in spigot",
+          "unit_size": 1,
+          "unit_label": "jug",
+          "price_usd": 69.99,
+          "price_seen_at": "Dometic.com (US), in stock",
+          "why": "A rigid, counter-sized jug with a built-in spigot that gives a slow, measured flow, which is what stretches water. Outdoor Life named it the most versatile container it tested and found the spigot simple enough that no add-on is needed.",
+          "weakness": "Expensive for a jug, and awkward to carry when full.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824",
+              "verified": true,
+              "note": "Model HYDJ11, spigot and quick-connect fitting included.",
+              "research_note": "2026-11-16 alignment pass: old note: $69.99, in stock, model HYDJ11, spigot and quick-connect fitting included."
+            }
+          ],
+          "link_note": "You still need a basin or bucket under the spigot.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Dometic",
+              "title": "Dometic GO Hydration Water Jug 11L",
+              "url": "https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824",
+              "verified": true,
+              "supports": "Capacity, dimensions, weight, BPA-free food-grade LDPE, included spigot, price, 3-year warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Water Containers",
+              "url": "https://www.outdoorlife.com/gear/best-camping-water-containers/",
+              "verified": true,
+              "supports": "Most Versatile pick; the only tested container with both a spout and a tap; slow measured flow; noted as expensive and awkward to carry."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. You still need a basin or bucket under the spigot."
+        },
+        "cadillac": null
+      },
+      "prices_seen": "2026-11-14",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: No tested foot-pump camping sink was found. The foot-pump stations sold online come from marketplace brands with no independent test that could be opened, so none is listed. | CPSC recall database checked on 2026-11-14 for 'Dometic' (no results) and 'GSI' (one unrelated 2016 recall of children's water bottles). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: the owner names the $170 jug and faucet as not buying anything the job needs; the jug's own spigot does the job); old pick: {\"brand\":\"Dometic\",\"model\":\"GO Hydration Water Jug 11L with GO Hydration Water Faucet\",\"model_number\":\"HYDJ11 jug (SKU 9600050824) plus HYDWF faucet (SKU 9600050794)\",\"size\":\"11 L jug plus a rechargeable tap: 0.79 lb, magnetic base, about 150 L per charge, IPX4\",\"unit_size\":1,\"unit_label\":\"jug and faucet set\",\"price_usd\":169.98,\"price_seen_at\":\"Dometic.com (US): jug $69.99 plus faucet $99.99\",\"why\":\"The faucet turns the jug into running water you start with a double tap. It shuts itself off after a minute or a liter, so nobody leaves it running. GearJunkie used one for over a year with no faults.\",\"weakness\":\"It costs more than the jug it sits on, needs USB charging (an older micro-USB lead) and adds little that the jug's own spigot cannot do.\",\"links\":[{\"label\":\"Manufacturer (faucet)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"note\":\"$99.99. Shown as out of stock online on 2026-11-14, with a find-in-store option.\"},{\"label\":\"Manufacturer (jug)\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-jug-11l-9600050824\",\"verified\":true,\"note\":\"$69.99, in stock.\"}],\"link_note\":\"No Amazon link is given because none could be confirmed.\",\"research_note\":\"2026-11-14: REI's listing for the faucet refused the page reader.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Dometic\",\"title\":\"Dometic GO Hydration Water Faucet\",\"url\":\"https://www.dometic.com/en-us/product/dometic-go-hydration-water-faucet-9600050794\",\"verified\":true,\"supports\":\"Model HYDWF, price, 150 L per charge, automatic shut-off, USB charging, weight, fits the Hydration Water Jug.\"},{\"type\":\"test_publication\",\"name\":\"GearJunkie\",\"title\":\"Dometic GO Hydration Water Faucet Review\",\"url\":\"https://gearjunkie.com/camping/dometic-go-hydration-water-faucet-review\",\"verified\":true,\"supports\":\"More than a year of use with the 11L jug (December 2023): reliable, saves water, shuts off after one minute or one liter; pressure too low for showering.\"},{\"type\":\"test_publication\",\"name\":\"Outdoor Life\",\"title\":\"The Best Camping Water Containers\",\"url\":\"https://www.outdoorlife.com/gear/best-camping-water-containers/\",\"verified\":true,\"supports\":\"Tested the jug; judged the faucet add-on very expensive and not necessary.\"}],\"flags\":[\"The faucet was listed as out of stock on Dometic's US site on 2026-11-14.\"],\"flag_check\":\"Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Dometic' on 2026-11-14: none found.\"}",
+      "empty_reason": {
+        "cadillac": "Nothing pricier does more: a self-closing faucet adds little that the Standard jug's own spigot cannot do."
+      },
+      "tier_note": "Two picks: a self-closing faucet adds little that the Standard jug's own spigot cannot do, so this site does not suggest paying more."
+    },
+    {
+      "id": "laundry-manual",
+      "module": "waste",
+      "name": "Hand-powered laundry",
+      "need": "Over two to four weeks without power or running water, you need a way to wash underwear, socks and soiled items in a gallon or so of water.",
+      "how_to_choose": "In an apartment, small and foldable beats big. A wash bag does a couple of shirts or a few pairs of underwear at a time, uses little water and stores in a drawer. Plan how you will dry things: wring hard, then hang over the tub. Wash little and often, and keep heavy items such as jeans and towels for when services return.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household. Add laundry detergent and a line or rack for drying over the tub."
+      },
+      "already_own": "A clean bucket or the bathtub, a little detergent and your gloved hands work. Agitate for a few minutes, soak, rinse once and wring hard. A new, unused sink plunger kept only for laundry makes the agitation easier.",
+      "safety_notes": [
+        {
+          "text": "Handle clothes or bedding soiled with vomit or diarrhea carefully and without shaking them, wear rubber or disposable gloves, and wash your hands afterwards. CDC's advice is a hot machine wash on the longest cycle and a hot dryer, which hand washing cannot match, so bag badly soiled items until a machine is available if you can.",
+          "source_name": "CDC",
+          "source_title": "How to Prevent Norovirus",
+          "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "Rinse off visible stool before washing, use the hottest water that is safe for the fabric, add chlorine bleach if the item can take it, and wash your hands after handling laundry even if you wore gloves.",
+          "source_name": "CDC",
+          "source_title": "Preventing C. diff",
+          "url": "https://www.cdc.gov/c-diff/prevention/index.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tiers": {
+        "budget": {
+          "brand": "Scrubba",
+          "model": "Wash Bag Mini",
+          "model_number": "",
+          "size": "About 2.5 oz; 14.5 x 9 x 5.5 in open; holds one or two shirts or a few pairs of socks and underwear",
+          "unit_size": 1,
+          "unit_label": "wash bag",
+          "price_usd": 46,
+          "price_seen_at": "thescrubba.com product page, 2026-11-15 ($46.00)",
+          "why": "The cheapest tested option. It has the same built-in washboard, valve and fabric as the full-size bag at about half the weight, and Pack Hacker found it cleaned small loads well over a month of use.",
+          "weakness": "Very small: Pack Hacker's reviewer found it too small and preferred the full-size bag.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://thescrubba.com/products/scrubba-wash-bag-mini",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: Scrubba Wash Bag MINI, $46.00, Add to cart available."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "Pack Hacker",
+              "title": "Scrubba Wash Bag Mini Review",
+              "url": "https://www.packhacker.com/travel-gear/scrubba/wash-bag-mini/",
+              "verified": true,
+              "supports": "Rated 7.6/10 after about a month of use (updated May 2024). Weight, size, materials, small capacity, comparison with the full-size bag."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Scrubba",
+              "title": "Scrubba Wash Bag MINI",
+              "url": "https://thescrubba.com/products/scrubba-wash-bag-mini",
+              "verified": true,
+              "supports": "Price $46.00, product name and SKU, in stock."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Scrubba' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed."
+        },
+        "standard": {
+          "brand": "Scrubba",
+          "model": "Wash Bag",
+          "model_number": "",
+          "size": "3.4-gallon (13 L) bag, 5 oz; 21 x 12.5 in open, rolls to about 6 x 2.5 x 2.5 in; nylon with TPU coating",
+          "unit_size": 1,
+          "unit_label": "wash bag",
+          "price_usd": 59.95,
+          "price_seen_at": "thescrubba.com product page, 2026-11-15 ($59.95)",
+          "why": "The only hand washer found with a lab-style test. CHOICE measured real soil removal, about level with the weakest top-loading machine it had tested, and Pack Hacker found it practical and tough over a month. It folds into a drawer and doubles as a dry bag.",
+          "weakness": "Small loads only, bulky items need two washes, and clothes come out very wet and need hard wringing.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://thescrubba.com/products/scrubba-wash-bag",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: Scrubba Wash Bag, $59.95, Add to cart available."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "CHOICE (Australia)",
+              "title": "Scrubba review",
+              "url": "https://www.choice.com.au/outdoor/camping/equipment/articles/scrubba-review",
+              "verified": true,
+              "supports": "Washed soiled test swatches for three minutes and measured soil removal with a spectrophotometer: about as much as its worst-performing top loader. 3.5 stars. Updated March 2018."
+            },
+            {
+              "type": "test_publication",
+              "name": "Pack Hacker",
+              "title": "Scrubba Wash Bag Review",
+              "url": "https://packhacker.com/travel-gear/scrubba/wash-bag/",
+              "verified": true,
+              "supports": "Rated 7.7/10 after just over a month of use (updated February 2026). Capacity, weight, materials; uses little water; small loads; leaves clothes very wet."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Scrubba' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. CHOICE's AU$64.95 price is from 2018 and is not used."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "The natural premium pick, the Lavario Portable Clothes Washer, appears to have gone out of production (a retailer reports production paused with no plans to resume as of April 2025, and the maker's site could not be reached). No other larger hand-powered washer had an independent test that could be found."
+      },
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Lavario Portable Clothes Washer, the best-known hand-powered tub washer and a Trailer Life staff pick, appears to be discontinued. A retailer's FAQ (thecabindepot.com) says the maker paused production with no plans to resume as of April 1, 2025, and the maker's own site could not be reached. It is not listed. | Plunger-style washers (for example the Breathing Mobile Washer) and the hand-crank WonderWash were considered, but no credible independent test of either was found, so neither is listed. | CPSC recall database returned nothing for 'Scrubba' on 2026-11-14.",
+      "tier_note": "Two picks: no larger hand-powered washer with an independent test is on sale, and a clean bucket does the same job for nothing."
+    },
+    {
+      "id": "disinfectant-surface",
+      "module": "waste",
+      "name": "Surface disinfectant",
+      "need": "After vomiting, diarrhea or contact with sewage, surfaces need a disinfectant that is proven to kill gut germs such as norovirus.",
+      "how_to_choose": "Look for an EPA registration number on the label and check it against EPA's List G, the products shown to kill norovirus. Bleach-based products are on that list; the common bleach-free household wipes are not. Plain disinfecting bleach is the cheapest and strongest but must be mixed fresh each day. A ready-to-use bleach spray needs no mixing, which helps when water is short. Store bleach products low down, away from ammonia and other cleaners.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One bottle or canister per household, plus paper towels or rags you can throw away."
+      },
+      "already_own": "A bottle of regular, unscented household bleach works if the label shows 5% to 9% sodium hypochlorite and it is not splashless or laundry-only bleach. For any other cleaner, find the EPA Reg. No. on the label and look it up on EPA's List G before relying on it for illness or sewage clean-up.",
+      "safety_notes": [
+        {
+          "text": "To disinfect a surface with bleach, clean it with soap or detergent first, then follow the surface-disinfecting directions on your own bottle's label. Only if the label gives none, CDC's mix for regular unscented bleach (5% to 9% sodium hypochlorite) is 5 tablespoons (1/3 cup) per gallon of room-temperature water, or 4 teaspoons per quart. Keep the surface wet for at least 1 minute.",
+          "source_name": "CDC",
+          "source_title": "Cleaning and Disinfecting with Bleach",
+          "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+          "verified": true
+        },
+        {
+          "text": "After vomiting or diarrhea, CDC's surface mix is stronger: 5 to 25 tablespoons of household bleach (5% to 8%) per gallon of water, which gives 1,000 to 5,000 ppm chlorine. Leave it on for at least 5 minutes, then clean the area again with soap and hot water. Wear rubber or disposable gloves.",
+          "source_name": "CDC",
+          "source_title": "How to Prevent Norovirus",
+          "url": "https://www.cdc.gov/norovirus/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "The mixes above are for surfaces only and must never be used on water you will drink. Making water safe to drink is a different job with its own, far smaller dose: CDC says to follow the drinking-water instructions on the bleach label, and gives a table counted in drops only for a label that has none. That table is with the water bleach item on this site, not here.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Never mix bleach, or any disinfectant, with ammonia or any other cleaner; the mix can release dangerous gases. Open windows and doors while you work.",
+          "source_name": "CDC",
+          "source_title": "Cleaning and Disinfecting with Bleach",
+          "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+          "verified": true
+        },
+        {
+          "text": "Mix a fresh bleach solution every day. A diluted solution loses strength after about 24 hours.",
+          "source_name": "CDC",
+          "source_title": "Cleaning and Disinfecting with Bleach",
+          "url": "https://www.cdc.gov/hygiene/about/cleaning-and-disinfecting-with-bleach.html",
+          "verified": true
+        },
+        {
+          "text": "EPA's List G names the registered disinfectants that EPA has confirmed kill norovirus, and List K names those that kill C. difficile spores. Match the EPA Reg. No. on your bottle to the list and follow the label's contact time.",
+          "source_name": "EPA",
+          "source_title": "EPA's Registered Antimicrobial Products Effective Against Norovirus (feline calicivirus) [List G]",
+          "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline",
+          "verified": true
+        },
+        {
+          "text": "Never flush disinfecting wipes. Put them in the trash.",
+          "source_name": "EPA",
+          "source_title": "EPA Encourages Americans to Only Flush Toilet Paper",
+          "url": "https://www.epa.gov/newsreleases/epa-encourages-americans-only-flush-toilet-paper",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Ordinary Clorox Disinfecting Wipes (EPA Reg. No. 5813-79) are bleach-free and are not on EPA's List G for norovirus. Do not rely on them after vomiting, diarrhea or sewage contact.",
+        "CDC says not to use splashless or laundry-only bleach, or bleach with no stated strength, for disinfecting."
+      ],
+      "research_note": "2026-11-15 re-check of EPA List G (updated 3 June 2026, https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline): it lists registration 5813-111 (Clorox Disinfecting Bleach), 5813-21 (Clorox Clean Up Cleaner + Bleach) and 777-99 (Reckitt; Lysol Disinfectant Spray carries EPA #777-99 on lysol.com, but List G shows the entry under a code name, so it was not adopted). Retailer pages for the bleach and the spray refused the page reader or timed out on 2026-11-14. Bleach doses re-opened 2026-11-15: CDC's surface page (label directions first; 5 tablespoons per gallon or 4 teaspoons per quart; 1 minute) says nothing about drinking water, and CDC's water page (label first; 8 drops per gallon or 2 per quart of 5% to 9% bleach; 30 minutes) says nothing about surfaces, so the two are kept in separate notes. The Budget pick's bottle (EPA Reg. No. 5813-120) is the same bottle the water bleach item describes; its label's drinking-water dose is given there, not here. 2026-11-16 alignment pass: off the page from item_flags: Ordinary Clorox Disinfecting Wipes (EPA Reg. No. 5813-79) are bleach-free and were NOT on EPA's List G for norovirus when checked on 2026-11-14. Do not rely on them after vomiting, diarrhea or sewage contact. | CPSC recall database, titles containing 'Clorox', checked 2026-11-14: three recalls (Mistolin and Lestoil cleaners in Puerto Rico, September 2026; Pine-Sol scented cleaners, October 2022; Liquid-Plumr, 2016). None involves the three picks here. | No retail price was confirmed on a retailer's own page for the bleach or the spray; the maker's pages show none. | EPA's List G (updated June 3, 2026, read again on 2026-11-15) includes the registration numbers of all three picks here. No consumer disinfecting wipe could be matched by name to List G, so the premium pick is a wipe labeled for healthcare settings.",
+      "tiers": {
+        "budget": {
+          "brand": "Clorox",
+          "model": "Disinfecting Bleach, Unscented",
+          "model_number": "EPA Reg. No. 5813-120",
+          "size": "43 fl oz bottle suggested for an apartment (also sold in 11, 24, 81 and 121 fl oz); 7.5% sodium hypochlorite per the EPA registration",
+          "unit_size": 1,
+          "unit_label": "bottle",
+          "price_usd": 3.99,
+          "price_seen_at": "Target.com, 43 fl oz bottle, November 16, 2026",
+          "why": "The cheapest and most capable choice. It is on EPA's List G for norovirus (6 minutes wet) and List K for C. difficile spores, and one small bottle makes many gallons of disinfectant.",
+          "weakness": "You have to measure and mix it with water fresh each day, and it bleaches fabric and corrodes metal.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.clorox.com/products/clorox-disinfecting-bleach/",
+              "verified": true,
+              "note": "Lists sizes and gives EPA Reg. No. 5813-120 in its FAQ. No price."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/clorox-disinfecting-bleach-regular-43oz/-/A-77787196",
+              "verified": true,
+              "note": "43 fl oz; EPA Reg. No. 5813-120.",
+              "research_note": "2026-11-16 alignment pass: old note: 43 fl oz, $3.99 online on November 16, 2026; EPA Reg. No. 5813-120."
+            }
+          ],
+          "link_note": "Check that the bottle in your hand says 'Disinfecting' and carries this EPA number; scented and splashless Clorox bleaches are different products.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox",
+              "title": "Clorox Disinfecting Bleach",
+              "url": "https://www.clorox.com/products/clorox-disinfecting-bleach/",
+              "verified": true,
+              "supports": "Product name, sizes, EPA Reg. No. 5813-120, 6-minute contact time in the page's directions, kills 99.9% of viruses and bacteria on hard nonporous surfaces."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA Pesticide Product and Label System",
+              "title": "EPA Reg. No. 5813-120 (CRB; alternate names include Clorox Disinfecting Bleach)",
+              "url": "https://ordspub.epa.gov/ords/pesticides/f?p=PPLS:102:::NO::P102_REG_NUM:5813-120",
+              "verified": true,
+              "supports": "Registration record: sodium hypochlorite 7.5%, alternate brand name Clorox Disinfecting Bleach, latest accepted label July 8, 2024."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "List G: products effective against norovirus",
+              "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline",
+              "verified": true,
+              "supports": "5813-120 (CRB, The Clorox Company) is on List G, updated June 3, 2026."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "List K: products effective against C. difficile spores",
+              "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-clostridioides",
+              "verified": true,
+              "supports": "5813-120 is on List K as a dilutable product with a 5-minute contact time, for hospital, institutional and residential use."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Clorox' on 2026-11-14: three recalls, none for Clorox bleach. The surface mixes on this page are CDC's; the directions on the bottle's own label come first.",
+          "research_note": "2026-11-14: the EPA label file for 5813-120 could not be read as text in this batch of research, so no dilution on this page is taken from the label. 2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. Check that the bottle in your hand says 'Disinfecting' and carries this EPA number; scented and splashless Clorox bleaches are different products."
+        },
+        "standard": {
+          "brand": "Clorox",
+          "model": "Clean-Up Cleaner + Bleach Spray",
+          "model_number": "EPA Reg. No. 5813-21",
+          "size": "32 fl oz trigger spray; 1.84% sodium hypochlorite per the EPA registration",
+          "unit_size": 1,
+          "unit_label": "32 fl oz spray bottle",
+          "price_usd": 5.29,
+          "price_seen_at": "Target.com, Clorox Original Clean-Up All Purpose Cleaner with Bleach, 32 fl oz spray, $5.29, in stock, 2026-11-16 (listing shows 1.84% sodium hypochlorite; EPA number not printed on the listing itself)",
+          "why": "Ready-to-use bleach in a spray bottle: nothing to measure and no clean water spent on mixing. It is on EPA's List G for norovirus with a 5-minute contact time. After vomiting or diarrhea, keep the surface visibly wet for 5 minutes, not the 30 seconds the maker gives for everyday germs.",
+          "weakness": "It is not on EPA's List K for C. difficile spores, the maker says to rinse the surface with water afterwards, and it damages many fabrics and finishes.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.clorox.com/products/clorox-clean-up-cleaner-bleach/",
+              "verified": true,
+              "note": "32 oz, directions and surface warnings. The page does not print the EPA number or a price."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/clorox-original-clean-up-all-purpose-cleaner-with-bleach-spray-bottle/-/A-95008998",
+              "verified": true,
+              "note": "Original scent, 32 fl oz spray. Check the bottle for EPA Reg. No. 5813-21.",
+              "research_note": "2026-11-16: opened with WebFetch: 32 fl oz $5.29, in stock, sodium hypochlorite 1.84%; a Clorox Q&A answer on the page cites EPA Reg. No. 5813-21."
+            }
+          ],
+          "link_note": "Check the bottle for EPA Reg. No. 5813-21, the registration on EPA's norovirus list.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox",
+              "title": "Clorox Clean-Up Cleaner + Bleach",
+              "url": "https://www.clorox.com/products/clorox-clean-up-cleaner-bleach/",
+              "verified": true,
+              "supports": "Size, directions (keep the surface wet 30 seconds to disinfect, then wipe and rinse), never mix with ammonia or acidic products."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA Pesticide Product and Label System",
+              "title": "EPA Reg. No. 5813-21 (TACKLE; alternate names include Clorox Clean-Up Cleaner + Bleach)",
+              "url": "https://ordspub.epa.gov/ords/pesticides/f?p=PPLS:102:::NO::P102_REG_NUM:5813-21",
+              "verified": true,
+              "supports": "Registration record: sodium hypochlorite 1.84%, brand name Clorox Clean-Up Cleaner + Bleach, latest accepted label October 16, 2026."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "List G: products effective against norovirus",
+              "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-norovirus-feline",
+              "verified": true,
+              "supports": "5813-21 (Clorox Clean Up Cleaner + Bleach) is on List G as a ready-to-use product with a 5-minute contact time, for hospital, institutional and residential use (list updated June 3, 2026)."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Clorox' on 2026-11-14: three recalls, none for Clean-Up. EPA's List G (updated June 3, 2026) gives this registration a 5-minute contact time for norovirus; the maker's own page gives 30 seconds for everyday disinfecting.",
+          "unit_price": "about 17 cents an ounce",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. The EPA number is not on the maker's web page; it comes from EPA's registration record, which lists 'Clorox Clean-Up Cleaner + Bleach' as a brand name under 5813-21. Check it against the bottle."
+        },
+        "cadillac": {
+          "brand": "Clorox Healthcare",
+          "model": "Bleach Germicidal Wipes, 150-count canister",
+          "model_number": "30577 (EPA Reg. No. 67619-12)",
+          "size": "150 pre-wetted wipes, 6 x 5 in, in a canister; 0.55% sodium hypochlorite per the EPA registration",
+          "unit_size": 1,
+          "unit_label": "canister of 150",
+          "price_usd": 16.79,
+          "price_seen_at": "Staples Advantage listing (other sellers $14.40 to $20.69); not confirmed on the retailers' own pages.",
+          "why": "Bleach wipes that need no water, no mixing and no cloths. They are on both EPA lists: List G for norovirus, with a 1-minute contact time, and List K for C. difficile spores, with 3 minutes.",
+          "weakness": "Small wipes, sold mainly through medical and office suppliers, with a strong bleach smell. Surfaces still need cleaning first.",
+          "links": [
+            {
+              "label": "Manufacturer SmartLabel",
+              "url": "https://smartlabel.labelinsight.com/product/6115466/other/generalInformation",
+              "verified": true,
+              "note": "Clorox's SmartLabel page: 150-count canister, UPC 044600305776, EPA Reg. No. 67619-12."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Clorox (SmartLabel)",
+              "title": "Clorox Healthcare Bleach Germicidal Wipes, 6 x 5 in, 150 Count Canister",
+              "url": "https://smartlabel.labelinsight.com/product/6115466/other/generalInformation",
+              "verified": true,
+              "supports": "Product, count, EPA Reg. No. 67619-12; kills C. difficile in 3 minutes with a pre-cleaning step; intended for healthcare settings."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA Pesticide Product and Label System",
+              "title": "EPA Reg. No. 67619-12 (CPPC TSUNAMI; alternate names include Clorox Healthcare Bleach Germicidal Wipes)",
+              "url": "https://ordspub.epa.gov/ords/pesticides/f?p=PPLS:102:::NO::P102_REG_NUM:67619-12",
+              "verified": true,
+              "supports": "Registration record: sodium hypochlorite 0.55%, brand name Clorox Healthcare Bleach Germicidal Wipes, latest accepted label June 21, 2024."
+            },
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "List K: products effective against C. difficile spores",
+              "url": "https://www.epa.gov/pesticide-registration/epas-registered-antimicrobial-products-effective-against-clostridioides",
+              "verified": true,
+              "supports": "67619-12 is on List K as a ready-to-use wipe with a 3-minute contact time, listed for hospital use. It is also on List G for norovirus."
+            }
+          ],
+          "flags": [
+            "Labeled for healthcare settings and sold mainly through medical and office suppliers: read the canister label before buying."
+          ],
+          "research_note": "Open question from the 2026-11-14 research, not settled in the 2026-11-15 pass: the EPA label could not be read to confirm whether home use is covered, so the site owner still has to choose whether a healthcare-only wipe belongs on a household list at all. 2026-11-16 alignment pass: old link_note: The maker's own product page could not be found, so the link goes to its SmartLabel page. No Amazon link is given because none could be confirmed. 2026-11-16 alignment pass: off the page from flags: Labeled for healthcare settings. This is a Clorox Healthcare (professional line) product, sold through medical and office suppliers and not a regular household shelf item. The maker's page says it is intended for hospitals and care facilities, EPA's List K shows it for hospital use, and some sellers mark it 'for healthcare facilities only'. Whether its label covers home use was not confirmed, so read the canister label before buying. It is listed only because no consumer wipe could be matched to EPA's norovirus list; the Standard spray and the Budget bleach are household products that are on that list.",
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'Clorox' and 'wipes' on 2026-11-14: nothing for this product."
+        }
+      },
+      "prices_seen": "2026-11-14"
+    },
+    {
+      "id": "menstrual-backup",
+      "module": "waste",
+      "name": "Menstrual supplies",
+      "need": "A period does not wait for the water to come back, so anyone who menstruates needs a supply that works with little or no washing water.",
+      "how_to_choose": "This applies only to people who menstruate. Boxed disposable pads are the simplest backup: they store for years, need no water and nothing is inserted with hands you could not wash. A menstrual cup takes almost no space and lasts for years, but it needs clean hands and a little clean water to rinse, and should be boiled between cycles. Period underwear must be rinsed and washed, so it costs the most water. Keep pads on hand even if you normally use a cup.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One supply for each person at home who menstruates, teenagers included; not one per household and not one per adult. The site does not ask who menstruates, so count for yourself. One supply is one full cycle of what that person uses, beyond what is open now, and two cycles at a two-week or longer target. For pads, one pack of 32 or more per cycle is this site's estimate."
+      },
+      "already_own": "Use whatever you normally use and simply keep one extra cycle's worth in the closet. Check that pad and tampon wrappers are intact and dry. If you rely on a cup or period underwear, add a box of disposable pads for days when you cannot wash.",
+      "safety_notes": [
+        {
+          "text": "If you use tampons, change them every 4 to 8 hours and never leave one in for more than 8 hours, use the lowest absorbency you need, and wash your hands before and after. Toxic shock syndrome is rare but serious: stop use and get medical help for sudden fever, vomiting, diarrhea, dizziness or a sunburn-like rash.",
+          "source_name": "FDA",
+          "source_title": "The Facts on Tampons and Tampon Safety",
+          "url": "https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-tampon-safety",
+          "verified": true
+        },
+        {
+          "text": "FDA has not authorized any reusable tampon and discourages their use because of added infection risk.",
+          "source_name": "FDA",
+          "source_title": "The Facts on Tampons and Tampon Safety",
+          "url": "https://www.fda.gov/consumers/consumer-updates/facts-tampons-and-tampon-safety",
+          "verified": true
+        },
+        {
+          "text": "Clean your hands before and after changing any menstrual product. Use soap and water, or a sanitizer with at least 60% alcohol when there is no water.",
+          "source_name": "CDC",
+          "source_title": "About Handwashing",
+          "url": "https://www.cdc.gov/clean-hands/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Do not flush pads, tampons, liners or wipes. Flush only toilet paper; wrap used products and put them in the trash.",
+          "source_name": "EPA",
+          "source_title": "EPA Encourages Americans to Only Flush Toilet Paper",
+          "url": "https://www.epa.gov/newsreleases/epa-encourages-americans-only-flush-toilet-paper",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Reusable products need clean water. A cup must be rinsed and should be boiled between cycles; period underwear must be rinsed and machine washed."
+      ],
+      "research_note": "Tiers re-ordered 2026-11-15 so that they agree with the item's own advice that boxed pads are the simplest backup: pads moved from Budget to Standard, the cup from Standard to Cadillac, and the period underwear pick (Aisle Boost Hipster) left the tiers. Pages opened 2026-11-15: always.com product page; FDA device listing for Always pads; The Fresh Grocer listing (42-count, $9.99); allmatters.com product page (opened in a browser after the page reader was rate-limited); FDA device listing for AllMatters; Reviewed's menstrual cup review; periodaisle.com product page ($48.00 regular, $19.20 on sale). Searched 2026-11-15 for an independent test of disposable pads: Reviewed's pads address was not found, Good Housekeeping could not be fetched, CHOICE (Australia, 2022) tests brands not sold in the US and locks its scores, and the other results were affiliate lists. The Walmart price of $8.67 for the 42-count pack was seen in search listings only. No store-brand pad was researched to two sources, so Budget is empty. 2026-11-16 alignment pass: off the page from item_flags: PFAS in period underwear: Thinx settled a class action (Dickens v. Thinx Inc., US District Court, Southern District of New York) for up to $5 million over claims that its underwear contained PFAS despite being marketed as safe. Thinx denied the claims and admitted no wrongdoing (NPR report republished by WHYY, January 2023). | Knix settled a similar class action (Spencer v. Knix Wear Inc., same court) for $1.4 million without admitting wrongdoing; the claim deadline was March 2024 (Top Class Actions). | Mamavation, a consumer-advocacy site, had period underwear tested for fluorine as a marker of PFAS (detection limit 10 ppm). It reports Thinx samples at 132 to 940 ppm, Knix at 17 to 373 ppm and Proof at 234 ppm, and no detection for Aisle, Modibodi, Period and several others. Results apply only to the samples tested. | Which? (UK) tested period pants in July 2026 and found PFAS-related substances above EU limits in two of the three brands it sent for chemical analyzis. The public page does not name them. | CPSC recall database returned nothing for titles containing 'menstrual' or 'underwear' (since 2018) on 2026-11-14. FDA device recalls were not searched. | No independent product test of disposable pads could be found, so the pad pick rests on the maker's page and an FDA device listing rather than a test. | Period underwear was a pick here until 2026-11-15 (Aisle Boost Hipster, $48 a pair at regular price). It was taken off the list of backup picks because it has to be rinsed and machine washed, which costs the most water of the three kinds, and several pairs are needed for one cycle. If you already wear it, keep a pack of pads for days when you cannot wash.",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Always",
+          "model": "Maxi Size 2 Long Super Pads with Wings, Unscented",
+          "model_number": "",
+          "size": "Priced here as the pack of 42 pads; also sold in packs of 18, 32 and 60. Unscented, with wings. The maker claims up to 10 hours of protection.",
+          "unit_size": 1,
+          "unit_label": "pack of 42",
+          "price_usd": 9.99,
+          "unit_price": "about 24 cents a pad",
+          "price_seen_at": "The Fresh Grocer, 42-count pack, 2026-11-15. Other stores listed it from $8.67 to $11.99.",
+          "why": "Boxed pads are the simplest backup: they need no water, nothing is inserted with hands you could not wash, and they store for years in their wrappers. This is a mainstream, unscented, mid-absorbency size sold in most pharmacies and supermarkets, so it suits almost everyone, including a teenager.",
+          "weakness": "Disposable, so they add to the trash you must store.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.always.com/en-us/shop-products/menstrual-pads/maxi-pads/always-maxi-size-2-super-pads-with-wings",
+              "verified": true,
+              "note": "Pack counts of 18, 32, 42 and 60.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: product page with pack counts of 18, 32, 42 and 60 and the maker's claims. No price or part number."
+            },
+            {
+              "label": "The Fresh Grocer",
+              "url": "https://www.thefreshgrocer.com/sm/pickup/rsid/415/product/-always-maxi-pads-for-women-pad-with-wings-long-super-absorbency-size-2-unscented-42-count-id-00037000890324",
+              "verified": true,
+              "note": "A regional grocer; any pharmacy or supermarket sells the same pack.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: 42-count pack, $9.99 (24 cents each), add-to-cart shown. A regional grocer; any pharmacy or supermarket sells the same pack."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Always (Procter & Gamble)",
+              "title": "Always Maxi Size 2 Long Super Pads With Wings, Unscented",
+              "url": "https://www.always.com/en-us/shop-products/menstrual-pads/maxi-pads/always-maxi-size-2-super-pads-with-wings",
+              "verified": true,
+              "supports": "Exact product name, unscented, pack counts of 18, 32, 42 and 60, up to 10 hours of protection (maker's claim)."
+            },
+            {
+              "type": "standard_listing",
+              "name": "FDA Establishment Registration & Device Listing",
+              "title": "Procter & Gamble - pad, menstrual, unscented (product code HHD): ALWAYS PADS",
+              "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?lid=52549&lpcd=HHD",
+              "verified": true,
+              "supports": "Always pads are listed with FDA as a Class 1 medical device (unscented menstrual pad, product code HHD) by a registered Procter & Gamble establishment, registration number 9680085. The listing found is for a P&G plant in Germany; US plants were not looked up. This is registration and listing, not FDA approval."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'menstrual' on 2026-11-14: none. FDA device recalls for Always pads were not searched.",
+          "research_note": "2026-11-16 alignment pass: old link_note: The second source is an FDA device listing, not a product test. No Amazon link is given because none could be confirmed."
+        },
+        "cadillac": {
+          "brand": "AllMatters",
+          "model": "Menstrual Cup (formerly OrganiCup)",
+          "model_number": "Sizes Mini, A and B",
+          "size": "One reusable cup; size A suits most first-time users, B is larger for heavier flow or after vaginal birth, Mini for teens or a lighter flow. Retailer listings give capacities of about 0.5, 0.85 and 1 fl oz (15, 25 and 30 mL).",
+          "unit_size": 1,
+          "unit_label": "cup",
+          "price_usd": 28.99,
+          "price_seen_at": "Amazon price shown on Reviewed's review page on 2026-11-15 (the review text is dated 2021). The maker's own site showed 27.00 euros.",
+          "why": "For a long outage, one cup replaces years of pads and takes almost no storage space, so the supply cannot run out. Reviewed's best overall cup after 11 staff wore 15 cups: easy to fold, holds its position and easy to clean. The maker is registered with FDA and the cup is listed as a Class 2 medical device.",
+          "weakness": "It needs clean hands and some clean water at every change and boiling between cycles, and there is a learning curve, so it is not something to try for the first time in an emergency; some testers had slight leaks and found the stem long. Keep a pack of pads as well for days when you cannot wash.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://allmatters.com/products/menstrual-cup",
+              "verified": true,
+              "note": "Sizes A, B and Mini.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: AllMatters Menstrual Cup (previously OrganiCup), sizes A, B and Mini, 27.00 euros, add-to-cart shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B071NCXFMG",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader; the product code was seen in Reviewed's buy link that day. 2026-11-16 alignment pass: old note: It comes from Reviewed's buy link for this cup."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "FDA Establishment Registration & Device Listing",
+              "title": "AllMatters ApS - cup, menstrual (product code HHE)",
+              "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?lid=525144&lpcd=HHE",
+              "verified": true,
+              "supports": "Registered establishment no. 3013509097; device class 2, regulation 884.5400; listed names include AllMatters Menstrual Cup and OrganiCup. This is registration and listing, not FDA approval."
+            },
+            {
+              "type": "test_publication",
+              "name": "Reviewed (USA Today)",
+              "title": "The Best Menstrual Cups",
+              "url": "https://www.reviewed.com/health/best-right-now/best-menstrual-cups",
+              "verified": true,
+              "supports": "Best Overall of 15 cups after capacity measurements and wear tests by 11 staff. Up to 12 hours of wear; boil before first use and before and after each cycle. Byline dated May 2021."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "AllMatters",
+              "title": "AllMatters Menstrual Cup",
+              "url": "https://allmatters.com/products/menstrual-cup",
+              "verified": true,
+              "supports": "Sizes Mini, A and B and who each suits; up to 12 hours of leak protection; free of BPA, latex and dyes; price in euros."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (saferproducts.gov) for recall titles containing 'menstrual' on 2026-11-14: none. FDA device recalls were not searched."
+        }
+      },
+      "empty_reason": {
+        "budget": "No pick. Store-brand maxi pads cost less per pad and do the same job, but none was checked against two sources. If you already use a brand of pad, an extra pack of that is the right backup."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "No Budget pick: store-brand pads do the same job for less, and an extra pack of the pads you already use is the right backup."
+    }
+  ]
+}

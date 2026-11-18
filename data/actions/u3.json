@@ -1,0 +1,1030 @@
+{
+  "module": "u3",
+  "title": "Food",
+  "intro": "This module is about eating safely for up to two weeks when the power, and perhaps the gas and water, are off. The base plan is food that needs no cooking, kept in a small space and rotated through your normal meals. Hot food is a bonus, and only by a method that is safe indoors.",
+  "credit": "Based on Unit 3 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "U3-01",
+      "level": 2,
+      "section": "Food safety",
+      "title": "Learn the outage rules for the fridge and freezer",
+      "why": "Food that has warmed up can make you sick without looking or smelling any different.",
+      "how": "In an outage, keep the fridge and freezer doors shut and follow the fridge and freezer rule (X3-03). Never taste food to test it. Do not eat perishable food that has sat out at room temperature for more than 2 hours.",
+      "done": "Every adult at home has heard the fridge and freezer rule in X3-03 read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "cites": [
+        "foodsafety-outage",
+        "ready-food",
+        "cdc-food-emergency",
+        "fda-food-outage"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-03",
+      "level": 2,
+      "section": "Food safety",
+      "title": "Make a fridge and freezer plan for outages",
+      "why": "Two thermometers and a fixed eating order let you use cold food while it is still safe and spare you guessing afterwards.",
+      "how": "Put an appliance thermometer in the fridge (it should read 40 °F or below) and another in the freezer (0 °F or below). Tape a note inside a cabinet door with the eating order: fridge food in the first 4 hours, then freezer food while it still has ice crystals or reads 40 °F or below, then shelf food. When the power fails, write the time on the note and keep both doors shut. With no thermometer, treat fridge food as unsafe once the power has been off for 4 hours with the door kept shut. With a thermometer in the fridge, throw out meat, poultry, fish, eggs, milk and leftovers once they have been above 40 °F for more than 2 hours. Frozen food that still has ice crystals, or is at 40 °F or colder, can be refrozen or cooked. Never taste food to test it.",
+      "done": "A thermometer is giving a reading in the fridge and another in the freezer, and the eating-order note is taped inside a cabinet door.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "products": [
+        "fridge-thermometer"
+      ],
+      "cites": [
+        "foodsafety-outage",
+        "ready-food",
+        "cdc-food-emergency",
+        "fda-food-outage"
+      ]
+    },
+    {
+      "id": "X3-10",
+      "level": 3,
+      "same_as": "U4-08",
+      "section": "Food safety",
+      "title": "Keep a small cooler and a few frozen water bottles",
+      "why": "Ice you made yourself buys extra safe hours for the few things you most want to keep cold, and then becomes drinking water.",
+      "how": "Keep four to six clean bottles of tap water in the freezer, filled three-quarters full so they do not split. If an outage looks likely to outlast the fridge's 4 hours, move the food you most want to save into a small cooler, pack the frozen bottles around it and put a thermometer inside. The food stays safe for as long as the cooler reads 40 °F or below; throw out meat, poultry, fish, eggs, milk and leftovers once they have been above 40 °F for more than 2 hours. Drink the water once the bottles thaw.",
+      "done": "The bottles of water are frozen solid in the freezer, and the small cooler and its thermometer are stored together where you can reach them.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "products": [
+        "cooler",
+        "fridge-thermometer"
+      ],
+      "cites": [
+        "foodsafety-outage",
+        "ready-food",
+        "cdc-food-emergency",
+        "fda-food-outage"
+      ]
+    },
+    {
+      "id": "U3-02",
+      "level": 2,
+      "section": "Heating food",
+      "title": "Rule out grills and camp stoves indoors",
+      "why": "Anything that burns charcoal or gas gives off carbon monoxide, a gas with no smell that can kill people in a closed space.",
+      "how": "Never light a barbecue, charcoal grill or camp stove inside your home, in a hallway or in a garage, even with a window open. Tell everyone in the household this rule now, before a long outage tempts someone to break it. If you want hot food, use only an appliance its maker rates for indoor use. If anyone gets a headache, dizziness or nausea near something burning, get everyone into fresh air and call 911.",
+      "done": "Everyone in the household has heard the rule that no barbecue, charcoal grill or camp stove is ever lit inside the home, in a hallway or in a garage.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold"
+      ],
+      "cites": [
+        "cdc-co",
+        "cpsc-co",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-03",
+      "level": 2,
+      "section": "Food safety",
+      "title": "Check cans and throw out any that bulge, leak or are badly dented",
+      "why": "A damaged can may hold the bacteria that cause botulism, which you cannot see, smell or taste.",
+      "how": "Look over each can when you store it and again before you open it. Throw it away if it bulges, leaks, is badly dented or rusted, or spurts when opened. Do not taste the contents to check. A small dent in an otherwise sound can is fine.",
+      "done": "Every can in your supply has been looked over, and any that bulged, leaked or were badly dented or rusted have been thrown away.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "usda-shelf-stable",
+        "ready-food",
+        "cdc-botulism-canning"
+      ],
+      "cite_todo": "",
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-01",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Stock three days of food that needs no cooking",
+      "why": "In an outage most city kitchens cannot cook at all, so the food that counts is food you can eat straight from the pack.",
+      "how": "The site works out the amount from your household setup. Fill it with things you already eat that keep at room temperature and need no heat or added water: ready-to-eat canned fish, meat, beans, fruit and vegetables, nut butter, crackers, cereal, bars, dried fruit and long-life milk. Plan three plain meals a day and check that each can be eaten cold. Keep it all in one place with a manual can opener; at the next level you extend the same list to your target days. Write the purchase month on each item.",
+      "done": "Three days of no-cook food, in the amount the site works out for your household, is in one place with a manual can opener.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "food",
+      "cites": [
+        "ready-food",
+        "aap-family-kit"
+      ]
+    },
+    {
+      "id": "U3-04",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Add one extra item to every grocery trip",
+      "why": "Buying a little at a time builds the supply without a big bill or a heavy carry home.",
+      "how": "Each time you shop, buy one more can or packet than you need of something you already eat, such as beans, soup, chili, fish, fruit or vegetables. Put it straight with your emergency food, not in the everyday pantry. Check it off on your pantry list so you can see the days adding up.",
+      "done": "The first extra can or packet is with your emergency food and checked off on your Emergency pantry list.",
+      "cost": "low",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ready-lowcost"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-05",
+      "level": 3,
+      "section": "Build your supply",
+      "title": "Set aside a small amount of dried beans and rice",
+      "why": "Dried staples are the cheapest calories you can store, but they only help if you have the water and the heat to cook them.",
+      "how": "Buy one bag of rice and one of dried beans or lentils, and pour them into airtight food-safe containers marked with the date. Count them as extra, not as part of your no-cook days: a cup of dry rice needs about two cups of water and 15 to 20 minutes of heat, and dried beans need far more of both. Favor quick-cooking kinds such as red lentils, couscous and instant rice.",
+      "done": "One bag of rice and one of dried beans or lentils are in airtight food-safe containers marked with the date.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "With no way to cook in an outage and little stored water to spare, keep this to a few pounds and rely on ready-to-eat food.",
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-06",
+      "level": 3,
+      "section": "Build your supply",
+      "title": "Consider a few freeze-dried meals",
+      "why": "Freeze-dried meals are light, compact and keep for many years, which suits a small home.",
+      "how": "If the budget allows, buy a few pouches and eat one first to check the household likes it. Each pouch needs water, usually one to two cups and ideally hot, so read the packet and add that water to what you store. Check the label for allergens and for the calories per pouch, which are often fewer than a full meal.",
+      "done": "A few pouches are with your supply, the household has eaten one and liked it, and the water the packets call for is added to your stored water.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Without a way to heat water, choose pouches whose packet says they can be made with cold water, and expect them to take much longer to soften.",
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-07",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Choose foods your household already eats",
+      "why": "Unfamiliar food adds stress in an emergency, and children in particular may refuse it.",
+      "how": "Print the pantry list worksheet and write on it, by hand, ten things the household eats in a normal week that keep without a fridge. Build the supply from that list and add a few comfort foods. Leave out anything nobody would eat on an ordinary day.",
+      "done": "Ten things the household eats in a normal week that keep without a fridge are written by hand on your printed Emergency pantry list.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "pantry-list",
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-08",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Stock infant food and the water to prepare it",
+      "why": "A baby cannot wait for stores to reopen, and formula mixed with unsafe water can make a baby seriously sick.",
+      "how": "If you breastfeed, plan to continue; it needs no supplies. If you use formula, keep three days of the baby's usual formula, then build to your target days, counted in feeds, not ounces: the feeds in a normal day multiplied by your days. If the baby's own formula is sold as ready-to-feed, store it that way, because it needs no water. If it is sold only as powder, store unopened powder and sealed bottled water measured for it: work out from the can how much water one day of feeds takes, multiply by your days, and store that on top of the household's gallon per person per day, with more for washing the bottles. In an outage, mix each feed fresh, only as much as the baby will take, and use it within 1 hour of the start of the feed. Add the jars or pouches of baby food your child already eats.",
+      "done": "Three days of the baby's usual formula, counted in feeds, is with your supply, as ready-to-feed or as unopened powder beside the sealed bottled water it needs, with the jars or pouches your child eats.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "has": [
+          "baby",
+          "formula"
+        ]
+      },
+      "products": [
+        "infant-formula-ready",
+        "water-sealed-bottled"
+      ],
+      "cites": [
+        "cdc-infant-feeding",
+        "cdc-infant-formula",
+        "ready-food",
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-08",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Stock no-cook food for babies, toddlers and pets",
+      "why": "The smallest members of the household are the least able to switch to whatever happens to be in the pantry.",
+      "how": "Count what each baby, toddler or pet eats on a normal day and store three days of exactly that, in the same brand; an emergency is the wrong time to introduce unfamiliar food. For a formula-fed baby, store ready-to-feed formula if the baby's own formula is sold that way; otherwise store the powder with sealed bottled water measured for it, mixed fresh for each feed (U3-08). For babies on solids, choose food in jars or pouches that needs no heating or water. For toddlers, add soft foods they will eat cold. For a child under 4, leave out whole nuts, hard candy, popcorn and chunks of ration bar, and cut other food into pieces no bigger than half an inch. Keep pet food in a sealed hard container with a scoop and a spare bowl.",
+      "done": "Three days of the usual food for each baby, toddler and pet is with your supply, with pet food in a sealed hard container beside a scoop and spare bowl.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "has": [
+          "under5",
+          "pets"
+        ]
+      },
+      "products": [
+        "infant-formula-ready",
+        "pet-bowl-food"
+      ],
+      "cites": [
+        "cdc-infant-feeding",
+        "cdc-infant-formula",
+        "aap-choking",
+        "cdc-choking-hazards",
+        "ready-pets"
+      ]
+    },
+    {
+      "id": "U3-09",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Clear one space for your emergency food",
+      "why": "A supply with a fixed home gets built, while one with nowhere to go never gets bought.",
+      "how": "Pick one spot that is cool and dry: the back of a closet, a deep cabinet, or the space under a bed or sofa. Spend 30 minutes clearing it out and give away what you no longer use. Measure the space so you know what size of box or bin will fit.",
+      "done": "One cool, dry spot is cleared and empty, and you have its measurements written down.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-06",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Fit two weeks of food into a small home",
+      "why": "Two weeks of food takes less room than most people expect once it is split between a few low, flat spaces.",
+      "how": "Use shallow lidded bins that slide under beds and sofas, the floor of a closet and the gap behind a sofa; keep heavy cans low and use high shelves for light packets only. Write the month and year on each bin with tape and a marker, and note on your pantry list what is where. Avoid spots beside a sunny wall, a radiator or the kitchen stove, where heat shortens shelf life.",
+      "done": "Your stored food is in dated, lidded bins in low spaces away from heat, and your Emergency pantry list says which bin is where.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "food-storage-bins"
+      ]
+    },
+    {
+      "id": "U3-10",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Move bagged food into hard containers",
+      "why": "Mice and insects chew through paper, cardboard and thin plastic with ease.",
+      "how": "Find everything in your supply that comes in a bag or box: rice, pasta, flour, cereal, oats, dried fruit and pet food. Put each into a jar, metal canister or hard plastic container with a tight lid, and cut out the cooking instructions and the date to keep inside. Store the containers off the floor.",
+      "done": "Every bagged or boxed food in your supply is in a hard container with a tight lid, with its cooking instructions and date inside, stored off the floor.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-09",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Seal your whole supply against shared-building pests",
+      "why": "In an apartment building pests travel between homes along pipes and walls, so your food is only as safe as its container.",
+      "how": "Keep the whole supply in hard-sided bins with lids that clip shut, not in cardboard boxes or shopping bags. Wipe up spills, and never store opened packets with the supply. Once a month, look in and around the bins for droppings or chewed corners, and tell building management right away if you find any.",
+      "done": "The whole supply is in hard-sided bins with lids clipped shut, no opened packets are stored with it, and you have made the first monthly check for pests.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "food-storage-bins"
+      ]
+    },
+    {
+      "id": "U3-11",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Rotate stored food into your meals before it expires",
+      "why": "Food that is eaten and replaced on a schedule is never wasted and is always in date when you need it.",
+      "how": "Set a calendar reminder for every three months. On the day, check the date on everything, move anything within six months of its date into the kitchen to eat, and add what you took to the shopping list. Put new items at the back and bring older ones to the front.",
+      "done": "A calendar reminder repeats every three months, and the first check of dates is done with the older items at the front.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-07",
+      "level": 3,
+      "section": "Store and rotate",
+      "title": "Keep a rolling stock of everyday food",
+      "why": "When your emergency food is simply a deeper version of your normal pantry, it rotates itself.",
+      "how": "For each item on your pantry list, set a number you never drop below, for example six cans of beans. Buy a little more than you use each week until you reach it. Always eat the oldest first, and put what you used on the next shopping list so you buy more before you run out.",
+      "done": "Each item on your Emergency pantry list has a number written beside it that you never drop below.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ]
+    },
+    {
+      "id": "U3-12",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Choose a main and a backup way to get a meal without power",
+      "why": "Any one method can fail, run out or be unsafe on the day, so a second keeps you fed.",
+      "how": "Make no-cook food your first method, because it always works. For the second, pick what suits your home: with a yard, an outdoor stove or grill used outside well away from doors, windows and vents, with its fuel stored outside the living space; without a yard, plan every meal to be eaten cold, and count hot water from a kettle on a power station as an extra only if you own one (X3-04). Write your methods on your pantry list and stock what each needs, whether that is fuel or charged battery capacity.",
+      "done": "Your main and backup methods are written on your Emergency pantry list, and the fuel or charged battery capacity each one needs is in place.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "An apartment has nowhere safe to burn charcoal or gas or to keep the fuel, so your two methods are no-cook food and hot water from a power station if you own one (X3-04).",
+      "cites": [
+        "cdc-co",
+        "nfpa-cooking-outage",
+        "ready-food"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "X3-04",
+      "level": 2,
+      "section": "Heating food",
+      "title": "Decide how, or whether, you will heat food and water indoors",
+      "why": "Camp stoves, grills and charcoal give off carbon monoxide that can kill indoors, so choose a safe method before a long outage tempts you to improvise.",
+      "how": "Make no-cook food the plan and treat hot food and drinks as a bonus. Indoors, use only an appliance its maker rates for indoor use: never a camp stove, grill, charcoal or any other outdoor burner, even beside an open window. In an apartment, plan every meal to be eaten cold. Hot water is a comfort you can add only if you own a power station: a kettle whose wattage is below the station's rated output uses about 55 watt-hours for each pint (about half a liter), so add each boil to your power audit (X1-03). If anything in your home burns gas, fit a carbon monoxide alarm with battery backup outside the bedrooms.",
+      "done": "Every planned meal can be eaten cold, any kettle is entered on your Power audit, and a home that burns gas has a carbon monoxide alarm outside the bedrooms.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold"
+      ],
+      "products": [
+        "electric-kettle-low-watt",
+        "co-alarm"
+      ],
+      "cites": [
+        "cdc-co",
+        "cpsc-co",
+        "nfpa-cooking-outage"
+      ]
+    },
+    {
+      "id": "X3-05",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Check your lease and local fire code before using anything on a balcony",
+      "why": "Many leases and fire codes ban grills, fuel and open flame on apartment balconies, and fumes from one balcony drift into the homes above.",
+      "how": "Read your lease and building rules for the words grill, barbecue, open flame and propane. Then look up your city's fire code on balcony grills, or phone the fire department's non-emergency line and ask. If either says no, or you cannot get a clear answer, treat the balcony as not a place to cook. If both clearly allow one kind of appliance, write down which and on what conditions, and never bring it or its fuel indoors.",
+      "done": "The answer from your lease and your city's fire code is written down: either no cooking on the balcony, or the one appliance allowed and its conditions.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "balcony"
+        ]
+      },
+      "cites": [
+        "cdc-co",
+        "nfpa-cooking-outage"
+      ],
+      "cite_todo": "An official source on grill, fuel and open-flame restrictions on balconies of multi-family buildings (NFPA grilling safety page or a model fire code summary)."
+    },
+    {
+      "id": "U3-13",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Pick low-salt versions of stored food",
+      "why": "Salty food makes you thirsty, and in an emergency every extra glass comes out of a limited water supply.",
+      "how": "When you buy for the supply, read the label and choose low-sodium or no-added-salt cans of beans, vegetables, soup and fish where they exist. Keep salted snacks and jerky to a small share. Favor canned fruit in juice and canned vegetables, which add liquid you can drink.",
+      "done": "The cans of beans, vegetables, soup and fish in your supply are low-sodium or no-added-salt where the store had them, and salted snacks are a small share.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-14",
+      "level": 2,
+      "section": "Build your supply",
+      "title": "Plan for allergies, medical diets and food customs",
+      "why": "Emergency food is no use to someone who cannot safely or willingly eat it.",
+      "how": "On your printed pantry list, write by hand each person's allergies, medical diets, religious or cultural food rules and strong dislikes. Check every item in the supply against the list and replace anything that fails. For a medical diet, ask the doctor or dietitian which shelf-stable foods are suitable.",
+      "done": "Each person's allergies, medical diets, food rules and strong dislikes are written by hand on your Emergency pantry list, and every item in the supply has been checked against them.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "pantry-list",
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-15",
+      "level": 2,
+      "section": "Kitchen kit",
+      "title": "Keep disposable plates, cups and utensils",
+      "why": "Washing dishes uses water you may not have.",
+      "how": "Store paper plates or bowls and cups for three meals a day for each person, which for three days is nine plates and nine cups each, plus disposable or cheap reusable utensils. Add a roll of trash bags for the waste. If you prefer reusables, give each person one bowl, one cup and one spoon to wipe clean and use again. Mark each person's reusable cup and spoon with their name.",
+      "done": "Plates or bowls, cups and utensils for three days of meals for each person are stored with a roll of trash bags.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "toolkit_page": "9-11"
+    },
+    {
+      "id": "U3-16",
+      "level": 3,
+      "section": "Build your supply",
+      "title": "Write your food plan from your two-week tracker",
+      "why": "What your household really ate over two weeks is a better guide than any generic list.",
+      "how": "Take the food and water tracker (U1-24). For each day, mark the meals that needed a fridge, cooking or tap water, and write a shelf-stable, no-cook stand-in beside each by hand. Total the stand-ins to get a shopping list for your target days; the site works out the overall amount from your household setup. Keep the sheet with your supply.",
+      "done": "Your Food and water tracker has a no-cook stand-in written beside every meal that needed a fridge, cooking or tap water, and the sheet is with your supply.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "food-water-tracker",
+      "calc": "food",
+      "toolkit_page": "58"
+    },
+    {
+      "id": "X3-02",
+      "level": 3,
+      "section": "Build your supply",
+      "title": "Check your supply against a calorie and water budget",
+      "why": "Counting cans tells you little, whereas counting calories and the water your food needs tells you how many days you really hold.",
+      "how": "Use about 2,000 calories per person per day as a planning figure (the general guide used on US food labels; real needs vary with age, sex, size and activity); the site works out the total from your household setup and target days. Add up the calories printed on the labels of your stored food and divide by your household's daily figure to see how many days you have. Leave a baby under 1 out of the meal count: count the baby's feeds instead (FN-01). Then read the packets of anything that needs water (rice, pasta, oats, powdered milk, freeze-dried meals), add that water up, and store more water if your supply does not cover it.",
+      "done": "The number of days your stored food covers, worked out from its labels, and the water your packets need are written down and kept with your supply.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "food",
+      "cite_todo": "",
+      "cites": [
+        "fda-nutrition-label"
+      ]
+    },
+    {
+      "id": "U3-17",
+      "level": 3,
+      "section": "Build your supply",
+      "title": "Fill in the pantry list and post it by your supply",
+      "why": "A list on the door shows at a glance what you have, what is missing and what is close to its date.",
+      "how": "Print the pantry list worksheet and fill it in by hand: each item, how many, and the earliest date on the pack. Tape it inside the door of the cabinet, or on the lid of the bin, where the food is kept. Update it in pencil whenever you add or use something.",
+      "done": "The Emergency pantry list is filled in by hand with each item, how many and the earliest date, and is taped where the food is kept.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "pantry-list",
+      "toolkit_page": "58"
+    },
+    {
+      "id": "U3-18",
+      "level": 3,
+      "more": true,
+      "section": "Grow, preserve and share",
+      "title": "Start a windowsill herb pot",
+      "why": "A few fresh herbs make plain stored food far more appealing, which matters by the second week.",
+      "how": "Choose your sunniest windowsill, ideally one facing south with several hours of direct sun. Buy two or three potted herbs you already cook with, such as basil, parsley or thyme, and stand them in pots with drainage holes on a saucer. Water when the top of the soil is dry, and pick often to keep the plants compact.",
+      "done": "Two or three potted herbs you cook with are growing on your sunniest windowsill in pots with drainage holes.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "58-59"
+    },
+    {
+      "id": "U3-19",
+      "level": 3,
+      "more": true,
+      "section": "Grow, preserve and share",
+      "title": "Plant a vegetable bed",
+      "why": "A garden adds fresh food and a skill that stored cans cannot give you.",
+      "how": "Mark out a small bed, about 4 by 8 feet, in the sunniest part of your yard. Start with crops that are easy where you live; your local extension service or garden center lists them by season. Treat the harvest as a supplement: stored food is still the plan, because a garden cannot be counted on in the week you need it.",
+      "done": "A small bed in the sunniest part of your yard is marked out and planted with crops that are easy where you live.",
+      "cost": "mid",
+      "time": "afternoon",
+      "minutes": 180,
+      "effort": "most",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-01",
+      "apartment": "An apartment has no ground to plant, so put the effort into stored no-cook food (X3-01) and, if you like, a windowsill herb pot.",
+      "toolkit_page": "58-59"
+    },
+    {
+      "id": "U3-20",
+      "level": 3,
+      "more": true,
+      "section": "Grow, preserve and share",
+      "title": "Join or start a community garden",
+      "why": "A shared garden grows food and, just as usefully, gets you to know the people who live near you.",
+      "how": "Search your city's parks department website for community gardens and ask about a plot or the waiting list. If there is none, ask neighbors whether three or four households would share a bed in someone's yard. Agree who waters and who gets the harvest before you plant.",
+      "done": "Your name is on a community garden plot or its waiting list, or neighbors have agreed who waters and who gets the harvest from a shared bed.",
+      "cost": "low",
+      "time": "ongoing",
+      "minutes": 60,
+      "effort": "most",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Without ground of your own, a plot in a city garden is worth having for the neighbors you meet, but it is not a food plan; rely on stored no-cook food (X3-01).",
+      "toolkit_page": "58-59"
+    },
+    {
+      "id": "U3-21",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Keep matches and lighters with your outdoor cooking kit",
+      "why": "An outdoor stove or grill is useless if you cannot light it in wind or rain.",
+      "how": "Keep two ways to make a flame with your outdoor cooking kit: a box of weatherproof matches and a butane lighter, plus a spare of either. Store them dry in a sealed bag or metal box, out of children's reach. Light them outdoors only.",
+      "done": "A box of weatherproof matches, a butane lighter and a spare of either are dry in a sealed bag or metal box with your outdoor cooking kit, out of children's reach.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "With no outdoor fire to light you do not need fire-starting supplies; use battery lights, and follow the indoor plan in X3-04.",
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-22",
+      "level": 2,
+      "part": "household",
+      "section": "Heating food",
+      "title": "Keep a fire extinguisher within reach of where you cook",
+      "why": "A small fire caught in its first moments can be put out before it spreads, and in a wide emergency help may be slow to arrive.",
+      "how": "Buy one multi-purpose (ABC) extinguisher that carries a testing-laboratory label, and mount it near the kitchen exit, not beside the stove. Read the label now: pull the pin, aim low at the base of the fire, squeeze the lever, sweep from side to side. Use it only on a small fire that is not growing, with your back to a clear way out, after everyone else has left and 911 has been called. If the room fills with smoke, leave and close the door behind you. About 5 lb (2.3 kg) is a common home size that most adults can handle. Check now and then that the gauge needle is in the green and the pin is in place, follow the inspection instructions on the label, and replace it after any use or at the date on the label. In a house, add one on each other floor.",
+      "done": "A multi-purpose (ABC) extinguisher with a testing-laboratory label is mounted near the kitchen exit, and you have read its label.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Your building may also have extinguishers or hose reels in the hallways; find the one nearest your door, but keep your own inside the unit.",
+      "products": [
+        "fire-extinguisher"
+      ],
+      "cites": [
+        "nfpa-extinguisher",
+        "ready-skills",
+        "nfpa-escape",
+        "ready-homefire"
+      ],
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-23",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Check whether your house has a stove or fireplace built for indoor burning",
+      "why": "The only fuel-burning things that are safe to cook on indoors are those installed and vented for indoor use, and only when they are well maintained.",
+      "how": "If your house has a wood stove or fireplace, have it and its chimney cleaned and inspected every year before you count on it, and keep anything that can burn at least 3 feet away. Cook on it only in a heavy pot or pan, and fit a carbon monoxide alarm with battery backup on that floor and outside the bedrooms. Leave gel-fuel cans, alcohol burners and candles under a pot out of your plan. If you have no maintained stove or fireplace, plan on no-cook food.",
+      "done": "Any wood stove or fireplace you count on has this year's cleaning and inspection receipt, and a carbon monoxide alarm is fitted on that floor and outside the bedrooms.",
+      "cost": "high",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "Do not burn anything to cook in an apartment: no gel fuel, alcohol burner, candle warmer or camp stove; follow the indoor plan in X3-04.",
+      "cites": [
+        "nfpa-heating",
+        "cdc-co",
+        "cpsc-co",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-24",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Choose one outdoor cooking fuel and stock it",
+      "why": "An outdoor stove or grill can give you hot food and boiled water for two weeks, provided the fuel is there when you need it.",
+      "how": "Pick the fuel that fits the equipment you own: charcoal, propane, butane, wood pellets or firewood. Stock enough for one hot meal and one pot of boiled water a day for your target days, and find out how long a bag or cylinder lasts by cooking a real meal with it. Cook only outdoors, well away from doors, windows and vents, and never in a garage. Keep the fuel outside the living space.",
+      "done": "One kind of fuel that fits your stove or grill is stored outside the living space, in the amount your test meal showed you need for your target days.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "Charcoal, gas and wood cooking need open ground well away from the building, and balcony grills are commonly banned, so use the indoor plan in X3-04.",
+      "cites": [
+        "cdc-co",
+        "nfpa-cooking-outage",
+        "ready-food"
+      ],
+      "cite_todo": "An official source on storing propane, butane and charcoal safely at home, and on a safe distance between an outdoor stove or grill and the building.",
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-25",
+      "level": 3,
+      "section": "Heating food",
+      "title": "Add foil, skewers and pot holders to the outdoor cooking kit",
+      "why": "A few cheap tools let you cook directly over a fire or grill when you have no clean pans.",
+      "how": "Put a roll of heavy aluminum foil, a set of stainless-steel skewers and two pot holders in the box with your outdoor stove or grill. Wrap food in foil to cook it on the grate, or thread it on skewers and turn it so it heats evenly. Handle anything metal with the pot holders.",
+      "done": "A roll of heavy aluminum foil, a set of stainless-steel skewers and two pot holders are in the box with your outdoor stove or grill.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "These are for cooking over an outdoor fire or grill; for the indoor plan in X3-04, one oven mitt is enough if you heat water in a kettle.",
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-26",
+      "level": 2,
+      "section": "Heating food",
+      "title": "Check your kitchen stove is safe before using it after an emergency",
+      "why": "A stove or gas line damaged by an earthquake, flood or fire can leak gas or start a fire when you light it.",
+      "how": "If your home was flooded, burned or shaken hard enough to move the stove, do not use it until the gas or electric utility or a qualified technician has checked it. CPSC says gas control valves and electrical parts that have been under water must be replaced. Looking undamaged and not smelling of gas is not enough. Eat from your no-cook food meanwhile. If you smell gas or hear hissing, follow the gas steps (AR-13). Stoves and grills made for outdoors stay outdoors, whatever the weather.",
+      "done": "Every adult at home has heard this action read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "In an apartment you cannot inspect the building's gas pipes: at any smell of gas follow AR-13, and tell management once you are safe.",
+      "cites": [
+        "cpsc-flood-2023",
+        "peoples-gas-flood",
+        "peoples-gas-emergency",
+        "ready-skills",
+        "cdc-co",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "59-61"
+    },
+    {
+      "id": "U3-27",
+      "level": 3,
+      "more": true,
+      "section": "Heating food",
+      "title": "Build a pizza-box solar oven",
+      "why": "A solar oven is a flame-free way to warm food and a good project to do with children.",
+      "how": "Cut a flap in the lid of a large pizza box, leaving about an inch of border, and line the flap and the inside of the box with foil. Tape plastic wrap tightly over the opening and lay black paper on the base. Prop the flap open so it reflects sun into the box, and set it in direct sun on a still day above about 85 °F. Use it to warm ready-to-eat food or to melt cheese or chocolate; it does not get hot enough to cook raw meat, poultry, fish or eggs safely.",
+      "done": "The foil-lined pizza box, with plastic wrap over the opening and black paper on the base, has warmed ready-to-eat food in direct sun.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "outdoor": [
+          "yard",
+          "balcony"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "It needs direct outdoor sun, so it works on a sunny balcony but not behind window glass; do not count it as part of your food plan.",
+      "cite_todo": "An official food-safety source on minimum cooking temperatures (USDA FSIS safe minimum internal temperature chart) to support the warning against cooking raw meat, poultry, fish or eggs in a pizza-box oven.",
+      "toolkit_page": "61-63"
+    },
+    {
+      "id": "U3-28",
+      "level": 2,
+      "section": "Kitchen kit",
+      "title": "Buy a hand-operated can opener",
+      "why": "Canned food is the core of the supply, and an electric opener is dead weight in an outage.",
+      "how": "Buy one sturdy manual can opener and try it on a can today. Keep it with the emergency food, not in the kitchen drawer, and add a second if several people rely on cans. Pull-tab cans are a useful backup, but the tabs can snap.",
+      "done": "A manual can opener that has opened a can is kept with the emergency food.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "manual-can-opener"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-29",
+      "level": 2,
+      "section": "Kitchen kit",
+      "title": "Stock paper towels, sponges and rags",
+      "why": "With little or no running water, wiping is how hands, dishes and surfaces get clean.",
+      "how": "Keep with the supply one roll of paper towels per person for every three days, two new sponges and a small stack of clean rags or old towels. Wipe plates and pans with a paper towel before any washing, so the wash water goes further. Bag used towels with the household trash.",
+      "done": "One roll of paper towels per person for every three days, two new sponges and a small stack of clean rags are kept with the supply.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-30",
+      "level": 3,
+      "section": "Kitchen kit",
+      "title": "Keep oven mitts and a pair of heavy work gloves",
+      "why": "Hot pots and kettles burn bare hands, and so does the dry ice some people use to save a freezer.",
+      "how": "Put two pot holders or oven mitts with whatever you will heat food or water on. Add one pair of dry, heavy work gloves: wear them to handle dry ice, and never let dry ice touch the food directly; they also serve for firewood if you cook outdoors. Dry ice gives off carbon dioxide, which can build up to a dangerous level in an enclosed space. Use it only with good ventilation, never in an airtight container, and never in a closed car or a small unventilated room: when you carry it home, keep the car windows open.",
+      "done": "Two pot holders or oven mitts and one pair of dry, heavy work gloves are kept with whatever you heat food or water on.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "In an apartment one oven mitt covers the cooking side if you heat water in a kettle; the work gloves also serve for clearing broken glass.",
+      "products": [
+        "work-gloves"
+      ],
+      "cites": [
+        "ready-food",
+        "cga-dry-ice",
+        "wa-doh-food-outage"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-31",
+      "level": 3,
+      "same_as": "U4-10",
+      "section": "Kitchen kit",
+      "title": "Keep plain bleach for disinfecting cans that got wet",
+      "why": "Sealed cans that have touched floodwater or sewage can be saved, but only if the outside is disinfected before you open them.",
+      "how": "Keep one bottle of plain unscented household bleach and replace it once a year. To save undamaged metal cans that touched dirty water, peel off the labels, wash the cans with soap and clean water, then soak them for 15 minutes in 1 cup of bleach mixed into 5 gallons of water. Let them air-dry for at least an hour, write the contents and date on each with a marker, and use them soon. Throw away everything else that touched the water, including screw-top jars, cartons and home-canned food.",
+      "done": "One bottle of plain unscented household bleach is in the home, and a yearly reminder to replace it is in your calendar.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Upper floors rarely see floodwater, but burst pipes, sewage backing up on low floors and basement storage lockers can all wet stored food.",
+      "products": [
+        "water-bleach"
+      ],
+      "cites": [
+        "fda-food-outage",
+        "cdc-food-emergency",
+        "epa-disinfect"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-32",
+      "level": 3,
+      "more": true,
+      "section": "Store and rotate",
+      "title": "Decide whether your dry food needs moisture absorbers",
+      "why": "Damp is what spoils dry food in long storage, and a small absorber packet in a sealed container keeps it out.",
+      "how": "You need them only for dry food you repack yourself, such as rice, beans, oats, flour and pasta, and plan to keep for more than a few months. Buy packets marked food-grade, put one in each airtight container, and do not open the packets or eat what is inside. Food left in its sealed factory packaging does not need them.",
+      "done": "Each airtight container of dry food you repacked yourself to keep for more than a few months has one food-grade absorber packet inside.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-33",
+      "level": 3,
+      "more": true,
+      "section": "Grow, preserve and share",
+      "title": "Learn home canning from someone experienced",
+      "why": "Canning turns a seasonal glut into shelf-stable food, but done wrongly it can cause botulism, a rare and sometimes fatal poisoning.",
+      "how": "Take a class from your local extension service, or learn beside someone who cans every year, and follow a tested recipe from the USDA home-canning guide exactly. Low-acid foods (most vegetables, meat, fish and poultry) must be processed in a pressure canner; a boiling-water bath is not enough for them. Throw out, without tasting, any jar that leaks, bulges, spurts when opened or smells wrong.",
+      "done": "One batch of jars, canned in a class or beside someone who cans every year from a tested USDA home-canning recipe, is on your shelf.",
+      "cost": "high",
+      "time": "afternoon",
+      "minutes": 180,
+      "effort": "most",
+      "optional": true,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Canning needs a working stove, heavy equipment and shelf space, so in a small apartment buying shelf-stable food is the practical route.",
+      "cites": [
+        "cdc-botulism-canning"
+      ],
+      "toolkit_page": "63"
+    },
+    {
+      "id": "U3-34",
+      "level": 3,
+      "more": true,
+      "section": "Grow, preserve and share",
+      "title": "Share surplus food and support your food bank",
+      "why": "Neighbors who have shared food once are far more likely to help each other when it matters.",
+      "how": "When you rotate food out of your supply and cannot eat it in time, offer it to a neighbor, or take unopened, in-date items to a food bank; search \"food bank near me\" for the nearest drop-off and its opening hours. If you can, give money or a few hours of your time as well, which food banks can often use more easily than cans.",
+      "done": "The first items you rotated out and could not eat in time have gone to a neighbor or, unopened and in date, to a food bank.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "63"
+    }
+  ]
+}

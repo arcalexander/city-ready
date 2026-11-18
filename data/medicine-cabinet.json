@@ -1,0 +1,1705 @@
+{
+  "checked": "2026-11-17",
+  "intro": "This is a list of over-the-counter medicines and tools for a family to keep at home for two weeks without a pharmacy. It counts packages, not doses: a child's dose goes by weight, so ask your pediatrician or pharmacist and write it on the medication list. Each line gives the age limit printed on its Drug Facts label.",
+  "rules": [
+    {
+      "id": "qty",
+      "title": "How much to keep",
+      "text": "Count packages, never doses. Keep the number of unopened packages each line gives, for each person in its age bands or for the household. The labels say to stop and ask a doctor if a fever lasts more than 3 days, so one package is meant for one illness; a second package covers a second person or a second illness in the same two weeks. The package counts are this site's assumption for a 14-day target, not an official figure. For prescription medicines, the American Academy of Pediatrics says to ask the pediatrician about a 2-week supply.",
+      "cites": [
+        "dailymed-infants-tylenol",
+        "dailymed-childrens-motrin",
+        "dailymed-advil-tablets",
+        "aap-family-kit"
+      ]
+    },
+    {
+      "id": "expiry",
+      "title": "Check the dates every six months",
+      "text": "Check the expiration date on each package every six months, and replace anything out of date or nearly so. FDA says there is no guarantee a medicine is safe and effective after its expiration date. Six months is this site's interval: FDA suggests a review at the new year or a spring clean, and MedlinePlus says to check regularly. Keep medicines in a cool, dry place such as a dresser drawer or kitchen cabinet, not a damp bathroom cabinet, as FDA advises.",
+      "cites": [
+        "fda-expired-medicines",
+        "medlineplus-first-aid-kit"
+      ]
+    },
+    {
+      "id": "lock",
+      "title": "Lock it all away",
+      "text": "Keep all medicines up and away, out of children's sight and reach, and put it back after each use. Relock the child-resistant cap each time: the Academy says safety caps are child resistant, not child proof. Keep medicines in their original packaging, in a locked cabinet or container. Save Poison Help, 1-800-222-1222, in each phone: it is free, confidential and open all day, all year, anywhere in the United States. If a child swallows a medicine, do not make them vomit; call Poison Help.",
+      "cites": [
+        "cdc-protect",
+        "cdc-medication-safety-tips",
+        "aap-poison-prevention",
+        "medlineplus-poison-control"
+      ]
+    }
+  ],
+  "hazards": [
+    {
+      "id": "aspirin-reye",
+      "title": "No aspirin or bismuth subsalicylate for children and teenagers",
+      "text": "Do not give aspirin, or bismuth subsalicylate (in some stomach and diarrhea medicines), to a child or teenager unless their doctor says to. Both labels say children and teenagers who have or are recovering from chickenpox or flu-like symptoms must not use them, because of Reye's syndrome. Check combination cold and pain medicines for aspirin too.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5",
+        "a6_9",
+        "a10_13",
+        "a14_17"
+      ],
+      "cites": [
+        "dailymed-aspirin",
+        "dailymed-pepto-bismol",
+        "dailymed-pepto-bismol-chewable",
+        "medlineplus-aspirin",
+        "medlineplus-reye",
+        "aap-reye-syndrome"
+      ]
+    },
+    {
+      "id": "acetaminophen-double",
+      "title": "Never two medicines with acetaminophen",
+      "text": "Do not give two products that both contain acetaminophen, such as a fever medicine and a cold medicine. FDA says this can lead to overdose, and each acetaminophen label says not to use it with any other drug containing acetaminophen. Read the active ingredients on each box before you give it.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5",
+        "a6_9",
+        "a10_13",
+        "a14_17",
+        "adult"
+      ],
+      "cites": [
+        "fda-cough-cold-children",
+        "dailymed-infants-tylenol",
+        "dailymed-tylenol-extra-strength",
+        "cdc-medication-safety-tips"
+      ]
+    },
+    {
+      "id": "honey-under-1",
+      "title": "No honey before age 1",
+      "text": "Never give honey to a baby under 12 months, not even for a cough. CDC says honey can contain the bacteria that cause botulism.",
+      "applies": [
+        "u1"
+      ],
+      "cites": [
+        "cdc-botulism-prevention",
+        "aap-coughs-colds-remedies"
+      ]
+    },
+    {
+      "id": "ibuprofen-two-strengths",
+      "title": "Infants' ibuprofen drops are stronger",
+      "text": "Infants' ibuprofen drops are twice as strong per milliliter as children's ibuprofen liquid (compare the strengths printed on the two labels and on the two lines below), so a dose written for one must never be given from the other. Write the product name and strength beside each child's dose.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5"
+      ],
+      "cites": [
+        "dailymed-infants-motrin",
+        "dailymed-childrens-motrin"
+      ]
+    },
+    {
+      "id": "acetaminophen-under-2",
+      "title": "Acetaminophen under 2 only with a doctor",
+      "text": "Acetaminophen: not under 2 years without a doctor's guidance. Fever: a baby under 12 weeks with a fever is seen by a doctor before any medicine. The label says under 2 years, ask a doctor; the American Academy of Pediatrics says not to give it under 2 without a doctor's guidance, and that a fever in the first 12 weeks needs medical attention at once.",
+      "applies": [
+        "u1",
+        "a1_2"
+      ],
+      "cites": [
+        "dailymed-infants-tylenol",
+        "aap-acetaminophen"
+      ]
+    },
+    {
+      "id": "ibuprofen-under-6-months",
+      "title": "No ibuprofen under 6 months",
+      "text": "Do not give ibuprofen to a baby under 6 months unless their doctor says to. The infants' drops label says under 6 months, ask a doctor.",
+      "applies": [
+        "u1"
+      ],
+      "cites": [
+        "aap-ibuprofen",
+        "dailymed-infants-motrin"
+      ]
+    },
+    {
+      "id": "loperamide-young",
+      "title": "No anti-diarrhea medicine for young children",
+      "text": "The loperamide label says do not use under 2 and ask a doctor for ages 2 to 5. NIDDK says doctors typically recommend against over-the-counter diarrhea medicine for infants, toddlers and young children. Ask the doctor about oral rehydration solution instead.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5",
+        "a6_9"
+      ],
+      "cites": [
+        "dailymed-imodium-ad-caplets",
+        "niddk-diarrhea-treatment"
+      ]
+    },
+    {
+      "id": "cough-cold-young",
+      "title": "No cough and cold medicine for young children",
+      "text": "FDA does not recommend over-the-counter cough and cold medicine under 2, and makers label it do not use under 4. The American Academy of Pediatrics is stricter: from 4 to 6, only if the child's doctor recommends it.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5",
+        "a6_9"
+      ],
+      "cites": [
+        "fda-cough-cold-children",
+        "dailymed-childrens-robitussin-dm",
+        "aap-coughs-colds-remedies"
+      ]
+    },
+    {
+      "id": "teething-gels",
+      "title": "No benzocaine or lidocaine teething gels",
+      "text": "FDA says benzocaine or lidocaine rubbed on the gums for teething offers little or no benefit and carries serious risks; benzocaine can cause methemoglobinemia, which can be fatal. FDA points to the Academy's advice instead: rub the gums with a clean finger or give a firm rubber teething ring that is not frozen. The benzocaine gel under Mouth and teeth is for an older child's or adult's toothache only: its label says never for teething and do not use under 2.",
+      "applies": [
+        "u1",
+        "a1_2"
+      ],
+      "cites": [
+        "fda-teething-products",
+        "dailymed-benzocaine-oral-gel"
+      ]
+    },
+    {
+      "id": "device-in-box",
+      "title": "Measure only with the device in the box",
+      "text": "Measure each liquid with the syringe or cup that came in its own box; most labels say not to use any other device. Never use a kitchen spoon. If a medicine comes with no device, ask the pharmacist for one.",
+      "applies": [
+        "u1",
+        "a1_2",
+        "a3_5",
+        "a6_9",
+        "a10_13"
+      ],
+      "cites": [
+        "dailymed-childrens-tylenol",
+        "dailymed-infants-motrin",
+        "aap-acetaminophen",
+        "aap-ibuprofen",
+        "cdc-medication-safety-tips"
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "pain-fever",
+      "name": "Pain and fever",
+      "lines": [
+        {
+          "id": "mc-acetaminophen-infant",
+          "kind": "medicine",
+          "ingredient": "Acetaminophen",
+          "strength": "160 mg per 5 mL",
+          "form": "oral suspension, with its syringe",
+          "purpose": "for fever and minor aches and pains",
+          "brand_example": "Infants' Tylenol",
+          "pack": "one bottle of 1 fl oz",
+          "for": [
+            "u1",
+            "a1_2"
+          ],
+          "label_age": "Label: under 2 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "See the hazards on acetaminophen under 2 (and a fever under 12 weeks) and on two acetaminophen products. The label says not with any other drug containing acetaminophen.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for each child under 3. This site's assumption."
+          },
+          "cites": [
+            "dailymed-infants-tylenol",
+            "aap-acetaminophen"
+          ]
+        },
+        {
+          "id": "mc-acetaminophen-children",
+          "kind": "medicine",
+          "ingredient": "Acetaminophen",
+          "strength": "160 mg per 5 mL",
+          "form": "oral suspension, with its dosing cup",
+          "purpose": "for fever and minor aches and pains",
+          "brand_example": "Children's Tylenol",
+          "pack": "one bottle of 4 fl oz",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "label_age": "Label: under 2 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "Same strength as the infants' product, but it comes with a cup instead of a syringe, and its label says to use only that cup.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for each child aged 1 to 13. This site's assumption."
+          },
+          "cites": [
+            "dailymed-childrens-tylenol",
+            "aap-acetaminophen"
+          ]
+        },
+        {
+          "id": "mc-acetaminophen-adult",
+          "kind": "medicine",
+          "ingredient": "Acetaminophen",
+          "strength": "500 mg",
+          "form": "caplets",
+          "purpose": "for minor aches and pains and fever",
+          "brand_example": "Tylenol Extra Strength",
+          "pack": "one bottle of 24 caplets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over; children under 12 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "For anyone 18 or over, follow the label or ask your pharmacist. The label says not with any other drug containing acetaminophen, so check cold and flu medicines before giving both. The label warns of severe liver damage with 3 or more alcoholic drinks a day, and says to ask a doctor or pharmacist first if you take the blood thinner warfarin.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for each person aged 10 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-tylenol-extra-strength"
+          ]
+        },
+        {
+          "id": "mc-ibuprofen-infant",
+          "kind": "medicine",
+          "ingredient": "Ibuprofen",
+          "strength": "50 mg per 1.25 mL",
+          "form": "concentrated drops, with their syringe",
+          "purpose": "for fever and minor aches and pains",
+          "brand_example": "Infants' Motrin",
+          "pack": "one bottle of 0.5 fl oz",
+          "for": [
+            "u1",
+            "a1_2"
+          ],
+          "label_age": "Label: under 6 months, ask a doctor; directions given for 6 to 23 months.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "Twice as strong per milliliter as children's ibuprofen liquid. The label says use only with the enclosed syringe. The Academy says no ibuprofen under 6 months unless the child's doctor says to.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for each child aged 6 months to 2 years. This site's assumption."
+          },
+          "cites": [
+            "dailymed-infants-motrin",
+            "aap-ibuprofen"
+          ]
+        },
+        {
+          "id": "mc-ibuprofen-children",
+          "kind": "medicine",
+          "ingredient": "Ibuprofen",
+          "strength": "100 mg per 5 mL",
+          "form": "oral suspension, with its dosing cup",
+          "purpose": "for fever and minor aches and pains",
+          "brand_example": "Children's Motrin",
+          "pack": "one bottle of 4 fl oz",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "label_age": "Label: under 2 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "Half as strong per milliliter as the infants' drops; never give a dose written for one from the other. Its label says use only the enclosed cup.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for each child aged 2 to 13. This site's assumption."
+          },
+          "cites": [
+            "dailymed-childrens-motrin",
+            "aap-ibuprofen"
+          ]
+        },
+        {
+          "id": "mc-ibuprofen-adult",
+          "kind": "medicine",
+          "ingredient": "Ibuprofen",
+          "strength": "200 mg",
+          "form": "tablets",
+          "purpose": "for minor aches and pains and fever",
+          "brand_example": "Advil",
+          "pack": "one bottle of 24 coated tablets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over; children under 12 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "For anyone 18 or over, follow the label or ask your pharmacist. The label warns of severe stomach bleeding, and that NSAIDs other than aspirin raise the risk of heart attack, heart failure and stroke. It also says not to use ibuprofen at 20 weeks or later in pregnancy unless a doctor definitely directs it.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for each person aged 10 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-advil-tablets"
+          ]
+        },
+        {
+          "id": "mc-aspirin-adult",
+          "kind": "medicine",
+          "ingredient": "Aspirin",
+          "strength": "325 mg",
+          "form": "tablets",
+          "purpose": "for minor aches and pains and the pain and fever of colds",
+          "brand_example": "Bayer Genuine Aspirin",
+          "pack": "one bottle of 24 tablets",
+          "for": [
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over; children under 12 years, consult a doctor.",
+          "dose": "Follow the label, or ask your pharmacist.",
+          "note": "In the cabinet as an adult pain reliever and fever reducer, which is what its label's Uses say; it is not a heart medicine on this site. For adults only here: for anyone under 18, see the hazard on aspirin and bismuth subsalicylate. The label warns of stomach bleeding, with higher risk at 60 or over, with ulcers or bleeding problems, and with a blood thinner, a steroid or another NSAID, and says not in the last 3 months of pregnancy unless definitely directed by a doctor.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is 18 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-aspirin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "allergy",
+      "name": "Allergy and itching",
+      "lines": [
+        {
+          "id": "mc-antihistamine-children",
+          "kind": "medicine",
+          "ingredient": "Cetirizine HCl",
+          "strength": "5 mg per 5 mL",
+          "form": "oral solution, with its dosing cup",
+          "purpose": "for hay fever and other upper respiratory allergies",
+          "brand_example": "Children's Zyrtec",
+          "pack": "one bottle of 4 fl oz",
+          "alternatives": "Children's loratadine oral solution and Children's Allegra (fexofenadine) oral suspension do the same job, and any of the three fills the line. The loratadine label says taking more than directed may cause drowsiness; the fexofenadine label says not with fruit juice or at the same time as aluminum or magnesium antacids.",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "label_age": "Label: children under 2 years of age, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The label says drowsiness may occur, and to use only the enclosed dosing cup.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is aged 1 to 13. This site's assumption."
+          },
+          "cites": [
+            "dailymed-childrens-zyrtec",
+            "dailymed-childrens-loratadine",
+            "dailymed-childrens-allegra"
+          ]
+        },
+        {
+          "id": "mc-antihistamine-tablets",
+          "kind": "medicine",
+          "ingredient": "Cetirizine HCl",
+          "strength": "10 mg",
+          "form": "tablets",
+          "purpose": "for hay fever and other upper respiratory allergies",
+          "brand_example": "Zyrtec",
+          "pack": "one bottle of 30 tablets",
+          "alternatives": "Loratadine 10 mg tablets (Claritin) and fexofenadine 180 mg tablets (Allegra) do the same job, and any of the three fills the line. The loratadine label is for ages 6 and over and says taking more than directed may cause drowsiness; the fexofenadine label is for ages 12 and over and says not with fruit juice or aluminum or magnesium antacids.",
+          "for": [
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 6 years and over; children under 6 years of age, ask a doctor; adults 65 years and over, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "For anyone 18 or over, follow the label or ask your pharmacist. The label says drowsiness may occur, ask a doctor first with liver or kidney disease, and ask a doctor or pharmacist first if you take tranquilizers or sedatives.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 6 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-zyrtec-tablets",
+            "dailymed-claritin-tablets",
+            "dailymed-allegra-tablets"
+          ]
+        },
+        {
+          "id": "mc-diphenhydramine",
+          "kind": "medicine",
+          "ingredient": "Diphenhydramine HCl",
+          "strength": "25 mg",
+          "form": "tablets",
+          "purpose": "for hay fever, other upper respiratory allergies and the common cold",
+          "brand_example": "Benadryl Allergy",
+          "pack": "one pack of 24 tablets",
+          "for": [
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over and children 6 to under 12 years have directions; children under 6 years, do not use.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The older, sedating antihistamine: the label says marked drowsiness may occur, excitability may occur especially in children, avoid alcohol, and be careful driving. It says do not use it to make a child sleepy, or with any other product containing diphenhydramine, even one used on skin. Ask a doctor first with a breathing problem such as emphysema or chronic bronchitis, glaucoma, or trouble urinating from an enlarged prostate.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 6 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-benadryl-allergy"
+          ]
+        },
+        {
+          "id": "mc-fluticasone-nasal",
+          "kind": "medicine",
+          "ingredient": "Fluticasone propionate",
+          "strength": "50 mcg",
+          "form": "nasal spray",
+          "purpose": "for hay fever and other upper respiratory allergies, including a stuffy nose",
+          "brand_example": "Flonase Allergy Relief",
+          "pack": "one bottle of 0.62 fl oz (144 sprays)",
+          "for": [
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 4 years of age, do not use; children 4 to 11 years, an adult should supervise use.",
+          "note": "The label says not to treat asthma, and that the growth rate of some children may be slower. Ask a doctor first with glaucoma or cataracts, and stop and ask a doctor if symptoms are no better within 7 days. For a child, talk to the child's doctor if it is needed for more than two months a year; for anyone 12 or over, ask the doctor after 6 months of daily use.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is aged 4 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-flonase-allergy-relief"
+          ]
+        },
+        {
+          "id": "mc-hydrocortisone",
+          "kind": "medicine",
+          "ingredient": "Hydrocortisone",
+          "strength": "1%",
+          "form": "cream",
+          "purpose": "for itching from minor skin irritation, inflammation and rashes",
+          "brand_example": "Cortizone-10",
+          "pack": "one tube of 1 oz (28 g)",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 2 years of age, ask a doctor. Another 1% cream label says children under 2 years, do not use, consult a doctor; this file uses that stricter wording.",
+          "note": "The label says for external use only, not for diaper rash, keep it out of the eyes, and stop and ask a doctor if it gets worse or lasts more than 7 days. On this site: not under 2 unless a doctor says so.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "tube",
+            "rule": "One unopened tube for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-cortizone-10",
+            "dailymed-hydrocortisone-cream",
+            "medlineplus-first-aid-kit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stomach",
+      "name": "Stomach",
+      "lines": [
+        {
+          "id": "mc-ors",
+          "kind": "supply",
+          "ingredient": "Oral rehydration solution",
+          "form": "liquid, ready to drink, in 1-liter bottles",
+          "purpose": "for replacing fluids lost to diarrhea or vomiting",
+          "brand_example": "Pedialyte Classic",
+          "pack": "one bottle of 1 liter (33.8 fl oz)",
+          "alternatives": "Pedialyte Classic powder packs fill the line for anyone aged 1 or over, but the maker's page says they are not for use for children under 1 year of age, and each packet is mixed with water only.",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Not a Drug Facts product. Maker's page: for children under 1 year of age, consult your doctor. NIDDK: talk with a doctor before giving it to an infant.",
+          "note": "The maker's page says ready to use: do not add water or dilute it, and after opening, cap it, refrigerate it and use it within 48 hours. NIDDK says older adults, people with a weak immune system, diabetes or kidney disease should also ask a doctor first.",
+          "qty": {
+            "per": "person",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened 1-liter bottle for each person. This site's assumption."
+          },
+          "cites": [
+            "abbott-pedialyte-classic",
+            "abbott-pedialyte-powder-packs",
+            "niddk-diarrhea-treatment"
+          ]
+        },
+        {
+          "id": "mc-antacid",
+          "kind": "medicine",
+          "ingredient": "Calcium carbonate",
+          "strength": "500 mg",
+          "form": "chewable tablets",
+          "purpose": "for heartburn, acid indigestion, sour stomach and upset stomach",
+          "brand_example": "Tums Regular Strength",
+          "pack": "one bottle of 150 chewable tablets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: directions for adults and children 12 years of age and over only.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "For anyone 18 or over, follow the label or ask your pharmacist. The label says ask a doctor or pharmacist first if you take a prescription drug, as antacids may interact with some. Do not use bismuth subsalicylate as the antacid for a child or teenager: see the aspirin hazard.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 12 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-tums-regular"
+          ]
+        },
+        {
+          "id": "mc-laxative",
+          "kind": "medicine",
+          "ingredient": "Polyethylene glycol 3350",
+          "strength": "17 g",
+          "form": "powder, in single-dose packets",
+          "purpose": "for occasional constipation",
+          "brand_example": "MiraLAX",
+          "pack": "one carton of 10 single-dose packets",
+          "for": [
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 17 years of age and older; children 16 years of age or under, ask a doctor.",
+          "dose": "Follow the label, or ask your pharmacist.",
+          "note": "The label says do not use with kidney disease except under a doctor's advice, not if allergic to polyethylene glycol, and stop and ask a doctor if you need a laxative for longer than 1 week. For a child, ask the doctor. The same powder also comes in a bottle with a measuring cap.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is 17 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-miralax"
+          ]
+        },
+        {
+          "id": "mc-loperamide",
+          "kind": "medicine",
+          "ingredient": "Loperamide HCl",
+          "strength": "2 mg",
+          "form": "caplets",
+          "purpose": "for diarrhea, including travelers' diarrhea",
+          "brand_example": "Imodium A-D",
+          "pack": "one pack of 24 caplets",
+          "for": [
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 2 years, do not use; children 2 to 5 years, ask a doctor; directions from 6 years.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The label says taking more than directed can cause serious heart problems or death, do not use with bloody or black stool, and ask a doctor first with a history of abnormal heart rhythm. NIDDK says doctors typically recommend against over-the-counter diarrhea medicine for young children, and to see a doctor if diarrhea lasts more than 2 days on it.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 6 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-imodium-ad-caplets",
+            "niddk-diarrhea-treatment"
+          ]
+        },
+        {
+          "id": "mc-bismuth-adult",
+          "kind": "medicine",
+          "ingredient": "Bismuth subsalicylate",
+          "strength": "262 mg",
+          "form": "chewable tablets",
+          "purpose": "for diarrhea, travelers' diarrhea and upset stomach",
+          "brand_example": "Pepto-Bismol",
+          "pack": "one pack of 70 chewable tablets",
+          "for": [
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over; children under 12 years, ask a doctor.",
+          "dose": "Follow the label, or ask your pharmacist.",
+          "note": "For adults only on this site: for anyone under 18, see the hazard on aspirin and bismuth subsalicylate. It contains salicylate: the label says not with an aspirin allergy, other salicylate products, an ulcer, a bleeding problem, or bloody or black stool, and to ask a doctor or pharmacist first if you take a medicine for thinning the blood, diabetes, gout or arthritis. It can darken the stool and tongue for a while, which the label says is harmless.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is 18 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-pepto-bismol-chewable"
+          ]
+        },
+        {
+          "id": "mc-simethicone-infant",
+          "kind": "medicine",
+          "ingredient": "Simethicone",
+          "strength": "20 mg per 0.3 mL",
+          "form": "drops, with their syringe",
+          "purpose": "for infant gas",
+          "brand_example": "Infants' Mylicon",
+          "pack": "one bottle of 1 fl oz",
+          "for": [
+            "u1",
+            "a1_2"
+          ],
+          "label_age": "Label: directions for infants under 2 and children over 2; no lower age limit given.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The label says only use the enclosed syringe.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is under 3. This site's assumption."
+          },
+          "cites": [
+            "dailymed-infants-mylicon"
+          ]
+        },
+        {
+          "id": "mc-simethicone-adult",
+          "kind": "medicine",
+          "ingredient": "Simethicone",
+          "strength": "125 mg",
+          "form": "chewable tablets",
+          "purpose": "for gas pressure, bloating and fullness",
+          "brand_example": "Gas-X Extra Strength",
+          "pack": "one pack of 72 chewable tablets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and older; no directions under 12.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "For anyone 18 or over, follow the label or ask your pharmacist. The infants' drops label also gives directions for children over 2.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 12 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-gas-x",
+            "dailymed-infants-mylicon"
+          ]
+        },
+        {
+          "id": "mc-stool-softener",
+          "kind": "medicine",
+          "ingredient": "Docusate sodium",
+          "strength": "100 mg",
+          "form": "capsules",
+          "purpose": "for occasional constipation",
+          "brand_example": "Colace",
+          "pack": "one pack of 30 capsules",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 2 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "A stool softener. The label says not with mineral oil unless a doctor says so, and to stop and ask a doctor if there is rectal bleeding, no bowel movement after use, or a need to use it for more than 1 week.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-colace",
+            "cdc-travel-health-kits"
+          ]
+        },
+        {
+          "id": "mc-acid-reducer",
+          "kind": "medicine",
+          "ingredient": "Famotidine",
+          "strength": "10 mg",
+          "form": "tablets",
+          "purpose": "for heartburn from acid indigestion and sour stomach",
+          "brand_example": "Pepcid AC",
+          "pack": "one pack of 30 tablets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years and over; children under 12 years, ask a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The label says not with other acid reducers, and to ask a doctor first for heartburn with lightheadedness, sweating or dizziness, chest or shoulder pain with shortness of breath, or kidney disease. Do not use with trouble or pain swallowing food, vomiting with blood, or bloody or black stools. Stop and ask a doctor if you need it for more than 14 days.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 12 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-pepcid-ac",
+            "cdc-travel-health-kits"
+          ]
+        },
+        {
+          "id": "mc-motion-sickness",
+          "kind": "medicine",
+          "ingredient": "Dimenhydrinate",
+          "strength": "50 mg",
+          "form": "tablets",
+          "purpose": "for motion sickness: nausea, vomiting and dizziness",
+          "brand_example": "Dramamine",
+          "pack": "one pack of 12 tablets",
+          "alternatives": "Meclizine HCl 25 mg chewable tablets (Bonine) also fill the line for ages 12 and over: its label says drowsiness may occur, where the dimenhydrinate label says marked drowsiness may occur.",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: do not give to children under 2 years of age unless directed by a doctor.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The label says marked drowsiness may occur: no alcohol, and take care driving. Ask a doctor first with a breathing problem such as emphysema or chronic bronchitis, glaucoma, or trouble urinating from an enlarged prostate, and ask a doctor or pharmacist first if taking sedatives or tranquilizers. This site's advice: do not take it together with diphenhydramine or a sleep aid without asking a pharmacist, because all of them cause drowsiness.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 2 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-dramamine",
+            "dailymed-bonine"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cough-cold",
+      "name": "Cough and cold",
+      "lines": [
+        {
+          "id": "mc-cough-liquid",
+          "kind": "medicine",
+          "ingredient": "Dextromethorphan HBr and guaifenesin",
+          "strength": "5 mg and 100 mg per 5 mL",
+          "form": "oral liquid, with its dosing cup",
+          "purpose": "for cough and chest congestion",
+          "brand_example": "Children's Robitussin Cough and Chest Congestion DM",
+          "pack": "one bottle of 4 fl oz",
+          "for": [
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 4 years, do not use.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "The American Academy of Pediatrics says from 4 to 6 only if the child's doctor recommends it. It has no acetaminophen in it. The label says not with a prescription MAOI, and measure only with the cup in the box.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is aged 4 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-childrens-robitussin-dm-5ml",
+            "dailymed-childrens-robitussin-dm",
+            "aap-coughs-colds-remedies",
+            "fda-cough-cold-children"
+          ]
+        },
+        {
+          "id": "mc-honey",
+          "kind": "supply",
+          "ingredient": "Honey",
+          "form": "in a sealed jar",
+          "purpose": "for a cough",
+          "pack": "one sealed jar",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "label_age": "AAP: for children 1 year and older. Never under 12 months.",
+          "note": "The Academy suggests honey for a cough from age 1. Never give it to a baby under 1 year (CDC: botulism).",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "jar",
+            "rule": "One sealed jar for the household if anyone is aged 1 to 13. This site's assumption."
+          },
+          "cites": [
+            "aap-coughs-colds-remedies",
+            "cdc-botulism-prevention"
+          ]
+        },
+        {
+          "id": "mc-saline-nose",
+          "kind": "medicine",
+          "ingredient": "Sodium chloride",
+          "strength": "0.65%",
+          "form": "saline nasal spray and drops",
+          "purpose": "for dry, irritated or crusty nasal passages",
+          "brand_example": "Walmart Saline Spray + Drops",
+          "pack": "one bottle of 1 fl oz",
+          "alternatives": "Little Remedies Saline Spray + Drops is the same kind of saline for a baby: its maker says it is safe for newborns, kids and adults and works as drops or a spray.",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "label_age": "Label: directions for newborns and infants, and for children and adults; no age limit given.",
+          "note": "The Academy says saline nose spray or drops loosen dried mucus in a cold. For a baby, use it as drops and pair it with the nasal aspirator below. The label says one bottle per person, because sharing it may spread infection.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is under 14. The label says a bottle is for one person, so write that person's name on it when you open it, and buy another for anyone else who needs one. This site's assumption."
+          },
+          "cites": [
+            "dailymed-walmart-saline",
+            "littleremedies-saline-spray-drops",
+            "aap-coughs-colds-remedies"
+          ],
+          "brand_tail": "a store brand; any saline spray with the same Drug Facts panel is the same thing"
+        },
+        {
+          "id": "mc-nasal-aspirator",
+          "kind": "tool",
+          "ingredient": "Nasal aspirator: a bulb syringe or a NoseFrida",
+          "purpose": "for clearing a baby's nose",
+          "brand_example": "NoseFrida",
+          "pack": "one aspirator (the NoseFrida comes with 4 hygiene filters)",
+          "for": [
+            "u1",
+            "a1_2"
+          ],
+          "note": "Use with the saline drops above: the Academy says saline loosens dried mucus and suction with something like a bulb syringe pulls it out, and to try suctioning a baby's nose before a breast or bottle feed. The NoseFrida's tube goes against the nostril, not inside it (its maker). MedlinePlus lists a baby bulb suction device in its first aid kit.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "aspirator",
+            "rule": "One for the household if anyone is under 3. This site's assumption."
+          },
+          "cites": [
+            "aap-coughs-colds-remedies",
+            "medlineplus-first-aid-kit",
+            "frida-nosefrida"
+          ]
+        },
+        {
+          "id": "mc-decongestant",
+          "kind": "medicine",
+          "ingredient": "Pseudoephedrine HCl",
+          "strength": "30 mg",
+          "form": "tablets",
+          "purpose": "for nasal and sinus congestion",
+          "brand_example": "Sudafed Sinus Congestion",
+          "pack": "one pack of 24 tablets",
+          "for": [
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: do not use in children under 6 years of age.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "Sold from behind the pharmacy counter: FDA says you show photo ID, sign a logbook, and there is a daily and monthly limit on how much you can buy. FDA has proposed removing oral phenylephrine, the decongestant in many shelf products, because it found it does not work as a nasal decongestant. The label says not with a prescription MAOI, and ask a doctor first with heart disease, high blood pressure, thyroid disease, diabetes or trouble urinating from an enlarged prostate. See the hazard on cough and cold medicine for young children.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 6 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-sudafed-sinus",
+            "fda-pseudoephedrine-sale",
+            "fda-oral-phenylephrine",
+            "cdc-travel-health-kits"
+          ]
+        },
+        {
+          "id": "mc-oxymetazoline",
+          "kind": "medicine",
+          "ingredient": "Oxymetazoline HCl",
+          "strength": "0.05%",
+          "form": "nasal spray",
+          "purpose": "for nasal and sinus congestion",
+          "brand_example": "Afrin Original",
+          "pack": "one bottle of 0.5 fl oz",
+          "for": [
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 6 to under 12 years of age (with adult supervision); children under 6 years of age, ask a doctor.",
+          "note": "The label says: \"do not use for more than 3 days. Use only as directed.\" It also says frequent or prolonged use may cause congestion to come back or get worse, ask a doctor first with heart disease, high blood pressure, diabetes, thyroid disease or trouble urinating from an enlarged prostate, and one bottle per person. See the hazard on cough and cold medicine for young children.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is aged 6 or over. The label says a bottle is for one person, so write that person's name on it when you open it, and buy another for anyone else who needs one. This site's assumption."
+          },
+          "cites": [
+            "dailymed-afrin-original"
+          ]
+        },
+        {
+          "id": "mc-expectorant",
+          "kind": "medicine",
+          "ingredient": "Guaifenesin",
+          "strength": "600 mg",
+          "form": "extended-release tablets",
+          "purpose": "for chest congestion: loosens mucus",
+          "brand_example": "Mucinex",
+          "pack": "one pack of 20 extended-release tablets",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: do not use for children under 12 years of age.",
+          "dose": "Dose by weight: ask your pediatrician or pharmacist.",
+          "note": "Guaifenesin alone, with no other active ingredient. The label says do not crush, chew or break the tablet, and stop and ask a doctor if a cough lasts more than 7 days, comes back, or comes with fever, rash or a headache that will not go away.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is aged 12 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-mucinex-600"
+          ]
+        },
+        {
+          "id": "mc-lozenges",
+          "kind": "medicine",
+          "ingredient": "Menthol",
+          "strength": "5.8 mg",
+          "form": "lozenges (cough drops)",
+          "purpose": "for a cough or a sore throat",
+          "brand_example": "Halls Cherry",
+          "pack": "one bag of 30 drops",
+          "for": [
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 5 years and over; children under 5 years, ask a doctor.",
+          "note": "The label says a sore throat that is severe, lasts more than 2 days, or comes with fever, headache, rash, swelling or vomiting needs a doctor promptly, and to stop and ask a doctor if a cough lasts more than 1 week or comes back. Check the strength on the bag: Halls Mentho-Lyptus prints 5.4 mg.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bag",
+            "rule": "One unopened bag for the household if anyone is aged 5 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-halls-cherry",
+            "cdc-travel-health-kits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skin-wounds",
+      "name": "Skin and wounds",
+      "lines": [
+        {
+          "id": "mc-antibiotic-ointment",
+          "kind": "medicine",
+          "ingredient": "Bacitracin zinc, neomycin sulfate and polymyxin B sulfate",
+          "strength": "400 units, 3.5 mg and 5,000 units per gram",
+          "form": "ointment",
+          "purpose": "for helping prevent infection in minor cuts, scrapes and burns",
+          "brand_example": "Neosporin Original",
+          "pack": "one tube of 1 oz",
+          "alternatives": "The Neosporin label says do not use it if you are allergic to any of its ingredients. Bacitracin zinc ointment, 500 units per gram, is a first aid antibiotic ointment with bacitracin alone and no neomycin; ask the pharmacist which to keep if anyone has reacted to neomycin.",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given.",
+          "note": "The label says ask a doctor first for deep or puncture wounds, animal bites or serious burns, and not in the eyes or over large areas. The Academy's family kit and MedlinePlus's first aid kit both list antibiotic ointment.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "tube",
+            "rule": "One unopened tube for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-neosporin",
+            "dailymed-bacitracin-sun",
+            "aap-family-kit",
+            "medlineplus-first-aid-kit"
+          ]
+        },
+        {
+          "id": "mc-burn-gel",
+          "kind": "medicine",
+          "ingredient": "Lidocaine HCl",
+          "strength": "2%",
+          "form": "gel",
+          "purpose": "for pain from minor burns",
+          "brand_example": "Water-Jel Burn Jel",
+          "pack": "one bottle of 2 fl oz",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 2 years of age and older; children under 2 years of age, consult a doctor.",
+          "note": "The label says not on large areas of the body or on broken, blistered or oozing skin, keep it out of the eyes, and stop and ask a doctor if it gets worse or lasts more than 7 days.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-burn-jel"
+          ]
+        },
+        {
+          "id": "mc-calamine",
+          "kind": "medicine",
+          "ingredient": "Calamine and zinc oxide",
+          "strength": "8% and 8%",
+          "form": "lotion",
+          "purpose": "for drying the oozing of poison ivy, oak and sumac",
+          "brand_example": "Humco Calamine",
+          "pack": "one bottle of 6 fl oz",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 2 years of age, consult a doctor before use.",
+          "note": "MedlinePlus lists it for stings or poison ivy. Shake it well, and keep it out of the eyes and mouth.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-humco-calamine",
+            "medlineplus-first-aid-kit"
+          ]
+        },
+        {
+          "id": "mc-antiseptic",
+          "kind": "medicine",
+          "ingredient": "Povidone-iodine",
+          "strength": "10%",
+          "form": "solution",
+          "purpose": "for helping prevent infection in minor cuts, scrapes and burns",
+          "brand_example": "Betadine",
+          "pack": "one bottle of 8 fl oz",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given.",
+          "note": "The label says not in the eyes or over large areas of the body, not if allergic to povidone-iodine, stop and ask a doctor if you need it for more than 1 week, and ask a doctor first for deep or puncture wounds, animal bites or serious burns. MedlinePlus lists an antiseptic solution or wipes in its first aid kit.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-betadine-solution",
+            "medlineplus-first-aid-kit"
+          ]
+        },
+        {
+          "id": "mc-petroleum-jelly",
+          "kind": "medicine",
+          "ingredient": "White petrolatum",
+          "strength": "100%",
+          "form": "jelly",
+          "purpose": "for protecting minor cuts, scrapes and burns, and chapped skin and lips",
+          "brand_example": "Vaseline Healing Jelly",
+          "pack": "one jar of 106 g",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given.",
+          "note": "A skin protectant. The label says not on deep or puncture wounds, animal bites or serious burns, keep it out of the eyes, and see a doctor if it lasts more than 7 days.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "jar",
+            "rule": "One unopened jar for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-vaseline-healing-jelly"
+          ]
+        },
+        {
+          "id": "mc-diaper-cream",
+          "kind": "medicine",
+          "ingredient": "Zinc oxide",
+          "strength": "40%",
+          "form": "paste",
+          "purpose": "for treating and preventing diaper rash",
+          "brand_example": "Desitin Maximum Strength",
+          "pack": "one tube of 4 oz",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5"
+          ],
+          "only_diapers": true,
+          "label_age": "Label: no age limit given.",
+          "note": "The label says change wet or soiled diapers promptly, clean the diaper area and let it dry first, keep the paste out of the eyes, and stop and ask a doctor if the rash gets worse or lasts more than 7 days. The hydrocortisone label says it is not for diaper rash.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "tube",
+            "rule": "One unopened tube for the household if a child is in diapers. This site's assumption."
+          },
+          "cites": [
+            "dailymed-zinc-oxide-paste",
+            "dailymed-hydrocortisone-cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fungal",
+      "name": "Fungal and yeast infections",
+      "lines": [
+        {
+          "id": "mc-antifungal-cream",
+          "kind": "medicine",
+          "ingredient": "Clotrimazole",
+          "strength": "1%",
+          "form": "cream",
+          "purpose": "for athlete's foot, jock itch and ringworm",
+          "brand_example": "Lotrimin AF",
+          "pack": "one tube of 12 g",
+          "for": [
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: do not use on children under 2 years of age unless directed by a doctor.",
+          "note": "The label says supervise children using it, keep it out of the eyes, and stop and ask a doctor if irritation occurs or there is no improvement within 4 weeks (athlete's foot, ringworm) or 2 weeks (jock itch). It does not work on the scalp or nails.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "tube",
+            "rule": "One unopened tube for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-lotrimin-af",
+            "cdc-travel-health-kits"
+          ]
+        },
+        {
+          "id": "mc-vaginal-yeast",
+          "kind": "medicine",
+          "ingredient": "Miconazole nitrate",
+          "strength": "2%",
+          "form": "vaginal cream, 7-day, with applicators",
+          "purpose": "for vaginal yeast infections",
+          "brand_example": "Monistat 7",
+          "pack": "one pack: a 1.59 oz tube and 7 disposable applicators",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 12 years of age and over; children under 12 years of age, ask a doctor.",
+          "note": "The label says do not use it if you have never had a vaginal yeast infection diagnosed by a doctor. Ask a doctor first if it is the first time, with fever, chills, nausea, vomiting, lower belly, back or shoulder pain, or a foul-smelling discharge, with diabetes or a weakened immune system, or if you take warfarin; if pregnant or breastfeeding, ask a health professional. Stop and ask a doctor if it is no better in 3 days or lasts more than 7 days.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone aged 12 or over could need it. This site's assumption."
+          },
+          "cites": [
+            "dailymed-miconazole-7",
+            "cdc-travel-health-kits"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sun-insects",
+      "name": "Sun and insects",
+      "lines": [
+        {
+          "id": "mc-sunscreen",
+          "kind": "medicine",
+          "ingredient": "Zinc oxide",
+          "strength": "24.08%",
+          "form": "mineral sunscreen lotion, broad spectrum SPF 50, water resistant (80 minutes)",
+          "purpose": "for helping prevent sunburn",
+          "brand_example": "Coppertone Sport Mineral",
+          "pack": "one bottle of 5 fl oz",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 6 months, ask a doctor.",
+          "note": "FDA says keep babies under 6 months out of direct sunlight and check with the pediatrician before using sunscreen on them. CDC's travel kit lists SPF 30 or greater. Apply sunscreen first and insect repellent second (CDC). A second bottle goes in the grab bag (U2-57).",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-sunscreen-mineral",
+            "fda-sunscreen-infants",
+            "cdc-travel-health-kits",
+            "cdc-mosquito-prevention"
+          ]
+        },
+        {
+          "id": "mc-insect-repellent",
+          "kind": "supply",
+          "ingredient": "Picaridin",
+          "strength": "20%",
+          "form": "insect repellent lotion",
+          "purpose": "for repelling mosquitoes and ticks",
+          "brand_example": "Sawyer",
+          "pack": "one bottle of 4 oz lotion",
+          "alternatives": "DEET also fills this line: EPA says DEET is approved for use on children with no age restriction, and the American Academy of Pediatrics says to apply it sparingly and that over 50% DEET gives no longer protection.",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Not a Drug Facts product: read the repellent's own label. This maker says from 6 months. Under 6 months: use netting over the stroller or carrier and clothing that covers arms and legs, and ask the baby's doctor before using any repellent. CDC and AAP: no oil of lemon eucalyptus or PMD under 3 years.",
+          "note": "Look for an EPA registration number on the label (EPA). An adult puts it on their own hands and then on a child's face; never on a child's hands, eyes, mouth, cuts or irritated skin (CDC). The Academy advises against products that combine sunscreen and repellent. A second bottle goes in the grab bag (U2-57).",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "sawyer-picaridin-lotion",
+            "epa-repellents-safely",
+            "epa-repellent-ingredients",
+            "cdc-mosquito-prevention",
+            "aap-insect-repellents"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eyes",
+      "name": "Eyes",
+      "lines": [
+        {
+          "id": "mc-eye-wash",
+          "kind": "medicine",
+          "ingredient": "Purified water",
+          "strength": "99.05%",
+          "form": "sterile eye wash, with eye cup",
+          "purpose": "for washing loose foreign material out of the eye",
+          "brand_example": "Bausch + Lomb Advanced Eye Relief Eye Wash",
+          "pack": "one bottle of 4 fl oz",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given.",
+          "note": "The label says do not use it with an open wound in or near the eye (get medical help right away) or if it turns cloudy or changes color, take out contact lenses first, and stop and ask a doctor for eye pain, a change in vision, or redness that continues. MedlinePlus lists sterile eyewash in its first aid kit.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-advanced-eye-relief-eye-wash",
+            "medlineplus-first-aid-kit"
+          ]
+        },
+        {
+          "id": "mc-artificial-tears",
+          "kind": "medicine",
+          "ingredient": "Carboxymethylcellulose sodium",
+          "strength": "0.5%",
+          "form": "lubricant eye drops",
+          "purpose": "for burning and irritation from dry eyes",
+          "brand_example": "Refresh Tears",
+          "pack": "one bottle of 0.5 fl oz",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given.",
+          "note": "The label says not if the solution changes color or turns cloudy, do not touch the tip to anything, and stop and ask a doctor for eye pain, changes in vision, continued redness, or if it lasts more than 72 hours.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household. This site's assumption."
+          },
+          "cites": [
+            "dailymed-refresh-tears"
+          ]
+        },
+        {
+          "id": "mc-ketotifen",
+          "kind": "medicine",
+          "ingredient": "Ketotifen",
+          "strength": "0.025%",
+          "form": "eye drops",
+          "purpose": "for itchy eyes from pollen, grass, animal hair and dander",
+          "brand_example": "Zaditor",
+          "pack": "one bottle of 0.17 fl oz",
+          "for": [
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: adults and children 3 years of age and older; children under 3 years of age, consult a doctor.",
+          "note": "An antihistamine eye drop. The label says not for contact lens irritation, take lenses out first and wait at least 10 minutes before putting them back, and stop and ask a doctor for eye pain, changes in vision, redness, or itching that gets worse or lasts more than 72 hours.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "bottle",
+            "rule": "One unopened bottle for the household if anyone is aged 3 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-zaditor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mouth-teeth",
+      "name": "Mouth and teeth",
+      "lines": [
+        {
+          "id": "mc-dental-filling",
+          "kind": "supply",
+          "ingredient": "Temporary dental filling",
+          "form": "cement",
+          "purpose": "for a lost filling or a loose cap until you see a dentist",
+          "brand_example": "Dentemp Cap & Filling Repair",
+          "pack": "one pack",
+          "for": [
+            "a14_17",
+            "adult"
+          ],
+          "note": "CDC's travel health kit lists a temporary dental filling for lost fillings, newly painful cavities and broken teeth. Its maker says it is temporary, see a dentist as soon as possible, do not use it with throbbing pain or swelling, and it contains eugenol (clove oil). Follow the instructions on its package.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "pack",
+            "rule": "One unopened pack for the household if anyone is 14 or over. This site's assumption."
+          },
+          "cites": [
+            "dentemp-cap-filling-repair",
+            "cdc-travel-health-kits"
+          ],
+          "label_age": "Not a Drug Facts product: read the pack's own directions."
+        },
+        {
+          "id": "mc-oral-pain-gel",
+          "kind": "medicine",
+          "ingredient": "Benzocaine and menthol",
+          "strength": "20% and 0.26%",
+          "form": "oral gel",
+          "purpose": "for toothache pain",
+          "brand_example": "Orajel 2X Toothache & Gum",
+          "pack": "one tube of 0.25 oz",
+          "for": [
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: children under 2 years of age, do not use; children between 2 and 12 years of age, ask a doctor before use.",
+          "note": "For toothache only, never for teething: see the hazard on teething gels. FDA says benzocaine products should not be used for teething pain in children and can cause methemoglobinemia, which can be fatal. The label says stop and get medical help at once for pale, gray or blue skin, headache, a fast heartbeat, shortness of breath, dizziness or tiredness, and not for more than 7 days unless a dentist or doctor says so.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "tube",
+            "rule": "One unopened tube for the household if anyone is aged 12 or over. This site's assumption."
+          },
+          "cites": [
+            "dailymed-benzocaine-oral-gel",
+            "fda-teething-products"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "overdose",
+      "name": "Opioid overdose",
+      "lines": [
+        {
+          "id": "mc-naloxone",
+          "kind": "medicine",
+          "ingredient": "Naloxone HCl",
+          "strength": "4 mg",
+          "form": "nasal spray",
+          "purpose": "for emergency treatment of an opioid overdose",
+          "brand_example": "Narcan",
+          "pack": "one pack of 2 nasal spray devices",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "label_age": "Label: no age limit given. It is given to someone else.",
+          "note": "See X7-07 for where to keep it and the steps. CDC says it is sold over the counter, and you cannot use it on yourself, so tell others where it is. The label says call 911 right after the first dose and stay until the ambulance arrives.",
+          "qty": {
+            "per": "household",
+            "n": 2,
+            "unit": "pack",
+            "rule": "Two packs for the household: one at home beside the first-aid kit and one in the grab bag (X7-07). Each pack holds two devices and stays whole, because the label says a second dose may be needed. This site's assumption."
+          },
+          "cites": [
+            "dailymed-narcan",
+            "cdc-lifesaving-naloxone",
+            "cdc-naloxone-faq",
+            "fda-narcan-otc-approval"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Tools",
+      "lines": [
+        {
+          "id": "mc-thermometer-rectal",
+          "kind": "tool",
+          "ingredient": "Digital stick thermometer",
+          "purpose": "for taking a baby's or young child's temperature rectally",
+          "pack": "one thermometer",
+          "alternatives": "A forehead (temporal artery) thermometer: the Academy says it can be used at any age and is the next most accurate after rectal.",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5"
+          ],
+          "note": "The American Academy of Pediatrics says rectal is the most accurate, especially under 3 months, and to label the rectal thermometer so it is never used in the mouth. Never a mercury thermometer.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "thermometer",
+            "rule": "One for the household if anyone is under 6. This site's assumption."
+          },
+          "cites": [
+            "aap-temperature"
+          ]
+        },
+        {
+          "id": "mc-thermometer-oral",
+          "kind": "tool",
+          "ingredient": "Digital stick thermometer",
+          "purpose": "for taking temperature by mouth, from age 4",
+          "pack": "one thermometer",
+          "for": [
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "note": "The Academy says oral use from age 4. Keep it separate from the rectal one and label both. Never a mercury thermometer.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "thermometer",
+            "rule": "One for the household if anyone is aged 4 or over. This site's assumption."
+          },
+          "cites": [
+            "aap-temperature"
+          ]
+        },
+        {
+          "id": "mc-oral-syringe",
+          "kind": "tool",
+          "ingredient": "Oral syringes, 5 mL and 10 mL",
+          "purpose": "for measuring a liquid medicine that comes with no device",
+          "pack": "two syringes, one of each size",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13"
+          ],
+          "note": "A spare, for a medicine that comes with no device. The Academy says a syringe is the most accurate way to measure liquid medicine and the pharmacist can give you one. Where a label says use only its own syringe or cup, use that.",
+          "qty": {
+            "per": "household",
+            "n": 2,
+            "unit": "syringe",
+            "rule": "Two for the household if anyone is under 14. This site's assumption."
+          },
+          "cites": [
+            "aap-acetaminophen",
+            "aap-ibuprofen",
+            "medlineplus-first-aid-kit"
+          ]
+        },
+        {
+          "id": "mc-dosing-devices",
+          "kind": "tool",
+          "ingredient": "Each product's own syringe or dosing cup",
+          "purpose": "for measuring each liquid medicine",
+          "pack": "the one in each medicine's box",
+          "for": [
+            "u1",
+            "a1_2",
+            "a3_5",
+            "a6_9",
+            "a10_13",
+            "a14_17",
+            "adult"
+          ],
+          "note": "Keep each device in the box of the medicine it came with, and never swap them between products or use a kitchen spoon. The labels say use only the enclosed device.",
+          "qty": {
+            "per": "household",
+            "n": 1,
+            "unit": "set",
+            "rule": "One per liquid medicine, kept in its own box. This follows the labels."
+          },
+          "cites": [
+            "dailymed-infants-tylenol",
+            "dailymed-childrens-tylenol",
+            "dailymed-childrens-motrin",
+            "aap-acetaminophen",
+            "cdc-medication-safety-tips"
+          ]
+        }
+      ]
+    }
+  ],
+  "store_brand": {
+    "text": "FDA says a generic medicine has the same active ingredient, strength and dosage form as the brand-name medicine and works the same way. Before you buy a store brand in place of a brand named below, check that its Drug Facts panel lists the same active ingredient and strength.",
+    "cites": [
+      "fda-generic-drug-facts",
+      "fda-otc-drug-facts-label"
+    ]
+  }
+}

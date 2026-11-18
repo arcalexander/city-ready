@@ -1,0 +1,532 @@
+{
+  "module": "bg",
+  "title": "Bags",
+  "intro": "This section is the Bag: the bags that let you leave home on foot. There is one grab bag for each adult and teenager, kept by the door, with add-ons for a child, a baby or a pet, plus a kit for the car if you have one. A city bag is small, plain and carried down stairs and onto transit, not out to a campsite. The item-by-item lists are on the Bags list page and are the only specification; these actions tell you what to do with them and in what order.",
+  "credit": "",
+  "actions": [
+    {
+      "id": "BG-01",
+      "level": 1,
+      "section": "Plan your bags",
+      "title": "Learn the grab bag and its add-ons",
+      "why": "Knowing which bag each person packs, and which add-ons your household needs, means the right things are by the door when something starts.",
+      "how": "This site calls the bag by your door the grab bag; other guides call it a go-bag or bug-out bag. It waits by your door, packed, and covers 72 hours away with no help. The car kit, only if you own a car, stays in the car. Some guides pack the bag for a staffed shelter that supplies food, water and toilets; these bags do not assume one. Decide what your household needs: a grab bag for each adult and each teenager of 14 or over, and the add-ons for a younger child, a baby or a pet.",
+      "done": "The bags your household needs are written down by name: a grab bag for each adult and teenager, and any child, baby or pet add-on.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ]
+    },
+    {
+      "id": "BG-02",
+      "level": 1,
+      "section": "Plan your bags",
+      "title": "Choose a plain bag that fits you",
+      "why": "A bag that fits your back and looks ordinary is one you can carry for hours without sore shoulders or unwanted attention.",
+      "how": "For the grab bag, use a backpack of about 25 to 40 liters with padded shoulder straps, a chest strap and a hip belt; a pack you already own is fine if it has those. Load it with about 11 pounds, tighten the hip belt over your hip bones and check that the shoulder straps lie flat with no gap. Choose a plain dark color with no camouflage, patches or straps hanging off. Skip wheeled cases and shoulder bags, which fail on stairs and long walks. If you use a pack you already own, empty it and check the zippers and straps.",
+      "done": "Each grab bag is a plain backpack with a chest strap and hip belt, and its carrier has worn it loaded with the belt on the hips and the straps flat.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "bag-bugout-pack"
+      ]
+    },
+    {
+      "id": "BG-03",
+      "level": 1,
+      "section": "Plan your bags",
+      "title": "Set a weight limit and weigh the bags",
+      "why": "A load that is too heavy slows you on the stairs, tires you within the first mile and is the one that gets left behind.",
+      "how": "As a rule of thumb, not an official standard, keep the grab bag to about 15% of your body weight, or 20% at most if you are a fit, regular walker: for a 154-pound adult that is about 23 pounds, or 31 pounds at most. For children, the American Academy of Pediatrics' limit for a school backpack is 15% of body weight; treat that as a ceiling, not a target. The weights on the Bags list are estimates of the contents and leave out the empty bag, so weigh yourself on a bathroom scale with and without the packed bag and subtract. If you are over, take things out, starting with duplicates and spare clothes. Water weighs about 2 pounds a quart, but a filter does not replace water you carry unless a refill point on your route is known to be safe. If you will also carry a child, test the whole load on your stairs (FN-28).",
+      "done": "Each person's packed grab bag has been weighed on a bathroom scale, and the weight is at or under the limit that person set.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "cites": [
+        "aap-backpack"
+      ],
+      "cite_todo": "The adult 15% and 20% figures are a rule of thumb with no official source."
+    },
+    {
+      "id": "BG-04",
+      "level": 1,
+      "section": "Pack the main bag",
+      "title": "Pack the grab bag from the list",
+      "why": "Working down one checked list is faster and cheaper than guessing, and it stops you packing for a camping trip you will never take.",
+      "how": "The Bags list on this site is the only specification for this bag, so this action does not repeat it. Open the Grab bag list, tick what you already own and buy only the gaps. The grab bag is packed for 72 hours on foot in a city with no shelter services. Food is three days for each person: one 3,600-calorie ration pack, which is about 1,200 calories a day and keeps you going but is not a full diet, plus a day of food you already eat. Small children get food they already eat, never ration bars or whole nuts: CDC lists nuts and granola bars among the choking hazards for young children. Leave out tents, stoves, fuel and axes. Medicines go in their original labeled packs, regular over-the-counter ones included, with a Medication list filled in by hand for each person: medicine, dose, how often, the prescriber and every allergy. Check the food against each person's allergies, and write the earliest best-by date on a tag on the bag. Stand a worn-in pair of sturdy closed shoes, with socks tucked inside, beside the bag for each person.",
+      "done": "Each person's grab bag is packed, with every line of the Grab bag list ticked as owned or bought.",
+      "worksheet": "medication-list",
+      "cost": "high",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "bag-bugout-pack",
+        "water-bottle",
+        "water-filter-portable",
+        "water-treatment-tablets",
+        "food-ration-bars",
+        "headlamp",
+        "power-bank",
+        "usb-charging-kit",
+        "rain-shell",
+        "emergency-bivvy",
+        "first-aid-kit-bag",
+        "respirator-n95",
+        "pocket-radio",
+        "whistle",
+        "multi-tool-bladeless",
+        "work-gloves",
+        "walking-socks-gloves",
+        "document-pouch"
+      ],
+      "cites": [
+        "ready-kit",
+        "cdc-choking-hazards",
+        "redcross-kit",
+        "cdc-medications-emergency"
+      ]
+    },
+    {
+      "id": "BG-05",
+      "level": 1,
+      "section": "Pack the main bag",
+      "title": "Pack it in a set order",
+      "why": "Where things sit in the bag decides how it carries and how fast you can reach what you need in the dark or the rain.",
+      "how": "Line each grab bag with a heavy trash bag so everything stays dry. Put light, bulky items (spare clothes, emergency bivy) at the bottom, the heavy items (water, food, chargers) in the middle against your back, and the things you reach for first on top or in the outer pockets: the rain shell, headlamp, first-aid kit, water filter, tablets, respirators and radio. Keep the document pouch, cash, phone and keys on your body, not in the bag, so you still have them if the bag is lost. Pack it the same way every time so you can find things by feel.",
+      "done": "Each grab bag is lined with a heavy trash bag and packed in the set order, with the first-reach items on top or in the outer pockets.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "trash-bags-contractor"
+      ]
+    },
+    {
+      "id": "BG-08",
+      "level": 1,
+      "part": "car",
+      "section": "Car, children, infants and pets",
+      "title": "Build the car kit",
+      "why": "A car that is stuck, stranded or dead is only a shelter if it has a few things in it.",
+      "how": "Build the car kit from the Car kit list on this site. Keep a seatbelt cutter and window breaker within the driver's reach, not in the trunk. Keep the tank at least half full (BG-22). The list's water, about 2 quarts (2 liters) per seat, is this site's own figure, because the official lists give none. If the car is stuck in snow or cold, stay in it and call for help if you have a signal. To keep warm, run the engine for about 10 minutes each hour with a window open a little for fresh air, and first clear any snow from the exhaust pipe, which is the National Weather Service's advice against carbon monoxide. The car kit adds to the grab bag and does not replace it, because traffic, a closed road or a garage gate with no power can leave you on foot.",
+      "done": "Everything on the Car kit list is in the car, with the seatbelt cutter and window breaker within the driver's reach.",
+      "cost": "high",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "car"
+        ]
+      },
+      "products": [
+        "car-jump-starter",
+        "car-tire-inflator",
+        "car-escape-tool",
+        "car-warning-triangles",
+        "car-blanket",
+        "first-aid-kit-bag",
+        "water-sealed-bottled",
+        "flashlight",
+        "work-gloves",
+        "rain-shell",
+        "food-ration-bars",
+        "paper-map-compass"
+      ],
+      "cites": [
+        "ready-car",
+        "ready-winter",
+        "nws-winter-during"
+      ]
+    },
+    {
+      "id": "BG-22",
+      "level": 1,
+      "part": "car",
+      "section": "Car, children, infants and pets",
+      "title": "Keep the gas tank at least half full",
+      "why": "Ready.gov says gas stations may be closed in an emergency and cannot pump gas in a power outage.",
+      "how": "Fill the tank now. From then on, fill up when it reaches half: Ready.gov says to keep at least half a tank at all times, and a full tank if an evacuation seems likely. Fill up when bad weather is forecast. For an electric car, keep it at least half charged and charge it fully before a storm; that is this site's advice, because the official pages opened say nothing about electric cars.",
+      "done": "The tank is full today, and every driver at home has agreed to fill up at half.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "car"
+        ]
+      },
+      "cites": [
+        "ready-evac",
+        "ready-car"
+      ]
+    },
+    {
+      "id": "BG-09",
+      "level": 1,
+      "section": "Car, children, infants and pets",
+      "title": "Pack each child's bag by age",
+      "why": "A child who carries a small bag of their own has their comfort items, light and ID with them even if you are separated for a moment.",
+      "how": "Use a small backpack that fits the child, and pack it from the Child's bag list on this site for their age. The age bands are examples: a child carries only what they can manage on your real route, and adults keep the essentials, so each child's main water, food and medicines go in an adult's bag. Under 3: no bag; an adult carries everything (see the infant and toddler add-on, BG-10). Ages 3 to 5: a comfort toy, a snack, a small water bottle, a light and the ID card. Ages 6 to 9: add a headlamp, a whistle, a rain jacket, a warm layer, a 16-ounce bottle of water and a book or game. Ages 10 to 13: add their own food for a day and a second warm layer. Ages 14 and up: an adult grab bag, held to 15% of their own weight. The American Academy of Pediatrics' limit for a school backpack is 15% of the child's body weight; treat it as a ceiling, not a target. Pack only food they already eat, and for a small child no ration bars or whole nuts.",
+      "done": "Each child old enough for one has a backpack that fits them, packed from the Child's bag list for their age, and has shown they can carry it.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "under5",
+          "school_age"
+        ]
+      },
+      "products": [
+        "child-backpack",
+        "child-headlamp",
+        "whistle",
+        "water-bottle"
+      ],
+      "cites": [
+        "aap-family-kit",
+        "aap-backpack",
+        "cdc-choking-hazards"
+      ]
+    },
+    {
+      "id": "BG-10",
+      "level": 1,
+      "section": "Car, children, infants and pets",
+      "title": "Pack the infant and toddler add-on",
+      "why": "A baby or toddler cannot wait for supplies, and almost nothing a small child needs can be improvised on the move.",
+      "how": "Pack it from the Infant and toddler add-on list on this site, for any child under 3 and any older child who is still in diapers or cannot walk a mile. Add to one adult's bag, for three days: diapers and wipes (the site works out the number from your household setup), two changes of clothes, a blanket, any medicines with a dosing syringe, and a soft carrier so your hands are free on the stairs. If your baby is breastfed, keep breastfeeding. If formula-fed, pack the formula your baby already takes: ready-to-feed where it is sold that way, because it needs no water or mixing; otherwise the powder measured out feed by feed, with sealed bottled water for each feed, and each feed mixed fresh. Count it in feeds (the feeds in a normal day times three), and pack disposable cups, a new one for each feed, because bottles and nipples are hard to clean on the move. If one adult carries a child aged 1 to 3 on their back, that adult wears their own bag on the front, or the second adult or the named helper (FN-33) carries it. A portable crib or play yard does not go in the bag: keep one ready to take, or check that the place you would go has one (FN-34). Check sizes every 3 months, because small children outgrow diapers and clothes faster than the dates run out.",
+      "done": "Everything on the Infant and toddler add-on list is in one adult's bag, the carrier has been worn with the child in it, and a size-check reminder is set.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "baby",
+          "carried",
+          "diapers"
+        ]
+      },
+      "products": [
+        "baby-carrier",
+        "infant-formula-ready",
+        "diaper-kit"
+      ],
+      "calc": "diapers",
+      "cites": [
+        "cdc-infant-formula",
+        "cdc-breastfeeding-emergency",
+        "cdc-infant-feeding",
+        "cdc-cup-feeding",
+        "nichd-safe-sleep",
+        "aap-family-kit"
+      ]
+    },
+    {
+      "id": "BG-11",
+      "level": 1,
+      "section": "Car, children, infants and pets",
+      "title": "Pack the pet bag",
+      "why": "An animal you can carry, feed and identify can leave with you and be housed where you end up, and one you cannot limits where you can go.",
+      "how": "Pack one bag for each pet from the Pet bag list on this site, which is the only specification for this bag, and keep it beside the carrier. Use a carrier the animal already knows. Write the daily amount on the food bag, and swap the food for fresh every 6 months. Pack at least 3 days of any medicine, more if your vet will supply it. For a large dog, pack about 2 quarts of water in place of 1; refill on the way when you can, and replace sealed bottles by the date printed on them. Pack a second light bowl so food and water each have one, and let your pet eat and drink from them at home a few times. Line the carrier with an absorbent pad, and pack 6 more pads and a small pack of unscented wipes. For a cat, add about 4 to 5 pounds of the litter it already uses, in a sealed bag, and a scoop. Add 5 large trash bags and 5 pairs of disposable gloves; tie each used bag shut inside a second one, use an outdoor trash can, and never flush litter or bags. Do not wash the blanket that goes in, since the smell of home is the point, and for a caged bird or small animal add a cloth to cover the cage. Check that the collar tag and microchip record show your current cell number. Find two places that would take you with the pet, such as a friend's home or a pet-friendly hotel. Put a copy of the Pet sheet in the bag, filled in by hand with the vet's details and any allergies or fears.",
+      "done": "Each pet's bag is packed from the Pet bag list with the pads, trash bags and gloves beside it, its tag and microchip record show your current number, and two places have agreed to take you both.",
+      "worksheet": "pet-sheet",
+      "apartment": "Check that you can carry the pet, its carrier and your own bag down the stairs in one trip (see FN-23).",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "products": [
+        "pet-carrier",
+        "pet-harness-leash",
+        "pet-bowl-food",
+        "pet-litter-portable",
+        "water-bottle",
+        "trash-bags-contractor",
+        "gloves-disposable"
+      ],
+      "cites": [
+        "ready-pets",
+        "redcross-pets",
+        "redcross-shelter",
+        "avma-pets"
+      ]
+    },
+    {
+      "id": "BG-12",
+      "level": 1,
+      "section": "Pack the main bag",
+      "title": "Put the document pouch and cash with the grab bag",
+      "why": "Proof of who you are, where you live and who to call, plus some cash, opens doors when cards and phones do not work.",
+      "how": "Print the blank document checklist from this site and tick it by hand as each item goes into the waterproof document pouch: copies of ID for every person, each person's medical and contact information, your filled-in contact card and evacuation plan, proof of address, insurance details, bank and card phone numbers, pet records, an encrypted USB drive of scans if you made one, a spare door key and cash in small bills (MD-01 has the amount). The pouch holds copies; originals you keep at home belong in a fire chest, which is a separate item and far too heavy for a bag. The copy of each Social Security card goes in the fire chest too, not in the pouch. Do not put passwords or PINs in the pouch. Keep the pouch with the grab bag by the door, and wear it under your clothes when you leave, never inside the bag.",
+      "done": "Every line on the document checklist is ticked, and the pouch with the copies and the cash is by the door with the grab bag, ready to wear.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "document-pouch",
+        "usb-drive-encrypted"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "ready-financial"
+      ]
+    },
+    {
+      "id": "BG-13",
+      "level": 1,
+      "section": "Pack the main bag",
+      "title": "Carry 2 quarts of water and a way to treat more",
+      "why": "Three days of water weighs more than most people can carry, so you carry what the walk needs and the means to treat more if you find it.",
+      "how": "Carry about 2 quarts (2 liters) for each adult in two sturdy bottles in the grab bag; that is about 4.5 pounds of water. Add a portable water filter and a strip of water treatment tablets, and read both sets of instructions now. Not every filter screws onto every bottle, so try yours; if it does not fit, fill the filter's own pouch and squeeze the water through into the bottle. A filter does not replace water you carry unless a refill point on your route is known to be safe, so plan the walk on the water in your bottles and mark on your map any faucet or fountain you know you can use. Treat any water you are unsure of: filter first, then use the tablets at the dose and waiting time printed on the packet. Neither removes fuel or chemicals, and CDC says water that holds them cannot be made safe by boiling or disinfecting, so never use water that smells of either or has a sheen on it.",
+      "done": "Each adult's grab bag holds two bottles with about a quart (1 liter) of water each, tablets and a filter you have tried on your own bottle.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "water-bottle",
+        "water-filter-portable",
+        "water-treatment-tablets"
+      ],
+      "cites": [
+        "cdc-water-safe"
+      ]
+    },
+    {
+      "id": "BG-14",
+      "level": 1,
+      "section": "Keep it ready",
+      "title": "Keep the grab bag by the door with a grab list on top",
+      "why": "Some things cannot live in the bag because you use them every day, and under stress those are exactly the things people forget.",
+      "how": "Store the grab bag in the closet or corner nearest your exit door, out of the walkway. Tie a card to the handle listing what to grab on the way out: daily medicines and any that must stay cold, glasses, hearing aids, phone and charger, keys, wallet and anything for a baby or pet. Write only the names of the items, not personal details. Read the card aloud once with everyone who lives with you.",
+      "done": "The grab bag is by your exit door with the grab-list card tied to its handle, and everyone at home has heard the card read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "BG-15",
+      "level": 1,
+      "section": "Keep it ready",
+      "title": "Do a test walk with the grab bag",
+      "why": "A short walk shows what a list cannot: what rubs, what is too heavy and who cannot carry their share.",
+      "how": "Put on the shoes you would wear, load the grab bag fully including the water, and walk down your building's stairs and then 1 mile outdoors, each person carrying their own. Time it, and note sore spots, slipping straps and anything you wished you had left behind. Back home, adjust the straps, remove or swap what failed and weigh the bag again. If you would be carrying a child as well, FN-28 is the same test with the child in the carrier.",
+      "done": "Each person has walked down the stairs and a mile outdoors with their grab bag fully loaded, and each bag has been adjusted and weighed again.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "BG-16",
+      "level": 1,
+      "section": "Keep it ready",
+      "title": "Swap clothing each season and check dates twice a year",
+      "why": "A bag packed in July is wrong in January, and food, medicines and batteries quietly go out of date.",
+      "how": "Twice a year, when the clocks change or on two dates you pick, empty each grab bag and add-on bag. Swap the clothing for the coming season, check children's clothes and diaper sizes, and replace any food, water, medicine, batteries or water tablets that expire within 6 months. Recharge the power banks and lights (a power bank needs topping up about every 3 months) and update the document copies if anything has changed. Put two repeating reminders in your calendar, one in spring and one in fall, so the swap is not left to memory.",
+      "done": "The two check dates are in your calendar as a repeating reminder, and each bag holds clothing for the current season.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "BG-17",
+      "level": 1,
+      "section": "Keep it ready",
+      "title": "Keep it low profile",
+      "why": "In a crowded city a person who looks well supplied attracts attention, and one who looks ordinary does not.",
+      "how": "Use a plain bag and ordinary clothes: no camouflage, no patches and no gear clipped to the outside. Keep cash in two separate places and take out only small amounts where others can see. Do not post photos of your kit or supplies online, and tell only people you trust what you have.",
+      "done": "Nothing is clipped to the outside of any bag, no bag has camouflage or patches, and your cash is in two separate places.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ]
+    },
+    {
+      "id": "BG-18",
+      "level": 1,
+      "section": "Keep it ready",
+      "title": "Check what cannot go through security or onto transit",
+      "why": "A grab bag you carry across the city has to pass the same bag checks and rules that you do.",
+      "how": "List the checkpoints your grab bag could meet on your routes: office or school security, courts and government buildings, stadiums, airports. Knives and bladed multi-tools, pepper spray, lighters and fuel are commonly refused. Knife law is local. Chicago, for one, bars carrying a concealed knife with a blade more than 2.5 inches long, and bars anyone aged 18 or under from carrying one with a blade of 2 inches or more (Municipal Code 8-24-020); check your own city's code. Carry the bladeless multi-tool in your grab bag and keep the bladed one at home. Leave fuel out of every bag. At airport screening a multi-tool with a knife of any length may not go in a carry-on bag, and one with scissors shorter than 4 inches may (TSA). On flights, power banks go in carry-on bags only, and those over 100 watt-hours need the airline's approval. Read your transit operator's and employer's published rules once and repack to match.",
+      "done": "Each grab bag holds a bladeless multi-tool and no fuel, and nothing in it is refused by the checkpoints on your list.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "multi-tool-bladeless"
+      ],
+      "cites": [
+        "tsa-multi-tools",
+        "tsa-power-banks",
+        "tsa-lithium-over-100wh",
+        "chicago-mc-8-24-020"
+      ],
+      "cite_todo": "Still unsourced: pepper spray, lighters and fuel being commonly refused (no page opened)."
+    },
+    {
+      "id": "BG-19",
+      "level": 1,
+      "section": "Getting home",
+      "title": "Keep walking shoes where you work",
+      "why": "Dress shoes and heels can turn a two-hour walk home into an injury.",
+      "how": "Leave a pair of broken-in, closed walking shoes or sneakers and two pairs of socks at your desk or in a locker. If you have no fixed workplace, wear shoes you could walk home in or carry a light pair. Choose them on the assumption that you will go down many flights of stairs and cross broken glass, so no sandals and no thin soles.",
+      "done": "A pair of broken-in closed walking shoes and two pairs of socks are at your workplace.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "walking-socks-gloves"
+      ],
+      "cites": [
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "BG-20",
+      "level": 1,
+      "section": "Car, children, infants and pets",
+      "title": "Put an ID card in each child's bag",
+      "why": "A child who is separated from you may not be able to give your full name or number, and a card can.",
+      "how": "Print one blank wallet card per child from this site and fill it in by hand: the child's name, each parent's or caregiver's full name and cell number, your out-of-area contact, and any allergy or medical need a helper must know. Beside the real names, add the names the child actually uses, such as 'Grandma'. Put the card in an inside pocket of the child's bag, not on the outside where a stranger could read it, and show the child where it is. For a child too young for a bag, put it in a zipped pocket of what they wear or of the carrier. Every six months take a new photo of each child, and one of you together, and keep them on your phone and printed in your own wallet.",
+      "done": "Each child's filled-in card is in an inside pocket of their bag or a zipped pocket of what they wear, and the child has shown you where it is.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "child"
+        ]
+      },
+      "worksheet": "wallet-card",
+      "cites": [
+        "aap-family-kit",
+        "ready-kids"
+      ]
+    },
+    {
+      "id": "BG-21",
+      "level": 1,
+      "section": "Getting home",
+      "title": "Put a paper map with your routes marked in the grab bag",
+      "why": "A paper map works with a dead phone, with no signal and in the rain, and it shows the whole city at once.",
+      "how": "Get a street map that covers home, work, school and the two places you would go. Mark by hand your meeting places, two walking routes home from work and two routes to each destination, and note the bridges, tunnels and rail lines you would have to cross. Fold it into a zip bag in each grab bag. Walk or cycle one of the routes once so that the map means something to you. For a place off that map, add a printed map or written directions, down to the last few streets and the door number.",
+      "done": "A map with your meeting places and routes marked is in each grab bag, and you have walked or cycled one route.",
+      "apartment": "Without a car you need a map that shows walking paths, bridges and transit lines, not only main roads.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "paper-map-compass"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "note": "For every product item: the lowest level it belongs to, the module it is shown under, who it applies to, and any per-level quantity rule that differs from the item's own `qty`. Rules: basis and factor as in products/SCHEMA.md; `days` fixes the number of days; `less_days` leaves out days already covered by another item; `unit` forces the pack size to 1. `optional` items are shown but kept out of totals and progress. A `qty` here replaces the item's own quantity rule at every level; `rule` gives the words printed beside the number. Audience tags (`only.has`) are those in data/actions/SCHEMA.md. `alternative` marks a product that can be bought in place of others in its group (the combination smoke and CO alarm): it is shown beside them with its picks, has no tick box and stays out of totals and progress.",
+  "items": {
+    "bag-bugout-pack": {
+      "level": 1,
+      "module": "bg"
+    },
+    "water-bottle": {
+      "level": 1,
+      "module": "bg",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 2,
+        "rule": "2 for each adult or teenager aged 14 or over: both in the grab bag. A younger child's bag has its own small bottle"
+      }
+    },
+    "food-ration-bars": {
+      "level": 1,
+      "module": "bg",
+      "qty": {
+        "basis": "per_eater",
+        "factor": 1,
+        "rule": "1 pack of 3,600 kcal for each person aged 6 or over: about 1,200 kcal a day for 3 days, which is not a full diet. A younger child gets food they already eat, not ration bars"
+      }
+    },
+    "rain-shell": {
+      "level": 1,
+      "module": "bg"
+    },
+    "emergency-bivvy": {
+      "level": 1,
+      "module": "bg"
+    },
+    "walking-socks-gloves": {
+      "level": 1,
+      "module": "bg"
+    },
+    "keychain-light": {
+      "level": 1,
+      "module": "bg"
+    },
+    "paper-map-compass": {
+      "level": 1,
+      "module": "bg"
+    },
+    "multi-tool": {
+      "level": 3,
+      "module": "u6"
+    },
+    "whistle": {
+      "level": 1,
+      "module": "bg"
+    },
+    "work-gloves": {
+      "level": 1,
+      "module": "bg"
+    },
+    "pocket-radio": {
+      "level": 1,
+      "module": "bg"
+    },
+    "first-aid-kit-bag": {
+      "level": 1,
+      "module": "u7"
+    },
+    "respirator-n95": {
+      "level": 1,
+      "module": "ar",
+      "qty": {
+        "basis": "per_wearer",
+        "factor": 1,
+        "rule": "6 for each adult or teenager aged 14 or over (this site's assumption: 2 a day for 3 smoky days), bought in whole packs. No respirator is counted for a younger child"
+      }
+    },
+    "document-pouch": {
+      "level": 1,
+      "module": "md"
+    },
+    "usb-drive-encrypted": {
+      "level": 1,
+      "module": "md"
+    },
+    "headlamp": {
+      "level": 1,
+      "module": "pl",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "rule": "1 for each adult or teenager aged 14 or over; add one for each younger child old enough to wear one"
+      }
+    },
+    "power-bank": {
+      "level": 1,
+      "module": "pl",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "rule": "1 for each adult or teenager aged 14 or over, one for each phone. Add one for a younger child who carries a phone"
+      }
+    },
+    "usb-charging-kit": {
+      "level": 1,
+      "module": "pl"
+    },
+    "water-filter-portable": {
+      "level": 1,
+      "module": "u4"
+    },
+    "water-treatment-tablets": {
+      "level": 1,
+      "module": "u4"
+    },
+    "car-jump-starter": {
+      "level": 1,
+      "part": "car",
+      "module": "bg",
+      "only": {
+        "has": [
+          "car"
+        ]
+      }
+    },
+    "car-tire-inflator": {
+      "level": 1,
+      "part": "car",
+      "module": "bg",
+      "only": {
+        "has": [
+          "car"
+        ]
+      }
+    },
+    "car-escape-tool": {
+      "level": 1,
+      "part": "car",
+      "module": "bg",
+      "only": {
+        "has": [
+          "car"
+        ]
+      }
+    },
+    "car-warning-triangles": {
+      "level": 1,
+      "part": "car",
+      "module": "bg",
+      "only": {
+        "has": [
+          "car"
+        ]
+      }
+    },
+    "car-blanket": {
+      "level": 1,
+      "part": "car",
+      "module": "bg",
+      "only": {
+        "has": [
+          "car"
+        ]
+      },
+      "qty": {
+        "basis": "per_sleeper",
+        "factor": 1,
+        "rule": "1 for each person aged 1 or over who normally rides in the car"
+      }
+    },
+    "child-backpack": {
+      "level": 1,
+      "module": "bg",
+      "only": {
+        "has": [
+          "bag_child"
+        ]
+      },
+      "qty": {
+        "basis": "per_child",
+        "factor": 1
+      }
+    },
+    "child-headlamp": {
+      "level": 1,
+      "module": "bg",
+      "only": {
+        "has": [
+          "bag_child"
+        ]
+      },
+      "qty": {
+        "basis": "per_child",
+        "factor": 1
+      }
+    },
+    "baby-carrier": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "carried"
+        ]
+      }
+    },
+    "infant-formula-ready": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "formula"
+        ]
+      }
+    },
+    "diaper-kit": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "diapers"
+        ]
+      }
+    },
+    "pet-carrier": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "pets"
+        ]
+      }
+    },
+    "pet-harness-leash": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "qty": {
+        "basis": "per_pet",
+        "factor": 1,
+        "rule": "1 for each pet. All three picks are dog harnesses: for a cat, buy a harness made for cats instead, as a backup to the carrier"
+      }
+    },
+    "pet-bowl-food": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "pets"
+        ]
+      }
+    },
+    "pet-litter-portable": {
+      "level": 1,
+      "module": "fn",
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "qty": {
+        "basis": "per_pet",
+        "factor": 1,
+        "rule": "1 tray for each cat, sold in packs of 4 or 5; dogs need none"
+      }
+    },
+    "water-sealed-bottled": {
+      "level": 2,
+      "module": "u4",
+      "at": {
+        "2": {
+          "basis": "water_gallons",
+          "factor": 1,
+          "days": 3,
+          "rule": "Sealed water for 3 days: 1 gallon for each person a day, plus half a gallon for each pet (this site's assumption, sized for a dog)"
+        },
+        "3": {
+          "basis": "water_gallons",
+          "factor": 1,
+          "days": 3,
+          "rule": "Sealed water for the first 3 days only: 1 gallon for each person a day, plus half a gallon for each pet (this site's assumption, sized for a dog). Your own containers hold the rest of two weeks (rigid water containers)"
+        }
+      }
+    },
+    "water-bleach": {
+      "level": 2,
+      "module": "u4"
+    },
+    "toilet-bag-kits": {
+      "level": 1,
+      "module": "u5",
+      "at": {
+        "1": {
+          "basis": "fixed",
+          "factor": 1,
+          "unit": 1,
+          "rule": "1 pack to split between the grab bags (this site's suggestion)"
+        },
+        "2": {
+          "basis": "toilet_bags",
+          "factor": 1,
+          "days": 3
+        },
+        "3": {
+          "basis": "toilet_bags",
+          "factor": 1,
+          "days": 3,
+          "rule": "At two weeks too, bags for the first 3 days only: one bag per use, 5 uses a day for each person who uses the toilet. After day 3 the bucket, liners and absorbent take over (X5-05)"
+        }
+      }
+    },
+    "waste-storage-bin": {
+      "level": 2,
+      "module": "u5",
+      "at": {
+        "2": {
+          "basis": "fixed",
+          "factor": 1,
+          "unit": 1,
+          "rule": "1 can for the household at a 3-day target"
+        },
+        "3": {
+          "basis": "per_person_day",
+          "factor": 0.714,
+          "rule": "5 gallons of can for each person for each week of your target (Oregon's planning figure), which is 10 gallons each at two weeks; the count follows the size of can you pick"
+        }
+      }
+    },
+    "gloves-disposable": {
+      "level": 1,
+      "module": "u5"
+    },
+    "hand-sanitizer": {
+      "level": 2,
+      "module": "u5",
+      "qty": {
+        "basis": "per_eater",
+        "factor": 1,
+        "min": 1,
+        "rule": "1 for each person aged 6 or over, and never fewer than 1 for the household. An adult cleans a younger child's hands, and the bottle stays out of a small child's reach"
+      }
+    },
+    "disinfectant-surface": {
+      "level": 2,
+      "module": "u5"
+    },
+    "flashlight": {
+      "level": 1,
+      "module": "pl",
+      "qty": {
+        "basis": "fixed",
+        "factor": 2,
+        "rule": "2 for the household: one by the front door and one by the bed. Add one for the car kit if you have a car"
+      }
+    },
+    "lantern": {
+      "level": 2,
+      "module": "pl"
+    },
+    "batteries-disposable": {
+      "level": 2,
+      "module": "pl",
+      "qty": {
+        "basis": "count_yourself",
+        "factor": 1,
+        "note": "Count the cells in every light and radio you own and keep twice that number spare. The price shown is for one pack"
+      }
+    },
+    "emergency-radio": {
+      "level": 2,
+      "module": "pl"
+    },
+    "night-lights-power-failure": {
+      "level": 2,
+      "module": "pl",
+      "optional": true
+    },
+    "first-aid-kit-home": {
+      "level": 2,
+      "part": "household",
+      "module": "u7"
+    },
+    "co-alarm": {
+      "level": 2,
+      "part": "household",
+      "module": "hc",
+      "qty": {
+        "basis": "count_yourself",
+        "factor": 1,
+        "rule": "One outside each sleeping area and one on each level of the home, unless a combination smoke and CO alarm already covers that spot. Count your own. The price shown is for one alarm"
+      }
+    },
+    "smoke-co-combo-alarm": {
+      "level": 2,
+      "part": "household",
+      "module": "hr",
+      "alternative": true,
+      "qty": {
+        "basis": "count_yourself",
+        "factor": 1,
+        "rule": "An alternative, not an extra. One outside each sleeping area and one on each level of the home, in place of a separate smoke alarm and CO alarm there; bedrooms still need their own smoke alarms. Count your own, then subtract the working alarms already there. The price shown is for one alarm"
+      }
+    },
+    "smoke-alarm": {
+      "level": 2,
+      "part": "household",
+      "module": "hr",
+      "qty": {
+        "basis": "count_yourself",
+        "factor": 1,
+        "rule": "One inside each bedroom. Outside each sleeping area and on each level you need smoke protection too, from a smoke alarm or from a combination smoke and CO alarm, which does both jobs. Count your own rooms, then subtract the working alarms already there. The price shown is for one alarm"
+      }
+    },
+    "indoor-thermometer": {
+      "level": 2,
+      "module": "hc"
+    },
+    "fire-extinguisher": {
+      "level": 2,
+      "part": "household",
+      "module": "u6",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "rule": "1 for the kitchen side of the home; in a house, add one for each other floor"
+      }
+    },
+    "fridge-thermometer": {
+      "level": 2,
+      "module": "u3",
+      "qty": {
+        "basis": "fixed",
+        "factor": 2,
+        "rule": "2 for the household: one in the fridge and one in the freezer. Add a third for the cooler if you keep one for food or medicine (X3-10, X7-02)"
+      }
+    },
+    "manual-can-opener": {
+      "level": 2,
+      "module": "u3"
+    },
+    "plastic-sheeting-tape": {
+      "level": 2,
+      "module": "ar"
+    },
+    "water-container-rigid": {
+      "level": 2,
+      "module": "u4",
+      "at": {
+        "2": {
+          "basis": "fixed",
+          "factor": 1,
+          "unit": 1,
+          "rule": "1 container to start with, so you can learn to clean, fill and date it (this site's suggestion). 72 hours at home's three days are covered by sealed water"
+        },
+        "3": {
+          "basis": "water_gallons",
+          "factor": 1,
+          "less_days": 3
+        }
+      }
+    },
+    "water-bathtub-bladder": {
+      "level": 2,
+      "module": "u4"
+    },
+    "water-carry-collapsible": {
+      "level": 3,
+      "module": "u4"
+    },
+    "water-dispensing": {
+      "level": 2,
+      "module": "u4"
+    },
+    "water-filter-household": {
+      "level": 2,
+      "module": "u4",
+      "optional": true
+    },
+    "water-test-and-prefilter": {
+      "level": 2,
+      "module": "u4"
+    },
+    "toilet-seat-bucket": {
+      "level": 3,
+      "module": "u5",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "rule": "1 bucket toilet for the household. Add a second lidded 5-gallon bucket for pee (U5-19, X5-05); this count does not include it"
+      }
+    },
+    "toilet-liner-bags": {
+      "level": 3,
+      "module": "u5",
+      "at": {
+        "3": {
+          "basis": "per_user_day",
+          "factor": 1,
+          "less_days": 3,
+          "rule": "1 liner for each person who uses the toilet, for each day after the first 3 (the bag kits cover those); the number is how many boxes or cases that takes"
+        }
+      }
+    },
+    "toilet-absorbent": {
+      "level": 3,
+      "module": "u5",
+      "at": {
+        "3": {
+          "basis": "per_user_day",
+          "factor": 1,
+          "less_days": 3,
+          "rule": "About 1 cup of dry cover for each person who uses the toilet, for each day after the first 3 (this site's estimate). The number is how many bags or tubs that takes, from the person-days on each pick's size line"
+        }
+      }
+    },
+    "trash-bags-contractor": {
+      "level": 1,
+      "module": "u5"
+    },
+    "body-wipes": {
+      "level": 2,
+      "module": "u5",
+      "optional": true
+    },
+    "handwash-station": {
+      "level": 2,
+      "module": "u5"
+    },
+    "laundry-manual": {
+      "level": 3,
+      "module": "u5",
+      "optional": true
+    },
+    "menstrual-backup": {
+      "level": 2,
+      "module": "u5",
+      "qty": {
+        "basis": "each_who",
+        "factor": 1,
+        "note": "One supply for each person who menstruates, teenagers included. The site does not ask who menstruates, so count for yourself; the price shown is for one supply"
+      }
+    },
+    "power-station-compact": {
+      "level": 2,
+      "module": "pl",
+      "optional": true
+    },
+    "power-station-large": {
+      "level": 2,
+      "module": "pl",
+      "optional": true
+    },
+    "solar-panel-portable": {
+      "level": 3,
+      "module": "pl",
+      "optional": true
+    },
+    "car-power-inverter": {
+      "level": 2,
+      "part": "car",
+      "module": "pl",
+      "only": {
+        "has": [
+          "car"
+        ]
+      }
+    },
+    "batteries-rechargeable-kit": {
+      "level": 3,
+      "module": "pl",
+      "optional": true
+    },
+    "tourniquet-bleeding": {
+      "level": 3,
+      "module": "u7",
+      "optional": true
+    },
+    "eye-protection": {
+      "level": 3,
+      "module": "ar"
+    },
+    "air-purifier-hepa": {
+      "level": 2,
+      "module": "ar"
+    },
+    "box-fan-filter-kit": {
+      "level": 2,
+      "module": "ar",
+      "optional": true
+    },
+    "window-insulation-kit": {
+      "level": 2,
+      "module": "hc",
+      "only": {
+        "climate": [
+          "cold",
+          "mixed"
+        ]
+      }
+    },
+    "sleeping-bag": {
+      "level": 2,
+      "module": "hc",
+      "qty": {
+        "basis": "per_sleeper",
+        "factor": 1,
+        "rule": "1 for each person aged 1 or over. A baby gets no sleeping bag: a sleep surface of their own"
+      }
+    },
+    "battery-fan": {
+      "level": 3,
+      "module": "hc",
+      "optional": true
+    },
+    "cooler": {
+      "level": 2,
+      "module": "u3"
+    },
+    "electric-kettle-low-watt": {
+      "level": 2,
+      "module": "u3",
+      "optional": true
+    },
+    "food-storage-bins": {
+      "level": 3,
+      "module": "u3"
+    },
+    "evacuation-stair-chair": {
+      "level": 3,
+      "module": "hr",
+      "optional": true
+    },
+    "two-way-radios": {
+      "level": 3,
+      "module": "cm",
+      "optional": true
+    },
+    "multi-tool-bladeless": {
+      "level": 1,
+      "module": "bg"
+    },
+    "fire-chest": {
+      "level": 2,
+      "module": "md"
+    },
+    "fire-blanket": {
+      "level": 2,
+      "module": "u6",
+      "part": "household",
+      "optional": true,
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "rule": "Optional: at most 1, on the wall near the kitchen door. A pan lid by the stove comes first."
+      }
+    }
+  },
+  "explain": {
+    "stored-water": "72 hours at home covers the first three days with sealed store-bought water, which needs no cleaning or rotation. Two weeks at home covers the remaining days in refillable containers you fill from the tap.",
+    "toilet": "72 hours at home covers three days with one-use bag-and-gel kits in your own toilet bowl. Two weeks at home adds a bucket toilet with plain heavy liners and absorbent for the remaining days, which costs far less per day."
+  }
+}

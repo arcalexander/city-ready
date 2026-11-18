@@ -1,0 +1,1722 @@
+{
+  "batch": "bags-b",
+  "checked": "2026-11-15",
+  "research_notes": [
+    "Web search was unavailable for this batch (the session's search budget was already used up), so every page was reached by opening known manufacturer, standards and test-publication URLs directly and following links from them. Pages that blocked the fetch tool (Shopify stores, 3M, Kingston, Red Cross) were opened in a browser instead; where that was done it is stated in the source or link note.",
+    "Wirecutter (nytimes.com) and Popular Mechanics could not be opened by the fetch tool and were not used.",
+    "No Amazon page could be opened (HTTP 503 to automated checks). Amazon links are given only where an ASIN was seen today in a test publication's own link to the product, and are marked unverified.",
+    "Several prices are null because no US retail price could be seen today. They are not guesses left blank by accident."
+  ],
+  "items": [
+    {
+      "id": "first-aid-kit-bag",
+      "module": "bags",
+      "name": "Compact first-aid kit for the bag",
+      "need": "Cuts, blisters, sprains and headaches are the injuries you are most likely to deal with on a long walk home, and a small kit handles them.",
+      "how_to_choose": "U7-09 lists the 12 things the pouch holds; a bought kit is a head start that you check against that list. Look for one that weighs under a pound, has a real elastic bandage, gauze, tape and gloves, and comes in a pouch you can find by feel. Count on adding your own medicines and a few extra adhesive bandages. A hiking-style kit is not a bleeding-control kit: carry a tourniquet and pressure dressing separately (see the bleeding-control item).",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One compact kit in each adult's bag."
+      },
+      "already_own": "A hiking or travel first-aid kit you already own is fine if it has an elastic bandage, sterile gauze, tape, gloves and in-date medicines. Open it, check expiry dates, and replace anything used or yellowed.",
+      "safety_notes": [
+        {
+          "text": "The Red Cross says to add your own medicines to a first-aid kit and to check it regularly, replacing anything used or out of date.",
+          "source_name": "American Red Cross",
+          "source_title": "Make a First Aid Kit: What to Include",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+          "verified": true,
+          "research_note": "text was the Red Cross family-of-four contents list. Cut to the medicines and checking lines so that the site keeps one home-kit specification (U7-07, prompt 3.7 / A-C25). The page refused automated reading on 2026-11-15 (403); it was read in a browser on 2026-11-14 and is in pending.json for a browser check."
+        },
+        {
+          "text": "Ready.gov lists a first aid kit among the basic items of a disaster supplies kit.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Small hiking kits are lighter than a home kit on purpose. The home kit has its own list (U7-07); top the bag kit up with what you personally need.",
+        "Medicines in pre-made kits can be close to expiry when they arrive. Check dates when you unpack the kit."
+      ],
+      "tier_note": "Two picks: a bigger kit breaks this item's under-a-pound rule and belongs at home, not in each adult's bag.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Adventure Medical Kits",
+          "model": "Mountain Series Medical Kit - Hiker",
+          "model_number": "",
+          "size": "About 39 pieces for 1-2 people for up to 2 days. Maker says under 8 oz; OutdoorGearLab weighed it at 10 oz. Soft zip pouch.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 8,
+          "price_usd": 34.49,
+          "price_seen_at": "adventuremedicalkits.com",
+          "why": "The cheapest kit here that still has a 2 in elastic bandage, a sterile gauze roll and pads, 1 in cloth tape, a 5 x 9 in trauma pad, small shears, gloves and basic medicines. OutdoorGearLab gave it its best-value outdoor award.",
+          "weakness": "Only one pair of gloves and two doses of each medicine, and the pouch is water-resistant, not waterproof.",
+          "contents_check": {
+            "pieces": 39,
+            "elastic_bandage": true,
+            "gauze": true,
+            "tape": true,
+            "add": "A second pair of gloves, more adhesive bandages, your own medicines, a zip bag to keep it dry."
+          },
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://adventuremedicalkits.com/products/mountain-series-medical-kit-hiker",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14 (the store rate-limits the fetch tool). Price, contents list and weight claim read on the page. Not reopened 2026-11-15."
+            }
+          ],
+          "link_note": "",
+          "research_note": "link_note was: No Amazon link: no ASIN for this exact kit was seen today (OutdoorGearLab links to REI).",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Adventure Medical Kits",
+              "title": "Mountain Series Hiker First Aid Kit",
+              "url": "https://adventuremedicalkits.com/products/mountain-series-medical-kit-hiker",
+              "verified": true,
+              "supports": "Price $34.49, full contents list (piece count added up from it), 1-2 people for 2 days, 'weighs less than 8 oz'."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Adventure Medical Kits Mountain Series Hiker review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/first-aid-kit/adventure-medical-kits-mountain-series-hiker",
+              "verified": true,
+              "supports": "Best Buy award (best value for the outdoors), measured weight 10 oz, strengths and weaknesses."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'first aid kit') on 2026-11-14: no results. No recall notice on the maker's page."
+        },
+        "standard": {
+          "brand": "Adventure Medical Kits",
+          "model": "Ultralight/Watertight Medical Kit - .7",
+          "model_number": "",
+          "size": "For 1-2 people for up to 4 days. Maker says 5.8 oz; OutdoorGearLab weighed it at 8 oz. Waterproof inner bag inside a zip pouch.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 5.8,
+          "price_usd": 44.99,
+          "price_seen_at": "adventuremedicalkits.com",
+          "why": "The lightest and most weather-proof of the tested kits, which matters for a bag that gets carried in the rain. It has a 2 in elastic bandage, gauze roll and pads, tape, moleskin and basic medicines. OutdoorGearLab named it best compact kit.",
+          "weakness": "No shears, no trauma pad and no first-aid guide, and the tape is narrow.",
+          "contents_check": {
+            "pieces": null,
+            "elastic_bandage": true,
+            "gauze": true,
+            "tape": true,
+            "add": "Small shears, a second pair of gloves, a 5 x 9 in pad, your own medicines."
+          },
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://adventuremedicalkits.com/products/ultralight-watertight-medical-kit-7",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14. Price, weight and contents read on the page."
+            }
+          ],
+          "link_note": "",
+          "research_note": "link_note was: No Amazon link: no ASIN for this exact kit was seen today.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Adventure Medical Kits",
+              "title": "Ultralight/Watertight .7 First Aid Kit",
+              "url": "https://adventuremedicalkits.com/products/ultralight-watertight-medical-kit-7",
+              "verified": true,
+              "supports": "Price $44.99, 5.8 oz, 1-2 people for 1-4 days, contents including 2 in elastic bandage, gauze and medicines."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Adventure Medical Kits Ultralight/Watertight .7 review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/first-aid-kit/adventure-medical-kits-ultralight-watertight-7",
+              "verified": true,
+              "supports": "Top Pick (best compact kit), measured 8 oz, watertight bag, missing items."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'first aid kit') on 2026-11-14: no results."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No kit under a pound that does more than the Standard has passed this site's checks. A larger trauma kit such as My Medic's MyFAK (about 3 lb) suits the car kit or one shared household bag, not each adult's grab bag."
+      },
+      "research_note": "16 Nov 2026 (P4): My Medic MyFAK removed from Cadillac: it fails this item's own 'under a pound' rule and its 48 oz took the Cadillac version of the bag list then carried every day (since dropped) to 10.2 lb, over its 10 lb target. mymedic.com 2026-11-16: Standard $135.96 sale (regular $169.95), weight given as both 3-4 lb and 2.6-3.6 lb, dimensions as both 11x8x6 and 10.5x7x5 in; no tourniquet in the Standard version."
+    },
+    {
+      "id": "first-aid-kit-home",
+      "module": "bags",
+      "name": "Home first-aid kit: a box you fill from the list",
+      "need": "One full kit at home covers a household for several days without a pharmacy, and it means the small kit in the grab bag stays packed.",
+      "how_to_choose": "Build it. The list is the specification: a latching plastic box of about 12 by 8 inches with a handle, and every line of the list in its size and count. Any sturdy box that size with a lid that latches will do; a clear one shows what is inside. Buy the supplies at a pharmacy, line by line, and the medicines once, from the family medicine cabinet.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, built from the list."
+      },
+      "already_own": "A kit you already own is a head start, not the finished kit. Lay its contents out beside the list, keep what matches a line and is in date, and add the rest.",
+      "safety_notes": [
+        {
+          "text": "The Red Cross says to add your own medicines to a first-aid kit and to check it regularly, replacing anything used or out of date.",
+          "source_name": "American Red Cross",
+          "source_title": "Make a First Aid Kit: What to Include",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html",
+          "verified": true,
+          "research_note": "text was the Red Cross family-of-four contents list. Cut so that the block names one specification, the checklist in U7-07 (prompt 3.7 / A-C25). The page refused automated reading on 2026-11-15 (403); it was read in a browser on 2026-11-14 and is in pending.json for a browser check."
+        },
+        {
+          "text": "Ready.gov lists a first aid kit among the basic items of a disaster supplies kit.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Piece counts on bought kits are inflated by small bandages. Read the contents list against this one."
+      ],
+      "research_note": "item_flags[0] was: No kit was confirmed today against the ANSI/ISEA Z308.1 Class A workplace standard. The picks are family kits, judged against the Red Cross contents list instead. Rewritten for prompt 3.7: U7-07 is the one home-kit specification. | empty_reason.cadillac was: No larger home kit could be verified from two sources today. First Aid Only's product pages (the usual ANSI Class A/B choice) could not be checked, and no test publication covering a premium home kit could be opened. Spending more on the standard kit's refills and on a first-aid class is the better upgrade. The Red Cross store also sells a cheaper 299-piece Deluxe All Purpose kit (item 711442, $34.95 seen 2026-11-14) as an alternative. | 2026-11-16 (name the medicine): the bought kits are no longer picks; the list in data/first-aid-kit.json is the specification and the Red Cross Deluxe Family kit is named once, after the list, as a head start. Old picks: {\"budget\": {\"brand\": \"Johnson & Johnson\", \"model\": \"All-Purpose First Aid Kit\", \"price_usd\": 18.77, \"links\": [\"https://www.amazon.com/dp/B09NWH8553\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"], \"sources\": [\"https://www.outdoorgearlab.com/topics/camping-and-hiking/best-first-aid-kit\", \"https://www.aztekcomputers.com/joj-117210-all-purpose-first-aid-kit-140-x-piece-s-1-johnson-johnson/p\"]}, \"standard\": {\"brand\": \"American Red Cross\", \"model\": \"Deluxe Family First Aid Kit, 115-Piece (Soft Case)\", \"price_usd\": 49.95, \"links\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\"], \"sources\": [\"https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html\", \"https://www.redcross.org/get-help/how-to-prepare-for-emergencies/anatomy-of-a-first-aid-kit.html\"]}}",
+      "tier_note": "The pick is to build it: a latching box of about 12 by 8 inches and the lines of the list. A bought kit is named once, after the list, as a head start.",
+      "tiers": {
+        "budget": null,
+        "standard": null,
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "The list is the specification; build it.",
+        "standard": "The list is the specification; build it.",
+        "cadillac": "The list is the specification; build it."
+      },
+      "list": "first-aid-kit"
+    },
+    {
+      "id": "tourniquet-bleeding",
+      "module": "bags",
+      "name": "Severe-bleeding control: tourniquet and dressings",
+      "need": "Life-threatening bleeding from an arm or leg can kill before an ambulance arrives, and a real tourniquet plus a pressure dressing lets a bystander stop it.",
+      "how_to_choose": "Buy a windlass tourniquet recommended by the Committee on Tactical Combat Casualty Care (CoTCCC), such as the C-A-T Gen 7, and buy it from the maker's distributor or the Stop the Bleed store, never from a marketplace seller. A kit that adds hemostatic gauze, a trauma dressing, gloves and shears is worth the extra cost. Then take a Stop the Bleed class: the kit is of little use without practice.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household to start. Add one per bag if you can."
+      },
+      "already_own": "Only trust a tourniquet you can trace to an authorized seller. If yours came from a marketplace listing, a multi-pack, or cost well under $25, replace it. Practice on a training device, not the one kept for real use: a tourniquet that has been used for practice should be kept for practice only.",
+      "safety_notes": [
+        {
+          "text": "The American College of Surgeons Stop the Bleed course teaches three actions for severe bleeding: apply direct pressure with your hands, pack the wound, and apply a tourniquet. The course is for anyone old enough to understand it. In-person classes have an instructor check your technique, and a virtual course is also offered.",
+          "source_name": "American College of Surgeons Stop the Bleed",
+          "source_title": "Get Trained",
+          "url": "https://www.stopthebleed.org/get-trained/",
+          "verified": true
+        },
+        {
+          "text": "The Stop the Bleed program lists the standard contents of its kits: a C-A-T tourniquet, compressed or hemostatic gauze, an emergency trauma dressing, trauma shears, a marker, gloves and bleeding-control instructions. It sells kits through its own store.",
+          "source_name": "American College of Surgeons Stop the Bleed",
+          "source_title": "Shop",
+          "url": "https://www.stopthebleed.org/shop/",
+          "verified": true
+        },
+        {
+          "text": "The C-A-T's US distributor says the real tourniquets are single-use devices and sells a blue trainer that can be used over and over in training, colored blue to tell it apart from the ones kept for real use. Practice on a training device, not the one kept for real use, and keep a fresh one ready for an emergency.",
+          "source_name": "North American Rescue",
+          "source_title": "What is the difference between the colors of the CAT",
+          "url": "https://www.narescue.com/nar-blog/cat-color-difference.html",
+          "verified": true
+        },
+        {
+          "text": "The blue C-A-T trainer is a working Gen 7 tourniquet made for hands-on training and practice; its color marks it as a training device, separate from personal, life-saving ones.",
+          "source_name": "North American Rescue",
+          "source_title": "Combat Application Tourniquet (C-A-T) - Trainer Blue",
+          "url": "https://www.narescue.com/combat-application-tourniquet-c-a-t-trainer-blue.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Counterfeit tourniquets are common. North American Rescue, the US distributor of the C-A-T, says large numbers of fake C-A-Ts made in China have reached first responders and failed or broken when used. It and the maker obtained a US International Trade Commission general exclusion order so that Customs can seize imports that look like a C-A-T. Genuine C-A-Ts are made only in the United States.",
+        "C-A-T Resources describes itself as the inventor and exclusive manufacturer of the C-A-T and names North American Rescue as its United States distributor.",
+        "Do not buy tourniquets or hemostatic gauze from third-party marketplace sellers (Amazon Marketplace, eBay, Temu and similar). Buy from North American Rescue, the Stop the Bleed store, or another dealer the maker names.",
+        "The Prepared's tourniquet review gives the same warning: if it looks like a C-A-T but does not come from North American Rescue, or costs under $25, do not buy it.",
+        "The blue C-A-T is a training device. Do not carry it as your real tourniquet, and do not practice with the real one."
+      ],
+      "research_note": "item_flags[5] was: ... TacMed's own page could not be opened today (rate limited), so it is not listed as a pick. Practice line (prompt 5.22 / B-K09) written after opening North American Rescue's colour-difference blog and blue-trainer page on 2026-11-15. The maker's instructions-for-use PDF was not read (see nar-cat-single-use in data/sources.json). | item_flags[0] was: Counterfeit tourniquets are common. North American Rescue, the US distributor of the C-A-T, says large numbers of fake C-A-Ts made in China have reached first responders and failed or broken when used. It and the maker obtained a US International Trade Commission general exclusion order so that Customs can seize imports that look like a C-A-T. Genuine C-A-Ts are made only in the United States. Source opened today: https://www.narescue.com/nar-blog/general-exclusion-order-cats.html | item_flags[1] was: C-A-T Resources describes itself as the inventor and exclusive manufacturer of the C-A-T and names North American Rescue as its United States distributor. Source opened today: https://www.combattourniquet.com/ | item_flags[3] was: The Prepared's tourniquet review gives the same warning: if it looks like a C-A-T but does not come from North American Rescue, or costs under $25, do not buy it. Source opened today: https://theprepared.com/gear/reviews/tourniquets/ | item_flags moved off the page: A second CoTCCC-recommended design, the TacMed Solutions SOF Tourniquet Wide, is The Prepared's equal alternative. It is not a pick here because it has not been through this site's checks.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "C-A-T Resources (sold by North American Rescue and the ACS Stop the Bleed store)",
+          "model": "Combat Application Tourniquet (C-A-T) Gen 7",
+          "model_number": "ACS store item 84-0002 (orange)",
+          "size": "One windlass tourniquet. 37.5 in long open, 1.5 in strap. About 6.5 x 2.4 x 1.5 in packaged.",
+          "unit_size": 1,
+          "unit_label": "tourniquet",
+          "weight_oz": 2.7,
+          "price_usd": 28,
+          "price_seen_at": "bleedingcontrolstore.com (ACS Stop the Bleed store); North American Rescue lists it from $34.99",
+          "why": "The most widely issued CoTCCC-recommended tourniquet and The Prepared's top pick, bought here from the Stop the Bleed program's own store so you know it is genuine.",
+          "weakness": "A tourniquet alone does nothing for wounds where a limb tourniquet cannot go, and it needs practice to apply fast.",
+          "links": [
+            {
+              "label": "ACS Stop the Bleed store",
+              "url": "https://www.bleedingcontrolstore.com/all-products/tourniquets/tourniquet-combat-application-org-acs.html",
+              "verified": true,
+              "note": "Orange Gen 7 C-A-T, item 84-0002, $28.00, in stock."
+            },
+            {
+              "label": "US distributor (North American Rescue)",
+              "url": "https://www.narescue.com/combat-application-tourniquet-c-a-t.html",
+              "verified": true,
+              "note": "From $34.99. The page offers no color choice and its text describes the blue training version, so confirm you are buying a black or orange one, or buy the orange one from the Stop the Bleed store.",
+              "research_note": "Opened 2026-11-15: Gen 7, 2.7 oz, from $34.99, CoTCCC recommendation stated. The page text read today did not list the colours."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "North American Rescue",
+              "title": "Combat Application Tourniquet (C-A-T)",
+              "url": "https://www.narescue.com/combat-application-tourniquet-c-a-t.html",
+              "verified": true,
+              "supports": "Gen 7, 2.7 oz, dimensions, 'Recommended by the Committee on Tactical Combat Casualty Care', price from $34.99."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "ACS Stop the Bleed store",
+              "title": "Combat Application Tourniquet C-A-T - Orange",
+              "url": "https://www.bleedingcontrolstore.com/all-products/tourniquets/tourniquet-combat-application-org-acs.html",
+              "verified": true,
+              "supports": "Gen 7, item 84-0002, $28.00, 0.19 lb listed weight, in stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best tourniquet",
+              "url": "https://theprepared.com/gear/reviews/tourniquets/",
+              "verified": true,
+              "supports": "C-A-T Gen 7 named best for most people; CoTCCC approval; counterfeit warning. Article dated 2019."
+            }
+          ],
+          "flags": [
+            "Counterfeits of this exact product are widespread. See the warnings above."
+          ],
+          "flag_check": "openFDA device recalls searched for the C-A-T and for North American Rescue tourniquets on November 14, 2026: no match found, which is not proof that none exists. CPSC does not cover medical devices.",
+          "research_note": "link_note was: No Amazon link on purpose: see the counterfeit warnings."
+        },
+        "standard": {
+          "brand": "American College of Surgeons Stop the Bleed",
+          "model": "Personal STOP THE BLEED Kit",
+          "model_number": "84-0003-c",
+          "size": "C-A-T tourniquet (orange), QuikClot Z-Fold hemostatic dressing, 4 in flat trauma dressing, nitrile gloves, 7.25 in trauma shears, marker, instruction booklet. Store lists 2 lb, which looks like a rounded shipping weight.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 32,
+          "price_usd": 48,
+          "price_seen_at": "bleedingcontrolstore.com (ACS Stop the Bleed store), shown as 'as low as'",
+          "why": "The program's own basic kit: a genuine tourniquet, hemostatic gauze for packing, a pressure dressing, gloves and shears, matched to what the class teaches.",
+          "weakness": "No chest seals, and the listed 2 lb weight is vague; expect it to be bulkier than a lone tourniquet.",
+          "links": [
+            {
+              "label": "ACS Stop the Bleed store",
+              "url": "https://www.bleedingcontrolstore.com/kits/personal-stop-the-bleed-kits.html",
+              "verified": true,
+              "note": "Item 84-0003-c, from $48.00, in stock, contents list read on the page."
+            }
+          ],
+          "link_note": "The 32 oz weight is the store's listed figure, not a measured kit weight.",
+          "research_note": "Kept as Standard after checks on 2026-11-15 (prompt 5.22): bleedingcontrolstore.com kit page reopened (84-0003-c, from $48.00, in stock, contents as listed, 2 lb); stopthebleed.org/shop reopened and links its At Home kits and tourniquets to bleedingcontrolstore.com, which is the authenticity route; The Prepared reopened (C-A-T Gen 7 best for most people; buy from North American Rescue; under $25 or not from NAR, do not buy).",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "ACS Stop the Bleed store",
+              "title": "Personal STOP THE BLEED Kit",
+              "url": "https://www.bleedingcontrolstore.com/kits/personal-stop-the-bleed-kits.html",
+              "verified": true,
+              "supports": "Item number, price, exact contents, listed weight."
+            },
+            {
+              "type": "standard_listing",
+              "name": "American College of Surgeons Stop the Bleed",
+              "title": "Shop",
+              "url": "https://www.stopthebleed.org/shop/",
+              "verified": true,
+              "supports": "The program's description of its kits and their standard contents, and the link to this store."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best tourniquet",
+              "url": "https://theprepared.com/gear/reviews/tourniquets/",
+              "verified": true,
+              "supports": "Independent support for the C-A-T Gen 7 that the kit is built around."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall notice on the store pages opened 2026-11-14. openFDA device-recall queries for the tourniquet returned no match (see budget tier)."
+        },
+        "cadillac": {
+          "brand": "American College of Surgeons Stop the Bleed",
+          "model": "Premium Personal STOP THE BLEED Kit - Enhanced",
+          "model_number": "84-0022-c",
+          "size": "Everything in the Personal kit plus a twin pack of HyFin vented chest seals and a 56 x 96 in survival blanket. Store lists 2 lb.",
+          "unit_size": 1,
+          "unit_label": "kit",
+          "weight_oz": 32,
+          "price_usd": 78,
+          "price_seen_at": "bleedingcontrolstore.com (ACS Stop the Bleed store), shown as 'as low as'",
+          "why": "The complete personal kit from the program itself: tourniquet, hemostatic gauze, trauma dressing, chest seals, blanket, gloves and shears in one pouch.",
+          "weakness": "Chest seals need training to use well, and the kit costs nearly three times a lone tourniquet.",
+          "links": [
+            {
+              "label": "ACS Stop the Bleed store",
+              "url": "https://www.bleedingcontrolstore.com/kits/premium-personal-stop-the-bleed-kit-enhanced.html",
+              "verified": true,
+              "note": "Item 84-0022-c, from $78.00, in stock, contents list read on the page."
+            }
+          ],
+          "link_note": "The 32 oz weight is the store's listed figure.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "ACS Stop the Bleed store",
+              "title": "Premium Personal STOP THE BLEED Kit - Enhanced",
+              "url": "https://www.bleedingcontrolstore.com/kits/premium-personal-stop-the-bleed-kit-enhanced.html",
+              "verified": true,
+              "supports": "Item number, price, exact contents, listed weight."
+            },
+            {
+              "type": "standard_listing",
+              "name": "American College of Surgeons Stop the Bleed",
+              "title": "Shop",
+              "url": "https://www.stopthebleed.org/shop/",
+              "verified": true,
+              "supports": "Program kit contents; chest seals are part of the enhanced kits."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall notice on the store pages opened 2026-11-14. openFDA device-recall queries for the tourniquet returned no match (see budget tier)."
+        }
+      }
+    },
+    {
+      "id": "respirator-n95",
+      "module": "bags",
+      "name": "N95 respirators",
+      "need": "A NIOSH-approved N95 filters wildfire smoke, building dust and airborne germs in a way that cloth and surgical masks do not.",
+      "how_to_choose": "Buy only NIOSH-approved respirators with two head straps and a TC-84A approval number printed on them, from a known retailer. Fit matters as much as the filter: try a model before you need it, and pick another shape if it leaks at the edges. Respirators with an exhalation valve are cooler to wear but do not filter the air you breathe out.",
+      "qty": {
+        "basis": "per_wearer",
+        "factor": 1,
+        "note": "6 for each person who can wear one, the same at every level: this site's assumption of 2 a day for 3 smoky days, not an official figure. This site counts adults and teenagers aged 14 or over. No respirator is counted for a child under 14, and none is ever put on a child under 2."
+      },
+      "already_own": "Leftover N95s are fine if they are a NIOSH-approved model, the straps still stretch and the nose foam is intact. Look up the TC number on the NIOSH Certified Equipment List. KN95s and ear-loop masks are not NIOSH approved.",
+      "safety_notes": [
+        {
+          "text": "A NIOSH-approved N95 is marked with the approval holder's name or logo, the word NIOSH, a TC approval number in the form TC-84A-XXXX, the model number and the filter class (such as N95). A respirator missing any of these is not NIOSH approved. The easiest check is to search the TC number in the NIOSH Certified Equipment List.",
+          "source_name": "CDC / NIOSH",
+          "source_title": "Identifying NIOSH Approved Respirators",
+          "url": "https://www.cdc.gov/niosh/ppe/niosh-approved-respirators/index.html",
+          "verified": true
+        },
+        {
+          "text": "The NIOSH Certified Equipment List is the official list of approved respirators. The model and approval number on the product must match the listing.",
+          "source_name": "CDC / NIOSH",
+          "source_title": "Certified Equipment List Search",
+          "url": "https://wwwn.cdc.gov/niosh-cel/",
+          "verified": true
+        },
+        {
+          "text": "NIOSH warns about counterfeit and misrepresented respirators. On marketplaces, be wary of listings that insist the product is 'genuine' or 'legitimate', sellers that move between trending products, big price swings, prices too good to be true and claims of unlimited stock during a shortage.",
+          "source_name": "CDC / NIOSH",
+          "source_title": "Counterfeit/Misrepresented Respirators",
+          "url": "https://www.cdc.gov/niosh/ppe/counterfeit_respirators/index.html",
+          "verified": true
+        },
+        {
+          "text": "For wildfire smoke, EPA says to use a respirator printed with NIOSH and a filter class such as N95 or P100. Paint masks, dust masks and surgical masks do not prevent smoke inhalation. The respirator must sit tightly over the nose and under the chin with both straps around the head; check the seal each time, because any gap lets smoke in. Take frequent breaks, drink water, and take it off as soon as you can if you feel dizzy or have trouble breathing.",
+          "source_name": "US EPA",
+          "source_title": "Strategies to Reduce Exposure Outdoors (Wildfire Smoke and Your Patients' Health)",
+          "url": "https://www.epa.gov/wildfire-smoke-course/strategies-reduce-exposure-outdoors",
+          "verified": true
+        },
+        {
+          "text": "Children: CDC says children aged 2 and older can wear respirators and masks, but NIOSH Approved respirators do not come in sizes suitable for very young children, and smaller sizes may not have been designed or tested for children. FDA says N95s are not designed for children or for people with facial hair. This site counts no respirator for a child under 14 and never puts one on a child under 2; a young child's protection is the clean room.",
+          "source_name": "CDC",
+          "source_title": "Safety Guidelines: Wildfires and Wildfire Smoke",
+          "url": "https://www.cdc.gov/wildfires/safety/how-to-safely-stay-safe-during-a-wildfire.html",
+          "verified": true
+        },
+        {
+          "text": "FDA says people with chronic breathing or heart conditions should check with a health-care provider before using an N95. N95s are single-use: replace one that is damaged, dirty or hard to breathe through. A surgical mask does not filter very small particles in the air.",
+          "source_name": "FDA",
+          "source_title": "N95 Respirators, Surgical Masks, Face Masks, and Barrier Face Coverings",
+          "url": "https://www.fda.gov/medical-devices/personal-protective-equipment-infection-control/n95-respirators-surgical-masks-face-masks-and-barrier-face-coverings",
+          "verified": true
+        },
+        {
+          "text": "Ready.gov's basic kit list includes a dust mask to help filter contaminated air. A NIOSH-approved N95 is the stronger choice for smoke, per EPA above.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Counterfeit and falsely labeled respirators are sold on marketplaces. Buy from the maker's named retailers, a hardware store or a safety supplier, and check the TC number against the NIOSH list.",
+        "No NIOSH-approved respirator is sized for very young children. A small adult respirator on a child is not a tested fit. For young children the plan is to keep them in the clean room, out of smoke and dust, not to rely on a mask.",
+        "Box and pack counts differ between the picks, so compare the price per respirator."
+      ],
+      "research_note": "qty was per_person with a note of 6 per person; changed to per_wearer to match data/product-levels.json (prompt 3.1 / A-C2). The children note was sourced to EPA; now to CDC's wildfire safety page, opened 2026-11-15 (prompt 3.1). item_flags[2] was: No Amazon links are given: no ASIN for these respirators was seen in a trusted page today. item_flags[3] was: Prices and box counts are missing for the 3M picks: 3M's pages show neither, and no retailer page could be opened today (stale: retailer prices were added on 2026-11-15). 3M's own product pages refused automated reading on 2026-11-15 (403); NIOSH approvals were confirmed on the Certified Equipment List instead. | item_flags moved off the page: No marketplace links are given: NIOSH warns that counterfeit respirators are sold on marketplaces.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "3M",
+          "model": "Particulate Respirator 8210, N95",
+          "model_number": "8210",
+          "niosh_tc": "TC-84A-0007",
+          "size": "Cup-shaped disposable N95, two head straps, no exhalation valve, one size. 5-year shelf life per 3M.",
+          "unit_size": 3,
+          "unit_label": "box of 20",
+          "weight_oz": null,
+          "price_usd": 27.99,
+          "unit_price": "about $1.40 a respirator",
+          "price_seen_at": "Quill.com (3M 8210, box of 20), seen 2026-11-15",
+          "why": "The basic, long-established cup N95. Its NIOSH approval (TC-84A-0007) is active on NIOSH's Certified Equipment List, and it has no valve, so it also filters what you breathe out.",
+          "weakness": "The stiff cup shape is bulky in a bag and fits fewer face shapes than a folding design.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00037937/",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14 (3M refuses the fetch tool; 403 again on 2026-11-15). Page is for the 8210: NIOSH approved, no exhalation valve, cup style, 5-year shelf life."
+            },
+            {
+              "label": "Quill (retailer)",
+              "url": "https://www.quill.com/3m-disposable-particulate-respirator-n95-20-pack-8210/cbs/062664.html",
+              "verified": true,
+              "note": "Page shows 3M 8210 N95, 20 per box, $27.99."
+            }
+          ],
+          "link_note": "A box of 20 covers 3 people at 6 each. Prices vary between sellers; buy from a known retailer.",
+          "research_note": "link_note was: Box count of 20 confirmed on the Quill retailer page (3M's own page does not state it). Arithmetic: 2 per person per day x 3 days = 6 per person; 20 / 6 = 3.3, rounded down to 3 people. Cheaper prices exist elsewhere; check at purchase and beware counterfeits. | price_seen_at was: ...; other retailers listed it from about $17 to $25 in search results. NIOSH CEL 84A-0007 reopened 2026-11-15: active, 8210 listed; Quill reopened 2026-11-15: $27.99 for 20.",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "NIOSH Certified Equipment List",
+              "title": "Approval details 84A-0007",
+              "url": "https://wwwn.cdc.gov/NIOSH-CEL/ApprovalDetails?schedule=84A&approvalNum=0007",
+              "verified": true,
+              "supports": "3M Company, active approval, models 8110S, 8210, 8216, 8217, 7048, 8210Plus, N95 filtering facepiece, approved 8/16/1995."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "3M",
+              "title": "3M Particulate Respirator, 8210",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00037937/",
+              "verified": true,
+              "supports": "NIOSH-approved N95, no valve, cup style, one size, 5-year shelf life."
+            }
+          ],
+          "flags": [
+            "Counterfeit N95s are common; buy from a known retailer."
+          ],
+          "flag_check": "CPSC recalls searched for 'respirator' on November 14, 2026: nothing relevant. openFDA device recalls for 3M N95s: no match found. NIOSH lists the approval as active (checked November 16, 2026)."
+        },
+        "standard": {
+          "brand": "3M",
+          "model": "Aura Particulate Respirator 9205+, N95",
+          "model_number": "9205+",
+          "niosh_tc": "TC-84A-8590",
+          "size": "Flat-fold three-panel disposable N95, two head straps, no exhalation valve.",
+          "unit_size": 1,
+          "unit_label": "pack of 10",
+          "weight_oz": null,
+          "price_usd": 25.98,
+          "unit_price": "about $2.60 a respirator",
+          "price_seen_at": "SOS Products (3M Aura 9205+, pack of 10), seen 2026-11-15",
+          "why": "Folds flat, so a few fit in a coat pocket or a bag lid, and the three-panel shape seals on more faces than a cup. Its NIOSH approval (TC-84A-8590) is active on NIOSH's Certified Equipment List. No valve.",
+          "weakness": "Because it is popular it is also a counterfeit target; buy from a known retailer.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00051022/",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14 (403 to the fetch tool on 2026-11-15). Page is for the Aura 9205+: NIOSH approved N95, no exhalation valve."
+            },
+            {
+              "label": "SOS Products (retailer)",
+              "url": "https://sosproducts.com/N95-Particulate-Respirators-10-Pack-p/281536.htm",
+              "verified": true,
+              "note": "Page shows 3M Aura 9205+ N95, 10 per pack, $25.98."
+            }
+          ],
+          "link_note": "A pack of 10 covers 1 person at 6 each. The 9205+ is NIOSH approval TC-84A-8590: check that number on the mask. This retailer's page prints TC-84A-4010, which NIOSH lists for a different maker's respirator.",
+          "research_note": "link_note was: Switched to the 10-pack, confirmed on the SOS Products page (3M's own page does not state counts). 6 masks per person for 3 days; a pack of 10 covers 1 person. The NIOSH number for 9205+ is TC-84A-8590 per the CEL; that retailer page printed a different number (4010), which is wrong and was ignored. | price_seen_at was: ...; other retailers listed $11.50 to $25 in search results. NIOSH CEL 84A-8590 reopened 2026-11-15: 3M, not obsolete, 9205+, approved 3/23/2020, so the Standard stands (prompt 3.1). SOS Products reopened 2026-11-15: $25.98 for 10, 10 in stock.",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "NIOSH Certified Equipment List",
+              "title": "Approval details 84A-8590",
+              "url": "https://wwwn.cdc.gov/NIOSH-CEL/ApprovalDetails?schedule=84A&approvalNum=8590",
+              "verified": true,
+              "supports": "3M Company, active approval, 'Model 9205+ N95 Filtering Facepiece', approved 3/23/2020."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "3M",
+              "title": "3M Aura Particulate Respirator 9205+",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00051022/",
+              "verified": true,
+              "supports": "NIOSH approved N95, no valve, three-panel flat-fold design."
+            }
+          ],
+          "flags": [
+            "Counterfeit N95s are common; buy from a known retailer."
+          ],
+          "flag_check": "CPSC recalls searched for 'respirator' on November 14, 2026: nothing relevant. openFDA device recalls for 3M N95s: no match found. NIOSH lists the approval as active (checked November 16, 2026)."
+        },
+        "cadillac": {
+          "brand": "3M",
+          "model": "Half Facepiece Respirator Assembly 6291 (6200 medium facepiece with 2091 P100 filters)",
+          "model_number": "6291 / 07002",
+          "niosh_tc": "TC-84A-0022",
+          "size": "Reusable elastomeric half mask, medium, with one pair of bayonet-mount P100 filters. Also sold as 6191 (small) and 6391 (large).",
+          "unit_size": 1,
+          "unit_label": "respirator with one pair of filters",
+          "weight_oz": null,
+          "price_usd": 23.56,
+          "unit_price": "one reusable mask; replacement filters are bought separately",
+          "price_seen_at": "homelectrical.com (3M 6291 with 2091 filters), seen 2026-11-15",
+          "why": "A reusable mask with replaceable P100 filters seals better than a disposable, lasts for days of smoke or dust, and one mask replaces a whole box of N95s for the person it fits.",
+          "weakness": "It has an exhalation valve, so it does not filter the air you breathe out. It must be the right size, will not seal over a beard, does not fit children, and looks conspicuous on transit.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.3m.com/3M/en_US/p/d/v000152048/",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14; 403 to the fetch tool on 2026-11-15. Page is for the 6291/07002 medium assembly with 2091 P100 filters and states it is NIOSH approved."
+            }
+          ],
+          "link_note": "",
+          "research_note": "link_note was: TC-84A-0022 covers 6000-series half masks with 2091 filters per the CEL (SKU 6291 not named there). Price is from one small retailer and its label was not explicit; treat as approximate. CEL 84A-0022 reopened 2026-11-15: 3M, not obsolete, product line 6000, 7501, 7502, 7503 with 2091, P100, approved 9/12/1995. homelectrical.com reopened 2026-11-15: $23.56, in stock, includes 2091 P100 filters, 'NIOSH approved' stated; the price is not labelled for the item. 3M's page refused automated reading on 2026-11-15, so the maker's NIOSH statement was not re-read today. | link_note was: NIOSH's list names this mask's 6000 series with these filters, not the 6291 kit number itself. The price comes from one small retailer; treat it as approximate.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "3M",
+              "title": "3M Half Facepiece Respirator Assembly 6291/07002(AAD), Medium, with 3M Particulate Filters 2091/07000(AAD), P100",
+              "url": "https://www.3m.com/3M/en_US/p/d/v000152048/",
+              "verified": true,
+              "supports": "Model, P100 filter class, NIOSH-approved statement, bayonet filters, medium size, 6000 series."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best gas masks and respirators for survival",
+              "url": "https://theprepared.com/gear/reviews/best-gas-mask-respirator-survival/",
+              "verified": true,
+              "supports": "Recommends 3M reusable half masks (7500 and 6500 series) with 3M P100 filters; notes NIOSH certifies no masks for children and that half masks do not work with facial hair. Article dated 2022."
+            },
+            {
+              "type": "standard_listing",
+              "name": "NIOSH Certified Equipment List",
+              "title": "Approval details 84A-0022",
+              "url": "https://wwwn.cdc.gov/NIOSH-CEL/ApprovalDetails?schedule=84A&approvalNum=0022",
+              "verified": true,
+              "supports": "3M Company, active, P100 half mask, models 6000, 7501, 7502, 7503 with 2091 filter, approved 9/12/1995. The 6291 is a 6200 (6000 series) facepiece with 2091 filters, so this is the matching approval; the CEL does not name the 6291 SKU itself."
+            }
+          ],
+          "flags": [
+            "Check the TC approval number on the mask and filters: NIOSH's list names the 6000 series, not this kit number.",
+            "Has an exhalation valve.",
+            "Price approximate."
+          ],
+          "flag_check": "Queried the CPSC recall database (title search 'respirator') on 2026-11-14: nothing relevant. NIOSH approval number not confirmed (see link note)."
+        }
+      }
+    },
+    {
+      "id": "multi-tool",
+      "module": "bags",
+      "name": "Multi-tool kept at home",
+      "need": "Pliers, a blade, scissors and screwdrivers in one tool kept at home let you shut a valve, cut tape or cord, open packaging and make small repairs.",
+      "how_to_choose": "This is the tool that stays at home, so weight matters less than in a bag: strong pliers, good scissors and a blade that holds an edge matter more than tool count. Every pick here has a locking knife blade, so it is not the tool for the grab bag; that is the bladeless pocket tool.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, kept at home."
+      },
+      "already_own": "Any pliers-based multi-tool from a known brand that opens smoothly and has a sharp blade is good enough. A Swiss Army-style knife with scissors covers most needs at home if you also keep a small pair of pliers.",
+      "safety_notes": [
+        {
+          "text": "TSA does not allow multi-tools with knives of any length in carry-on bags; they must go in checked bags. Multi-tools with scissors shorter than 4 inches and no knife may be carried on. The officer at the checkpoint makes the final decision.",
+          "source_name": "TSA",
+          "source_title": "Multi-tools",
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/multi-tools",
+          "verified": true
+        },
+        {
+          "text": "Ready.gov's basic kit list includes a wrench or pliers to turn off utilities.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "CPSC announced a recall of Leatherman Charge Plus and Charge Plus TTi multi-tools on July 31, 2025, because the blade tip does not fully fold into the handle. Owners are told to stop using them and check leatherman.com/pages/charge-recall for a free repair.",
+          "source_name": "US Consumer Product Safety Commission",
+          "source_title": "Leatherman Recalls Charge Plus Multi-Tools Due to Laceration Hazard",
+          "url": "https://www.cpsc.gov/Recalls/2025/Leatherman-Recalls-Charge-Plus-Multi-Tools-Due-to-Laceration-Hazard",
+          "verified": true,
+          "research_note": "Opened with WebFetch on 2026-11-16 (recall 25-414; sold July 2024 to March 2025)."
+        }
+      ],
+      "item_flags": [
+        "Every pick has a locking knife blade. Keep it at home; the grab bag takes the bladeless pocket tool.",
+        "Leatherman recalled its Charge Plus and Charge Plus TTi multi-tools in July 2025 for a laceration hazard; if you own one, read the recall notice. Neither is a pick here.",
+        "Knife law is local. Chicago, for one, bars carrying a concealed knife with a blade more than 2.5 inches long (Municipal Code 8-24-020), and every pick here has a longer blade: Leatherman lists 2.6 in for the Wingman and 2.92 in for the Wave+. Check your own city's code."
+      ],
+      "research_note": "Split for prompt 6.11 / A-W6: this item is now the bladed tool kept at home (module and level unchanged in data/product-levels.json); multi-tool-bladeless is the grab-bag tool. qty was per_adult x 0.5 ('one for every two adults; one per household is enough to start'); now one per household. item_flags[0] was: Carry limits: knife laws differ by city and state, including limits on blade length and on locking or one-hand-opening blades. Courthouses, schools, government offices, stadiums and many office towers ban knives outright. Check your own city's rules; no local law was verified for this batch. If your bag goes through security often, keep the multi-tool at home or at your desk. The knife-law sentence is left to the main session (prompt 6.11). Picks were not re-researched on 2026-11-15: leatherman.com answered 429 to every try. | item_flags[1] was: Recall, not for these picks: on 2025-07-31 Leatherman recalled Charge Plus and Charge Plus TTi multi-tools for a laceration hazard (CPSC). The Charge+ TTi is The Prepared's upgrade pick, so it was left out here. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Leatherman ARC (833074), $249.95 at leatherman.com; sources: Leatherman https://www.leatherman.com/products/arc; OutdoorGearLab https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-arc. Owner names the $250 multi-tool as not buying anything the job needs (prompt 6.3).",
+      "tier_note": "Two picks: a pricier tool mainly adds one-handed opening and better blade steel, which jobs at home do not need.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Leatherman",
+          "model": "Wingman",
+          "model_number": "831426",
+          "size": "14 tools. 7 oz. 3.8 in closed. Combo knife blade 2.6 in (Leatherman; OutdoorGearLab measured about 2.4 in of edge). Pocket clip.",
+          "unit_size": 1,
+          "unit_label": "tool",
+          "weight_oz": 7,
+          "price_usd": 49.95,
+          "price_seen_at": "leatherman.com",
+          "why": "The cheapest name-brand pliers tool that tested well: spring-loaded pliers, wire cutters, good scissors and a 25-year warranty. OutdoorGearLab's best-value pick.",
+          "weakness": "The part-serrated blade is short and harder to sharpen, and the Phillips driver is a flattened compromise.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.leatherman.com/products/wingman",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14 (the store rate-limits the fetch tool). $49.95, SKU 831426, 14 tools, 7 oz, 25-year warranty."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B005DI0XM4",
+              "verified": false,
+              "note": "",
+              "research_note": "note was: Amazon blocked automated access (HTTP 503). ASIN seen today in OutdoorGearLab's link for the Wingman."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Leatherman",
+              "title": "Leatherman Wingman Multi-tool",
+              "url": "https://www.leatherman.com/products/wingman",
+              "verified": true,
+              "supports": "Price, SKU, tool list, weight, warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Leatherman Wingman Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-wingman",
+              "verified": true,
+              "supports": "Best Bang for the Buck, 6.8 oz measured, dimensions, blade edge length, strengths and weaknesses."
+            }
+          ],
+          "flags": [
+            "Locking knife blade: not allowed in airport carry-on bags. Keep it at home."
+          ],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'Leatherman') on 2026-11-14: two recalls, Charge Plus/Charge Plus TTi (2025) and Leap (2014). None for the Wingman."
+        },
+        "standard": {
+          "brand": "Leatherman",
+          "model": "Wave+ (Wave Plus)",
+          "model_number": "832533",
+          "size": "18 tools. 8.5 oz. 4 in closed. Main blade 2.92 in (Leatherman; OutdoorGearLab measured about 2.8 in of edge) plus a serrated blade. No pocket clip.",
+          "unit_size": 1,
+          "unit_label": "tool",
+          "weight_oz": 8.5,
+          "price_usd": 129.95,
+          "price_seen_at": "leatherman.com",
+          "why": "The benchmark full-size multi-tool: strong pliers with replaceable cutters, two blades, saw, scissors, files and bit drivers. Top pick of both OutdoorGearLab and The Prepared.",
+          "weakness": "Heavy in a pocket, no clip or sheath in the box, and the bit driver takes Leatherman's own flat bits.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.leatherman.com/products/wave",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser on 2026-11-14. $129.95, SKU 832533, 18 tools."
+            }
+          ],
+          "link_note": "",
+          "research_note": "link_note was: No Amazon link: no ASIN for the Wave+ was seen today (OutdoorGearLab links to REI). The 8.5 oz weight comes from OutdoorGearLab's measurement and from Leatherman's comparison table on its ARC page.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Leatherman",
+              "title": "Leatherman Wave Plus Multi-tool",
+              "url": "https://www.leatherman.com/products/wave",
+              "verified": true,
+              "supports": "Price, SKU, 18-tool list."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Leatherman Wave+ Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/leatherman-wave-plus",
+              "verified": true,
+              "supports": "Editors' Choice (best for most people), 8.5 oz, dimensions, blade length, weaknesses."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best survival & EDC multitool",
+              "url": "https://theprepared.com/gear/reviews/multitool/",
+              "verified": true,
+              "supports": "Wave+ named best overall. Article dated 2022."
+            }
+          ],
+          "flags": [
+            "Two locking knife blades: not allowed in airport carry-on bags. Keep it at home."
+          ],
+          "flag_check": "Queried the CPSC recall database (title search 'Leatherman') on 2026-11-14: no recall for the Wave+."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "The $250 ARC opens every tool one-handed and has better blade steel; shutting a valve, cutting tape and small repairs at home do not need either."
+      }
+    },
+    {
+      "id": "multi-tool-bladeless",
+      "module": "bags",
+      "name": "Bladeless pocket tool for the grab bag",
+      "need": "Pliers, scissors and screwdrivers with no knife blade let you grip, cut tape and tighten things on the way home, in a tool you can keep in a bag that goes where knives are refused.",
+      "how_to_choose": "Look for a tool the maker sells as bladeless, with real pliers, scissors and at least one flat and one Phillips screwdriver. Some makers sell such tools for travel or for workplaces with a no-knife rule. Lighter is better in the grab bag. A bladeless tool can still be stopped at a checkpoint: the officer or guard decides.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, in a grab bag."
+      },
+      "already_own": "A pliers tool you own that has no knife blade, or a small pair of pliers and a screwdriver, will do. A tool with a blade belongs at home, not in the grab bag.",
+      "safety_notes": [
+        {
+          "text": "TSA does not allow multi-tools with knives of any length in carry-on bags. Multi-tools with scissors shorter than 4 inches may go in carry-on bags. The TSA officer makes the final decision at the checkpoint.",
+          "source_name": "TSA",
+          "source_title": "Multi-tools",
+          "url": "https://www.tsa.gov/travel/security-screening/whatcanibring/items/multi-tools",
+          "verified": true
+        },
+        {
+          "text": "Ready.gov's basic kit list includes a wrench or pliers to turn off utilities.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Knife law is local. Chicago, for one, bars carrying a concealed knife with a blade more than 2.5 inches long (Municipal Code 8-24-020). A bladeless tool avoids that question; check your own city's code."
+      ],
+      "research_note": "New item for prompt 6.11 / A-W6, researched 2026-11-15. Candidates: Leatherman Style PS (GearJunkie 2017 test and Pack Hacker 2023 review opened; leatherman.com answered 429 three times, and several retailers in search results mark it discontinued, so not used); Gerber Dime Travel (gerbergear.com page not found, a West Marine result says no longer available; not used); NexTool Mini Sailor Lite (maker page failed with a certificate error; the Gadgeteer's June 2026 guide opened but says it did not test hands-on; not used). The knife-law sentence is left to the main session. | 16 Nov 2026 (P4): gerbergear.com reopened: 30-000952N, $129.99, in stock, no knife, RemGrit saw, 4.6 in, 9.0 oz, 'Complies with' no-knife workplace policy, no TSA statement. Gerber multi-tools collection (first 16 of 79 shown) lists no other bladeless tool. Leatherman Style PS page: discontinued, sold out, 1.58 oz, $30. Victorinox Jetsetter (Gear Patrol) has scissors and a Phillips driver but no pliers, so it fails how_to_choose. TSA saws page would not open. | item_flags moved off the page: Leatherman's Style PS, the best-known small pliers tool with no blade, is discontinued by its maker, and no other small bladeless pliers tool has passed this site's checks. The only pick is a full-size tool that adds about 9 oz to the grab bag.",
+      "tier_note": "One pick: the small bladeless pliers tools have been discontinued, so the only one here is a full-size tool that adds about 9 oz to the grab bag.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Gerber",
+          "model": "Multi-Plier 600 - Bladeless",
+          "model_number": "30-000952N",
+          "size": "Full-size pliers tool with no knife blade. 4.6 in closed, 9.0 oz. Wire cutters, scissors, flat screwdrivers in three sizes, a Phillips screwdriver, can and bottle openers, a file, a ruler and a small replaceable grit saw.",
+          "unit_size": 1,
+          "unit_label": "tool",
+          "weight_oz": 9,
+          "price_usd": 129.99,
+          "price_seen_at": "gerbergear.com, in stock, seen November 16, 2026",
+          "why": "A maker-designed bladeless version of a long-standing full-size pliers tool, with the pliers, scissors and screwdrivers a grab bag needs and no knife. Gerber says it complies with no-knife workplace policies.",
+          "weakness": "At 9 oz and 4.6 in it is heavy and bulky for the grab bag, and the small saw may still be questioned at a checkpoint.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://gerbergear.com/products/multi-plier-600-bladeless-30-000952n",
+              "verified": true,
+              "note": "Product 30-000952N, $129.99, in stock."
+            }
+          ],
+          "link_note": "",
+          "research_note": "No Amazon link: no ASIN was seen today. Gear Patrol's February 2024 guide (opened 2026-11-15) lists this tool as its bladeless full-size pick at $105 and says Gerber calls it TSA-friendly; it does not say it tested it. OutdoorGearLab's 2016 review (opened 2026-11-15) tested an MP600 that appears to be the bladed version: sliding one-hand pliers, solid build; bulky, pliers tips poke out when closed, small tools hard to open, hinges loosen with use; score 66, no award. | weakness was: At 9 oz and 4.6 in it is heavy and bulky for the grab bag, the small saw may still be questioned at a checkpoint, and the only hands-on test found was of the bladed version. | link_note was: The test review covers the bladed version of the same tool.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Gerber",
+              "title": "Multi-Plier 600 - Bladeless",
+              "url": "https://gerbergear.com/products/multi-plier-600-bladeless-30-000952n",
+              "verified": true,
+              "supports": "Bladeless, tool list, 4.6 in closed, 9.0 oz, $129.99, in stock, limited lifetime warranty, 'complies with no knife policy in the workplace'."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Gerber Multi-Plier 600 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/multi-tool/gerber-multi-plier-600",
+              "verified": true,
+              "supports": "Hands-on test of the same tool body (the bladed version, 2016): one-handed sliding pliers and sturdy build; bulky, small tools hard to open, hinges loosen over time."
+            },
+            {
+              "type": "test_publication",
+              "name": "Gear Patrol",
+              "title": "The Best TSA-Approved Pocket Knives & EDC",
+              "url": "https://www.gearpatrol.com/outdoors/a45618723/tsa-approved-pocket-knives-edc/",
+              "verified": true,
+              "supports": "Names the Multi-Plier 600 Bladeless as its full-size bladeless pick (February 2024)."
+            }
+          ],
+          "flags": [
+            "Bladeless, but it has a small grit saw; a checkpoint officer or guard may still refuse it."
+          ],
+          "flag_check": "Searched cpsc.gov for Gerber multi-plier recalls on 2026-11-15: none found (older Gerber knife and axe recalls only)."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "No cheaper bladeless tool with pliers and screwdrivers was checked against two sources.",
+        "cadillac": "No other bladeless pliers tool was checked against two sources."
+      }
+    },
+    {
+      "id": "whistle",
+      "module": "bags",
+      "name": "Safety whistle",
+      "need": "A whistle carries much farther than a voice and takes little breath, which matters if you are trapped, hurt, or trying to regroup in a crowd.",
+      "how_to_choose": "Choose a pealess whistle, which has no ball to jam or freeze, with a decibel rating published by the maker. Clip it to the bag's shoulder strap or a key ring, not inside the bag.",
+      "qty": {
+        "basis": "per_person",
+        "factor": 1,
+        "note": "One per person, children included."
+      },
+      "already_own": "A pealess sports or marine whistle you already own is fine. Test it outdoors: if it is painfully loud at arm's length, it will do.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's basic disaster kit list includes a whistle to signal for help.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Decibel figures are the maker's own ratings.",
+        "These whistles are loud enough to hurt ears at close range. Do not let children blow them near anyone's head."
+      ],
+      "tier_note": "Two picks: a whistle that costs more is barely louder than the Standard.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "Fox 40",
+          "model": "Classic",
+          "model_number": "",
+          "size": "3-chamber pealess whistle, 115 dB per the maker. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "whistle",
+          "weight_oz": null,
+          "price_usd": 5.62,
+          "price_seen_at": "Swim2000.com, Fox 40 Classic Safety Whistle, $5.62 on sale (regular $7.49), seen November 16, 2026",
+          "why": "The standard pealess safety whistle, with a 115 dB rating published by the maker and nothing to jam.",
+          "weakness": "The hard mouthpiece is less comfortable to hold in your teeth than the cushioned versions.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.fox40world.com/classic",
+              "verified": true,
+              "note": "Fox 40 Classic, 115 dB, 3-chamber pealess."
+            },
+            {
+              "label": "Swim2000 (retailer)",
+              "url": "https://www.swim2000.com/products/fox-40-classic-safety-whistle",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Fox 40",
+              "title": "Fox 40 Classic",
+              "url": "https://www.fox40world.com/classic",
+              "verified": true,
+              "supports": "115 dB, 3-chamber pealess design."
+            },
+            {
+              "type": "test_publication",
+              "name": "TruePrepper",
+              "title": "Best Emergency Whistles | Tested & Reviewed",
+              "url": "https://trueprepper.com/emergency-whistle-survival/",
+              "verified": true,
+              "supports": "Hands-on decibel-meter test; lists the Classic at 115 dB, 4000 Hz, about $6."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'whistle') on 2026-11-14: no Fox 40 recall.",
+          "research_note": "price_seen_at was: TruePrepper review comparison table (updated Aug 2026); retailer pages (REI, Scheels, Walmart) blocked automated access | price_seen_at was: TruePrepper review comparison table (updated Aug 2026) (price_usd 6) | link_note was: Price is TruePrepper's published figure (August 2026), not a shop's price. | swim2000.com opened 2026-11-16: Fox 40 Classic Safety Whistle, SKU 9902-0000, $5.62 sale (regular $7.49), 12 colors, black backordered."
+        },
+        "standard": {
+          "brand": "Fox 40",
+          "model": "Sonik Blast CMG",
+          "model_number": "",
+          "size": "2-chamber pealess whistle with cushioned mouth grip, 120 dB per the maker. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "whistle",
+          "weight_oz": null,
+          "price_usd": 8.99,
+          "price_seen_at": "Swim2000.com, Fox 40 Sonik Blast CMG Safety Whistle, $8.99 on sale (regular $11.99), seen November 16, 2026",
+          "why": "The loudest whistle Fox 40 makes, at a rated 120 dB, with a soft mouth grip that is easier to hold when you are cold or out of breath.",
+          "weakness": "Slightly larger than the Classic, and the rating is the maker's own.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.fox40world.com/sonik-blast-cmg",
+              "verified": true,
+              "note": "Fox 40 Sonik Blast CMG, 120 dB, pealess, cushioned mouth grip."
+            },
+            {
+              "label": "Swim2000 (retailer)",
+              "url": "https://www.swim2000.com/products/fox-40-sonik-blast-9203",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Fox 40",
+              "title": "Fox 40 Sonik Blast CMG",
+              "url": "https://www.fox40world.com/sonik-blast-cmg",
+              "verified": true,
+              "supports": "120 dB, 2-chamber pealess, cushioned mouth grip."
+            },
+            {
+              "type": "test_publication",
+              "name": "TruePrepper",
+              "title": "Best Emergency Whistles | Tested & Reviewed",
+              "url": "https://trueprepper.com/emergency-whistle-survival/",
+              "verified": true,
+              "supports": "Author measured the Sonik Blast at 122 dB (rated 120 dB), louder than the Classic; about $10."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title search 'whistle') on 2026-11-14: no Fox 40 recall.",
+          "research_note": "price_seen_at was: TruePrepper review, August 2026 (its Amazon price when published); the maker's page shows no US price (price_usd 10) | link_note was: Price is TruePrepper's published figure (August 2026), not a shop's price. | swim2000.com opened 2026-11-16: Fox 40 Sonik Blast CMG Safety Whistle, SKU 9203-0008, 120 dB, $8.99 sale (regular $11.99), black backordered."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "Spending more buys little. In TruePrepper's August 2026 meter test the loudest whistle, at $22, measured only 2 dB above the Standard.",
+        "research_note": "cadillac was: A safety whistle tops out at about ten dollars. No more expensive whistle with a verified, higher published rating was found today, so spending more buys nothing."
+      },
+      "research_note": "item_flags[1] was: Prices were seen only in Canadian dollars on Fox 40's own shop (a Canadian store), so price_usd is null. Expect roughly $6 to $10 in US shops. | item_flags[0] was: Decibel figures are the maker's own ratings. No independent test of these whistles could be opened today. | item_flags[1] was: Prices are a reviewer's published figures, not a shop's price; expect roughly $6 to $10."
+    },
+    {
+      "id": "work-gloves",
+      "module": "bags",
+      "name": "Work gloves",
+      "need": "After a blast, quake or storm the streets and stairwells are covered in broken glass and sharp debris, and gloves let you move it, climb over it and open jammed doors without cutting your hands.",
+      "how_to_choose": "Leather or a rated cut-resistant palm is what protects against glass; thin synthetic gloves do not. Where a maker publishes an ANSI/ISEA 105 cut level (A1 to A9), a higher level means more cut resistance. Fit matters: gloves that are too big make you clumsy.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One pair per adult, kept in the bag."
+      },
+      "already_own": "Leather gardening or work gloves in good condition are fine. Thin knit, latex or winter gloves are not a substitute.",
+      "safety_notes": [],
+      "item_flags": [
+        "Only the cadillac pick has a published ANSI/ISEA 105 cut level. The standard pick is full-grain leather with no published cut rating, so treat it as protection against scrapes and light debris, not as proof against sharp glass edges.",
+        "No glove is cut-proof. Pick glass up by the flat faces and do not grip edges."
+      ],
+      "tier_note": "Two picks: the Standard leather glove is the cheapest that meets How to choose, and leather work gloves you already own do the same job.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Wells Lamont",
+          "model": "Men's HydraHyde Leather Ball and Tape Wrist Gloves",
+          "model_number": "1164",
+          "size": "Grain cowhide with a reinforced leather palm patch, adjustable wrist. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": null,
+          "price_seen_at": "",
+          "why": "Full grain-leather gloves with a reinforced palm, which is what How to choose asks for against glass, and the leather stays soft after getting wet. Bob Vila's best-value pick after hands-on testing.",
+          "weakness": "No published cut rating, leather is bulkier in a small bag than a synthetic glove, and the maker lists no price, so compare at a hardware store.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://wellslamont.com/product/hydrahyde-full-leather-adjustable-work-gloves/",
+              "verified": true,
+              "note": "Style 1164, 100% grain cowhide, reinforced palm patch, water-resistant leather. No price shown.",
+              "research_note": "note was: Opened in a browser. Style 1164, 100% grain cowhide, reinforced palm patch, water-resistant leather. No price shown. (Opened in a browser on 2026-11-14.)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B079RQS17J",
+              "verified": false,
+              "note": "",
+              "research_note": "note was: Amazon blocked automated access (HTTP 503). ASIN seen today in Bob Vila's link for the Wells Lamont 1164."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Wells Lamont",
+              "title": "Men's HydraHyde Leather Ball and Tape Wrist Gloves",
+              "url": "https://wellslamont.com/product/hydrahyde-full-leather-adjustable-work-gloves/",
+              "verified": true,
+              "supports": "Style 1164, materials, water-resistant leather."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "After Testing Work Gloves, This is The Pair We Use Daily",
+              "url": "https://www.bobvila.com/articles/best-work-gloves/",
+              "verified": true,
+              "supports": "Wells Lamont 1164 HydraHyde named Best Bang for the Buck after testing 14 pairs for over 30 hours. Last modified 2024."
+            }
+          ],
+          "flags": [
+            "No published ANSI cut level."
+          ],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'gloves') on 2026-11-14: no work-glove recall for this brand.",
+          "research_note": "Moved from Budget to Standard 16 Nov 2026 (P4). price_usd was 19.99; price_seen_at was: Blain's Farm and Fleet (mfr no. 1164-M), as shown in a search result on 2026-11-15; the page itself showed a bot check. Scheels listed $22.99 (item 6135-1164), also from search results. link_note was: Price comes from search-result text, not an opened retailer page. Bob Vila's article says the 14 tested pairs cost $8 to $35 but gives no price per glove. | link_note was: No shop price was seen on November 16, 2026: the maker's page shows no price. | 2026-11-16: wellslamont.com shows $0.00 and Amazon short links; Blain's Farm and Fleet page showed a bot check, Scheels 403; search results show $19.99 at Blain's (1164-M) only as a snippet."
+        },
+        "cadillac": {
+          "brand": "HexArmor",
+          "model": "Chrome Series 4026",
+          "model_number": "4026",
+          "size": "Impact glove with SuperFabric cut-resistant palm lining, synthetic leather palm, hook-and-loop cuff. Sizes XS to XXXL. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": 69.1,
+          "price_seen_at": "Magid Glove & Safety, 'starting at $69.10', seen November 15, 2026; price varies by size and seller",
+          "why": "The only pick with a published rating for the actual hazard: ANSI/ISEA 105 cut level A8, plus back-of-hand impact guards. That is real protection against broken glass.",
+          "weakness": "Stiffer and bulkier than ordinary work gloves, and sold mainly through industrial suppliers rather than stores.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.hexarmor.com/products/chrome-series-4026",
+              "verified": true,
+              "note": "Chrome Series 4026, cut level A8 under ANSI/ISEA 105-2024, puncture 2, abrasion 6, impact level 2."
+            },
+            {
+              "label": "Magid Glove (distributor)",
+              "url": "https://magidglove.com/hexarmor-chrome-series-4026-impact-gloves-cut-level-5-4026pp",
+              "verified": true,
+              "note": "Page shows Chrome Series 4026, ANSI/ISEA 105 A8 cut, TPR back-of-hand impact guard, sizes 7 to 11, from $69.10."
+            }
+          ],
+          "link_note": "The cut rating is the maker's statement.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "HexArmor",
+              "title": "Chrome Series 4026",
+              "url": "https://www.hexarmor.com/products/chrome-series-4026",
+              "verified": true,
+              "supports": "ANSI/ISEA 105 cut A8, puncture, abrasion and impact ratings, materials, sizes."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Magid Glove & Safety (distributor listing, not the maker)",
+              "title": "HexArmor Chrome Series 4026 Impact Gloves - Cut Level 5",
+              "url": "https://magidglove.com/hexarmor-chrome-series-4026-impact-gloves-cut-level-5-4026pp",
+              "verified": true,
+              "supports": "ANSI/ISEA 105 A8 cut level, TPR back-of-hand impact protection, sizes 7-11."
+            }
+          ],
+          "flags": [
+            "Price varies a lot by size and seller."
+          ],
+          "flag_check": "Queried the CPSC recall database (title search 'gloves') on 2026-11-14: no HexArmor recall.",
+          "research_note": "link_note was: No independent test of this glove was found; the second source is a distributor's listing. The cut rating is the maker's statement. Price varies a lot by size and seller."
+        }
+      },
+      "empty_reason": {
+        "budget": "The Standard leather glove is the cheapest one found that meets How to choose. Leather gardening or work gloves you already own do the same job."
+      },
+      "research_note": "16 Nov 2026 (P4): Mechanix M-Pact MPT-58 removed from Standard: 0.8 mm synthetic-leather palm and no stated cut level (mechanix.com 2026-11-16: $28.99 sale, regular $46.99; certification line 'ANSI/ISEA 105 X 3 X' unlabelled; 'notify me when back in stock' shown), so it failed this item's How to choose. Wells Lamont 1164 moved from Budget to Standard. Its price was only ever seen in a search-result snippet (Blain's $19.99, Scheels $22.99, 2026-11-15); wellslamont.com shows $0.00 and Amazon short links, so price_usd is null until a retailer page is opened."
+    },
+    {
+      "id": "document-pouch",
+      "module": "bags",
+      "name": "Waterproof document pouch for the grab bag",
+      "need": "Copies of ID, insurance, leases and medical papers are what let you prove who you are and claim help after an evacuation, and they need to stay dry in the bag.",
+      "how_to_choose": "A sealed, flat, see-through waterproof pouch big enough for letter paper is all you need. Check the inside size: letter paper is 8.5 x 11 in. A pouch only keeps papers dry; it gives no fire protection, so keep originals at home in a fire chest.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One pouch in the grab bag."
+      },
+      "already_own": "A heavy zip-top freezer bag inside a folder works as a pouch if the seal is sound. Test it by sealing a dry tissue inside and holding it under water.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov advises keeping copies of insurance policies, identification and bank account records saved electronically or in a waterproof, portable container.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "A waterproof pouch is not fire protection. Keep originals at home in a fire chest and copies in the pouch.",
+        "The Social Security card copy and printed recovery codes stay in the fire chest at home, never in the pouch."
+      ],
+      "research_note": "Split for prompt 6.19: this item is now only the grab-bag pouch (every tier a pouch); the home chest is the new item fire-chest. Old name: Document pouch and fire chest. The old item_flags about fire ratings and fabric 'fireproof' bags moved to fire-chest. Candidate for a higher tier: Ortlieb Document-Bag A4 (search results show IP64 on Ortlieb's own datasheet, 30 x 22 cm). us.ortlieb.com answered 429 three times and uk.ortlieb.com once, and the datasheet PDF could not be read, so it is not a pick; it is in pending.json.",
+      "tier_note": "One pick: a sealed see-through pouch is all this job needs, and a heavy zip-top freezer bag you already own is the budget choice.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "LOKSAK",
+          "model": "aLOKSAK waterproof bag, 12 x 12.5 in",
+          "model_number": "aLOK2-12x12",
+          "size": "Resealable 6 mil film bag, 12 x 12.5 in outside and 11.75 x 12 in inside, so letter paper lies flat. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pack of 2 bags",
+          "weight_oz": null,
+          "price_usd": 15.99,
+          "price_seen_at": "Boundary Waters Catalog (aLOKSAK 12x12 XL, 2 bags), seen 2026-11-15",
+          "why": "A flat, see-through pouch that the maker rates waterproof to 200 ft, weighs almost nothing and slides down the back of a bag. The pack of two gives you a spare.",
+          "weakness": "No fire protection at all, the zip seal wears out with heavy use, and the waterproof rating is the maker's own.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://loksak.com/product/aloksak/",
+              "verified": true,
+              "note": "aLOKSAK range and size chart."
+            },
+            {
+              "label": "Boundary Waters Catalog (retailer)",
+              "url": "https://boundarywaterscatalog.com/loksak/aloksak-12x12-xl-148475",
+              "verified": true,
+              "note": "aLOKSAK 12x12 XL, 2 bags, $15.99."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Was the budget tier of the old combined item; moved to standard because it is the one verified pouch. loksak.com reopened 2026-11-15: aLOK2-12x12 is 12 x 12.5 in, 'waterproof to 200 feet / 60 meters', 6 mil film, 'starting at $9.99'. Boundary Waters Catalog reopened 2026-11-15: 2 bags, $15.99, inner 11.75 x 12 in. road.cc reopened 2026-11-15: 2014 review of the 86 x 162 mm bag, 8/10, never failed in a month of daily use. No Amazon ASIN seen. Old link_note: Second source is a 2014 review of the small phone-size aLOKSAK, not this bag. The 200 ft waterproof rating is the maker's claim; no independent lab report found, and LOKSAK's certifications page cites no test standard. Pack is 2 bags; the site needs one. | link_note was: The independent review tested a smaller phone-size bag from the same range, not this size.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "LOKSAK",
+              "title": "aLOKSAK",
+              "url": "https://loksak.com/product/aloksak/",
+              "verified": true,
+              "supports": "Sizes including 12 x 12.5 in, waterproof to 200 ft claim, 6 mil film."
+            },
+            {
+              "type": "test_publication",
+              "name": "road.cc",
+              "title": "Loksak aLoksak waterproof gadget protector (review, 2014)",
+              "url": "https://road.cc/?p=71157",
+              "verified": true,
+              "supports": "Cycling site's month-long test of a smaller aLOKSAK bag, 8/10: it never failed. Supports the product line, not this size."
+            }
+          ],
+          "flags": [
+            "Not fire rated."
+          ],
+          "flag_check": "No CPSC search run for this product (a plastic bag). No recall notice on the maker's page opened 2026-11-15."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "A heavy zip-top freezer bag you already own is the budget choice; see If you already own one.",
+        "cadillac": "No tougher waterproof document case was checked against two sources."
+      }
+    },
+    {
+      "id": "fire-chest",
+      "module": "bags",
+      "name": "Fire-resistant chest for papers at home",
+      "need": "Originals such as birth certificates, passports, deeds and policies are slow to replace, and a fire-rated chest at home gives them a chance of surviving a fire.",
+      "how_to_choose": "Only buy a chest whose maker states a UL fire classification with a time and a temperature, such as 1/2 hour at 1550 F. Prefer one that is also rated for water, because sprinklers and fire hoses soak a home even when the fire is on another floor. Fire chests are heavy: choose the smallest that holds your papers flat.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, kept at home."
+      },
+      "already_own": "A fire chest or safe you already own is good enough if its label names a UL fire classification with a time and a temperature.",
+      "safety_notes": [],
+      "item_flags": [
+        "Many 'fireproof' document bags sold on marketplaces have no independent fire rating at all. Fabric bags described only as 'fire resistant to 2000 F' or 'silicone coated fiberglass' are untested claims. Do not rely on one for originals.",
+        "The fire and water ratings below are the maker's own statements.",
+        "A half-hour fire rating is modest. Keep copies or scans elsewhere too (see the encrypted USB drive and the document pouch).",
+        "The key lock on these chests is a privacy lock, not theft protection."
+      ],
+      "research_note": "New item for prompt 6.19 (split from document-pouch). The fire rating for each pick was read on the maker's own pages on 2026-11-15: sentrysafe.com product pages and SentrySafe's technical sheets on solutions.masterlock.com (same company). Old item_flags[3] was: A larger SentrySafe chest, CHW30220, was not picked because its page states the fire rating as 1/2 hour in one place and 1 hour in another (not reopened 2026-11-15). | item_flags[1] was: The fire and water ratings below are the maker's own statements. They could not be checked in UL's directory, which needs a login.",
+      "tier_note": "Two picks: the medium chest already holds letter paper flat, and a larger chest is heavier to carry up stairs.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "SentrySafe",
+          "model": "Small Fire Chest with Carrying Handle",
+          "model_number": "1200",
+          "size": "Outside 6.1 x 14.3 x 11.2 in; inside 3.5 x 12 x 7.5 in (0.18 cu ft). 13.3 lb. Key lock.",
+          "unit_size": 1,
+          "unit_label": "chest",
+          "weight_oz": 213.1,
+          "price_usd": 29.99,
+          "price_seen_at": "SentrySafe store, seen 2026-11-15",
+          "why": "The cheapest chest with a stated UL fire classification: 1/2 hour at up to 1550 F. Small and light enough for a closet shelf.",
+          "weakness": "No water protection, and letter paper must be folded to fit the 12 x 7.5 in floor.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.sentrysafe.com/product/1200",
+              "verified": true,
+              "note": "Model 1200, UL classified fire rating stated. Price shown only as a range."
+            }
+          ],
+          "link_note": "",
+          "research_note": "sentrysafe.com/product/1200 reopened 2026-11-15: 'UL Classified to protect your valuables in a fire for 1/2 hour up to 1550 F', 6.1 x 14.3 x 11.2 in, interior 3.5 x 12 x 7.5 in, 13.32 lb, keyed, price range $20 to $50. Master Lock technical sheet reopened 2026-11-15: 1/2 hour up to 1550 F, UL listed yes, water resistance blank. The $29.99 price is from the SentrySafe store's own search listing read on 2026-11-15 in an earlier pass; store.sentrysafe.com/products/1200 answered 429 three times today, so it is in pending.json. Walmart listed $30.79 (earlier pass). Old link_note: No independent test or UL/ETL directory entry could be opened (UL Product iQ needs a login; the test roundups found were affiliate sites and were not used). | link_note was: Both sources are the maker's own pages; no independent test was found.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SentrySafe",
+              "title": "Small Fire Chest with Carrying Handle (1200)",
+              "url": "https://www.sentrysafe.com/product/1200",
+              "verified": true,
+              "supports": "UL fire classification (1/2 hour up to 1550 F), dimensions, weight, lock type."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Master Lock (SentrySafe technical literature)",
+              "title": "SentrySafe 1200 technical page",
+              "url": "https://solutions.masterlock.com/Technical_Literature/Sentry_Safe/Water_and_Fireproof_Safes/Keyed/1200",
+              "verified": true,
+              "supports": "Fire test 1/2 hour up to 1550 F, UL listed, interior 12 x 7.5 x 3.5 in, 13.32 lb, no water rating. Same company as SentrySafe."
+            }
+          ],
+          "flags": [
+            "Not water resistant."
+          ],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'SentrySafe') on 2026-11-14: no results."
+        },
+        "standard": {
+          "brand": "SentrySafe",
+          "model": "Fire/Water Chest (Medium)",
+          "model_number": "CHW20221",
+          "size": "Outside 6.6 x 15.4 x 14.3 in; inside 4.4 x 12.8 x 8.5 in (0.28 cu ft). 20.4 lb. Tubular key lock.",
+          "unit_size": 1,
+          "unit_label": "chest",
+          "weight_oz": 326.4,
+          "price_usd": 62.99,
+          "price_seen_at": "SentrySafe store, seen 2026-11-15",
+          "why": "Adds water protection to the fire rating: UL classified for 1/2 hour at up to 1550 F, and ETL verified against flood damage for up to 72 hours. In a home fire, water from sprinklers and hoses does as much damage as flame.",
+          "weakness": "20 lb is a lot to carry up stairs, and letter paper only just fits.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.sentrysafe.com/product/CHW20221",
+              "verified": true,
+              "note": "Model CHW20221, fire and water ratings stated."
+            },
+            {
+              "label": "SentrySafe store",
+              "url": "https://store.sentrysafe.com/products/chw20221",
+              "verified": true,
+              "note": "$62.99, available."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Was the cadillac tier of the old combined item; moved to standard because water protection matters in an apartment. sentrysafe.com/product/CHW20221 reopened 2026-11-15: 'UL Classified ... 1/2 hour up to 1550 F', 'ETL Verified ... flood damage up to 72 hours', 20.4 lb, dimensions as given. store.sentrysafe.com reopened 2026-11-15: $62.99, available. Master Lock technical sheet opened 2026-11-15: 1/2 hour up to 1550 F, UL listed yes, water up to 72 hours. The earlier weakness quoted reviewers on the maker's page about letter paper curling; that page was not re-read for reviews today. Zoro listed $77.75 (earlier pass). | link_note was: Both sources are the maker's own pages; no independent test was found.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SentrySafe",
+              "title": "Fire/Water Chest (Medium) CHW20221",
+              "url": "https://www.sentrysafe.com/product/CHW20221",
+              "verified": true,
+              "supports": "UL fire classification (1/2 hour up to 1550 F), ETL water verification (72 hours), dimensions, weight, lock."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Master Lock (SentrySafe technical literature)",
+              "title": "SentrySafe CHW20221 technical page",
+              "url": "https://solutions.masterlock.com/Technical_Literature/Sentry_Safe/Water_and_Fireproof_Safes/Keyed/CHW20221",
+              "verified": true,
+              "supports": "Fire test 1/2 hour up to 1550 F, UL listed, water resistance up to 72 hours, dimensions, 20.4 lb. Same company as SentrySafe."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title search 'SentrySafe') on 2026-11-14: no results."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No larger or longer-rated chest was checked against the maker's own sheet."
+      }
+    },
+    {
+      "id": "usb-drive-encrypted",
+      "module": "bags",
+      "name": "Encrypted USB drive for document copies",
+      "need": "Scans of your key documents on a drive in the bag let you prove identity and file claims anywhere, and encryption means a lost bag does not hand a stranger your identity.",
+      "how_to_choose": "The copies are only safe if the drive is encrypted. A keypad drive unlocks with a PIN on the drive itself, so it works on any computer, phone or library PC without software. If you buy a keypad drive, choose one validated to FIPS 140-3. The free route is an ordinary drive encrypted with the tools built into Windows or macOS, which works well but only opens easily on the same kind of computer.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, kept in the bag. A second copy stored somewhere else is wise."
+      },
+      "already_own": "Any working USB drive from a major brand is good enough if you encrypt it with BitLocker To Go (Windows Pro, Enterprise or Education) or as an encrypted volume in macOS Disk Utility. Write the password down somewhere safe that is not in the same bag.",
+      "safety_notes": [],
+      "item_flags": [
+        "A forgotten PIN or password means the data is gone. Hardware-encrypted drives erase themselves after a set number of wrong tries.",
+        "Encrypting a drive in macOS Disk Utility erases everything on it first (Apple)."
+      ],
+      "tier_note": "One pick: an ordinary drive you encrypt yourself keeps the copies private; a keypad drive validated to FIPS 140-3 costs about $100 more and only adds that it opens on any device without software.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "Samsung",
+          "model": "BAR Plus 64GB USB 3.2 flash drive, encrypted with BitLocker To Go or a macOS encrypted volume",
+          "model_number": "MUF-64BE3/AM",
+          "size": "64 GB, metal body, USB-A. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "drive",
+          "weight_oz": null,
+          "price_usd": 31.99,
+          "price_seen_at": "samsung.com, out of stock there on November 16, 2026",
+          "why": "An ordinary major-brand drive in a sealed metal body that Samsung lists as waterproof. It has no encryption of its own: you encrypt it yourself with BitLocker To Go on Windows, or by erasing it to an encrypted format in macOS Disk Utility.",
+          "weakness": "A BitLocker drive is awkward to open on a Mac and a Mac-encrypted drive will not open on Windows, and turning BitLocker on needs Windows Pro, Enterprise or Education.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.samsung.com/us/memory-storage/usb-flash-drive/usb-3-1-flash-drive-bar-plus-64gb-champagne-silver-sku-muf-64be3-am/",
+              "verified": true,
+              "note": "BAR Plus 64GB, MUF-64BE3/AM, $31.99, shown as out of stock on Samsung's own store."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Samsung",
+              "title": "64GB USB 3.2 Flash Drive BAR Plus",
+              "url": "https://www.samsung.com/us/memory-storage/usb-flash-drive/usb-3-1-flash-drive-bar-plus-64gb-champagne-silver-sku-muf-64be3-am/",
+              "verified": true,
+              "supports": "Model number, capacity, price, waterproof claim."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Microsoft",
+              "title": "BitLocker Overview",
+              "url": "https://learn.microsoft.com/en-us/windows/security/operating-system-security/data-protection/bitlocker/",
+              "verified": true,
+              "supports": "BitLocker encrypts whole volumes; enabling it needs Windows Pro, Enterprise or Education; automatic device encryption does not cover USB drives."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Apple",
+              "title": "Encrypt and protect a storage device with a password in Disk Utility on Mac",
+              "url": "https://support.apple.com/guide/disk-utility/encrypt-protect-a-storage-device-password-dskutl35612/mac",
+              "verified": true,
+              "supports": "Steps to erase an external drive to an encrypted format with a password; warns that this deletes existing data."
+            }
+          ],
+          "flags": [
+            "Out of stock on samsung.com when checked; sold by other retailers.",
+            "Not hardware encrypted and not FIPS validated."
+          ],
+          "flag_check": "No recall search run for this drive. No recall notice on the Samsung page opened 2026-11-14.",
+          "research_note": "price_seen_at was: samsung.com (listed as out of stock there today) | link_note was: No test publication for this drive was found without web search; the second and third sources are the operating-system makers' own instructions for the encryption step. No Amazon ASIN was seen today. | link_note was: No test publication was found for this drive; the other two sources are the operating-system makers' own instructions for the encryption step."
+        },
+        "standard": null,
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "For a handful of document scans, more money buys capacity or fleet-management features, not better protection. Neither upgrade candidate could be confirmed: one cites a FIPS certificate that NIST now lists as historical, and the other's product page was not checked.",
+        "research_note": "cadillac was: For a handful of document scans, more money buys capacity or fleet-management features, not better protection. The two candidates both fell short today: Apricorn's Aegis Secure Key 3NX (from $139 on apricorn.com) cites FIPS 140-2 certificate #4420, which NIST now lists as historical, and its newer FIPS 140-3 certificate #5517 (active, validated 9/9/2026) names the 'Aegis Secure Key 3.0' module without listing the 3NX; Kingston's IronKey D500S has an active FIPS 140-3 Level 3 certificate (#5029) but its product page could not be opened.",
+        "standard": "A $124 keypad drive only adds that it opens on any device without software; an ordinary drive encrypted with the tools built into Windows or macOS keeps the copies just as private."
+      },
+      "research_note": "item_flags[3] was: No recall search was run for USB drives. No Amazon ASINs were seen today. | item_flags moved off the page: FIPS 140-2 certificates are now historical. NIST's listing for Apricorn's Aegis Secure Key 3NX (certificate #4420, FIPS 140-2 Level 3) shows status 'Historical - moved to historical list due to sunsetting', and Apricorn's product page still cites that certificate. Only FIPS 140-3 certificates are active. If you need a currently validated drive, check the certificate number at csrc.nist.gov before buying. | 16 Nov 2026 (Step 6.3): standard tier dropped. Old pick: Kingston IronKey Keypad 200 (USB-A) (IKKP200/16GB), $124.25 at Aztek Computers, $124.25 (down from $167.74), special order with 1 to 2 weeks' lead time, seen November 16, 2026; prices vary by retailer; sources: NIST Cryptographic Module Validation Program https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133; Kingston https://www.kingston.com/en/usb-flash-drives/ironkey-kp200-encrypted-usb-flash-drive. Owner names the $124 USB drive as not buying anything the job needs (prompt 6.3; the coordinator called it the Cadillac). Old pick: Kingston IronKey Keypad 200 IKKP200/16GB, FIPS 140-3 Level 3 (NIST #5133), $124.25 Aztek Computers 2026-11-16."
+    },
+    {
+      "id": "pocket-radio",
+      "module": "bags",
+      "name": "Pocket radio",
+      "need": "When phone networks are jammed or down, broadcast radio and NOAA Weather Radio are how official instructions reach you, and a pocket set on AA cells runs for days.",
+      "how_to_choose": "Look for AM, FM and the NOAA weather band, power from AA or AAA cells you can buy anywhere, and a size that fits a jacket pocket. Earbuds stretch battery life and keep it discreet on transit. Store the batteries outside the radio so they cannot leak into it.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household, in the bag."
+      },
+      "already_own": "Any small AM/FM radio that runs on AA or AAA cells is useful. If it lacks the weather band, that is acceptable in a city where local news stations carry emergency information.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's basic disaster kit list includes a battery-powered or hand-crank radio and a NOAA Weather Radio with tone alert, plus extra batteries.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tier_note": "One pick: cheaper pocket radios from known brands are discontinued or out of stock, and pricier ones add shortwave and aviation bands a city household will not tune.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "C. Crane",
+          "model": "CC Pocket AM, FM, NOAA Weather Radio + Alert",
+          "model_number": "CCPKT",
+          "size": "2.5 x 4.2 x 1 in. 3.8 oz without batteries. 2 AA cells: about 80 hours on the speaker, 100 hours on earbuds. Earbuds and belt clip included.",
+          "unit_size": 1,
+          "unit_label": "radio",
+          "weight_oz": 3.8,
+          "price_usd": 74.99,
+          "price_seen_at": "ccrane.com, in stock, seen November 16, 2026",
+          "why": "A true pocket radio with AM, FM, all seven NOAA weather channels and a weather-alert mode, running for days on two AA cells.",
+          "weakness": "Pricey for its size, the built-in speaker is tiny, and the maker advises against lithium AA cells.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://ccrane.com/products/cc-pocket-am-fm-noaa-weather-radio-alert-with-clock-and-sleep-timer",
+              "verified": true,
+              "note": "Item CCPKT, $74.99, in stock."
+            }
+          ],
+          "link_note": "Alert mode uses more battery. No Public Alert or SAME feature is claimed, so it cannot be set to a county code.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "C. Crane",
+              "title": "CC Pocket AM, FM, NOAA Weather Radio + Alert with Clock and Sleep Timer",
+              "url": "https://ccrane.com/products/cc-pocket-am-fm-noaa-weather-radio-alert-with-clock-and-sleep-timer",
+              "verified": true,
+              "supports": "Price, bands, weather alert, 2 AA power and run time, size, weight, included earbuds and clip, 1-year warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "RadioJayAllen.com (Jay Allen, independent radio reviewer)",
+              "title": "C.Crane CC Pocket review (updated Feb 2025)",
+              "url": "https://radiojayallen.com/c-crane-cc-pocket/",
+              "verified": true,
+              "supports": "Hands-on comparison against other pocket radios and use during real tornado warnings: FM excellent, AM very good, NOAA weather band excellent; recommends it. Single-reviewer blog, not an institutional lab; page does not say whether he bought the unit."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'radio') on 2026-11-14: no C. Crane recall.",
+          "research_note": "link_note was: Second source is a single-reviewer hobby blog, not an institutional test. Alert mode uses more battery. No Public Alert or SAME feature is claimed, so it cannot be set to a county code."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "Both obvious cheap pocket radios are gone: Sangean marks its DT-160 discontinued, and Sony's ICF-P26 showed out of stock at every US listing found. No other budget pocket radio has passed this site's checks. A basic AM/FM pocket radio on AA cells from a known brand is a reasonable buy. The budget crank radios that Outdoor Life and Popular Science praise are 11 oz hand-crank sets, not pocket radios.",
+        "research_note": "budget was: ...Sangean's DT-160 is marked discontinued by Sangean (CampSaver page, opened 2026-11-15)...; this file cannot name one that was checked. ...(RunningSnail, no model number given in either review)...",
+        "cadillac": "The $190 Skywave SSB 2 adds shortwave and aviation bands that a city household will not tune."
+      },
+      "research_note": "item_flags[1] was: No Amazon ASINs for these radios were seen today. | item_flags moved off the page: Standard and cadillac picks come from one maker (C. Crane). Sony's and Sangean's cheap pocket radios are discontinued or out of stock. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: C. Crane CC Skywave SSB 2 (SSB2), $189.99 at ccrane.com (on backorder, expected to ship by 11/30/26); sources: C. Crane https://ccrane.com/cc-skywave-ssb-2-with-am-fm-sw-wx-and-aviation-bands; The Prepared https://theprepared.com/gear/reviews/emergency-radio/. Same test as prompt 6.3: its own weakness said most city households will never tune the extra bands; on backorder 2026-11-16."
+    },
+    {
+      "id": "eye-protection",
+      "module": "bags",
+      "name": "Eye protection",
+      "need": "Dust, ash and falling grit after a collapse, fire or windstorm can blind you long enough to stop you getting out, and sealed eye protection keeps your eyes working.",
+      "how_to_choose": "Look for the ANSI Z87.1 impact marking (Z87+ on the lens). For dust, ash and grit, a foam or rubber gasket that closes the gap around the eyes matters more than lens quality. If you wear prescription glasses, choose goggles made to fit over them. Check that the pair fits with your N95 on. Treat every pick here as protection from dust, debris and impact only, never from gases, fumes or chemical vapors.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One per adult, in the bag."
+      },
+      "already_own": "Workshop safety glasses marked Z87+ help against flying grit but let dust in at the sides. Swim goggles keep dust out but give no impact protection. Either is better than nothing.",
+      "safety_notes": [],
+      "item_flags": [
+        "The makers sell these for dust, debris and impact. Do not rely on them against toxic gases, fumes or chemical vapors.",
+        "No pick was confirmed to carry the specific Z87.1 dust markings (D4 or D5). Gasketed eyewear reduces dust but is not a sealed dust goggle.",
+        "Check for the Z87+ mark on the pair you buy."
+      ],
+      "research_note": "Prompt 2.14 / B-D11: 'fumes' removed. Radians' DPG82 page and DeWalt's DPG82 page, both opened 2026-11-15, describe protection from dust and debris and Z87.1 impact, list ventilation channels, and make no claim for gases or fumes. item_flags[0] was: The ANSI Z87.1 rating could be confirmed from the maker's own page today for the budget and cadillac picks only. The standard pick's rating should be checked on the lens (look for Z87+). (Stale: DeWalt's page states Z87.1+.)",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "3M",
+          "model": "Virtua CCS Protective Eyewear with foam gasket",
+          "model_number": "11872 (clear lens with foam gasket)",
+          "size": "Wraparound polycarbonate safety glasses with a foam gasket that the maker sells as an optional attachment. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": 10.1,
+          "price_seen_at": "Cyberweld, 3M Virtua CCS with foam gasket, clear lens (11872), seen November 16, 2026",
+          "why": "Cheap, very light glasses with a removable foam gasket that closes the gap around the eyes. TechGearLab's best-value pick. 3M states they meet the ANSI Z87.1-2020 impact requirement.",
+          "weakness": "They fog in humid conditions and the frame is flimsy.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00034294/",
+              "verified": true,
+              "note": "Make sure the version you buy includes the foam gasket.",
+              "research_note": "note was: Opened in a browser. 3M's page is titled 'Virtua Sport CCS Protective Eyewear'; it describes the Virtua CCS, the optional foam gasket, lens marking Z87+ and the ANSI/ISEA Z87.1-2020 impact rating. Make sure the version you buy includes the gasket."
+            },
+            {
+              "label": "Cyberweld (retailer)",
+              "url": "https://store.cyberweld.com/products/3m-virtua%E2%84%A2-ccs-clear-protective-eyewear-11872-w-foam-gasket",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00AEY4PKS",
+              "verified": false,
+              "note": "",
+              "research_note": "note was: Amazon blocked automated access (HTTP 503). ASIN seen today in TechGearLab's link for the 3M Virtua CCS."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "3M",
+              "title": "3M Virtua Sport CCS Protective Eyewear",
+              "url": "https://www.3m.com/3M/en_US/p/d/b00034294/",
+              "verified": true,
+              "supports": "Meets the impact-rated requirement of ANSI/ISEA Z87.1-2020, Z87+ lens marking, anti-fog coating, optional foam gasket."
+            },
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "The Best Safety Glasses",
+              "url": "https://www.techgearlab.com/topics/tools/best-safety-glasses",
+              "verified": true,
+              "supports": "3M Virtua CCS named Best Buy, $12 list, removable foam gasket, fogs in humidity. Updated January 2024."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (SaferProducts API, title search 'goggles') on 2026-11-14: nothing for 3M.",
+          "research_note": "price_seen_at was: TechGearLab (list price shown in its review) (price_usd 12, a test site list price) | Cyberweld opened 2026-11-16: 3M Virtua CCS with foam gasket, clear 11872 (3M code 7000128259), $10.10, list $12.96, 1 pair, impact rated to ANSI Z87.1, stock not shown."
+        },
+        "standard": {
+          "brand": "DeWalt",
+          "model": "Concealer safety goggle",
+          "model_number": "DPG82 (DPG82-11 clear is the common variant; Radians also lists DPG82-21)",
+          "size": "Low-profile goggle with rubber face gasket, anti-fog lens, vents and elastic strap. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": 15.29,
+          "price_seen_at": "Safety Glasses USA, DPG82-11 clear anti-fog, in stock, seen November 16, 2026",
+          "why": "A full rubber gasket keeps out dust and debris, and TechGearLab found it the best match with a respirator, with anti-fog that worked even over a large mask.",
+          "weakness": "It has ventilation channels, so it is a dust and impact goggle and gives no protection against gases or fumes. The gasket presses on the forehead and it seals less tightly than bulkier goggles.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.dewalt.com/product/dpg82/concealertm",
+              "verified": true,
+              "note": "DeWalt page for the Concealer, model DPG82; no price shown."
+            },
+            {
+              "label": "Safety Glasses USA (retailer)",
+              "url": "https://safetyglassesusa.com/products/dewalt-concealer-safety-goggles-with-clear-anti-fog-lens",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B01A12J3GI",
+              "verified": false,
+              "note": "",
+              "research_note": "note was: Amazon blocked automated access (HTTP 503). ASIN seen today in TechGearLab's link for the DeWalt Concealer."
+            }
+          ],
+          "link_note": "The Z87.1 impact rating is the maker's statement: check for the Z87+ mark on the goggle itself.",
+          "research_note": "link_note was: Model and Z87.1+ rating now confirmed from DeWalt's own page; the ANSI claim is the maker's, and TechGearLab's page never mentions Z87. Check for the Z87+ mark on the goggle itself. Amazon link unverified. | why was: A full rubber gasket keeps out dust and fumes, ... (B-D11). TechGearLab (reopened 2026-11-15) rates it highly for dust and fumes in informal tests; neither maker page claims fume protection, so the site follows the makers. DeWalt and Radians pages reopened 2026-11-15. | price_seen_at was: TechGearLab list price $25. Tractor Supply showed $31.99 in search results (page timed out), so expect $25 to $32. dewalt.com DPG82 reopened 2026-11-16: dust and debris, 'Meets ANSI Z87.1+ Standards', vents, anti-fog, no price. | link_note was: No shop price was seen on November 16, 2026; TechGearLab's January 2024 review listed it at $25. The Z87.1 impact rating is the maker's statement: check for the Z87+ mark on the goggle itself. | Safety Glasses USA opened 2026-11-16: DEWALT DPG82-11 Concealer, clear anti-fog, $15.29 sale, in stock (11 units), ANSI Z87.1-2015, D3 and D4 rated per that retailer (not confirmed on the maker pages).",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "The Best Safety Glasses",
+              "url": "https://www.techgearlab.com/topics/tools/best-safety-glasses",
+              "verified": true,
+              "supports": "DeWalt Concealer named Top Pick (best with a respirator), $25 list, full rubber gasket, fit over a half-mask respirator, anti-fog performance, weaknesses. Updated January 2024."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "DeWalt",
+              "title": "Concealer (DPG82)",
+              "url": "https://www.dewalt.com/product/dpg82/concealertm",
+              "verified": true,
+              "supports": "Protection from dust and debris, polycarbonate lens 'meets ANSI Z87.1+ standards', 99.9% UVA/UVB, anti-fog coating, ventilation channels, model DPG82."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Radians (licensee that makes the DeWalt eyewear)",
+              "title": "DEWALT DPG82 Concealer Safety Goggle",
+              "url": "https://www.radians.com/products/composite-dewalt-dpg82-concealer-safety-goggle",
+              "verified": true,
+              "supports": "Protection from dust and debris, ventilation channels, meets Z87.1 for impact protection; no claim for fumes or gases; models DPG82-11 and DPG82-21."
+            }
+          ],
+          "flags": [
+            "Vented: not for gases, fumes or chemical vapors."
+          ],
+          "flag_check": "Queried the CPSC recall database (title search 'goggles') on 2026-11-14: nothing for DeWalt."
+        },
+        "cadillac": {
+          "brand": "NoCry",
+          "model": "UltraShield Pro anti-fog safety goggles",
+          "model_number": "",
+          "size": "Over-glasses goggle with soft TPR face gasket, indirect vents and a wide strap. Weight not published.",
+          "unit_size": 1,
+          "unit_label": "pair",
+          "weight_oz": null,
+          "price_usd": 27.99,
+          "price_seen_at": "nocry.com, $27.99 for one pair ($27.43 each in a 3-pack), in stock, seen November 16, 2026",
+          "why": "Made to fit over prescription glasses, which the cheaper picks cannot do, with a soft gasket seal, indirect vents and an ANSI Z87+ rating stated by the maker.",
+          "weakness": "Bulky in a small bag.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://nocry.com/products/ultrashield-pro",
+              "verified": true,
+              "note": "$27.99 for one pair, ANSI Z87+, fits over glasses, indirect vents.",
+              "research_note": "note was: Opened in a browser (the store rate-limits the fetch tool). $27.99 for one pair, ANSI Z87+, fits over glasses, indirect vents."
+            }
+          ],
+          "link_note": "The Z87.1 rating is the maker's statement.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "NoCry",
+              "title": "UltraShield Pro Premium ANSI Z87+ Anti-Fog Safety Goggles",
+              "url": "https://nocry.com/products/ultrashield-pro",
+              "verified": true,
+              "supports": "Price, ANSI Z87+ claim, over-glasses fit, gasket and vent design."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title search 'goggles') on 2026-11-14: nothing for NoCry.",
+          "research_note": "link_note was: Only one verified source (the maker). Two tries for an independent test or a certifier listing found nothing; TechGearLab reviewed other NoCry glasses, not this goggle. Z87.1 is the maker's claim (its blog uses both 'Z87.1' and 'Z87+', and mentions D3/D4 vents without reconciling them). For the main session: TechGearLab's Editors' Choice sealed goggle, the SolidWork Safety Goggles ($40 list), is a better-documented alternative that has not been vetted here. | weakness was: Bulky in a small bag, and no test publication has reviewed this model (TechGearLab tested NoCry's glasses, not these goggles). | link_note was: Only one source, the maker's own page; no independent test of this goggle was found. The Z87.1 rating is the maker's claim."
+        }
+      }
+    }
+  ]
+}

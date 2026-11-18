@@ -1,0 +1,24 @@
+{
+  "actions": [
+    { "title": "Tell the site about your household", "ids": ["X1-06"] },
+    { "title": "Turn on phone alerts and join your local alert system", "ids": ["U2-10", "U2-09"] },
+    { "title": "Store the first three days of water", "ids": ["U4-11", "U2-33"] },
+    { "title": "Put shoes and a light beside every bed", "ids": ["U6-22"] },
+    { "title": "Keep a charged power bank for every phone", "ids": ["PL-02"] },
+    { "title": "Test the smoke alarm and add a carbon monoxide alarm", "ids": ["HC-23", "HC-22"] },
+    { "title": "Find and walk your stairwells, and read the building's fire plan", "ids": ["HR-04", "HR-05", "HR-02"] },
+    { "title": "Learn the don't-flush rule and set up a bag toilet", "ids": ["X5-01", "X5-02"] },
+    { "title": "Stock three days of food that needs no cooking", "ids": ["X3-01"] },
+    { "title": "Write the medication list and build a buffer", "ids": ["FN-11", "FN-12"] },
+    { "title": "Choose an out-of-area contact and give everyone a paper card", "ids": ["U2-02", "CM-02"] },
+    { "title": "Write each commuter's get-home plan", "ids": ["X2-01"] },
+    { "title": "Set aside cash in small bills", "ids": ["MD-01"] },
+    { "title": "Scan the key documents into protected storage", "ids": ["MD-03"] },
+    { "title": "Pack a bag by the door", "ids": ["BG-04", "BG-14"] },
+    { "title": "Get a battery radio and write the stations on it", "ids": ["U6-07", "CM-11"] },
+    { "title": "Swap numbers with the neighbors on your floor", "ids": ["NB-01"] },
+    { "title": "Ask building management the outage questions", "ids": ["HR-01"] },
+    { "title": "Pick your cool room and your warm room", "ids": ["HC-02", "HC-14"] },
+    { "title": "Build the home first-aid kit and book a class", "ids": ["U7-07", "U7-11"] }
+  ]
+}

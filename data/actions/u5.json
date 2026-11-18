@@ -1,0 +1,1054 @@
+{
+  "module": "u5",
+  "title": "Waste and Hygiene",
+  "intro": "When the water or the drains stop working, human waste is the quickest way for a household to get sick. This module gives you a toilet that needs no flushing, a place to keep sealed waste for weeks, and ways to stay clean on very little water. Almost all of it works in an apartment with no outdoor space.",
+  "credit": "Based on Unit 5 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "X5-01",
+      "level": 0,
+      "section": "Toilet without flushing",
+      "title": "Learn the don't-flush rule for multistory buildings",
+      "why": "Every unit's drain joins a shared pipe, so if that pipe is cracked or blocked a flush upstairs can come out in a home below.",
+      "how": "Agree one rule with everyone at home tonight: after an earthquake, a flood, a sewage smell or a notice from the building, nobody flushes, even if the toilet looks normal and the faucet still runs. Use a bag toilet until the building says the drains have been checked. Until you have the bags from X5-03, a lidded bucket lined with two kitchen bags will do. In a long power outage, ask before you flush, because toilets can also fail when pumps lose power. In a house, the same rule applies whenever the sewer line may be damaged.",
+      "done": "Everyone at home has heard the rule.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "koto-toilet",
+        "tokyo-bousai",
+        "preparedbc-apartments"
+      ]
+    },
+    {
+      "id": "X5-07",
+      "same_as": "HR-01",
+      "level": 2,
+      "section": "Toilet without flushing",
+      "title": "Ask your building who checks the drains and how you will be told",
+      "why": "Pipes can stay damaged after the power and water come back, and only an inspection can show that flushing is safe again.",
+      "how": "Ask management or the residents' board four questions. Who inspects the drain pipes and the sewer connection after an earthquake, flood or long outage? How will residents be told to stop flushing, and how will we be told it is safe again (lobby notice, door knock, text)? Does any part of the drainage rely on electric pumps? Which units share my drain pipe? Write the answers by hand on the printed building information worksheet and keep it with your plan; in a house you own, put the same questions to your sewer utility or a plumber.",
+      "done": "Management or the residents' board has answered the four drain questions, and the answers are written on your Building information sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "worksheet": "building-info",
+      "cites": [
+        "koto-toilet",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "U5-01",
+      "level": 2,
+      "section": "Keeping clean",
+      "title": "Stock wipes, dry shampoo and hand sanitizer",
+      "why": "You can keep your skin and hands clean for days without running water if these are already on hand.",
+      "how": "Buy one 8 oz bottle of hand sanitizer per person for a 3-day target or a 12 fl oz bottle for 14 days, with at least 60% alcohol on the label, and one pack of 60 to 80 wipes per person per week. Add one can or bottle of dry shampoo for the household. Baby wipes do for face and body, and adult bathing wipes are an optional extra for a full wash; CDC does not recommend baby wipes for cleaning hands, so use soap and water or sanitizer for those. Keep wipe packs sealed so they do not dry out, and put used wipes in the trash, never down a toilet. Treat sanitizer as the backup: soap and water clean better, above all when hands are visibly dirty. Keep sanitizer where your emergency toilet will be and in the kitchen.",
+      "done": "A bottle of hand sanitizer and sealed wipe packs for each person, and one dry shampoo, are in the closet, and the sanitizer label says at least 60% alcohol.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "body-wipes",
+        "hand-sanitizer"
+      ],
+      "cites": [
+        "cdc-sanitizer",
+        "cdc-handwashing",
+        "cdc-handwashing-faq"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-02",
+      "level": 3,
+      "section": "Keeping clean",
+      "title": "Learn how to make doubtful water safe for washing",
+      "why": "Water that could make you sick to drink can also make you sick when you brush your teeth or wash dishes in it.",
+      "how": "If the tap water may be contaminated, use only stored or treated water to brush teeth, wash hands and wash dishes. Treat it with bleach the way you would treat water for drinking (U4-10). Write the dose you will use on the printed Water treatment card and keep it with the bleach bottle. Do not wash in water that may hold sewage or chemicals.",
+      "done": "The dose you will use is written on your printed Water treatment card, and the card is kept with the bleach bottle.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "water-bleach"
+      ],
+      "worksheet": "water-treatment-card",
+      "cites": [
+        "cdc-water-safe",
+        "cdc-sanitation-emergency"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-03",
+      "level": 3,
+      "section": "Toilet without flushing",
+      "title": "Choose between a pit toilet and a bucket toilet",
+      "why": "A pit toilet only works where there is enough open ground, so decide now which method your home can really use.",
+      "how": "This is the choice for an outage that outlasts your three days of toilet bags (X5-03). Check your city's rules first. Then measure your yard: the Portland-area guide these distances come from puts a pit at least 10 feet from the house and the property line and at least 100 feet from any well or creek, and all you need to make one is a shovel. If you cannot meet those distances, or your ground is waterlogged or frozen for part of the year, plan on the twin-bucket toilet or a bag in your own toilet bowl. Write down which method you chose.",
+      "done": "You have measured your yard against the pit distances, and the toilet method you will use is written down.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-02",
+      "apartment": "You have no ground for a pit, so your choice is between a bag in your own toilet bowl and the twin-bucket toilet, both of which work indoors.",
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "X5-02",
+      "level": 2,
+      "section": "Toilet without flushing",
+      "title": "Set up a bag toilet in your own toilet bowl",
+      "why": "It uses the toilet you already have, takes no extra space and sends nothing into drains that may be damaged.",
+      "how": "Lift the seat, drape a large plastic bag over the bowl (an ordinary kitchen bag will do) and lower the seat to hold it; this liner stays in place and keeps the next bag dry. Fit a toilet bag over the seat and use the toilet as normal. Afterwards add the absorbent powder or pad that comes with the kit so the liquid sets, squeeze the air out and tie the bag tight. Put it in a lidded container and wash or sanitize your hands. Keep the first kit (bags, absorbent, sanitizer, a small light) in the bathroom.",
+      "done": "The first kit is in the bathroom: toilet bags, absorbent, sanitizer, a small light and a large plastic bag to line the bowl.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-bag-kits"
+      ],
+      "cites": [
+        "koto-toilet",
+        "cdc-sanitation-emergency",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "X5-03",
+      "level": 2,
+      "section": "Toilet without flushing",
+      "title": "Stock toilet bags for the first three days",
+      "why": "People who run out of bags start drinking less to avoid the toilet, and that makes them sick.",
+      "how": "Plan one bag per use at 5 uses per person per day, the planning figure in Koto City's guide. Three days is 15 bags per person; the site works the number out from your household setup. A child in diapers needs diapers (X5-10), not toilet bags, so leave them out of the count. Do not scale the kits up for two weeks: for a longer outage switch to the bucket, liner and absorbent (X5-05, U5-19), which use far fewer bags, and keep the kits for the first three days and for the bags you would leave with. Add toilet paper at about 4 rolls per person per month, and large outer bags for storing the tied ones.",
+      "done": "The number of toilet bags the site works out for your household is stored with the toilet kit, with toilet paper and large outer bags beside them.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-bag-kits"
+      ],
+      "calc": "toilet_bags",
+      "cites": [
+        "koto-toilet",
+        "rdpo-toilet",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "U5-04",
+      "level": 3,
+      "section": "Storing waste and trash",
+      "title": "Work out how much toilet waste you will have to store",
+      "why": "Two weeks of sealed waste takes more room than most people expect, and it has to sit somewhere until collection restarts.",
+      "how": "Plan on 5 gallons of toilet waste per person per week. Two weeks is 10 gallons each, so plan one 10-gallon can with a tight lid for each person: two people need two cans, or four 5-gallon buckets with lids. For a 3-day target one can is enough for a household of up to four. Multiply for your own household and target days, and get the containers now.",
+      "done": "You have the number of lidded cans or buckets your sum gives for your household and target days, and each lid closes tightly.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "With no yard or garage, decide now where one can for each person will stand (X5-04 lists the places), and choose cans over a row of open buckets.",
+      "products": [
+        "waste-storage-bin"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-05",
+      "level": 3,
+      "section": "Toilet without flushing",
+      "title": "Learn how to empty the buckets when you have a yard",
+      "why": "Stored waste spreads illness unless urine and solids are each handled the right way.",
+      "how": "Pee: add water to the bucket if you can spare some, then pour it over lawn or bare soil; put the toilet paper in the poo bucket. Poo: cover every use with a handful of dry material, tie the bag when the bucket is no more than half full, put it inside a second bag and store it apart from food, water, pets and other trash. Do not bury the bags or put them out for collection until your city says how they will be handled. Wash or sanitize your hands every time.",
+      "done": "You can point to the patch of lawn or soil for urine and to the place, apart from food, water and pets, where tied bags would wait.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-05",
+      "apartment": "With no ground to pour onto, urine is set to a gel in the toilet bag or held in a lidded bucket until the building confirms the drains are sound; solids are bagged and stored the same way as in a house.",
+      "cites": [
+        "rdpo-toilet",
+        "cdc-sanitation-emergency"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "X5-05",
+      "level": 3,
+      "section": "Toilet without flushing",
+      "title": "Set up a bucket for urine once the toilet bags run out",
+      "why": "Urine is about ten times the volume of solid waste, and in an apartment there is no ground to pour it onto.",
+      "how": "For the first three days the one-use bags deal with it: the absorbent powder or pad sets the urine to a gel, so nothing is poured anywhere. After that, use a bucket: line a lidded bucket with a thick bag, add a few cups of absorbent (gel powder, wood pellets or pet litter), top it up as it gets wet, and tie the bag off at least once a day. Store tied bags with your other sealed waste. Never pour urine into a sink, bathtub, balcony drain or the street; pour it down the toilet only after the building has confirmed the drains are sound. Keep the bucket lidded and out of a small child's reach (U5-19). Bleach stays out of the urine bucket: it is not part of this method, and a poison control center warns that bleach mixed with urine can give off chloramine, an irritating gas.",
+      "done": "A lidded bucket, thick bags to line it and a supply of absorbent are stored together, and the lid shuts firmly.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-absorbent",
+        "toilet-liner-bags"
+      ],
+      "cites": [
+        "koto-toilet",
+        "rdpo-toilet",
+        "tokyo-bousai",
+        "cpsc-bucket-drowning",
+        "cpsc-indoor-drowning",
+        "mpc-bleach-urine"
+      ],
+      "cite_todo": "No official guide gives a urine method for homes with no ground (the Portland guide names the gap). The bucket-with-absorbent method is reasoned from the Koto and Portland methods and needs an official source if one appears."
+    },
+    {
+      "id": "X5-04",
+      "level": 2,
+      "section": "Storing waste and trash",
+      "title": "Choose where sealed waste bags will wait",
+      "why": "Collection may not restart for weeks, and sealed bags kept in the wrong place put food, water and neighbors at risk.",
+      "how": "Get a can with a tight lid, line it with a thick bag and label it so nobody takes it for trash. One 10-gallon can holds three days of tied bags for up to four people; for two weeks plan one 10-gallon can for each person (U5-04 has the sum). Stand it on a balcony out of the sun if you have one; otherwise in the bathtub, on the bathroom floor or in the closet farthest from the kitchen, away from food, water, children and pets. Put every tied bag inside a second bag before it goes in. Never use the chute, the shared bins or a hole in the ground: cities differ on how these bags are collected, so keep them sealed and wait for your city's instructions.",
+      "done": "A can with a tight lid, lined with a thick bag and labeled, stands in the place you chose, away from food, water, children and pets.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "waste-storage-bin",
+        "trash-bags-contractor"
+      ],
+      "cites": [
+        "rdpo-toilet",
+        "koto-toilet",
+        "cdc-sanitation-emergency",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "U5-06",
+      "level": 2,
+      "section": "Storing waste and trash",
+      "title": "Plan for period products and their waste",
+      "why": "Periods do not wait for the water to come back, and used products cannot be flushed.",
+      "how": "Keep one full cycle of what each person uses beyond what is open now, and two cycles at a two-week or longer target. Count everyone who menstruates, teenagers included. Put used pads and tampons in a small bag of their own, tie it, and add it to the solid toilet waste or to a separate lined bin; never flush them. A menstrual cup can be emptied into the toilet bag and washed with soap and treated water.",
+      "done": "One full spare cycle of products for each person who menstruates is in the closet, or two at a two-week or longer target, with small bags for used ones.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "products": [
+        "menstrual-backup"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-07",
+      "level": 2,
+      "section": "Storing waste and trash",
+      "title": "Stock non-latex gloves for handling waste",
+      "why": "Gloves keep waste off your skin when you tie, carry and double-bag it.",
+      "how": "Keep one box of 100 disposable nitrile or vinyl gloves with the toilet kit. Put on a fresh pair each time you tie, move or double-bag waste, peel them off inside out and drop them in the waste bag. Then wash or sanitize your hands: gloves do not replace handwashing.",
+      "done": "One box of 100 disposable nitrile or vinyl gloves is with the toilet kit.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "gloves-disposable"
+      ],
+      "cites": [
+        "cdc-handwashing",
+        "cdc-sanitation-emergency"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-08",
+      "level": 3,
+      "more": true,
+      "section": "Storing waste and trash",
+      "title": "Cut your everyday trash",
+      "why": "A household that makes less trash in normal weeks has less to store when collection stops.",
+      "how": "For one week, look at what fills your trash can. Choose two changes that shrink it, such as buying food with less packaging, flattening every box and can as you go, or refusing disposable bags. Keep them as habits.",
+      "done": "You have watched what fills your trash can for one week, and both changes you chose have been made at least once.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-09",
+      "level": 3,
+      "section": "Storing waste and trash",
+      "title": "Plan your household trash if you have a yard",
+      "why": "Uncollected trash draws flies, rats and smell within days unless you sort it and cover it.",
+      "how": "Keep food scraps apart and compost them in a closed outdoor bin. Crush cans and flatten boxes to save space. In the outdoor garbage can, sprinkle soil, wood ash, garden lime or borax over each layer to hold down the smell, and keep the lid on against animals. Check your local rules before you bury anything.",
+      "done": "A closed bin for food scraps stands in your yard, and soil, wood ash, garden lime or borax is kept by the lidded garbage can.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-06",
+      "apartment": "With no compost bin and no soil, everything stays indoors: sort wet from dry, crush, double-bag and keep it in a lidded bin.",
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "X5-06",
+      "level": 3,
+      "section": "Storing waste and trash",
+      "title": "Plan for weeks of household trash with no collection",
+      "why": "When chutes are locked and trucks stop, every bag you fill stays in your home.",
+      "how": "Keep wet waste (food scraps, used wipes, diapers) apart from dry waste (cans, cartons, plastic). Drain and wrap wet waste, double-bag it in small bags tied tight and keep it in a lidded bin; crush dry waste flat and stack it in bags in a closet or on a balcony. Never leave bags in a hallway, a stairwell or beside a locked chute, because exits and stairwell doors must be kept clear. Make less wet waste by eating fresh and opened food first.",
+      "done": "A lidded bin and small bags for wet waste are in place, and you can point to the closet or balcony spot where bags of dry waste will stack.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "trash-bags-contractor",
+        "waste-storage-bin"
+      ],
+      "cites": [
+        "nfpa-highrise"
+      ],
+      "cite_todo": "No official guide covers storing household trash indoors through a long outage; the citation covers only keeping exits and stairwell doors clear."
+    },
+    {
+      "id": "X5-09",
+      "level": 2,
+      "section": "Storing waste and trash",
+      "title": "Stock supplies for pet waste",
+      "why": "A pet's waste carries germs too, and many trips down the stairs with a dog may not be possible.",
+      "how": "For cats and small animals, keep enough litter or bedding for your target days plus one week, and scoop into a small bag every day. For dogs, keep two rolls of waste bags and a pack of absorbent training pads for the days when you cannot get outside. Tie each bag, put it inside a second one and keep it in the lidded bin with your sealed toilet waste, apart from food and water. Wash or sanitize your hands afterwards.",
+      "done": "Litter or bedding for your target days plus one week, or for a dog two rolls of waste bags and a pack of training pads, is stored at home.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "products": [
+        "pet-litter-portable",
+        "trash-bags-contractor"
+      ],
+      "cites": [
+        "cdc-handwashing"
+      ]
+    },
+    {
+      "id": "X5-10",
+      "level": 2,
+      "section": "Storing waste and trash",
+      "title": "Stock diapers and plan where used ones go",
+      "why": "A child in diapers gets through them at the same rate whether or not the trash is being collected.",
+      "how": "Stock diapers and wipes for your target days; the site works out the number from your household setup. Roll each used diaper shut, tape it, put it in a small bag and tie it. Diapers go with household trash in a lined, lidded bin, not in the toilet bucket or toilet bags, and wipes are never flushed. Wash or sanitize your hands after every change.",
+      "done": "The number of diapers the site works out for your household is stored with wipes and small bags, and a lined, lidded bin for used ones is in place.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "diapers"
+        ]
+      },
+      "products": [
+        "diaper-kit",
+        "waste-storage-bin"
+      ],
+      "calc": "diapers",
+      "cites": [
+        "rdpo-toilet",
+        "cdc-handwashing"
+      ]
+    },
+    {
+      "id": "U5-10",
+      "level": 3,
+      "section": "Laundry and wash water",
+      "title": "Choose a way to wash clothes by hand",
+      "why": "Clean underwear and socks prevent rashes and infections when an outage runs past the first few days.",
+      "how": "Pick one method and get what it needs: rubbing small items in a basin, with or without a washboard; a lidded bucket with a plunger-style hand washer; a hand-cranked tub washer that does a small load in about 1 gallon; or, for bulky items, a heavy garbage bag holding the laundry, water and soap that you press and knead. Plan to wash underwear and socks first and to wear outer clothes for several days. Used wash water goes down a drain only when the drains are known to be sound; with a yard, pour it on the ground.",
+      "done": "What your chosen method needs, a basin, a bucket and hand washer, a tub washer or a heavy garbage bag, is stored at home with soap.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Wash in the bathtub or shower tray so spills stay contained, dry on a folding rack, and hold the used water in a lidded bucket until the building clears the drains; there is no lawn to pour it on.",
+      "products": [
+        "laundry-manual"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "X5-11",
+      "level": 3,
+      "section": "Laundry and wash water",
+      "title": "Decide where used wash water goes",
+      "why": "Sinks and showers empty into the same shared pipes as the toilet, so wash water is covered by the don't-flush rule too.",
+      "how": "Until the building confirms the drains are sound, treat every drain as closed. Wash over a basin, reuse rinse water for the next wash, then pour the dirty water into a lidded bucket kept in the bathtub. Small amounts can be soaked up with wood pellets or pet litter in a tied bag. Once the drains are confirmed, pour stored water down the toilet, where it also does the work of a flush. Never throw water from a window or balcony; with a yard of your own, pour it on the ground. Keep the bucket lidded and out of a small child's reach (U5-19).",
+      "done": "A basin and a lidded bucket for dirty water are kept by the bathtub, and everyone at home has heard the rule for drains.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "waste-storage-bin"
+      ],
+      "cites": [
+        "koto-toilet",
+        "tokyo-bousai",
+        "cpsc-bucket-drowning",
+        "cpsc-indoor-drowning"
+      ],
+      "cite_todo": "No official guide covers holding used wash water indoors; the storage and absorbing advice is first principles. The citation covers only the rule that drains must be confirmed before use."
+    },
+    {
+      "id": "U5-11",
+      "level": 3,
+      "section": "Keeping clean",
+      "title": "Add a screen for privacy",
+      "why": "People put off washing, changing and using the toilet when they have no privacy, and that harms their health.",
+      "how": "Decide how you would screen a toilet or washing corner if the household moves into one room or shares space with others. A shower curtain or sheet on a tension rod, or a sheet clipped across a corner, is enough. Put the rod, the sheet and six clips with the toilet kit.",
+      "done": "The rod, the sheet or shower curtain and six clips are with the toilet kit.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "evacuation"
+      ],
+      "apartment": "Your bathroom door already gives privacy, so you need a screen only if everyone camps in one room or you host neighbors.",
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-12",
+      "level": 2,
+      "section": "Keeping clean",
+      "title": "Add breastfeeding supplies if someone is nursing",
+      "why": "A nursing parent needs their usual supplies and a private place wherever the household ends up.",
+      "how": "Pack what the nursing parent uses in a normal week: nursing pads, a cover or scarf if they want one, and a hand pump if they pump, since it needs no power. Keep these with the hygiene supplies and add a set to the bag you would leave with. Agree on a private spot at home and ask about one anywhere you might stay.",
+      "done": "The nursing parent's supplies are with the hygiene supplies, a second set is in the bag you would leave with, and a private spot at home is agreed.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "under5"
+        ]
+      },
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-13",
+      "level": 3,
+      "section": "Houses with a yard",
+      "title": "Find your septic system and learn the signs of trouble",
+      "why": "A damaged septic system can push sewage back into the house or up into the yard.",
+      "how": "Find the tank and drain field (your county may hold the installation record) and mark them on a sketch. It is working if water runs, the power is on for any pump, toilets flush and sinks drain. Suspect damage if the ground has shifted, there are new wet or soft patches, you smell sewage, or water backs up in the lowest drains. Then cut water use, switch to a bucket or bag toilet, keep people and pets away from the area, never open or enter the tank, and call a licensed septic contractor.",
+      "done": "You have found the septic tank and drain field on the ground and marked both on a sketch.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ],
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-07",
+      "apartment": "An apartment drains into a shared sewer connection that the building looks after, so your equivalent is asking who checks the drains and how you will be told.",
+      "cites": [
+        "epa-flood-sewage"
+      ],
+      "cite_todo": "An official page on septic systems after a disaster (EPA has one) would fit the working and not-working signs better than the sewage-safety citation.",
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-14",
+      "level": 3,
+      "section": "Houses with a yard",
+      "title": "Ask your HOA or property manager about pit-toilet sites",
+      "why": "Shared grounds need one agreed spot, chosen before anyone starts digging near buildings, wells or pipes.",
+      "how": "If your home shares grounds, send the homeowners' association or property manager one question in writing: has a place been chosen for emergency pit toilets, at least 10 feet from buildings and property lines and 100 feet from wells and creeks? If not, ask them to choose one and tell residents. Write the answer by hand on your printed Building information sheet.",
+      "done": "Your written question has been sent, and the answer is written on your Building information sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-07",
+      "apartment": "A building with no open ground cannot use pit toilets; ask instead who checks the drains and where the building wants sealed waste bags kept.",
+      "worksheet": "building-info",
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-15",
+      "level": 3,
+      "section": "Houses with a yard",
+      "title": "Find out where underground lines run before you dig",
+      "why": "A shovel through a gas, power, water or sewer line can injure you and delay the return of the service.",
+      "how": "Before you ever need a pit, find out where buried water, sewer, gas, power and cable lines cross your yard. In the United States, call 811 or use your state's 811 website a few working days before digging and the utilities will mark their lines at no charge; elsewhere, ask your utility or city for the same service. Sketch the marked lines and keep the sketch with your plan.",
+      "done": "A sketch showing where the buried lines cross your yard is kept with your plan.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X5-02",
+      "apartment": "You will not be digging, so skip this and use a bag or bucket toilet indoors.",
+      "cite_todo": "An official page for the 811 call-before-you-dig service (or the local equivalent) to back the utility-marking step.",
+      "toolkit_page": "15-19"
+    },
+    {
+      "id": "U5-16",
+      "level": 3,
+      "same_as": "U5-18",
+      "section": "Keeping clean",
+      "title": "Set aside three containers used only for washing",
+      "why": "Tubs kept for washing alone never carry toilet waste or chemicals onto your dishes.",
+      "how": "Choose three sturdy plastic tubs or buckets of 2 to 5 gallons each and mark them WASH, RINSE and SANITIZE. Use them for nothing else. Nest them and store the dish soap, bleach and a dish brush inside. If a baby or toddler lives with you or visits, keep every bucket that holds liquid lidded and behind a closed door: a small child can drown in a few inches of liquid.",
+      "done": "Three tubs or buckets marked WASH, RINSE and SANITIZE are nested together, with the dish soap, bleach and a dish brush stored inside.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Three nesting dish tubs take less room than buckets and fit side by side in a bathtub or on a counter.",
+      "cites": [
+        "fda-food-outage",
+        "cpsc-bucket-drowning",
+        "cpsc-indoor-drowning"
+      ],
+      "toolkit_page": "75"
+    },
+    {
+      "id": "U5-17",
+      "level": 3,
+      "same_as": "U5-18",
+      "section": "Keeping clean",
+      "title": "Stock dish soap and plain bleach",
+      "why": "Soap lifts the dirt and a weak bleach solution kills what is left, which matters when you cannot rinse under a hot tap.",
+      "how": "Keep one full bottle of dish soap and one bottle of plain, unscented household bleach (5% to 9% sodium hypochlorite on the label) with the washing tubs. Write the purchase date on the bleach and replace it after a year, because it weakens with age. Never mix bleach with ammonia or any other cleaner.",
+      "done": "A full bottle of dish soap and a bottle of plain, unscented bleach with its purchase date written on it are with the washing tubs.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "water-bleach"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-bleach-clean"
+      ],
+      "toolkit_page": "75"
+    },
+    {
+      "id": "U5-18",
+      "level": 3,
+      "section": "Keeping clean",
+      "title": "Set up and practice the wash, rinse and sanitize line",
+      "why": "Three tubs kept only for dishes let you clean them safely on little water, and one trial run shows how much it takes and where the tubs fit in your home.",
+      "how": "Choose three sturdy plastic tubs or buckets of 2 to 5 gallons, mark them WASH, RINSE and SANITIZE, and use them for nothing else. Nest them with a full bottle of dish soap and a dish brush inside, and use the bleach from U4-10. Never mix bleach with ammonia or any other cleaner. To practice, set the tubs in a row. Tub 1 holds water with a squirt of dish soap, for scrubbing; tub 2 holds plain clean water, for rinsing. Tub 3 holds 1 tablespoon of unscented bleach per gallon of clean water: soak rinsed dishes in it for 15 minutes, then let them air-dry. Wash hands at a separate spot, with soap and clean water poured over them, never in the dish tubs. Do one meal's dishes this way and note how much water you used. Empty the tubs when you finish, and keep any that hold liquid out of a small child's reach (U5-19).",
+      "done": "Three tubs marked WASH, RINSE and SANITIZE are nested with dish soap and a dish brush inside, and you have washed one meal's dishes through them and written down how much water it took.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 40,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Three nesting dish tubs take less room than buckets and fit side by side in a bathtub or on a counter.",
+      "cites": [
+        "fda-food-outage",
+        "cdc-bleach-clean",
+        "cdc-handwashing",
+        "cdc-handwashing-faq"
+      ],
+      "toolkit_page": "75"
+    },
+    {
+      "id": "X5-12",
+      "level": 2,
+      "section": "Keeping clean",
+      "title": "Set up a low-water handwashing spot indoors",
+      "why": "Clean hands after the toilet and before food are the main thing that stops illness spreading through a household without running water.",
+      "how": "Stand a water container with a spigot (2 gallons or more) on the edge of a counter or bathtub, with a basin underneath to catch the water, liquid soap beside it and a clean towel or paper towels. Wet your hands, turn the spigot off, lather for 20 seconds, then rinse under a thin stream. Wash after every toilet use and every time you handle a waste bag, and before touching food. Keep sanitizer with at least 60% alcohol there for when water is short; it works poorly on visibly dirty hands.",
+      "done": "A water container with a spigot stands over a basin with soap, a towel and sanitizer beside it, and water runs when you open the spigot.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "handwash-station",
+        "hand-sanitizer"
+      ],
+      "cites": [
+        "cdc-handwashing",
+        "cdc-sanitizer"
+      ]
+    },
+    {
+      "id": "U5-19",
+      "level": 3,
+      "section": "Twin-bucket toilet",
+      "title": "Set up a twin-bucket toilet",
+      "why": "Two buckets, one for pee and one for poo, make a toilet that works anywhere once the toilet bags run out, and keep smell and volume down.",
+      "how": "The twin-bucket toilet takes over once your three days of toilet bags (X5-03) are used up. Get two plastic buckets of 5 or 6 gallons from a hardware store, or clean used ones from a bakery, restaurant or paint store, with no cracks, smooth rims and the strength to hold the heaviest person at home sitting on them. Label one bucket and its lid PEE and the other POO in large letters, and show everyone at home, children included, which is which; toilet paper always goes in the POO bucket. Fit each bucket with a hard, smooth plastic seat made for 5-gallon buckets that you can wipe with disinfectant, never a foam pool noodle. Get a tight lid for the pee bucket and for every container that will hold tied bags, and check that everyone at home can open each one; the poo bucket in use keeps only its seat or a loose cover, so the contents can dry. Line the poo bucket with a 13-gallon bag of 0.9 mil or thicker, about one liner per person per day after the first three days, and tie it when the bucket is half full or sooner. Put tied liners inside a thick contractor bag, and never pour waste from one container to another. Cover each use with about half a cup of dry wood pellets, shredded paper, or paper or wood-shaving pet bedding (not cedar), so store 1 cup per person per day in a sealed tub with a scoop. Pellets swell when wetted: 5 cups of pellets with 2.5 cups of water make enough sawdust for one person for two weeks, so store that water too. Stand the toilet in the most private place you have with a door, a floor you can wipe and some airflow, with cover material, spare bags, toilet paper, sanitizer and a light within reach. If a baby or toddler lives with you or visits, keep every bucket that holds liquid lidded and behind a closed door: a small child can drown in a few inches of liquid.",
+      "done": "Two labeled buckets with seats stand in the spot you chose, with a tight lid for the pee bucket, liners and contractor bags, a sealed tub of cover material for your target days, toilet paper, sanitizer and a light within reach.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "In an apartment the bag in your own toilet bowl covers the first three days; the buckets then stand in the bathroom beside the unused toilet or in the shower tray, where a spill is easy to clean, and between uses they nest and hold the rest of the kit in about one square foot of closet floor.",
+      "products": [
+        "toilet-seat-bucket",
+        "disinfectant-surface",
+        "toilet-absorbent",
+        "toilet-liner-bags",
+        "trash-bags-contractor"
+      ],
+      "cites": [
+        "rdpo-toilet",
+        "cpsc-bucket-drowning",
+        "cpsc-indoor-drowning"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-20",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Label one bucket PEE and one POO",
+      "why": "Keeping the two apart cuts smell and volume and makes the solid waste safer to store, but only if everyone uses the right bucket.",
+      "how": "Write PEE and POO in large letters on paper or tape and fix one label to each bucket and its lid; the regional guide behind this method also offers labels to print. Show everyone at home, children included, which is which. Toilet paper always goes in the POO bucket.",
+      "done": "One bucket and its lid are labeled PEE, the other POO, and everyone at home has been shown which is which.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-21",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Get a toilet seat that fits a bucket",
+      "why": "A firm seat that can be wiped clean makes the bucket usable for everyone and does not hold germs.",
+      "how": "Buy a snap-on seat made for 5-gallon buckets, or adapt a standard toilet seat so it sits firmly. Two seats, one for each bucket, is better, because many people sit for both. Choose hard, smooth plastic you can wipe with disinfectant. Do not use a foam pool noodle as a seat: it soaks up waste and cannot be cleaned.",
+      "done": "A hard, smooth plastic seat is fitted to the bucket and stays firm when a person sits on it.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-seat-bucket",
+        "disinfectant-surface"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-22",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Stock dry cover material for the poo bucket",
+      "why": "A layer of dry, carbon-rich material over each use soaks up moisture, holds down smell and keeps flies off.",
+      "how": "Buy something you can find in a city and store dry: wood pellets (sold as stove fuel or animal bedding), shredded paper, or paper or wood-shaving bedding for small pets (not cedar). You need about half a cup, a good handful, after each use, so allow 1 cup per person per day. Pellets swell: 2 cups of pellets with 1 cup of water make about 6 cups of sawdust, so 5 cups of dry pellets and 2.5 cups of water cover one person for two weeks. Keep it in a sealed tub with a scoop, and store the extra water.",
+      "done": "A sealed tub with a scoop holds dry cover material at 1 cup per person per day for your target days, with water set aside if you chose pellets.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "The toolkit's dry leaves and grass clippings need a yard; pellets, shredded paper and pet bedding do the same job and keep cleanly in a closet.",
+      "products": [
+        "toilet-absorbent"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-23",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Stock heavy-duty garbage bags for the bucket",
+      "why": "A thin bag that tears turns a clean system into a spill of raw waste.",
+      "how": "Buy 13-gallon bags, 0.9 mil or thicker. The guide behind this method gives no count, because one bag takes many uses; this site plans one liner per person per day after the first three days. One bag lines the poo bucket; tie it when the bucket is half full or sooner, then put it inside a thick contractor bag, which can hold several tied liners. If you cannot find that size, any thick bag will do as long as it still ties shut over a half-full bucket. Never pour waste from one container to another.",
+      "done": "Thick bags that tie shut over a half-full bucket are with the toilet kit, one liner per person per day after the first three days, with contractor bags for the outer layer.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-liner-bags",
+        "trash-bags-contractor"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-24",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Get lids that close well",
+      "why": "The right lid in the right place controls smell; the wrong one traps moisture.",
+      "how": "Get a tight lid for the pee bucket, which smells most when left open, and a tight lid for every container that holds tied bags. The poo bucket in use is different: rest the seat or a loose cover on it so air can dry the contents. Check that each lid snaps shut and that everyone at home can open it.",
+      "done": "The pee bucket and every container for tied bags has a lid that snaps shut, and everyone at home has opened each one.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "toilet-seat-bucket"
+      ],
+      "cites": [
+        "rdpo-toilet"
+      ],
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "U5-25",
+      "level": 3,
+      "same_as": "U5-19",
+      "section": "Twin-bucket toilet",
+      "title": "Decide where the bucket toilet will stand",
+      "why": "A private, easy-to-clean spot chosen in advance means the toilet gets used properly from the first hour.",
+      "how": "Choose the most private place you have with a door, a floor you can wipe and some airflow. Keep cover material, spare bags, toilet paper, sanitizer and a light within reach of the seat. The buckets can be moved later if you need the space.",
+      "done": "Everyone at home can point to the spot, and cover material, spare bags, toilet paper, sanitizer and a light are stored within reach of it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Indoors the bathroom is the natural place: stand the buckets beside the unused toilet, or in the shower tray, where a spill is easy to clean.",
+      "toolkit_page": "75-76"
+    },
+    {
+      "id": "X5-08",
+      "level": 3,
+      "section": "Toilet without flushing",
+      "title": "Learn the bucket flush for when drains are confirmed but water is off",
+      "why": "Once the drains are known to be sound, a bucket of water flushes a toilet without any water pressure and saves your bags.",
+      "how": "Do this only after the building (or a plumber, for a house) has confirmed the drains are sound. Pour about 1 to 1.5 gallons (4 to 6 liters) of non-drinking water from a bucket straight into the bowl in one fast pour; a bottle cannot deliver enough at once. Put used toilet paper in a lined bin, not in the bowl. Go back to bag toilets at once if water seeps through a ceiling, the underside of the closed toilet lid is wet, or anything else suggests a blockage.",
+      "done": "Every adult at home has heard when the bucket flush is allowed, how it is done and the signs that mean going back to bag toilets.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "koto-toilet",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "X5-13",
+      "level": 2,
+      "section": "Toilet without flushing",
+      "title": "Do one practice run with the toilet kit",
+      "why": "A trial on a calm evening shows what is missing before the night you need it.",
+      "how": "Run the whole routine once: line the bowl (or set up the buckets, once you have them), fit a bag, and pour in 2 cups (500 ml) of water to stand in for one use. Add the absorbent or cover material, squeeze out the air, tie the bag, double-bag it and put it in the storage bin. After 10 minutes check that the liquid has set and nothing leaks. Have each person sit on the seat and tie one bag, then write down what was missing or awkward and fix it.",
+      "done": "Each person has sat on the seat and tied one bag, the test bag set without leaking, and what was missing is written down and fixed.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "koto-toilet",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "U5-26",
+      "level": 3,
+      "more": true,
+      "section": "Laundry and wash water",
+      "title": "Gather the parts for a bucket washing machine",
+      "why": "A plunger washer in nested buckets cleans a small load with a few inches of water and no power.",
+      "how": "Collect two 5-gallon buckets, one screw-top bucket lid with a snap-on ring (sold as a gamma seal lid), a plunger-style hand washer, a drill with 2-inch and 1-inch bits, a rubber mallet, and a clothesline with clothespins or a folding drying rack. Keep them together until you build it.",
+      "done": "The two buckets, screw-top lid, hand washer, drill and bits, mallet and clothesline or drying rack are together in one place.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "A ready-made hand washer and one lidded bucket do the same job with no drill, and a folding rack over the bathtub replaces the clothesline.",
+      "products": [
+        "laundry-manual"
+      ],
+      "toolkit_page": "77-78"
+    },
+    {
+      "id": "U5-27",
+      "level": 3,
+      "more": true,
+      "section": "Laundry and wash water",
+      "title": "Build the bucket washer and wash one load",
+      "why": "Building it and washing one load now proves it works and shows how much water a wash really takes.",
+      "how": "Drill a 2-inch hole in the center of the screw-top lid for the washer's handle, and four 1-inch holes in the bottom of one bucket. Tap the lid's ring onto that bucket with the rubber mallet (a hammer would damage the seal), then nest it inside the second bucket. Add clothes, about 4 inches of water and a little detergent, fit the lid over the handle and plunge for a few minutes. Lift the inner bucket to drain, rinse the clothes in a little clean water, wring them and hang them to air-dry.",
+      "done": "The bucket washer is built, and one load of clothes washed in it has been hung up to dry.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "most",
+      "optional": true,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Work in the bathtub or shower tray, dry on a rack indoors, and hold the used water in a lidded bucket unless your drains are known to be sound.",
+      "toolkit_page": "77-78"
+    }
+  ]
+}

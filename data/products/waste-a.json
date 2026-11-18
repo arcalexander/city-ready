@@ -1,0 +1,1028 @@
+{
+  "batch": "waste-a",
+  "checked": "2026-11-14",
+  "items": [
+    {
+      "id": "toilet-seat-bucket",
+      "module": "waste",
+      "name": "Emergency toilet (bucket or folding)",
+      "need": "When you are told not to flush, you still need somewhere safe to go that keeps waste contained inside a bag.",
+      "how_to_choose": "In an apartment the toilet has to work with bags, because there is nowhere to empty a tank. A snap-on seat on a 5-gallon bucket is the cheapest route and is what the Portland-area twin-bucket method uses: one bucket for pee, one for poo. A folding toilet stores flat in a closet but only works with bag kits. Skip flush-type cassette toilets: they must be emptied into a working sewer or dump station, which is exactly what you may not have.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One toilet per household. For the twin-bucket method you need two 5-gallon buckets (one for pee, one for poo); one seat can be moved between them."
+      },
+      "already_own": "Your own toilet bowl can be lined with a heavy-duty bag if the bowl is intact and you empty the water first; King County's guidance describes lining a toilet bowl or a 5-gallon pail. Any clean 5- or 6-gallon bucket with a smooth rim also works as the base. Check that a bucket has no cracks and that a seat snaps on firmly before you rely on it.",
+      "safety_notes": [
+        {
+          "text": "Human poo can spread diseases such as cholera if it is not handled and stored safely, so it must be contained when toilets cannot be flushed.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Project",
+          "url": "https://rdpo.net/emergency-toilet",
+          "verified": true
+        },
+        {
+          "text": "Twin-bucket method: pee goes in one bucket and poo in a second bucket lined with a heavy-duty bag. Cover each poo with a handful of dry cover material, do not fill the bucket more than half full, and do not use an airtight lid on the bucket in use so the contents can dry.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "The RDPO guide tells people to dilute pee and pour it on open ground such as a lawn, moving the spot each time. If you cannot get to open ground from your building, use bags with a gelling agent for pee as well.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Bleach is not part of the twin-bucket method. The RDPO guide's supply list is buckets, heavy-duty bags, dry cover material and hand-cleaning supplies; it does not call for bleach or other chemicals in the bucket.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Set up the toilet away from where food is prepared or eaten, and put a handwashing spot next to it.",
+          "source_name": "Public Health - Seattle & King County",
+          "source_title": "Emergency toilets",
+          "url": "https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after using or handling the toilet. If there is no soap and water, use hand sanitizer with at least 60% alcohol; it works less well on visibly dirty hands.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        },
+        {
+          "text": "A bucket holding even a few inches of liquid is a drowning hazard for babies and toddlers. If a small child lives with you or visits, keep every bucket that holds liquid lidded and behind a closed door, and never leave one where a small child can reach it.",
+          "source_name": "CPSC",
+          "source_title": "In Home Danger: CPSC Warns of Children Drowning in Bathtubs, Bath Seats and Buckets (release 12-284, 2012)",
+          "url": "https://www.cpsc.gov/Newsroom/News-Releases/2012/In-Home-Danger-CPSC-Warns-of-Children-Drowning-in-Bathtubs-Bath-Seats-and-Buckets-More-than-400-deaths-estimated-over-a-five-year-period",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Reliance does not sell these directly: buy from an outdoor, farm or hardware retailer."
+      ],
+      "research_note": "2026-11-15 re-check of the two Reliance pages: the page reader was refused with a rate-limit reply, so both pages were opened in a browser. Neither page shows a price, a cart button or a sold-out label; the page data lists $17.99 (seat) and $25.99 (toilet) and marks both out of stock. The 2026-11-14 pass recorded the maker's store as showing both sold out. Retailer pages opened 2026-11-15: L&M Supply (seat 9881-03 $14.99 in stock; toilet 9853-23 $19.99 in stock) and Sportsman's Warehouse (toilet 9853-23 $21.99, store pick-up available, online stock unclear). Blain's Farm & Fleet showed a bot check and was not read. CPSC drowning warning: the 1989 release does not give a depth; the 2012 release (12-284) states that it takes only a few inches of water for a young child to drown. 2026-11-16 alignment pass: off the page from item_flags: No recall found for portable or bucket toilets: the official CPSC recall database was queried on 2026-11-14 for 'portable toilet', 'Luggable', 'Reliance' and 'Cleanwaste'. | Reliance's own site showed no price or buy button for either Luggable Loo product on 2026-11-15, so buy from a retailer. L&M Supply listed both as in stock that day; other outdoor, farm and hardware retailers carry them. 2026-11-16 alignment pass: safety note said twice, removed: A 5-gallon bucket holding liquid is a drowning hazard for babies and toddlers, even when it is only partly filled. Never leave a pee bucket, or any bucket of liquid, where a small child can reach it. (https://www.cpsc.gov/Newsroom/News-Releases/1989/Large-Buckets-Are-Drowning-Hazards-For-Young-Children)",
+      "tiers": {
+        "budget": {
+          "brand": "Reliance",
+          "model": "Luggable Loo Seat & Cover",
+          "model_number": "9881-03",
+          "size": "Snap-on seat and lid, 14 x 13 x 1.5 in, about 1 lb. Fits most standard 5-gallon pails. Bucket not included.",
+          "unit_size": 1,
+          "unit_label": "seat",
+          "price_usd": 14.99,
+          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-15. The maker's list price is $17.99. Add the cost of a 5-gallon bucket from a hardware store.",
+          "why": "It turns any standard 5-gallon bucket into a toilet for very little money and takes almost no storage space. It is the same seat used on the tested Luggable Loo.",
+          "weakness": "It does not fit every bucket brand, and buyer reviews on retailer sites describe the lid hinge as fragile, so test the fit on your own bucket before you need it.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/luggable-loo-seat-cover",
+              "verified": true,
+              "note": "The maker's page shows no price or buy button.",
+              "research_note": "2026-11-16 alignment pass: old note: Part number 09881-03N, dimensions and fit confirmed on 2026-11-15. The page shows no price or buy button."
+            },
+            {
+              "label": "L&M Supply",
+              "url": "https://www.landmsupply.com/reliance-luggable-loo-seat-cover",
+              "verified": true,
+              "note": "Maker's number 9881-03. Pail not included.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: maker's number 9881-03, $14.99, shown as in stock. Pail not included."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0000B13MT",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader. The product code in the link was seen in that day's search results for 'Reliance Products 9881-03 Luggable Loo Snap-on Toilet Seat'; the search snapshot showed it as currently unavailable. 2026-11-16 alignment pass: old note: A search listing showed it as unavailable on 2026-11-14."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Luggable Loo Seat & Cover",
+              "url": "https://relianceoutdoors.com/products/luggable-loo-seat-cover",
+              "verified": true,
+              "supports": "Part number, dimensions, weight, fits most standard 5-gallon pails, pail not included."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Toilets",
+              "url": "https://outdoorlife.com/gear/best-camping-toilets",
+              "verified": true,
+              "supports": "Hands-on test of the Luggable Loo bucket toilet with this seat ('Best for Roughing It'); notes the lid does not seal in odors and that it needs a liner bag."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Luggable' and 'Reliance' on 2026-11-14: no recall for this product (the Reliance results were unrelated companies).",
+          "research_note": "2026-11-16 alignment pass: old link_note: The only independent test found covers the complete Luggable Loo, which uses this seat, not the seat sold alone. 2026-11-16 alignment pass: off the page from flags: The maker's own site does not sell it directly (no price or buy button on 2026-11-15). L&M Supply listed it in stock that day; the Amazon listing looked unavailable on 2026-11-14."
+        },
+        "standard": {
+          "brand": "Reliance",
+          "model": "Luggable Loo Portable Toilet",
+          "model_number": "9853-23",
+          "size": "5-gallon bucket with snap-on seat and lid and a metal handle. 15.75 x 14.5 x 15 in, about 3 lb, rated for 220 lb.",
+          "unit_size": 1,
+          "unit_label": "toilet",
+          "price_usd": 19.99,
+          "price_seen_at": "L&M Supply (landmsupply.com), shown as in stock on 2026-11-15. Sportsman's Warehouse listed it at $21.99 the same day. The maker's list price is $25.99.",
+          "why": "A complete bucket toilet in one purchase, with a seat that is known to fit its bucket. Supplies can be stored inside it, and it was hands-on tested by Outdoor Life.",
+          "weakness": "The lid does not seal in smell, the 220 lb rating is modest, and the 15-inch seat height is low for people with stiff knees or hips.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://relianceoutdoors.com/products/luggable-loo-portable-toilet",
+              "verified": true,
+              "note": "The maker's page shows no price or buy button.",
+              "research_note": "2026-11-16 alignment pass: old note: Title, part number and specifications confirmed on 2026-11-15. The page shows no price or buy button."
+            },
+            {
+              "label": "L&M Supply",
+              "url": "https://www.landmsupply.com/reliance-luggable-loo-portable-toilet",
+              "verified": true,
+              "note": "Maker's number 9853-23.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: maker's number 9853-23, $19.99, shown as in stock, 5 gallons, 220 lb capacity."
+            },
+            {
+              "label": "Sportsman's Warehouse",
+              "url": "https://www.sportsmans.com/camping-gear-supplies/camp-comfort/toilets/reliance-luggable-loo-portable-toilet/p/1801103",
+              "verified": true,
+              "note": "Maker's number 9853-23.",
+              "research_note": "2026-11-16 alignment pass: old note: Opened 2026-11-15: maker's number 9853-23, $21.99. Store pick-up was offered; online stock was not clear."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0CF2SMC3D",
+              "verified": false,
+              "note": "The listing's model number (9853-13N) differs from the maker's, so confirm that it includes the bucket.",
+              "research_note": "2026-11-14: Amazon refused the page reader. The product code in the link was seen in that day's search results for 'Reliance Products Luggable Loo Portable 5 Gallon Toilet W Snap on Lid' (listing model 9853-13N)."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Reliance Outdoors",
+              "title": "Luggable Loo Portable Toilet",
+              "url": "https://relianceoutdoors.com/products/luggable-loo-portable-toilet",
+              "verified": true,
+              "supports": "5-gallon capacity, metal handle, snap-on seat and cover, 220 lb weight capacity, dimensions and weight."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Camping Toilets",
+              "url": "https://outdoorlife.com/gear/best-camping-toilets",
+              "verified": true,
+              "supports": "Hands-on test; named 'Best for Roughing It'. Notes it is hard to clean without a liner bag and that the lid does not seal odors."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Luggable', 'Reliance' and 'portable toilet' on 2026-11-14: no recall for this product.",
+          "research_note": "2026-11-16 alignment pass: model_number was '9853-23 (the maker's page text prints 9853-33)'. 2026-11-16 alignment pass: off the page from flags: The maker's own site does not sell it directly (no price or buy button on 2026-11-15). L&M Supply listed it in stock at $19.99 that day. Amazon listings for this toilet differ on whether the bucket is included; read the listing."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No pick. A folding toilet such as Cleanwaste's GO Anywhere needs a bag-and-gel kit for every use, so it does not suit this site's two-week method of buckets, plain liners and absorbent, and no independent test of it was found."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: a folding toilet needs a bag kit for every use, so it does not suit the two-week method of buckets, plain liners and absorbent."
+    },
+    {
+      "id": "toilet-bag-kits",
+      "module": "waste",
+      "name": "Toilet bag kits with gelling agent",
+      "need": "Bags that come with a gelling powder turn pee and poo into a gel, which matters in an apartment where you cannot carry a pee bucket outside to empty it.",
+      "how_to_choose": "Look at three things: how much liquid one bag can gel, whether there is a second zip-close bag to seal in smell during weeks of indoor storage, and the price per bag. Kits fit over a toilet bowl, a bucket or a folding toilet. They cost far more per day than a bucket with plain liners and cover material, so many households keep a small supply for the first days or for night use.",
+      "qty": {
+        "basis": "toilet_bags",
+        "factor": 1,
+        "note": "72 hours at home (3 days): one bag per use at 5 uses per person per day, which is 15 per person. Do not scale these up for two weeks: at two weeks switch to the bucket, liner and absorbent (X5-05, U5-19) and keep these kits for the first three days and for the bag. A child in diapers counts for diapers, not for toilet bags. Five uses a day is this site's planning figure; some makers say a bag can take more than one use, but the count here is one bag per use."
+      },
+      "already_own": "If you already have plain heavy-duty liners plus a gelling powder or dry cover material, you do not need kits. Unused camping 'wag bags' are fine if the packaging is still sealed and the powder inside is dry and loose.",
+      "safety_notes": [
+        {
+          "text": "Human poo can spread diseases such as cholera if it is not handled and stored safely, so it must be contained when toilets cannot be flushed.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Project",
+          "url": "https://rdpo.net/emergency-toilet",
+          "verified": true
+        },
+        {
+          "text": "Makers say used kits can go in the trash, but after a disaster do not put bags of human waste in regular garbage, recycling or yard-debris carts unless local authorities say so. Garbage is compacted and bags tear. Keep sealed bags until you are told how they will be collected, and never bury them.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Store sealed, double-bagged waste away from food, water, children, pets, flies and rats.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after handling waste bags. If there is no soap and water, use hand sanitizer with at least 60% alcohol.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Some areas ban these bags from municipal trash, whatever the box says: follow local rules.",
+        "The FTC has warned that unqualified 'biodegradable' claims on plastic waste bags are deceptive, because bags in a landfill do not break down within a year. Treat such claims on toilet bags as marketing, and never bury used bags."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "Cleanwaste",
+          "model": "Toilet in a Bag (15-pack)",
+          "model_number": "",
+          "size": "15 drawstring toilet bags, a tub of Poo Powder for 15 treatments and a scoop. One treatment gels 24 oz of waste, so plan on one use per bag. Maker says: dispose in normal trash.",
+          "unit_size": 15,
+          "unit_label": "pack of 15",
+          "price_usd": 17.99,
+          "price_seen_at": "cleanwaste.com (sale price; regular $19.99)",
+          "why": "At about $1.20 a bag it is the cheapest purpose-made bag-and-gel kit found, from the maker whose gelling powder was hands-on tested by Treeline Review.",
+          "weakness": "A single bag with no zip-close outer bag, so you must add your own second bag for storage, and the powder is loose and has to be scooped in each time.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cleanwaste.com/product/toilet-in-a-bag/",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: 15-pack price, contents and in-stock status confirmed."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Cleanwaste",
+              "title": "Toilet in a Bag",
+              "url": "https://cleanwaste.com/product/toilet-in-a-bag/",
+              "verified": true,
+              "supports": "15 or 30 bags, Poo Powder for the same number of treatments, 24 oz gelled per treatment, drawstring closure, 'dispose in normal trash'."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Human Waste Bags and WAG Bags of 2026",
+              "url": "https://treelinereview.com/gearreviews/human-waste-bag-wag-bag-toilet-kits",
+              "verified": true,
+              "supports": "Hands-on test of Cleanwaste's Poo Powder gel as supplied in the WAG Bag kit (no leaks). Does not test Toilet in a Bag itself."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Cleanwaste' on 2026-11-14: none found. The product page makes no 'biodegradable' claim.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No independent test of this exact product was found; the second source tested the same maker's gelling powder in a different kit. No Amazon link is given because none could be confirmed."
+        },
+        "standard": {
+          "brand": "Cleanwaste",
+          "model": "The Original WAG BAG / GO Anywhere Toilet Kit (12-pack)",
+          "model_number": "",
+          "size": "12 kits. Each has a waste bag pre-loaded with gelling powder, a puncture-resistant zip-close disposal bag, toilet paper and a hand wipe. Gels up to 32 oz; the maker says 'good for multiple uses', the tester treats it as one use. Maker says: dispose of in trash.",
+          "unit_size": 12,
+          "unit_label": "pack of 12",
+          "price_usd": 35.09,
+          "price_seen_at": "cleanwaste.com (sale price; regular $38.99)",
+          "why": "Each kit is complete and double-bagged with a zip-close outer bag, which helps when sealed bags must sit indoors for weeks. Treeline Review tested it in the field and reported no leaks.",
+          "weakness": "About $2.90 a bag, and the tester found the inner bag has to be knotted by hand and is awkward to aim into without a seat or bucket.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cleanwaste.com/product/the-original-wag-bag/",
+              "verified": true,
+              "note": "12-pack price, contents and in-stock status confirmed."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B001P6ZFG2",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Amazon refused the page reader. The product code in the link was seen in that day's search results for 'Cleanwaste Original WAG Bag Portable Toilet (12 Pack)'. 2026-11-16 alignment pass: old note: A search listing showed $34.15 on 2026-11-14."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Cleanwaste",
+              "title": "The Original WAG BAG",
+              "url": "https://cleanwaste.com/product/the-original-wag-bag/",
+              "verified": true,
+              "supports": "Kit contents, 32 oz gel capacity, 12/50/100 pack sizes, 'dispose of in trash'. The page does not use the word landfill."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Human Waste Bags and WAG Bags of 2026",
+              "url": "https://treelinereview.com/gearreviews/human-waste-bag-wag-bag-toilet-kits",
+              "verified": true,
+              "supports": "Named 'Best lightweight' after field use; no leaks in multi-day rain; notes the hand-tied knot and that it is a one-use bag in practice. Describes the kit as EPA-approved for landfill but says to check local rules."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Cleanwaste' on 2026-11-14: none found. The maker's page makes no 'biodegradable' claim; Treeline reports the maker says its bags break down only in an approved industrial composter."
+        },
+        "cadillac": {
+          "brand": "Restop",
+          "model": "RESTOP2 Disposable Solid & Liquid Waste Bags (12)",
+          "model_number": "RESTOP 2-1",
+          "size": "12 bag-within-a-bag kits with gelling agent, toilet paper and an antimicrobial wipe. The tester lists 32 oz capacity. Outer bag is mylar with a zip closure; inner bag has a drawstring.",
+          "unit_size": 12,
+          "unit_label": "pack of 12",
+          "price_usd": 53,
+          "price_seen_at": "restop.com",
+          "why": "Treeline Review's best overall waste bag: the drawstring inner bag and gas-tight mylar outer bag kept smell in for several days in their test, which is the property that matters most for indoor storage.",
+          "weakness": "About $4.40 a bag, the most expensive here, and bulkier than the other kits.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://restop.com/product/restop2-disposable-solid-liquid-waste-bags-12/",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: Price, SKU and contents confirmed. The page does not state capacity or disposal wording; the Restop home page says its products can go in any trash container."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Restop",
+              "title": "RESTOP2: Disposable Solid & Liquid Waste Bags (12)",
+              "url": "https://restop.com/product/restop2-disposable-solid-liquid-waste-bags-12/",
+              "verified": true,
+              "supports": "12 bags for pee and poo, bag-within-a-bag design, gelling agent, wipes and tissue included, $53.00."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Human Waste Bags and WAG Bags of 2026",
+              "url": "https://treelinereview.com/gearreviews/human-waste-bag-wag-bag-toilet-kits",
+              "verified": true,
+              "supports": "Named 'Best overall' after field use; no odor after several days; heavier and bulkier than rivals. Describes it as EPA-approved for landfill but says to check local rules."
+            }
+          ],
+          "flags": [
+            "Restop's site says the brand is moving to Cleanwaste branding with the same products in new packaging, so the name on the box may change."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'Restop' on 2026-11-14: one unrelated result, no recall for this product. The product page makes no 'biodegradable' claim.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed for the 12-pack."
+        }
+      },
+      "prices_seen": "2026-11-14",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Landfill approved' wording: retailers and reviewers describe these kits as approved for landfill disposal, but the Cleanwaste and Restop product pages read on 2026-11-14 only say to dispose of them in the trash, and Reliance's pages say nothing about disposal. Local rules decide; Treeline Review notes some areas ban them from municipal trash. | 'Biodegradable' claims: the FTC has warned plastic waste bag sellers that unqualified 'biodegradable' claims are deceptive for bags that end up in landfills, where they do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). Treat such claims on toilet bags as marketing, and never bury used bags. | Reliance Double Doodie bags (6-pack, with Bio-Gel, $22.99 to $32.99 per 6) were considered but not picked: they looked out of stock at the maker and on Amazon on 2026-11-14. | No recall found: CPSC recall database queried on 2026-11-14 for 'Cleanwaste', 'Restop', 'Reliance' and 'portable toilet'. 2026-11-16 alignment pass: safety note said twice, removed: Bags of human waste may go in regular garbage during a declared emergency only if a public announcement allows it. Until then, tie them securely and keep them in a protected place. (https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets)"
+    },
+    {
+      "id": "toilet-liner-bags",
+      "module": "waste",
+      "name": "Heavy-duty liner bags for the toilet or bucket",
+      "need": "Plain strong bags line the toilet bowl or poo bucket and act as the second bag when you seal and store waste.",
+      "how_to_choose": "Thickness is what matters, and it should be printed in mil. The RDPO guide asks for 13-gallon bags of 0.9 mil or thicker; Oregon State University Extension goes further and suggests 3 to 5 mil contractor-type bags. A practical setup is a 13-gallon bag as the liner and a thick contractor bag as the outer storage bag. Choose unscented bags and avoid anything sold as compostable or biodegradable, which is made to break down.",
+      "qty": {
+        "basis": "per_person_day",
+        "factor": 1,
+        "note": "Sized for two weeks at home, when you switch from bag kits to the bucket: one liner per person who uses the toilet for each day after the first three. Tie it off when the bucket is half full, or sooner. Tied liners then go, several at a time, into a thick contractor bag from the contractor bags item, which is the second bag. A child in diapers does not count. This is this site's estimate."
+      },
+      "already_own": "Kitchen bags you already have are good enough only if the box states 0.9 mil or more; many 13-gallon bags are thinner. If the box gives no thickness, use two bags as the liner and still double-bag for storage.",
+      "safety_notes": [
+        {
+          "text": "Line the poo bucket with a heavy-duty bag of 0.9 mil or thicker (13-gallon size is suggested). When the bucket is half full or less, tie the bag shut and put it inside a second bag.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Oregon State University Extension advises lining the poo bucket with a 13-gallon black bag 3 to 5 mil thick, then double-bagging full bags, sealing them and storing them away from food and water.",
+          "source_name": "Oregon State University Extension Service",
+          "source_title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+          "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+          "verified": true
+        },
+        {
+          "text": "A toilet bowl or 5-gallon pail can be lined with two heavy-duty garbage bags; tie them securely at the end of each day and move them to a protected place.",
+          "source_name": "Public Health - Seattle & King County",
+          "source_title": "Emergency toilets",
+          "url": "https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+          "verified": true
+        },
+        {
+          "text": "Do not put bags of human waste in regular garbage, recycling or yard-debris carts unless local authorities say so, and never bury them. Wait for instructions on collection once services resume.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after tying off or moving waste bags. If there is no soap and water, use hand sanitizer with at least 60% alcohol.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        },
+        {
+          "text": "Ready.gov's basic kit list includes garbage bags and plastic ties for personal sanitation.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "'Biodegradable', 'oxo-degradable' and 'compostable' bags are the wrong choice here. The FTC has warned sellers that unqualified 'biodegradable' claims on plastic waste bags are deceptive, because bags sent to landfill do not break down within a year. TechGearLab's test also found a compostable 13-gallon bag leaking within 48 hours of holding food waste.",
+        "Many well-known 13-gallon bags are thinner than 0.9 mil: TechGearLab lists Glad's standard tall kitchen bag at 0.72 mil. Check the mil figure before buying."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "Hefty",
+          "model": "Ultra Strong Tall Kitchen Drawstring Trash Bags, Unscented, 13 Gallon (50 count)",
+          "model_number": "",
+          "size": "13 gal, 0.9 mil, 23.75 x 24.88 in, drawstring, 50 bags",
+          "unit_size": 50,
+          "unit_label": "box of 50",
+          "price_usd": 11.49,
+          "unit_price": "about 23 cents a bag",
+          "price_seen_at": "Target.com",
+          "why": "It is sold in most supermarkets, meets the RDPO guide's 0.9 mil minimum, and the drawstring makes tying off quick. True Prepper rated it best overall in its rip and tear tests.",
+          "weakness": "It only just meets the minimum thickness, and TechGearLab found it weak under heavy loads (it held no more than 40 lb), so keep bags light and always double-bag.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://hefty.com/products/trash-bags/ultra-strong-kitchen-trash-bags",
+              "verified": true,
+              "note": "Product line confirmed (13 gallon, drawstring, scent-free option). The page does not print a mil figure."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/hefty-ultra-strong-tall-kitchen-drawstring-trash-bags-unscented-13-gallon-50ct/-/A-14736812",
+              "verified": true,
+              "note": "50 count, 0.9 mil.",
+              "research_note": "2026-11-16 alignment pass: old note: $13.49, 50 count, 0.9 mil, in stock."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Hefty",
+              "title": "Ultra Strong Kitchen Trash Bags",
+              "url": "https://hefty.com/products/trash-bags/ultra-strong-kitchen-trash-bags",
+              "verified": true,
+              "supports": "13-gallon drawstring bag, scent-free option, tear and puncture resistance claims. Thickness is not stated on this page."
+            },
+            {
+              "type": "test_publication",
+              "name": "TechGearLab",
+              "title": "The Best Trash Bags",
+              "url": "https://www.techgearlab.com/topics/kitchen/best-trash-bag",
+              "verified": true,
+              "supports": "Lists the bag at 0.9 mil; hands-on strength, tear and odor tests; found it easy to dispense but weak under load."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Trash Bags for Security & Sanitation",
+              "url": "https://trueprepper.com/trash-bags/",
+              "verified": true,
+              "supports": "Lists it at 0.9 mil and names it best overall after rip and tear tests."
+            }
+          ],
+          "flags": [
+            "Hefty's own page does not state the thickness: check that the box says 0.9 mil."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'Hefty' and 'trash bag' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed for this exact pack. 2026-11-16 alignment pass: off the page from flags: The maker's consumer page does not state the thickness. The 0.9 mil figure comes from Target's listing and two test outlets."
+        },
+        "standard": {
+          "brand": "Plasticplace",
+          "model": "13 Gallon Extra Tall White Drawstring Bags, 1.2 Mil (case of 200)",
+          "model_number": "D13122WH",
+          "size": "13 gal, 1.2 mil low-density plastic, 24 x 31 in, drawstring, 200 bags, case weighs about 15 lb",
+          "unit_size": 200,
+          "unit_label": "case of 200",
+          "price_usd": 49.99,
+          "unit_price": "about 25 cents a bag",
+          "price_seen_at": "plasticplace.com, in stock on 2026-11-15",
+          "why": "The maker states the thickness (1.2 mil), a third thicker than the 0.9 mil minimum, and the extra 6 inches of height makes it easier to tie a bag shut over a bucket. Per bag it is cheaper than supermarket bags.",
+          "weakness": "Sold only by the case of 200, so it costs the most to buy even though each bag is the cheapest here.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.plasticplace.com/products/13-gallon-drawstring-white-trash-bags-1-2-mil-24x31-d13122wh",
+              "verified": true,
+              "note": "SKU D13122WH, 1.2 mil, 24 x 31 in, 200 per case.",
+              "research_note": "2026-11-15: the page reader was refused with a rate-limit reply, so the page was opened in a browser, as on 2026-11-14. 2026-11-16 alignment pass: old note: Confirmed on 2026-11-15: SKU D13122WH, 1.2 mil, 24 x 31 in, 200 per case, $49.99, in stock."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Stock re-checked 2026-11-15: in stock at the maker's own store at $49.99 (one-time purchase). The earlier out-of-stock note was about Target's 200-count listing, which says 0.9 mil in one place and '1.2 millimeters' in another. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed. 2026-11-16 alignment pass: off the page from flags: Plasticplace sells several 13-gallon white drawstring bags at different thicknesses, and Target's 200-count listing gives two different thickness figures. Buy the exact SKU D13122WH shown on the maker's page, which was in stock there on 2026-11-15, and check the printed mil figure.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Plasticplace",
+              "title": "13 Gallon Extra Tall White Drawstring Bags - 1.2 Mil - 200/Case",
+              "url": "https://www.plasticplace.com/products/13-gallon-drawstring-white-trash-bags-1-2-mil-24x31-d13122wh",
+              "verified": true,
+              "supports": "Thickness 1.2 mil, low density, 24 x 31 in, drawstring, case count 200."
+            }
+          ],
+          "flags": [
+            "Plasticplace sells several 13-gallon white drawstring bags at different thicknesses: buy SKU D13122WH and check the printed mil figure."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'Plasticplace' and 'trash bag' on 2026-11-14: none found."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No thicker 13-gallon liner was checked against two sources. For the outer storage bag, use a 3 mil contractor bag from the contractor bags item: one holds several tied liners."
+      },
+      "prices_seen": "2026-11-14",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: 'Biodegradable', 'oxo-degradable' and 'compostable' bags are the wrong choice here. The FTC has warned sellers that unqualified 'biodegradable' claims on plastic waste bags are deceptive, because bags sent to landfill do not break down within a year (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). TechGearLab's test also found a compostable 13-gallon bag leaking within 48 hours of holding food waste. | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace' and 'trash bag'.",
+      "tier_note": "Two picks: a thicker liner buys nothing here, because the outer storage bag is a 3 mil contractor bag from the contractor bags item."
+    },
+    {
+      "id": "toilet-absorbent",
+      "module": "waste",
+      "name": "Cover and absorbent material",
+      "need": "A dry cover material or gelling powder soaks up moisture, cuts smell and keeps flies off, which makes weeks of indoor bag storage bearable.",
+      "how_to_choose": "For the twin-bucket method you want a dry, light, carbon-based material: the RDPO guide names sawdust, shredded paper and wood pellets, and avoids cedar. Wood pellets are the compact choice for an apartment because they swell to about three times their volume when wetted. If pee has to go in the bag too, a gelling powder is what stops it sloshing. Think about weight: a 40 lb bag is hard work on a staircase.",
+      "qty": {
+        "basis": "per_person_day",
+        "factor": 1,
+        "note": "Sized for two weeks at home, when you switch from bag kits to the bucket: enough for every person for each day after the first three. Each pick's size line shows how many person-days one package covers and the arithmetic behind it. A child in diapers does not count."
+      },
+      "already_own": "Shredded paper, pine pet bedding, peat moss or non-clumping pine cat litter you already have will do as cover material. It is good enough if it is dry, loose and not cedar. Keep a bagful beside the toilet with a scoop or cup.",
+      "safety_notes": [
+        {
+          "text": "After each use of the poo bucket, cover the surface with dry carbon material: the RDPO guide says about a handful, and Oregon State University Extension says about half a cup. Add more if pee gets into the poo bucket.",
+          "source_name": "Oregon State University Extension Service",
+          "source_title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+          "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+          "verified": true
+        },
+        {
+          "text": "Wood pellets made for pellet stoves work as cover material: about 1 cup of water mixed with 2 cups of pellets makes about 6 cups of sawdust, so store extra water if you plan to use them.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Bleach is not required. The RDPO twin-bucket guide lists buckets, heavy-duty bags, dry cover material and hand-cleaning supplies, and does not call for bleach or other chemicals in the bucket.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Cat litter, fireplace ashes or sawdust can be put in the bottom of the bags lining a toilet bowl or pail.",
+          "source_name": "Public Health - Seattle & King County",
+          "source_title": "Emergency toilets",
+          "url": "https://cd.kingcounty.gov/en/dept/dph/health-safety/safety-injury-prevention/emergency-preparedness/personal-preparedness/emergency-toilets",
+          "verified": true
+        },
+        {
+          "text": "Human poo can spread disease if it is not handled and stored safely; cover material reduces smell and flies but does not make the waste safe to touch.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Project",
+          "url": "https://rdpo.net/emergency-toilet",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after using the toilet or handling cover material near it. If there is no soap and water, use hand sanitizer with at least 60% alcohol.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "The person-day figures for the pine litter and the pellets are for dry cover on the poo bucket only. If pee also goes into a lined bucket with absorbent, as X5-05 describes, they run out much faster. This site has no tested figure for how much litter or pellet a day's pee needs, so check the bag every few days and buy more, or use the gel powder for pee.",
+        "Person-day figures are estimates. They assume two covers of about half a cup per person per day, and roughly 3 cups of pellets per pound; the pellet makers do not publish a cups-per-pound figure."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "Lignetics",
+          "model": "Premium Plus Wood Fuel Pellets, 40 lb bag",
+          "model_number": "",
+          "size": "40 lb bag of hardwood and softwood blend stove pellets. Covers about 120 person-days of dry cover on the poo bucket: 40 lb x about 3 cups per lb = about 120 cups, at 1 cup per person per day (two half-cup covers). Wetted into sawdust as the RDPO guide describes, it goes about three times as far. It does not cover soaking up pee; see the note above.",
+          "unit_size": 120,
+          "unit_label": "40 lb bag",
+          "price_usd": 8.46,
+          "price_seen_at": "Sutherlands.com, 2026-11-15, for the Lignetics FG10 40 lb Premium Quality bag (varies by store). Other farm stores list the Premium Plus bag at about $6 to $10; price varies widely by store and season.",
+          "research_note": "The $6 to $10 range for the Premium Plus bag (Farm and Fleet and others) was seen in search listings only on 2026-11-15; those retailers' pages could not be read. 2026-11-16 alignment pass: removed from weakness: the price was confirmed at one store only, for a near-identical bag. 2026-11-16 alignment pass: old link_note: Price seen at one retailer only (Sutherlands, FG10 Premium Quality, which may not be the exact Premium Plus bag). Any stove pellet from a producer on the Pellet Fuels Institute list is an equal substitute; never use pellets sold as grill smoking pellets with flavoring.",
+          "why": "Pellet-stove pellets are the cover material the RDPO emergency toilet page singles out as compact and affordable, and one bag lasts a household for months. Lignetics plants are on the Pellet Fuels Institute's list of audited premium-grade producers.",
+          "weakness": "A 40 lb bag is heavy to carry upstairs, and stores often stock pellets only in the heating season.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://pelletheat.com/brands/lignetics/",
+              "verified": true,
+              "note": "Lignetics' heating-pellet brand site: Premium Plus, 40 lb bag, retailer list. No price shown."
+            },
+            {
+              "label": "Sutherlands",
+              "url": "https://sutherlands.com/products/item/691865/lignetics-of-idaho-40-pound-premium-quality-wood-fuel-pellets",
+              "verified": true,
+              "note": "Choose a store for availability.",
+              "research_note": "2026-11-16 alignment pass: old note: Loaded 2026-11-15: Lignetics of Idaho FG10, 40 lb, $8.46; choose a store for availability."
+            }
+          ],
+          "link_note": "Any stove pellet from a producer on the Pellet Fuels Institute list is an equal substitute; never use flavored grill smoking pellets.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Lignetics (PelletHeat.com)",
+              "title": "Lignetics brand page",
+              "url": "https://pelletheat.com/brands/lignetics/",
+              "verified": true,
+              "supports": "Premium Plus pellets, 40 lb bag, hardwood and softwood blend, 0.5% ash, described as a PFI-approved premium heating brand, retailer list."
+            },
+            {
+              "type": "standard_listing",
+              "name": "Pellet Fuels Institute",
+              "title": "Qualified Production Facilities",
+              "url": "https://pellet.memberclicks.net/qualified-production-facilities",
+              "verified": true,
+              "supports": "Lists five Lignetics plants as Premium Grade facilities under the PFI Standards Program (regular inspection and lab testing)."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Lignetics' and 'wood pellets' on 2026-11-14: none found."
+        },
+        "standard": {
+          "brand": "Feline Pine",
+          "model": "Original 100% Natural Non-Clumping Cat Litter, 20 lb",
+          "model_number": "",
+          "size": "20 lb bag of compressed pine pellets. Covers about 60 person-days of dry cover on the poo bucket: 20 lb x about 3 cups per lb = about 60 cups, at 1 cup per person per day (two half-cup covers). It does not cover soaking up pee; see the note above.",
+          "unit_size": 60,
+          "unit_label": "20 lb bag",
+          "price_usd": 11.69,
+          "price_seen_at": "Target.com",
+          "why": "The same kind of pine pellet as stove fuel, but in a 20 lb bag that is easy to carry and is sold year-round in supermarkets and pet aisles. King County's guidance lists cat litter as an absorbent for bag-lined toilets.",
+          "weakness": "It costs more per pound than stove pellets. Cats.com found the pellets turn to sawdust once wet, so it controls liquid better than smell; seal bags well.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.felinepine.com/Feline-Pine-Non-Clumping-Litter.aspx",
+              "verified": true,
+              "note": "Confirms 100% natural pine, non-clumping, highly absorbent. No sizes or prices on the page."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/feline-pine-original-100-natural-low-dust-clumping-cat-litter-20lb/-/A-14320105",
+              "verified": true,
+              "note": "The Original (blue banner) is the non-clumping pellet.",
+              "research_note": "2026-11-16 alignment pass: old note: $12.99, 20 lb, pellets, in stock. The listing's highlights say non-clumping although the page address and one spec line say clumping; the Original (blue banner) is the non-clumping pellet."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Feline Pine (Church & Dwight)",
+              "title": "Feline Pine Non-Clumping Litter",
+              "url": "https://www.felinepine.com/Feline-Pine-Non-Clumping-Litter.aspx",
+              "verified": true,
+              "supports": "Made with 100% natural pine, no added chemicals, absorbs liquid and binds ammonia odor."
+            },
+            {
+              "type": "test_publication",
+              "name": "Cats.com",
+              "title": "Unbiased Feline Pine Cat Litter Review",
+              "url": "https://cats.com/feline-pine-cat-litter-review",
+              "verified": true,
+              "supports": "Hands-on test over several weeks: Original (non-clumping) pellets absorb liquid very fast and are low dust; breaks down when wet; scored 2.75/5 as cat litter. Supports use as a fast absorbent, not as an odor-sealer."
+            }
+          ],
+          "flags": [
+            "Buy the non-clumping Original pellets. Feline Pine also sells a clumping version, and Target's listing mixes the two descriptions."
+          ],
+          "flag_check": "Queried the CPSC recall database for 'Feline Pine' and 'cat litter' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: The maker's page gives no size or price; those come from Target's listing. The one test found rates it as cat litter, not for this use. No Amazon link is given because none could be confirmed."
+        },
+        "cadillac": {
+          "brand": "Cleanwaste",
+          "model": "Poo Powder Waste Treatment, Large (120 scoops)",
+          "model_number": "D105POW",
+          "size": "Tub with 120 pre-measured scoops; one scoop gels 21 oz of liquid. Covers about 40 person-days when pee goes in the bag too (3 scoops per person per day, about 63 oz), or about 120 person-days if used only for poo.",
+          "unit_size": 40,
+          "unit_label": "tub of 120 scoops",
+          "price_usd": 68.39,
+          "price_seen_at": "cleanwaste.com (sale price; regular $75.99)",
+          "why": "It turns pee into a gel inside a plain liner bag, which solves the main apartment problem of having nowhere to pour pee. A tub is far smaller than a bag of pellets.",
+          "weakness": "It costs well over a dollar per person per day when used for pee, and it gels liquid rather than drying and covering the waste the way pellets do.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://cleanwaste.com/product/poo-powder/",
+              "verified": true,
+              "note": "A Mini tub of 55 scoops is on the same page.",
+              "research_note": "2026-11-16 alignment pass: old note: Mini (55 scoops) $35.99 and Large (120 scoops) $68.39, both in stock; one scoop gels 21 oz."
+            }
+          ],
+          "link_note": "",
+          "research_note": "2026-11-14: the maker's page has a 'Buy on Amazon' button but the product code behind it could not be read. 2026-11-16 alignment pass: old link_note: No Amazon link is given because none could be confirmed. The part number D105POW comes from distributor listings, not from the maker's page. 2026-11-16 alignment pass: off the page from flags: Retail listings disagree on how much one scoop gels (21, 24 or 32 oz). The maker's page says 21 oz, which is the figure used here.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Cleanwaste",
+              "title": "Poo Powder Waste Treatment",
+              "url": "https://cleanwaste.com/product/poo-powder/",
+              "verified": true,
+              "supports": "Sizes, 21 oz gelled per scoop, pre-measured scoop included, recyclable screw-lid tub."
+            },
+            {
+              "type": "test_publication",
+              "name": "Treeline Review",
+              "title": "Best Human Waste Bags and WAG Bags of 2026",
+              "url": "https://treelinereview.com/gearreviews/human-waste-bag-wag-bag-toilet-kits",
+              "verified": true,
+              "supports": "Hands-on test of this powder as pre-loaded in Cleanwaste WAG Bags (no leaks); notes it can be bought separately to add to plain bags."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Cleanwaste' on 2026-11-14: none found."
+        }
+      },
+      "prices_seen": "2026-11-14",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Compressed coco coir bricks were considered but not picked: none of the official guides lists coir, and no tested product was found. | No recall found: CPSC recall database queried on 2026-11-14 for 'Lignetics', 'wood pellets', 'Feline Pine', 'cat litter' and 'Cleanwaste'."
+    },
+    {
+      "id": "waste-storage-bin",
+      "module": "waste",
+      "name": "Lidded bin for storing sealed waste bags",
+      "need": "Sealed bags of waste may have to wait weeks for collection, and they need a closed container that pets, flies and rats cannot get into.",
+      "how_to_choose": "Pick steel if rodents are a possibility, such as on a balcony or in a shared utility room, and a lid that locks down so it cannot be nosed open. Size it to your space: a half-full 13-gallon liner takes up roughly 2 to 3 gallons. Smell control comes from tight double-bagging, not from the bin, so a locking lid matters more than an airtight one. Keep the bin out of direct sun and away from food and stored water.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One 10-gallon can for each person at a two-week target (Oregon's planning figure is 5 gallons per person per week); one can for the household at a 3-day target. The count shown follows the size of the can you pick. This is an estimate of volume: bulky bags and diapers fill a can sooner."
+      },
+      "already_own": "A spare lidded garbage can that will not be emptied by haulers is what the RDPO guide suggests. A bucket with a screw-on gasket lid also works indoors. It is good enough if the lid stays on when the bin is knocked and nothing can chew through it where you keep it.",
+      "safety_notes": [
+        {
+          "text": "Store double-bagged poo away from food, water, children, pets, flies and rats. A separate garbage can that will not be picked up by haulers, or a spot in your home, is acceptable; well-sealed double bags should not smell.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Keep double-bagged waste in a secure place away from food and water, separate from other garbage, and listen for instructions from local waste haulers.",
+          "source_name": "Washington County, Oregon",
+          "source_title": "Disaster Sanitation",
+          "url": "https://www.washingtoncountyor.gov/take5/disaster-sanitation",
+          "verified": true
+        },
+        {
+          "text": "When services resume, do not put stored bags out with regular garbage unless local authorities say to. Follow emergency broadcasts for collection instructions and handle the bags with great care.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Double-bagged waste should be kept in a dedicated, secured garbage can protected from pets, flies and rats.",
+          "source_name": "Oregon State University Extension Service",
+          "source_title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+          "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after handling waste bags or the bin. If there is no soap and water, use hand sanitizer with at least 60% alcohol.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Behrens labels these cans 'dry storage only': they are not leak-proof and the lid is not gasketed. They keep animals out; the double bags must do the sealing."
+      ],
+      "research_note": "Gamma Seal Lid: the maker's site could not be opened on 2026-11-14 (certificate error). Tried again 2026-11-15 for a premium pick: only seller copy and a few hobby-blog reviews were found. Can sizes: each pick's pack size is its capacity in US gallons (6 and 10) so that a two-week rule of 10 gallons per person gives one 10-gallon can, or two 6-gallon cans, for each person; the Level 3 rule itself is requested from the levels file. The toolkit's 5 gallons per person per week is the figure used in action U5-04. 2026-11-16 alignment pass: off the page from item_flags: A screw-on gasket bucket lid (Gamma Seal Lid) was considered as a cheaper option. No maker's page or independent test could be confirmed, so it is not a pick. One reseller listed a 3-pack at $29.98 and warned that it does not fit Leaktite-brand buckets. | No recall found: CPSC recall database queried on 2026-11-14 for 'Behrens'.",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Behrens",
+          "model": "10-Gallon Galvanized Steel Can with Locking Lid",
+          "model_number": "6110K",
+          "size": "10 US gal, 16.5 x 16.5 x 18.25 in, 5.5 lb, galvanized steel, handle locks the lid down, raised base",
+          "unit_size": 10,
+          "unit_label": "10-gallon can",
+          "price_usd": 23.99,
+          "unit_price": "about $2.40 a gallon",
+          "price_seen_at": "WebstaurantStore.com, 2026-11-15. Life and Home listed it at $29.99, out of stock.",
+          "why": "The same locking steel design in the 10-gallon size this plan counts in: one can for each person at a two-week target, on Oregon's planning estimate of 5 gallons of toilet waste per person per week. It still fits on a small balcony or in a utility closet.",
+          "weakness": "The lid locks but is not airtight or leak-proof, so smell control still depends on tight double-bagging. Ten gallons is a volume, not a tested number of days.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.behrens.com/product/10-gallon-galvanized-locking-can/",
+              "verified": true,
+              "note": "The maker's page shows no price.",
+              "research_note": "2026-11-16 alignment pass: old note: Stock number, size, weight and rodent-proof, weather-resistant and dry-storage-only statements confirmed. No price on the page."
+            },
+            {
+              "label": "Home Depot",
+              "url": "https://www.homedepot.com/p/Behrens-10-Gal-Galvanized-Steel-Locking-Lid-Storage-Can-6110K/316250704",
+              "verified": false,
+              "note": "",
+              "research_note": "2026-11-14: Home Depot refused the page reader; the address and the $27.97 price were seen in that day's search results. 2026-11-16 alignment pass: old note: A search listing showed $27.97."
+            },
+            {
+              "label": "Life and Home",
+              "url": "https://lifeandhome.com/products/behrens-6110-galvanized-steel-locking-lid-can-10-gallon",
+              "verified": true,
+              "note": "",
+              "research_note": "2026-11-16 alignment pass: old note: $29.99, shown as out of stock on 2026-11-14."
+            },
+            {
+              "label": "WebstaurantStore",
+              "url": "https://www.webstaurantstore.com/behrens-6110k-10-gallon-galvanized-steel-trash-can-with-locking-infinity-lid/0126110K.html",
+              "verified": true,
+              "note": "Behrens 6110K, 10-gallon galvanized steel can with locking lid.",
+              "research_note": "2026-11-16 alignment pass: old note: Loaded 2026-11-15: Behrens 6110K 10 gal galvanized steel can, locking lid, 16 1/4 in tall, 17 in top diameter, $23.99, in stock (quick shipping)."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's page). No independent test of this can was found, and no Amazon link could be confirmed.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Behrens",
+              "title": "10-Gallon Galvanized Steel Can with a Locking Lid",
+              "url": "https://www.behrens.com/product/10-gallon-galvanized-locking-can/",
+              "verified": true,
+              "supports": "Stock number 6110K, galvanized steel, locking lid, 'rodent proof', 'weather resistant', 'dry storage only', offset bottom, dimensions and weight."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Behrens' on 2026-11-14: none found."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No pick. A 5-gallon food-grade bucket with a Gamma Seal screw-on gasket lid is the obvious sealable step up, but no independent test of the seal was found and no maker's page stating that it is airtight could be confirmed. If you want one, a lidded bucket with a gasketed screw-on lid is reasonable for storing sealed, double-bagged waste; check that the lid threads fully and keep the bucket away from food.",
+        "budget": "No cheaper can was verified. Behrens' 6-gallon can (6106K) cost the same as the 10-gallon Standard ($23.99), so per gallon of storage it costs more, and a household needs almost twice as many. If floor space rather than money is the limit, the 6-gallon can is the same design in a smaller size. Five-gallon buckets with lids that close tightly also work (U5-04)."
+      },
+      "prices_seen": "2026-11-15",
+      "tier_note": "One pick: Behrens' smaller 6-gallon can costs the same, so it costs more per gallon of storage, and lidded 5-gallon buckets that close tightly also work (U5-04)."
+    },
+    {
+      "id": "trash-bags-contractor",
+      "module": "waste",
+      "name": "Contractor bags for household trash",
+      "need": "When collection stops and the chute is closed, ordinary trash piles up inside your home, and thick bags keep it sealed and carryable.",
+      "how_to_choose": "Look for a stated thickness of about 3 mil, which resists tearing on stairs and from broken glass after an earthquake. Bigger is not better in a walk-up: a full 42-gallon bag is heavy, so fill bags part-way or pick a 33-gallon size. Keep food waste tied in small bags inside the big one to hold down smell and pests, and keep these bags separate from any bags of human waste.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One box per household is a sensible start; a 14-bag box covers a couple for about two weeks at one bag a day."
+      },
+      "already_own": "Any black bags you have marked 3 mil or 'contractor' are fine. Ordinary 30-gallon bags around 1 mil can stand in if you double them and keep sharp items wrapped.",
+      "safety_notes": [
+        {
+          "text": "Keep bags of human waste separate from ordinary garbage, and do not put human waste into the normal garbage.",
+          "source_name": "Oregon State University Extension Service",
+          "source_title": "Survival Basics: Sanitation and Waste Management (EM 9334)",
+          "url": "https://extension.oregonstate.edu/catalog/pub/em-9334-survival-basics-sanitation-waste-management",
+          "verified": true
+        },
+        {
+          "text": "Diapers go in regular garbage, not in the poo bucket, so household trash bags may hold them; tie them off well.",
+          "source_name": "Regional Disaster Preparedness Organization (RDPO)",
+          "source_title": "Emergency Toilet Guidebook",
+          "url": "https://docs.google.com/document/d/1Pt4W2ul_nfBeES0-aI38SFGN9_5-rCDcV45lbfvligA/mobilebasic",
+          "verified": true
+        },
+        {
+          "text": "Ready.gov's basic kit list includes garbage bags and plastic ties for personal sanitation.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "Wash hands with soap and water for at least 20 seconds after handling trash. If there is no soap and water, use hand sanitizer with at least 60% alcohol.",
+          "source_name": "CDC",
+          "source_title": "Guidelines for Personal Hygiene During an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/safety/guidelines-for-personal-hygiene-during-an-emergency.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Avoid bags sold as 'biodegradable' or 'degradable' for storing waste: the FTC has warned that such unqualified claims on plastic waste bags are deceptive."
+      ],
+      "tiers": {
+        "budget": {
+          "brand": "Hefty",
+          "model": "Load & Carry Contractor Bags, 42 Gallon (14 count)",
+          "model_number": "",
+          "size": "42 gal, 3 mil, black, flap ties with built-in handles, 14 bags",
+          "unit_size": 1,
+          "unit_label": "box of 14",
+          "price_usd": 12.29,
+          "unit_price": "about 88 cents a bag",
+          "price_seen_at": "Target.com",
+          "why": "The lowest-cost way to get true 3 mil bags, sold in supermarkets, with handles that make a heavy bag easier to carry downstairs. True Prepper picked it for heavy-duty use after rip and tear tests.",
+          "weakness": "Only 14 bags in a box, at a higher price per bag than case packs, and the flap ties are slower to close than a drawstring.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://hefty.com/products/trash-bags/load-and-carry-contractor-bags",
+              "verified": true,
+              "note": "42 gallon and 3 mil stated by the maker."
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/hefty-contractor-load-carry-extra-large-flap-tie-trash-bags-42-gallon-14ct/-/A-75668346",
+              "verified": true,
+              "note": "14 count, 3 mil.",
+              "research_note": "2026-11-16 alignment pass: old note: $10.79, 14 count, 3 mil, in stock."
+            }
+          ],
+          "link_note": "One box can also serve as the outer storage bag for toilet liners.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Hefty",
+              "title": "Load & Carry Contractor Bags",
+              "url": "https://hefty.com/products/trash-bags/load-and-carry-contractor-bags",
+              "verified": true,
+              "supports": "42 gallon, 3 mil, flap ties with built-in handles."
+            },
+            {
+              "type": "test_publication",
+              "name": "True Prepper",
+              "title": "Best Trash Bags for Security & Sanitation",
+              "url": "https://trueprepper.com/trash-bags/",
+              "verified": true,
+              "supports": "Named best for heavy-duty use after rip and tear tests; lists 42 gal and 3.0 mil."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Hefty' and 'trash bag' on 2026-11-14: none found.",
+          "research_note": "2026-11-16 alignment pass: old link_note: Same product as the outer-bag pick under toilet liner bags; one box can serve both jobs. No Amazon link is given because none could be confirmed."
+        },
+        "standard": {
+          "brand": "Plasticplace",
+          "model": "32-33 Gallon Contractor Bags, 3.0 Mil (case of 50)",
+          "model_number": "CON39",
+          "size": "32-33 gal, 3.0 mil low-density plastic, 33 x 39 in, black, twist-tie closure, 50 bags, case weighs about 13.5 lb",
+          "unit_size": 1,
+          "unit_label": "case of 50",
+          "price_usd": 34.29,
+          "unit_price": "about 69 cents a bag",
+          "price_seen_at": "plasticplace.com",
+          "why": "The maker states 3.0 mil, and the 33-gallon size is easier to carry down stairs and fits a normal kitchen or balcony bin better than a 42-gallon bag. Fifty bags cover a household for several weeks.",
+          "weakness": "No drawstring or handles (ties are separate), and a case of 50 takes shelf space.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.plasticplace.com/products/31-33-gallon-3-mil-33x39-black-contractor-bags",
+              "verified": true,
+              "note": "SKU CON39, 3.0 mil, 33 x 39 in, 50 per case.",
+              "research_note": "2026-11-16 alignment pass: old note: Confirmed on 2026-11-14: SKU CON39, 3.0 mil, 33 x 39 in, 50 per case, $34.29, in stock."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications. 2026-11-16 alignment pass: removed from size: maker's page gives 100 lb load capacity in its description and 150 lb in its specification table. 2026-11-16 alignment pass: old link_note: Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Plasticplace",
+              "title": "32-33 Gallon Contractor Bags",
+              "url": "https://www.plasticplace.com/products/31-33-gallon-3-mil-33x39-black-contractor-bags",
+              "verified": true,
+              "supports": "Thickness 3.0 mil, low density, 33 x 39 in, case count 50, bag load capacity 100 lb in the description and 150 lb in the specification table."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database for 'Plasticplace' and 'trash bag' on 2026-11-14: none found."
+        },
+        "cadillac": null
+      },
+      "prices_seen": "2026-11-14",
+      "research_note": "2026-11-16 alignment pass: off the page from item_flags: Husky 42-gallon 3 mil contractor bags (50 count, model HK42WC050B, about $29.97 at Home Depot) are a reasonable in-store alternative, but the listing could not be confirmed and no test was found, so they are not a pick. | Avoid bags sold as 'biodegradable' or 'degradable' for storing waste; the FTC has warned that such unqualified claims on plastic waste bags are deceptive (https://www.ftc.gov/news-events/press-releases/2014/10/ftc-staff-warns-plastic-waste-bag-marketers-their-oxodegradable, opened 2026-11-14). | No recall found: CPSC recall database queried on 2026-11-14 for 'Hefty', 'Plasticplace', 'Husky' and 'trash bag' (the Husky results were for unrelated tools). 2026-11-16 alignment pass: cadillac pick removed (Step 6.3: a 4 mil bag buys nothing the job needs over the 3 mil Standard; its why rested on earthquake clean-up; single source); old pick: {\"brand\":\"Plasticplace\",\"model\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil (case of 50)\",\"model_number\":\"CON51\",\"size\":\"42 gal, 4.0 mil low-density plastic, 33 x 48 in, black, twist-tie closure, 50 bags, case weighs about 22 lb\",\"unit_size\":1,\"unit_label\":\"case of 50\",\"price_usd\":57.89,\"unit_price\":\"about $1.16 a bag\",\"price_seen_at\":\"plasticplace.com\",\"why\":\"A third thicker than standard contractor bags, for clearing broken glass, crockery and plaster after an earthquake as well as holding rubbish.\",\"weakness\":\"Heavy and bulky to store, overkill for kitchen rubbish alone, and no independent test of it was found. Store the sealed, tied bags and follow local instructions before putting any bag of human waste in regular garbage.\",\"links\":[{\"label\":\"Manufacturer\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"note\":\"Confirmed on 2026-11-14: SKU CON51, 4.0 mil, 33 x 48 in, 50 per case, $57.89, in stock.\"}],\"link_note\":\"Checked against one source only (the maker's specification page). No independent test of this bag was found, and no Amazon link could be confirmed.\",\"research_note\":\"Searched twice (2026-11-14 and 2026-11-15) for an independent test or a standard listing: none found; retailer pages only repeat the maker's specifications.\",\"sources\":[{\"type\":\"manufacturer_spec\",\"name\":\"Plasticplace\",\"title\":\"42-Gal. Extra-Strong Black Contractor Trash Bags, 4 Mil\",\"url\":\"https://www.plasticplace.com/products/42-gallon-contractor-4-mil-33x48-black-trash-bags\",\"verified\":true,\"supports\":\"Thickness 4.0 mil, low density, 33 x 48 in, case count 50.\"}],\"flags\":[],\"flag_check\":\"Queried the CPSC recall database for 'Plasticplace' and 'trash bag' on 2026-11-14: none found.\"}",
+      "empty_reason": {
+        "cadillac": "A thicker bag buys nothing the job needs: 3 mil already resists tearing on stairs and from broken glass."
+      },
+      "tier_note": "Two picks: a thicker bag buys nothing the job needs, because 3 mil already resists tearing on stairs and from broken glass."
+    }
+  ]
+}

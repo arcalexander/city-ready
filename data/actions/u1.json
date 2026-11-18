@@ -1,0 +1,1368 @@
+{
+  "module": "u1",
+  "title": "Preparing to Prepare",
+  "intro": "This module comes before any shopping. You picture two weeks without power, running water or elevators, measure what your household really uses, and test your home and yourselves. Everything you store or buy later is then based on your own numbers.",
+  "credit": "Based on Unit 1 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "X1-06",
+      "level": 0,
+      "section": "Start here",
+      "title": "Set your household and your target days on this site",
+      "why": "Every quantity on this site is worked out from who lives with you and how many days you are aiming for, and the actions you are shown depend on your home and the hazards where it is.",
+      "how": "Open the household setup. Enter how many adults live with you and an age band for each child: under 1, 1 to 2, 3 to 5, 6 to 9, 10 to 13 or 14 to 17. Then say how many of the children are in diapers, how many are fed formula and how many cannot walk a mile. Add your pets and whether you have a car. For each home, give its type (house, low-rise or high-rise), your floor, your outdoor space (yard, balcony or none), your climate, your state and the hazards there: earthquakes, tornadoes, hurricanes or coastal flooding, river or flash flooding, wildfire smoke, or a nuclear power plant within 10 miles. Last, choose a target of 3, 14 or 30 days; if you are unsure, choose 14. The setup asks for counts, age bands and types only, never names or medical details, and you can change it at any time.",
+      "done": "The site shows your household, your homes and your target days at the top of your plan.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 3,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ]
+    },
+    {
+      "id": "U1-01",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Start here",
+      "title": "Choose how you will keep your preparedness journal",
+      "why": "Written notes turn the thinking exercises in this module into a list of things to fix, and you only keep notes in a format you find easy.",
+      "how": "Pick one format: a paper notebook and pen, a document on your computer, or voice memos or short videos on your phone. Paper still works when the power is out, so if you choose a phone or computer, copy the final to-do list onto paper. Keep the journal yourself; this site does not store it.",
+      "done": "Your journal is set up in one format, a paper notebook, a document or a folder of recordings, and you can show it to someone.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "4-5"
+    },
+    {
+      "id": "U1-02",
+      "level": 3,
+      "more": true,
+      "section": "Start here",
+      "title": "Give each child a notebook of their own to decorate",
+      "why": "A child with their own notebook to draw or write in while the family plans feels part of the plan, not left out of it.",
+      "how": "Give each child a notebook and about 20 minutes with pens, stickers or pictures to make the cover theirs. When you work through the prompts in this module, ask each child to draw or write their own answer to one or two of them.",
+      "done": "Each child has a notebook of their own with a cover they have decorated themselves.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "has": [
+          "child"
+        ]
+      },
+      "toolkit_page": "4-5"
+    },
+    {
+      "id": "U1-03",
+      "level": 3,
+      "section": "Picture the first minutes",
+      "title": "Read the earthquake scenario aloud with your household",
+      "why": "A shared picture of one specific bad night gives everyone the same starting point for the questions that follow.",
+      "how": "Read this aloud together: It is 3 a.m. A strong earthquake wakes you as an alert sounds on your phone. Shelves have tipped over, pictures have dropped onto beds, the kitchen cabinets have emptied onto the floor and the way to the door is covered in debris; power and water are off, roads are blocked, and you do not yet know whether the building is sound. Then walk through the two weeks that follow on paper (U1-10).",
+      "done": "Everyone at home has heard the scenario read aloud from start to finish.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Anywhere else, use the outage scenario in X1-01 instead: 14 days without power in your building, in your hardest season."
+      },
+      "apartment": "In an apartment, add that the elevators have stopped, the stairwell lights are running on batteries, and running water may stop once the building loses power (ask your building whether your floor's water depends on pumps).",
+      "cites": [
+        "toronto-power-failure"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "X1-01",
+      "level": 3,
+      "section": "Picture the first minutes",
+      "title": "Rewrite the scenario for your own home: 14 days without power",
+      "why": "A long power outage is the most likely two-week emergency in a city, and what it does to you depends on your floor, your building and the season.",
+      "how": "On paper, write half a page that begins: 'The power went out an hour ago and will be off for 14 days. It is the hottest (or coldest) month of the year.' List what stops in your home: elevators, hallway and stairwell lighting once its batteries run down, tap water on floors fed by pumps, flushing, the fridge, an electric stove, heating or air conditioning, home internet and door-entry systems. Put a question mark beside anything you are unsure of; those become your questions for building management (HR-01).",
+      "done": "Half a page on paper lists what stops in your home, with a question mark beside each thing you are unsure of.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat",
+        "cold"
+      ],
+      "cites": [
+        "ready-outage",
+        "toronto-power-failure"
+      ]
+    },
+    {
+      "id": "X1-05",
+      "level": 1,
+      "section": "Picture the first minutes",
+      "title": "Note where everyone is at 10 a.m. and 6 p.m. on a weekday",
+      "why": "City households are usually apart when something starts, so your plan has to begin from where people really are.",
+      "how": "On the printable get-home plan, write by hand where each person normally is at 10 a.m. and at 6 p.m. on a weekday: the place, roughly how far it is from home, and how they travel there. Add who is nearest to each child at those times. You will use it to write each person's get-home plan (X2-01).",
+      "done": "Your Get-home plan sheet shows where each person is at 10 in the morning and 6 in the evening on a weekday, and who is nearest each child.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "get-home-plan"
+    },
+    {
+      "id": "U1-04",
+      "same_as": "U2-161",
+      "level": 3,
+      "section": "Picture the first minutes",
+      "title": "Practice Drop, Cover and Hold On with everyone at home",
+      "why": "The protective move for an earthquake has to be automatic, because the shaking leaves no time to think.",
+      "how": "On a count of three, everyone drops to hands and knees, covers head and neck with one arm, crawls under a sturdy table or desk if one is within reach, and holds on to it for 60 seconds. With no table nearby, get down beside an inside wall away from windows and cover head and neck with both arms. In bed, stay there, turn face down and cover your head and neck with a pillow. Do not run for a doorway, the stairs or the street; repeat the drill in each room you spend time in.",
+      "done": "Everyone at home has dropped, covered and held on for 60 seconds in each room you spend time in.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Elsewhere, practice the first minute of your area's most likely sudden hazard: for a tornado warning, go to the lowest floor and an inside room without windows; for a fire alarm, check the door and follow your building's fire safety plan."
+      },
+      "apartment": "On an upper floor the swaying is stronger and lasts longer, so stay down until it stops fully and use the stairs afterwards, not the elevator.",
+      "cites": [
+        "ready-quake",
+        "shakeout",
+        "tokyo-bousai",
+        "ready-tornado"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-05",
+      "same_as": "U6-01",
+      "level": 3,
+      "section": "Picture the first minutes",
+      "title": "Fix tall furniture and heavy high-up objects to the wall",
+      "why": "Unsecured bookcases, dressers and heavy objects above head height can fall on people and block the way out.",
+      "how": "Walk through each room and list every bookcase, dresser, cabinet or shelf unit that stands chest height or taller, plus heavy mirrors, pictures and anything heavy stored above head height. Fasten each tall piece to the wall near its top with two anti-tip straps or L-brackets, screwed into a wall stud or, in concrete or brick, into the matching masonry anchors. Move heavy objects to low shelves, and move heavy pictures and mirrors away from above beds and sofas.",
+      "done": "Every bookcase, dresser, cabinet and shelf unit chest height or taller is fastened to the wall near its top, and heavy objects sit on low shelves.",
+      "cost": "low",
+      "time": "afternoon",
+      "minutes": 90,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "This is worth doing everywhere: anchored furniture also prevents tip-over injuries to small children."
+      },
+      "apartment": "If you rent, ask the landlord in writing before drilling; many apartment walls are concrete and need masonry anchors and a hammer drill.",
+      "cites": [
+        "eca-secure"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-06",
+      "level": 3,
+      "section": "Picture the first minutes",
+      "title": "Put latches on the kitchen cabinets",
+      "why": "Cabinets that swing open in an earthquake throw glass, dishes and cans across the floor you need to cross.",
+      "how": "Put a latch on every kitchen cabinet that holds glass, dishes, cans or bottles, starting with the ones above counter height. Child-safety latches or push-to-release catches cost a few dollars each and attach with screws or adhesive pads. Move the heaviest and most breakable items to the lowest shelves at the same time.",
+      "done": "Every kitchen cabinet that holds glass, dishes, cans or bottles has a latch that holds its door shut.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Outside earthquake country this matters mainly where small children live; child-proof latches do both jobs."
+      },
+      "apartment": "Adhesive latches leave no screw holes, which suits a rented kitchen.",
+      "cites": [
+        "eca-secure"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-07",
+      "level": 2,
+      "same_as": "U2-89",
+      "section": "Picture the first minutes",
+      "title": "Find two ways out of every room, agree a meeting place and walk it",
+      "why": "A fire or a jammed door can close your usual way out, and a route you have walked once is far easier to find in the dark.",
+      "how": "In each room, name the usual way out and a second one: another door, or a window from which you can safely reach the ground. Agree one meeting place outside that everyone can find, such as a named lamp post or street corner, well clear of the building, and write it by hand on the printable meeting places sheet. Then walk both routes from the bedrooms to the meeting place together, once in daylight and once after dark with a flashlight.",
+      "done": "The meeting place is written on your Meeting places and out-of-area contact sheet, and you have walked both routes to it together in daylight and after dark.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation",
+        "earthquake"
+      ],
+      "apartment": "In an apartment building, your two ways out are the two stairwells nearest your door (HR-04), never the elevator, and your building's fire safety plan says when to use them; choose a meeting place across the street or at the corner, clear of the entrance fire crews need (U2-89, X2-08).",
+      "worksheet": "meeting-places",
+      "cites": [
+        "nfpa-escape",
+        "ready-homefire",
+        "nfpa-highrise",
+        "usfa-highrise"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-08",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Picture the first minutes",
+      "title": "Talk through how fast your household would react",
+      "why": "Being honest about who would freeze, argue or sleep through an alarm shows you what to practice.",
+      "how": "Ask each person: when the alarm or the shaking woke us, what would you really do in the first minute? Write down whether the household would act at once, slowly or not at all, and who would need waking or help. Choose one thing to practice and do it this week.",
+      "done": "Each person has said their answer aloud, the answers are written down, and you have practiced the one thing you chose.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "In an apartment the first minute also holds a decision the scenario leaves out, whether to stay in your unit or head for the stairs, so write down what your building's fire safety plan says (HR-02).",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-09",
+      "level": 2,
+      "section": "Think through two weeks, day by day",
+      "title": "Talk through who can shut off power, water and gas",
+      "why": "A burst pipe or a sparking outlet needs someone at home who already knows which valve or switch to reach for, and a gas leak needs everyone to know that they leave first.",
+      "how": "Ask each adult to point to the breaker panel, the water shut-off and, if you have gas, the gas shut-off, and to say how each one closes. Write down who could and who could not. If anyone is unsure, find your shut-offs together now (U2-97), which takes about 5 minutes. Write the gas rule beside the list: if you smell gas, everyone leaves first and no one stops for a valve (AR-13).",
+      "done": "Each adult has pointed to the breaker panel, the water shut-off and any gas shut-off, and who could and could not is written down with the gas rule beside it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "In an apartment you control only your unit's breaker panel, the small stop valves under sinks and behind the toilet, and the valve on any gas appliance; the main valves belong to the building, so the question becomes who shuts them and how you reach that person at night (HR-25).",
+      "worksheet": "building-info",
+      "cites": [
+        "ready-skills",
+        "peoples-gas-emergency",
+        "consumers-energy-gas-emergency"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-10",
+      "level": 3,
+      "section": "Think through two weeks, day by day",
+      "title": "Walk through two weeks without power, on paper",
+      "why": "Writing down how your household would get through each day of a long outage shows the gaps in your plan while there is still time to fill them.",
+      "how": "Sit down with everyone at home and picture a power outage that lasts two weeks in your hardest season, with the running water stopped too; on paper, answer each of the prompts below in a line or two. Water: what each person would drink from and how much is in your home today, against the planning figure of 1 gallon per person per day, remembering that nobody rations drinking water unless officials say so and you save on washing instead. Food: how many days of food you have that needs no fridge and no cooking, which three favorite meals you could still make that way, and what you would say to a child who asks whether it will run out. Toilet: which emergency toilet you would use (X5-02, U5-19), where it goes so the person using it has privacy, who handles pet waste, and what anyone using a wheelchair or walker needs. Medicines: how many days each person's prescriptions would last against your target, 7 days at the least, and how you would reach your pharmacy or the next nearest one when it is closed (FN-12). Hot food: what you could use safely, never a camp stove, grill or charcoal indoors, and which foods would make two weeks of cold meals easier (X3-04). Warmth: whether there is a sleeping bag or warm blankets for each person, which one room you would all sleep in, and how you would make that fun for children (HC-14, X6-02). A cut from broken glass: who at home has been taught first aid and when (U7-11), and whether your kit holds gloves, gauze, bandages and tape (U7-07). Fresh food: what you could still get with the stores closed, three things you could offer a neighbor in a swap, and whose door you would knock on first (NB-01). A relative you cannot reach: whether they share your out-of-area contact (U2-155), know two neighbors by name, and what one step you will take with them this month (FN-19). Stored food: how you would tell it is unsafe, knowing that any can or jar that is bulging, leaking, cracked, badly dented, spurting or bad-smelling is thrown out without tasting. Other water: what clean water you could still reach, such as the bathtub you filled (X4-02), ice in the freezer or the liquid in canned food, and how you would make it safe (U4-10). Trash: where 14 days of trash would go with no collection, and how many strong bags and lidded bins you have (X5-06). Records and insurance: whether you have a video or list of your belongings (MD-06), know what your policies leave out (MD-05), and have your insurer's claims number on paper. Hardest part: what each person would find hardest, from the dark to no shower, and one thing beside each that would make it easier. Last, read your answers back, copy every gap onto one page as a task, and put a date beside the three that matter most. For real numbers in place of guesses, keep the food and water tracker for 14 days, one line for each meal, snack and drink for each person and pet.",
+      "done": "Your answers to every prompt are written on paper, and one page lists the gaps as tasks with a date beside the three that matter most.",
+      "cost": "free",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "In an apartment, add the stairs to every answer: ask your building whether your floor's water depends on pumps (HR-01), write who would carry water, food and medicines up and how much per trip (X4-04), and remember that nobody flushes until the building says the drains are sound (X5-01).",
+      "worksheet": "food-water-tracker",
+      "calc": "water",
+      "cites": [
+        "cdc-water-store",
+        "ready-water",
+        "toronto-power-failure",
+        "cdc-medications-emergency",
+        "cdc-co",
+        "nfpa-cooking-outage",
+        "redcross-firstaid-kit",
+        "cdc-botulism-canning",
+        "usda-shelf-stable",
+        "ready-financial",
+        "fema-effak"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-11",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down whether your food would last two weeks",
+      "why": "Counting the food you could really eat without power shows the gap between what you have and what two weeks needs.",
+      "how": "Day 3: about a third of the ready-to-eat food is gone. Count the days of food in your home right now that need no fridge and no cooking, and write the number beside your target days; the site works out the amounts from your household setup. Then write what you would say to a child, or anyone anxious, who asks whether the food will run out; showing them the shelf and the count is a good start.",
+      "done": "The number of days of food in your home that needs no fridge and no cooking is written in your journal beside your target days.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "With no elevator and the shops shut, restocking means the stairs and whatever you can carry, and an all-electric kitchen cooks nothing, so count only food you can eat cold.",
+      "calc": "food",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-12",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Talk through the toilet plan: method, privacy, pets and mobility",
+      "why": "Nobody wants to work out a toilet routine for the first time in the dark with the rest of the household listening.",
+      "how": "Day 4: waste is building up. Write answers to four questions. Which emergency toilet will we use, and does everyone know how (the twin-bucket method, one for pee and one for poo, is U5-19 to U5-25)? Who bags and stores pet waste? Where does the toilet go so the user has a closed door or a screen? What does anyone who uses a wheelchair or walker need: a seat at chair height, something firm to hold, room to turn?",
+      "done": "Your journal has a written answer to each of the four questions: the toilet method, pet waste, privacy, and what anyone using a wheelchair or walker needs.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "In a multistory building the first rule is not to flush until the building says the drains are sound (X5-01), there is no ground for a pit or for pouring anything away, and the simplest method is a bag inside your own toilet bowl (X5-02).",
+      "cites": [
+        "rdpo-toilet",
+        "koto-toilet",
+        "tokyo-bousai"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-13",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how long each person's medicines would last",
+      "why": "A pharmacy can be shut or out of reach for days, and some medicines cannot safely be skipped.",
+      "how": "Day 5: someone needs their regular prescription. For each person who takes one, count the days of supply in your home today and write it in your own journal beside your target days, with 7 days as the least to aim for. Then write how you would reach the pharmacy when it is closed: its phone number, any out-of-hours line, and the next nearest pharmacy. If the count is short, ask the prescriber or pharmacist about an emergency supply (FN-12).",
+      "done": "Your journal shows the days of supply at home for each prescription, with the pharmacy's phone number, any out-of-hours line and the next nearest pharmacy.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "If the person who needs the medicine cannot manage the stairs while the elevator is out, write down who would walk to the pharmacy for them.",
+      "calc": "medication_days",
+      "cites": [
+        "cdc-medications-emergency",
+        "redcross-kit"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-14",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how, or whether, you would heat food without electricity or gas",
+      "why": "A hot meal is a comfort, but the wrong way of making one indoors causes fires and carbon monoxide poisoning.",
+      "how": "Day 6: everyone is tired of cold food. Write what you could safely use. Never light a camp stove, grill, charcoal or any fuel-burning appliance made for outdoors inside a home or garage, because they give off carbon monoxide. List what is safe: food that needs no heat and, only if you own a power station, hot water from a kettle whose wattage is below the station's rated output (X3-04). Then write how you feel about two weeks of cold food and which foods would make it easier.",
+      "done": "Your journal lists what you could safely use for food without mains power or gas, and which foods would make two weeks of cold meals easier.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "An apartment has no outdoor cooking, and a balcony is not a place to cook or burn fuel, so plan every meal to be eaten cold; hot water is an extra for a household that owns a power station (X3-04).",
+      "cites": [
+        "cdc-co",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-15",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how everyone stays warm and dry when the weather turns",
+      "why": "Cold, wet weather a week into an outage is when a home without heating becomes hard to stay in.",
+      "how": "Day 7: rain and cold are on the way and the heating is still off. Count your sleeping bags and warm blankets and write whether there is a set for each person. Write which single room you would all sleep in, how you would make it an adventure for children (a den, stories, a flashlight each), and how someone who uses a wheelchair would get between bed and toilet there. With a yard, also note any tent or tarps you could use if the house itself were unsafe.",
+      "done": "Your journal shows your count of sleeping bags and warm blankets against the number of people, and names the one room you would all sleep in.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold",
+        "earthquake"
+      ],
+      "apartment": "Nobody in an apartment camps outside: the question is whether one room can be kept warm and dry enough with bedding and layers (X6-02, HC-14) and, if not, which other address you would go to and how you would get there (X2-03).",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-16",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down whether you could treat a cut from broken glass",
+      "why": "Small injuries are common in a dark or damaged home, and help may be slow to reach you.",
+      "how": "Day 8: a child has cut a foot on broken glass. Write answers to three questions. Has anyone at home been taught to clean and dress a wound, and when? Where is the first-aid kit, and does it hold disposable gloves, sterile gauze, adhesive dressings and tape? What would you say and do to help a hurt child feel safe? If nobody is trained, book a class (U7-10, U7-11); if the kit is short, complete it (U7-07).",
+      "done": "Your journal has an answer to all three questions, and you have opened the first-aid kit and checked it for gloves, gauze, dressings and tape.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "On an upper floor with the elevators out, help takes longer to arrive, so also note which neighbor on your floor has first-aid training, and keep shoes and a light by every bed so the cut does not happen (U6-22).",
+      "cites": [
+        "redcross-firstaid-kit"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-17",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down where fresh food could come from and what you could trade",
+      "why": "After a week of stored food, something fresh lifts everyone, and swapping with neighbors is how most people would get it.",
+      "how": "Day 9: everyone wants fresh food. Write what you could still get with the shops shut: produce that keeps for weeks without a fridge (apples, oranges, onions, potatoes, carrots, cabbage), anything growing on a windowsill, a neighbor's surplus. List three things you could offer in a swap, such as batteries, a phone charge, childcare or a skill. Then write honestly how comfortable you are knocking on a neighbor's door to ask, and whose door you would try first.",
+      "done": "Your journal lists the fresh food you could still get, three things you could offer in a swap, and the neighbor whose door you would try first.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Few apartments have a garden nearby, so the question becomes which neighbors on your floor you know well enough to swap with, and that starts with learning their names now (NB-01).",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-18",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how you would check on a relative you cannot reach",
+      "why": "Someone who lives alone a few towns away will depend on their own neighbors, and you can help set that up only beforehand.",
+      "how": "Day 10: you cannot get to a relative who lives elsewhere. Pick the person you would worry about most and write four things: whether you have both tested messaging the same out-of-area contact (U2-155), whether they know at least two neighbors by name, who nearby speaks their first language, and which community or faith group would look in on them. Add one step to take with them this month, such as a test message or meeting their neighbors on your next visit (FN-19).",
+      "done": "Your journal names the relative, answers the four questions about them, and gives one step to take with them this month.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "If your relative lives in an apartment, add whether someone on their floor knows to knock on their door, and whether they could manage the stairs if the elevator stopped.",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-19",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how you would tell whether stored food is safe to eat",
+      "why": "Spoiled canned or preserved food can cause botulism, which you cannot reliably see or taste and which can kill.",
+      "how": "Day 11: a jar of home-preserved food smells sour. Write the checks you would make, then compare them with these. Throw out any can or jar that is bulging, leaking, cracked or badly dented, that spurts liquid or foam when opened, or whose contents smell bad, look moldy or are discoloured; a home-canned jar whose lid has not sealed is unsafe too. Never taste food to test it: when in doubt, throw it out. Then write how you are feeling at this point and what has helped most.",
+      "done": "Your own list of checks for stored food is written in your journal and you have compared it with the list in this action.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "With no yard bin and no collection, spoiled food has to be double-bagged and kept in a lidded bin away from your stores until trash service returns (X5-06).",
+      "cites": [
+        "cdc-botulism-canning",
+        "usda-shelf-stable"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-20",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down your other water sources and how you would make them safe",
+      "why": "Stored water runs out sooner than planned, and water from any other source has to be made safe before you drink it.",
+      "how": "Day 12: the stored water is running low. List the clean water you could still reach: what you drew into the tub and pots at the start, melted ice from the freezer, the liquid in canned fruit and vegetables, a tank water heater if your home has its own. Beside each, write how you would treat it: a rolling boil for 1 minute (3 minutes above 5,000 feet), or bleach. Use the drinking-water directions printed on your own bottle if it has them: they are written for that exact strength. If the label gives none, check that it is plain unscented bleach of 5% to 9% sodium hypochlorite and use CDC's table: 8 drops per gallon of clear water, or 2 drops per quart. Double it if the water is cloudy, colored or very cold. Stir and wait at least 30 minutes before drinking. Bleach does not make water safe from fuel or chemicals. Never use floodwater or water that smells of fuel or chemicals.",
+      "done": "Your journal lists each source of clean water you could still reach, with how you would treat it written beside each one.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "An apartment has no rain barrel, well or stream and usually no water heater of its own, so your sources are what you filled before the pressure dropped (X4-02) and wherever the city hands water out (X4-05), carried up the stairs.",
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-21",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down how you would store two weeks of trash",
+      "why": "Uncollected food waste smells within days and draws insects and rodents.",
+      "how": "Day 13: food waste is piling up. Write where 14 days of household trash would go if nothing were collected. Plan to keep food scraps apart from dry waste, drain and wrap them, double-bag them and put them in a bin with a tight lid; crush cans, cartons and boxes flat to save space. Count your strong trash bags and lidded bins and note what is missing. With a yard, add how you would keep animals off the bins.",
+      "done": "Your journal says where 14 days of trash would go and gives your count of strong trash bags and lidded bins, with what is missing.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Without a yard you cannot compost, bury or burn anything, and chutes and bin rooms may be locked, so the trash stays in your unit: wet and dry apart, double-bagged, in a lidded bin, and never left in the corridor or stairwell (X5-06).",
+      "cite_todo": "No official guide in the source folder covers storing household trash indoors for weeks; this follows the site's first-principles action X5-06.",
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-22",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Write down whether your records and insurance are ready for a claim",
+      "why": "Recovery goes faster when you can show what you owned and already know who to call.",
+      "how": "Day 14: services are returning and you start to think about claims. Write yes or no to each. Do we have photos, a video or a written list of our belongings (MD-06)? Do we know which policies we hold, and whether flood or earthquake damage, which standard policies usually leave out, is covered? Do we have on paper the phone numbers of our insurer or agent, the local emergency management office and aid organizations such as the Red Cross? Write policy and contact details by hand on the printable insurance and legal list, not on this site, and turn every 'no' into a task.",
+      "done": "Each question has a yes or no in your journal, policy and contact details are handwritten on your Insurance and legal list, and every 'no' is written as a task.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "The building's own policy does not cover your belongings or the cost of living somewhere else, so in an apartment the first question is whether you hold renters or contents insurance of your own (MD-05).",
+      "worksheet": "insurance-legal",
+      "cites": [
+        "ready-financial",
+        "fema-effak",
+        "preparedbc-apartments"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-23",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Think through two weeks, day by day",
+      "title": "Turn your journal notes into a to-do list and start on it",
+      "why": "The day-by-day exercise is only useful if the gaps it found get fixed.",
+      "how": "Read back through your answers to the 14 days and mark every gap. Copy the gaps onto one page as tasks and put a date beside the three that matter most. Most gaps match an action on this site, so tick those off here as you do them, and reread the page in a month.",
+      "done": "One page lists every gap as a task, and the three that matter most each have a date beside them.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "33-36"
+    },
+    {
+      "id": "U1-24",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Set up a two-week food and water tracker",
+      "why": "Two weeks of real records give you shopping numbers that fit your household instead of a guess.",
+      "how": "Print the food and water tracker, or rule six columns in your journal (U1-01): date, time, name, what it was, how much, and food or water. Print several copies, since each page holds 22 lines. Put the sheets and a pen where everyone eats, for example on the fridge door.",
+      "done": "Printed copies of the Food and water tracker, or six ruled columns in your journal, are sitting with a pen where everyone eats.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "food-water-tracker",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-25",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Record what each person and pet eats and drinks for 14 days",
+      "why": "What your household actually consumes is the only reliable basis for a two-week food and water plan.",
+      "how": "For 14 days, each person writes one line per meal, snack and drink on the printed tracker: what it was and roughly how much (cups, slices, tins, bottles). Do the same for each pet's food and water. A missed meal does not matter; carry on. At the end, total each person's drinks per day and list the ten foods that appear most often.",
+      "done": "The Food and water tracker holds 14 days of entries, each person's drinks per day are totalled, and the ten most frequent foods are listed.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 10,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "food-water-tracker",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-26",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Write down what you eat, where it comes from and what still works without power",
+      "why": "A food plan built on what your household already eats gets eaten, rotated and kept up.",
+      "how": "Use your tracker to answer in your journal. What do we eat most, and which shops or deliveries does it come from? What would we do if they closed for two weeks? Who has an allergy or a restricted diet? Which comfort foods keep without a fridge, such as chocolate, hard sweets, tea or long-life drinks? Which three favorite meals could we still make with no cooker and no fridge, and how?",
+      "done": "Your journal has an answer to each question, including three favorite meals you could still make with no cooker and no fridge.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "In an apartment plan every meal to be eaten cold, so adapt favorite recipes to no-cook versions, not to a grill or camp stove (X3-01); hot water is an extra for a household that owns a power station (X3-04).",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-27",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Write down where food is stored now and where more could go",
+      "why": "Two weeks of food and water has to live somewhere, and finding the space first stops you buying what you cannot store.",
+      "how": "List every place food is kept today. Then walk through your home and list places that could take more: under beds, the floor of a closet, behind a sofa, inside an empty suitcase. Choose spots that are cool, dry and out of direct sun. Measure the two best with a tape so that you can buy bins that fit.",
+      "done": "Your journal lists where food is kept now and where more could go, with the tape measurements of the two best spots.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "A small home has the least spare space and a shared building shares its pests, so think flat, hard-sided bins under beds and on closet floors, with heavy water kept low and spread between rooms (X3-06, X3-09, X4-03).",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-28",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Write down your daily water use, what is stored and where two weeks would fit",
+      "why": "Water is the heaviest and bulkiest thing you will store, so you need the real figure and a place for it before you buy containers.",
+      "how": "From your tracker, write how much each person and animal drinks in a day, then how many gallons are stored in your home today. The planning figure is 1 gallon per person per day for drinking, cooking and basic hygiene; the site works out your total from your household setup. Write where that amount could go: water weighs about 8.3 pounds a gallon, so keep it low, against walls and in more than one room. Last, write how you would boil water with the power and gas off, or what you would do in place of boiling.",
+      "done": "Your journal shows what each person and animal drinks in a day, the gallons stored today, where your household's total could go and what would replace boiling.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "heat"
+      ],
+      "apartment": "Indoors without mains power there is no safe flame to boil on, so plan on water that needs no treatment (sealed, or tap water stored properly) with a filter, tablets or plain bleach as the backup (U4-10).",
+      "calc": "water",
+      "cites": [
+        "cdc-water-store",
+        "cdc-water-safe",
+        "cdc-co"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-29",
+      "level": 3,
+      "more": true,
+      "section": "Measure what you really use",
+      "title": "Count the toilet paper you use in a week and double it",
+      "why": "A one-week count is the quickest way to know how much toilet paper two weeks really takes.",
+      "how": "Put a tally sheet beside the toilet for 7 days and make a mark each time a new roll is started, in every bathroom. Multiply the total by 2 for a two-week figure, or by 4 if your target is 30 days. Keep at least that many rolls at home by buying the next pack when you open the last one.",
+      "done": "The 7-day tally is totalled and multiplied up for your target days, and at least that many rolls are in your home.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-30",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "Write down what replaces your toilet and how each kind of waste is handled",
+      "why": "When the water or the drains fail, human waste that is not contained spreads illness through a household.",
+      "how": "Write three short plans. Human waste: which emergency toilet you will use, what you have for it today (bags, absorbent material, a bucket or seat, gloves, hand sanitizer), and where sealed bags will wait until collection restarts. Food waste: how it is wrapped, bagged and kept in a lidded bin. Pet waste: who bags it and where it goes. Under each plan, note what is missing.",
+      "done": "Three short plans, for human waste, food waste and pet waste, are written down, each with a note of what is missing.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "An apartment has no ground for a pit and nowhere to pour urine: do not flush until the building confirms the drains (X5-01), use a bag in the toilet bowl (X5-02), and keep sealed bags in a lidded bin apart from food and household trash, never down the chute (X5-04).",
+      "cites": [
+        "rdpo-toilet",
+        "koto-toilet",
+        "tokyo-bousai"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-31",
+      "level": 3,
+      "more": true,
+      "section": "Measure what you really use",
+      "title": "Ask local food businesses for free food-grade buckets",
+      "why": "Bakeries, restaurants and grocery store deli counters throw away sturdy lidded buckets that make a good emergency toilet or storage bin.",
+      "how": "Ask at a supermarket bakery or deli counter, a restaurant or a bakery for empty 5-gallon (about 20-liter) food-grade buckets with lids, such as frosting or pickle tubs. Take two for a twin-bucket toilet (U5-19) and wash them with hot soapy water. Keep them for the toilet, trash or packaged dry goods; for drinking water, use containers made for water.",
+      "done": "Two washed 5-gallon food-grade buckets with their lids are stored in your home.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Buckets take floor space: an apartment needs two at most, and none if you choose the bag-in-bowl toilet (X5-02), so collect only what you have a place for.",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-32",
+      "level": 3,
+      "same_as": "U7-05",
+      "section": "Measure what you really use",
+      "title": "Check your first-aid supplies for expired items and list what you have",
+      "why": "A kit is only as good as what is in it today, and dressings and medicines go out of date unnoticed.",
+      "how": "Empty the first-aid kit and the medicine cabinet onto a table. Read the date on every item and set aside anything expired, opened, damp or damaged. Write a list of what is left, with quantities, and keep the list in the kit. Take expired medicines to a pharmacy take-back point (U7-06) and use the list to restock (U7-07).",
+      "done": "Nothing expired, opened, damp or damaged is left in the first-aid kit or medicine cabinet, and a list of what remains, with quantities, is inside the kit.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "redcross-firstaid-kit"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-33",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Measure what you really use",
+      "title": "List who at home has first-aid or CPR training",
+      "why": "Supplies do little without someone who knows how to use them.",
+      "how": "In your journal, write beside each person's name what training they have had (first aid, CPR, wilderness first aid), the year, and whether they have ever used it. If nobody has trained in the last two years, book a class (U7-10).",
+      "done": "Your journal lists each person's training, the year they took it and whether they have ever used it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-34",
+      "level": 3,
+      "same_as": "FN-11",
+      "section": "Measure what you really use",
+      "title": "List each person's prescriptions and how often each is refilled",
+      "why": "A written list lets a pharmacist, doctor or shelter nurse replace medicines quickly if yours are lost or run out.",
+      "how": "On the printable medication list, write by hand for each person: the medicine's name, strength and dose, what it is for, who prescribed it, and how often it is refilled (every 30 or 90 days, for example). Keep the sheet with your documents and put a copy in your bag. The site records only that you have done this, never the details.",
+      "done": "Each person's prescriptions are handwritten on your Medication list, the sheet is with your documents, and a copy is in your bag.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "medication-list",
+      "cites": [
+        "cdc-medications-emergency"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-35",
+      "level": 3,
+      "same_as": "FN-11",
+      "section": "Measure what you really use",
+      "title": "Track how much of each medicine is used each day, and by whom",
+      "why": "Daily use multiplied by your target days is the amount you need to keep at home.",
+      "how": "For 7 to 14 days, mark on paper every dose taken: who, which medicine, how many. Include inhalers, test strips, creams and any over-the-counter medicine taken regularly. Work out each medicine's daily use and multiply by your target days, with 7 days as the minimum; the site shows the day count from your household setup. Keep only as much as your prescriber or pharmacist agrees to (FN-12). Compare the result with what is in your home and keep the figures on your own paper list.",
+      "done": "At least 7 days of doses are marked on paper, with each medicine's daily use and the amount for your target days worked out beside what is in your home.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "medication-list",
+      "calc": "medication_days",
+      "cites": [
+        "cdc-medications-emergency",
+        "redcross-kit"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-36",
+      "level": 3,
+      "same_as": "FN-11",
+      "section": "Measure what you really use",
+      "title": "Write down how to reach your pharmacist",
+      "why": "In an emergency the pharmacist is often the fastest route to a replacement or early refill.",
+      "how": "On the printable medication list, write by hand the pharmacy's name, address, phone number and opening hours, any out-of-hours number, and a second pharmacy you could walk to. Add your prescription or patient number if the pharmacy uses one. Save both phone numbers in your phone as well.",
+      "done": "Your pharmacy's name, address, phone number and opening hours and a second pharmacy you could walk to are on your Medication list, and both numbers are saved in your phone.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "medication-list",
+      "cites": [
+        "cdc-medications-emergency"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-37",
+      "level": 3,
+      "section": "Measure what you really use",
+      "title": "Decide how you will keep medicines dry",
+      "why": "Medicines that get wet in a flood, a leak or a burst pipe may have to be thrown away.",
+      "how": "Keep medicines in their original labeled containers. Put the containers in a zip-top freezer bag, press the air out, and place that inside a second bag or a lidded plastic box. Store it somewhere cool and off the floor, not in the bathroom, and keep a spare empty bag in your grab bag for the medicines you grab on the way out.",
+      "done": "The medicines sit in their original containers inside a double bag or lidded box, off the floor and outside the bathroom, with a spare empty bag in your grab bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "fda-drugs-disaster"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-38",
+      "level": 3,
+      "same_as": "U2-106",
+      "section": "Measure what you really use",
+      "title": "List assistive and medical devices and which of them need power",
+      "why": "A power cut turns some devices from a help into a hazard, and you need to know which before it happens.",
+      "how": "On the printable one-page medical summary, write by hand every device the household relies on: hearing aids, a powered wheelchair or scooter, a stair lift, CPAP, oxygen concentrator, nebuliser, powered bed, glucose monitor, insulin pump. Beside each, write whether it runs on mains power, batteries (and which size) or neither, with its make, model and serial number. Mark any that someone could not go 24 hours without.",
+      "done": "Every device the household relies on is handwritten on your One-page medical summary with its power source, make, model and serial number.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "worksheet": "medical-summary",
+      "cites": [
+        "ready-disability"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-39",
+      "level": 3,
+      "same_as": "U2-106",
+      "section": "Measure what you really use",
+      "title": "Check the backup power for each powered device",
+      "why": "A device that keeps someone well is only as dependable as the hours its backup can run.",
+      "how": "For each powered device on your list, read the watts from its label or power adapter and check whether it has a built-in or spare battery and how many hours that lasts; time it once if the manual does not say. Write the hours beside the device. Anything with less backup than a long outage needs a plan: a battery power station sized for it, spare batteries, a manual alternative, or a place to go that has power (PL-05).",
+      "done": "The hours of backup are written beside each powered device on your list, and each device that falls short has a plan written next to it.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "A fuel generator is not an option for an apartment or a balcony, because it must run outdoors at least 20 feet from the building, so plan on batteries and on somewhere to go.",
+      "cites": [
+        "cpsc-generator",
+        "ready-disability",
+        "fda-medical-devices"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-40",
+      "level": 3,
+      "same_as": "U2-106",
+      "section": "Measure what you really use",
+      "title": "Write down how to reach each device's supplier",
+      "why": "The supplier is the one who can lend a battery, replace a part or tell you how long a device can safely stay off.",
+      "how": "On the printable one-page medical summary, write by hand each supplier's or maker's name, phone number and out-of-hours line, with your customer or account number. Ask them one question now: what do they do for customers in a long power outage? If someone depends on a powered device, also ask your electricity company whether it keeps a register of such customers.",
+      "done": "Each supplier's name, phone number, out-of-hours line and your account number are on your One-page medical summary, with their answer about long power outages.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "worksheet": "medical-summary",
+      "cites": [
+        "ready-disability"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "X1-03",
+      "level": 2,
+      "section": "Measure what you really use",
+      "title": "Do a power audit: what must have electricity, and how much",
+      "why": "You cannot size backup power, or decide you need none, until you know which devices matter and how many watt-hours a day they use.",
+      "how": "On the printable power audit sheet, list only what needs electricity to keep someone safe or well: phones, one light per room in use, medical devices, a fan, the fridge if medicines live in it, the internet router if you rely on it. For each, read the watts from its label or adapter (if it shows only volts and amps, multiply them) and write how many hours a day you would run it. Watts times hours gives watt-hours; add up the must-run rows for your daily total. A label shows the most a device can draw, so where you can, measure real use over a day with a plug-in watt-hour meter. Also add up the watts of everything that would run at the same time: a battery has to deliver that many watts as well as hold enough watt-hours. Leave out stoves, heaters, kettles and air conditioners at first, because they draw 1,000 watts or more and need a far bigger battery.",
+      "done": "Your Power audit sheet lists each must-run device with its watts and hours a day, and shows your daily watt-hour total and the watts that run at the same time.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat",
+        "cold"
+      ],
+      "worksheet": "power-audit",
+      "calc": "power"
+    },
+    {
+      "id": "U1-41",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Test your home and yourselves",
+      "title": "Write down how you feel about two weeks without power or running water",
+      "why": "Knowing what each person would find hardest tells you where comfort items and practice will help most.",
+      "how": "Write honestly: have you ever camped or lived through a long outage, and what did you miss first? Which would be hardest for each person: no hot food, no shower, no screens, the dark, the cold or heat, the toilet? Beside each, write one thing that would make it easier. Then write whether you would sooner stay put or go and stay with someone, and what would tip the decision.",
+      "done": "Your journal names what each person would find hardest, one thing beside each that would make it easier, and what would tip you toward staying or going.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "For an apartment household 'roughing it' means living indoors without power, water or an elevator, not camping outside, and for some people the honest answer is that leaving early for another address is the better plan (X6-01, X2-05).",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-42",
+      "level": 3,
+      "same_as": "U1-10",
+      "section": "Test your home and yourselves",
+      "title": "List the camping and bedding gear you already own",
+      "why": "Gear you already have is the cheapest part of your kit, and a list shows what is truly missing.",
+      "how": "Write down what you own: sleeping bags (and the temperature each is rated for), sleeping mats, spare blankets and duvets, headlamps and lanterns, a cooler, water containers, a tent, a camp stove. Count the sleeping sets against the number of people. For each gap, note a stand-in you already have, such as two blankets and a duvet in place of a sleeping bag, or sofa cushions in place of a mat.",
+      "done": "A written list shows the gear you own, the sleeping sets counted against the number of people, and a stand-in noted for each gap.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold",
+        "earthquake"
+      ],
+      "apartment": "In an apartment a tent, tarps and rope are not needed for shelter, and a camp stove must never be lit indoors or on a balcony; what counts is warm bedding and mats for one room (X6-02).",
+      "cites": [
+        "cdc-co"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-43",
+      "level": 3,
+      "section": "Test your home and yourselves",
+      "title": "Check what you have for cooking outdoors",
+      "why": "With a yard, a grill or fire pit used well away from the house can give you hot food when the kitchen cannot.",
+      "how": "Note whether you have a charcoal or propane grill, a fire pit or a chiminea, and dry wood, charcoal or a full gas cylinder to run it. Use any of them only outdoors, never in a house, garage, tent or porch, and well away from doors, windows and vents, because they give off carbon monoxide. Write down roughly how many meals your fuel would cook and what you would cook first, starting with food thawing in the freezer.",
+      "done": "Your notes show what you have for cooking outdoors, the fuel for it, roughly how many meals it would cook and what you would cook first.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "None of these can be used in an apartment, and grills and fuel on balconies are widely banned by leases and fire codes, so plan every meal to be eaten cold; hot water is an extra for a household that owns a power station (X3-04).",
+      "cites": [
+        "cdc-co",
+        "ready-outage",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-44",
+      "level": 3,
+      "section": "Test your home and yourselves",
+      "title": "Check that everyone has warm clothes for a cold spell",
+      "why": "With the heating off, the clothes you wear indoors do the work the radiators did.",
+      "how": "For each person, lay out a warm hat, gloves, a thermal or wool base layer, a fleece or sweater, a warm coat, two pairs of thick socks and sturdy closed shoes. Children outgrow theirs, so check sizes every fall. Fill gaps secondhand from thrift stores, online giveaway groups or a swap with neighbors whose children are older, and pass on what you no longer wear.",
+      "done": "A warm hat, gloves, base layer, fleece or sweater, coat, two pairs of thick socks and closed shoes that fit are laid out for each person.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "cold",
+        "outage"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-45",
+      "level": 3,
+      "section": "Test your home and yourselves",
+      "title": "Find out whether your home was built or strengthened to resist earthquakes",
+      "why": "How a building behaves in an earthquake depends mostly on when and how it was built, and that decides whether you could stay in it afterward.",
+      "how": "Find the year your home was built from property records, the listing or the landlord. Ask the owner, the manager or your city's building department two questions: was it built to an earthquake code, and has it been strengthened (retrofitted) since? For a house, ask whether it is bolted to its foundation; for a manufactured home, check that tie-downs are installed. Write the answers down, including 'nobody knows', because they shape your stay-or-go plan (U2-91).",
+      "done": "The year your home was built and the answers to both questions, including 'nobody knows', are written on your Building information sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Anywhere, ask management what the building is made of, how old it is, whether it has sprinklers and what its last inspection found (HR-03)."
+      },
+      "apartment": "You cannot inspect or alter an apartment building's structure yourself, so the action is a written question to management or the owners' board, with the answer kept on your Building information sheet.",
+      "worksheet": "building-info",
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "U1-46",
+      "level": 2,
+      "section": "Test your home and yourselves",
+      "title": "Confirm every adult can find and close your shut-offs",
+      "why": "Knowing where a shut-off is helps only if the person at home can also work it.",
+      "how": "Once you have found your shut-offs (U2-97), have each adult walk to each one and show how it closes. Breakers flip to OFF, individual breakers first and the main last. A lever valve turns a quarter turn until the handle sits across the pipe; a round handle turns clockwise until it stops. Do not close the gas for practice, because only the utility turns the gas back on; in a real leak, follow the gas steps (AR-13). Keep any tool needed beside its valve and label each shut-off with tape.",
+      "done": "Each adult has walked to every shut-off and shown how it closes, without turning the gas, and each one has a tape label and any tool it needs beside it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "In an apartment this means your unit's breaker panel, the stop valves under sinks and behind the toilet, and the valve on any gas appliance; the building's main valves, risers and meters are for management only (X4-07, HR-15).",
+      "worksheet": "building-info",
+      "cites": [
+        "ready-skills",
+        "peoples-gas-emergency",
+        "consumers-energy-gas-emergency"
+      ],
+      "toolkit_page": "37-41"
+    },
+    {
+      "id": "X1-02",
+      "level": 2,
+      "section": "Test your home and yourselves",
+      "title": "Time everyone on the stairs, down and back up",
+      "why": "With the elevators out, the stairs are your only route to water, food and help, so you need to know who can manage them and how long a trip takes.",
+      "how": "Each person walks from your door down to the street and back up once, at their own pace, with a small load: about 10 pounds for an adult (a gallon of water weighs 8.3), a light backpack for a child. Time each round trip. Anyone may stop at any point, and anyone unsure whether the stairs are safe for them skips the test; 'could not' is a result to record, not a failure. Write the times, who cannot do the stairs, and who would carry for them on a sheet of paper and keep it with your Building information sheet; this decides how much you store upstairs and feeds your plan for anyone who cannot use stairs (HR-10).",
+      "done": "Each person's round-trip time, who cannot do the stairs and who would carry for them are written on a sheet kept with your Building information sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      }
+    },
+    {
+      "id": "X1-04",
+      "level": 3,
+      "section": "Test your home and yourselves",
+      "title": "Hold a lights-out evening at home",
+      "why": "One evening of living as if the power and water were off shows what is missing faster than any checklist.",
+      "how": "Pick an evening and, from 6 p.m. until bedtime, use no power from the grid and no running water: no switches, outlets, stove, Wi-Fi or flushing. Leave the fridge running and closed, and leave the breakers alone. Eat from your stored food, drink only stored water, light the home with flashlights or lanterns, not candles, and try your emergency toilet once. Keep a note of everything you reached for and could not use, and turn it into tasks the next day.",
+      "done": "You have spent one evening without power from the grid or running water, and your note of everything you reached for and could not use is now a list of tasks.",
+      "cost": "free",
+      "time": "afternoon",
+      "minutes": 180,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "In an apartment building, also walk down to the street and back by the stairs with your own light, to see what the hallway and stairwell are like at night.",
+      "cites": [
+        "redcross-outage",
+        "ready-outage"
+      ]
+    },
+    {
+      "id": "U1-47",
+      "level": 3,
+      "section": "Words for your future self and staying calm",
+      "title": "Write notes to your future self and learn a four-step reset",
+      "why": "A few calm lines in your own handwriting, and a calming routine you have already practiced, are easier to trust on a bad day than anything you try to remember.",
+      "how": "On one sheet of paper, write a note for the first day: the first three steps you want to take (for example shoes on, check everyone, check for damage), what calms you and the people with you, something that makes you smile, and a thank-you to yourself for getting ready. Seal it in a zip-top bag in the top pocket of your grab bag, or tape it inside the closet door where your flashlight is kept. Write a note for day 3 that opens with credit to your household for preparing and asks three questions: How am I feeling? What can I improve with what I have here? Who can I help today, and who can I ask for help? Write a note for day 7 that says a week is long and tiring and leaves space under four headings: what we need help with, who we have and have not checked on, how I am holding up, and what to tell responders. Write a last note to open when it is over, asking what you would do to be better prepared next time and how you could help the people you care about do the same. Seal these three in envelopes marked 'Day 3', 'Day 7' and 'Afterward' and keep them with the first note. Learn the four-step reset: Stop and pause what you are doing; Breathe in slowly through your nose and out again; Observe what you are thinking and feeling without judging it; Proceed with the one thing that matters most right now. Write the four words on a card and keep it with the notes. Run the reset once a day for a week in small stressful moments, such as a late train or a tense message, and teach the four words to any children at home.",
+      "done": "Your first-day note is in your grab bag, with the envelopes marked 'Day 3', 'Day 7' and 'Afterward' and a card reading Stop, Breathe, Observe, Proceed kept beside it.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 50,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "42-43"
+    },
+    {
+      "id": "U1-48",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Put your first-day note in the bag by the door",
+      "why": "The note helps only if it is in the first place you will look.",
+      "how": "Fold the note, seal it in a zip-top bag and put it in the top pocket of your grab bag, where you will see it as soon as you open the bag. If you have no bag yet, tape it inside the cupboard door where your flashlight is kept.",
+      "done": "The note is sealed in a zip-top bag in the top pocket of your grab bag, or taped inside the cupboard door where your flashlight is kept.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "42-43"
+    },
+    {
+      "id": "U1-49",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Write a note to open on day 3",
+      "why": "Three days in, the first rush has gone and tiredness sets in, which is when a kind word and a few clear questions help most.",
+      "how": "Write a second note to open 72 hours in. Begin with a line of credit to yourself and your household for the work you did beforehand. Then write three questions for your future self: How am I feeling, and am I being kind to myself? What can I improve with what I have here? Who can I help today, and who can I ask for help? Seal it in an envelope marked 'Day 3' and keep it with the first note.",
+      "done": "A sealed envelope marked 'Day 3', with the note and its three questions inside, is kept with your first-day note.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "42-43"
+    },
+    {
+      "id": "U1-50",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Write a note to open on day 7",
+      "why": "A week in, boredom and short tempers are the main problem, and outside help is starting to arrive.",
+      "how": "Write a third note to open after one week. Say plainly that a week is long, tiring and dull, and that reaching it deserves a thank-you to everyone. Leave space under four headings to fill in on the day: what we need help with; who we have checked on and who we have not; how I am holding up; and what to tell responders when they reach us. Mark the envelope 'Day 7'.",
+      "done": "An envelope marked 'Day 7' holds the note, with space left under its four headings, and is kept with your other notes.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "42-43"
+    },
+    {
+      "id": "U1-51",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Write a note to open when it is over",
+      "why": "The best time to improve a plan is just after it has been tested, and a ready-made set of questions makes sure that happens.",
+      "how": "Write a last note to open when the power and water are back. Put three questions in it: What would I do to be better prepared next time? How can I help the people I care about do the same? Has my view of my neighbors, my building or my own household changed, and why? Mark the envelope 'Afterwards' and keep it with the others.",
+      "done": "An envelope marked 'Afterwards' holds the note with its three questions and is kept with the others.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "42-43"
+    },
+    {
+      "id": "U1-52",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Learn the four-step reset: Stop, Breathe, Observe, Proceed",
+      "why": "A short routine you already know gives you a way to interrupt panic and choose your next move.",
+      "how": "Learn the four steps in order. Stop: say 'stop' to yourself and pause what you are doing. Breathe: take one slow breath in through your nose, letting your belly rise, and let it out slowly. Observe: notice what you are thinking and feeling and how your body feels, without judging it. Proceed: choose the one thing that matters most right now and do only that. Write the four words on a card and keep it with your first-day note.",
+      "done": "A card with the four words Stop, Breathe, Observe, Proceed is kept with your first-day note, and you can say the four steps in order without it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "43-44"
+    },
+    {
+      "id": "U1-53",
+      "level": 3,
+      "same_as": "U1-47",
+      "section": "Words for your future self and staying calm",
+      "title": "Practice the reset in an ordinary stressful moment",
+      "why": "A calming routine works under pressure only if you have used it many times when little was at stake.",
+      "how": "The next time something small goes wrong, such as a late train, a spilled drink or a tense message, run the four steps before you react; it takes under a minute. Do this once a day for a week so that it is a habit before you need it, and teach it to children in the same four words.",
+      "done": "You have run the four steps in a small stressful moment once a day for a week, and any child you taught can say the four words.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "43-44"
+    },
+    {
+      "id": "U1-54",
+      "level": 3,
+      "more": true,
+      "section": "Words for your future self and staying calm",
+      "title": "Borrow a book on mindfulness",
+      "why": "A mindfulness book from the public library gives you more calming exercises to try, and some are written for children and teenagers.",
+      "how": "The toolkit lists nine titles, including several written for children and teenagers. Any introduction to mindfulness from your public library will do: one for adults and, if you have children, one written for their age. Try one exercise from it each week for a month.",
+      "done": "A book on mindfulness from your public library is in your home, and you have tried the first exercise from it.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "44"
+    }
+  ]
+}

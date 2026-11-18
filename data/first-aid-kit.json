@@ -1,0 +1,458 @@
+{
+  "note": "The home first-aid kit as a build list: the specification for action U7-07 and product first-aid-kit-home. It is the union of Oregon's 23 items (each line that comes from one carries `oregon`, a number from 1 to 23; the validator checks all 23 are there) and the American Red Cross list for a family of four. `from` says whose line it is: `both`, `oregon`, `redcross` or `site` (this site's own addition, marked as such on the page). Every line has a `size` and a `count`; where the two lists differ the larger count is used and `count_from` says whose it is. A medicine line names its cabinet line in `cabinet`, so the drug, strength and brand are written once, in data/medicine-cabinet.json. `head_start` is the one bought kit named, after the list, with the lines its published contents cover.",
+  "checked": "2026-11-16",
+  "intro": "Start with an empty box. This list is the kit: every line has a size and a count, so you can check the box against it.",
+  "box": "A latching plastic box of about 12 by 8 inches, with a handle, that every adult can reach. Write the date you checked it inside the lid.",
+  "cites": [
+    "oregon-2wr",
+    "redcross-firstaid-kit"
+  ],
+  "groups": [
+    {
+      "name": "Dressings and bandages",
+      "lines": [
+        {
+          "id": "fa-gauze-4",
+          "item": "Sterile gauze pads",
+          "size": "4 x 4 in",
+          "count": 5,
+          "unit": "pads",
+          "from": "both",
+          "oregon": 1,
+          "count_from": "The Red Cross lists 5; Oregon says several."
+        },
+        {
+          "id": "fa-gauze-3",
+          "item": "Sterile gauze pads",
+          "size": "3 x 3 in",
+          "count": 5,
+          "unit": "pads",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-compress",
+          "item": "Absorbent compress dressings, for big cuts",
+          "size": "5 x 9 in",
+          "count": 2,
+          "unit": "dressings",
+          "from": "both",
+          "oregon": 1,
+          "count_from": "The Red Cross lists 2; Oregon says larger pads for big cuts, in the same item as the gauze."
+        },
+        {
+          "id": "fa-nonstick",
+          "item": "Non-stick pads",
+          "size": "3 x 4 in",
+          "count": 4,
+          "unit": "pads",
+          "from": "site"
+        },
+        {
+          "id": "fa-adhesive",
+          "item": "Adhesive bandages",
+          "size": "assorted sizes",
+          "count": 25,
+          "unit": "bandages",
+          "from": "both",
+          "oregon": 2,
+          "count_from": "The Red Cross lists 25; Oregon says 10 to 12 or more."
+        },
+        {
+          "id": "fa-closure",
+          "item": "Wound-closure strips",
+          "size": "1/4 x 3 in",
+          "count": 10,
+          "unit": "strips",
+          "from": "site"
+        },
+        {
+          "id": "fa-roller-2",
+          "item": "Roller gauze bandages",
+          "size": "2 in wide",
+          "count": 2,
+          "unit": "rolls",
+          "from": "oregon",
+          "oregon": 3
+        },
+        {
+          "id": "fa-roller-3",
+          "item": "Roller gauze bandage",
+          "size": "3 in wide",
+          "count": 1,
+          "unit": "roll",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-roller-4",
+          "item": "Roller gauze bandage",
+          "size": "4 in wide",
+          "count": 1,
+          "unit": "roll",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-pressure",
+          "item": "Pressure bandage",
+          "size": "4 in",
+          "count": 1,
+          "unit": "bandage",
+          "from": "site"
+        },
+        {
+          "id": "fa-elastic",
+          "item": "Elastic bandages",
+          "size": "3 in wide",
+          "count": 4,
+          "unit": "bandages",
+          "from": "oregon",
+          "oregon": 4,
+          "count_from": "Oregon lists 4 and gives no width; 3 in is this site's choice."
+        },
+        {
+          "id": "fa-selfwrap",
+          "item": "Self-adherent wrap",
+          "size": "2 in wide",
+          "count": 2,
+          "unit": "rolls",
+          "from": "site"
+        },
+        {
+          "id": "fa-triangular",
+          "item": "Triangular bandages",
+          "size": "about 40 x 40 x 56 in",
+          "count": 4,
+          "unit": "bandages",
+          "from": "both",
+          "oregon": 5,
+          "count_from": "Oregon lists 4; the Red Cross lists 2."
+        },
+        {
+          "id": "fa-tape",
+          "item": "Adhesive cloth tape",
+          "size": "1 in x 10 yd",
+          "count": 2,
+          "unit": "rolls",
+          "from": "both",
+          "oregon": 6,
+          "count_from": "Oregon lists 2 rolls; the Red Cross lists 1, at this size."
+        },
+        {
+          "id": "fa-moleskin",
+          "item": "Moleskin",
+          "size": "about 4 x 5 in",
+          "count": 1,
+          "unit": "sheet",
+          "from": "site"
+        },
+        {
+          "id": "fa-pins",
+          "item": "Safety pins",
+          "size": "assorted",
+          "count": 6,
+          "unit": "pins",
+          "from": "site"
+        }
+      ]
+    },
+    {
+      "name": "Tools and supplies",
+      "lines": [
+        {
+          "id": "fa-shears",
+          "item": "Trauma shears",
+          "size": "about 7 in",
+          "count": 1,
+          "unit": "pair",
+          "from": "oregon",
+          "oregon": 7
+        },
+        {
+          "id": "fa-tweezers",
+          "item": "Tweezers",
+          "size": "fine point",
+          "count": 1,
+          "unit": "pair",
+          "from": "both",
+          "oregon": 8
+        },
+        {
+          "id": "fa-thermometer",
+          "item": "Thermometer",
+          "size": "digital stick, no mercury, no glass",
+          "count": 1,
+          "unit": "thermometer",
+          "from": "both",
+          "oregon": 9,
+          "cabinet": "mc-thermometer-oral"
+        },
+        {
+          "id": "fa-dropper",
+          "item": "Eye dropper",
+          "size": "plain glass or plastic",
+          "count": 1,
+          "unit": "dropper",
+          "from": "oregon",
+          "oregon": 10
+        },
+        {
+          "id": "fa-irrigation",
+          "item": "Irrigation syringe",
+          "size": "20 mL",
+          "count": 1,
+          "unit": "syringe",
+          "from": "site"
+        },
+        {
+          "id": "fa-gloves",
+          "item": "Nitrile gloves",
+          "size": "large",
+          "count": 6,
+          "unit": "pairs",
+          "from": "both",
+          "oregon": 11,
+          "count_from": "Oregon lists 6 or more pairs; the Red Cross lists 2 pairs of non-latex gloves, size large."
+        },
+        {
+          "id": "fa-cpr",
+          "item": "Breathing barrier with a one-way valve (a CPR face shield)",
+          "size": "pocket size",
+          "count": 1,
+          "unit": "shield",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-cold",
+          "item": "Instant cold compress",
+          "size": "single use",
+          "count": 1,
+          "unit": "compress",
+          "from": "both",
+          "oregon": 12
+        },
+        {
+          "id": "fa-blanket",
+          "item": "Emergency blanket",
+          "size": "about 52 x 84 in",
+          "count": 1,
+          "unit": "blanket",
+          "from": "both",
+          "oregon": 13
+        },
+        {
+          "id": "fa-splint",
+          "item": "Moldable splint",
+          "size": "36 in",
+          "count": 1,
+          "unit": "splint",
+          "from": "site"
+        },
+        {
+          "id": "fa-wipes",
+          "item": "Antiseptic wipe packets",
+          "size": "single use",
+          "count": 5,
+          "unit": "packets",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-handwipes",
+          "item": "Antiseptic hand wipes",
+          "size": "travel size",
+          "count": 1,
+          "unit": "pack",
+          "from": "oregon",
+          "oregon": 14
+        },
+        {
+          "id": "fa-biobags",
+          "item": "Biohazard bags",
+          "size": "3 to 5 gallon",
+          "count": 3,
+          "unit": "bags",
+          "from": "oregon",
+          "oregon": 15,
+          "count_from": "Oregon says a few; 3 is this site's reading."
+        },
+        {
+          "id": "fa-glue",
+          "item": "Super glue",
+          "size": "the smallest tube sold",
+          "count": 1,
+          "unit": "tube",
+          "from": "oregon",
+          "oregon": 16
+        },
+        {
+          "id": "fa-lubricant",
+          "item": "Surgical lubricant",
+          "size": "the smallest tube sold",
+          "count": 1,
+          "unit": "tube",
+          "from": "oregon",
+          "oregon": 17
+        },
+        {
+          "id": "fa-bleach",
+          "item": "Plain household bleach, for disinfecting surfaces",
+          "size": "the smallest bottle sold",
+          "count": 1,
+          "unit": "bottle",
+          "from": "oregon",
+          "oregon": 18,
+          "note": "The bleach and its rules are in U4-10."
+        },
+        {
+          "id": "fa-guide",
+          "item": "First-aid instructions",
+          "size": "printed, not on a phone",
+          "count": 1,
+          "unit": "booklet",
+          "from": "redcross"
+        },
+        {
+          "id": "fa-marker",
+          "item": "Permanent marker",
+          "size": "fine tip",
+          "count": 1,
+          "unit": "marker",
+          "from": "site"
+        },
+        {
+          "id": "fa-notepad",
+          "item": "Notepad",
+          "size": "pocket size",
+          "count": 1,
+          "unit": "notepad",
+          "from": "site"
+        }
+      ]
+    },
+    {
+      "name": "Medicines",
+      "intro": "Each of these is a line of the family medicine cabinet, where its strength, its age limit and a brand are written. Buy it once and keep it in the cabinet or the kit. No doses are given here.",
+      "lines": [
+        {
+          "id": "fa-acetaminophen",
+          "item": "Acetaminophen",
+          "size": "as the cabinet line",
+          "count": 1,
+          "unit": "pack",
+          "from": "oregon",
+          "oregon": 19,
+          "cabinet": "mc-acetaminophen-adult"
+        },
+        {
+          "id": "fa-ibuprofen",
+          "item": "Ibuprofen",
+          "size": "as the cabinet line",
+          "count": 1,
+          "unit": "pack",
+          "from": "oregon",
+          "oregon": 20,
+          "cabinet": "mc-ibuprofen-adult",
+          "count_from": "Oregon says an anti-inflammatory; this site names ibuprofen."
+        },
+        {
+          "id": "fa-antibiotic",
+          "item": "Bacitracin, neomycin and polymyxin B antibiotic ointment",
+          "size": "packets of about 1 g, or the cabinet line's tube",
+          "count": 5,
+          "unit": "packets",
+          "from": "both",
+          "oregon": 21,
+          "cabinet": "mc-antibiotic-ointment",
+          "count_from": "The Red Cross lists 5 packets; Oregon says an antiseptic or antibiotic gel."
+        },
+        {
+          "id": "fa-hydrocortisone",
+          "item": "Hydrocortisone 1% cream",
+          "size": "packets of about 1 g, or the cabinet line's tube",
+          "count": 2,
+          "unit": "packets",
+          "from": "redcross",
+          "cabinet": "mc-hydrocortisone",
+          "count_from": "The Red Cross lists 2 ointment packets of about 1 gram each; the cabinet line is the cream."
+        },
+        {
+          "id": "fa-aspirin-81",
+          "item": "Aspirin",
+          "size": "81 mg tablets, in single packets",
+          "count": 2,
+          "unit": "packets",
+          "from": "redcross",
+          "note": "The Red Cross list carries these. Use them only when a 911 dispatcher or a doctor tells you to, and never for anyone under 18. The cabinet's own aspirin line is a different strength."
+        },
+        {
+          "id": "fa-laxative",
+          "item": "Polyethylene glycol 3350",
+          "size": "as the cabinet line",
+          "count": 1,
+          "unit": "pack",
+          "from": "oregon",
+          "oregon": 22,
+          "cabinet": "mc-laxative",
+          "count_from": "Oregon says a laxative; this site names it."
+        },
+        {
+          "id": "fa-loperamide",
+          "item": "Loperamide",
+          "size": "as the cabinet line",
+          "count": 1,
+          "unit": "pack",
+          "from": "oregon",
+          "oregon": 23,
+          "cabinet": "mc-loperamide",
+          "count_from": "Oregon says an anti-diarrhea medicine; this site names loperamide."
+        }
+      ]
+    }
+  ],
+  "after_class": "After the class in U7-11, the optional extra is a tourniquet and bleeding-control kit. It is not part of this list.",
+  "head_start": {
+    "name": "American Red Cross Deluxe Family First Aid Kit, 115-Piece (Soft Case)",
+    "url": "https://www.redcross.org/store/deluxe-family-first-aid-kit/321275.html",
+    "price_usd": 49.95,
+    "seen": "2026-11-16",
+    "intro": "If you would rather not start from nothing, this kit is a head start. Its published contents cover the lines below; you still add the rest, and its soft case takes the place of the box.",
+    "covers": [
+      "fa-gauze-4",
+      "fa-gauze-3",
+      "fa-compress",
+      "fa-adhesive",
+      "fa-roller-3",
+      "fa-roller-4",
+      "fa-tweezers",
+      "fa-cpr",
+      "fa-cold",
+      "fa-blanket",
+      "fa-wipes",
+      "fa-guide",
+      "fa-antibiotic",
+      "fa-hydrocortisone",
+      "fa-aspirin-81"
+    ],
+    "partly": [
+      {
+        "id": "fa-triangular",
+        "text": "it has 2 of the 4 triangular bandages, with safety pins"
+      },
+      {
+        "id": "fa-tape",
+        "text": "it has 1 of the 2 rolls of tape"
+      },
+      {
+        "id": "fa-gloves",
+        "text": "it has 2 pairs of vinyl gloves, not 6 pairs of nitrile"
+      },
+      {
+        "id": "fa-shears",
+        "text": "it has small scissors, not trauma shears"
+      },
+      {
+        "id": "fa-thermometer",
+        "text": "it has 4 one-time-use thermometers, not a digital one"
+      }
+    ],
+    "research_note": "Contents list read on the Red Cross Store page in a real browser by the main session on 2026-11-16 (the store refuses the automated reader): 2 chewable aspirin 81 mg; 5 triple antibiotic ointment packs 0.5 g; 6 antiseptic cleansing wipes; 2 hydrocortisone cream packs 1% 0.9 g; 2 hand sanitizer packs; 2 trauma pads 5 x 9; 6 gauze pads 4 x 4; 6 gauze pads 3 x 3; conforming gauze roll 4 in; conforming gauze roll 3 in; tape 1 in x 10 yd; instant cold compress; CPR one-way valve face shield; emergency blanket; 2 triangular bandages with safety pins; adhesive bandages 25 + 15 + 3 + 10 + 3 + 5 + 3 + 3; 4 one-time-use thermometers; plastic tweezers; scissors; 2 pairs vinyl gloves; first aid guide; nylon bag. $49.95, in stock."
+  }
+}

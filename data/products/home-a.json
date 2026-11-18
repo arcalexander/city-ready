@@ -1,0 +1,1620 @@
+{
+  "batch": "home-a",
+  "checked": "2026-11-15",
+  "items": [
+    {
+      "id": "co-alarm",
+      "module": "hc",
+      "name": "Carbon monoxide (CO) alarm, battery or battery backup",
+      "need": "CO is invisible and odorless, and a power outage or a gas or generator problem can make it dangerous; an alarm is the only warning you get.",
+      "how_to_choose": "Look for UL 2034 on the alarm or its box, and keep the box so you can show it. Battery-powered or battery-backup units keep working in a blackout. A sealed 10-year battery means no battery changes and no battery to forget. Digital displays are useful because they show a reading before the alarm sounds. In a rental, check the lease first: some landlords must supply alarms.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One on each level of the home and one outside each sleeping area; add more if your home is large or has several bedroom areas. Where a combination smoke and CO alarm already covers a spot, it needs no separate CO alarm."
+      },
+      "already_own": "A CO alarm you already have is fine if it says UL 2034 on the label, has not passed its end-of-life date (check the back for a replace-by date, or the unit chirps end-of-life), and passes the test button. If it has no date or is older than the maker's stated life, replace it.",
+      "safety_notes": [
+        {
+          "text": "CPSC says to put CO alarms on every level of the home and outside sleeping areas, to test them monthly, and notes that battery-operated alarms or alarms with battery backup are acceptable. The page does not state when to replace the alarm itself, so follow the maker's end-of-life date or chirp.",
+          "source_name": "CPSC",
+          "source_title": "CO Alarms",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/CO-Alarms",
+          "verified": true
+        },
+        {
+          "text": "CPSC's general carbon monoxide page also recommends alarms on every level and outside sleeping areas, and prefers interconnected alarms so that when one sounds they all sound.",
+          "source_name": "CPSC",
+          "source_title": "Carbon Monoxide | CPSC.gov",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+          "verified": true
+        },
+        {
+          "text": "CPSC tested some CO detectors sold on Amazon.com and found they did not alarm at 400 ppm, which breaks UL 2034. CPSC advises buying only CO detectors that meet UL 2034.",
+          "source_name": "CPSC",
+          "source_title": "CPSC Warns Consumers to Immediately Stop Using GLBSUNION and CUZMAK Digital Display Carbon Monoxide Detectors ... Sold on Amazon.com (Warning 23-160, March 16, 2023)",
+          "url": "https://www.cpsc.gov/Warnings/2023/CPSC-Warns-Consumers-to-Immediately-Stop-Using-GLBSUNION-and-CUZMAK-Digital-Display-Carbon-Monoxide-Detectors-Due-to-Failure-to-Alert-Consumers-to-Deadly-Carbon-Monoxide-Sold-on-Amazon-com",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "CPSC has warned repeatedly about CO alarms and smoke and CO alarms from little-known brands, sold on Amazon and other marketplaces, that failed to alarm in its tests: for example GLBSUNION and CUZMAK (March 2023), and two more warnings dated October 29, 2026. Buy a well-known brand from the maker or a major retailer."
+      ],
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-15 first pass: a CPSC search result also showed a 2026 recall of Treatlife combination smoke/CO detectors sold on Amazon (seen in search results only; the page was not opened). CPSC recall search for Kidde and First Alert CO alarms was limited to the pages opened. 2026-11-15 audit-fix pass (prompt 6.1): UL 2034 confirmed for the Standard pick on Kidde's product data sheet PDS_COBD10.pdf. Consumer Reports entries removed from pick sources (D-22: link-only, not a counted source); the link stays in other-opinions.json. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "tiers": {
+        "budget": {
+          "brand": "First Alert",
+          "model": "Battery Operated Carbon Monoxide Alarm with Backlit Digital Display",
+          "model_number": "CO410 (SKU 1039727)",
+          "size": "3.4 x 1.5 x 5 in, 0.7 lb; two AA batteries",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 39.95,
+          "price_seen_at": "firstalertstore.com (clearance, marked down from $49.95)",
+          "why": "It is battery only, shows the CO level in ppm and keeps a peak reading, and the store page says it conforms to UL 2034.",
+          "weakness": "The AA batteries need changing, and the alarm itself lasts about five years.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/co410-battery-operated-carbon-monoxide-alarm-with-backlit-digital-display.htm",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15; states UL 2034, price, clearance stock."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Battery Operated Carbon Monoxide Alarm with Backlit Digital Display - CO410 (1039727)",
+              "url": "https://www.firstalertstore.com/store/products/co410-battery-operated-carbon-monoxide-alarm-with-backlit-digital-display.htm",
+              "verified": true,
+              "supports": "Two AA batteries, electrochemical sensor, ppm display, conforms to UL 2034, end-of-life chirp (about 5 years), 7-year limited warranty, $39.95 on clearance."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched CPSC pages opened on 2026-11-15 for First Alert CO410: no recall seen.",
+          "research_note": "Store page reopened 2026-11-15 in the audit-fix pass: $39.95, clearance, 21 left, 'Conforms to UL 2034 Standard'. First pass: no Amazon ASIN seen on any page opened; the maker's main site showed this SKU as backordered (seen in a search summary; page not fetched because it was rate limited). Consumer Reports source entry removed (D-22: not a counted source), which leaves one source, so the pick shows as Provisional. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only, the maker's store. No Amazon link is given. Stock is limited; if it has gone, Kidde's AA-battery COBD is the nearest equivalent, but it was not researched for this page. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Clearance item with limited stock at the First Alert store (21 left on 2026-11-15). | Alignment pass 2026-11-16 (c4-home): moved off the page: weakness had: \"and the store sells it as a clearance item with few left\" (stock seen 2026-11-15)."
+        },
+        "standard": {
+          "brand": "Kidde",
+          "model": "Carbon Monoxide Alarm, 10-Year Battery Powered, digital display",
+          "model_number": "COBD10 (ordering number 21033776)",
+          "size": "5.14 x 1.4 x 2.83 in, 0.28 lb; sealed 10-year battery",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": null,
+          "price_seen_at": "No price shown on the maker's pages, and the maker's own shop did not list this model on the day checked",
+          "why": "A sealed 10-year battery and a backlit digital display, so there are no battery changes for a decade. Kidde's data sheet for this model carries the 'Conforms to UL 2034' mark and says the alarm meets UL 2034 when it is made, with an electrochemical sensor and an 85 dB alarm.",
+          "weakness": "It does not link to other alarms, and no independent test of this exact model was found.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.kidde.com/products/carbon-monoxide-alarms/carbon-monoxide-alarm-10-year-battery-powered-cobd10",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Maker's data sheet (PDF)",
+              "url": "https://brand.kidde.com/m/1a78f4f81c929895/original/PDS_COBD10.pdf",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Product data sheet: Carbon Monoxide Alarm, Detect series, model COBD10",
+              "url": "https://brand.kidde.com/m/1a78f4f81c929895/original/PDS_COBD10.pdf",
+              "verified": true,
+              "supports": "'Conforms to Standard UL 2034' mark on page 1; page 2 says the unit meets UL 2034 at the date of manufacture. Electrochemical sensor, 85 dB at 10 ft, 5.14 x 1.4 x 2.83 in, 0.28 lb, no interconnect, 10-year limited warranty."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Carbon Monoxide Alarm, 10-Year Battery Powered - COBD10",
+              "url": "https://www.kidde.com/products/carbon-monoxide-alarms/carbon-monoxide-alarm-10-year-battery-powered-cobd10",
+              "verified": true,
+              "supports": "10-year never-replace battery, backlit digital display, 85 dB alarm, 10-year limited warranty; links to the data sheet."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Kidde Limited Warranty (models currently sold)",
+              "url": "https://www.kidde.com/warranty-information",
+              "verified": true,
+              "supports": "COBD10 listed as a current model with a 10-year warranty; C3010D listed as discontinued."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Looked for CPSC recalls on Kidde CO alarms in pages opened on 2026-11-15: none seen for COBD10.",
+          "research_note": "2026-11-15 audit-fix pass (prompt 6.1, A-W10): the product page still does not state UL 2034 in its text, but the data sheet it links (PDS_COBD10.pdf, copyright 2026) does, on both pages; read from the PDF fetched today. shopkidde.com carbon monoxide pages 1 and 2 did not list COBD10, so no price. A web search found only affiliate pages (wcsafety.com) quoting 'UL 2034 5th Edition, ETL Listed' and an Amazon price of $52.97; not used. All three sources are the maker, so the code counts them as confirmed sources although they are one maker (see flags). First-pass note: the older Kidde C3010-D was not chosen because Kidde lists it as discontinued. | Alignment pass 2026-11-16 (c4-home): moved off the page: weakness had: \"no price was seen\". | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. Kidde's own shop did not list this model on 2026-11-15, so buy it from a major retailer and check that the box says COBD10 and UL 2034. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Checked against the maker's own documents only: no independent test of this exact model was found. / Kidde's warranty page lists the older sealed-battery model C3010D as discontinued, while Kidde's own shop still listed a C3010 on 2026-11-15. Check the model on the box. | Alignment pass 2026-11-16 (c4-home): price still not seen: shopkidde.com does not list COBD10; major-retailer pages refused WebFetch today (Home Depot, Ace Hardware, Walmart robot check, Ferguson, SupplyHouse, HD Supply, Zoro all HTTP 403). Search snippets only (not used): SupplyHouse $50.93, Amazon via wcsafety.com $52.97. price_usd stays null."
+        },
+        "cadillac": {
+          "brand": "First Alert",
+          "model": "Precision Detection 10-Year Battery 2-in-1 Smoke and CO Alarm with Voice and Location Alerts",
+          "model_number": "SMCO210V (1046806)",
+          "size": "5.68 x 1.3 x 5.68 in, 0.48 lb",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 64.95,
+          "price_seen_at": "firstalertstore.com, $64.95 (marked down from $84.95; in stock), seen 2026-11-15 and again 2026-11-16 for the combination alarm item; firstalert.com showed $69.99, backordered, on 2026-11-16",
+          "why": "One sealed 10-year unit covers smoke and CO, with electrochemical and photoelectric sensors and a voice that says what the danger is and which room. First Alert's own page says it conforms to UL 217 and UL 2034, and Bob Vila's testers picked it as best voice alarm.",
+          "weakness": "It does not interconnect with other alarms, and its test button was described as stiff by testers.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-10-year-battery-smoke-and-co-alarm-with-voice-smco210v.htm",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15."
+            },
+            {
+              "label": "Manufacturer",
+              "url": "https://www.firstalert.com/products/10-year-battery-2-in-1-smoke-carbon-monoxide-alarm-with-voice-alerts",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "This is the same alarm as the Standard pick for the combination smoke and CO alarm: buy it once.",
+          "research_note": "First pass 2026-11-15: no Amazon ASIN seen; the X-Sense SC07 interconnected set named by Bob Vila was not used because its maker page was rate limited. Bob Vila's article reopened in the audit-fix pass (published 2 October 2026). | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. If you need alarms that sound together, Bob Vila's testers also named an interconnected X-Sense set; it was not researched for this page.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert",
+              "title": "10-Year Battery 2-in-1 Smoke and Carbon Monoxide Alarm with Voice Alerts, SMCO210V",
+              "url": "https://www.firstalert.com/products/10-year-battery-2-in-1-smoke-carbon-monoxide-alarm-with-voice-alerts",
+              "verified": true,
+              "supports": "Spec table: conforms to UL 217 10th Edition and to UL 2034; electrochemical and photoelectric sensors; sealed 10-year battery.",
+              "research_note": "Opened by the main session on 2026-11-16 for the combination alarm item (D-62); copied here so both pages rest on First Alert's own site, not only on firstalertstore.com."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Precision Detection 10-Year Battery 2-in-1 Smoke and CO Alarm with Voice and Location Alerts - SMCO210V (1046806)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-10-year-battery-smoke-and-co-alarm-with-voice-smco210v.htm",
+              "verified": true,
+              "supports": "Sealed 10-year battery, conforms to UL 217 and UL 2034, electrochemical and photoelectric sensors, voice and 11 location presets, 85 dB."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Smoke Detectors of 2026, Tested and Reviewed",
+              "url": "https://www.bobvila.com/reviews/best-smoke-detectors/",
+              "verified": true,
+              "supports": "Best voice alarm: among the loudest tested, alarmed in under 15 seconds, sealed battery up to 10 years, stiff test button."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall of First Alert SMCO210V seen in CPSC pages opened on 2026-11-15; the CPSC search was not exhaustive."
+        }
+      },
+      "empty_reason": {}
+    },
+    {
+      "id": "smoke-co-combo-alarm",
+      "name": "Combination smoke and carbon monoxide (CO) alarm, UL 217 and UL 2034",
+      "need": "One alarm that warns of both smoke and carbon monoxide, so the hallway outside the bedrooms and each level of the home need one unit instead of two.",
+      "how_to_choose": "Choose a photoelectric combination; this page does not pick ionization-only or dual-sensor combinations. Look for UL 217 (smoke) and UL 2034 (CO) on the alarm or its box, and buy a well-known brand from the maker or a major retailer. Where you can, choose alarms that interconnect, by wire or wirelessly, so that when one sounds they all sound; CPSC and the US Fire Administration both recommend this. When a combination unit fails or reaches its end date, both protections go at once, so replace it on the date printed on it, or sooner if its end-of-life warning sounds. In a rental, ask the landlord first, and never remove or disable a hard-wired alarm.",
+      "qty": {
+        "basis": "count_yourself",
+        "factor": 1,
+        "note": "One outside each sleeping area and one on each level of the home, in place of a separate smoke alarm and CO alarm in those spots. Bedrooms still need their own smoke alarms."
+      },
+      "already_own": "A combination alarm you already have is fine if its label says UL 217 and UL 2034, it passes the test button, it is not chirping an end-of-life warning, and it has not passed the replace-by date on its back. A working smoke alarm and a working CO alarm already in the same spot do the same job; there is no need to swap them for one combination unit.",
+      "safety_notes": [
+        {
+          "text": "CPSC says to buy only combination smoke and CO detectors that meet both UL 2034 and UL 217, to install them on each level of the home and outside separate sleeping areas, and to choose ones that run on batteries or have battery backup.",
+          "source_name": "CPSC",
+          "source_title": "CPSC Warns Consumers to Immediately Stop Using Smoke and Carbon Monoxide Detectors Manufactured by Shenzhen Lidingfeng Tech. (Warning 24-267, June 20, 2024)",
+          "url": "https://www.cpsc.gov/Warnings/2024/CPSC-Warns-Consumers-to-Immediately-Stop-Using-Smoke-and-Carbon-Monoxide-Detectors-Manufactured-by-Shenzhen-Lidingfeng-Tech-Detectors-Fail-to-Alert-Consumers-to-Smoke-in-a-Fire",
+          "verified": true
+        },
+        {
+          "text": "CPSC says CO alarms go on each level of the home and outside sleeping areas, and notes that combination smoke and CO alarms are available.",
+          "source_name": "CPSC",
+          "source_title": "CO Alarms",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center/CO-Alarms",
+          "verified": true
+        },
+        {
+          "text": "CPSC says interconnected CO alarms are best, because when one sounds, they all sound.",
+          "source_name": "CPSC",
+          "source_title": "Carbon Monoxide | CPSC.gov",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+          "verified": true
+        },
+        {
+          "text": "The US Fire Administration says to put smoke alarms inside and outside each bedroom and sleeping area and on every level, to choose interconnected alarms, and to get new smoke alarms every 10 years.",
+          "source_name": "US Fire Administration",
+          "source_title": "Smoke Alarms",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/",
+          "verified": true
+        },
+        {
+          "text": "The US Fire Administration says to put CO alarms in a central place outside each separate sleeping area and on every level of the home.",
+          "source_name": "US Fire Administration",
+          "source_title": "Carbon Monoxide Poisoning Prevention",
+          "url": "https://www.usfa.fema.gov/prevention/life-safety-hazards/carbon-monoxide/",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Google no longer sells the Nest Protect. Google's help pages name First Alert's Smart Smoke & Carbon Monoxide Alarm (SC5) as the compatible replacement, and that is the Cadillac pick below.",
+        "First Alert has its alarms tested by Intertek, so the label on these picks reads \"conforms to UL 217\" and \"UL 2034\" beside an ETL mark, not \"UL Listed\". That is what First Alert's help center says to look for.",
+        "CPSC has recalled or warned about several combination smoke and CO detectors sold online that failed to alert, including Treatlife detectors sold on Amazon (recall, June 2026), JNHCD detectors (warning, July 2026) and Shenzhen Lidingfeng detectors (warning, June 2024). Buy a well-known brand from the maker or a major retailer.",
+        "The Standard pick here is the same alarm as the Cadillac pick on the carbon monoxide alarm page. It is one alarm; buy it once."
+      ],
+      "prices_seen": "2026-11-16",
+      "research_note": "Researched 2026-11-16 by WebFetch and WebSearch only. NFPA's smoke alarm and carbon monoxide pages (nfpa.org/education-and-research/home-fire-safety/smoke-alarms and /carbon-monoxide, with and without /en/) returned only their titles to the reader, so the NFPA safety note used by the smoke-alarm item was not reused here. NFPA's Educational Messages Desk Reference PDF and the CO tip sheet came back as unreadable binary and were not used. No official page opened today says in so many words that one combination unit replaces a separate smoke alarm and CO alarm; CPSC warning 24-267 is the closest, telling people to install combination detectors on each level and outside separate sleeping areas. The USFA smoke alarm page recommends dual-sensor (ionization plus photoelectric) smoke alarms; the owner's rule excludes dual-sensor combinations, so how_to_choose says only what this page picks. The trade-off line is the owner's wording; for these picks the maker pages confirm an end-of-life warning, but none of the pages opened shows where a replace-by date is printed. Other testers: Bob Vila's best smoke detectors page (2 October 2026) names a combination unit (X-Sense SC07) as best overall smoke detector, but not as best combination alarm, so no line was added. Wirecutter refuses the reader; Consumer Reports' smoke and CO category page returned 403. The WebFetch summary of the SC5 battery product page on firstalert.com noted a block of text addressed to the reader; it was ignored. X-Sense SC07 ($42.99) and SC07-W ($49.99, wireless interconnect, sealed battery) were checked as cheaper or interconnecting options, but X-Sense's pages state only UL 217 and do not name the sensor type, so neither could be a pick. Kidde P4010DCSCO-W (sealed 10-year battery, photoelectric, wireless interconnect) is shown on Kidde's shop as no longer available. Kidde P3010CU (photoelectric, sealed 10-year, 'UL217 and UL2034 Listed' on kidde.com) had no price on Kidde's shop and no second source. Kidde 30CUD10 and 30CUD10-V: product pages do not state the sensor type or UL 2034, and the data sheet PDF came back unreadable. First Alert SMCO210 (non-voice twin of the Standard pick) is $54.95 in stock on the First Alert Store but marked discontinued on firstalert.com, and no test publication covers it. | Main session, 2026-11-16: firstalertstore.com carries a BBB seal for eAccess Solutions, Inc., so it may be an online dealer and not First Alert itself; the UL statements were therefore re-checked on firstalert.com (SMCO210V: both standards in the spec table; SC5: UL 217 10th edition only; SMCO200: none) and on First Alert's help centre, read in Chrome. Google gives no date for the end of Nest Protect sales, so the owner's \"2025\" is not on the page. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No recall of the picks below was found on CPSC's site on 2026-11-16, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "tiers": {
+        "budget": {
+          "brand": "First Alert",
+          "model": "Precision Detection Battery-Operated 2-in-1 Smoke and CO Alarm with Slim Profile Design",
+          "model_number": "SMCO200 (1046793)",
+          "size": "5.68 x 5.68 x 1.3 in, 0.48 lb; two replaceable AA batteries. Does not interconnect: neither of First Alert's pages lists any link to other alarms.",
+          "weight_oz": 7.7,
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 46.95,
+          "price_seen_at": "firstalertstore.com (marked down from $59.95; in stock)",
+          "why": "The cheapest photoelectric combination found from an established maker. The First Alert Store page says it conforms to UL 217 and UL 2034, and First Alert's help center says all its current combination alarms do. Both list photoelectric and electrochemical sensors.",
+          "weakness": "The AA batteries need changing, it does not link to other alarms, and no independent test of this model was found.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/battery-operated-smoke-and-carbon-monoxide-alarm-smco200.htm",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Manufacturer",
+              "url": "https://firstalert.com/us/en/products/alarms/combo-smoke-carbon-monoxide-alarms/1046793-battery-operated-2-in-1-smoke-co-alarm-with-slim-profile-design-1046793",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert SMCO200 Battery-Operated 2-in-1 Combination Smoke and CO Alarm with Slim Profile Design (1046793)",
+              "url": "https://www.firstalertstore.com/store/products/battery-operated-smoke-and-carbon-monoxide-alarm-smco200.htm",
+              "verified": true,
+              "supports": "Conforms to UL 217 and UL 2034; photoelectric and electrochemical sensors; replaceable AA batteries; 85 dB at 10 ft; 5.68 x 5.68 x 1.3 in, 0.48 lb; end-of-life warning; 10-year limited warranty; $46.95, in stock."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert",
+              "title": "SMCO200 Battery-Operated 2-in-1 Smoke & CO Alarm with Slim Profile Design (1046793)",
+              "url": "https://firstalert.com/us/en/products/alarms/combo-smoke-carbon-monoxide-alarms/1046793-battery-operated-2-in-1-smoke-co-alarm-with-slim-profile-design-1046793",
+              "verified": true,
+              "supports": "Electrochemical and photoelectric sensors, two replaceable AA batteries, end-of-life warning, 10-year limited warranty.",
+              "research_note": "Same maker as the store page, so not an independent second source. This page does not state UL 217 or UL 2034, and showed the item as backordered."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert (help center)",
+              "title": "UL Ratings for First Alert Products",
+              "url": "https://support.firstalert.com/s/article/Single-and-or-Multistation-UL-Ratings-for-Smoke-and-or-CO-detectors",
+              "verified": true,
+              "supports": "Current First Alert smoke and CO combination alarms conform to both UL 217 and UL 2034. Most First Alert products are tested by Intertek; the Intertek (ETL) or UL label is on the back of the alarm.",
+              "research_note": "Read in a real browser by the main session on 2026-11-16; the page needs JavaScript and the page reader sees only a loading message."
+            }
+          ],
+          "flags": [
+            "First Alert's own product page for this model names no standard: it says only \"Meets industry standards\". Look for UL 217 and UL 2034 on the label or the box before you fit it.",
+            "No independent test of this model was found.",
+            "Illinois: smoke alarms newly installed in homes since January 1, 2023 must have a sealed 10-year battery, with some exceptions. This alarm uses AA batteries. The state fire marshal's page does not say how the rule treats combination units, so in Illinois choose the Standard pick."
+          ],
+          "flag_check": "Opened CPSC's First Alert manufacturer page on 2026-11-16 (only a 1992 recall of other models) and searched cpsc.gov for First Alert smoke and CO alarm recalls: none found for SMCO200. Search not exhaustive.",
+          "research_note": "Sensor list on both First Alert pages is 'Photoelectric & Electrochemical' with no ionization; the electrochemical sensor is taken to be the CO sensor (a smoke sensor is not electrochemical), so the smoke sensor is read as photoelectric. The store page also describes the alarm as meeting '8th edition' standards; the edition is not shown on the site. Cheaper photoelectric combinations seen (X-Sense SC07, $42.99) could not have UL 2034 or the sensor type confirmed on the maker's page. Kidde's AA combination 30CUDR ($52.97 in a search snippet only) costs more and its sensor type was not confirmed. Prices at Home Depot, Lowe's and Walmart were not opened. Illinois line from sfm.illinois.gov 'Illinois Smoke Alarm Law', opened today; the page does not mention combination units, so applying it to this pick is a judgement. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against one source only, the maker. No Amazon link is given. First Alert's main site showed it as backordered while First Alert's own store showed it in stock."
+        },
+        "standard": {
+          "brand": "First Alert",
+          "model": "Precision Detection 10-Year Battery 2-in-1 Smoke and CO Alarm with Voice and Location Alerts",
+          "model_number": "SMCO210V (1046806)",
+          "size": "5.68 x 5.68 x 1.3 in, 0.48 lb; sealed 10-year battery. Does not interconnect with other alarms.",
+          "weight_oz": 7.7,
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 64.95,
+          "price_seen_at": "firstalertstore.com (marked down from $84.95; in stock). First Alert's own site showed $69.99, backordered, the same day",
+          "why": "A sealed 10-year battery, photoelectric and electrochemical sensors, and a voice that says which danger and which room. First Alert's own page says it conforms to UL 217 (10th edition) and UL 2034, and Bob Vila's testers found it among the loudest and quick to alarm.",
+          "weakness": "It does not link to other alarms, and testers found the test button stiff.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-10-year-battery-smoke-and-co-alarm-with-voice-smco210v.htm",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Manufacturer",
+              "url": "https://www.firstalert.com/products/10-year-battery-2-in-1-smoke-carbon-monoxide-alarm-with-voice-alerts",
+              "verified": true,
+              "note": "$69.99 and backordered at First Alert on November 16, 2026."
+            }
+          ],
+          "link_note": "This is the same alarm as the Cadillac pick for the CO alarm item: buy it once.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert",
+              "title": "10-Year Battery 2-in-1 Smoke and Carbon Monoxide Alarm with Voice Alerts, SMCO210V",
+              "url": "https://www.firstalert.com/products/10-year-battery-2-in-1-smoke-carbon-monoxide-alarm-with-voice-alerts",
+              "verified": true,
+              "supports": "Spec table: conforms to UL 217 10th Edition and to UL 2034; sensor type electrochemical and photoelectric; 10-year lithium battery, not replaceable. $69.99 and backordered on November 16, 2026.",
+              "research_note": "Opened by the main session with WebFetch on 2026-11-16."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Precision Detection 10-Year Battery 2-in-1 Smoke and CO Alarm with Voice and Location Alerts - SMCO210V (1046806)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-10-year-battery-smoke-and-co-alarm-with-voice-smco210v.htm",
+              "verified": true,
+              "supports": "Conforms to UL 217 and UL 2034; electrochemical and photoelectric sensors; sealed 10-year lithium battery, not replaceable; 85 dB at 10 ft; 5.68 x 5.68 x 1.3 in, 0.48 lb; end-of-life warning; 10-year limited warranty; $64.95, in stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Smoke Detectors of 2026, Tested and Reviewed",
+              "url": "https://www.bobvila.com/reviews/best-smoke-detectors/",
+              "verified": true,
+              "supports": "Best voice alarm (published October 2, 2026): among the loudest tested, alarmed in under 15 seconds, sealed battery up to 10 years, not interconnected, very stiff test button."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert (help center)",
+              "title": "Does First Alert offer a UL217 9th or 10th Edition Smoke or Combo Smoke & CO Alarm?",
+              "url": "https://support.firstalert.com/s/article/Do-we-have-an-UL217-9th-Edition-Smoke-Detector-Offering",
+              "verified": true,
+              "supports": "Lists the SC5 battery (SMCO600NV) and hardwired (SMCO600NV-AC) alarms and the SMCO210V among its UL 217 10th edition models, with Intertek listings.",
+              "research_note": "Read in a real browser by the main session on 2026-11-16."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Opened CPSC's First Alert manufacturer page on 2026-11-16 (only a 1992 recall of other models) and searched cpsc.gov for First Alert smoke and CO alarm recalls: none found for SMCO210V. Search not exhaustive.",
+          "research_note": "Chosen over the non-voice SMCO210 ($54.95 at the First Alert Store, but marked discontinued on firstalert.com and with no test publication) and over Kidde's sealed-battery combinations, whose sensor type and UL 2034 listing could not be read from Kidde's pages today (30CUD10, 30CUD10-V) or which had no price and no second source (P3010CU). No sealed 10-year combination from First Alert or Kidde that interconnects wirelessly and is on sale was found: Kidde P4010DCSCO-W is 'no longer available' on Kidde's shop. Same model as the co-alarm item's Cadillac pick; the editor may want to review that overlap. Store page calls it an '8th Generation Detector' and gives no UL edition. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: \"No Amazon link is given.\""
+        },
+        "cadillac": {
+          "brand": "First Alert",
+          "model": "SC5 Smart Smoke and Carbon Monoxide Alarm, battery version",
+          "model_number": "SMCO600NV (part number FSMCO600NVCL1); hardwired version SMCO600NV-AC (FSMCO600NVACCL1)",
+          "size": "5.75 x 5.75 x 1.6 in, 1 lb; six replaceable 3V lithium batteries. Interconnects wirelessly with other SC5 alarms and with Google Nest Protect alarms (Nest Protect linking needs the Google Home app). The hardwired version also interconnects by wire.",
+          "weight_oz": 16,
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 129.95,
+          "price_seen_at": "firstalertstore.com (marked down from $149.95; in stock)",
+          "why": "It links wirelessly so every alarm sounds when one does, sends smoke and CO alerts to your phone, and gives voice alerts. First Alert lists it among its UL 217 10th edition models and says its combination alarms conform to UL 217 and UL 2034; its page lists photoelectric and electrochemical sensors. Google names it as the replacement for the Nest Protect, and it fits the Nest Protect's mounting plate.",
+          "weakness": "It costs about twice the Standard pick, its six batteries need changing, and First Alert's main site showed it as backordered on the day checked.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/smart-smoke-alarm-and-carbon-monoxide-detector-sc5.htm",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Manufacturer (battery version)",
+              "url": "https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Manufacturer (hardwired version)",
+              "url": "https://www.firstalert.com/us/en/products/alarms/smart-smoke-carbon-monoxide-alarms/fsmco600nvaccl1-hardwire-smart-smoke-carbon-monoxide-alarm-fsmco600nvaccl1/",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert SC5 Battery Operated Smart Smoke and Carbon Monoxide Alarm (FSMCO600NVCL1)",
+              "url": "https://www.firstalertstore.com/store/products/smart-smoke-alarm-and-carbon-monoxide-detector-sc5.htm",
+              "verified": true,
+              "supports": "Conforms to UL 217 9th Edition and UL 2034; electrochemical and photoelectric sensors; six replaceable 3V lithium batteries; wireless interconnect with SMCO600NV and SMCO600NV-AC and with Nest Protect (battery and wired) through the Google Home app; First Alert app; 5.75 x 1.6 x 5.75 in, 1 lb; $129.95, in stock."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert",
+              "title": "SC5 Battery Smart Smoke and Carbon Monoxide Alarm (SMCO600NV, FSMCO600NVCL1)",
+              "url": "https://www.firstalert.com/products/sc5-battery-smart-smoke-carbon-monoxide-alarm",
+              "verified": true,
+              "supports": "Electrochemical and photoelectric sensors; conforms to UL 217 10th Edition; wireless interconnect with First Alert and Google Nest Protect alarms; works with and replaces Nest Protect; 85 dB; end-of-life warning; 10-year limited warranty; $129.99, backordered.",
+              "research_note": "Same maker as the store page. This page states UL 217 (10th edition) but not UL 2034; the store page states both, with UL 217 as 9th edition."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "First Alert Smart Smoke Alarm review (published 27 January 2026)",
+              "url": "https://www.bobvila.com/reviews/first-alert-smart-smoke-alarm-review/",
+              "verified": true,
+              "supports": "Installed and used at home, including while cooking; app pairing in about 3 minutes; works with Google Home; one-button silence; about $130 a unit, which the reviewer found high for a whole house."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert (help center)",
+              "title": "Does First Alert offer a UL217 9th or 10th Edition Smoke or Combo Smoke & CO Alarm?",
+              "url": "https://support.firstalert.com/s/article/Do-we-have-an-UL217-9th-Edition-Smoke-Detector-Offering",
+              "verified": true,
+              "supports": "Lists the SC5 battery (SMCO600NV) and hardwired (SMCO600NV-AC) alarms and the SMCO210V among its UL 217 10th edition models, with Intertek listings.",
+              "research_note": "Read in a real browser by the main session on 2026-11-16."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert (help center)",
+              "title": "UL Ratings for First Alert Products",
+              "url": "https://support.firstalert.com/s/article/Single-and-or-Multistation-UL-Ratings-for-Smoke-and-or-CO-detectors",
+              "verified": true,
+              "supports": "Current First Alert smoke and CO combination alarms conform to both UL 217 and UL 2034. Most First Alert products are tested by Intertek; the Intertek (ETL) or UL label is on the back of the alarm.",
+              "research_note": "Read in a real browser by the main session on 2026-11-16; the page needs JavaScript and the page reader sees only a loading message."
+            }
+          ],
+          "flags": [
+            "First Alert's own product page states UL 217 only. UL 2034 for this model is stated on the First Alert Store page and, for all its combination alarms, on First Alert's help center. Check the label on the back before you fit it."
+          ],
+          "flag_check": "Opened CPSC's First Alert manufacturer page on 2026-11-16 (only a 1992 recall of other models) and searched cpsc.gov for First Alert smoke and CO alarm recalls: none found for the SC5 or SMCO600NV. Search not exhaustive.",
+          "research_note": "Sensor type: both First Alert pages list 'Electrochemical, Photoelectric' with no ionization; the electrochemical sensor is taken to be the CO sensor, so the smoke sensor is read as photoelectric. No First Alert page opened names the smoke sensor in words. Resideo spec sheet PDF (FSMCO600NVACL1_SMCO600NV-A_SC5) and the SC5 wired user manual PDF came back as unreadable binary; the Resideo product page for FSMCO600NVCL1 returned 404. Bob Vila's review does not name the model number or the sensor; it describes a battery unit with a pull tab. Google help pages (answer 15709068, 15731767, 16324143) were opened for the Nest Protect line and interconnection with Nest Protect; they are not counted as product sources. Hardwired version: $129.99 and backordered on firstalert.com; hardwired interconnect 'Yes', 3V lithium backup battery, UL 217 10th edition stated, UL 2034 not stated on that page; the store lists it at $129.95 (FSMCO600NVACCL1) on its Nest replacement article. A search snippet mentioned a law-firm inquiry into SC5 false alarms on a low-quality site; not opened and not used. Illinois: the state fire marshal's page exempts wireless integrated alarms using low-power radio or Wi-Fi from the sealed-battery rule; whether that covers the SC5 is not stated, so no Illinois line is shown. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. First Alert's two shops disagreed on stock on the day checked, so check before ordering."
+        }
+      },
+      "empty_reason": {}
+    },
+    {
+      "id": "smoke-alarm",
+      "module": "hr",
+      "name": "Smoke alarm (UL 217), sealed 10-year battery preferred",
+      "need": "Most fatal home fires happen when people are asleep; a working alarm gives you the minutes you need to get out.",
+      "how_to_choose": "Look for UL 217 on the box. A sealed 10-year battery removes battery changes; the whole alarm is replaced at 10 years. Photoelectric sensors handle smoldering fires and fewer cooking false alarms. In a rented apartment the landlord usually has to provide working alarms, so ask them first, and never remove or disable a hard-wired alarm; add battery alarms in addition, only where allowed. Alarms that interconnect, by wire or wirelessly, all sound when one does; CPSC prefers them, and they matter most where bedroom doors are kept shut. None of the picks below interconnects.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One inside each bedroom, one outside each sleeping area and one on each level. Outside a sleeping area or on a level, a combination smoke and CO alarm does both jobs, so that spot needs no separate smoke alarm. Count your own rooms."
+      },
+      "already_own": "An alarm you already have is fine if it passes the test button, is under 10 years old (check the manufacture date on the back) and is not yellowed or chirping. Replace anything 10 years or older.",
+      "safety_notes": [
+        {
+          "text": "NFPA says to put smoke alarms in every bedroom, outside sleeping areas and on each level, to test them monthly, and to replace them after about ten years. It also mentions sealed batteries.",
+          "source_name": "NFPA",
+          "source_title": "Learn More About Smoke Alarms",
+          "url": "https://www.nfpa.org/en/education-and-research/home-fire-safety/smoke-alarms",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "CPSC has warned about unbranded smoke and combination smoke/CO alarms sold on Amazon and elsewhere that failed to alert (for example BQQZHZ, PETRICOR, VARWANEO and WJZTEK in 2023, and warnings dated October 29, 2026). Buy established brands from the maker or a major retailer.",
+        "In a rental, tampering with a hard-wired alarm may break the lease or local law; ask the landlord."
+      ],
+      "prices_seen": "2026-11-15",
+      "research_note": "2026-11-15 audit-fix pass: Consumer Reports entries, scores and prices removed from all three picks (D-22: link-only, not a counted source); the link stays in other-opinions.json. Kidde data sheets and the Intertek certificate were read from the PDFs fetched today. Bob Vila's smoke detector article reopened today (published 2 October 2026): it tests the SMI100 and SMCO210V but no Kidde 20SD10 model.",
+      "tiers": {
+        "budget": {
+          "brand": "First Alert",
+          "model": "Precision Detection Battery-Operated Smoke Alarm",
+          "model_number": "SMI100 (1046827)",
+          "size": "About 5.6 x 2 in; one 9V battery (replaceable)",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 24.95,
+          "price_seen_at": "firstalertstore.com (marked down from $29.95)",
+          "why": "Bob Vila's testers named it best value. It conforms to UL 217 and needs no wiring.",
+          "weakness": "Ionization sensor, slower to alarm than pricier models in Bob Vila's test (about 20 seconds), and the 9V battery needs regular replacement.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-battery-operated-smoke-alarm-smi100.htm",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15."
+            }
+          ],
+          "link_note": "The SMI100 is First Alert's current replacement for its older SA303CN3.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Precision Detection Battery-Operated Smoke Alarm - SMI100 (1046827)",
+              "url": "https://www.firstalertstore.com/store/products/first-alert-battery-operated-smoke-alarm-smi100.htm",
+              "verified": true,
+              "supports": "Conforms to UL 217, 9V battery, ionization sensor, 85 dB, 10-year limited warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Smoke Detectors of 2026, Tested and Reviewed",
+              "url": "https://www.bobvila.com/reviews/best-smoke-detectors/",
+              "verified": true,
+              "supports": "Best bang for the buck; alarmed in about 20 seconds."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall of the SMI100 seen in CPSC pages opened on 2026-11-15; search not exhaustive.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note had: \"No Amazon link is given.\""
+        },
+        "standard": {
+          "brand": "Kidde",
+          "model": "Smoke Alarm, 10-Year Battery Powered",
+          "model_number": "20SD10 (ordering number 21031466)",
+          "size": "5 x 2 x 5 in, 0.79 lb; sealed 10-year battery",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": 34.97,
+          "price_seen_at": "shopkidde.com, Kidde's own shop (in stock on 2026-11-15)",
+          "why": "A sealed battery with no changes for ten years, a photoelectric sensor, fewer false alarms from cooking, a clear end-of-life beep and no wiring. Kidde's data sheet carries the 'Conforms to UL 217' mark, and the test laboratory's certificate lists this model under UL 217.",
+          "weakness": "It does not link to other alarms, and no independent hands-on test of this exact model was found. Kidde says its self-testing does not replace the button test.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.kidde.com/products/smoke-alarms/smoke-alarm-10-year-battery-powered",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Kidde's own store",
+              "url": "https://shopkidde.com/detect-smoke-alarm-10-year-battery-powered",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Product data sheet: Smoke Alarm, Detect series, model 20SD10 (May 2025)",
+              "url": "https://www.shopkidde.com/images/uploaded/Product_PDS_20SD10_0525.pdf",
+              "verified": true,
+              "supports": "Smoke sensor: photoelectric. 'Conforms to Standard UL 217' mark; meets UL 217 at the date of manufacture. 85 dB at 10 ft, 5 x 2 x 5 in, 0.79 lb, no interconnect, 10-year limited warranty. Says self-testing is not a substitute for a weekly button test."
+            },
+            {
+              "type": "standard_listing",
+              "name": "Intertek (ETL)",
+              "title": "Authorization to Mark, smoke alarms, UL 217:2024 Ed.10 (issued 4 September 2025)",
+              "url": "https://brand.kidde.com/m/a3af572b3166d6a/original/CC_Smoke-Alarms-UL-217-2024-Ed10-Smoke.pdf",
+              "verified": true,
+              "supports": "Intertek's certificate authorizing the ETL Listed mark under UL 217, 10th edition; models listed include 20SD10 and 20SD10-V. The copy is hosted on Kidde's site."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Smoke Alarm, 10-Year Battery Powered - 20SD10",
+              "url": "https://www.kidde.com/products/smoke-alarms/smoke-alarm-10-year-battery-powered",
+              "verified": true,
+              "supports": "10-year battery, designed to the latest UL standard, self-testing, end-of-life beep."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall of Kidde 20SD10 seen in CPSC pages opened on 2026-11-15; search not exhaustive.",
+          "research_note": "2026-11-15 audit-fix pass (prompt 6.18, B-Z01): sensor type read from Kidde's data sheet dated May 2025 (photoelectric); the earlier 'sensor type not stated' note is replaced. Intertek Authorization to Mark, control number 4002588, report 105892799CHI-002, read from the PDF fetched today. Price changed from a figure taken from Consumer Reports' site ($32.47) to Kidde's shop price seen today ($34.97). Consumer Reports source entry and wording removed (D-22: link-only, not a counted source). Kidde warranty page entry dropped (not reopened in this pass). First-pass note: no Amazon ASIN seen. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given."
+        },
+        "cadillac": {
+          "brand": "Kidde",
+          "model": "Smoke Alarm, 10-Year Battery Powered and Voice Alerts",
+          "model_number": "20SD10-V (ordering number 21033069 for a single alarm)",
+          "size": "5 x 2 x 5 in, 0.79 lb; sealed 10-year battery",
+          "unit_size": 1,
+          "unit_label": "alarm",
+          "price_usd": null,
+          "price_seen_at": "No price shown on the maker's pages, and the maker's own shop did not list this model on the day checked",
+          "why": "The same sealed 10-year photoelectric alarm as the Standard pick, with spoken alerts that say why it is sounding. Kidde's data sheet carries the 'Conforms to UL 217' mark and the test laboratory's certificate lists this model.",
+          "weakness": "Little extra capability over the Standard pick: it does not link to other alarms.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.kidde.com/products/smoke-alarms/smoke-alarm-10-year-battery-powered-and-voice-alerts",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Product data sheet: Smoke Alarm, Detect series, model 20SD10-V",
+              "url": "https://brand.kidde.com/m/377a15167e9c3bf3/original/PDS_20SD10-V.pdf",
+              "verified": true,
+              "supports": "Smoke sensor: photoelectric. 'Conforms to Standard UL 217' mark; voice alerts; 85 dB at 10 ft, 5 x 2 x 5 in, 0.79 lb, no interconnect, 10-year limited warranty."
+            },
+            {
+              "type": "standard_listing",
+              "name": "Intertek (ETL)",
+              "title": "Authorization to Mark, smoke alarms, UL 217:2024 Ed.10 (issued 4 September 2025)",
+              "url": "https://brand.kidde.com/m/a3af572b3166d6a/original/CC_Smoke-Alarms-UL-217-2024-Ed10-Smoke.pdf",
+              "verified": true,
+              "supports": "Intertek's certificate authorizing the ETL Listed mark under UL 217, 10th edition; models listed include 20SD10-V. The copy is hosted on Kidde's site."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Kidde",
+              "title": "Smoke Alarm, 10-Year Battery Powered and Voice Alerts - 20SD10-V",
+              "url": "https://www.kidde.com/products/smoke-alarms/smoke-alarm-10-year-battery-powered-and-voice-alerts",
+              "verified": true,
+              "supports": "10-year battery, voice alerts, designed to the latest UL standard, 10-year limited warranty."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall of Kidde 20SD10-V seen in CPSC pages opened on 2026-11-15; search not exhaustive.",
+          "research_note": "2026-11-15 audit-fix pass: sensor type and UL 217 mark read from the data sheet PDF fetched today; Intertek certificate as for the Standard pick. The earlier price ($44.97) came from Consumer Reports' site and was removed with the Consumer Reports source entry and wording (D-22). shopkidde.com did not list the 20SD10-V today. First-pass note: no Amazon ASIN seen. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. If you need alarms that sound together, no interconnected battery system was confirmed for this page; Wirecutter's pick, First Alert's SM500V, is interconnected but was not checked here. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: No price seen on 2026-11-15. | Alignment pass 2026-11-16 (c4-home): moved off the page: weakness had: \"and no price was seen\". | Alignment pass 2026-11-16 (c4-home): price still not seen: shopkidde.com 20SD10 page opened today lists no 20SD10-V; WebstaurantStore page opened today shows a $47.97 retail price but hides its own price until added to cart, minimum 6, not stocked; major-retailer pages refused WebFetch today (Home Depot, Ace Hardware, Walmart robot check, Ferguson, SupplyHouse, HD Supply, Zoro all HTTP 403). price_usd stays null. Kept as Cadillac (life-safety: no change without two sources today) though its own weakness says it adds little; flagged to the owner."
+        }
+      },
+      "empty_reason": {}
+    },
+    {
+      "id": "fire-extinguisher",
+      "module": "u6",
+      "name": "Home fire extinguisher (ABC dry chemical, UL rated)",
+      "need": "A small kitchen or appliance fire can be stopped in its first seconds, but only if the right extinguisher is within reach and you know when to use it and when to leave.",
+      "how_to_choose": "Buy a multipurpose ABC extinguisher with a UL rating of at least 1-A:10-B:C; 2-A:10-B:C or 3-A:40-B:C is better. Pick one you can lift and carry easily. Prefer rechargeable models with a metal valve and a pressure gauge; avoid plastic-valve or plastic-handle disposables. Keep it near the kitchen exit, not next to the stove, and learn the PASS steps.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One for the kitchen side of the home; add one per floor of a multi-floor home."
+      },
+      "already_own": "An extinguisher you already own is fine if the gauge needle is in the green, the pin and seal are intact, it is not dented or corroded, and it is not a recalled Kidde plastic-handle model. Check the Kidde recall ID guide and CPSC recall 18-022 if yours is Kidde.",
+      "safety_notes": [
+        {
+          "text": "USFA says to use an extinguisher only if you have alerted others, the fire department has been called, you are able to use it, the fire is small and limited to one object, you are protected from toxic smoke, and you have a clear way out. If any of this is uncertain, leave, and call 911 from outside or a neighbor's phone. Multipurpose A-B-C extinguishers cover most home fires.",
+          "source_name": "USFA (FEMA)",
+          "source_title": "Choosing and Using Fire Extinguishers",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/",
+          "verified": true
+        },
+        {
+          "text": "USFA's PASS steps: pull the pin with the nozzle pointed away from you, aim at the base of the fire, squeeze the handle slowly and evenly, and sweep side to side.",
+          "source_name": "USFA (FEMA)",
+          "source_title": "Choosing and Using Fire Extinguishers",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/fire-extinguishers/",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Kidde recalled 134 plastic-handle extinguisher models (made 1973 to August 2017) and 8 Pindicator push-button models in November 2017 (CPSC recall 18-022, about 37.8 million units) because they could clog or need too much force and the nozzle could detach; one death was reported. Kidde also recalled 31 plastic-valve disposable models (including the FA110) in February 2015. For this reason no Kidde extinguisher is recommended below."
+      ],
+      "prices_seen": "2026-11-15",
+      "research_note": "First pass 2026-11-15: the CPSC recall listing showed no fire extinguisher recalls on its first page of results; the category filter was not available through the tool. Audit-fix pass 2026-11-15 (prompt 6.14, B-W02): Amerex parts book opened and read; the Cadillac pick's valve corrected from brass to aluminium. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No current extinguisher recall was seen on CPSC's recall list on 2026-11-15, but the search was not complete: check cpsc.gov/recalls before buying.",
+      "tiers": {
+        "budget": {
+          "brand": "First Alert",
+          "model": "Rechargeable Home Fire Extinguisher UL Rated 1-A:10-B:C",
+          "model_number": "HOME1 (FE1A10GR)",
+          "size": "5.4 lb, 14.25 in tall, 3.25 in diameter; bracket and strap included",
+          "unit_size": 1,
+          "unit_label": "extinguisher",
+          "price_usd": 29.95,
+          "price_seen_at": "firstalertstore.com (marked down from $49.95)",
+          "why": "Light enough to handle in a small kitchen, rechargeable by a certified dealer, metal head, 1-A:10-B:C rating, and listed by The Prepared and Bob Vila as the compact home option.",
+          "weakness": "Smallest rating that meets a home need, so it holds less agent and runs out quickly; the maker's page does not say whether the valve is metal.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/First-Alert-Rechargeable-Home-Fire-Extinguisher-HOME1.htm",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Rechargeable Home Fire Extinguisher UL Rated 1-A, 10-B:C (Red) - HOME1",
+              "url": "https://www.firstalertstore.com/store/products/First-Alert-Rechargeable-Home-Fire-Extinguisher-HOME1.htm",
+              "verified": true,
+              "supports": "1-A:10-B:C, rechargeable by a professional, metal head, 5.4 lb, 10-year limited warranty, bracket included."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best fire extinguisher for your home and vehicle",
+              "url": "https://theprepared.com/gear/reviews/fire-extinguisher/",
+              "verified": true,
+              "supports": "Named as a smaller home option rated 1A 10B:C, 5 lb."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Fire Extinguishers of 2026, Picks from Our Editors",
+              "url": "https://www.bobvila.com/reviews/best-fire-extinguishers/",
+              "verified": true,
+              "supports": "Listed 2.5 lb ABC, rechargeable by a professional, metal head, no hose."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched CPSC pages on 2026-11-15 for First Alert extinguisher recalls: none seen (the recall hits found were all Kidde).",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. The UL rating is the maker's statement; the listing record itself was not checked."
+        },
+        "standard": {
+          "brand": "First Alert",
+          "model": "Rechargeable Heavy Duty Plus Fire Extinguisher UL rated 3-A:40-B:C",
+          "model_number": "PRO5 (FE3A40GR)",
+          "size": "10.2 lb, 6 x 4.6 x 16.2 in; bracket and strap included",
+          "unit_size": 1,
+          "unit_label": "extinguisher",
+          "price_usd": 69.95,
+          "price_seen_at": "firstalertstore.com (marked down from $99.95; The Prepared quoted about $50)",
+          "why": "The Prepared's pick for most homes and Bob Vila's all-metal pick. 3-A:40-B:C is well above the minimum, it is rechargeable by a professional, and it has a metal head and a gauge.",
+          "weakness": "At 10 lb it is heavy to carry and awkward to store in a small apartment.",
+          "links": [
+            {
+              "label": "First Alert Store (firstalertstore.com)",
+              "url": "https://www.firstalertstore.com/store/products/First-Alert-Rechargeable-Heavy-Duty-Plus-Fire-Extinguisher-PRO5.htm",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "First Alert Store",
+              "title": "First Alert Rechargeable Heavy Duty Plus Fire Extinguisher UL rated 3-A:40-B:C (Red) - PRO5",
+              "url": "https://www.firstalertstore.com/store/products/First-Alert-Rechargeable-Heavy-Duty-Plus-Fire-Extinguisher-PRO5.htm",
+              "verified": true,
+              "supports": "3-A:40-B:C, meets UL standards, rechargeable, metal head and pin, 10.2 lb, gauge, bracket included."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best fire extinguisher for your home and vehicle",
+              "url": "https://theprepared.com/gear/reviews/fire-extinguisher/",
+              "verified": true,
+              "supports": "Best for most homes, 3A 40B:C, 10 lb, rechargeable, metal valve, about $50."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Fire Extinguishers of 2026, Picks from Our Editors",
+              "url": "https://www.bobvila.com/reviews/best-fire-extinguishers/",
+              "verified": true,
+              "supports": "UL rated, all-metal bottle, valve and head, rechargeable by a certified professional."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched CPSC pages on 2026-11-15 for First Alert PRO5 recalls: none seen.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. The store page says it meets UL standards but does not name the valve material."
+        },
+        "cadillac": {
+          "brand": "Amerex",
+          "model": "5 lb ABC dry chemical extinguisher, aluminum valve, with hose and horn",
+          "model_number": "B402 (B402T with a vehicle bracket)",
+          "size": "5 lb of agent; about 9.25 lb in all (Bob Vila's figure)",
+          "unit_size": 1,
+          "unit_label": "extinguisher",
+          "price_usd": null,
+          "price_seen_at": "No price seen on the pages opened",
+          "why": "A trade-grade extinguisher rated 3-A:40-B:C, with a hose and horn and a 6-year maker's warranty. Amerex publishes a parts book for it, so an extinguisher service company can inspect, repair and recharge it. It sits in this tier as the serviceable alternative to the Standard pick, not because it puts out more fire: both carry the same rating, and its valve is aluminum, not brass.",
+          "weakness": "It has the same rating as the Standard pick and is harder to find in stores.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/abc",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Maker's parts book (PDF)",
+              "url": "https://amerex-fire.com/upl/downloads/library/fire-extinguisher-parts-book.pdf",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Amerex",
+              "title": "Fire Extinguisher Parts Book",
+              "url": "https://amerex-fire.com/upl/downloads/library/fire-extinguisher-parts-book.pdf",
+              "verified": true,
+              "supports": "Lists 'B402 - 5 lb. ABC' under 'Aluminum Valve Models' (dry chemical, hose and horn, aluminum valve) with the B500, B443, B456 and A411; the 5 lb model in its brass list is the B424. Gives a hose and horn assembly for the B402. The book is the maker's guide to parts for inspection, maintenance and recharge by qualified service people."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Amerex",
+              "title": "ABC",
+              "url": "https://amerex-fire.com/products/fire-extinguishers/portable-fire-extinguishers/abc",
+              "verified": true,
+              "supports": "B402 / B402T: 5 lb, UL rating 3A:40B:C; every model has a 6-year maker's warranty; 'T' models include a vehicle bracket.",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: \"The page puts the B402 under its brass heading, which the parts book contradicts.\""
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best fire extinguisher for your home and vehicle",
+              "url": "https://theprepared.com/gear/reviews/fire-extinguisher/",
+              "verified": true,
+              "supports": "Named 'also great for most homes' and essentially the same as the PRO5, only less commonly found. Article updated March 2020."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Fire Extinguishers of 2026, Picks from Our Editors",
+              "url": "https://www.bobvila.com/reviews/best-fire-extinguishers/",
+              "verified": true,
+              "supports": "Picks the 5 lb B402 (its 'best for grease fires' label); 9.25 lb in all."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched CPSC pages on 2026-11-15 for Amerex extinguisher recalls: none seen.",
+          "research_note": "2026-11-15 audit-fix pass (prompt 6.14, B-W02): this pick was described as having a valve of brass. Parts book fetched today from amerex-fire.com (redirects to the maker's document store) and read: page listing 'Aluminum Valve Models' has B402, B500, B443, B456, A411; the list of models with valves of brass has B424, B461, B441, 423, 692. The maker's ABC web page, also opened today, shows the same two groups with the headings the other way round (B402 under its brass heading, B424 under its aluminium heading). The owner's prompt (section 10, item 34) and audit B both rely on the parts book. Amerex's PDF comparing the two valve metals was fetched but is images only and could not be read. The Prepared and Bob Vila reopened today. First-pass note: rechargeable status not confirmed on the product page; the parts book now supports recharge by service companies. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No shop link is given and no price was seen. Bob Vila's overall pick, the Amerex B500, is rated 2-A:10-B:C and was not chosen for that reason. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Price not confirmed. / The maker's website and its parts book disagree about the valve metal; this page follows the parts book (aluminum). | Alignment pass 2026-11-16 (c4-home): moved off the page: weakness had: It has the same rating as the Standard pick, no price was seen, and it is harder to find in shops. Amerex's website puts the B402 under its brass heading while its parts book lists it with the aluminum-valve models; this page follows the parts book, so check the label on the unit if the valve metal matters to you. | Alignment pass 2026-11-16 (c4-home): price still not seen on a maker or major-retailer page: Amerex shows no price; allsecurityequipment.com (small dealer) showed $80.99 sale price with Contact us, no cart; Zoro 403. price_usd stays null. Search snippets put it at $75 to $132."
+        }
+      },
+      "empty_reason": {}
+    },
+    {
+      "id": "fire-blanket",
+      "module": "u6",
+      "name": "Kitchen fire blanket",
+      "need": "Some fire services abroad suggest a fire blanket for a small oil or fat fire in a pan, but US fire bodies give no advice on them and Ontario's fire marshal does not endorse them for home use, so this site suggests a pan lid by the stove instead.",
+      "how_to_choose": "This site does not suggest buying one. If you choose to, look for a certificate from a testing body naming the standard: in Europe that is EN 1869:2019, in Australia AS/NZS 3504:2006, and the US standard for cooking fire suppression blankets is ASTM F1989. A maker saying a blanket meets a standard is not the same as a certificate, so ask for the certificate. Pick one in a wall-mounted case you can mount by the kitchen door.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "Optional. At most one, on the wall near the kitchen door; a pan lid by the stove comes first."
+      },
+      "already_own": "Keep a fire blanket you already own on the wall near the kitchen door, not beside the stove or under the sink, and replace it after any use on a real fire. A blanket with no standard named on it is not a tool to count on; keep a pan lid by the stove either way.",
+      "safety_notes": [
+        {
+          "text": "For a pan fire, the US Fire Administration says to keep a pan lid or baking sheet nearby and slide it over the pan, and to turn off the burner if grease starts to smoke or boil. It does not mention fire blankets.",
+          "source_name": "US Fire Administration (FEMA)",
+          "source_title": "Cooking fire safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/cooking/",
+          "verified": true
+        },
+        {
+          "text": "Ontario's fire marshal does not endorse fire blankets for household use, says only trained professionals should use them, and notes that no Canadian standard covers them. For a small grease fire, slide a lid over the pan and turn off the burner.",
+          "source_name": "City of Pickering (Pickering Fire Services)",
+          "source_title": "Pickering Fire Services cautions against fire blankets, urges focus on proven fire safety measures",
+          "url": "https://www.pickering.ca/news/posts/pickering-fire-services-cautions-against-fire-blankets-urges-focus-on-proven-fire-safety-measures/",
+          "verified": true
+        },
+        {
+          "text": "London Fire Brigade says not to tackle a pan fire yourself, not to move the pan and never to use water; switch off the heat only if safe, then get out, shut the door and call for help.",
+          "source_name": "London Fire Brigade",
+          "source_title": "Pan fires",
+          "url": "https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/",
+          "verified": true
+        },
+        {
+          "text": "South Australia's fire service recommends a blanket meeting AS/NZS 3504:2006, mounted near a door out of the kitchen. It is lowered over the pan, never thrown, with a lid or tray put on top, the heat turned off and the pan left to cool for at least an hour. Never carry a burning pan, and replace the blanket after use.",
+          "source_name": "South Australian Metropolitan Fire Service",
+          "source_title": "Fire Blankets (fact sheet)",
+          "url": "https://mfs.sa.gov.au/community-safety/safety-and-education/fact-sheets/fire-blankets",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Official fire bodies disagree about fire blankets in the home. US bodies give no advice on them, Ontario's fire marshal does not endorse them for household use, and South Australia's fire service recommends one that meets its national standard.",
+        "Many blankets sold online name a standard without a certificate from a testing body to back it."
+      ],
+      "prices_seen": "2026-11-16",
+      "tier_note": "This site does not suggest buying one: US fire bodies name a pan lid or baking sheet for a pan fire, not a blanket, and no blanket sold in the US could be confirmed as certified to EN 1869:2019 or ASTM F1989.",
+      "tiers": {
+        "budget": null,
+        "standard": null,
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "No pick: no blanket sold to US buyers had a maker's page or certificate, opened 2026-11-16, showing it certified to EN 1869:2019 or ASTM F1989 by a testing body; and the stricter official advice is a pan lid, not a blanket.",
+        "standard": "No pick: as for budget.",
+        "cadillac": "No pick: as for budget."
+      },
+      "research_note": "Research 2026-11-16 (WebFetch only). Standard: ASTM store page opened (https://store.astm.org/f1989-05r13.html): ASTM F1989 'Standard Specification for Cooking Fire Suppression Blankets'; the 05(2013) version is historical and F1989-05R20 is listed as active. ASTM publishes the standard and does not certify products. EN 1869 was not named in how_to_choose because no page naming it opened as text (London Fire Brigade FOI PDF and the Dutch NIPV factsheet came back as unreadable binary; not read). Candidates: Lee Valley fire blanket 118404 (search result says 'meets ASTM-F1989-2005', a self-declaration citing the historical edition) refused with HTTP 429; 72HRS (Canadian retailer, self-declared 'meets ASTM-F1989-2005') not opened; Kidde FB1 and Firechief SVB1 are UK products with BS EN 1869 Kitemark claims but no US maker page or US price was seen. No pick had two independent sources opened today and none had a certificate confirmed, so all tiers are null. Not opened: NFPA Educational Messages Desk Reference 2026 PDF (binary; a search snippet said NFPA states no fire blankets on the market are listed to existing safety standards and NFPA does not recommend unlisted products; not used); New Brunswick Fire Marshal bulletin 2025-02 PDF (binary); Fire and Rescue NSW page (403); Fire and Emergency New Zealand kitchen page (came back empty); ontario.ca communiqués 2025 (403). Ready.gov home fires page opened: mentions a blanket or towel only for clothing fires, nothing on fire blankets. CPSC recall search for fire blankets on 2026-11-16 returned only electric and heated blanket recalls; no fire blanket recall seen. Consumer Reports not checked for this item. | Alignment pass 2026-11-16 (c4-home), prompt 6.5, EN 1869:2019 search (WebSearch and WebFetch only): ASTM F1989-05 reapproved 2020 is the current ASTM edition per search results (BSI Knowledge, SAI Global); no 2023 edition seen. en-standard.eu page for BS EN 1869:2019 opened: title 'Fire blankets', non-reusable blankets for small fires. Candidates opened today and rejected: Prepared Hero Emergency Fire Blanket FAQ (gtmbrand.reamaze.com) says 'CE, EN 1869:2019, and AS/NZS 3504:2006(2019) certified' but names no certifying body and gives no certificate, and says it is not certified to ASTM F1989; CHIC FIRE Design Fire Blanket Bamboo at safe-t.us ($49) says 'Built per the strict CE and BS-EN 1869:2019 norms' and 'CE 0029', no body or certificate named; DVM International (dvm-i.shop, Netherlands) says TÜV SÜD tested its blankets to EN 1869:2019 but lists no USD price or US shipping; rescue-supply.com (US) lists Junkin, First Aid Only/Water Jel and Skil-Care blankets with a site-wide FAQ claim of ASTM F1989-05 and BS EN 1869, no edition, no certificate. Kidde UK FB1 page returned 404. Firechief and RS PRO blankets are Kitemark-certified to BS EN 1869:2019 per UK seller pages in search results, but are UK products with no US seller seen. Amazon listings in results were not read (rule). Result: no pick; X6-11 unchanged."
+    },
+    {
+      "id": "plastic-sheeting-tape",
+      "module": "ar",
+      "name": "Plastic sheeting and duct tape (room sealing)",
+      "need": "Heavy plastic sheeting and tape let you cover the windows, door gaps and vents of one room for the few hours officials may tell you to shelter from a chemical release outside.",
+      "how_to_choose": "Buy clear polyethylene sheeting that the maker states is 4 mil or thicker; 6 mil tears less when you tape and re-tape it. Pick the room first: it needs at least 10 square feet of floor for each person. Measure its windows, vents and door, and cut each sheet several inches larger than its opening. Choose a cloth-backed rubber-adhesive duct tape. A 10 ft by 25 ft roll is easy to store in an apartment closet.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One roll of sheeting and one roll of tape for one room; measure the openings first and add more for a large room or many windows."
+      },
+      "already_own": "Any sheeting you already own is fine if it is clear polyethylene of 4 mil or thicker with no holes. Painter's drop cloths thinner than 4 mil are too weak. Any duct tape that still sticks well is fine; old rolls dry out, so test it.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov describes sealing windows, doors and air vents with thick plastic sheeting and duct tape as a temporary protective measure against contaminated outside air, and tells people to follow local authorities and keep the materials in their supply kit.",
+          "source_name": "Ready.gov",
+          "source_title": "Shelter | Ready.gov",
+          "url": "https://www.ready.gov/shelter",
+          "verified": true
+        },
+        {
+          "text": "FEMA's figure is 10 square feet of floor for each person: that gives enough air to stop carbon dioxide building up for up to 5 hours at rest. FEMA adds that many chemical releases thin out within a few hours.",
+          "source_name": "FEMA",
+          "source_title": "How long to remain in shelter-in-place room?",
+          "url": "https://www.fema.gov/faq/how-long-remain-shelter-place-room",
+          "verified": true
+        },
+        {
+          "text": "CDC says to tape plastic sheeting over the windows, close and tape over any vents, and tape round the door, and to stay until police, fire or other local officials give the all clear. CDC describes pre-cut plastic sheets 2 to 4 mil thick; this page picks 4 mil or thicker because it tears less. CDC also says an order to stay put can last a few hours or, sometimes, days.",
+          "source_name": "CDC",
+          "source_title": "What to Do to Shelter in Place for a Chemical Emergency",
+          "url": "https://www.cdc.gov/chemical-emergencies/response/shelter-in-place.html",
+          "verified": true
+        },
+        {
+          "text": "For smoke, which is a different job from a chemical release, EPA's clean-room page says to close windows and doors without making it hard to get out, and to air the room out when the air outside improves, even for a short time.",
+          "source_name": "EPA",
+          "source_title": "Create a Clean Room to Protect Indoor Air Quality During a Wildfire",
+          "url": "https://epa.gov/indoor-air-quality-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "A sealed room is for a few hours. It holds only the air that was in it when you sealed it: use a room with at least 10 square feet (about 1 square meter) of floor for each person, which on FEMA's figure gives enough air for up to 5 hours at rest. An order to stay indoors for longer, which CDC says can last days, means windows shut and ventilation off, not living in the taped room.",
+        "Do not seal in a way that blocks your exit, and never burn fuel, run a generator or use a gas stove or heater in a sealed room."
+      ],
+      "prices_seen": "2026-11-15",
+      "tier_note": "One pick: sheeting and duct tape are much alike, and a pricier roll buys nothing the job needs; buy a second roll if you have many windows.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.5): FEMA's FAQ, CDC's shelter-in-place page, Ready.gov's shelter page and EPA's clean-room page all opened today. The 'few days' phrase is CDC's wording about how long you may need to stay put; the reading that this means staying indoors, not living in the taped room, is the owner's decision in prompt 2.5 (AR-11). Ready.gov's page gives no thickness, floor area or hours. First-pass notes: no retailer link or ASIN seen for any pick; no independent test publication reviewed these products; prices could not be confirmed. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: No prices are shown: the makers' pages give none. | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped budget pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 4 mil, 10 ft x 25 ft, with Duck Max Strength duct tape 1.88 in x 35 yd\", \"model_number\": \"Frost King P1025; Duck Max Strength (white, 1.88 in x 35 yd)\", \"size\": \"10 ft x 25 ft roll, 4 mil; tape 1.88 in x 35 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Meets the 4 mil minimum in a roll small enough to store in an apartment; the maker states the thickness in its table.\", \"weakness\": \"4 mil is the minimum; it can tear at tape edges, and the tape maker's page gives no thickness or strength numbers.\", \"links\": [{\"label\": \"Frost King sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1025 listed at 4 mil, 10 ft x 25 ft.\"}, {\"label\": \"Duck Brand tape (manufacturer)\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Packaged Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1025: clear, 4 mil, 10 ft x 25 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Duck Brand\", \"title\": \"Max Strength Duct Tape White, 1.88 in. x 35 yd.\", \"url\": \"https://www.duckbrand.com/products/duck-tape/duck-max/white-188-in-x-35-yd\", \"verified\": true, \"supports\": \"Sold as duct tape, rubber adhesive, 1.88 in x 35 yd.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"} | Alignment pass 2026-11-16 (c4-home): moved off the page: dropped cadillac pick (One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).): {\"brand\": \"Frost King\", \"model\": \"Clear polyethylene sheeting 6 mil, 10 ft x 100 ft boxed roll, with Gorilla Tape silver 1.88 in x 30 yd\", \"model_number\": \"Frost King P1016; Gorilla Tape silver 6074001\", \"size\": \"10 ft x 100 ft boxed roll, 6 mil; tape 1.88 in x 30 yd\", \"unit_size\": 1, \"unit_label\": \"sheeting roll plus tape roll\", \"price_usd\": null, \"price_seen_at\": \"No price seen on the makers' pages\", \"why\": \"Four times the sheeting of the 25 ft roll, enough for several windows and a door, in the same 6 mil thickness; useful if you must seal more than one room or redo a seal.\", \"weakness\": \"A boxed 100 ft roll is bulky for a small apartment and the extra length only helps if you have many openings.\", \"links\": [{\"label\": \"Frost King boxed sheeting (manufacturer)\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"note\": \"Opened 2026-11-15; P1016 listed at 6 mil, 10 ft x 100 ft clear.\"}, {\"label\": \"Gorilla Tape (manufacturer)\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"note\": \"Opened 2026-11-15.\"}], \"link_note\": \"No shop link is given. Checked against the two makers' pages only: no independent test of these products was found.\", \"sources\": [{\"type\": \"manufacturer_spec\", \"name\": \"Frost King\", \"title\": \"Boxed Polyethylene Sheeting\", \"url\": \"https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/boxed-polyethylene-sheeting\", \"verified\": true, \"supports\": \"P1016: clear, 6 mil, 10 ft x 100 ft.\"}, {\"type\": \"manufacturer_spec\", \"name\": \"Gorilla Glue\", \"title\": \"Silver Gorilla Tape\", \"url\": \"https://gorillatough.com/product/silver-gorilla-tape\", \"verified\": true, \"supports\": \"1.88 in x 30 yd (6074001), rubber adhesive, reinforced backing.\"}], \"flags\": [\"No independent tests found; maker pages only.\"], \"flag_check\": \"No sheeting or tape recall looked for beyond the pages opened; none seen.\"}",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Frost King",
+          "model": "Clear polyethylene sheeting 6 mil, 10 ft x 25 ft, with Gorilla Tape silver 1.88 in x 30 yd",
+          "model_number": "Frost King P1025/6; Gorilla Tape silver 6074001",
+          "size": "10 ft x 25 ft roll, 6 mil; tape 1.88 in x 30 yd",
+          "unit_size": 1,
+          "unit_label": "sheeting roll plus tape roll",
+          "price_usd": null,
+          "price_seen_at": "No price seen on the makers' pages",
+          "why": "6 mil is half again as thick as the minimum and resists tearing; Gorilla Tape uses a double-thick rubber adhesive and a reinforced backing.",
+          "weakness": "The tape maker's page does not state thickness in mil, and neither product has been tested by a publication.",
+          "links": [
+            {
+              "label": "Frost King sheeting (manufacturer)",
+              "url": "https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15; P1025/6 listed at 6 mil."
+            },
+            {
+              "label": "Gorilla Tape (manufacturer)",
+              "url": "https://gorillatough.com/product/silver-gorilla-tape",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15; 1.88 in x 30 yd is product 6074001."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Frost King",
+              "title": "Packaged Polyethylene Sheeting",
+              "url": "https://www.frostking.com/products/drop-cloths-and-plastic-sheeting/polyethylene-sheeting",
+              "verified": true,
+              "supports": "P1025/6: clear, 6 mil, 10 ft x 25 ft."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Gorilla Glue",
+              "title": "Silver Gorilla Tape",
+              "url": "https://gorillatough.com/product/silver-gorilla-tape",
+              "verified": true,
+              "supports": "Double-thick rubber adhesive, reinforced backing, 1.88 in x 30 yd (6074001), application range 40 to 120 F."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No sheeting or tape recall looked for beyond the pages opened; none seen.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No shop link is given. Checked against the two makers' pages only: no independent test of these products was found. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: No independent tests found; maker pages only. | Alignment pass 2026-11-16 (c4-home): price still not seen: gorillatough.com 6074001 page opened today shows no price and an empty Where to buy; Fred Meyer page timed out; HD Supply 403; Home Depot not opened (lists P1025 4 mil only in results). Search snippets only: P1025/6 $22.36 to $27.39 at small sellers. price_usd stays null."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2).",
+        "cadillac": "One pick only: the owner names a roll of sheeting as a product with no real spread (prompt 6.2)."
+      }
+    },
+    {
+      "id": "indoor-thermometer",
+      "module": "hc",
+      "name": "Indoor thermometer / hygrometer (battery powered)",
+      "need": "If the power or heating fails, a thermometer tells you how cold or hot the home is getting and when to take extra steps, and the humidity reading helps when you seal a room.",
+      "how_to_choose": "Pick a small unit with its own display that runs on a common battery (AAA or AA) so it works without a phone, Wi-Fi or power. Buy the one with the largest, easiest-to-read digits you can afford. Expect humidity readings to be less exact than temperature; calibratable units are better. Keep a spare battery.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One for the main living area; add one for the room you would seal or sleep in if you want two readings."
+      },
+      "already_own": "Any indoor thermometer that reads within a degree or two of a second thermometer placed beside it is fine. Check by putting two side by side for an hour.",
+      "safety_notes": [],
+      "item_flags": [
+        "Humidity readings on low-cost units can be off by several percent; testers found some units 5 to 7 percent off."
+      ],
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: a pricier thermometer buys a phone app or a finer sensor, which this job does not need.",
+      "research_note": "No safety claim is made for this item, so no official citation is attached. 2026-11-15 audit-fix pass (prompt 6.6): the Standard is now the ThermoPro TP55, with a backlit display and a price seen today on the maker's page; the TP49 stays as Budget; the AcuRite pick with no model number or price was removed.",
+      "tiers": {
+        "budget": {
+          "brand": "ThermoPro (TempPro)",
+          "model": "TP49 Digital Indoor Hygrometer Thermometer",
+          "model_number": "TP49",
+          "size": "About 2.2 x 2.6 x 0.6 in; LCD with large digits, no backlight; one AAA battery; stand, magnet and hanging mount",
+          "unit_size": 1,
+          "unit_label": "unit",
+          "price_usd": 9.99,
+          "price_seen_at": "temppro.com, the maker's shop (sale price; regular price $12.99; shown as sold out there on 2026-11-15)",
+          "why": "It has its own display and runs on one AAA battery, so it works with no phone, Wi-Fi or wall power. Bob Vila's testers found it accurate and unobtrusive and named it their best-value pick. The maker gives a temperature accuracy of about 0.9 F between 32 and 140 F and humidity within 2 to 3 percent.",
+          "weakness": "No backlight, so you need a light to read it in the dark, and the humidity reading cannot be calibrated.",
+          "links": [
+            {
+              "label": "Manufacturer (TempPro)",
+              "url": "https://temppro.com/products/tp49b-indoor-thermometer-hygrometer",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B07WCR5Y4B",
+              "verified": false,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Amazon does not allow automated checks; the product code came from Bob Vila's article."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "TempPro (ThermoPro)",
+              "title": "TempAir CORE TP49 Indoor Thermometer & Hygrometer",
+              "url": "https://temppro.com/products/tp49b-indoor-thermometer-hygrometer",
+              "verified": true,
+              "supports": "Built-in LCD, one AAA battery, range -58 to 158 F, accuracy 0.9 F from 32 to 140 F, humidity within 2 percent from 30 to 80 percent and 3 percent outside that, stand, magnet and hanging mount, no backlight; $9.99 (regular $12.99).",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Built-in LCD, one AAA battery, range -58 to 158 F, accuracy 0.9 F from 32 to 140 F, humidity within 2 percent from 30 to 80 percent and 3 percent outside that, stand, magnet and hanging mount, no backlight; $9.99 (regular $12.99), sold out on 2026-11-15."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Indoor Thermometers of 2026 - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-indoor-thermometer/",
+              "verified": true,
+              "supports": "Best bang for the buck; one AAA included; accurate in side-by-side tests; reads to a tenth of a degree; no backlight."
+            },
+            {
+              "type": "test_publication",
+              "name": "This Old House",
+              "title": "The 5 Best Hygrometers (2026)",
+              "url": "https://www.thisoldhouse.com/heating-cooling/best-hygrometer",
+              "verified": true,
+              "supports": "Best overall at $8.99; one AAA. The article rests on research and buyer reviews, not on its own hands-on tests."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search was done for a small thermometer; none seen in pages opened.",
+          "research_note": "2026-11-15 audit-fix pass: maker page (opened by WebFetch today), Bob Vila and This Old House all reopened. The maker's shop showed 'Sold out' for this model. First pass: the maker page had not been read (rate limited). | Alignment pass 2026-11-16 (c4-home): moved off the page: weakness had: No backlight, so you need a light to read it in the dark; the humidity reading cannot be calibrated; and the maker's own shop showed it as sold out on the day checked. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Sold out at the maker's own shop on 2026-11-15, so you may need another seller. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Sold out at the maker's own shop on 2026-11-15."
+        },
+        "standard": {
+          "brand": "ThermoPro (TempPro)",
+          "model": "TP55 Digital Indoor Thermometer Hygrometer",
+          "model_number": "TP55",
+          "size": "About 4.4 x 3.4 x 1 in; 4 inch backlit touch screen with large digits; two AAA batteries; 24-hour and all-time high and low records",
+          "unit_size": 1,
+          "unit_label": "unit",
+          "price_usd": 16.99,
+          "price_seen_at": "temppro.com, the maker's shop (sale price; regular price $19.99; in stock on 2026-11-15)",
+          "why": "It has its own large, backlit display, so you can read the room temperature in the dark with no phone, Wi-Fi or wall power, and it keeps the high and low readings. Bob Vila's testers found it within 0.1 degrees of their most consistent readings. The maker gives an accuracy of 1 F and 2 percent humidity.",
+          "weakness": "It needs two AAA batteries and costs nearly twice as much as the Budget pick.",
+          "links": [
+            {
+              "label": "Manufacturer (TempPro)",
+              "url": "https://temppro.com/products/tp55-digital-indoor-thermometer-hygrometer",
+              "verified": true,
+              "note": ""
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "TempPro (ThermoPro)",
+              "title": "TempAir CORE TP55 Digital Indoor Thermometer Hygrometer",
+              "url": "https://temppro.com/products/tp55-digital-indoor-thermometer-hygrometer",
+              "verified": true,
+              "supports": "4 inch LCD touch screen with backlight, two AAA batteries, accuracy 1 F and 2 percent humidity (30 to 80 percent), 24-hour and all-time records, 4 3/8 x 3 3/8 x 1 in; $16.99 (regular $19.99).",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: 4 inch LCD touch screen with backlight, two AAA batteries, accuracy 1 F and 2 percent humidity (30 to 80 percent), 24-hour and all-time records, 4 3/8 x 3 3/8 x 1 in; $16.99 (regular $19.99), 'Add to cart' shown on 2026-11-15."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Indoor Thermometers of 2026 - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-indoor-thermometer/",
+              "verified": true,
+              "supports": "Hands-on test: backlit display, two AAA batteries included, tracks past readings, within 0.1 degrees of the most consistent readings (its 'best for greenhouses' label)."
+            },
+            {
+              "type": "test_publication",
+              "name": "This Old House",
+              "title": "The 5 Best Hygrometers (2026)",
+              "url": "https://www.thisoldhouse.com/heating-cooling/best-hygrometer",
+              "verified": true,
+              "supports": "'Best display' at $19.99; oversized backlit touch screen. The article rests on research and buyer reviews, not on its own hands-on tests. It lists two AA batteries where the maker and Bob Vila say AAA."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search was done for a small thermometer; none seen in pages opened.",
+          "research_note": "2026-11-15 audit-fix pass (prompt 6.6, A-W10): new Standard pick. The Standard had been an AcuRite 'Digital Mini Hygrometer with Thermometer' (Bob Vila's best overall) with no model number confirmed (retailer code 01139M seen only in a link), no price and one source; AcuRite's page returned 404 or was rate limited in the first pass, and ASIN B01HDW58GS was seen in Bob Vila's article. It was removed because the Standard must have a model and a price seen today. Audit A suggested moving the TP49 up, but the maker's shop showed it sold out today, so the in-stock TP55 was researched instead. temppro.com returned HTTP 429 to WebFetch for this page, so it was read in the desktop app's browser pane on 2026-11-15 (the same step the main session takes for pending pages). | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No pick. The most accurate sensors tested have no screen and need a phone to read, which defeats the purpose in a long outage; the Standard pick already has a large display and high and low records."
+      }
+    },
+    {
+      "id": "fridge-thermometer",
+      "module": "u3",
+      "name": "Refrigerator and freezer thermometers (appliance thermometers)",
+      "need": "After a power outage you cannot judge food safety by feel; a thermometer in the fridge and one in the freezer tell you whether food stayed cold enough.",
+      "how_to_choose": "Buy two: one for the fridge and one for the freezer. Choose a unit whose range covers about -20 F to 80 F and, if the maker claims it, an NSF listing. A dial that needs no battery is the simplest for a power outage. Hang or stand it in the middle of a shelf, not on the door.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 2,
+        "note": "One for the refrigerator and one for the freezer."
+      },
+      "already_own": "A thermometer you already own is fine if it reads about 32 F in a glass of ice water and shows a range down to at least -20 F for the freezer.",
+      "safety_notes": [
+        {
+          "text": "CDC says to keep an appliance thermometer in the refrigerator and in the freezer, with the refrigerator at 40 F or below and the freezer at 0 F or below. Food lasts about 4 hours in a refrigerator without power, 48 hours in a full freezer and 24 hours in a half-full freezer.",
+          "source_name": "CDC",
+          "source_title": "Keep Food Safe After a Disaster or Emergency",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+          "verified": true
+        },
+        {
+          "text": "With no thermometer, treat fridge food as unsafe once the power has been off for 4 hours with the door kept shut. With a thermometer in the fridge, throw out meat, poultry, fish, eggs, milk and leftovers once they have been above 40 °F for more than 2 hours. Frozen food that still has ice crystals, or is at 40 °F or colder, can be refrozen or cooked. Never taste food to test it.",
+          "source_name": "FoodSafety.gov (copy kept by the Porter County, Indiana, health department)",
+          "source_title": "Food Safety During Power Outage",
+          "url": "https://www.in.gov/localhealth/portercounty/files/Food-Safety-During-Power-Outage-_-FoodSafety.gov.pdf",
+          "verified": true,
+          "research_note": "The original page, https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage, returned HTTP 403 to WebFetch on 2026-11-15. The county's PDF copy of that page (date last reviewed 8 August 2024) was fetched and read instead. The wording is the owner's, from prompt 2.1. Listed in pending.json so the original can be opened in a browser."
+        }
+      ],
+      "item_flags": [
+        "The NSF database lists many fridge and freezer thermometers; check the exact model number on the box against the listing.",
+        "No independent test of fridge thermometers was found."
+      ],
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: a plain dial that needs no battery does this job, and a pricier digital one buys nothing it needs.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.1): the food line now carries the two-clock rule. Two unverified safety notes were removed because their pages refuse automated readers (HTTP 403) and were never read: USDA FSIS 'Appliance Thermometers' (https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/appliance-thermometers) and FoodSafety.gov 'Food Safety in a Disaster or Emergency' (https://www.foodsafety.gov/keep-food-safe/food-safety-in-disaster-or-emergency). First-pass notes: the America's Test Kitchen page returned was about oven thermometers; a Target link for the budget pick did not open in the link check and was removed; AcuRite's digital pages could not be read (HTTP 429), and the only alarm models seen (Taylor, Home Acoustics, Govee, SensorPush) came from a forum thread, not from a test or the makers.",
+      "tiers": {
+        "budget": {
+          "brand": "CDN",
+          "model": "ProAccurate 2 in Dial Refrigerator/Freezer Thermometer",
+          "model_number": "RFT1",
+          "size": "2.5 x 1.9 x 4 in stainless steel dial, hang or stand, no battery",
+          "unit_size": 1,
+          "unit_label": "thermometer",
+          "price_usd": 3.89,
+          "price_seen_at": "WebstaurantStore (price for one; minimum order of 6)",
+          "why": "NSF-listed, -20 F to 80 F range, +/-2 degrees, color-coded safe zones, no battery to fail, and very cheap.",
+          "weakness": "The restaurant supplier sells it in packs of 6; you would need to find a single or 2-pack elsewhere, and a dial is slower to read than a digital unit.",
+          "links": [
+            {
+              "label": "WebstaurantStore (retailer listing with maker spec)",
+              "url": "https://www.webstaurantstore.com/cdn-rft1-proaccurate-2-dial-refrigerator-freezer-thermometer/221RFT1.html",
+              "verified": true,
+              "note": "Minimum order of 6.",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15. Minimum 6 per order."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "NSF International",
+              "title": "NSF certified listings: thermometer, NSF/ANSI 2",
+              "url": "https://info.nsf.org/Certified/food/Listings.asp?TradeName=thermometer&Standard=002",
+              "verified": true,
+              "supports": "CDN (Shenzhen) models LRFT1, RFT1 and RFT1C listed, -20 F to 80 F."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "WebstaurantStore (carries CDN spec, MFR #RFT1)",
+              "title": "CDN RFT1 ProAccurate 2 in Dial Refrigerator / Freezer Thermometer",
+              "url": "https://www.webstaurantstore.com/cdn-rft1-proaccurate-2-dial-refrigerator-freezer-thermometer/221RFT1.html",
+              "verified": true,
+              "supports": "Range -20 to 80 F, +/-2, 304 stainless steel, NSF certified, 5-year warranty. This is a retailer page, not the maker's own."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No recall search was done for thermometers.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. No independent test was found: the pick rests on the NSF listing and a retailer's copy of the maker's specification."
+        },
+        "standard": {
+          "brand": "Taylor",
+          "model": "Fridge/Freezer Thermometer (3 in dial)",
+          "model_number": "5924",
+          "size": "3 in stainless steel dial, hangs or stands, no battery; -20 F to 80 F on NSF's listing",
+          "unit_size": 1,
+          "unit_label": "thermometer",
+          "price_usd": 9.99,
+          "price_seen_at": "taylorusa.com, the maker's shop, November 16, 2026 (sale price; 'Add to cart' shown, no stock statement)",
+          "why": "NSF-listed, no battery to fail in a power outage, sold singly by its maker, and its 3 inch dial is easier to read than most.",
+          "weakness": "The maker's page gives no range or accuracy figure; the range comes from NSF's listing, and no independent test was found.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.taylorusa.com/products/fridge-freezer-thermometer",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened November 16, 2026: SKU 5924, $9.99, NSF certified."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "NSF International",
+              "title": "NSF certified listings: thermometer, NSF/ANSI 2",
+              "url": "https://info.nsf.org/Certified/food/Listings.asp?TradeName=thermometer&Standard=002",
+              "verified": true,
+              "supports": "Taylor 5924 listed as a refrigerator/freezer thermometer, -20 F to 80 F (read on November 16, 2026 by two audit readers)."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Taylor",
+              "title": "Fridge/Freezer Thermometer",
+              "url": "https://www.taylorusa.com/products/fridge-freezer-thermometer",
+              "verified": true,
+              "supports": "SKU 5924, NSF certified, $9.99, opened November 16, 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recall titles containing 'Taylor' searched on November 16, 2026 (P2): none a thermometer.",
+          "research_note": "16 Nov 2026 (V-SITE, from P2-10 and Q2-13): replaced the AcuRite 00610, which is no longer on AcuRite's fridge-and-freezer collection page (only 00515MA1 and 00696A2 listed, opened 2026-11-16). | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "A digital model with a minimum and maximum memory or an alarm would sit here, but no NSF listing or independent test for one was confirmed."
+      }
+    },
+    {
+      "id": "air-purifier-hepa",
+      "module": "ar",
+      "name": "Portable HEPA air cleaner for one bedroom-size clean room",
+      "need": "When outdoor smoke or dust gets inside, a HEPA air cleaner in one closed room is the main way to keep that room's air cleaner.",
+      "how_to_choose": "Choose a true-HEPA unit and match its smoke CADR (clean air delivery rate) and the maker's stated room size to the room you will use. Check that the exact model is on the California Air Resources Board (CARB) list: a listing means the unit passed an electrical safety test and, if it has electronic parts such as an ionizer, stays under California's ozone limit. It says nothing about how well the unit cleans. Never buy an ozone generator or a unit with an ionizer you cannot turn off, and leave an ionizer switched off. Run it on high in the closed room if the noise is tolerable.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One for the room you will use as a clean room, usually a bedroom."
+      },
+      "already_own": "A true-HEPA unit you already own is fine if its filter is fresh, it is rated for your room and it is not an ozone generator or an ionizer-only device. Leave any ionizer switched off. Replace a dirty filter before heavy smoke.",
+      "safety_notes": [
+        {
+          "text": "EPA says to choose a portable air cleaner sized for the room, run it continuously on high if possible, pick one that does not make ozone, and use CARB's list of tested devices. It also says to keep the room's windows and doors closed without blocking your exit, avoid smoke-making activities indoors, and change filters more often in heavy smoke.",
+          "source_name": "EPA",
+          "source_title": "Create a Clean Room to Protect Indoor Air Quality During a Wildfire",
+          "url": "https://epa.gov/indoor-air-quality-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
+          "verified": true
+        },
+        {
+          "text": "California's Air Resources Board says every air cleaner on its certified list has been tested for electrical safety, and that electronic air cleaners must also meet an ozone limit of 0.050 parts per million. It says its certification does not reflect how effective an air cleaner is.",
+          "source_name": "California Air Resources Board",
+          "source_title": "List of CARB-Certified Air Cleaning Devices",
+          "url": "https://ww2.arb.ca.gov/list-carb-certified-air-cleaning-devices",
+          "verified": true
+        },
+        {
+          "text": "Virginia's Department of Health says not to use a system with an ionizer or an ozone setting unless you can turn it off, because these settings can make chemicals that irritate the lungs. Washington State's Department of Health says to choose filters only and avoid ionizer, ozone and ultraviolet technologies.",
+          "source_name": "Virginia Department of Health",
+          "source_title": "Keeping Indoor Air Clean During Wildfires",
+          "url": "https://www.vdh.virginia.gov/environmental-health/2023/06/12/wildfires-clean-indoor-air/",
+          "verified": true
+        },
+        {
+          "text": "EPA says air cleaners that contain ionizers or electrostatic precipitators can give off ozone in some cases, that ozone irritates the lungs, and that the CADR rating is for particles only, not gases.",
+          "source_name": "EPA",
+          "source_title": "Guide to Air Cleaners in the Home",
+          "url": "https://www.epa.gov/indoor-air-quality-iaq/guide-air-cleaners-home",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Ozone generators are not air cleaners for this purpose; EPA says to choose a unit that does not produce ozone.",
+        "A HEPA air cleaner is for smoke and dust. EPA says the CADR rating covers particles only, not gases, so do not count on one in a gas or chemical release.",
+        "The Budget pick's exact model number was not found on California's list; check the box for 'CARB certified' before buying."
+      ],
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: a pricier air cleaner is sized for a much larger room than the one bedroom this job needs.",
+      "research_note": "2026-11-15 audit-fix pass (prompt 6.15, B-W03): CARB's list page opened today; it states the electrical safety test, the 0.050 ppm ozone limit for electronic air cleaners and that certification does not reflect effectiveness. No EPA or CARB page opened today tells the reader to switch an ioniser off: EPA's guide says ionisers may emit ozone and to avoid units that intentionally produce it; CARB's 2017 tips page says a unit with an ioniser should be on its list. The switch-it-off instruction is sourced to the Virginia Department of Health page (and Washington State Department of Health's 'filters only' line, https://doh.wa.gov/community-and-environment/air-quality/indoor-air/portable-air-cleaners), both opened today. CARB list rows seen today: Coway Airmega MightyC AP-1512HHC(WT)/(BG), mechanical, 2025-12-12, G-25-347; Coway AP-1512HHC, mechanical, 2023-10-03, G-23-260; Levoit LAP-C302S-WUSR/-WUSB, electronic, 2021-12-28, G-21-544; Levoit PlasmaPro LAP-C302-WUSR, electronic, 2022-01-04, G-21-564. The list is too long to read in full through the tool (each part was cut short), so 'not found' is not proof of absence. Maker pages for Coway and Levoit returned HTTP 429 to WebFetch in both passes; Coway's AP-1512HH page was then read in the desktop app's browser pane (price, stock, 'bipolar device'); Levoit's was not. First-pass note: no AHAM Verifide directory entry could be read. | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: The sources disagree on smoke CADR for the Coway unit (233, 234 or 224 on different Coway pages).",
+      "tiers": {
+        "budget": {
+          "brand": "Levoit",
+          "model": "Core 300-P True HEPA air purifier",
+          "model_number": "Core 300-P (smart version 300S-P)",
+          "size": "Compact tower; maker lists 222 sq ft room (4.8 air changes per hour) and CADR 143 CFM for the 300-P; 219 sq ft and 141 CFM for the 300S-P",
+          "unit_size": 1,
+          "unit_label": "air cleaner",
+          "price_usd": 99.99,
+          "price_seen_at": "levoit.com, the maker's shop, November 16, 2026",
+          "why": "Bob Vila's budget pick; it cleared dust and smoke from a test room within about an hour. Rated by the maker for a bedroom-size room.",
+          "weakness": "The CADR figure is the maker's own and it is not clear that it is a smoke CADR. This exact model was not found by name on California's list, so its listing is not confirmed, and Bob Vila's test names the Core 300, not the 300-P.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://levoit.com/products/core300-p-air-purifier",
+              "verified": true,
+              "note": "",
+              "research_note": "HTTP 200 on a header check 2026-11-15; the fetch tool was rate-limited (HTTP 429 again in the audit-fix pass), so the page was not read. Specs come from search-result summaries of the maker's pages. | Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened November 16, 2026: $99.99, CADR 143 CFM, 222 sq ft at 4.8 air changes an hour, 'CARB compliant', 'ETL listed'. The page text does not use the words HEPA or True HEPA."
+            }
+          ],
+          "link_note": "",
+          "research_note": "CARB's list showed Levoit LAP-C302S-WUSR and -WUSB (electronic, 2021), which may be the smart 300S-P; the plain 300-P could not be matched by model number. The 141 to 143 CFM figure may be a smoke CADR (inferred, not stated). Bob Vila's article reopened 2026-11-15 (last modified 12 March 2025): its budget pick is named 'Levoit Core 300'. | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: Checked against Bob Vila's test and the maker's page. The maker's 'CARB compliant' claim was not matched to California's list. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Not confirmed on California's list or in AHAM's directory.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Air Purifiers for Smoke - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-air-purifier-for-smoke/",
+              "verified": true,
+              "supports": "Budget pick: up to 219 sq ft, 24 to 50 dB, cleared dust and smoke within about an hour."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Levoit",
+              "title": "Levoit Core 300-P",
+              "url": "https://levoit.com/products/core300-p-air-purifier",
+              "verified": true,
+              "supports": "Opened November 16, 2026: CADR 143 CFM (not stated as a smoke figure), 222 sq ft at 4.8 air changes an hour, 'CARB compliant', 'ETL listed', $99.99."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Read CARB's certified list on 2026-11-15; no Core 300-P entry found (LAP-C302S-WUSR and -WUSB listed, 2021)."
+        },
+        "standard": {
+          "brand": "Coway",
+          "model": "Airmega Mighty air purifier (AP-1512HH; CARB-listed variant AP-1512HHC)",
+          "model_number": "AP-1512HH / AP-1512HHC",
+          "size": "Maker lists smoke CADR 233, room coverage 361 sq ft at 4.8 air changes per hour, true HEPA",
+          "unit_size": 1,
+          "unit_label": "air cleaner",
+          "price_usd": 143.99,
+          "price_seen_at": "cowaymega.com, the maker's shop, for the AP-1512HH (sale price; regular price $239.99; in stock on 2026-11-15)",
+          "why": "Bob Vila's best overall, and the top performer for removing smoke in its tests. The AP-1512HHC variant is on California's certified list as a mechanical (filter) air cleaner; that covers electrical safety and ozone, not cleaning power.",
+          "weakness": "Larger than a bedroom needs (the maker lists it for rooms up to 361 sq ft). It has an ionizer, which the maker calls a bipolar device: leave it switched off. Pick the listed AP-1512HHC variant, or check the box for 'CARB certified'.",
+          "links": [
+            {
+              "label": "Manufacturer (AP-1512HH)",
+              "url": "https://cowaymega.com/products/mighty-ap-1512hh",
+              "verified": true,
+              "note": "",
+              "research_note": "HTTP 429 to WebFetch in both passes on 2026-11-15; read in the desktop app's browser pane in the audit-fix pass: $143.99 (regular $239.99), 'Add to cart' enabled, four-stage filtration with a HEPA filter and a 'bipolar device', rooms up to 361 sq ft. The page text read did not show a CADR figure or the word CARB."
+            },
+            {
+              "label": "Manufacturer (AP-1512HHC)",
+              "url": "https://cowaymega.com/products/airmega-mighty-ap-1512hhc",
+              "verified": false,
+              "note": "",
+              "research_note": "HTTP 200 on a header check 2026-11-15; not read."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Coway",
+              "title": "Airmega Mighty AP-1512HH",
+              "url": "https://cowaymega.com/products/mighty-ap-1512hh",
+              "verified": true,
+              "supports": "Four-stage filtration: pre-filter, deodorization filter, HEPA filter and a bipolar (ionizing) device; for rooms up to 361 sq ft; $143.99 (regular $239.99).",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Four-stage filtration: pre-filter, deodorization filter, HEPA filter and a bipolar (ionizing) device; for rooms up to 361 sq ft; $143.99 (regular $239.99), in stock on 2026-11-15."
+            },
+            {
+              "type": "test_publication",
+              "name": "Bob Vila",
+              "title": "The Best Air Purifiers for Smoke - Tested by Bob Vila",
+              "url": "https://www.bobvila.com/articles/best-air-purifier-for-smoke/",
+              "verified": true,
+              "supports": "Best overall: AP-1512HH, room up to 1,748 sq ft, 24 to 53 dB, very good at keeping the air clean in a hands-on smoke test; has an ionizer alongside its HEPA and carbon filters. Article last changed March 2025."
+            },
+            {
+              "type": "standard_listing",
+              "name": "CARB",
+              "title": "List of CARB-Certified Air Cleaning Devices",
+              "url": "https://ww2.arb.ca.gov/list-carb-certified-air-cleaning-devices",
+              "verified": true,
+              "supports": "Coway Airmega MightyC AP-1512HHC listed as a mechanical (filter) air cleaner.",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: supports had: Coway Airmega MightyC AP-1512HHC(WT) and (BG), mechanical, notified 2025-12-12, EO G-25-347 (also AP-1512HHC listed 2023-10-03). The exact AP-1512HH model was not found in the parts of the list that could be read."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Read California's certified list on 2026-11-15; AHAM's directory was not checked.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: why had: \"(listed 2025-12-12, order G-25-347)\"; size had: \"(other Coway pages say 224 or 234)\". | Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: No Amazon link is given. The smoke CADR is the maker's figure; it was not confirmed on the maker's page or in AHAM's directory today. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: The tested model (AP-1512HH) was not found in the parts of California's list that could be read; its variant AP-1512HHC was. / Smoke CADR is quoted differently on different Coway pages (233, 234, 224)."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "Higher-end units seen (Coway Airmega ProX, Blueair Blue Pure 311i Max, Winix AM80, IQAir Atem) are sized for much larger rooms, and an AHAM-verified smoke CADR and a California listing were not both confirmed for any of them."
+      }
+    },
+    {
+      "id": "box-fan-filter-kit",
+      "module": "ar",
+      "name": "DIY box-fan air cleaner kit (20 in fan + 20x20 MERV 13 filters)",
+      "need": "A box fan with a furnace filter taped to it is a low-cost way to clean the air in one room when a commercial air cleaner is not available or affordable.",
+      "how_to_choose": "Use a 20 inch box fan made in 2012 or later with a UL or ETL mark, plus 20x20 MERV 13 filters. Tape the filter to the back (intake) side so the airflow arrow points into the fan, and seal all four edges. More filters (for example a four-filter cube) clean the air faster than one. Replace filters when dirty.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One fan and one filter set for one small room."
+      },
+      "already_own": "A 20 inch box fan made in 2012 or later that carries a UL or ETL mark, plus a MERV 13 furnace filter, is enough. Avoid a fan made before 2012, and do not use a filter that is heavily loaded.",
+      "safety_notes": [
+        {
+          "text": "EPA's DIY air cleaner page describes a 20 x 20 inch box fan with a 20 x 20 inch filter (1 or 4 inch) attached to the back, filter arrow pointing into the fan. It says to use a 2012 or later fan with safety features such as fused plugs and thermal cutoffs, and only fans carrying a UL or ETL marking. A 2021 UL and EPA study found no burn or fire risk in the conditions tested. Dirty filters loaded with smoke or dust were almost useless in EPA lab tests, so replace them. Designs with more MERV 13 filters did better.",
+          "source_name": "EPA",
+          "source_title": "Do-It-Yourself Air Cleaners: Making Cleaner Air More Accessible",
+          "url": "https://epa.gov/sciencematters/do-it-yourself-air-cleaners-making-cleaner-air-more-accessible",
+          "verified": true
+        },
+        {
+          "text": "EPA says to use only a 2012-or-later fan with a UL or ETL mark, and that a fan built before 2012 must not be left unattended or used while you sleep. It also says: no extension cord, do not leave children alone with the fan running, do not use a damaged fan, and have working smoke alarms throughout the home.",
+          "source_name": "EPA",
+          "source_title": "DIY Air Cleaners",
+          "url": "https://www.epa.gov/emergencies-iaq/diy-air-cleaners",
+          "verified": true
+        },
+        {
+          "text": "EPA's research page says fans built before 2012 were not tested and pose known fire risks. It says to check the filter every day during smoke and to change it when it is dark brown or gray or smells of smoke.",
+          "source_name": "EPA",
+          "source_title": "Research on DIY Air Cleaners to Reduce Wildfire Smoke Indoors",
+          "url": "https://www.epa.gov/air-research/research-diy-air-cleaners-reduce-wildfire-smoke-indoors",
+          "verified": true
+        },
+        {
+          "text": "CDC says that if you use a do-it-yourself box-fan filter unit, never leave it unattended.",
+          "source_name": "CDC",
+          "source_title": "Safety Guidelines: Wildfires and Wildfire Smoke",
+          "url": "https://www.cdc.gov/wildfires/safety/how-to-safely-stay-safe-during-a-wildfire.html",
+          "verified": true
+        },
+        {
+          "text": "EPA says commercial air cleaners have more reliable performance testing than DIY ones, and that filters in DIY cleaners may need changing every few weeks or every few days in heavy smoke.",
+          "source_name": "EPA",
+          "source_title": "Create a Clean Room to Protect Indoor Air Quality During a Wildfire",
+          "url": "https://epa.gov/indoor-air-quality-iaq/create-clean-room-protect-indoor-air-quality-during-wildfire",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "CDC says never to leave a home-made unit running unattended. EPA says to use only a 2012-or-later fan with a UL or ETL mark, and that an older fan must never run unattended or while you sleep. This site's rule: run it only while someone is awake in the home.",
+        "That rule means this kit is for the hours someone is awake. For the room you sleep in, use a commercial HEPA air cleaner, which EPA says to run continuously.",
+        "EPA says to use a home-made air cleaner when a commercial unit is not available or affordable, and names thermal cutoffs as a safety feature of newer fans: a fan that lists one is better."
+      ],
+      "prices_seen": "2026-11-15",
+      "tier_note": "Two picks: spending more buys a commercial HEPA air cleaner, which can run while you sleep (see the HEPA air cleaner).",
+      "research_note": "2026-11-15 audit-fix pass (prompt 2.19, A-W7, B-K03): EPA's two DIY pages, EPA's 2023 article and CDC's wildfire page (last reviewed 24 August 2026) all opened today. The old sentence saying the page did not cover unattended use was true of the 2023 article only and is replaced by what EPA's DIY pages say. The first item flag is the owner's wording from prompt 2.19. First-pass notes: Lasko and Filtrete product pages could not be read (HTTP 404/403/429); fan listing details come from search-result summaries. Tex-Air Filters was seen selling four MERV 13 20x20x2 filters for $60 (fan not included). | Alignment pass 2026-11-16 (c4-home): moved off the page: item_flags: EPA says to use home-made air cleaners when a commercial unit is not available or affordable. The Lasko B20201 is reported to have a fused plug but no overheat protection; this was not confirmed on the maker's page. EPA names thermal cutoffs as a safety feature of newer fans, so a fan that lists one is preferable if you can find it. / The fan's and filter's details below were not confirmed on the makers' own pages.",
+      "tiers": {
+        "budget": {
+          "brand": "Lasko (fan) with Filtrete (filter)",
+          "model": "Lasko 20 in 3-speed box fan + one Filtrete 20x20x1 MPR 1900 (MERV 13) filter",
+          "model_number": "Lasko B20201; Filtrete MPR 1900 20x20x1",
+          "size": "Fan 21.75 x 20.5 x 4.4 in, 6.5 lb; one 20x20x1 filter",
+          "unit_size": 1,
+          "unit_label": "fan plus one filter",
+          "price_usd": null,
+          "price_seen_at": "Fan $40.00 at hvacquick.com; filter price not seen, so no price for the kit is shown",
+          "why": "The simplest build and the one EPA describes first; the Lasko is described as ETL listed with a fused plug, and Filtrete's 1900 MPR rating equals MERV 13.",
+          "weakness": "A single filter cleans the least air of any build, and the Lasko page lists no overheat protection.",
+          "links": [
+            {
+              "label": "Lasko B20201 (manufacturer)",
+              "url": "https://lasko.com/products/lasko-b20201-20-box-fan-with-save-smart-technology",
+              "verified": false,
+              "note": "",
+              "research_note": "Appeared in a search result but returned 404 to header checks on 2026-11-15; ETL listing is from the search summary."
+            },
+            {
+              "label": "Filtrete 1900 MPR 1 in (manufacturer)",
+              "url": "https://www.filtrete.com/3M/en_US/p/d/b00039899/",
+              "verified": false,
+              "note": "",
+              "research_note": "HTTP 403 to header check and fetch tool; the 20 x 20 size and MERV 13 equivalence are from a search summary."
+            },
+            {
+              "label": "HVACQuick (fan listed at $40)",
+              "url": "https://www.hvacquick.com/products/residential/Air-Filters/Air-Purifiers/HVACQuick-CRFB-Box",
+              "verified": true,
+              "note": "",
+              "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: note: Opened 2026-11-15; lists the Lasko B20201 fan at $40.00."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "Do-It-Yourself Air Cleaners: Making Cleaner Air More Accessible",
+              "url": "https://epa.gov/sciencematters/do-it-yourself-air-cleaners-making-cleaner-air-more-accessible",
+              "verified": true,
+              "supports": "Basic design: 20x20 fan, 20x20 1 in or 4 in filter, MERV 13, 2012+ fan with UL or ETL mark."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Lasko",
+              "title": "Lasko 20 in Box Fan 3-Speed (B20201)",
+              "url": "https://lasko.com/products/lasko-b20201-20-box-fan-with-save-smart-technology",
+              "verified": false,
+              "supports": "ETL listed, fused plug, 1,820 CFM on high. Not confirmed: the maker's page did not open."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No CPSC recall search was done for this fan in the pages opened.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: The design follows EPA's page, but the fan and the filter were not confirmed on their makers' pages. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Fan lists no overheat protection. | Alignment pass 2026-11-16 (c4-home): price still not seen: lasko.com B20201 page 404 again today; Home Depot 403 (search snippet $23.98, not used); Filtrete 403 earlier. price_usd stays null."
+        },
+        "standard": {
+          "brand": "Lasko (fan) with Filtrete (filter)",
+          "model": "Lasko 20 in box fan + four Filtrete 20x20x1 MPR 1900 (MERV 13) filters in a cube (buy the 6-pack)",
+          "model_number": "Lasko B20201; Filtrete MPR 1900 20x20x1 (1, 2 or 6 packs)",
+          "size": "Four filters taped to make a box around the fan; extra filters are spares",
+          "unit_size": 1,
+          "unit_label": "fan plus filter pack",
+          "price_usd": null,
+          "price_seen_at": "Fan $40.00 at hvacquick.com; filter price not seen, so no price for the kit is shown",
+          "why": "EPA says designs that use more MERV 13 filters clean better and are more cost-effective than a single filter.",
+          "weakness": "More taping and storage space in a small apartment, and no 4-pack size for 20x20x1 was found, so you buy 6.",
+          "links": [
+            {
+              "label": "Lasko B20201 (manufacturer)",
+              "url": "https://lasko.com/products/lasko-b20201-20-box-fan-with-save-smart-technology",
+              "verified": false,
+              "note": "",
+              "research_note": "Returned 404 to header checks on 2026-11-15; listing details from a search summary."
+            },
+            {
+              "label": "Filtrete 1900 MPR 1 in (manufacturer)",
+              "url": "https://www.filtrete.com/3M/en_US/p/d/b00039899/",
+              "verified": false,
+              "note": "",
+              "research_note": "HTTP 403 on 2026-11-15; spec table (1, 2, 6 packs, 20x20 size) from a search summary."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "EPA",
+              "title": "Do-It-Yourself Air Cleaners: Making Cleaner Air More Accessible",
+              "url": "https://epa.gov/sciencematters/do-it-yourself-air-cleaners-making-cleaner-air-more-accessible",
+              "verified": true,
+              "supports": "Better and best designs use multiple MERV 13 filters; shroud improves performance; replace dirty filters."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Filtrete (3M)",
+              "title": "Filtrete MPR 1900 Premium Allergen, Bacteria & Virus Air Filters (1 in)",
+              "url": "https://www.filtrete.com/3M/en_US/p/d/b00039899/",
+              "verified": false,
+              "supports": "1900 MPR equals MERV 13; 20x20x1 size; 90-day change interval. Not confirmed: the maker's page did not open."
+            }
+          ],
+          "flags": [],
+          "flag_check": "No CPSC recall search was done.",
+          "research_note": "Alignment pass 2026-11-16 (c4-home): moved off the page: link_note: The design follows EPA's page, but the fan and the filter were not confirmed on their makers' pages. No Amazon link is given. | Alignment pass 2026-11-16 (c4-home): moved off the page: flags: Fan lists no overheat protection. | Alignment pass 2026-11-16 (c4-home): price still not seen: lasko.com B20201 page 404 again today; Home Depot 403 (search snippet $23.98, not used); Filtrete 403 earlier. price_usd stays null."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No pick. Spending more than the Standard kit buys a commercial HEPA cleaner, which has tested performance and, unlike a home-made unit, can run while you sleep: see the HEPA air cleaner item."
+      }
+    }
+  ]
+}

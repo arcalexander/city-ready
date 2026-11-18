@@ -1,0 +1,1187 @@
+{
+  "module": "u4",
+  "title": "Water",
+  "intro": "Water is the supply you will miss first and the heaviest one to store. This module covers how much you need, how to keep it in a small home, how to make doubtful water safe, and what changes when your water arrives through a building's pumps and shared pipes.",
+  "credit": "Based on Unit 4 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "U4-01",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Learn which water can never be made safe",
+      "why": "Boiling and bleach kill germs but do nothing about fuel, chemicals or heavy contamination.",
+      "how": "Never drink, cook or brush your teeth with floodwater, or with water that smells of fuel or chemicals, has a dark color or has material floating in it. No home method fixes these, so find another source. Water that is only cloudy can be left to settle, strained through a clean cloth or coffee filter and then disinfected. If you are not sure, do not use it.",
+      "done": "Every adult at home has heard the list of water that no home method can make safe, read aloud from this action.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 3,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe",
+        "cdc-floodwater"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-02",
+      "level": 2,
+      "section": "Work out your numbers",
+      "title": "Work out how much water your household needs",
+      "why": "Without a number you cannot tell whether what you have stored will last three days or one.",
+      "how": "Plan on one US gallon (3.8 liters) per person per day. At least half of it is for drinking: the FEMA and Red Cross booklet says a normally active person needs to drink at least half a gallon a day, and Ready.gov puts it at about three quarters of a gallon of fluid from all drinks. The rest is for preparing food and basic hygiene. The site works out the total from your household setup, counting a child as a full person, with an allowance for pets. Store more for hot weather (HC-09), pregnancy and illness. Three days is the minimum and two weeks is the goal.",
+      "done": "The number of gallons for your household is written on your Emergency pantry list.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store",
+        "ready-water",
+        "fema-food-water-booklet"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-03",
+      "level": 3,
+      "section": "Work out your numbers",
+      "title": "Measure how much your pet drinks in a day",
+      "why": "A large dog in summer and a cat on wet food need very different amounts, and the site's allowance per pet is only a default.",
+      "how": "For one ordinary day, fill your pet's bowl from a measuring jug and note every top-up. After 24 hours, subtract what is left in the bowl. Multiply by your target days, allow extra for hot weather, and store that amount for the pet on top of the household's water. Write the figure by hand on your printed pet sheet.",
+      "done": "The amount your pet drinks in a day is written by hand on your printed Pet sheet, and that amount for your target days is stored with the household's water.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "worksheet": "pet-sheet",
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-04",
+      "level": 2,
+      "section": "Store water",
+      "title": "Store water in sizes every adult in the home can lift",
+      "why": "Water weighs 8.3 pounds a gallon, so a container one person cannot move is no use to them when they are home alone.",
+      "how": "Think about who has to handle the water: a 1-gallon jug weighs about 8 pounds, a 2.5-gallon container about 21, a 5-gallon about 42 and a 7-gallon about 58. Choose the largest size the least strong adult can carry safely, and keep it between floor and waist height. For bigger containers, add a spigot or hand pump so water can be drawn off without lifting.",
+      "done": "Every water container is a size the least strong adult at home has carried full, or has a spigot or hand pump, and sits between floor and waist height.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "In an apartment, choose sizes you could also carry up your stairs when the elevator is out, and remember that two weeks for four people weighs about 465 pounds in total.",
+      "products": [
+        "water-container-rigid",
+        "water-dispensing"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-05",
+      "level": 2,
+      "section": "Store water",
+      "title": "Pick a cool, dark place away from chemicals",
+      "why": "Sunlight, heat and nearby chemicals can spoil stored water or the container it is in.",
+      "how": "Store water somewhere dark and dry that stays between 50 and 70 °F, such as a closet floor or under a bed, and never in direct sunlight. Keep it away from fuel, pesticides, paint, cleaning chemicals and anything with a strong smell. If no room in your home stays that cool, use the coolest dark spot you have and replace the water on schedule.",
+      "done": "You can point to the dark, dry spot for your water, and no fuel, pesticide, paint, cleaning chemical or strong-smelling thing is kept near it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-06",
+      "level": 3,
+      "section": "Store water",
+      "title": "Spread your water across several rooms, low and against walls",
+      "why": "Water spread across rooms is still within reach if one room is damaged or blocked, and its weight is safer on the floor than in one tall stack.",
+      "how": "Water weighs 8.3 pounds a gallon, so two weeks for four people is 56 gallons, about 465 pounds; the site works out your total. Divide your containers between at least two rooms, for example a bedroom closet floor and the space under a bed. Keep one day's worth near the kitchen for daily use. Stand the rest on the floor against walls, stacked no more than two high and only if they are made to stack. Keep every container out of the path to your door. Note on your Emergency pantry list where each lot is, so every adult can find all of it.",
+      "done": "Your water stands on the floor in at least two rooms, against walls, no more than two high and clear of the path to your door, with one day's worth near the kitchen and every place noted on your Emergency pantry list.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 25,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "water",
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "X4-03",
+      "level": 3,
+      "same_as": "U4-06",
+      "section": "Store water",
+      "title": "Spread the weight of stored water",
+      "why": "Two weeks of water for a household weighs several hundred pounds, and that load is safer and easier to live with when it is spread out and kept low.",
+      "how": "Water weighs 8.3 pounds a gallon; the site works out your total, and for four people for two weeks it is 56 gallons, about 465 pounds. Do not build one tower: stand containers on the floor in several rooms, against walls, and stack them no more than two high and only if they are made to stack. Keep them out of the path to your door.",
+      "done": "Your water stands on the floor in several rooms, against walls, stacked no more than two high and clear of the path to your door.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "calc": "water"
+    },
+    {
+      "id": "U4-07",
+      "level": 2,
+      "section": "Store water",
+      "title": "Keep water off high shelves",
+      "why": "A heavy container overhead can fall on someone, or be impossible to lift down when you need it.",
+      "how": "Check where your water is now and move anything stored above shoulder height to the floor or a low shelf. Use high shelves for light things only, such as paper goods. Before loading any shelf, check it can take the weight: 8.3 pounds for every gallon.",
+      "done": "No water container in your home sits above shoulder height.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-08",
+      "level": 2,
+      "section": "Store water",
+      "title": "Fill the freezer with frozen water and keep a small cooler ready",
+      "why": "Frozen water keeps the freezer cold for longer in an outage, can chill the food you most want to save, and becomes drinking water as it melts.",
+      "how": "Fill clean plastic bottles or tubs three-quarters full with tap water, so the ice has room to expand. Stand them upright in the empty spaces of the freezer, because a full freezer stays cold longer than a half-full one (X3-03). Screw the caps down once they are frozen. Keep a small cooler and a fridge thermometer together where you can reach them. If an outage looks likely to outlast the fridge (X3-03), move the food you most want to save into the cooler, pack frozen bottles around it and put the thermometer inside. Keep that food only while the cooler reads 40 °F or below (X3-03). Drink the water once the bottles thaw; it counts toward your stored water.",
+      "done": "The empty space in your freezer is filled with capped, frozen bottles of tap water, and a small cooler and a fridge thermometer are stored together within reach.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "products": [
+        "cooler",
+        "fridge-thermometer"
+      ],
+      "cites": [
+        "fda-food-outage",
+        "foodsafety-outage",
+        "cdc-food-emergency",
+        "ready-food"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-09",
+      "level": 3,
+      "section": "Store water",
+      "title": "Keep drink mix with your water",
+      "why": "Treated or long-stored water can taste flat or of chlorine, and people who dislike the taste tend to drink less than they need.",
+      "how": "Put a few packets of powdered drink mix or some tea bags with the stored water, choosing kinds the household already likes. Count only water toward your daily amount; coffee, soda and alcohol do not replace it.",
+      "done": "A few packets of drink mix or some tea bags the household likes are stored with the water.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "X4-11",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Learn the three kinds of water notice and what each one means",
+      "why": "A water notice comes in three kinds, and boiling makes the water safe under only one of them.",
+      "how": "Boil-water notice: germs may be in the water. Boil tap water for the time the notice gives; if it gives none, hold it at a rolling boil for 1 minute, or 3 minutes above 5,000 feet (EPA's figure; CDC says 6,500 feet), and let it cool. Use bottled or boiled water for drinking, cooking, washing food, making ice, brushing teeth and pets' bowls, even if it has been through a filter jug. For a formula-fed baby, use ready-to-feed formula if the baby's own formula is sold that way; otherwise mix the powder with sealed bottled water, fresh for each feed (U3-08). Sanitize baby bottles, nipples and cups as CDC's page on cleaning infant feeding items says: wash them in soapy safe water and rinse, then boil them for 5 minutes in safe water or soak them for 2 minutes in 1 teaspoon of the bleach from U4-10 per half gallon of safe water, and let them air-dry without rinsing. Adults can shower, taking care not to swallow any water; give babies and small children a sponge bath. Do-not-drink notice: a chemical or toxin may be in the water and boiling will not make it safe, so use bottled water for drinking, cooking, washing fruit and vegetables, ice, brushing teeth, formula and pets. Do-not-use notice: touching the water may be dangerous, so use bottled water for everything and follow the utility. Under any notice, do not use the water or ice dispenser in a refrigerator, and ask the utility whether tap water you stored before the notice is safe. Write the kind of notice and the date on tape stuck to the kitchen faucet, tell anyone who makes the baby's bottles, and start counting your stored water from that moment.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "worksheet": "water-treatment-card",
+      "cites": [
+        "cdc-water-advisories",
+        "cdc-water-safe",
+        "epa-disinfect",
+        "cdc-infant-formula",
+        "cdc-clean-feeding-items"
+      ],
+      "done": "The printed water treatment card, which lists the three kinds of notice, is kept with your stored water."
+    },
+    {
+      "id": "X4-12",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Know what to do when the water comes back or a notice is lifted",
+      "why": "Contamination can stay in a home's pipes, filters and appliances after the main supply is cleared.",
+      "how": "Today, write your water utility's emergency number and the web page where it posts notices on the Utilities list. When a notice comes, keep it and note which kind it is (X4-11). When it is lifted, do not assume the faucets are back to normal: get the utility's own instructions for flushing faucets and appliances, and ask building management what is being done for the building's pipes. Follow the order given for faucets, the refrigerator's water and ice, filters and anything else plumbed in; throw away ice and change filters when the instructions say to. Do not make up a flushing time, and do not take a chlorine test strip as proof that a chemical has gone. After a drop in water pressure with no notice, CDC's general advice is to run each cold faucet fully for 2 minutes, then the hot until it feels hot and runs clear, and to tell the utility. After a long outage in a multistory building, ask before you flush the toilet (X5-01). Then refill your stored water (U4-14).",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "worksheet": "utilities",
+      "cites": [
+        "epa-water-decon-faq",
+        "cdc-water-advisories",
+        "cdc-waterborne-germs-home"
+      ],
+      "done": "Your water utility's emergency phone number and the web page where it posts notices are written on your Utilities list."
+    },
+    {
+      "id": "X4-13",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Find out whether lead could be in your tap water",
+      "why": "Lead in water cannot be seen, tasted or smelled, and boiling does not remove it.",
+      "how": "Ask your water utility, and building management if you rent, whether the service line that brings water into your home is made of lead. Ask the utility to test your water, or for a list of certified laboratories, because testing is the only sure way to know. The longer water sits in the pipes, the more lead it may hold, so before drinking run the faucet, take a shower or run a load of laundry or dishes. Use only cold water from the faucet for drinking and cooking. Boiling does not remove lead. If you use a filter, choose one certified to remove lead. If a baby lives with you, make formula only with cold water, because a baby fed formula takes in a lot of water for their size; if a test finds lead, make the formula with bottled water or with water from a filter certified to remove lead.",
+      "done": "Your utility's answer about the service line and your lead test result are written on your Utilities list.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "utilities",
+      "cites": [
+        "epa-lead-basic",
+        "cdc-lead-drinking-water"
+      ]
+    },
+    {
+      "id": "U4-10",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Choose how you will make doubtful water safe",
+      "why": "Stored water runs out and tap water can become unsafe, so you need at least one way to treat water that works without electricity.",
+      "how": "First say what kind of problem the water has. Under an official water notice, follow the notice (X4-11): a filter jug does not cancel a boil-water notice, and boiling and bleach do not fix a do-not-drink or do-not-use notice. Water that may hold fuel or chemicals cannot be made safe at home (U4-01). For water that may carry germs, pick one main method and one backup. Boiling is the most reliable but needs a working heat source (U4-21). Bleach is cheap and needs none. Use the drinking-water directions printed on your own bottle if it has them: they are written for that exact strength. If the label gives none, check that it is plain unscented bleach of 5% to 9% sodium hypochlorite and use CDC's table: 8 drops per gallon of clear water, or 2 drops per quart. Double it if the water is cloudy, colored or very cold. Stir and wait at least 30 minutes before drinking. Purification tablets are the easiest to carry (follow the label), and a portable filter removes parasites and bacteria but not viruses. Keep one bottle of plain unscented bleach, write the purchase date on it and set a yearly reminder to replace it; the same bottle disinfects cans that got wet and sanitizes dishes (U5-18). To save undamaged metal cans that touched floodwater or sewage, peel off the labels, wash the cans with soap and clean water, soak them for 15 minutes in 1 cup of bleach mixed into 5 gallons of water, let them air-dry for at least an hour, write the contents and date on each and use them soon. Throw away everything else that touched the water, including screw-top jars, cartons and home-canned food. Buy what your two methods need, print the water treatment card, write your bottle's own directions on it and keep it with the water. Keep the supplies in one bag beside the water, with a medicine dropper and a few coffee filters for straining cloudy water.",
+      "done": "What your main and backup methods need, including one bottle of plain unscented bleach with its purchase date written on it, is in one bag beside your water with the printed water treatment card, your bottle's own directions written on it.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "With an all-electric kitchen you cannot boil water in an outage, so make bleach, tablets or a filter your main method.",
+      "products": ["water-bleach", "water-treatment-tablets", "water-filter-portable", "water-filter-household", "water-test-and-prefilter"],
+      "worksheet": "water-treatment-card",
+      "cites": ["cdc-water-safe", "cdc-water-advisories", "epa-disinfect", "fda-food-outage", "cdc-food-emergency"],
+      "toolkit_page": "12-14"
+    },
+    {
+      "id": "U4-11",
+      "level": 2,
+      "section": "Work out your numbers",
+      "title": "Set a three-day target first, then a two-week goal",
+      "why": "Three days of water is achievable this week, and reaching it turns the two-week goal into repeating the same step.",
+      "how": "Take your household's daily amount from the site and note two totals: three days, and your target days. Divide each by the size of container you chose to get a count; two people, for example, need 6 gallons for three days, which is six 1-gallon jugs or one 7-gallon container. Get the three-day amount in place now, and add to it each month until you reach the goal.",
+      "done": "Your three-day and target-day totals are noted as a count of containers, and the three-day amount is in place.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "water-container-rigid",
+        "water-sealed-bottled"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "X4-08",
+      "level": 2,
+      "section": "Store water",
+      "title": "Buy sealed bottled water if you will not rotate your own",
+      "why": "Factory-sealed water needs no sanitizing and keeps until its printed date, which suits anyone short of time or unable to lift and refill containers.",
+      "how": "Buy your three-day amount as sealed bottles or jugs; the site works out how many gallons that is. Leave them in their wrapping and store them like any other water: cool, dark, low and away from chemicals. Put the printed date in your calendar, replace the water before then, and drink the old bottles.",
+      "done": "Your three-day amount of sealed bottled water is stored in its wrapping, cool, dark, low and away from chemicals, and its printed date is in your calendar.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "water-sealed-bottled"
+      ],
+      "calc": "water",
+      "cites": [
+        "cdc-water-store"
+      ]
+    },
+    {
+      "id": "U4-12",
+      "level": 3,
+      "section": "Work out your numbers",
+      "title": "Live on stored water for two days as a test",
+      "why": "A short trial shows how much water your household really uses and which habits waste it.",
+      "how": "Pick a weekend and put tape over every faucet as a reminder. Set out the planned amount for two days (one gallon per person per day) and use only that for drinking, cooking, washing dishes and washing yourselves; the toilet still flushes as normal during the test. Note how much is left, or when it ran out, and adjust your storage target.",
+      "done": "The two-day test is finished, and what was left, or when the water ran out, is written down with your adjusted storage target.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "X4-10",
+      "level": 3,
+      "section": "Work out your numbers",
+      "title": "Budget separate water for washing",
+      "why": "The gallon a day covers drinking, cooking and a quick wash of hands and face only, so anything more has to be planned for.",
+      "how": "Decide what washing you want beyond the basics and store water for it separately; as a rough guide, allow half a gallon per person for a sponge bath and one to two gallons for a small load of hand laundry. Water for laundry and floors can come from the bathtub, but water for hands, dishes and teeth must be drinking quality. Cut the need with body wipes, hand sanitizer with at least 60% alcohol, and disposable plates.",
+      "done": "Water for the washing you want beyond the basics is stored apart from your drinking water, and body wipes and hand sanitizer are with your supplies.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "products": [
+        "body-wipes",
+        "hand-sanitizer"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-sanitizer"
+      ]
+    },
+    {
+      "id": "U4-13",
+      "level": 2,
+      "section": "Store water",
+      "title": "Sanitize your water containers",
+      "why": "A container that looks clean can still carry germs that multiply in water stored for months.",
+      "how": "Use food-grade containers with tight lids, never ones that have held bleach, pesticides or other chemicals. Wash each with dish soap and rinse well. Mix 1 teaspoon of plain unscented bleach into 1 quart of water, pour it in, close the lid and shake so it touches every inside surface, then wait at least 30 seconds and pour it out. Let the container air-dry before filling.",
+      "done": "Every container you will fill is food-grade and has been washed, sanitized as this action describes and left to air-dry.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "water-container-rigid",
+        "water-bleach"
+      ],
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-14",
+      "level": 2,
+      "section": "Store water",
+      "title": "Fill the containers with tap water",
+      "why": "Treated city water is already safe to store, which makes filling your own containers the cheapest way to build a supply.",
+      "how": "Fill each sanitized container to the top with cold tap water from a city supply. Do not touch the inside of the cap or the rim, and screw the cap down tight. If your water comes from a private well or spring, disinfect it first: boil it for 1 minute (3 minutes above 5,000 feet) and let it cool, or treat it with bleach (U4-10).",
+      "done": "Each sanitized container is full to the top with cold tap water and its cap is screwed down tight.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "water-container-rigid"
+      ],
+      "cites": [
+        "cdc-water-store",
+        "cdc-water-safe",
+        "epa-disinfect"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-15",
+      "level": 2,
+      "section": "Store water",
+      "title": "Label each container \"Drinking Water\" with the date",
+      "why": "A dated label tells everyone the water is safe to drink and tells you when it is due to be replaced.",
+      "how": "Write \"Drinking Water\" and today's date on each container, on a strip of tape or directly with a permanent marker. Add the replace-by date, six months ahead. Label any water kept only for washing differently, so the two are never mixed up.",
+      "done": "Every container reads \"Drinking Water\" with its fill date and replace-by date, and any water kept only for washing carries a different label.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-16",
+      "level": 2,
+      "section": "Store water",
+      "title": "Put the filled containers in their place",
+      "why": "Water that goes straight into the right spot stays good until its replace-by date and is there when you reach for it.",
+      "how": "Carry the filled, labeled containers one at a time to the cool, dark spot you chose. Stand them upright on the floor or a low shelf, out of sunlight and away from heaters and chemicals. Check after a day that no cap is leaking, then show everyone in the household where the water is.",
+      "done": "The filled, labeled containers stand upright in their cool, dark spot, no cap has leaked after a day, and everyone in the household has been shown where they are.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "water-container-rigid",
+        "water-dispensing"
+      ],
+      "cites": [
+        "cdc-water-store"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-17",
+      "level": 3,
+      "section": "Store water",
+      "title": "Set a six-month reminder to replace stored water",
+      "why": "Tap water you stored yourself should be replaced every six months.",
+      "how": "Put a repeating reminder in your calendar for every six months. On the day, use the old water for plants or cleaning, wash and re-sanitize the containers, refill them and write the new date. Sealed store-bought water follows its printed date instead.",
+      "done": "A repeating calendar reminder to replace your stored water is set, at the interval this action gives.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "cdc-water-store",
+        "ready-water"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-18",
+      "level": 3,
+      "same_as": "U4-08",
+      "section": "Store water",
+      "title": "Fill empty freezer space with containers of water",
+      "why": "A full freezer holds its temperature for about 48 hours without power, twice as long as a half-full one.",
+      "how": "Look at how much of your freezer is empty and fill the gaps with clean plastic bottles or tubs of tap water, each three-quarters full. Cap them once they are frozen. In an outage they keep the freezer cold for longer, can be moved to a cooler, and are drinking water when they melt.",
+      "done": "The empty space in your freezer is filled with capped, frozen bottles or tubs of tap water.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "heat"
+      ],
+      "cites": [
+        "foodsafety-outage",
+        "fda-food-outage",
+        "cdc-food-emergency"
+      ],
+      "toolkit_page": "65-68"
+    },
+    {
+      "id": "U4-19",
+      "level": 3,
+      "section": "Make water safe",
+      "title": "Gather an outdoor kit for boiling water",
+      "why": "Boiling is the surest way to make water safe, and with the power off a yard lets you do it over a stove or grill.",
+      "how": "Put together in one box: a camp stove or grill, a lidded pot of at least 4 quarts that can sit on direct heat, a grate if you will use an open fire, fuel for your target days, a lighter and two pot holders. Add a clean, sanitized container to pour the boiled water into. Keep the fuel outside the living space, and use the kit outdoors only.",
+      "done": "The stove or grill, lidded pot, lighter, pot holders and a clean sanitized container are in one box, and the fuel is stored outside the living space.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "Boiling over a stove, grill or fire needs open ground away from the building, so in an apartment treat water with bleach, tablets or a filter, and follow X3-04 for heating.",
+      "cites": [
+        "cdc-co",
+        "epa-disinfect",
+        "nfpa-cooking-outage"
+      ],
+      "toolkit_page": "68-70"
+    },
+    {
+      "id": "U4-20",
+      "level": 3,
+      "section": "Make water safe",
+      "title": "Practice setting up your heat source outdoors",
+      "why": "Setting up a stove or fire safely is harder than it looks, and the time to learn is before you depend on it.",
+      "how": "Set up on level, bare ground well away from doors, windows and vents, and clear of fences, trees and dry grass. Check gas connections are tight before lighting, and keep children and pets well back. Do not light an open fire in dry or windy weather. Never move a lit stove or grill indoors or into a garage.",
+      "done": "You have set up your stove or grill once on level, bare ground well away from doors, windows and vents, and checked that its gas connections are tight.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X3-04",
+      "apartment": "There is no safe place to run a stove, grill or fire in or on an apartment building; use the indoor plan in X3-04.",
+      "cites": [
+        "cdc-co",
+        "nfpa-cooking-outage",
+        "cpsc-generator"
+      ],
+      "toolkit_page": "68-70",
+      "cite_todo": "An official source giving a safe distance between an outdoor camp stove or grill and the building (the 20-foot rule in the registry is for generators only)."
+    },
+    {
+      "id": "U4-21",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Practice the boiling rule",
+      "why": "A full rolling boil held for the right time kills the bacteria, viruses and parasites that make people sick.",
+      "how": "Under a boil-water notice, boil for the time the notice gives. When no notice gives a time, bring a pot of water to a rolling boil, where large bubbles keep breaking the surface, and hold it there for 1 full minute. Above 5,000 feet, hold it for 3 minutes: that is EPA's figure, CDC prints 6,500 feet, and this site uses the lower one. Practice timing without a clock by counting slowly to 60. If the water is cloudy, let it settle and strain it through a clean cloth or coffee filter first.",
+      "done": "You have brought one pot of water to a rolling boil and held it there for the time this action gives, counting aloud without a clock.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Practice on your kitchen stove while the power is on, and remember that an all-electric kitchen cannot boil water in an outage without battery power.",
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "68-70"
+    },
+    {
+      "id": "U4-22",
+      "level": 2,
+      "section": "Make water safe",
+      "title": "Cool, freshen and store boiled water",
+      "why": "Boiled water is only safe if it stays clean afterwards, and it tastes flat until air is mixed back in.",
+      "how": "Turn off the heat and let the water cool in the covered pot. Pour it into a clean, sanitized container with a tight lid. To improve the taste, pour it back and forth between two clean containers a few times, or add a pinch of salt to each quart.",
+      "done": "One batch of boiled water has cooled in its covered pot and now sits in a clean, sanitized container with a tight lid.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "68-70"
+    },
+    {
+      "id": "X4-09",
+      "same_as": "U4-10",
+      "level": 3,
+      "section": "Make water safe",
+      "title": "Assemble a water treatment kit with a printed dose card",
+      "why": "When you need to treat water you may be tired and working in the dark, so the tools and the exact doses should already be together in one bag.",
+      "how": "Put in one bag: a small bottle of plain unscented bleach (5% to 9% on the label, replaced every year), a medicine dropper, purification tablets, a portable filter and a few coffee filters for straining cloudy water. Print the water treatment card, copy your bottle's own drinking-water directions into the blank at the top and tape the card inside the bag. Use the drinking-water directions printed on your own bottle if it has them: they are written for that exact strength. If the label gives none, check that it is plain unscented bleach of 5% to 9% sodium hypochlorite and use CDC's table: 8 drops per gallon of clear water, or 2 drops per quart. Double it if the water is cloudy, colored or very cold. Stir and wait at least 30 minutes before drinking. Bleach does not make water safe from fuel or chemicals.",
+      "done": "One bag holds the bleach, a medicine dropper, purification tablets, a portable filter and coffee filters, with the water treatment card, your bottle's own directions copied onto it, taped inside.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "water-bleach",
+        "water-treatment-tablets",
+        "water-filter-portable",
+        "water-test-and-prefilter"
+      ],
+      "worksheet": "water-treatment-card",
+      "cites": [
+        "cdc-water-safe",
+        "epa-disinfect"
+      ]
+    },
+    {
+      "id": "U4-23",
+      "level": 2,
+      "section": "Other water at home",
+      "title": "Learn where extra water is hiding in your home",
+      "why": "When stored water runs low, several gallons are already sitting in your home if you know where to look.",
+      "how": "Learn the list, best first: water you ran into the bathtub and sinks before the supply failed, melted ice cubes and frozen bottles and, in a house, the hot water tank and the pipes. Disinfect tub, sink, pipe and hot-water-tank water before drinking it. Never use water from the toilet bowl or the toilet tank, or from radiators or a heating boiler. Official pages disagree about the toilet tank: FEMA's fact sheet \"How to make your water safe to drink\" and CDC's page on finding clean water allow tank water that is clear and has had no cleaning chemical in it, while the FEMA and Red Cross booklet \"Food and Water in an Emergency\" says not to use it. This site follows the stricter one.",
+      "done": "Every adult at home has been shown each source on this list in your own home and has heard which ones are never used.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "In an apartment the pipes and any central water heater belong to the building, so your hidden water is what you caught in the tub, sinks and containers, plus ice.",
+      "products": [
+        "water-bathtub-bladder"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "cdc-water-safe",
+        "fema-food-water-booklet",
+        "fema-water-safe-fact-sheet",
+        "cdc-find-clean-water"
+      ],
+      "toolkit_page": "70-71"
+    },
+    {
+      "id": "U4-24",
+      "level": 2,
+      "section": "Other water at home",
+      "title": "Find your main water valve and learn to shut it",
+      "why": "Closing the main valve keeps contaminated water out of your pipes and stops a broken pipe from flooding the house.",
+      "how": "Find where the water line enters the house, usually in the basement, garage or crawl space, or outside by the foundation. Turn the valve off and on once to check that it moves: a lever handle takes a quarter turn, a round handle turns clockwise until it stops. Tie a tag on it and show every adult. Shut it if officials say the public water is unsafe or you see signs of a broken line. If the only shut-off is in the meter box at the street or sidewalk, ask your water utility whether you may turn it and what tool it takes.",
+      "done": "The main valve has been turned off and on once, carries a tag, and every adult at home has been shown it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "cold",
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-07",
+      "apartment": "In an apartment the main valve is building equipment that residents must not operate; learn your own unit's stop valves instead (X4-07).",
+      "cites": [
+        "ready-skills"
+      ],
+      "toolkit_page": "70-71"
+    },
+    {
+      "id": "U4-25",
+      "level": 3,
+      "section": "Other water at home",
+      "title": "Learn how to drain the water left in your pipes",
+      "why": "The pipes of a house hold a few gallons of clean water that would otherwise be left behind.",
+      "how": "First shut the main valve. Open the highest faucet in the house, such as an upstairs shower, to let air in. Then draw water from the lowest faucet, such as a basement sink or outdoor spigot, into a clean container, and disinfect it if there is any doubt about the supply. Walk through the steps once now without draining, so you know which faucets are highest and lowest.",
+      "done": "You have walked through the steps once without draining and can point to the highest and lowest faucets in the house.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-01",
+      "apartment": "A resident cannot isolate or drain a building's shared pipes, and what comes out depends on your floor and your neighbors; find out how water reaches your floor instead (HR-01).",
+      "cites": [
+        "epa-disinfect",
+        "fema-food-water-booklet"
+      ],
+      "toolkit_page": "70-71"
+    },
+    {
+      "id": "U4-26",
+      "same_as": "HR-01",
+      "level": 2,
+      "section": "Water in your building",
+      "title": "Ask where your building's water shut-off is and who may close it",
+      "why": "When a pipe bursts or the supply is contaminated, time is saved if residents already know who to call.",
+      "how": "Ask the manager or superintendent three things: where the building's main water valve is, who is allowed to close it, and which number to ring at night. Print the Building information sheet, write the answers on it by hand and keep it with your plan. Do not operate the valve yourself.",
+      "done": "The place of the building's main water valve, who may close it and the night number are written by hand on your printed Building information sheet, kept with your plan.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake",
+        "cold"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "worksheet": "building-info",
+      "toolkit_page": "70-71"
+    },
+    {
+      "id": "X4-01",
+      "same_as": "HR-01",
+      "level": 2,
+      "section": "Water in your building",
+      "title": "Find out how water reaches your floor",
+      "why": "Many buildings lift water to their upper floors with electric pumps or a roof tank, so a power cut can mean dry taps within hours.",
+      "how": "Ask building management three questions: is my floor fed by street pressure, by pumps or from a roof tank; do the pumps have backup power, and for how long; and how long did the water last in the last outage. Print the Building information sheet and write the answers on it by hand. If your floor depends on pumps, store your full target at home and plan to fill containers the moment the power fails (X4-02).",
+      "done": "Building management's answers on how water reaches your floor, pump backup power and the last outage are written by hand on your printed Building information sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "worksheet": "building-info",
+      "cite_todo": "An official source stating that upper floors of tall buildings lose water when the building's pumps lose power; the nyc-outage-water candidate could not be found, so no floor number is given here.",
+      "cites": [
+        "toronto-power-failure"
+      ]
+    },
+    {
+      "id": "X4-02",
+      "level": 2,
+      "section": "Water in your building",
+      "title": "Fill the tub and every container at the first sign of trouble",
+      "why": "If your building pumps water to your floor, the faucets may stop soon after the power fails, and that is your one chance to collect extra water.",
+      "how": "The moment the power goes out, or a severe storm or freeze warning is issued, fill the bathtub (or a bathtub liner), sinks, pots, jugs and every spare container with cold water. Do it before anything else, because running water may stop once the power is out; ask your building how long it lasted last time. Use open tub and sink water for washing and cleaning first, and disinfect it before drinking; water that went straight into clean, covered containers is as good as stored tap water. Keep the bathroom door shut if small children are at home.",
+      "done": "Everyone at home has heard the rule: when the power goes out or a severe storm or freeze warning is issued, fill the tub and every container first.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold",
+        "earthquake"
+      ],
+      "products": [
+        "water-bathtub-bladder"
+      ],
+      "cites": [
+        "epa-disinfect",
+        "toronto-power-failure"
+      ],
+      "cite_todo": "An official source on how fast water fails on upper floors when building pumps stop, and one (for example CPSC) on the drowning risk a filled bathtub poses to small children."
+    },
+    {
+      "id": "X4-07",
+      "level": 2,
+      "section": "Water in your building",
+      "title": "Use only your own unit's stop valves",
+      "why": "Closing the wrong valve in a shared building can cut off your neighbors' water or disable the fire sprinklers.",
+      "how": "Find the small stop valves that serve your unit alone: under each sink, behind the toilet, behind the washing machine and, if you have one, at your own water heater. Turn each off and on once so you know it moves; clockwise closes it. Never touch valves in hallways, risers, mechanical rooms or stairwells, or anything marked as part of the fire system. For a leak you cannot stop at your own valves, call the building's emergency number.",
+      "done": "Each stop valve that serves your unit alone, under the sinks and behind the toilet and washing machine, has been turned off and on once.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "cold"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "cites": [
+        "nyc-dob-sprinkler-terms",
+        "portland-water-burst-pipes",
+        "portland-water-faucet-leak",
+        "portland-water-toilet-leak"
+      ],
+      "cite_todo": "An official page that tells residents in so many words not to close sprinkler or standpipe valves. New York City's Department of Buildings says only that a sprinkler control valve should always be open; Portland's water bureau says residents of a multifamily building ask the property manager to shut off the water."
+    },
+    {
+      "id": "X4-04",
+      "level": 3,
+      "section": "Water in your building",
+      "title": "Plan how you would carry water up the stairs",
+      "why": "If the faucets fail and the elevator is out, every gallon you use has to be carried up by hand.",
+      "how": "Choose a load you can carry safely on your own stairs with one hand free for the rail: one container in the other hand, or a backpack water carrier. Two containers, one in each hand, leave no hand for the rail. Start with a small load and work up; 2.5 gallons weighs 21 pounds, which is too much for many people on stairs. Work out your trips from your daily amount: two people using 2 gallons a day need about one trip a day at 2.5 gallons, or two at half that. Test one loaded climb to your floor now and time it. Agree with neighbors to share the carrying for anyone who cannot manage the stairs, and if nobody can carry water up safely, plan to leave sooner (X2-05).",
+      "done": "You have timed one loaded climb to your floor with a hand free for the rail, and a neighbor has agreed to share carrying for anyone who cannot manage stairs.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "products": [
+        "water-carry-collapsible"
+      ],
+      "cites": [
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "X4-05",
+      "level": 3,
+      "section": "Water in your building",
+      "title": "Find out where public water would be handed out",
+      "why": "In a long water outage the authorities set up distribution points, and you will need to know where they are and bring your own containers.",
+      "how": "Search your city or water utility's website for \"emergency water distribution\", or phone the city's non-emergency line and ask where points were set up last time. Write the likely sites nearest you on paper and work out the walking route. Keep clean, lidded containers you can carry when full, such as two collapsible 2.5-gallon carriers, and a backpack or cart to move them.",
+      "done": "The likely distribution sites nearest you and the walking route are written on paper, and clean lidded containers with a backpack or cart to move them are in your home.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "products": [
+        "water-carry-collapsible"
+      ],
+      "cites": [
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "X4-06",
+      "level": 2,
+      "section": "Water heater",
+      "title": "Check whether your home has its own water heater",
+      "why": "A tank water heater holds water you can drain in an emergency, but many apartments have central hot water or a tankless unit with nothing to drain.",
+      "how": "Look for a tall insulated cylinder in a closet, utility closet, basement or garage, and read its size in gallons from the label. A small wall-mounted box is a tankless heater and holds no usable water; if you find neither, the building supplies hot water centrally. In both those cases, skip the water-heater actions and store more water instead. If you rent and do have your own tank, ask the landlord to show you its power switch and cold-water valve before you ever need to drain it.",
+      "done": "You have found your tank and read its size in gallons from the label, or confirmed that your home has a tankless heater or central hot water.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "cites": [
+        "epa-disinfect"
+      ]
+    },
+    {
+      "id": "U4-27",
+      "level": 3,
+      "section": "Water heater",
+      "title": "Keep a draining kit beside the water heater",
+      "why": "Drawing water from a tank in the dark is far easier and safer when the tools are already within reach.",
+      "how": "Hang a bag on or beside the heater holding a flashlight, a flat screwdriver (many drain valves need one), a towel, thermal gloves or an oven glove, safety glasses and a few coffee filters for straining sediment. Keep a clean, sanitized bucket or container with it. Add a printed copy of the draining steps.",
+      "done": "A bag on or beside the heater holds a working flashlight, flat screwdriver, towel, gloves, safety glasses, coffee filters and the printed draining steps, beside a clean sanitized bucket.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "apartment": "Most apartments have central hot water or a tankless heater with nothing to drain; check which you have (X4-06).",
+      "products": [
+        "flashlight",
+        "eye-protection"
+      ],
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-28",
+      "level": 2,
+      "section": "Water heater",
+      "title": "Locate your water heater",
+      "why": "The tank is the largest store of water in most houses, and you cannot use it if you have never looked at it.",
+      "how": "Find the heater, usually in the basement, the garage or a utility closet. Note whether it is electric or gas (a gas heater has a gas pipe and a flue on top), and read its size in gallons from the label. Find three things on it: the cold-water inlet valve on top, the drain valve at the bottom and the relief valve on the side or top. Make sure it is the tank that feeds your hot faucets: never drink water from a heating boiler or radiators.",
+      "done": "You have pointed to the heater's cold-water inlet valve, drain valve and relief valve, and read its size in gallons from the label.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "apartment": "An apartment may have no tank of its own; check whether yours does before anything else (X4-06).",
+      "cites": [
+        "cdc-water-safe"
+      ],
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-29",
+      "level": 3,
+      "section": "Water heater",
+      "title": "Label the water heater's circuit breaker",
+      "why": "The heater's power must be off before the tank is drained, and in an emergency you need to find the right switch quickly.",
+      "how": "Open your electrical panel and find the breaker for the water heater, often a double-width one. If it is not labeled, switch it off, check that the heater has lost power, switch it back on and label it clearly. For a gas heater, find the control knob on the unit and note where the \"pilot\" setting is.",
+      "done": "The water heater's breaker is clearly labeled in the panel, or you can point to the pilot setting on a gas heater's control knob.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "apartment": "With central or tankless hot water there is no tank breaker to label; check which system you have (X4-06).",
+      "cites": [
+        "fema-food-water-booklet"
+      ],
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-30",
+      "level": 3,
+      "section": "Water heater",
+      "title": "Practice the steps for drawing water from the heater",
+      "why": "The order of the steps matters for safety, and walking through it once makes it possible to do under stress.",
+      "how": "Find the draining steps in your heater's manual or on its label, and walk through them once without draining the tank. They usually run: shut the water supply to the house; switch off the heater's breaker, or turn a gas heater's knob to \"pilot\"; close the cold-water valve on top of the heater; open a hot faucet to let air in; then open the drain valve at the bottom into a clean container. The water may be very hot, so let it cool and wear gloves and eye protection. Strain the first cloudy water through a coffee filter, and disinfect whatever you will drink. Refill the tank completely before turning the power or gas back on.",
+      "done": "You have walked through the draining steps from your heater's manual or label once, pointing to each valve and switch in order, without draining the tank.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "apartment": "A resident cannot drain a building's central hot water system; check whether your unit has its own tank (X4-06) and otherwise store more water.",
+      "cites": [
+        "epa-disinfect",
+        "fema-food-water-booklet"
+      ],
+      "cite_todo": "The FEMA and Red Cross booklet gives the order (power or gas off, drain open, intake valve closed, a hot tap open, refill before power) but not the \"pilot\" setting for a gas heater or the gloves and eye protection; those follow makers' manuals.",
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-31",
+      "level": 3,
+      "section": "Water heater",
+      "title": "Strap the water heater to the wall",
+      "why": "A tank that topples in an earthquake can break its gas and water connections and spill the water you were counting on.",
+      "how": "Fit two metal straps around the tank and fix each into the wall studs, following the instructions in the strap kit; hardware stores sell kits made for this. If you rent, ask the landlord to do it. Check once a year that the straps are still tight.",
+      "done": "Two metal straps are tight around the tank and fixed into the wall studs.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "region": {
+        "label": "Earthquake country",
+        "general": "Outside earthquake country a tank water heater does not need strapping; skip this action."
+      },
+      "apartment": "This applies only to a home with its own tank heater; with central or tankless hot water there is nothing to brace.",
+      "cites": [
+        "eca-secure"
+      ],
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-32",
+      "level": 3,
+      "section": "Water heater",
+      "title": "Flush the water heater once a year",
+      "why": "Flushing clears the sediment that settles at the bottom of the tank, so the water is cleaner if you ever need to drink it.",
+      "how": "Once a year, follow the maker's instructions for your model. In outline: switch off the power or set the gas to pilot, close the cold inlet, attach a hose to the drain valve, run it to a floor drain or outside where very hot water can do no harm, and drain until the water runs clear. Refill the tank fully before restoring power or gas, and write the date on a tag on the heater. If the drain valve is stiff or the tank is old, have a plumber do it.",
+      "done": "The tank has been flushed until the water ran clear and refilled, and the date is written on a tag on the heater.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "X4-06",
+      "apartment": "Central and tankless systems are maintained by the building or a technician, so there is nothing for a resident to flush.",
+      "cites": [
+        "epa-watersense-home-maintenance",
+        "cdc-waterborne-germs-home",
+        "fema-food-water-booklet"
+      ],
+      "toolkit_page": "71-73"
+    },
+    {
+      "id": "U4-33",
+      "level": 3,
+      "more": true,
+      "section": "Make water safe",
+      "title": "Practice distilling water with a pot and its lid",
+      "why": "Steam caught under an upturned pot lid gives a little water free of germs, salts and many metals, but not of fuel or every chemical.",
+      "how": "Fill a pot halfway with water. Tie a cup to the handle of the lid so it hangs right side up when the lid is turned upside down, and check that the cup does not touch the water. Boil for 20 minutes, then let it cool before lifting the lid; the water that dripped into the cup is distilled. It yields little water for a lot of heat, so treat it as a last resort. Some chemicals, including fuel, solvents and certain pesticides, boil off with the steam and end up in the cup, so never use this on water that may hold fuel or industrial chemicals. Use stored or bottled water for that.",
+      "done": "You have made one cup of distilled water with a pot, its upturned lid and a hanging cup.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "Distilling needs 20 minutes of steady heat, so in an all-electric kitchen it only works while the power is on; know the method but do not plan around it.",
+      "cites": [
+        "ready-water",
+        "cdc-home-water-treatment",
+        "cdc-water-safe"
+      ],
+      "cite_todo": "",
+      "toolkit_page": "73"
+    }
+  ]
+}

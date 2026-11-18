@@ -1,0 +1,438 @@
+{
+  "module": "md",
+  "title": "Money and Documents",
+  "intro": "Cash, papers and account access are what let you pay for a room, prove who you are and claim on insurance after an emergency. This module sets up small bills, copies of key documents and secure sign-ins. Everything you gather stays with you, on paper or in your own protected storage.",
+  "credit": "",
+  "actions": [
+    {
+      "id": "MD-01",
+      "level": 1,
+      "section": "Cash and ways to pay",
+      "title": "Set aside emergency cash in small bills",
+      "why": "Card readers, cash machines and phone payments stop working when the power or the network is down.",
+      "how": "Official guides give no single figure. This site's rule is three days of food and local transport for your household plus one night's lodging. If that is out of reach, start with $200 in small bills and add to it. Keep it in $1, $5, $10 and $20 bills, split between your document pouch and a second place at home. Stores may not be able to give change, which is why the bills are small. Keep the pouch's share in a sealed envelope. If you have a second home, keep a sealed envelope of cash there too.",
+      "done": "Emergency cash in small bills is split between your document pouch and a second place at home, with a sealed envelope at any other home.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "calc": "cash",
+      "cites": [
+        "ready-financial",
+        "fema-effak"
+      ]
+    },
+    {
+      "id": "MD-02",
+      "level": 1,
+      "section": "Copies and storage",
+      "title": "Copy your ID for the bag",
+      "why": "If you leave in a hurry, copies of ID help you check into a hotel, collect medicines and apply for help while the originals are out of reach.",
+      "how": "For each person, photocopy the front and back of their photo ID, the first two pages of their passport, their birth certificate and their health insurance card. Tick each one off by hand on the printable document checklist. Put the copies in the document pouch (see MD-04) and leave the originals in their usual safe place. A copy of a Social Security card goes in the fire chest at home, never in the pouch; the card itself stays at home too.",
+      "done": "For each person, the copies are ticked on the document checklist and are in the document pouch, with any Social Security card copy in the fire chest at home.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "ready-financial"
+      ]
+    },
+    {
+      "id": "MD-03",
+      "level": 1,
+      "section": "Copies and storage",
+      "title": "Scan key documents into protected storage",
+      "why": "A protected digital copy survives a fire, a flood or a lost bag and can be reached from anywhere.",
+      "how": "Scan or photograph every document on your printable document checklist, plus your insurance policies and lease, check that each image is readable, and tick it off by hand. Save them in one of two places, or both: an encrypted USB drive kept in your document pouch, or a cloud storage account protected by a long unique password and multi-factor sign-in (see MD-08). Do not leave the only copies loose in your phone's photos or in email. Add the family photos you could not replace.",
+      "done": "Every document on the document checklist is ticked as scanned and readable, and the scans are on an encrypted USB drive in your pouch or in protected cloud storage.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "usb-drive-encrypted",
+        "document-pouch"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "cisa-secure",
+        "ready-financial"
+      ]
+    },
+    {
+      "id": "MD-04",
+      "level": 1,
+      "section": "Copies and storage",
+      "title": "Keep paper copies in a water-resistant pouch",
+      "why": "Paper works with no battery or signal, but only if it stays dry and you can find it in the dark.",
+      "how": "Put your ID copies (not a Social Security card copy, which stays in the fire chest at home), your filled-in emergency numbers sheet and medication list, proof of address, insurance claim phone numbers and your cash into one water-resistant zip pouch. Keep the pouch with your grab bag by the door, and wear it on your body when you leave, never inside the bag. Do not put passwords or PINs in it. Keep any second set of copies in a fire chest at home or with a person you trust.",
+      "done": "The pouch holds your ID copies, emergency numbers sheet, medication list, proof of address, insurance claim numbers and cash, and sits with your grab bag by the door.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "products": [
+        "document-pouch"
+      ],
+      "cites": [
+        "fema-effak"
+      ]
+    },
+    {
+      "id": "MD-05",
+      "level": 2,
+      "scope": "home",
+      "section": "Insurance and proof",
+      "title": "Check what your renters or contents insurance covers",
+      "why": "The building's own policy does not pay for your belongings or for somewhere to stay if your home cannot be lived in.",
+      "how": "For this home, find your policy, or ask an insurer for a quote if you have none, and check three things: the amount for your contents, whether it pays extra living costs if you have to move out (often called 'additional living expenses' or 'loss of use'), and what it excludes. Flood and earthquake damage are usually excluded and need separate coverage. Write the insurer, its claims phone number and, only if you need it, the last four digits of the policy number by hand on the printable insurance and legal list, and keep it with your papers.",
+      "done": "This home's contents limit, living-elsewhere limit and main exclusions are written on the insurance and legal list.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "insurance-legal",
+      "cites": [
+        "fema-effak",
+        "iii-inventory",
+        "preparedbc-apartments"
+      ]
+    },
+    {
+      "id": "MD-06",
+      "level": 2,
+      "scope": "home",
+      "section": "Insurance and proof",
+      "title": "Film your home, room by room",
+      "why": "A claim is settled faster and more fully when you can show what you owned and what condition it was in.",
+      "how": "Walk through every room of this home filming slowly with your phone, open each cabinet, drawer and closet, and say aloud what the larger items are and roughly when you bought them. Hold the camera on the model and serial labels of electronics and appliances. List your few highest-value items by hand on the printable belongings catalog. Save the video in the same protected storage as your scanned documents (MD-03), not only on the phone. For each item on the catalog, write the make and model, the serial number, where and when you bought it and what you paid, and tick the box once you have a photo and the receipt. Keep a copy of the sheet and the video away from home, for example with your out-of-area contact. Tick the home inventory line on the Document checklist.",
+      "done": "A room-by-room video of this home and its belongings catalog are saved away from it.",
+      "apartment": "If you rent, the landlord's insurance covers the building and not your things, so this list is what a renters or contents claim is built from.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "belongings-catalogue",
+      "cites": [
+        "iii-inventory",
+        "fema-effak"
+      ]
+    },
+    {
+      "id": "MD-07",
+      "same_as": "U2-22",
+      "level": 2,
+      "section": "Insurance and proof",
+      "title": "Keep proof that you live at your address",
+      "why": "Aid programs and insurers often ask for proof that the damaged address is your home before they pay.",
+      "how": "Find your signed lease or, if you own, your deed or mortgage statement. If you have neither, use a recent utility bill or official letter that shows your name and address. Put a paper copy in your document pouch, add a scan to your protected storage, and tick it off by hand on the printable document checklist. Swap the bill for a newer one at each annual review.",
+      "done": "A paper copy of your lease, deed or a recent bill is in your document pouch, a scan is in protected storage, and the document checklist is ticked.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "fema-effak",
+        "fema-disaster-assistance"
+      ]
+    },
+    {
+      "id": "MD-08",
+      "level": 2,
+      "section": "Accounts and access",
+      "title": "Use a password manager and multi-factor sign-in",
+      "why": "After losing a phone or a home you may have to sign in to your bank, insurer and email from a new device, and weak or reused passwords are how accounts get taken over.",
+      "how": "Install a password manager and protect it with one long passphrase that you memorize and use nowhere else. Let it create a different random password for every account, starting with email, banking and cloud storage. On those same accounts, turn on multi-factor sign-in, choosing an authenticator app or a hardware security key over text-message codes where you can. Never write passwords, PINs or full account numbers on any worksheet.",
+      "done": "Email, banking and cloud storage each have a unique password and multi-factor sign-in.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "cisa-secure",
+        "fema-effak"
+      ]
+    },
+    {
+      "id": "MD-09",
+      "level": 2,
+      "section": "Accounts and access",
+      "title": "Print your recovery codes and keep them in your fire chest",
+      "why": "If your phone is lost or dead, backup codes are the way back into accounts protected by multi-factor sign-in.",
+      "how": "In the security settings of your email, cloud storage, password manager and bank, find 'backup codes' or 'recovery codes' and print them, or copy them out by hand. Label the sheet with the service name only, never the password, and keep it in your fire chest at home, never in the document pouch, which leaves with you. Most backup codes replace only the second sign-in step, so they are of little use to a thief who does not also have the password. Print a fresh set whenever you use one or change phones.",
+      "done": "Current recovery codes for your email, cloud storage, password manager and bank are printed and in your fire chest at home.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "fire-chest"
+      ],
+      "cite_todo": "Official guidance on keeping multi-factor backup or recovery codes offline (for example from CISA or NIST); cisa-secure covers multi-factor sign-in but not backup codes."
+    },
+    {
+      "id": "MD-10",
+      "level": 1,
+      "section": "Accounts and access",
+      "title": "Fill in your phone's emergency medical ID and contacts",
+      "why": "Responders can read a medical ID from a locked phone when you cannot speak for yourself.",
+      "how": "Open your phone's settings and search for 'Medical ID', 'Emergency information' or 'Safety and emergency'. Enter your name, allergies, conditions and regular medicines, add two emergency contacts, and switch on the option that shows it on the lock screen. Anyone holding the phone can read it, so enter only what you are content to share. Do the same on every phone in the household.",
+      "done": "Every phone in the household shows a medical ID and emergency contacts on the lock screen.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "aap-family-kit"
+      ]
+    },
+    {
+      "id": "MD-11",
+      "level": 3,
+      "section": "Accounts and access",
+      "title": "Set up who can act for you, who your bank can call, and who gets access after a death",
+      "why": "If you are in the hospital or out of contact, someone has to be able to pay the rent, deal with the insurer and find your records, and no single setting does all of that.",
+      "how": "These are three separate jobs, and one does not do another's work. If you cannot act: a power of attorney for money is what gives someone the legal authority to make financial decisions for you (MD-16), so ask each bank how it puts yours on file, and set up your password manager's emergency-access feature in place of sharing a login. For fraud concerns: name a trusted contact on each bank or investment account that offers one; the firm may call that person if it cannot reach you or suspects fraud, but a trusted contact cannot move money or act for you. After a death: set the legacy contact or inactive-account option on your main email and phone accounts; it opens nothing while you are alive and active, so it is no help with a lost phone or a stay in the hospital. Tell the people you have named where your fire chest and document pouch are, and give them, or your lawyer, a sealed envelope listing which accounts exist, with no passwords in it.",
+      "done": "Three separate things are in place: a power of attorney or the bank's own authority form so that someone can act if you cannot, a trusted contact on each account that offers one for fraud concerns only (a trusted contact cannot move money or act for you), and each main account's legacy or inactive-account setting for after a death.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "cfpb-diminished-capacity",
+        "sec-finra-trusted-contact",
+        "apple-legacy-contact",
+        "google-inactive-account",
+        "fema-effak",
+        "investor-trusted-contact"
+      ]
+    },
+    {
+      "id": "MD-12",
+      "level": 3,
+      "section": "Bills, scams and recovery",
+      "title": "List your automatic payments and due dates",
+      "why": "Rent, loans and card bills stay due after a disaster, and missed payments add fees and damage your credit.",
+      "how": "Go through your last two months of bank and card statements and find every automatic payment and regular bill. On the printable bank and bills list, write by hand each institution, its phone number and only the last four digits of the account, then each payment with its amount and the day it leaves. Never write full account numbers, PINs or passwords on the sheet. If your income stops or you are displaced, call each lender early and ask about hardship arrangements before a payment is missed.",
+      "done": "Every automatic payment and regular bill is on the bank and bills list with its due day.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "bank-list",
+      "cites": [
+        "fema-effak",
+        "cfpb-disasters"
+      ]
+    },
+    {
+      "id": "MD-13",
+      "level": 2,
+      "section": "Cash and ways to pay",
+      "title": "Carry a second way to pay",
+      "why": "One lost card, one blocked account or one failed payment network should not leave you unable to buy food or a room.",
+      "how": "Keep one debit or credit card from a different bank or card network apart from your wallet, for example in the document pouch. Check once a year that it has not expired and that you know its PIN from memory. Treat phone payments as a third option only, since they need battery and signal, and keep your cash (MD-01) for when nothing electronic works.",
+      "done": "A card from a second bank or network is kept apart from your wallet, and you can enter its PIN from memory.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "cites": [
+        "ready-financial"
+      ]
+    },
+    {
+      "id": "MD-14",
+      "level": 3,
+      "section": "Bills, scams and recovery",
+      "title": "Learn the common disaster scams",
+      "why": "Fraud rises after every disaster and is aimed at people who are tired, displaced and waiting for money.",
+      "how": "Know these rules. Government disaster workers never charge a fee to apply for help or to inspect your home, and they carry photo ID that you can ask to see. Nobody honest insists on payment by gift card, wire transfer, cryptocurrency or cash up front, so treat that demand as the mark of a scam. Before paying any contractor, landlord or charity, look up their phone number yourself and call it; do not rely on a number or link in a message.",
+      "done": "Every adult has read the warning signs once and the household has agreed one rule: nobody pays or gives details to anyone who contacted you first.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "ftc-disaster-scams",
+        "fema-effak",
+        "fema-disaster-assistance"
+      ]
+    },
+    {
+      "id": "MD-15",
+      "level": 3,
+      "section": "Bills, scams and recovery",
+      "title": "Know what to do if cards or ID are lost",
+      "why": "Reporting a missing card quickly limits what a thief can spend and what you can be held liable for.",
+      "how": "Call the card issuer right away on the number from your paper bank and bills list and ask for the card to be blocked and replaced. In the United States, reporting a lost debit card within two business days keeps your liability low, so do not wait to see whether it turns up. Then ask one of the national credit bureaus to place a free fraud alert, and replace each ID through the agency that issued it. Check your statements for the next few months for payments you do not recognize.",
+      "done": "Each card issuer's lost-card number is on the bank and bills list, with the web address for placing a fraud alert.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "cites": [
+        "fema-effak",
+        "cfpb-disasters"
+      ]
+    },
+    {
+      "id": "MD-16",
+      "see_plan": "legal",
+      "level": 3,
+      "section": "Legal papers and review",
+      "title": "Put your legal papers in order",
+      "why": "A will, a power of attorney and an advance directive let the people you choose act for you without delay or a court.",
+      "how": "Arrange three documents: a will, a durable power of attorney for money matters, and an advance directive or health-care proxy saying who decides your medical care. Use a lawyer or your area's legal aid service, since the rules differ by state and country. Give copies of the advance directive to your doctor and your usual hospital, keep the originals in a fire chest at home or with the lawyer, and tell the people you have named where they are. Note where each paper is kept, by hand, on the printable legal papers list.",
+      "done": "Your will, power of attorney and advance directive are signed as your local law requires, your doctor and hospital hold copies of the directive, and the legal papers list says where each is kept.",
+      "cost": "high",
+      "time": "afternoon",
+      "minutes": 180,
+      "effort": "most",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "legal-papers",
+      "cites": [
+        "fema-effak"
+      ],
+      "products": [
+        "fire-chest"
+      ]
+    },
+    {
+      "id": "MD-17",
+      "level": 3,
+      "scope": "home",
+      "section": "Insurance and proof",
+      "title": "Ask about flood insurance if your home could flood",
+      "why": "Ordinary renters and home policies almost never pay for flood damage.",
+      "how": "Look up this home's address on FEMA's flood map, and count it at risk if it is on a ground floor or in a basement unit, or if you keep belongings in a basement storage locker. Ask your insurer or agent for a quote for flood insurance; renters can buy a policy for contents alone. Buy it well before storm season, because many flood policies take effect only 30 days after you buy them.",
+      "done": "This home's address has been looked up on FEMA's flood map, and you either hold a flood policy for it or have a quote in hand and your written reason for declining it on the insurance and legal list.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "cites": [
+        "fema-flood-insurance",
+        "fema-effak"
+      ]
+    },
+    {
+      "id": "MD-18",
+      "level": 3,
+      "section": "Bills, scams and recovery",
+      "title": "Keep receipts and photos after an emergency",
+      "why": "Insurers and aid programs pay on evidence, and the evidence is easiest to collect in the first days.",
+      "how": "Photograph or film all damage before you clean up or throw anything away, and keep damaged items until the insurer says you may discard them. Put every receipt for lodging, meals, transport, repairs and replacement items into one envelope. Keep a log of each call to an insurer, landlord or agency with the date, the person's name and what was agreed. Report the claim as soon as you safely can, and if a federal disaster is declared in the United States, also apply at DisasterAssistance.gov.",
+      "done": "A note reading “photograph damage, keep receipts, log every call” is clipped to the insurance and legal list.",
+      "cost": "free",
+      "time": "ongoing",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "fema-disaster-assistance",
+        "cfpb-disasters",
+        "iii-inventory"
+      ]
+    },
+    {
+      "id": "MD-19",
+      "level": 3,
+      "section": "Legal papers and review",
+      "title": "Do the annual review",
+      "why": "Phone numbers, policies, medicines, children's sizes and expiry dates all drift out of date within a year.",
+      "how": "Pick a date you will remember, such as a birthday, tax time or the day the clocks change, and put it in your calendar every year. Print the annual review sheet and work down it by hand: contact cards and lists, document copies and scans, insurance cover, cash, medication lists and dates, food and water dates, batteries and power banks, bag contents and clothing sizes, building information and your floor list. Replace or update anything out of date, then mark this action done.",
+      "done": "The annual review sheet is worked through to the last line, and next year's review date is in your calendar.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 60,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "worksheet": "annual-review",
+      "cites": [
+        "fema-effak",
+        "preparedbc-apartments"
+      ]
+    }
+  ]
+}

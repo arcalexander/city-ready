@@ -1,0 +1,275 @@
+{
+  "note": "The side door \"Holy shit, the sky is falling\": one evening and one store run, sized for three days at home. It is not a section and is counted nowhere. Each line points at the action or actions that own its job: `ids` are the actions the line's tick box stands for (the line is ticked when all of them are, and ticking it ticks them); `also` are actions it links to for a condition some homes do not have, which its tick leaves alone. A line with no `ids` has no box. `only` hides a line for a household whose setup says it does not apply (otherwise a line is hidden when none of its actions apply); with no setup every line shows, and `cold` is its wording then, with the condition in words. `buy` names products: the page links each one's Standard pick, or its only pick, with its price, and prints no tier names. `dont` lines have no boxes; `from` is the action whose rule and sources a line takes, and `own` marks this site's own advice.",
+  "checked": "2026-11-17",
+  "title": "Holy shit, the sky is falling",
+  "short": "Sky is falling",
+  "door": "Saw something frightening online? One evening and one store run, sized for three days at home.",
+  "open": "You saw something frightening. This site cannot tell you whether it is true. It can tell you where a real warning would come from, and what is worth doing tonight either way.",
+  "parts": [
+    {
+      "id": "check",
+      "title": "First 10 minutes: check it",
+      "lines": [
+        {
+          "id": "sky-01",
+          "text": "Look where a real warning would come from: your power company's outage page, your city or county alerts, the National Weather Service. Not the post.",
+          "ids": [],
+          "cites": [
+            "ready-alerts",
+            "nws-wea",
+            "fema-wea-phone"
+          ]
+        },
+        {
+          "id": "sky-02",
+          "text": "Turn on emergency alerts on every phone and sign up for your city's.",
+          "ids": [
+            "U2-10",
+            "U2-09"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tonight",
+      "title": "Tonight at home",
+      "sub": "Free, about an hour.",
+      "lines": [
+        {
+          "id": "sky-03",
+          "text": "Charge every phone, power bank and laptop.",
+          "ids": [
+            "PL-13"
+          ]
+        },
+        {
+          "id": "sky-04",
+          "text": "Fill every clean bottle, pitcher and pot you have with tap water. This covers you until you get to the store.",
+          "ids": [
+            "U2-32",
+            "U4-14"
+          ]
+        },
+        {
+          "id": "sky-05",
+          "text": "Put a flashlight and shoes beside every bed.",
+          "ids": [
+            "U6-22"
+          ]
+        },
+        {
+          "id": "sky-06",
+          "text": "Count your medications. Refill anything with under a week left. If one needs a fridge or a machine needs power, ask your doctor or pharmacist tomorrow what to do in an outage.",
+          "ids": [
+            "FN-11",
+            "FN-12"
+          ],
+          "also": [
+            "X7-02",
+            "U2-106"
+          ]
+        },
+        {
+          "id": "sky-07",
+          "text": "Pick one out-of-area contact, text them, and write the family's numbers on paper.",
+          "ids": [
+            "U2-02",
+            "CM-02"
+          ]
+        },
+        {
+          "id": "sky-08",
+          "text": "Put water bottles in the freezer. If the power goes out, keep the fridge and freezer shut: a closed fridge keeps food safe for up to 4 hours, a full freezer for about 2 days.",
+          "ids": [
+            "U4-08",
+            "U3-01"
+          ],
+          "cites": [
+            "foodsafety-outage"
+          ]
+        },
+        {
+          "id": "sky-09",
+          "text": "If you park in a garage, find out how the car gets out with no power.",
+          "ids": [
+            "HR-21"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "store",
+      "title": "One store run tomorrow",
+      "lines": [
+        {
+          "id": "sky-10",
+          "text": "Battery lanterns or headlamps, and spare batteries.",
+          "ids": [
+            "PL-07",
+            "PL-08",
+            "PL-09"
+          ],
+          "buy": [
+            "lantern",
+            "headlamp",
+            "batteries-disposable"
+          ]
+        },
+        {
+          "id": "sky-11",
+          "text": "A power bank for each phone.",
+          "ids": [
+            "PL-02"
+          ],
+          "buy": [
+            "power-bank"
+          ]
+        },
+        {
+          "id": "sky-12",
+          "text": "Bottled water: 3 gallons for each person. Two 24-packs covers two adults. What you filled last night is a bonus.",
+          "set": "Bottled water: 3 gallons for each person. {packs} for your household of {people}. What you filled last night is a bonus.",
+          "ids": [
+            "U4-11",
+            "X4-08"
+          ],
+          "buy": [
+            "water-sealed-bottled"
+          ],
+          "water": {
+            "gallons_per_person": 3,
+            "pack_gallons": 3.17,
+            "pack": "24-pack",
+            "note": "Three gallons is the site's 1 gallon a person a day for three days. A 24-pack of 16.9-ounce bottles is 405.6 ounces, about 3.2 gallons."
+          }
+        },
+        {
+          "id": "sky-13",
+          "text": "Three days of food you already eat that needs no cooking and no refrigeration, and a manual can opener.",
+          "ids": [
+            "X3-01"
+          ],
+          "buy": [
+            "manual-can-opener"
+          ]
+        },
+        {
+          "id": "sky-14",
+          "text": "A battery radio.",
+          "ids": [
+            "U2-40",
+            "CM-11"
+          ],
+          "buy": [
+            "emergency-radio"
+          ]
+        },
+        {
+          "id": "sky-15",
+          "text": "A carbon monoxide alarm with battery backup, if anything in your home burns gas.",
+          "ids": [
+            "HC-22"
+          ],
+          "buy": [
+            "co-alarm"
+          ]
+        },
+        {
+          "id": "sky-16",
+          "text": "Fill the gas tank.",
+          "cold": "If you have a car: fill the gas tank.",
+          "ids": [
+            "BG-22"
+          ]
+        },
+        {
+          "id": "sky-17",
+          "text": "Take out some cash in small bills.",
+          "ids": [
+            "MD-01"
+          ]
+        },
+        {
+          "id": "sky-18",
+          "text": "If you have a baby: formula and diapers for three days.",
+          "ids": [
+            "FN-01",
+            "FN-02"
+          ]
+        },
+        {
+          "id": "sky-19",
+          "text": "If you have a pet: food and litter for three days.",
+          "ids": [
+            "FN-22"
+          ]
+        },
+        {
+          "id": "sky-20",
+          "text": "If you live above the ground floor: a box of heavy trash bags, in case the toilet stops refilling.",
+          "ids": [
+            "X5-02",
+            "X5-03"
+          ],
+          "only": {
+            "home": [
+              "lowrise",
+              "highrise"
+            ]
+          },
+          "buy": [
+            "trash-bags-contractor"
+          ]
+        }
+      ]
+    }
+  ],
+  "dont": {
+    "title": "Do not",
+    "lines": [
+      {
+        "id": "sky-no-1",
+        "text": "Buy a generator for an apartment, or run one indoors or in a garage, ever.",
+        "from": "PL-04",
+        "reason": "Generator exhaust contains carbon monoxide, a gas you cannot see or smell."
+      },
+      {
+        "id": "sky-no-2",
+        "text": "Heat your home with an oven, or cook indoors on a grill or camp stove.",
+        "from": "HC-18",
+        "also_from": "X3-04",
+        "reason": "Anything that burns fuel gives off carbon monoxide, which builds up unseen in a closed room."
+      },
+      {
+        "id": "sky-no-3",
+        "text": "Light the place with candles.",
+        "from": "PL-07",
+        "reason": "Candles start thousands of home fires every year."
+      },
+      {
+        "id": "sky-no-4",
+        "text": "Store gasoline in your home.",
+        "reason": "The U.S. Fire Administration says to store gasoline in a shed away from your home.",
+        "cites": [
+          "usfa-basement-garage"
+        ]
+      },
+      {
+        "id": "sky-no-5",
+        "text": "Buy six months of freeze-dried food tonight, or empty your bank account.",
+        "own": true
+      },
+      {
+        "id": "sky-no-6",
+        "text": "Repost it.",
+        "own": true
+      }
+    ]
+  },
+  "close": {
+    "title": "Then stop",
+    "text": "You're set for three days at home. The rest can wait until you've slept.",
+    "link": "It's in 72 hours at home.",
+    "section": "h72"
+  }
+}

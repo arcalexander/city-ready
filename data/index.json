@@ -1,0 +1,24 @@
+{
+  "note": "Manifest of every data file the site loads. Add a file here and it appears on the site; no code changes needed. `scope` says whether a module's actions are ticked once per home (building-dependent) or once per household; `sections` lists the exceptions. `plan` lists the Legal, Money and Medical checklists.",
+  "modules": [
+    {"code": "bg", "name": "Bags", "files": ["actions/bg.json"], "scope": "household"},
+    {"code": "u4", "name": "Water", "files": ["actions/u4.json"], "scope": "home"},
+    {"code": "u3", "name": "Food", "files": ["actions/u3.json"], "scope": "home"},
+    {"code": "u5", "name": "Waste and Hygiene", "files": ["actions/u5.json"], "scope": "home"},
+    {"code": "pl", "name": "Power and Light", "files": ["actions/pl.json"], "scope": "home"},
+    {"code": "hc", "name": "Heat and Cold", "files": ["actions/hc.json"], "scope": "home"},
+    {"code": "ar", "name": "Air", "files": ["actions/ar.json"], "scope": "home"},
+    {"code": "u7", "name": "First Aid", "files": ["actions/u7.json"], "scope": "household"},
+    {"code": "hr", "name": "High-Rise and Apartment", "files": ["actions/hr.json"], "scope": "home"},
+    {"code": "u6", "name": "Shelter", "files": ["actions/u6.json"], "scope": "home", "sections": {"The toolkit's grab bag": "household"}},
+    {"code": "u2", "name": "Your Emergency Plan", "files": ["actions/u2a.json", "actions/u2b.json"], "scope": "household", "sections": {"Home safety map": "home", "Gather supplies": "home", "Hygiene and health supplies": "home", "Comfort": "home"}},
+    {"code": "md", "name": "Money and Documents", "files": ["actions/md.json"], "scope": "household"},
+    {"code": "cm", "name": "Staying in Touch", "files": ["actions/cm.json"], "scope": "household"},
+    {"code": "fn", "name": "Family Needs", "files": ["actions/fn.json"], "scope": "household"},
+    {"code": "nb", "name": "Neighbors and Building", "files": ["actions/nb.json"], "scope": "home"},
+    {"code": "u8", "name": "Official Help and Alerts", "files": ["actions/u8.json"], "scope": "household"},
+    {"code": "u1", "name": "Preparing to Prepare", "files": ["actions/u1.json"], "scope": "household", "sections": {"Measure what you really use": "home", "Test your home and yourselves": "home"}}
+  ],
+  "products": ["products/bags-a.json", "products/bags-b.json", "products/bags-c.json", "products/water-a.json", "products/water-b.json", "products/waste-a.json", "products/waste-b.json", "products/power-a.json", "products/power-b.json", "products/home-a.json", "products/home-b.json"],
+  "plan": ["plan/legal.json", "plan/money.json", "plan/medical.json"]
+}

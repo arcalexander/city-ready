@@ -1,0 +1,1228 @@
+{
+  "batch": "power-a",
+  "checked": "2026-11-14",
+  "items": [
+    {
+      "id": "power-bank",
+      "module": "power",
+      "name": "USB power bank for phones",
+      "need": "A charged power bank keeps a phone working for calls, alerts and maps for several days when the wall outlets are dead.",
+      "how_to_choose": "For a phone, 10,000 mAh gives roughly two full charges and fits in a pocket; 20,000 to 27,000 mAh gives more but weighs a pound or more. Stay under 100 Wh so it can go in airline carry-on, and look for USB-C Power Delivery of 20 W or more. Before buying any power bank, check the exact model number against CPSC recalls: millions of units from well-known brands were recalled in 2024 to 2026. Avoid no-name banks sold only through marketplaces, which make up most of the recent recalls.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One for each adult and teenager aged 14 or over who carries a phone. Add one for a younger child who carries a phone."
+      },
+      "already_own": "A power bank you already own is fine if it is not on a recall list, is not swollen, cracked or hot when charging, and still charges your phone at least once. Look up the model number printed on the case at cpsc.gov/Recalls and on the maker's recall page. Recharge it every three months.",
+      "safety_notes": [
+        {
+          "text": "Buy batteries and battery products that are listed by a nationally recognized testing laboratory. Use the charging equipment supplied with or made for the device, and stop charging once the battery is full.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "Stop using a lithium-ion battery if you notice an odor, a change in color or shape, too much heat, leaking or odd noises. Store spare batteries at room temperature, away from anything that can burn. Do not put them in the trash; take an ordinary used one to a battery recycling location. A damaged or recalled one is handled differently: see the next two notes.",
+          "source_name": "US Fire Administration",
+          "source_title": "Battery Fire Safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+          "verified": true
+        },
+        {
+          "text": "Do not store batteries where they would block the only way out of a room.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "On aircraft, power banks count as spare lithium batteries: carry-on only, never in checked bags. Up to 100 Wh needs no approval. From 101 to 160 Wh you need airline approval and may carry two at most. Airlines may set stricter limits.",
+          "source_name": "FAA",
+          "source_title": "PackSafe - Lithium Batteries",
+          "url": "https://www.faa.gov/hazmat/packsafe/lithium-batteries",
+          "verified": true
+        },
+        {
+          "text": "A recalled lithium power bank does not go in the trash, in curbside recycling or in a store's battery box, because it is a greater fire risk than an ordinary used battery. Follow the recall notice, and ask your local household hazardous-waste center whether it takes recalled lithium batteries before you carry one there. Treat a damaged power bank (swollen, cracked, leaking or hot) the same way.",
+          "source_name": "CPSC",
+          "source_title": "More than One Million Anker Power Banks Recalled Due to Fire and Burn Hazards",
+          "url": "https://www.cpsc.gov/Recalls/2025/More-than-One-Million-Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations",
+          "verified": true
+        },
+        {
+          "text": "If a lithium-ion battery is damaged, ask the maker of the battery or the device how to handle it. Lithium-ion batteries, and devices that contain them, do not go in household trash or recycling bins.",
+          "source_name": "EPA",
+          "source_title": "Used Lithium-Ion Batteries",
+          "url": "https://www.epa.gov/recycle/used-lithium-ion-batteries",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Anker has recalled power banks three times since 2024: the PowerCore 10000, model A1263 (CPSC recall 25-338, June 12, 2025); models A1647, A1652, A1257, A1681 and A1689 (25-466, September 18, 2025); and models A1642, A1647 and A1652 (25-011, October 17, 2024). Check the model number on any Anker power bank you own.",
+        "Belkin recalled its BPB002 and PB0003 power banks and its MMA008 charging stand for fire and burn hazards (CPSC recall 26-090, November 13, 2025).",
+        "Power banks sold under INIU, Baseus, Casely, ESR, iWALK, iStore, Isla Rae, VEEKTOMX, Charmast, myCharge, IKEA and other names were also recalled from 2024 to 2026: look up the model number of any power bank you own at cpsc.gov/Recalls.",
+        "None of these picks' maker pages states a UL 2056 listing, and no tested power bank with a listing stated on its maker's page was found at any tier: look for a UL or ETL mark on the power bank or its box."
+      ],
+      "research_note": "Second brand lead (not added): Popular Science's Oct 2026 round-up also names UGREEN Nexode 25,000 mAh 145 W ($79.99, best for laptops) and UGREEN Nexode 20,000 mAh 130 W PB721. A search of the CPSC recall data (saferproducts.gov, 2024 to 2026, searched 'power bank', 'ugreen', 'nitecore') found no UGREEN or Nitecore recall; recalls found included Anker, Belkin, INIU, Baseus, ESR, Casely and others. UGREEN's own product page for the 145 W model only gave a where-to-buy stub with no specs or price, so it was not added. Brands with 2025-2026 CPSC recalls (Belkin, INIU, Anker) are not clean. 2026-11-15 (audit fixes): CPSC recall 25-466 page, CPSC recall 25-338 page, USFA battery page and EPA used lithium-ion batteries page opened again for the disposal notes; Anker A1637 page opened again (0.55 lb, 36 Wh, $52.99, in stock; it names IEC 62368 temperature limits only, no UL or ETL). Old item_flags (2026-11-16 alignment): CPSC recall 25-338 (June 12, 2025): about 1,158,000 Anker PowerCore 10000 power banks, model A1263 only, sold 2016 to 2022. Fire and burn hazard. https://www.cpsc.gov/Recalls/2025/More-than-One-Million-Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations | CPSC recall 25-466 (September 18, 2025): about 481,000 Anker power banks, models A1647, A1652, A1257, A1681 and A1689 (the last two are 20K Zolo models). Fire and burn hazard. Seen in the CPSC recall listing on 2026-11-14. | CPSC recall 25-011 (October 17, 2024): Anker power banks A1642, A1647 and A1652, about 2,100 units. https://www.cpsc.gov/Recalls/2025/Anker-Power-Banks-Recalled-Due-to-Fire-and-Burn-Hazards-Manufactured-by-Anker-Innovations | CPSC recall 26-090 (November 13, 2025): Belkin power banks BPB002 and PB0003 and charging stand MMA008, about 83,500 units. https://www.cpsc.gov/Recalls/2026/Belkin-Recalls-Portable-Power-Banks-and-Wireless-Charging-Stands-Due-to-Fire-and-Burn-Hazards | Other power bank recalls in the CPSC listing, 2024 to 2026: INIU BI-B41 10,000 mAh (December 5, 2025, about 210,000 units); Baseus 65W 30,000 mAh BS-30KP365 (May 1, 2025); Casely E33A wireless power banks (April 2025, re-announced April 16, 2026 after a death was reported); ESR HaloLock (August and October 2025); iWALK and iStore magnetic power banks (2025); Isla Rae (January 8, 2026); VEEKTOMX mini (April 9, 2026); Super Off-Road solar power bank (June 25, 2026); Flaunt MagSafe chargers (July 9, 2026); XO Poppy Power Trip (September 3, 2026); NEWDERY (September 24, 2026); HAIARA W5 PRO (October 29, 2026); Belkin BPD005 (December 5, 2024); Charmast W1056 (December 19, 2024); IKEA VARMFRONT and myCharge POWER HUB (2024). | All three picks here are Anker models. None of their model numbers (A1688, A1637, A1695) appears in any CPSC recall as of 2026-11-14, but Anker has had three power bank recalls since 2024. Check the model and serial number of any Anker power bank you own. | The maker's pages for the three picks do not state a UL 2056 listing. Look for a UL or ETL mark on the product or its box before relying on it. 2026-11-16: two web searches for a power bank whose maker's page states UL 2056 returned only supplier and promotional pages, no tested brand-name pick.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "Anker",
+          "model": "Zolo Power Bank (10K, 30W, Built-In USB-C Cable)",
+          "model_number": "A1688",
+          "size": "10,000 mAh; about 36 to 38 Wh (estimate from 10,000 mAh at 3.6 to 3.85 V, the maker page does not state Wh); 30 W USB-C output, 20 W input; built-in 5.4 in USB-C cable plus one USB-C and one USB-A port; weight not stated on the maker page. Pass-through: supported at up to 5 V 3 A, though the maker advises against charging a phone while the bank itself is charging. Refills in about 2.5 hours from a 20 W charger. Under 100 Wh, so allowed in airline carry-on.",
+          "unit_size": 1,
+          "unit_label": "power bank",
+          "price_usd": 29.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock)",
+          "why": "Named best budget power bank by Popular Science in October 2026. It has a built-in cable, so there is nothing to forget, and enough output to fast-charge a phone.",
+          "weakness": "It comes from the same Zolo line as two 20,000 mAh models recalled in 2025, so check the model number is A1688 when it arrives; an iPhone 14 or older needs a separate Lightning cable.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a1688",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $29.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0CZ9M6X8Q",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker 10,000 mAh 30 W power bank, $29.99, in stock. ASIN seen in a web search result that gave the model number as A1688. Confirm the model number on the listing before buying."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Old link_note: Weight and watt-hours are not given on Anker's product or support pages; the Wh figure above is an estimate. The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box. Safety listing check 2026-11-16 (WebFetch of the maker page): no UL 2056, UL 2743 or ETL listing stated.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Zolo Power Bank (10K, 30W) with a 5.4-inch (13.7 cm) built-in USB-C cable",
+              "url": "https://www.anker.com/products/a1688",
+              "verified": true,
+              "supports": "Price, 10,000 mAh capacity, 30 W output, built-in cable, pass-through behavior, recharge time."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker support",
+              "title": "Anker Zolo Power Bank (10K, 30W, Built-In USB-C Cable)",
+              "url": "https://service.anker.com/product-description/a08J1000000XpdWIAS",
+              "verified": true,
+              "supports": "Model number A1688, port list, 20 W input, output voltages."
+            },
+            {
+              "type": "test_publication",
+              "name": "Popular Science",
+              "title": "The best portable chargers",
+              "url": "https://www.popsci.com/gear/best-portable-chargers/",
+              "verified": true,
+              "supports": "Best budget pick (updated October 26, 2026); notes this model is not on Anker's 2025 recall lists."
+            }
+          ],
+          "flags": [
+            "Sibling models Anker Zolo 20K A1681 and A1689 were recalled (CPSC 25-466, September 18, 2025). A1688 is not listed in that recall."
+          ],
+          "flag_check": "Searched the CPSC recall listing (cpsc.gov recall data file) on 2026-11-14 for 'Anker' and 'power bank', 2024 to 2026: recalls 25-011, 25-338 and 25-466 found; none lists model A1688."
+        },
+        "standard": {
+          "brand": "Anker",
+          "model": "Power Bank (10K, Fusion, Built-In Cable)",
+          "model_number": "A1637",
+          "size": "10,000 mAh; 36 Wh; 30 W USB-C output; built-in USB-C cable, one USB-C port and fold-out wall prongs; 4.25 x 2.0 x 1.22 in; 0.55 lb (8.8 oz) on the maker's page; refills in about 3.5 hours (210 min per the maker). Plugs straight into a wall outlet and works as a wall charger, so it tops itself up without a separate charger. Under 100 Wh, so allowed in airline carry-on.",
+          "unit_size": 1,
+          "unit_label": "power bank",
+          "price_usd": 52.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock)",
+          "why": "It is a wall charger and a power bank in one, so it refills from any outlet with no separate charger, and it charges a phone while plugged in. Picked by both Engadget and Popular Science.",
+          "weakness": "It is bulky for a wall plug and can sag out of a loose outlet, and 10,000 mAh is only about two phone charges. Anker does not say it is meant to stay plugged in all the time: top it up and unplug it, as with any power bank.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a1637",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $52.99, in stock, model number A1637 shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0CX4992Z8",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker Nano 3-in-1 10,000 mAh 30 W with built-in USB-C cable and foldable wall plug, $52.99, in stock. ASIN seen in a web search result for model A1637."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Old link_note: The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box. Safety listing check 2026-11-16 (WebFetch of the maker page): no UL 2056, UL 2743 or ETL listing stated.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Power Bank (10K, Fusion, Built-In Cable)",
+              "url": "https://www.anker.com/products/a1637",
+              "verified": true,
+              "supports": "Model number, 10,000 mAh / 36 Wh, outputs, size, weight, recharge time, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Engadget",
+              "title": "The best power banks and portable chargers for every device in 2026",
+              "url": "https://www.engadget.com/best-power-bank-143048526.html",
+              "verified": true,
+              "supports": "Best low-capacity power bank (updated February 13, 2026); fully charged a Galaxy S23 in just over an hour in testing."
+            },
+            {
+              "type": "test_publication",
+              "name": "Popular Science",
+              "title": "The best portable chargers",
+              "url": "https://www.popsci.com/gear/best-portable-chargers/",
+              "verified": true,
+              "supports": "Best multipurpose pick; notes weight in a loose outlet."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker' and 'power bank', 2024 to 2026: recalls 25-011, 25-338 and 25-466 found; none lists model A1637."
+        },
+        "cadillac": {
+          "brand": "Anker",
+          "model": "Laptop Power Bank (25K, 165W, Built-In and Retractable Cables)",
+          "model_number": "A1695",
+          "size": "25,000 mAh; 90 Wh (the maker says about 63 to 70 Wh reaches your devices); 165 W total, 100 W per USB-C port, 33 W USB-A; two built-in USB-C cables; 6.18 x 2.12 x 1.93 in; 21 oz (595 g). Refills in about 2 hours from a 100 W charger. Pass-through: supported with a charger of 20 W or more. Under 100 Wh, so allowed in airline carry-on.",
+          "unit_size": 1,
+          "unit_label": "power bank",
+          "price_usd": 119.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock)",
+          "why": "The largest capacity that still flies, with built-in cables and enough power to run a laptop as well as several phones. Engadget's pick for laptops.",
+          "weakness": "It weighs 1.3 lb and costs four times the budget pick; for phones alone it is more than most people need.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a1695-anker-power-bank-25000mah-165w",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $119.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0DMDJBCDP",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker Laptop Power Bank 25,000 mAh 165 W, $119.99, in stock. ASIN seen in a web search result for model A1695."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Old link_note: The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box. Safety listing check 2026-11-16 (WebFetch of the maker page): no UL 2056, UL 2743 or ETL listing stated.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Laptop Power Bank (25K, 165W, Built-In and Retractable Cables)",
+              "url": "https://www.anker.com/products/a1695-anker-power-bank-25000mah-165w",
+              "verified": true,
+              "supports": "Model number, 25,000 mAh / 90 Wh, outputs, size, weight, recharge time, pass-through, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Engadget",
+              "title": "The best power banks and portable chargers for every device in 2026",
+              "url": "https://www.engadget.com/best-power-bank-143048526.html",
+              "verified": true,
+              "supports": "Best laptop power bank; charged a MacBook Pro in about 53 minutes; durable build."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker' and 'power bank', 2024 to 2026: recalls 25-011, 25-338 and 25-466 found; none lists model A1695."
+        }
+      }
+    },
+    {
+      "id": "power-station-compact",
+      "module": "power",
+      "name": "Compact portable power station (200 to 350 Wh)",
+      "need": "A small battery with a household outlet keeps phones, a light, a Wi-Fi router or a small fan running through an evening, with no fumes and no noise. It is too small to run a 40-watt medical device for a full night.",
+      "how_to_choose": "Check two numbers, not one. Capacity in watt-hours (Wh) sets how long it runs: add up watts times hours for what you will plug in and compare that with about 85% of the printed Wh. Output in watts sets what it can run at all: everything switched on at the same moment must stay under the continuous AC watts. Where you can, measure real use with a plug-in watt meter or the station's own display instead of trusting a label, because a charger's printed watts are its maximum, not what the device uses. Choose lithium iron phosphate (LiFePO4 or LFP) cells, which last thousands of cycles, and check the weight, since you may carry it up stairs. A UPS or pass-through mode lets it sit between the wall and a router and take over when power drops. Compare prices with the 1,000 Wh class before you buy.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "Optional extra: no baseline quantity. Buy one only if your power audit calls for it."
+      },
+      "already_own": "Any portable power station you own will do if it holds a charge, has not been recalled, and passes both checks: 85% of its printed Wh covers the watts times hours you need, and its continuous output is above the total watts you will run at once. Time it once with the real devices before you depend on it.",
+      "safety_notes": [
+        {
+          "text": "Never use a fuel-burning generator inside a home or garage, even with doors and windows open. Use one outside only, at least 20 feet from the home with the exhaust pointing away. An apartment balcony cannot meet that distance, so a battery power station is the option for apartments.",
+          "source_name": "CPSC",
+          "source_title": "Carbon Monoxide",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+          "verified": true
+        },
+        {
+          "text": "Generators and fuel should always be used outdoors and at least 20 feet away from windows, doors and attached garages. Install carbon monoxide detectors with battery backup on every level of the home.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Power Outages",
+          "url": "https://www.ready.gov/power-outages",
+          "verified": true
+        },
+        {
+          "text": "Buy battery products listed by a nationally recognized testing laboratory. Use the charging equipment made for the device. Stop using it if the battery shows an unusual odor, excessive heat, popping sounds, swelling or a change in color. Do not store batteries where they block the only exit from a room.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "Do not charge lithium-ion batteries below 32 F or above 105 F. Store them at room temperature, away from anything that can burn.",
+          "source_name": "US Fire Administration",
+          "source_title": "Battery Fire Safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+          "verified": true
+        },
+        {
+          "text": "If you use a medical device that needs electricity, tell your electric company and fire department, and ask the device maker or supplier whether it can run on batteries. When power returns, check that the device settings have not changed.",
+          "source_name": "FDA",
+          "source_title": "FDA Offers Tips about Medical Devices and Natural Disasters",
+          "url": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+          "verified": true
+        },
+        {
+          "text": "Know how long any battery that supports your equipment will last, test backup power regularly, and plan for an outage of several days even if your utility has you on a priority reconnection list.",
+          "source_name": "ADA National Network",
+          "source_title": "Emergency Power Planning for People Who Use Electricity and Battery-Dependent Assistive Technology and Medical Devices",
+          "url": "https://adata.org/factsheet/emergency-power",
+          "verified": true
+        },
+        {
+          "text": "Talk to your medical provider about a power outage plan for any medical device that runs on electricity.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Power Outages",
+          "url": "https://www.ready.gov/power-outages",
+          "verified": true
+        },
+        {
+          "text": "When you store a power station, turn off all of its outputs, keep it somewhere cool and dry, and charge it fully at least once every three months. Follow your own station's manual where it says something different.",
+          "source_name": "Anker (manufacturer guidance)",
+          "source_title": "How should I store and maintain Anker SOLIX F3800?",
+          "url": "https://service.anker.com/article-description/How-should-I-store-and-maintain-Anker-SOLIX-F3800",
+          "verified": true,
+          "research_note": "Opened 2026-11-16 by WebFetch: 'Turn off all outputs', cool and dry place, check capacity weekly and recharge below 30%, fully charge to 100% at least once every three months. It is Anker's page for the F3800; the matching C1000 Gen 2 support article returned HTTP 404 to WebFetch. The page does not say a station drains itself with its outlets left on, so that claim (lesson 5) is not made here."
+        }
+      ],
+      "item_flags": [
+        "Power for a medical device is life-safety. The device's maker and the user's clinician decide what backup is safe, not this site. Nothing on this page is a recommendation to run a CPAP, an oxygen concentrator or any other medical device from these stations.",
+        "Do the arithmetic before you rely on one: a 40-watt device for 8 hours needs 320 Wh before losses, which is more than any station in this 200 to 350 Wh class holds. The 40-watt figures in the picks are arithmetic from an example, not tests: a real CPAP or other device, its settings and its humidifier change the answer, so measure your own.",
+        "Power stations recalled from 2024 to 2026 include the EcoFlow Delta Max 2000 (model EFD310), the Goal Zero Yeti 3000X, the Harbor Freight Predator 2000W, the HALO 1000 and Klein Tools and Blackfire models, and CPSC warned against Aeiusny 400W and 500W stations: check any station you own at cpsc.gov/Recalls.",
+        "Neither maker's page states a UL 2743 listing for these picks, and no station of this size with a listing stated on its maker's page was found: check for a UL or ETL mark on the unit."
+      ],
+      "research_note": "EcoFlow River 3 and River 3 Plus, both well reviewed, could not be recommended: on 2026-11-14 their product pages on EcoFlow's US store redirected to a missing page and they were absent from the store catalog. Amazon showed the River 3 at $249 with three left. Cadillac tier, checked again 2026-11-15: EcoFlow's US store lists the RIVER 3 and RIVER 3 Plus in its catalog, but both product pages return 'page not found', so neither can be verified or bought there. Another tested 288 Wh LiFePO4 unit, the Bluetti Elite 30 V2 (600 W, about $209 per MacRumors and TechRadar), has tests from TechRadar, T3 and MacRumors, but its Bluetti page could not be opened and it costs less than the standard pick, so it is not a step up. It could be looked at as an alternative budget pick once the Bluetti page can be opened. Audit fixes 2026-11-15: Jackery product pages returned HTTP 429 (too many requests) to WebFetch all session, so the Jackery Explorer 300 and Explorer 300 v2 pages were read in the desktop browser pane (page text only, no sign-in). The Anker SOLIX C300 page opened in WebFetch without its price and was read again in the browser pane for the price and the comparison table. None states UL 2743; the Jackery v2 page names only a UL94V-0 shell plastic. Old recall flag: Power station recalls in the CPSC listing, 2024 to 2026: EcoFlow Delta Max 2000 EFD310 (October 9, 2025, firmware repair); Goal Zero Yeti 3000X (August 20, 2026, firmware repair); Harbor Freight Predator 2000W (July 3, 2025, shock hazard); HALO 1000 (August 29, 2024, one death reported); Klein Tools and Blackfire power stations (2024). CPSC also warned in September 2025 against Aeiusny 400W and 500W power stations sold on Amazon. None of these is a pick here.",
+      "tier_note": "Two picks: a more expensive station of this size buys little more, and the real step up is the 1,000 Wh class.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "Jackery",
+          "model": "Explorer 300",
+          "model_number": "",
+          "size": "292 to 293 Wh; 300 W continuous AC from 2 outlets; 100 W USB-C, 2 USB-A, 12 V car port; 7.1 lb as measured by OutdoorGearLab, 7.5 lb on Jackery's current page. Chemistry: Jackery now sells a version with LiFePO4 cells rated for 4,000 cycles to 70%; the units reviewed in 2026 were lithium-ion rated for 800 cycles. Wall recharge took 4 hours in OutdoorGearLab's test. No UPS mode stated. Solar input limits: the maker's page shows them only in a picture, so read the volts and amps printed beside the input port or in the manual before connecting any panel. Estimated runtime at 85% usable capacity (about 249 Wh): about 16 phone charges at 15 Wh each; a 10 W LED light for about 25 hours; a 40 W device for about 6 hours, which is not a full night (40 W for 8 hours is 320 Wh before losses). These are estimates; the inverter's own draw shortens them.",
+          "unit_size": 1,
+          "unit_label": "power station",
+          "price_usd": 289.0,
+          "price_seen_at": "Jackery.com, November 15, 2026 (in stock)",
+          "why": "The lightest unit in this class and the budget or small-device pick of both OutdoorGearLab and GearJunkie in 2026. Enough for phones, a light and a router.",
+          "weakness": "The version the reviewers tested used older lithium-ion cells and recharges slowly, it has no UPS mode, and it cannot run a 40-watt medical device for a full night.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.jackery.com/products/explorer-300-portable-power-station",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $289.00, in stock (the bundle with a 40 W panel was sold out). The page describes a 'New Version' with a LiFePO4 battery and a 5-year warranty."
+            },
+            {
+              "label": "Manufacturer (v2, LiFePO4)",
+              "url": "https://www.jackery.com/products/jackery-explorer-300-v2-portable-power-station",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 16, 2026: 288 Wh LiFePO4, 4,000+ cycles, 8.1 lb. The station alone is $299.00 and sold out; the bundle with a 40 W panel is $419.00 and available. The page points buyers to the Explorer 300 instead."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). No Amazon ASIN was seen. Stock history: Jackery.com showed Sold Out for the Explorer 300 on 2026-11-14 and earlier on 2026-11-15; when the page was read in the desktop browser pane later on 2026-11-15 the Add to cart button for the $289 Explorer 300 was active and only the solar bundle said Sold Out. WebFetch got HTTP 429 from jackery.com product pages all session. Solar input figures are not in the page text (the 'Specs in Pictures' block is images). Old link_note: No Amazon link is given. The maker does not state a UL 2743 or ETL listing; the v2 page names only a UL94V-0 flame-retardant shell, which is a rating for the plastic and not a listing for the product. Check for a UL or ETL mark on the unit. Removed flag: In stock at Jackery.com on November 15, 2026 at $289, after showing as sold out the day before. Stock is moving, so check before you plan around it. Removed flag: Jackery's separate Explorer 300 v2 (288 Wh, LiFePO4) was sold out on its own at $299 on November 16, 2026; only the $419 bundle with a 40 W panel could be ordered. Safety listing check 2026-11-16: the Anker SOLIX C300 page (WebFetch) states no UL 2743, UL or ETL listing and showed no price; jackery.com pages came back truncated to WebFetch, so the Jackery page was not re-read today.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Jackery",
+              "title": "Jackery Explorer 300 Portable Power Station",
+              "url": "https://www.jackery.com/products/explorer-300-portable-power-station",
+              "verified": true,
+              "supports": "Price, 292 Wh, 300 W output, ports, 7.5 lb, LiFePO4 'new version' claim, stock on November 15, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Jackery Explorer 300 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/jackery-explorer-300",
+              "verified": true,
+              "supports": "Best Buy for Phones and Laptops; 89% usable capacity, 7.1 lb, 4-hour wall recharge; lists the tested unit as lithium-ion with 800 claimed cycles (January 13, 2026)."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Portable Power Stations",
+              "url": "https://gearjunkie.com/technology/best-portable-power-stations",
+              "verified": true,
+              "supports": "Best Budget pick (updated October 31, 2026); about two laptop charges; 4.5-hour wall recharge; quiet."
+            }
+          ],
+          "flags": [
+            "The 2026 reviews tested a lithium-ion unit rated for 800 cycles; Jackery now sells a version with LiFePO4 cells rated for 4,000 cycles. Check which version a seller is shipping."
+          ],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Jackery' and 'power station', 2024 to 2026: no Jackery recall found."
+        },
+        "standard": {
+          "brand": "Anker",
+          "model": "SOLIX C300 Portable Power Station (AC version)",
+          "model_number": "A1722",
+          "size": "288 Wh; 300 W continuous AC (600 W surge); LiFePO4; 3,000 claimed cycles; 9.1 lb as measured by OutdoorGearLab; 140 W two-way USB-C. Wall recharge: 0 to 100% in 63 minutes measured, 80% in about 50 minutes per the maker. UPS: yes, about 10 ms switchover, so it can sit between the wall and a router. Solar input limits from the maker's page: XT60 port, 11 to 28 V, 100 W at most; the page gives no limit in amps. The maker recommends its own 60 W or 100 W panels and says its 200 W and 400 W panels are not compatible. 5-year warranty. Estimated runtime at 85% usable capacity (about 245 Wh): about 16 phone charges at 15 Wh each; a 10 W LED light for about 24 hours; a 40 W device for about 6 hours, which is not a full night (40 W for 8 hours is 320 Wh before losses). These are estimates; OutdoorGearLab measured 230 Wh delivered (80%).",
+          "unit_size": 1,
+          "unit_label": "power station",
+          "price_usd": 429.99,
+          "price_seen_at": "ankersolix.com, November 15, 2026 (in stock)",
+          "why": "LiFePO4 cells, a one-hour recharge and a 10 ms UPS mode in a 9 lb box. It can stay plugged in behind a router and take over when the power drops.",
+          "weakness": "OutdoorGearLab measured only about 80% of the rated capacity, its 300 W output rules out a kettle or a heater, and at today's price it costs most of what a 1,000 Wh station does.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.ankersolix.com/products/c300",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $429.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0GWQ1J7LC",
+              "verified": false,
+              "note": "",
+              "research_note": "Not opened on 2026-11-15 (Amazon pages are not read as a source). On 2026-11-14 an earlier pass loaded it by direct request: Anker SOLIX C300 with protective bag, model A1722, $349.99, in stock. ASIN seen in a web search result. A plain listing (B0HP9LKQ3P) showed $249.99 but was marked currently unavailable. Old note: A bundle with a protective bag. Seen on November 14, 2026; the price there differs from the maker's."
+            }
+          ],
+          "link_note": "Do not confuse this with the SOLIX C300 DC, which has no household outlet.",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Price changed 2026-11-15 from $349.99 (an Amazon bundle price recorded on 2026-11-14) to the maker's own $429.99, because Amazon pages are not read as a source. The maker's page loaded for WebFetch without its price; price, stock and the comparison table (XT60, 100 W solar input) were read in the desktop browser pane. Removed flag: Price has risen: OutdoorGearLab recorded a $300 list price in July 2026; the maker's own store listed $429.99 on November 15, 2026. Other retailers may be cheaper. Safety listing check 2026-11-16: the Anker SOLIX C300 page (WebFetch) states no UL 2743, UL or ETL listing and showed no price; jackery.com pages came back truncated to WebFetch, so the Jackery page was not re-read today.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker SOLIX",
+              "title": "Anker SOLIX C300 Portable Power Station 300W",
+              "url": "https://www.ankersolix.com/products/c300",
+              "verified": true,
+              "supports": "288 Wh, 300 W / 600 W surge, LFP, 10 ms UPS, 80% in 50 minutes, XT60 solar input 11 to 28 V and 100 W, 5-year warranty, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Anker Solix C300 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/anker-solix-c300",
+              "verified": true,
+              "supports": "Measured 230 Wh usable (80%), 9.1 lb, 63-minute recharge, UPS and bypass confirmed, 3,000 claimed cycles (July 23, 2026)."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker', 'SOLIX' and 'power station', 2024 to 2026: no recall of the SOLIX C300 found. Anker recalls found cover power banks, two speakers and the EverFrost cooler only."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "No pick. No station in this size class that is a real step up from the Standard pick could be confirmed on two sources and at its maker's store. If you need more, the step up is the 1,000 Wh class."
+      }
+    },
+    {
+      "id": "power-station-large",
+      "module": "power",
+      "name": "Large portable power station (1,000 to 3,000 Wh)",
+      "need": "A large battery station can keep a refrigerator cold for a day or more and run lights, phones and a router for days, all indoors and without fuel.",
+      "how_to_choose": "Start from the load, and check two numbers. Capacity in watt-hours (Wh) sets how long it runs: a refrigerator that averages about 50 W over a day would get about 17 hours from 1,000 Wh and about a day and a half from 2,000 Wh. Output in watts sets what it can run at all: everything switched on at once, and the surge when a refrigerator's motor starts, must stay under the station's limits. Where you can, measure your own appliance over a full day with a plug-in watt meter instead of multiplying the label by 24, because a refrigerator cycles on and off. Choose LiFePO4 cells and a UPS mode. Weight matters in a walk-up: about 25 lb for 1,000 Wh, 40 lb for 2,000 Wh and 74 lb or more for 3,000 Wh. Without a way to recharge, any battery is a one-time supply, so plan where you would recharge it: a building with a generator, a workplace, a car or a solar panel. Of these picks, only EcoFlow's page says its station is certified to UL 2743 standards; the Anker and Jackery pages state no listing, and no station of their size with a listing stated on its maker's page was found, so check for a UL or ETL mark on the unit.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "Optional extra: no baseline quantity. Buy one only if your power audit calls for it."
+      },
+      "already_own": "A power station you already own is good enough if 85% of its rated watt-hours covers your critical load for the hours you need, its continuous output is above the total watts you will run at once, and it has not been recalled. Test it once with the real appliance, timing how long it lasts, before you depend on it.",
+      "safety_notes": [
+        {
+          "text": "Never use a generator inside your home or garage, even if doors and windows are open. Run generators outdoors, more than 20 feet from windows, doors and vents. A balcony cannot meet that distance.",
+          "source_name": "CDC",
+          "source_title": "Carbon Monoxide (CO) Poisoning Basics",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Never use portable generators inside homes or garages. Use them outside only, at least 20 feet from the home with the exhaust facing away. Install battery-operated carbon monoxide alarms, or alarms with battery backup, on every level and outside sleeping areas.",
+          "source_name": "CPSC",
+          "source_title": "Carbon Monoxide",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+          "verified": true
+        },
+        {
+          "text": "With no thermometer, treat fridge food as unsafe once the power has been off for 4 hours with the door kept shut. With a thermometer in the fridge, throw out meat, poultry, fish, eggs, milk and leftovers once they have been above 40 °F for more than 2 hours. Frozen food that still has ice crystals, or is at 40 °F or colder, can be refrozen or cooked. Never taste food to test it.",
+          "source_name": "FoodSafety.gov",
+          "source_title": "Food Safety During Power Outage",
+          "url": "https://www.foodsafety.gov/food-safety-charts/food-safety-during-power-outage",
+          "verified": true,
+          "research_note": "foodsafety.gov returned HTTP 403 to WebFetch on 2026-11-15 (two URLs tried). The wording is the owner's, word for word from PROMPT_audit-fixes_2026-11-15.md section 2.1; the owner opened the page on 15 November. Recorded in work/audit-fixes/p-power/pending.json. Each part is also stated on a page that did open today: CDC (4 hours with the door shut; refreeze or cook food with ice crystals or at 40 F or below; never taste) and Ready.gov (40 degrees or higher for two hours or more)."
+        },
+        {
+          "text": "With the doors kept closed, food stays safe for up to 4 hours in a refrigerator, 48 hours in a full freezer and 24 hours in a half-full freezer. Thawed frozen food that still has ice crystals, or is at 40 °F or colder, can be refrozen or cooked. Never taste food to decide if it is safe.",
+          "source_name": "CDC",
+          "source_title": "Keep Food Safe After a Disaster or Emergency",
+          "url": "https://www.cdc.gov/food-safety/foods/keep-food-safe-after-emergency.html",
+          "verified": true
+        },
+        {
+          "text": "Throw out food that has been at 40 °F or higher for two hours or more. If the power is out for more than a day, discard medicine that should be refrigerated unless the label says otherwise.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Power Outages",
+          "url": "https://www.ready.gov/power-outages",
+          "verified": true
+        },
+        {
+          "text": "If you rely on home medical equipment that needs electricity, ask your doctor or provider how to keep it running in an outage, ask your power provider to put you on a list for priority restoration, and keep a cooler and ice packs for medicines that must stay cold.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "People with Disabilities",
+          "url": "https://www.ready.gov/disability",
+          "verified": true
+        },
+        {
+          "text": "Tell your electric company and fire department that you have a medical device that needs power. Ask the maker or supplier whether the device can run on batteries, and check its settings when power returns.",
+          "source_name": "FDA",
+          "source_title": "FDA Offers Tips about Medical Devices and Natural Disasters",
+          "url": "https://www.fda.gov/medical-devices/emergency-situations-medical-devices/fda-offers-tips-about-medical-devices-and-natural-disasters",
+          "verified": true
+        },
+        {
+          "text": "Know the working time of any battery that supports your equipment, check backup power regularly, and plan for a multi-day outage even if you are on a priority reconnection list.",
+          "source_name": "ADA National Network",
+          "source_title": "Emergency Power Planning for People Who Use Electricity and Battery-Dependent Assistive Technology and Medical Devices",
+          "url": "https://adata.org/factsheet/emergency-power",
+          "verified": true
+        },
+        {
+          "text": "Buy battery products listed by a nationally recognized testing laboratory, use the charger made for them, and stop using them if you notice odor, excessive heat, popping sounds, swelling or a change in color. Do not store them where they block the only exit from a room.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "When you store a power station, turn off all of its outputs, keep it somewhere cool and dry, and charge it fully at least once every three months. Follow your own station's manual where it says something different.",
+          "source_name": "Anker (manufacturer guidance)",
+          "source_title": "How should I store and maintain Anker SOLIX F3800?",
+          "url": "https://service.anker.com/article-description/How-should-I-store-and-maintain-Anker-SOLIX-F3800",
+          "verified": true,
+          "research_note": "Opened 2026-11-16 by WebFetch: 'Turn off all outputs', cool and dry place, check capacity weekly and recharge below 30%, fully charge to 100% at least once every three months. It is Anker's page for the F3800; the matching C1000 Gen 2 support article returned HTTP 404 to WebFetch. The page does not say a station drains itself with its outlets left on, so that claim (lesson 5) is not made here."
+        }
+      ],
+      "item_flags": [
+        "EcoFlow recalled the Delta Max 2000, model EFD310, for a fire hazard on October 9, 2025 (CPSC recall 26-010), with a free firmware repair. It is an older model, not the EcoFlow pick below.",
+        "Goal Zero recalled its Yeti 3000X power stations for fire and burn hazards on August 20, 2026 (CPSC recall 26-712), with a free firmware repair.",
+        "Other power station actions in the CPSC listing: Harbor Freight Predator 2000W (July 3, 2025, shock hazard); HALO 1000 (August 29, 2024, one death reported); a CPSC warning against Aeiusny 400W and 500W stations (September 2025).",
+        "Power stations over 160 Wh are not allowed on passenger aircraft (FAA).",
+        "Power for a medical device is life-safety. The device's maker and the user's clinician decide what backup is safe, not this site. The CPAP and oxygen concentrator figures in the picks are arithmetic from example wattages, not tests: ask the supplier for the device's real power draw, and whether it may be run from a battery station at all, before you rely on one."
+      ],
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "Anker",
+          "model": "SOLIX C1000 Gen 2 Portable Power Station",
+          "model_number": "A1763",
+          "size": "1,024 Wh; 2,000 W continuous AC (3,000 W peak); LiFePO4; at least 80% capacity after 4,000 cycles per the maker; 24.9 lb (25.2 lb measured); 15.12 x 8.19 x 9.61 in. Wall recharge: 49 minutes in the fastest mode, about 56 minutes measured in standard mode. UPS: under 10 ms switchover. Solar input limits from the maker's page: XT60i port; 11 to 28 V at up to 8.2 A, or 29 to 60 V at up to 14.5 A; 600 W and 60 V at most. Expansion: none. Estimated runtime at 85% usable capacity (about 870 Wh): about 58 phone charges at 15 Wh each; a 10 W LED light for about 87 hours; a 40 W CPAP without humidifier for about 22 hours, or two to three nights; a refrigerator that draws 150 W while running at a one-third duty cycle (50 W average) for about 17 hours. These are estimates; OutdoorGearLab measured 890 Wh delivered.",
+          "unit_size": 1,
+          "unit_label": "power station",
+          "price_usd": 529.99,
+          "price_seen_at": "ankersolix.com, November 15, 2026 (in stock, sale price; the page showed a list price of $699.99)",
+          "why": "The value pick of three test publications in 2026: about 1 kWh in a 25 lb box that one person can carry up stairs, with a UPS mode and a recharge of under an hour.",
+          "weakness": "It cannot be expanded, the fan is loud near full load, and 1 kWh keeps a refrigerator going for well under a day.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.ankersolix.com/products/c1000-gen2",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $529.99, available, ships as soon as possible. Only the bundle with a 400 W panel had a later ship date."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0FN7QVFNG",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:SOLIX C1000 Gen 2 with water-resistant bag, model A1763, $609.99, in stock. ASIN seen in a web search result. No ASIN for the station alone, new, was seen today."
+            }
+          ],
+          "link_note": "Make sure the listing says Gen 2: the older SOLIX C1000 (1,056 Wh, 1,800 W) is a different, heavier model.",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Re-opened 2026-11-15 by WebFetch (specs, solar input 11-28 V 8.2 A; 29-60 V 14.5 A; 600 W max; stock) and in the desktop browser pane (price $529.99, was $699.99). On 2026-11-14 the page data marked it as a pre-order and Amazon had it at $609.99 with a carry bag; that Amazon price is no longer quoted. Safety listing check 2026-11-16 (WebFetch): no UL 2743, UL, ETL or TUV mention on ankersolix.com/products/c1000-gen2; the page showed no price today, only 'Available, ships as soon as possible'.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker SOLIX",
+              "title": "Anker SOLIX C1000 Gen 2 Portable Power Station - 1,024Wh | 2,000W",
+              "url": "https://www.ankersolix.com/products/c1000-gen2",
+              "verified": true,
+              "supports": "Capacity, output, 4,000 cycles, 24.9 lb, dimensions, 10 ms UPS, 49-minute recharge, solar input limits in volts, amps and watts, no expansion, price and stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Anker Solix C1000 Gen 2 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/anker-solix-c1000-gen-2",
+              "verified": true,
+              "supports": "Best Buy, 'Best Value for Most People'; 890 Wh measured, 25.2 lb, fast charging, loud fan near full load (July 23, 2026)."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Portable Power Stations",
+              "url": "https://gearjunkie.com/technology/best-portable-power-stations",
+              "verified": true,
+              "supports": "Best Overall, 9.4/10 (updated October 31, 2026); ran a coffeemaker, pressure cooker and dual-zone cooler; full recharge in 49 minutes."
+            },
+            {
+              "type": "test_publication",
+              "name": "Popular Science",
+              "title": "The best portable power stations for 2026, tested and reviewed",
+              "url": "https://www.popsci.com/gear/best-portable-power-stations/",
+              "verified": true,
+              "supports": "Best budget pick; 10 ms UPS switchover; about 50-minute recharge."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker', 'SOLIX' and 'power station', 2024 to 2026: no recall of the SOLIX C1000 Gen 2 found."
+        },
+        "standard": {
+          "brand": "Jackery",
+          "model": "Explorer 2000 v2 Portable Power Station",
+          "model_number": "JE-2000D",
+          "size": "2,042 Wh; 2,200 W continuous AC (4,400 W surge); LiFePO4; 4,000+ cycles per the maker; about 39.5 lb (38.9 lb measured), which the maker calls the lightest 2 kWh station. Wall recharge: 1.7 hours in the maker's fastest mode, 2.5 hours measured. UPS: under 20 ms switchover. Solar input limits from the maker's page: two DC 8 mm ports (Jackery's DC8020 plug); 11 to 16 V at up to 8 A, or 16 to 60 V at up to 12 A a port; with both ports in use, 21 A and 400 W at most. Other brands' panels need an adapter, and an adapter does not make a panel compatible. Expansion: none. 5-year warranty. Estimated runtime at 85% usable capacity (about 1,735 Wh): about 115 phone charges at 15 Wh each; a 10 W LED light for about 170 hours; a 40 W CPAP without humidifier for about 43 hours, or five nights; a refrigerator that draws 150 W while running at a one-third duty cycle (50 W average) for about 35 hours; a 300 W home oxygen concentrator for a little under 6 hours. These are estimates; OutdoorGearLab measured about 1,710 to 1,740 Wh delivered.",
+          "unit_size": 1,
+          "unit_label": "power station",
+          "price_usd": 999.0,
+          "price_seen_at": "Jackery.com, November 15, 2026 (sold out, pre-order ships November 16)",
+          "why": "Twice the energy of the budget pick at about 40 lb, still a one-person carry. It was the top-scoring station in OutdoorGearLab's 2026 test and covers a refrigerator for more than a day.",
+          "weakness": "No battery expansion, and it needs an adapter for solar panels that are not Jackery's.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $999.00; the page said sold out due to high demand, pre-order ships November 16."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0DFG2WDQH",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request: Jackery Explorer 2000 v2, model JE-2000D, $999.00, in stock. ASIN seen in a web search result. Not opened on 2026-11-15. Old note: Seen on November 14, 2026: $999.00, in stock."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). jackery.com product pages returned HTTP 429 to WebFetch all session on 2026-11-15, so the page was read in the desktop browser pane (page text only, no sign-in): price, pre-order notice and the Tech Specs DC input line '(2x) DC 8mm Ports: 11-16V 8A Max, Double to 8A Max; 16-60V 12A, Double to 21A/400W Max'. Dimensions on the page: 13.2 x 10.4 x 11.5 in. The page's FAQ about medical and life-support equipment did not open, so its answer was not read. Removed flag: Sold out at Jackery.com on November 15, 2026; the page takes pre-orders that ship on November 16. Other retailers may have it. 2026-11-16: jackery.com came back truncated to WebFetch (no product details), and a web search for 'Explorer 2000 v2 UL 2743' found no maker statement.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Jackery",
+              "title": "Jackery Explorer 2000 v2 Portable Power Station 2042Wh 2200W LFP Battery",
+              "url": "https://www.jackery.com/products/jackery-explorer-2000-v2-portable-power-station",
+              "verified": true,
+              "supports": "2,042 Wh, 2,200 W / 4,400 W surge, LFP, 4,000+ cycles, 39.5 lb, under 20 ms UPS, 1.7-hour charge, DC input limits in volts, amps and watts, 5-year warranty, price and stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Jackery Explorer 2000 v2 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/power-station/jackery-explorer-2000-v2",
+              "verified": true,
+              "supports": "Editors' Choice, score 81, ranked first of 14; 84% usable capacity, 38.9 lb, 2.5-hour recharge; no expansion; adapter needed for third-party solar."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Power Stations",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-power-station",
+              "verified": true,
+              "supports": "Side-by-side results for 14 stations (updated July 23, 2026)."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Jackery' and 'power station', 2024 to 2026: no Jackery recall found."
+        },
+        "cadillac": {
+          "brand": "EcoFlow",
+          "model": "DELTA 3 Ultra Plus Portable Power Station (3072Wh)",
+          "model_number": "EFDELTA3UPLUS-US",
+          "size": "3,072 Wh; 3,600 W continuous AC (7,200 W surge), including a 30 A outlet; LiFePO4; about 74 lb (33.7 kg); about 24.1 x 12.9 x 15.5 in; wheels and a telescoping handle per Popular Science. Wall recharge: 0 to 80% in 89 minutes. UPS: under 10 ms switchover. Expansion: 3 to 11 kWh; the DELTA 3 Max Plus 2,048 Wh Smart Extra Battery was $859 today, and two DELTA Pro 3 extra batteries take it to 11 kWh. Warranty: 3 years plus 2 on registration. Solar input limits from the maker's page: 1,600 W at most; the page gives no limit in volts or amps and does not name the connector, so read them in the manual before you buy a panel. UL 2743: EcoFlow's US product page says it is certified to UL 2743 standards and verified by SGS. Cycle life is not given on the page. Estimated runtime at 85% usable capacity (about 2,610 Wh): about 174 phone charges at 15 Wh each; a 10 W LED light for about 260 hours; a 40 W CPAP without humidifier for about 65 hours, or eight nights; a refrigerator that draws 150 W while running at a one-third duty cycle (50 W average) for about 52 hours; a 300 W home oxygen concentrator for about 8.5 hours. These are estimates.",
+          "unit_size": 1,
+          "unit_label": "power station",
+          "price_usd": 1599.0,
+          "price_seen_at": "us.ecoflow.com, November 15, 2026 (sale price, list $2,199; ships in mid-December)",
+          "why": "An expandable system: about 3 kWh on its own and up to 11 kWh with extra batteries, enough to carry a refrigerator and medical equipment through several days. Home-backup pick of GearJunkie and high-capacity pick of Popular Science.",
+          "weakness": "At about 74 lb it rolls but cannot be carried up stairs by one person, so it has to be in place before the elevator stops.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $1,599, 'Ships in Mid-December'."
+            }
+          ],
+          "link_note": "",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). No ASIN for this exact model was seen. us.ecoflow.com returned HTTP 429 to WebFetch on 2026-11-15, so the page was read in the desktop browser pane (page text only, no sign-in). Spec block read: net weight 33.7 kg, 3072 Wh 51.2 V 60 Ah, LFP, AC 3600 W (surge 7200 W), 'Maximum PV Input Power(W) 1600W', charge temperature 0 to 45 C, UPS under 10 ms. The page says 'Class B Certified' in a features strip without saying what that refers to; it is not a UL listing claim. Removed flag: Ships in mid-December, per EcoFlow's US store on November 15, 2026. Removed flag: A different, older EcoFlow model, the Delta Max 2000 (EFD310), was recalled on October 9, 2025 (CPSC 26-010). The DELTA 3 Ultra Plus is not part of that recall. 2026-11-16: www.ecoflow.com/us/delta-3-ultra-plus-portable-power-station re-opened by WebFetch: 'Certified to UL 2743 standards and verified by SGS'. Old link_note: EcoFlow's US product page (www.ecoflow.com/us) says the unit is certified to UL 2743; its store page does not repeat this. Check for the mark on the unit.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "EcoFlow",
+              "title": "DELTA 3 Ultra Plus Portable Power Station",
+              "url": "https://us.ecoflow.com/products/ecoflow-delta-3-ultra-plus-portable-power-station-3072wh",
+              "verified": true,
+              "supports": "3,072 Wh, LFP, 3,600 W / 7,200 W surge, about 74 lb (33.7 kg), dimensions, under 10 ms UPS, 89-minute charge to 80%, 1,600 W maximum solar input, 3 to 11 kWh expansion, warranty, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "GearJunkie",
+              "title": "The Best Portable Power Stations",
+              "url": "https://gearjunkie.com/technology/best-portable-power-stations",
+              "verified": true,
+              "supports": "Best Home Backup, 8.4/10 (updated October 31, 2026); ran a refrigerator and chest freezer together; about 10 ms transfer; quiet under load; 74 lb; no 240 V output."
+            },
+            {
+              "type": "test_publication",
+              "name": "Popular Science",
+              "title": "The best portable power stations for 2026, tested and reviewed",
+              "url": "https://www.popsci.com/gear/best-portable-power-stations/",
+              "verified": true,
+              "supports": "Best for high capacity; expandable to 11,000 Wh; heavy but has wheels and a telescoping handle."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "EcoFlow",
+              "title": "DELTA 3 Ultra Plus Portable Power Station",
+              "url": "https://www.ecoflow.com/us/delta-3-ultra-plus-portable-power-station",
+              "verified": true,
+              "supports": "Says 'Certified to UL 2743 standards and verified by SGS' and 'Tested and verified by UL and SGS', and certified to Class B EMC standards."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'EcoFlow' and 'power station', 2024 to 2026: one recall found, Delta Max 2000 model EFD310 (26-010); none for the DELTA 3 Ultra Plus."
+        }
+      },
+      "research_note": "Old item_flags (2026-11-16 alignment): CPSC recall 26-010 (October 9, 2025): EcoFlow Delta Max 2000, model EFD310, about 25,030 units, fire hazard, free firmware repair. This is an older model, not the EcoFlow pick below. https://www.cpsc.gov/Recalls/2026/EcoFlow-Technology-Recalls-Delta-Max-2000-Power-Stations-Due-to-Risk-of-Serious-Burn-Injury-and-Fire-Hazard | CPSC recall 26-712 (August 20, 2026): Goal Zero Yeti 3000X power stations, fire and burn hazard, free firmware repair. Seen in the CPSC recall listing on 2026-11-14. | Other power station actions in the CPSC listing: Harbor Freight Predator 2000W (July 3, 2025, shock hazard); HALO 1000 (August 29, 2024, one death reported); CPSC warning against Aeiusny 400W and 500W stations (September 2025). | Power stations over 160 Wh are not allowed on passenger aircraft (FAA PackSafe, https://www.faa.gov/hazmat/packsafe/lithium-batteries). | EcoFlow's US product page says the DELTA 3 Ultra Plus is certified to UL 2743 standards and verified by SGS, and that it was tested and verified by UL and SGS. The Anker and Jackery pages state no UL 2743 listing. This site could not open UL's directory to confirm any of them, so check for a UL or ETL mark on the unit or in its manual. | Power for a medical device is life-safety. The device's maker and the user's clinician decide what backup is safe, not this site. The CPAP and oxygen concentrator figures in the picks are arithmetic from example wattages, not tests: ask the supplier for the device's real power draw, and whether it may be run from a battery station at all, before you rely on one."
+    },
+    {
+      "id": "solar-panel-portable",
+      "module": "power",
+      "name": "Folding solar panel (100 to 200 W)",
+      "need": "A folding panel is the only way to refill a power station during a long outage if you have no car and nowhere else to plug in.",
+      "how_to_choose": "A plug that fits is not a panel that is compatible. Check the panel against your station's input limits before you buy: its open-circuit voltage must be below the station's maximum input volts, with room to spare because voltage rises in the cold, and its current and watts must be within what the station's maker allows. If the station's maker does not name the pairing, ask the maker before you buy an adapter cable. Be realistic about an apartment: a panel needs direct sun on its face, and real output is below the rating even outdoors (the best 200 W panels measured 170 to 185 W in full sun). Check the folded size and weight against your storage space, and never hang or prop a panel where it could fall from a balcony or window.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "Optional extra: no baseline quantity. Buy one only if you own a power station and have a balcony, roof access or a window that gets direct sun."
+      },
+      "already_own": "A folding panel you already own works if its open-circuit voltage is below your station's maximum solar input voltage, its current and watts are within the station's limits, and its plug fits or the station's maker sells the adapter. Test it on a sunny day and note how many watts the station shows.",
+      "safety_notes": [
+        {
+          "text": "Use charging equipment that is made for the device, and buy products listed by a nationally recognized testing laboratory. Stop using a battery that shows odor, excessive heat, popping sounds, swelling or a change in color.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "Do not charge lithium-ion batteries below 32 F or above 105 F. A power station left in direct summer sun beside its panel can exceed that, so keep the station in the shade or indoors and run only the cable to the panel.",
+          "source_name": "US Fire Administration",
+          "source_title": "Battery Fire Safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Output behind window glass and on shaded or north-facing balconies is far below the rating: treat window charging as a slow trickle and test your own spot before relying on it."
+      ],
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "FlexSolar",
+          "model": "S100 Foldable Portable Solar Panel (100W)",
+          "model_number": "S100 (maker's name; no separate part number shown)",
+          "size": "100 W rated, 70 W measured in full sun by OutdoorGearLab; 4.1 lb; folds to 12.9 x 10.4 x 2.1 in, opens to 45.4 x 26.1 in; two USB-A ports, one USB-C port and a DC output, with an adapter cable for XT60, Anderson, DC7909 and DC5521 plugs. Against your station: the maker gives 20 to 27 V and 100 W at most but no open-circuit voltage, so ask the station's maker before relying on the pairing.",
+          "unit_size": 1,
+          "unit_label": "panel",
+          "price_usd": 89.99,
+          "price_seen_at": "flexsolarenergies.com, November 16, 2026: $89.99 for a new unit, sold out; an open-box unit was $73.99 and available. OutdoorGearLab listed $89.",
+          "why": "The smallest and lightest panel in OutdoorGearLab's 2026 test of twelve, and the cheapest that gave useful power. It folds to the size of a laptop, which suits a closet shelf.",
+          "weakness": "It delivered only 70% of its rating in full sun and has no stand, so it is hard to aim; behind glass or in shade expect much less.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://flexsolarenergies.com/products/s100",
+              "verified": true,
+              "note": "",
+              "research_note": "flexsolar.com is a parked page; the real site is flexsolarenergies.com. On 2026-11-15 the page was read in the desktop browser pane (Shopify product pages returned HTTP 429 to WebFetch): 'DC output 20-27V; 100W maximum', and the page's own warning that a fitting plug alone does not confirm compatibility. Opened November 15, 2026: $89.99 new, $73.99 open box. Weight 1.85 kg, folded 330 x 265 mm and open 1155 x 665 mm match OutdoorGearLab's measurements."
+            }
+          ],
+          "link_note": "The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box.",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). No Amazon ASIN seen. Old size text (2026-11-16 alignment), with the station-by-station comparison: 100 W rated, 70 W measured in full sun by OutdoorGearLab; 4.1 lb; folds to 12.9 x 10.4 x 2.1 in, opens to 45.4 x 26.1 in; two USB-A and one USB-C port plus a DC output. Connectors: includes an adapter cable for XT60, Anderson, DC7909 and DC5521. Electrical output on the maker's page: DC 20 to 27 V, 100 W at most; open-circuit voltage is not given. Against the power station picks: on paper it is inside the Anker SOLIX C300's 11 to 28 V, 100 W limit, but with only 1 V to spare at the top, and inside the C1000 Gen 2's 11 to 28 V band; the Jackery Explorer 2000 v2 takes 16 to 60 V but uses a DC8020 plug, so it would also need Jackery's adapter. None of these pairings is named by the station's maker, and FlexSolar's own page says a plug that fits does not confirm compatibility, so ask the station's maker before relying on one. Old link_note: The maker's page was matched to the tested panel by weight and size. No Amazon link is given. The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "FlexSolar 100W Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/portable-solar-panel/flexsolar-100w",
+              "verified": true,
+              "supports": "70 W measured, 4.1 lb, folded size, included adapters, USB ports, no tilt support, $89 list (July 13, 2026)."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "FlexSolar",
+              "title": "FlexSolar S100 Foldable Portable Solar Panel Charger | 100W",
+              "url": "https://flexsolarenergies.com/products/s100",
+              "verified": true,
+              "supports": "100 W rating, 4.1 lb (1.85 kg), folded and open sizes, USB-A, USB-C and DC outputs, DC output of 20 to 27 V, four-in-one cable, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Mightygadget (UK)",
+              "title": "FlexSolar Foldable 100W Solar Panel Review vs Mobisolar & Jackery SolarSaga",
+              "url": "https://mightygadget.com/flexsolar-foldable-100w-solar-panel-review/",
+              "verified": true,
+              "supports": "Scored 85%; only about 10 W in cloudy winter light (updated March 26, 2026). A UK review of a FlexSolar 100 W foldable panel.",
+              "research_note": "Scored 85%; only about 10 W in cloudy winter light (updated 26 Mar 2026). UK review of a FlexSolar 100 W foldable; not confirmed to be the identical S100, so supporting only."
+            }
+          ],
+          "flags": [
+            "Output is well below rating in real light: OutdoorGearLab measured 70 W in full sun, the UK review about 10 W under cloud. Plan on a fraction of 100 W.",
+            "On November 16, 2026, new units were sold out at FlexSolar's own store; open-box units could be ordered there."
+          ],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'solar panel', 2024 to 2026: no FlexSolar recall found."
+        },
+        "standard": {
+          "brand": "Renogy",
+          "model": "E.Flex 200W Portable Solar Panel",
+          "model_number": "RPP200EF-SE-G2-US",
+          "size": "200 W rated; 177 W measured in full sun by OutdoorGearLab; the current N-Type version weighs 17.6 lb, folds to 25.0 x 21.1 x 2.2 in and opens to 94.1 x 21.1 in; IP65; MC4 leads. Against your station: the maker's figures go up to 23.4 V open-circuit and 11.3 A, and every station here needs an MC4 adapter cable, so check both numbers against your station's limits.",
+          "unit_size": 1,
+          "unit_label": "panel",
+          "price_usd": 219.99,
+          "price_seen_at": "Renogy.com",
+          "why": "OutdoorGearLab's Editors' Choice and top scorer of twelve panels in 2026: close to its rated output, sturdy kickstands and half the price of the brand-name power station panels.",
+          "weakness": "It opens to nearly 8 feet long, more than many balconies allow, and needs an adapter cable for every power station pick here.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.renogy.com/products/renogy-e-flex-200w-portable-solar-panel",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: E.Flex 100/200W N-Type Portable Solar Panel, 200 W option $219.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0CNPHD4VY",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon returned an error to the fetch tool on 2026-11-14. ASIN seen on OutdoorGearLab's review page as its buy link for the panel it tested."
+            }
+          ],
+          "link_note": "The maker's page names CE, RoHS and FCC and does not state a UL or ETL safety listing.",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). Re-read 2026-11-15 in the desktop browser pane (Shopify product pages returned HTTP 429 to WebFetch): spec table 'Max Power at STC 200 W, Open Circuit Voltage 21.6V, Short Circuit Current 11.3A, Optimum Operating Voltage 18.8V, Optimum Operating Current 10.6A', dimensions 23.72 x 22.99 x 1.97 in folded, 13.89 lb, IP65; the variant block for 200 W gives 94.1 x 21.1 in open and 17.6 lb. The 150 W figure in the size text is this site's arithmetic: 18.8 V x 8.2 A = 154 W. Old size text (2026-11-16 alignment), with the station-by-station comparison: 200 W rated; 177 W measured in full sun by OutdoorGearLab on the version it tested (14.8 lb, folds to 23.7 x 23.0 x 2.0 in, IP65, USB-A and USB-C ports). Renogy's store now lists an N-Type version: 17.6 lb, folds to 25.0 x 21.1 x 2.2 in, opens to 94.1 x 21.1 in, adjustable kickstands; the same page also prints a second, lighter set of sizes (13.9 lb), so check which one you are sent. Electrical figures: the maker's page prints open-circuit voltage 21.6 V with short-circuit current 11.3 A (best operating point 18.8 V and 10.6 A), and its product data for the same 200 W panel gives 23.4 V and 10.5 A. Check against the higher voltage (23.4 V) and the higher current (11.3 A). Connectors: MC4 leads, so every station pick needs an adapter cable. Against the power station picks: 23.4 V is inside the Anker SOLIX C300's 11 to 28 V limit, but that station takes 100 W at most, so half this panel is wasted; it is inside the C1000 Gen 2's 11 to 28 V band, where that station takes 8.2 A at most, so expect about 150 W at best from one panel; it is inside the Jackery Explorer 2000 v2's 16 to 60 V, 12 A a port limit. None of these pairings is named by the station's maker, so ask the maker before you buy the adapter. Old link_note: The tested panel and the one on Renogy's store may be different generations: OutdoorGearLab's unit weighed 14.8 lb with USB ports, while Renogy's current N-Type listing gives 17.6 lb. The Amazon listing is the one OutdoorGearLab links for the panel it tested. The maker's page names CE, RoHS and FCC and does not state a UL or ETL safety listing.",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Renogy 200W Portable Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/portable-solar-panel/renogy-200w-portable",
+              "verified": true,
+              "supports": "Editors' Choice, score 88, first of twelve; 177 W measured; 14.8 lb; MC4 output; IP65; $250 list (July 13, 2026)."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Renogy",
+              "title": "E.Flex 100/200W N-Type Portable Solar Panel",
+              "url": "https://www.renogy.com/products/renogy-e-flex-200w-portable-solar-panel",
+              "verified": true,
+              "supports": "Current price, 200 W at STC, 21.6 V open-circuit voltage, 11.3 A short-circuit current, size and weight of the current version, kickstands."
+            }
+          ],
+          "flags": [
+            "The panel on Renogy's store may be a newer generation than the one that was tested: the tested unit weighed 14.8 lb and had USB ports, and the current listing gives 17.6 lb."
+          ],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Renogy' and 'solar panel', 2024 to 2026: none found."
+        },
+        "cadillac": {
+          "brand": "Jackery",
+          "model": "SolarSaga 200W Solar Panel",
+          "model_number": "",
+          "size": "200 W rated, bifacial; 171 W measured in full sun by OutdoorGearLab and 184 W by Outdoor Life, which also recorded 49 W under cloud; 14.3 lb; folds to 23.6 x 23.5 x 1.6 in, opens to 89.8 x 23.5 in; IP68; USB-A and USB-C ports; Jackery DC8020 plug with a DC8020-to-DC7909 adapter in the box. Against your station: it plugs straight into the Jackery Explorer 2000 v2, the pairing Jackery sells; its 22 V and 12.5 A are beyond what Anker names for its stations, so ask Anker before using it with one.",
+          "unit_size": 1,
+          "unit_label": "panel",
+          "price_usd": 429.0,
+          "price_seen_at": "Jackery.com",
+          "why": "Plug-and-play with the Jackery Explorer 2000 v2, the lightest of the well-tested 200 W panels, and the best cloudy-day result in Outdoor Life's test.",
+          "weakness": "It costs about twice the Renogy for similar output in full sun, the kickstands are wobbly, and its plug fits only Jackery stations without an adapter.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.jackery.com/products/solarsaga-200w-solar-panel",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened November 15, 2026: $429.00, in stock."
+            }
+          ],
+          "link_note": "The maker's page says the panel is certified by TUV and does not state a UL or ETL listing.",
+          "research_note": "Safety listing check 2026-11-15: no UL 2743, UL 2056, UL 1642 or ETL listing could be found by searching the text of the maker page (or of its spec section). No ASIN for this exact panel was seen. Re-read 2026-11-15 in the desktop browser pane (jackery.com product pages returned HTTP 429 to WebFetch): $429.00, add-to-cart active, 'Certified by TUV', 'Open Circuit Voltage (VOC) 22V±5%, Short Circuit Current (Isc) 12.5A±5%, Power Voltage (Vmp) 18V±5%'. Package list on the page: panel, 3 m multi-function cable, DC8020 to DC7909 adapter. Old size text (2026-11-16 alignment), with the station-by-station comparison: 200 W rated, bifacial; 171 W measured in full sun by OutdoorGearLab and 184 W by Outdoor Life, which also recorded 49 W under cloud; 14.3 lb; folds to 23.6 x 23.5 x 1.6 in, opens to 89.8 x 23.5 in; IP68; USB-A and USB-C ports. Electrical figures on the maker's page: open-circuit voltage 22 V, short-circuit current 12.5 A, best operating point 18 V, each give or take 5%. Connectors: Jackery DC8020, with a DC8020-to-DC7909 adapter in the box for older Jackery inputs. Against the power station picks: it plugs straight into the Jackery Explorer 2000 v2, the pairing Jackery itself sells, and sits inside that station's 16 to 60 V limit. For the Anker stations it would need another maker's DC8020-to-XT60 adapter, and neither Anker nor Jackery names that pairing: the C300 takes 100 W at most, and this panel's current is above the C1000 Gen 2's 8.2 A limit for the 11 to 28 V band. Do not buy it for an Anker station without asking Anker first. Old link_note: No Amazon link is given. The maker's page says the panel is certified by TUV and does not state a UL or ETL listing.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Jackery",
+              "title": "Jackery SolarSaga 200W Solar Panel",
+              "url": "https://www.jackery.com/products/solarsaga-200w-solar-panel",
+              "verified": true,
+              "supports": "200 W, 22 V open-circuit voltage, 12.5 A short-circuit current, 14.33 lb, folded and open size, IP68, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Jackery SolarSaga 200 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/camping-and-hiking/portable-solar-panel/jackery-solarsaga-200",
+              "verified": true,
+              "supports": "Score 84, second of twelve; 171 W measured; 14.2 lb; DC8020 connector; wobbly kickstands (July 13, 2026)."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "Best Portable Solar Panels of 2026, Tested and Reviewed",
+              "url": "https://www.outdoorlife.com/gear/best-portable-solar-panels/",
+              "verified": true,
+              "supports": "Best 200W panel; 184 W in sun and 49 W under cloud, the best cloudy result in the test."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Jackery' and 'solar panel', 2024 to 2026: none found."
+        }
+      },
+      "research_note": "Old how_to_choose (2026-11-16 alignment), with the station input table: A plug that fits is not a panel that is compatible. Before buying, put three numbers from the panel beside your station's solar input limits: the panel's open-circuit voltage must be below the station's maximum volts (leave room, because voltage rises in the cold), and its current and watts must be within what the station's maker allows. Solar input limits on the makers' pages on November 15, 2026: Anker SOLIX C300, XT60 plug, 11 to 28 V, 100 W, amps not stated; Anker SOLIX C1000 Gen 2, XT60i plug, 11 to 28 V at up to 8.2 A or 29 to 60 V at up to 14.5 A, 600 W; Jackery Explorer 2000 v2, two DC8020 ports, 11 to 16 V at up to 8 A or 16 to 60 V at up to 12 A a port, 21 A and 400 W in all; EcoFlow DELTA 3 Ultra Plus, 1,600 W, with volts, amps and plug not given on its page; Jackery Explorer 300, shown only in a picture on its page. If a pairing is not one the station's maker names, ask the maker before you buy the adapter cable. Be realiztic about an apartment: a panel needs direct sun on its face, and real output is below the rating even outdoors (the best 200 W panels measured 170 to 185 W in full sun). Check the folded size and weight against your storage space, and never hang or prop a panel where it could fall from a balcony or window. Old item_flags: No recall of a folding solar panel was found in the CPSC listing for 2024 to 2026. The one related entry is Goal Zero's Solar Series Combiner Cables (February 27, 2025, fire hazard), an accessory, not a panel. | Output behind window glass and on shaded or north-facing balconies is far below the rating. None of the test publications opened today measured panels behind glass, so treat window charging as a slow trickle and test your own spot before relying on it."
+    },
+    {
+      "id": "car-power-inverter",
+      "module": "power",
+      "name": "Charging from a car (USB-C car charger or plug-in inverter)",
+      "need": "For households with a car, the vehicle's 12 V socket can recharge phones, power banks and a small power station during a long outage.",
+      "how_to_choose": "A USB-C Power Delivery car charger is enough for phones, tablets and power banks. A plug-in inverter adds a household outlet, but a 12 V socket is limited by its fuse: roughly 120 W on a 10 A socket and 150 to 180 W on a 15 A socket, so an inverter rated above that gains nothing from the socket. Charging with the engine off drains the starting battery; do not run small loads for more than about an hour without starting the car, and only ever run the engine outdoors. Many power stations also sell their own 12 V car charging cable, which is often the simplest route.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One per household that has a car. Skip this item if you have no vehicle."
+      },
+      "already_own": "A car charger or inverter you already own is fine if it charges your phone at a normal speed and does not get hot. For an inverter, check that its plug matches your socket's fuse rating in the owner's manual.",
+      "safety_notes": [
+        {
+          "text": "Never run your car or truck inside a garage that is attached to a house, even with the garage door open. Carbon monoxide from the exhaust can kill without warning.",
+          "source_name": "CDC",
+          "source_title": "Carbon Monoxide (CO) Poisoning Basics",
+          "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "Install battery-operated carbon monoxide alarms, or alarms with battery backup, on every level of the home and outside sleeping areas.",
+          "source_name": "CPSC",
+          "source_title": "Carbon Monoxide",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Carbon-Monoxide-Information-Center",
+          "verified": true
+        },
+        {
+          "text": "Use only charging equipment made for the device, and stop using a battery that shows odor, excessive heat, popping sounds, swelling or a change in color.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "The maker's page does not state a UL or ETL listing for the car charger: look for the mark on the product or its box."
+      ],
+      "research_note": "Car and Driver has a tested round-up of power inverters at https://www.caranddriver.com/car-accessories/g43688214/best-power-inverters-tested/ . The page responded on 2026-11-14 but could not be read by the research tools, so its picks are not recorded here. Family Handyman's guide was opened 2026-11-14. Second pass 2026-11-15: no safety listing (UL/ETL) could be confirmed for the Anker car charger. Standard and Cadillac tiers, second pass 2026-11-15: The Drive and Car and Driver round-ups could not be opened (HTTP 410 and blocked); Auto Express's UK inverter test is from 2012; Autoguide's list (2022) does not say it tested. The plug-in pure-sine model most often named is the BESTEK 300 W (maker page bestek.com lists model MRZ3011BU, pure sine, 'CE and ETL listed' per the maker, $65.88), but no independent test of it could be opened, so it does not meet the two-source rule; this is a lead, not a recommendation. The 12 V socket limit of about 150 W also makes a 300 W rating moot. Audit fixes 2026-11-15: CPSC recall data (saferproducts.gov recall API, title 'Anker', from 2024-01-01) queried by WebFetch: five results, none a car charger or model A2737. Old item_flags: There is a pick for a USB-C car charger only. No plug-in inverter met this site's two-source rule, so the Standard and Cadillac tiers are empty. | The socket wattage limits and battery-drain advice in How to choose come from Family Handyman's guide to car power inverters (https://www.familyhandyman.com/article/use-car-power-inverter-for-laptop-tv/), which names no products. | No UL or ETL safety listing could be confirmed for the car charger pick. Look for the mark on the product or its box.",
+      "tier_note": "One pick: car chargers are much alike, and a more expensive one buys nothing the job needs.",
+      "prices_seen": "2026-11-15",
+      "tiers": {
+        "budget": {
+          "brand": "Anker",
+          "model": "Nano Car Charger (167.5W, 3 Ports)",
+          "model_number": "A2737",
+          "size": "Cigarette-lighter plug, about 3 in long and 1.4 in wide. Ports: USB-C 100 W, USB-C 45 W, USB-A 22.5 W (167.5 W total on a 12 V or 24 V socket).",
+          "unit_size": 1,
+          "unit_label": "car charger",
+          "price_usd": 53.99,
+          "price_seen_at": "Anker.com, 2026-11-15 (listed as $16 off)",
+          "why": "A small plug that charges two phones, or a tablet or small laptop, at full speed from a car socket. It has an independent bench test and two of its three ports follow the USB-C PD standard.",
+          "weakness": "Under a sustained 100 W laptop load, a German bench test saw it cut out after about 6 to 7 minutes and restart, so it suits phones and power banks better than a laptop. It costs more than a basic 30 W charger.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a2737",
+              "verified": true,
+              "note": "",
+              "research_note": "The page text returned to the research tool did not list the model number or a safety listing. Opened November 15, 2026: $53.99."
+            }
+          ],
+          "link_note": "",
+          "research_note": "No Amazon ASIN was seen on 2026-11-15. The Anker page did not show a UL or other safety listing in the part the research tool could read. Old link_note: No Amazon link is given. The maker's page does not state a UL or ETL safety listing. Check for the mark on the product or its box. Removed flag: The independent test is from a one-person site, not a large lab, so treat the second source as modest.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Nano Car Charger (167.5W, 3 Ports)",
+              "url": "https://www.anker.com/products/a2737",
+              "verified": true,
+              "supports": "Price, port layout and wattages (100 W, 45 W, total 167.5 W)."
+            },
+            {
+              "type": "test_publication",
+              "name": "Techtest.org",
+              "title": "Anker vs. UGREEN und Baseus: der Anker A2737 Nano Car Charger 167,5 W im Test",
+              "url": "https://techtest.org/anker-vs-ugreen-und-baseus-der-anker-a2737-nano-car-charger-1675-w-im-test/",
+              "verified": true,
+              "supports": "Bench test (German independent site, 26 Aug 2025): stable voltage, 85.8 to 93.3% efficiency, PPS on both USB-C ports; cut out after about 6 to 7 minutes at 100 W."
+            },
+            {
+              "type": "test_publication",
+              "name": "BGR",
+              "title": "Enable Fast Charging In Your Car With These USB-C Port Adapters",
+              "url": "https://bgr.com/1940942/best-car-charger-usb-c-port-adapter",
+              "verified": true,
+              "supports": "Listed as the first pick (19 Aug 2025). The writer says the picks come from research and buyer reviews, not hands-on testing, so this is supporting only."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched CPSC recall data on November 15, 2026 for Anker recalls since 2024: power banks (25-011, 25-338, 25-466), two speakers and a cooler. No recall of a car charger or of model A2737."
+        },
+        "standard": null,
+        "cadillac": null
+      },
+      "empty_reason": {
+        "standard": "No pick. No plug-in inverter could be confirmed on two sources: no current independent test of one could be opened. A car's 12 V socket also limits any plug-in inverter to about 150 W, whatever its rating. If you buy one, check for a UL or ETL mark on the unit itself.",
+        "cadillac": "No pick, for the same reason as the Standard tier. No pure-sine plug-in inverter was confirmed on two sources."
+      }
+    },
+    {
+      "id": "usb-charging-kit",
+      "module": "power",
+      "name": "Wall charger and cables",
+      "need": "A fast multi-port charger and the right cables let you fill every phone, power bank and light before a storm, and recharge them from a power station afterward.",
+      "how_to_choose": "Choose a GaN USB-C Power Delivery charger with enough ports to charge everything at once: 30 W covers one phone, 65 W or more covers a phone, a power bank and a tablet together. Keep one cable per device plus a spare: USB-C to USB-C rated 60 W or more, and an Apple MFi-certified USB-C to Lightning cable for an iPhone 14 or older. Braided nylon or silicone cables last longer than thin stock ones. Charging phones from a power station's USB-C port wastes less energy than using its AC outlet with a wall charger.",
+      "qty": {
+        "basis": "fixed",
+        "factor": 1,
+        "note": "One charger per household, plus one cable for each device and one spare."
+      },
+      "already_own": "The chargers and cables that came with your phones are good enough if you have one for every device and none is frayed, bent or hot in use. Check that you own a cable for each connector type in the home: USB-C, Lightning and any micro-USB devices such as older flashlights.",
+      "safety_notes": [
+        {
+          "text": "Use charging equipment that is supplied with or made for your device, buy products listed by a nationally recognized testing laboratory, and stop charging once the battery is full.",
+          "source_name": "NFPA",
+          "source_title": "Lithium-Ion Battery Safety",
+          "url": "https://www.nfpa.org/education-and-research/energy-transition/lithium-Ion-batteries",
+          "verified": true
+        },
+        {
+          "text": "Stop using a lithium-ion battery if you notice an odor, a change in color or shape, too much heat, leaking or odd noises. Choose certified products.",
+          "source_name": "US Fire Administration",
+          "source_title": "Battery Fire Safety",
+          "url": "https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/batteries/",
+          "verified": true
+        },
+        {
+          "text": "For large lithium batteries such as e-bike packs, CPSC says to be present while charging and never to charge while asleep or away from home. The same habit is sensible when charging a power station or several power banks at once before a storm.",
+          "source_name": "CPSC",
+          "source_title": "Micromobility: E-Bikes, E-Scooters and Hoverboards",
+          "url": "https://www.cpsc.gov/Safety-Education/Safety-Education-Centers/Micromobility-Information-Center",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "IKEA recalled its ASKSTORM 40W USB chargers for burn and shock hazards on February 22, 2024: check any you own.",
+        "Cheap unbranded chargers and Lightning cables without Apple MFi certification are common on marketplaces. Buy from the maker or a known retailer."
+      ],
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "Anker",
+          "model": "Nano Charger (30W)",
+          "model_number": "A2147",
+          "size": "30 W, one USB-C port, GaN, folding prongs; charges one phone or one power bank at full speed. Cables are not included: add one USB-C to USB-C cable per device, and an MFi USB-C to Lightning cable for an iPhone 14 or older.",
+          "unit_size": 1,
+          "unit_label": "charger",
+          "price_usd": 15.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock)",
+          "why": "Engadget's small-charger pick for 2026: fast for its size, folds flat, and costs under $20.",
+          "weakness": "One port means one device at a time, which is slow going when a whole household needs to charge before a storm.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a2147",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: Anker Nano Charger (30W), $15.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0B42T3Y48",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker Nano 30W GaN charger, model A2147, $16.99, in stock. ASIN seen as Engadget's buy link."
+            },
+            {
+              "label": "Cable (USB-C to USB-C, 10 ft, 100W, nylon)",
+              "url": "https://www.anker.com/products/a8758",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $9.99, in stock. Maker page only; no independent test verified."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Nano Charger (30W)",
+              "url": "https://www.anker.com/products/a2147",
+              "verified": true,
+              "supports": "Product name, 30 W, price, stock."
+            },
+            {
+              "type": "test_publication",
+              "name": "Engadget",
+              "title": "The best fast chargers for 2026",
+              "url": "https://www.engadget.com/best-fast-chargers-140011033.html",
+              "verified": true,
+              "supports": "Recommended 30 W charger (updated February 5, 2026); excellent speed for its size; best for one device."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker' and 'charger', 2024 to 2026: no Anker wall charger recall found."
+        },
+        "standard": {
+          "brand": "Anker",
+          "model": "Prime 67W GaN Wall Charger (3 Ports)",
+          "model_number": "A2669",
+          "size": "67 W total, GaN; 2 USB-C ports and 1 USB-A port; a single USB-C port gives up to 67 W, two ports share 65 W. Charges a phone, a power bank and a third device together. Cables are not included: add one USB-C to USB-C cable per device, and an MFi USB-C to Lightning cable for an iPhone 14 or older.",
+          "unit_size": 1,
+          "unit_label": "charger",
+          "price_usd": 49.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock)",
+          "why": "Three ports in a block small enough for a grab bag. Engadget's reviewer called it the one charger they would pack, and it shares power sensibly between devices.",
+          "weakness": "With three devices plugged in, each gets a fraction of the 67 W, so a laptop will charge slowly.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a2669-3-port-wall-charger",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $49.99, in stock, model number A2669 shown."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0C4YTB56H",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker 67W GaN 3-port wall charger, model A2669, $34.99, in stock. ASIN seen as Engadget's buy link."
+            },
+            {
+              "label": "Cable (USB-C to USB-C, 10 ft, 100W, nylon)",
+              "url": "https://www.anker.com/products/a8758",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: $9.99, in stock. Maker page only; no independent test verified."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Prime 67W GaN Wall Charger (3 Ports)",
+              "url": "https://www.anker.com/products/a2669-3-port-wall-charger",
+              "verified": true,
+              "supports": "Model number, 67 W, port list and per-port output, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Engadget",
+              "title": "The best fast chargers for 2026",
+              "url": "https://www.engadget.com/best-fast-chargers-140011033.html",
+              "verified": true,
+              "supports": "Recommended three-port charger (updated February 5, 2026); compact; directs power to the device with the lowest battery."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker' and 'charger', 2024 to 2026: no Anker wall charger recall found.",
+          "research_note": "Price was $34.99 taken from Amazon.com on 2026-11-14; replaced with the maker price."
+        },
+        "cadillac": {
+          "brand": "Anker",
+          "model": "Charger (140W, 4-Port, PD 3.1)",
+          "model_number": "B2697 (the A2697 charger sold with a USB-C cable)",
+          "size": "140 W total, GaN; 3 USB-C ports and 1 USB-A port; one USB-C port gives up to 140 W; built-in display shows the output to each device. Fast enough to refill a 25,000 mAh power bank and charge two phones at once. Anker's own listing includes one USB-C cable; add more cables per device, and an MFi USB-C to Lightning cable for an iPhone 14 or older.",
+          "unit_size": 1,
+          "unit_label": "charger",
+          "price_usd": 89.99,
+          "price_seen_at": "Anker.com, November 16, 2026 (in stock, with a USB-C cable)",
+          "why": "Four ports and 140 W charge a whole household's devices at once in the hours before a storm, and the display shows what each device is actually drawing.",
+          "weakness": "It is larger and far more expensive than most homes need for phones; the extra power only matters with laptops or large power banks.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.anker.com/products/a2697-anker-charger-140w-4-port",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: Anker Charger (140W, 4-Port, PD 3.1) with USB-C Cable, $89.99, in stock."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0DFCH3C4W",
+              "verified": false,
+              "note": "",
+              "research_note": "Loaded 2026-11-14 by direct request:Anker 140W 4-port GaN charger with display, model A2697, $79.99, in stock. ASIN seen as Engadget's buy link."
+            },
+            {
+              "label": "Cable (USB-C to USB-C, silicone, 240W)",
+              "url": "https://www.anker.com/products/a8552",
+              "verified": true,
+              "note": "",
+              "research_note": "Loaded 2026-11-14: Anker 643 USB-C to USB-C Cable (Flow, Silicone), $13.99, in stock. Maker page only; no independent test verified."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Anker",
+              "title": "Anker Charger (140W, 4-Port, PD 3.1) with USB-C Cable",
+              "url": "https://www.anker.com/products/a2697-anker-charger-140w-4-port",
+              "verified": true,
+              "supports": "140 W, 3 USB-C + 1 USB-A, per-port output, price."
+            },
+            {
+              "type": "test_publication",
+              "name": "Engadget",
+              "title": "The best fast chargers for 2026",
+              "url": "https://www.engadget.com/best-fast-chargers-140011033.html",
+              "verified": true,
+              "supports": "Recommended 140 W four-port charger (updated February 5, 2026); handles nearly any device; display shows per-device output."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Searched the CPSC recall listing on 2026-11-14 for 'Anker' and 'charger', 2024 to 2026: no Anker wall charger recall found.",
+          "research_note": "Price was $79.99 taken from Amazon.com on 2026-11-14; replaced with the maker price. 2026-11-16: Anker's page shows 'Model Number: B2697' for the charger-with-cable listing at $89.99."
+        }
+      },
+      "research_note": "Old item_flags: No recall of an Anker wall charger was found in the CPSC listing for 2024 to 2026. Charger recalls in that period include IKEA ASKSTORM 40W USB chargers (February 22, 2024, burn and shock hazard). | Cheap unbranded chargers and Lightning cables without Apple MFi certification are common on marketplaces. Buy from the maker or a known retailer. | The cable links below were opened on the maker's site, but no independent test of those exact cables was verified today. Popular Science's Lightning cable guide (https://www.popsci.com/gear/best-lightning-cables/, last updated November 2023) picks Anker's Powerline+ III USB-C to Lightning cable; its current listing was not found."
+    }
+  ]
+}

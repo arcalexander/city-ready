@@ -1,0 +1,130 @@
+{
+  "note": "Everyday items where brand makes no difference. The site says what to look for and how much, with no Budget, Standard and Cadillac tiers (see DECISIONS.md D-06).",
+  "items": [
+    {
+      "name": "Zip bags, quart and gallon",
+      "spec": "One box of each. They keep documents, clothes, medicines and electronics dry and hold small bits of trash.",
+      "level": 1
+    },
+    {
+      "name": "Notebook, pencil and permanent marker",
+      "spec": "A small notebook, two pencils and one marker for labeling and leaving notes.",
+      "level": 1
+    },
+    {
+      "name": "Travel-size toiletries",
+      "spec": "Toothbrush, small toothpaste, small soap, and menstrual supplies if needed, for each bag.",
+      "level": 1
+    },
+    {
+      "name": "Tissues or a travel roll of toilet paper",
+      "spec": "One pack per bag.",
+      "level": 1
+    },
+    {
+      "name": "Small bills and coins",
+      "spec": "Cash in $1, $5, $10 and $20 bills. The site works out an amount on the cash action.",
+      "level": 1
+    },
+    {
+      "name": "Spare keys",
+      "spec": "One spare house key and one car key if you have a car, in the bag or with a trusted neighbor.",
+      "level": 1
+    },
+    {
+      "name": "Paper plates, cups and utensils",
+      "spec": "Enough for 3 days for 72 hours at home and 14 days for two weeks at home: three plates, three cups and one set of utensils per person per day. They save dishwashing water.",
+      "level": 2
+    },
+    {
+      "name": "Toilet paper",
+      "spec": "Count what your household uses in a week and keep at least double that in reserve. About 4 rolls per person per month is a common planning figure.",
+      "level": 2
+    },
+    {
+      "name": "Baby wipes or hygiene wipes",
+      "spec": "One large pack (about 70 wipes) per person per week. Never flush them, even when the toilet works.",
+      "level": 2
+    },
+    {
+      "name": "Bar or liquid soap and dish soap",
+      "spec": "One spare of each beyond what is in use.",
+      "level": 2
+    },
+    {
+      "name": "Paper towels and a few rags",
+      "spec": "Two rolls for 72 hours at home, six for two weeks.",
+      "level": 2
+    },
+    {
+      "name": "Ordinary kitchen trash bags",
+      "spec": "One extra roll. These are for household trash, not for toilet waste.",
+      "level": 2
+    },
+    {
+      "name": "Matches or a lighter in a zip bag",
+      "spec": "For households with a gas stovetop that needs lighting by hand when the power is off. Never for candles as room light, and never if you smell gas.",
+      "level": 2
+    },
+    {
+      "name": "Towels for door gaps",
+      "spec": "Old bath towels kept aside for sealing door gaps against smoke, cold or outside air.",
+      "level": 2
+    },
+    {
+      "name": "Books, cards and games",
+      "spec": "A deck of cards, a board game, a few books, paper and pencils. Long outages are boring, and boredom is harder on children.",
+      "level": 3
+    },
+    {
+      "name": "Comfort food",
+      "spec": "A small stock of the treats your household actually likes that keep without a fridge.",
+      "level": 3
+    },
+    {
+      "name": "Powdered drink mix, tea or instant coffee",
+      "spec": "Makes stored water easier to drink.",
+      "level": 3
+    },
+    {
+      "name": "Aluminum foil and oven mitts",
+      "spec": "One roll and one pair, kept with whatever you use to heat food.",
+      "level": 3
+    },
+    {
+      "name": "Sunscreen and insect repellent",
+      "spec": "One of each, in date.",
+      "level": 3
+    },
+    {
+      "name": "Baking soda",
+      "spec": "Two boxes, for odor in waste and trash cans.",
+      "level": 3
+    },
+    {
+      "name": "Clothesline and clothespins, or a folding rack",
+      "spec": "For drying hand-washed clothes indoors or on a balcony.",
+      "level": 3
+    },
+    {
+      "name": "Pet waste bags and litter",
+      "spec": "Your pet's usual supplies for the level's number of days.",
+      "level": 2,
+      "only": {
+        "has": [
+          "pets"
+        ]
+      }
+    },
+    {
+      "name": "Diaper cream and spare pacifiers",
+      "spec": "The brands your baby already uses.",
+      "level": 2,
+      "only": {
+        "has": [
+          "infants"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1448 @@
+{
+  "module": "u6",
+  "title": "Shelter",
+  "intro": "This module is about the place you will shelter in: making it safer, keeping what you need to stay there without power, and knowing where you go if you cannot stay. For most city households shelter means your own apartment, so the yard and meter steps here have indoor replacements. A short grab-bag list is kept at the end; the fuller bag is built in the Bags module.",
+  "credit": "Based on Unit 6 of Oregon's Be 2 Weeks Ready toolkit",
+  "actions": [
+    {
+      "id": "U6-01",
+      "level": 3,
+      "section": "Make your home safer",
+      "title": "Anchor tall furniture and lock anything on wheels",
+      "why": "Unsecured bookcases, dressers and televisions can fall in an earthquake or tip onto a child who climbs or pulls on them, injuring people and blocking the way out.",
+      "how": "Fix every tall piece of furniture (bookcases, dressers, wardrobes, cabinets) to a wall stud with two furniture straps or L-brackets, and strap flat-screen televisions. Lock or chock the wheels on appliances, carts and beds. Move heavy things to low shelves and keep nothing heavy above a bed or sofa. This is not only for earthquakes: the Consumer Product Safety Commission says anchoring furniture that has drawers, doors or shelves to the wall prevents tip-over injuries and deaths. If a small child lives with you or visits, anchor the furniture and televisions in the rooms they use first, and tug each strap to check it holds. Where the wall is concrete or brick, screw into the matching masonry anchors. Move heavy pictures and mirrors away from above beds and sofas.",
+      "done": "Every tall piece of furniture and flat-screen television is fixed to the wall, each strap holds when tugged, and nothing heavy sits above a bed or sofa.",
+      "cost": "low",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "level_if": [
+        {
+          "has": [
+            "under5"
+          ],
+          "level": 2
+        }
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Anywhere, anchor tall furniture and televisions so they cannot tip onto a child, and keep heavy things off high shelves."
+      },
+      "apartment": "High floors sway harder and longer than the ground, so anchoring matters more there; renters should get the landlord's written permission before drilling into walls. Many apartment walls are concrete and need masonry anchors and a hammer drill.",
+      "cites": [
+        "eca-secure",
+        "ready-quake",
+        "tokyo-bousai",
+        "cpsc-anchor-it"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "X6-09",
+      "level": 2,
+      "part": "household",
+      "section": "Make your home safer",
+      "title": "Give every upstairs bedroom a second way out",
+      "why": "If fire or smoke blocks the stairs, an upstairs bedroom has only its window.",
+      "how": "In each bedroom above the ground floor, check that one window opens fully and is not stuck, that its screen comes out quickly, and that any security bars open from inside. Ready.gov counts an escape ladder as a second way out for an upstairs room: if you buy one, choose one made for that window and that height, keep it under the window, and follow the maker's instructions for fitting it and for practice. Show every adult and older child where it is kept and how it hooks on. Agree which adult goes to which child, because a child under six cannot get out alone. Then run a home fire drill at least twice a year.",
+      "done": "Every upstairs bedroom has a window that opens fully, and any escape ladder you bought is stored beneath its window.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "cites": [
+        "ready-home-fire-escape-plan",
+        "ready-homefire"
+      ]
+    },
+    {
+      "id": "U6-02",
+      "level": 3,
+      "same_as": "U6-27",
+      "section": "Make your home safer",
+      "title": "Start a three-column list of home safety jobs",
+      "why": "Sorting jobs by what they need lets you start on the free ones today instead of waiting on the hard ones.",
+      "how": "On one sheet of paper make three columns: do this week (free or nearly free, and you can do it yourself); needs money, time or a tool; needs the landlord or a professional. Write every safety job you already know about in one of them, for example a dead smoke alarm battery, an unanchored bookcase or a window that will not open. Do one job from the first column today.",
+      "done": "A sheet with three columns of safety jobs is written, and one job from the first column is crossed off.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Renters will have a longer third column; send those items to the landlord or management in writing and keep a dated copy.",
+      "toolkit_page": "20-26",
+      "cites": [
+        "nfpa-smoke-alarms"
+      ]
+    },
+    {
+      "id": "U6-03",
+      "same_as": "PL-07",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Stock a light for every person and one for the room",
+      "why": "In an outage a hands-free light prevents falls, and battery lights carry none of the fire risk of candles.",
+      "how": "Keep one headlamp or flashlight per person and one lantern for the room you will live in. For spares, count the cells in every light and radio you own and keep twice that number spare: two headlamps that each take three AAA cells need twelve spare AAA cells, on top of the six in the lamps. Choose lights that take AA or AAA cells or charge by USB; a light that charges by USB needs a charged power bank in place of spare cells (see PL-02). A solar or hand-crank lantern is a useful backup that needs no batteries. Do not plan on candles.",
+      "done": "Each person has a working headlamp or flashlight, a lantern is in the room you will live in, and the spare cells or a charged power bank are beside them.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "apartment": "Corridor and stairwell emergency lights run on backup power for a limited time and may not last through a long outage, so take your own light whenever you leave your unit (see PL-08).",
+      "products": [
+        "headlamp",
+        "flashlight",
+        "lantern",
+        "batteries-disposable"
+      ],
+      "cites": [
+        "redcross-outage",
+        "ready-outage"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-04",
+      "same_as": "BG-21",
+      "level": 1,
+      "section": "Supplies for sheltering at home",
+      "title": "Get paper maps of your city and of the places you would go",
+      "why": "Phone maps fail when the battery or the network does, and blocked streets can force you onto a route you have never used.",
+      "how": "Buy or print a street map of your city that shows home, work and schools, and one for each place you would evacuate to. Mark your home, your meeting places and your two destinations in pen. Keep one copy in your bag and one at home.",
+      "done": "Marked paper maps of your city and of each place you would go are in your bag, with a second copy at home.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Without a car you need a map that shows footpaths, bridges and transit lines, not only main roads (see BG-21).",
+      "products": [
+        "paper-map-compass"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-05",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep a wrench beside your gas and water shut-offs",
+      "why": "A gas or water valve at the meter cannot be turned by hand, and a burst pipe leaves no time to hunt for a tool.",
+      "how": "If your home has its own gas meter, or a water valve that needs a tool, ask the utility how the shut-off works, what tool it takes (often an adjustable wrench about 12 inches long) and when they want you to use it. Check that the tool fits the valve, then tie it beside the meter or keep it in a marked spot by the door. Do not turn the gas valve to try it. If you smell gas, leaving comes before any valve: follow the gas steps (AR-13). A street-side water valve usually takes a meter key.",
+      "done": "The tool your utility named fits the valve and is kept beside the meter or in a marked spot by the door, or no valve of yours needs a tool.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "apartment": "Most apartment residents need no wrench: you can switch off your own breakers and turn the stop valves under sinks and behind the toilet by hand, but the building's meters, mains and risers are for management or the utility (see HR-15 and HR-25).",
+      "cites": [
+        "ready-skills",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-06",
+      "level": 3,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep a multi-tool at home",
+      "why": "One folding tool with a blade, pliers and screwdrivers covers most small repairs when you cannot get to a store.",
+      "how": "Choose one with a knife blade, pliers, flat and Phillips screwdrivers, scissors and a can opener. Keep it in a fixed place, such as the drawer nearest the door, so anyone can find it in the dark. If you want one in a bag as well, check the rules first: knives cannot go through security checks (see BG-18).",
+      "done": "A multi-tool with a blade, pliers and screwdrivers is in its fixed place at home, such as the drawer nearest the door.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "multi-tool"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-07",
+      "same_as": "U2-40",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Buy a battery or hand-crank radio",
+      "why": "When phones and internet are down, broadcast radio is how officials tell you about water, shelters and when it is safe to go out.",
+      "how": "Get a radio that receives AM and FM and, in the United States, the NOAA weather band, and that runs on AA batteries, a hand crank or both. Keep one spare set of batteries beside it, not inside it. Test it once, then write your local stations on a label stuck to the radio (see CM-11).",
+      "done": "The radio has played a local station, your stations are written on a label stuck to it, and a spare set of batteries sits beside it.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Reception can be weak deep inside a concrete building, so test the radio at a window and note where it works best.",
+      "products": [
+        "emergency-radio"
+      ],
+      "cites": [
+        "ready-alerts",
+        "nws-nwr"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-08",
+      "level": 3,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep a roll of duct tape",
+      "why": "Strong tape makes quick repairs and, with plastic sheeting, covers a broken window or seals a room against outside air.",
+      "how": "Keep one full roll, about 2 inches wide, with your other supplies. Typical uses: taping plastic over a broken window, sealing around a door or vent, mending a torn bag, labeling containers. If you prepare a seal-up room (AR-09), keep a second roll in that room.",
+      "done": "A full roll of duct tape is with your other supplies.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "shelter",
+        "earthquake"
+      ],
+      "products": [
+        "plastic-sheeting-tape"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-09",
+      "same_as": "AR-05",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Stock a respirator mask for each person",
+      "why": "A well-fitted N95 respirator filters smoke, dust and airborne germs, which a loose paper dust mask does not.",
+      "how": "Buy NIOSH-approved N95 respirators for each person who can wear one (AR-05 says how many), and look for the NIOSH name and approval number printed on the mask. Have each person try one on and press the nose strip so air does not leak round the edges. N95s are not made to fit young children, and they do not stop gases or chemical vapors. Keep them sealed in a bag with your supplies (see AR-05).",
+      "done": "The number of NIOSH-approved N95 respirators that AR-05 gives is sealed in a bag with your supplies, and each wearer has tried one on.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "smoke",
+        "earthquake"
+      ],
+      "products": [
+        "respirator-n95"
+      ],
+      "cites": [
+        "niosh-n95",
+        "cdc-wildfire-smoke"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-10",
+      "same_as": "U3-22",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep one fire extinguisher near your exit door",
+      "why": "A fire caught in its first seconds can be put out, and an extinguisher kept by the exit is one you reach with your way out behind you.",
+      "how": "Buy one multipurpose (ABC) extinguisher; about 5 lb (2.3 kg) is a common home size that most adults can handle. Mount it or stand it in plain view beside your exit door, not next to the stove. Check now and then that the gauge needle is in the green and the pin is in place, follow the inspection instructions on the label, and replace it after any use or at the date on the label. In a house, add one on each other floor.",
+      "done": "A multipurpose (ABC) extinguisher is in plain view beside your exit door, and on each other floor of a house, with its needle in the green and pin in place.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "One extinguisher inside your own front door is enough for an apartment; the corridor extinguishers, hose reels and alarm pull stations belong to the building, and X6-05 has you find them.",
+      "products": [
+        "fire-extinguisher"
+      ],
+      "cites": [
+        "ready-homefire",
+        "nfpa-extinguisher",
+        "ready-skills"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-11",
+      "level": 2,
+      "part": "household",
+      "section": "Supplies for sheltering at home",
+      "title": "Teach everyone at home to use the extinguisher",
+      "why": "An extinguisher is empty within seconds, so the person holding it must already know the steps and when to walk away.",
+      "how": "Teach the four steps, PASS: Pull the pin, Aim low at the base of the fire, Squeeze the handle, Sweep from side to side. Then agree the rules. Children alert others and leave; they are never the ones to use an extinguisher, and the US Fire Administration says older adults should not use one either. An adult tries only after others have been alerted and someone has called 911, and only on a small fire contained in one object, such as a pan or a wastebasket, with no smoke to breathe and a clear way out behind them. If it is not out at once, leave and close the door. Let each adult who would use it lift the unit and find the pin without pulling it. Many fire departments give free hands-on sessions; call the non-emergency number to ask.",
+      "done": "Everyone at home has heard the four steps and the rules, and each adult who would use the extinguisher has lifted it and found the pin.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "usfa-extinguishers",
+        "nfpa-extinguisher",
+        "ready-homefire"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "X6-05",
+      "level": 2,
+      "part": "household",
+      "section": "Supplies for sheltering at home",
+      "title": "Find your building's extinguishers, hose reels and alarm pull stations",
+      "why": "In a fire you have seconds to raise the alarm, and you can only use equipment whose place you already know.",
+      "how": "Walk from your door to each stairwell and note every extinguisher cabinet, hose reel and alarm pull station; pull stations are usually beside stair and exit doors. If you find a fire, pull the alarm and call 911 with the address and floor; whether you then leave or stay behind your closed door follows the fire-alarm rule (HR-06). Use a corridor extinguisher only on a small fire with your exit behind you, and use hose reels or standpipe hoses only if your building's fire safety plan says residents may. Write the locations on the Building information sheet by hand.",
+      "done": "The locations of every extinguisher cabinet, hose reel and alarm pull station between your door and each stairwell are written on the Building information sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "worksheet": "building-info",
+      "cites": [
+        "nfpa-highrise",
+        "usfa-highrise"
+      ]
+    },
+    {
+      "id": "U6-12",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep a sleeping bag or warm blankets for each person",
+      "why": "If the heating stops, bedding is the one source of warmth that needs no power and no fuel.",
+      "how": "Have one sleeping bag or at least two thick blankets for every person, plus a foam mat or folded rug to put underneath anyone who will sleep on the floor. Sleeping bags are warmer for their size; blankets you already own cost nothing. Store them dry, where you can reach them in the dark. A baby gets neither: CDC says to keep blankets and other soft bedding out of a baby's sleep area, so plan their sleep space and warm clothing with FN-05 and FN-34. Count the blankets, comforters and sleeping bags you already own first. A sleeping bag packs smaller than a blanket and can go with you if you leave.",
+      "done": "Each person other than a baby has a sleeping bag or at least two thick blankets, stored dry where you can reach them in the dark.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "cold",
+        "outage"
+      ],
+      "products": [
+        "sleeping-bag"
+      ],
+      "cites": [
+        "cdc-safe-sleep"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-13",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Set aside the personal items your household cannot do without",
+      "why": "Stores and pharmacies may be closed or out of reach, and these are the things nobody else can lend you.",
+      "how": "Go through a normal day for each person and list what they use that is particular to them: prescription and regular medicines, spare glasses, contact lenses and solution, hearing-aid batteries, menstrual products, and for a baby formula, diapers, bottles and a pacifier. Keep enough of each for your target days, starting with three; for prescription medicines ask your prescriber or pharmacist about an emergency supply (see FN-12). Add one comfort item for each child and a few books, cards or games that need no power.",
+      "done": "The personal items each person cannot do without are listed, and enough of each for your target days is set aside.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "menstrual-backup"
+      ],
+      "cites": [
+        "cdc-medications-emergency",
+        "redcross-kit"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-14",
+      "same_as": "AR-09",
+      "level": 2,
+      "section": "Supplies for sheltering at home",
+      "title": "Buy plastic sheeting and tape for sealing a room",
+      "why": "If officials tell you to shelter in place from a chemical release, plastic taped over windows, doors and vents slows outside air getting in.",
+      "how": "Buy a roll of plastic sheeting 4 mil (0.004 inch, about 0.1 mm) or thicker and a roll of duct tape. Choose the room first (see AR-09), then cut one piece for each window, door and vent, a hand's width larger all round, and label each piece. Store the pieces, the tape, scissors and towels in that room. Seal up only when officials say so, and take it down when they say it is clear. A sealed room is for a few hours (AR-11 has the air limit).",
+      "done": "The plastic pieces are cut and labeled for each window, door and vent, and stored with tape, scissors and towels in the room you chose.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 40,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "shelter"
+      ],
+      "apartment": "In a building with shared ventilation, sealing your own room is only part of the job; ask management how the system is shut down (see AR-10).",
+      "products": [
+        "plastic-sheeting-tape"
+      ],
+      "cites": [
+        "osha-shelter-in-place",
+        "ready-shelter",
+        "ready-chemical",
+        "oregon-2wr",
+        "fema-shelter-room-faq"
+      ],
+      "cite_todo": "",
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-15",
+      "level": 3,
+      "section": "Supplies for sheltering at home",
+      "title": "Keep a tent or tarps for sheltering in your yard",
+      "why": "If your house is unsafe to sleep in but your yard is clear, a tent keeps you on your own ground and close to your supplies.",
+      "how": "Keep a tent that sleeps your household, or two tarps of about 10 by 12 feet with 50 feet of rope to string between trees or fence posts. Add matches in a waterproof container for an outdoor fire where burning is allowed. Pitch well away from anything that could fall: the house, chimneys, trees, power lines. Never bring a stove, heater or any flame inside a tent, and keep rope and tarps clear of an outdoor fire.",
+      "done": "A tent that sleeps your household, or two tarps with 50 feet of rope, is stored at home with matches in a waterproof container.",
+      "cost": "mid",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "only": {
+        "outdoor": [
+          "yard"
+        ]
+      },
+      "swap": "X6-02",
+      "apartment": "You cannot camp outside an apartment: if the building is sound you camp indoors in one room (X6-02), and if it is not you go to one of the addresses in your evacuation plan (X2-03).",
+      "cites": [
+        "cdc-co"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "X6-02",
+      "level": 3,
+      "section": "Supplies for sheltering at home",
+      "title": "Build an indoor camp kit for one room",
+      "why": "Living and sleeping in one room keeps a household warm, lit and together through a long outage without burning any fuel.",
+      "how": "Pick the room: your warm room in cold weather (see HC-14), your cool room in heat (see HC-02). For each person put together a sleeping bag or two thick blankets, a foam or inflatable mat and a headlamp; for the room, one lantern and a bin holding the radio, games and a day's water and food. In cold weather a small free-standing tent or a blanket canopy over the bed traps body heat (see HC-17). A baby does not sleep in a sleeping bag or under the canopy: add a portable crib or play yard for each baby, or check that the place you would go has one (FN-05, FN-34). Put no stove, fuel heater or candle in the kit.",
+      "done": "The room is chosen, and a sleeping bag or blankets, a mat and a headlamp for each person other than a baby sit together with the lantern and the bin.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "cold"
+      ],
+      "products": [
+        "sleeping-bag",
+        "lantern",
+        "headlamp"
+      ],
+      "cites": [
+        "cdc-co",
+        "nfpa-candles",
+        "cdc-safe-sleep",
+        "cpsc-safe-sleep"
+      ]
+    },
+    {
+      "id": "X6-01",
+      "level": 2,
+      "same_as": "U2-91",
+      "section": "Staying or leaving",
+      "title": "Decide in advance when you stay and when you go",
+      "why": "A rule agreed calmly beforehand is quicker and safer than a decision made in the dark with everyone tired.",
+      "how": "Write down your rule. You stay home while the building is sound, the air is safe to breathe and you can keep the home at a safe temperature. You leave at once on an official evacuation order, a fire, a gas smell or structural damage. For the slower cases (heat, cold, water running out, a medical device you cannot power) set your own limits in X2-05, for example indoor heat staying above about 31 °C (88 °F) for anyone at higher risk. Fill in the Our reasons to leave sheet by hand, add where you would go (X2-03), and keep it with your plan. People nearly always leave later than they meant to. When a trigger on your sheet is met, go.",
+      "done": "The Our reasons to leave sheet is filled in with your rule, your limits and where you would go, and is kept with your plan.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "An upper-floor home can lose water, elevators and cooling in the same outage, so check your limits against the answers management gives you in HR-01.",
+      "worksheet": "leave-triggers",
+      "cites": [
+        "ready-evac",
+        "ready-shelter",
+        "preparedbc-heat"
+      ]
+    },
+    {
+      "id": "U6-16",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "Learn how to find an open public shelter",
+      "why": "Shelters are announced only once they open, so you need to know where to look and which buildings near you are usually used.",
+      "how": "Ask your city or county emergency management office, or check its website, which buildings near you usually serve as shelters (often schools and community centers), and write down two or three on the Evacuation plan sheet. Save the ways to find what is open on the day: in the United States, text SHELTER and your ZIP code to 43362, use the FEMA app, or check the Red Cross shelter map. The Red Cross says its shelters are open to anyone in need, ask for no ID, and welcome pets, which may be housed nearby. Ready.gov still warns that many public shelters and hotels do not allow pets inside, so pet owners also need U6-20.",
+      "done": "Two or three buildings near you that usually serve as shelters are written on the Evacuation plan sheet, and the ways to find an open one are saved.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "If your building is standing but has no heat, power, water or working elevators, you can still use a public shelter or a warming or cooling center. Shelters are crowded and basic, so staying home is usually better if you can do it safely, which is what 72 hours at home and Two weeks at home are for.",
+      "worksheet": "evacuation-plan",
+      "cites": [
+        "fema-app",
+        "redcross-shelter",
+        "ready-shelter"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-17",
+      "same_as": "X2-03",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "Ask friends or family now whether you could stay with them",
+      "why": "People say yes more easily, and plan better, when they are asked before an emergency instead of at the door during one.",
+      "how": "Pick two households: one you could walk to, and one outside your city. Ask each plainly whether your household, pets included, could stay for up to two weeks, and offer the same in return. Agree how you would tell them you are coming if phones are down. Write both addresses on the Evacuation plan sheet by hand (X2-03 builds on this).",
+      "done": "Two households, one in walking distance and one outside your city, have said yes, and both addresses are written on the Evacuation plan sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "worksheet": "evacuation-plan",
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-18",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "Work out your ways out from home, work, school and your neighborhood",
+      "why": "The usual road, bridge or transit line may be closed, and a route chosen in advance saves time when you have to leave.",
+      "how": "For each place a household member spends the day, write two routes out: the usual one, and one that avoids its weakest point (a bridge, tunnel, underpass or single transit line). Do the same for leaving your neighborhood toward each of your two destinations. Say how you would travel each one: on foot, by transit, by car or with a neighbor. Write them on the Evacuation plan sheet by hand.",
+      "done": "Two routes out from each place a household member spends the day, and from your neighborhood to each destination, are written on the Evacuation plan sheet.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Your route starts at your own front door: two stairwells down to the street (HR-04, HR-05), then on foot or by transit if you have no car (X2-04).",
+      "worksheet": "evacuation-plan",
+      "cites": [
+        "ready-evac"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-19",
+      "same_as": "BG-21",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "Mark two routes on a printed map and put it in your bag",
+      "why": "A marked paper map works with no battery and lets anyone in the household follow the plan.",
+      "how": "Print or buy a map that covers home, work, school and childcare. With a highlighter, mark at least two different routes between each of those places and home, and mark your meeting places. Fold it into the grab bag by the door, and give each commuter a copy.",
+      "done": "A map with at least two routes and your meeting places highlighted is folded into the grab bag by the door, and each commuter holds a copy.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "Mark walking routes as well as driving ones, because transit may stop and many city households have no car (see X2-01).",
+      "products": [
+        "paper-map-compass"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-20",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "List the places your pets could stay",
+      "why": "A shelter that welcomes pets may house them at a separate site, and Ready.gov warns that many public shelters and hotels do not allow pets inside, so you need an answer before you are standing at the door with one.",
+      "how": "Find at least three options: a friend or relative who would take the animal, a boarding kennel or vet clinic near you and one outside your area, and pet-friendly hotels along your routes. Ask your local animal control office or humane society whether pet-friendly shelters open in emergencies. Write the names, addresses and phone numbers on the Pet sheet by hand.",
+      "done": "At least three places your pets could stay are written on the Pet sheet with names, addresses and phone numbers.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "worksheet": "pet-sheet",
+      "cites": [
+        "ready-pets",
+        "redcross-pets",
+        "redcross-shelter",
+        "ready-shelter"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-21",
+      "same_as": "BG-11",
+      "level": 1,
+      "section": "Staying or leaving",
+      "title": "Pack a grab bag for each pet",
+      "why": "A pet with its own packed bag can leave with you in minutes and is easier to place wherever you end up.",
+      "how": "Pack a carrier or crate the animal already knows; a collar with its name, your phone number and its microchip number; a leash or harness; a small blanket and one toy; food and a bowl; waste bags or a small litter kit; medicines with written instructions; proof of vaccinations; the vet's contact details; a photo labeled with the pet's name and yours; and notes on allergies or fears. The toolkit lists up to two weeks of food; in a bag you carry down stairs, pack at least 3 days and keep the rest at home (see FN-22). Keep the bag beside the carrier.",
+      "done": "Each pet's packed bag sits beside its carrier, with at least 3 days of food inside.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "has": [
+          "pets"
+        ]
+      },
+      "apartment": "Check that you can carry the pet, its carrier and your own bag down the stairs in one trip (see FN-23).",
+      "products": [
+        "pet-carrier",
+        "pet-harness-leash",
+        "pet-bowl-food",
+        "pet-litter-portable"
+      ],
+      "worksheet": "pet-sheet",
+      "cites": [
+        "ready-pets",
+        "redcross-pets",
+        "avma-pets"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-22",
+      "level": 0,
+      "section": "Right after an emergency",
+      "title": "Put shoes and a light beside every bed",
+      "why": "After a shock or in a night-time outage the floor may be covered in broken glass, and cut feet stop you getting out.",
+      "how": "Tonight, put a pair of sturdy closed shoes and any flashlight or headlamp you already own under or beside each bed, children's beds included. Tie them in a bag to the bed leg, or push the light inside a shoe, so they stay put and stay free of glass. If you have no spare light, your phone on the bedside table will do until you add a headlamp for each adult and each child old enough to switch one on, kept in the same place with its batteries in and a spare set beside it.",
+      "done": "There are closed shoes and a working light at every bed.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 2,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage",
+        "evacuation"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "X6-04",
+      "level": 2,
+      "section": "Right after an emergency",
+      "title": "Put on shoes and switch on a light before you move",
+      "why": "After an earthquake, an explosion or a window-breaking storm, the first danger indoors is broken glass and fallen things in the dark.",
+      "how": "Make it the household rule: after any shock, nobody steps off the bed or out of the room until they have shoes on and a battery light in hand. Use a flashlight, headlamp or phone, never a match, lighter or candle, because gas may be leaking. If you smell gas or hear hissing, follow the gas steps (AR-13). With no sign of gas, check people first and the home second (U6-25).",
+      "done": "Everyone at home has heard the shoes and light rule and has said it back aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "Expect more broken glass and shifted furniture on upper floors, where a tall building sways the most.",
+      "cites": [
+        "ready-quake",
+        "ready-skills",
+        "tokyo-bousai",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ]
+    },
+    {
+      "id": "U6-23",
+      "level": 2,
+      "section": "Right after an emergency",
+      "title": "Show every capable person how to shut off your utilities",
+      "why": "The person who knows where the shut-offs are may not be the one at home when a pipe bursts or the power has to go off.",
+      "how": "Walk every adult and responsible teenager to each shut-off you control and have them put a hand on it: the electrical panel, the water valve, and the gas valve if you have one. Let each person switch a breaker off and on and close and reopen a water valve; for gas, show where the valve is without turning it. Agree when each is used: water for a burst pipe or leak; breakers when water is reaching outlets or you smell burning, and only with dry hands and dry feet. Gas is different: if you smell it, leaving comes before any valve (AR-13).",
+      "done": "Every adult and responsible teenager has been walked to each shut-off, has switched a breaker and a water valve off and on, and has seen where any gas valve is.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "outage"
+      ],
+      "apartment": "In an apartment you can shut off only your own breaker panel, the stop valves at each faucet, toilet and appliance, and the valve behind a gas stove or dryer (HR-15); you cannot shut off the building's gas, water mains, risers or fire system, so learn who can (HR-25).",
+      "cites": [
+        "ready-skills",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-24",
+      "level": 3,
+      "same_as": "U2-149",
+      "section": "Right after an emergency",
+      "title": "Ask your utility companies your shut-off questions now",
+      "why": "In an emergency the utilities' phone lines are jammed, so the time to ask is before one.",
+      "how": "Call or check the websites of your gas, electricity and water providers and ask: where is my shut-off, may I turn it myself, what tool does it need, who turns it back on and how long does that take, and what number do I call to report a leak or an outage. Write the answers and the emergency numbers on the Utilities list by hand and keep it with your plan.",
+      "done": "The answers to your shut-off questions and each utility's emergency number are written on the Utilities list and kept with your plan.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "If the building holds the utility accounts, put these questions to management instead: you can shut off only what is inside your unit (HR-15), and management or the utility shuts off everything else (HR-25).",
+      "worksheet": "utilities",
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-25",
+      "level": 3,
+      "section": "Right after an emergency",
+      "title": "Learn the checks to make after an earthquake",
+      "why": "The hour after the shaking stops is when fires, gas leaks and aftershocks do further harm, and a fixed order of checks keeps you from missing one.",
+      "how": "Work in this order. 1) People: check yourself and others, press firmly on any bleeding, and move a badly hurt person only if they are in immediate danger. 2) Shoes on, battery light on, and expect aftershocks. 3) Fire: put out a small one or leave and close the door. 4) Gas: if you smell gas or hear hissing, follow the gas steps (AR-13), and do not go into a building that may have a leak. 5) Structure: look for cracks and leaning, and leave if you see them. 6) Radio on for official news. 7) Then water, food and appliances; open cabinets slowly; clean up spilled chemicals. 8) Stay off the roads unless you must leave; near the coast, move inland to high ground as soon as the shaking stops.",
+      "done": "Every adult at home has read the checks through in order, or has heard them read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "After any event that may have damaged your building (an explosion, a vehicle impact, a storm, a flood or a fire), make the same checks in the same order: people, shoes and light, fire, gas smell, structure, official information, then water and food."
+      },
+      "apartment": "In an apartment also use the stairs and not the elevator, do not flush until management confirms the drains are sound (X5-01), and report damage to management (HR-19).",
+      "cites": [
+        "ready-quake",
+        "ready-skills",
+        "tokyo-bousai",
+        "stop-the-bleed",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ],
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-26",
+      "level": 3,
+      "section": "Right after an emergency",
+      "title": "Learn how to deal with fuel-soaked rags and spilled medicines",
+      "why": "Rags soaked in fuel, oil or solvent are a fire risk when stored the wrong way, and medicines put down a drain can contaminate water.",
+      "how": "Keep people and flames away from a fuel or chemical spill; for a large spill, strong fumes or any risk of fire, leave and call 911. Never leave fuel-soaked or oily rags in a pile, and never store them in a can with holes punched in it. For rags wet with oil-based paint, stain or varnish, the fire-protection method is to dry them outdoors, spread flat and weighed down, then keep them in a metal container with a tight lid, filled with water and detergent, until you can take them to hazardous-waste disposal. Ask your fire department or hazardous-waste service what to do with anything soaked in gasoline. Sweep spilled medicines into a sealed bag or tub for a take-back site; do not flush or bury them.",
+      "done": "Every adult at home has read these steps or heard them read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "apartment": "With no outdoor space to dry rags, put them straight into the lidded metal container, fill it with water and detergent, keep it out of your exit path, and ask management or your fire department where it can go.",
+      "cites": [
+        "seattle-fire-oily-rags",
+        "bend-fire-oily-rags",
+        "fda-medicine-disposal"
+      ],
+      "cite_todo": "",
+      "toolkit_page": "20-26"
+    },
+    {
+      "id": "U6-27",
+      "level": 3,
+      "section": "Hazard hunt",
+      "title": "Hunt for hazards at home and plan every fix",
+      "why": "Most home hazards are easy to see once you look for them on purpose, and sorting the fixes by what they need lets you start on the free ones today.",
+      "how": "Take paper and walk every room, then your route out to the street. For earthquake, look for tall or heavy things that could fall or roll, anything heavy above a bed or sofa, and glass near beds. For fire, look for overloaded power strips, things stored near the stove, anything that can burn within 3 feet of a heater, a missing or silent smoke alarm, and a blocked exit. For flood and leaks, look for papers and valuables kept on the floor or in a basement. Check that nothing is in the way between each bed and the front door, and that each window you might need opens. Write every hazard in one of three columns: do this week (free or nearly free, and you can do it yourself); needs money, time or a tool; needs the landlord or a professional. Electrical and plumbing work goes in the third column unless you are trained, so that it is safe and meets local codes. Fix what takes minutes today, and put a date beside every other item in the first column. From the first two columns write one shopping list, such as furniture anchor straps (two for each tall piece), latches for cabinets that hold heavy or breakable things, putty for ornaments, a water-resistant box for papers and smoke-alarm batteries, then buy them in one trip and fit them the same week. Beside each item in the third column write a quote or rough price and a target month, most dangerous first. Owners set aside a fixed amount each month until it is covered; renters send the column to the landlord in writing, ask for a date and keep a copy.",
+      "done": "Your three-column hazard sheet covers every room and your route out, with the quick fixes crossed off or dated, the bought items fitted, and a price and target month beside each job for a professional.",
+      "cost": "mid",
+      "time": "afternoon",
+      "minutes": 120,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Hunt for the hazards that apply to your floor and region: fire and blocked exits everywhere, then whatever your area gets, such as storm-broken windows, flooding on low floors, or rooms that overheat in the afternoon sun. Outside earthquake country the shopping list is usually shorter: furniture anchors where children live, a water-resistant box for papers, and whatever your own list calls for."
+      },
+      "apartment": "In place of the outside of a house, walk your corridor, both stairwells and the lobby. Anything that touches the building's wiring, plumbing, walls or doors goes in the third column. Report it, and building hazards such as wedged-open fire doors, dead exit lights or things stored in the corridor or on the stairs, to management in writing (HR-17), keep a dated copy, and follow up.",
+      "toolkit_page": "79",
+      "cites": [
+        "nfpa-smoke-alarms",
+        "nfpa-heating",
+        "nfpa-escape"
+      ]
+    },
+    {
+      "id": "U6-28",
+      "level": 3,
+      "same_as": "U6-27",
+      "section": "Hazard hunt",
+      "title": "Sort the hazard fixes into your three columns",
+      "why": "A list sorted by what each fix needs shows which jobs you can finish this week.",
+      "how": "Take the hazard list from U6-27 and add each item to the three columns you started in U6-02: do this week; needs money, time or a tool; needs the landlord or a professional. Electrical and plumbing work goes in the third column unless you are trained, so that it is safe and meets local codes. Put a date beside every item in the first column and do them this week.",
+      "done": "Every hazard from your list sits in one of the three columns, and each item in the first column has a date beside it.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "Anything that touches the building's wiring, plumbing, walls or doors goes in the third column and to management in writing.",
+      "toolkit_page": "79"
+    },
+    {
+      "id": "U6-29",
+      "level": 3,
+      "same_as": "U6-27",
+      "section": "Hazard hunt",
+      "title": "Buy what the quick fixes need",
+      "why": "One short, exact shopping list turns the hazard hunt into finished jobs after a single trip.",
+      "how": "From your first two columns write one shopping list. Typical items are furniture anchor straps (two for each tall piece), latches for cupboards that hold heavy or breakable things, putty for ornaments, a water-resistant box for papers, and smoke-alarm batteries. Buy them in one trip and fit them the same week.",
+      "done": "Every item on your shopping list is bought and fitted in its place.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 45,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "region": {
+        "label": "Earthquake country",
+        "general": "Outside earthquake country the list is usually shorter: furniture anchors where children live, a water-resistant box for papers, and whatever your own hazard list calls for."
+      },
+      "toolkit_page": "79"
+    },
+    {
+      "id": "U6-30",
+      "level": 3,
+      "same_as": "U6-27",
+      "section": "Hazard hunt",
+      "title": "Budget for the fixes that need a professional",
+      "why": "Larger repairs only happen once someone has put a price and a date on them.",
+      "how": "For each item in your third column, get one written quote or a rough price and write it beside the item with a target month. Put the most dangerous item first. Owners: set aside a fixed amount each month until it is covered. Renters: send the list to the landlord in writing, ask for a date, and keep a copy.",
+      "done": "Each item in your third column has a price and a target month beside it, and renters hold a copy of the list sent to the landlord.",
+      "cost": "free",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "apartment": "For renters and condo owners most of this column belongs to the landlord or the owners' association; your part is to report it in writing and follow up.",
+      "toolkit_page": "79"
+    },
+    {
+      "id": "U6-31",
+      "level": 2,
+      "section": "Shut-offs and access",
+      "title": "Practice switching off your breakers",
+      "why": "Cutting the power quickly limits fire and shock risk when water is leaking or wiring is damaged, and it is easier once you have done it.",
+      "how": "Tell the household, shut down computers, then find your panel and open it. Switch off the individual breakers one at a time, then the main breaker; to restore, switch the main on first, then the individual breakers one by one. Label each breaker as you go (see PL-18). Never touch the panel with wet hands or while standing on a wet floor.",
+      "done": "You have switched each breaker and the main off and back on, and every breaker is labeled.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "earthquake"
+      ],
+      "apartment": "The panel inside your own unit, often in a hallway or closet, is the only electrical shut-off you operate; the building's meter room and main switchgear are for management and the utility (see HR-15 and HR-25).",
+      "cites": [
+        "ready-skills"
+      ],
+      "toolkit_page": "80"
+    },
+    {
+      "id": "U6-32",
+      "level": 2,
+      "section": "Shut-offs and access",
+      "title": "Find your gas shut-off and learn the quarter turn",
+      "why": "A gas valve is only useful if you already know where it is and how it turns, because a leak leaves no time to look.",
+      "how": "Find the gas meter, usually outside at the front or side of the house, and ask your gas company how its shut-off works, what tool it needs and when they want you to use it; keep that tool by the meter (U6-05). Do not turn it for practice. If you smell gas, leaving comes before any valve (AR-13).",
+      "done": "You can point to the gas meter and its shut-off, the gas company has answered your questions, and the tool it named is kept by the meter.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "HR-15",
+      "apartment": "An apartment building's gas meter and main valve are for management or the gas company; a resident can close only the small valve behind their own gas stove or dryer (HR-15), and HR-25 covers who shuts off the rest.",
+      "cites": [
+        "ready-skills",
+        "peoples-gas-emergency",
+        "dte-gas-leak",
+        "nicor-gas-safety"
+      ],
+      "toolkit_page": "80"
+    },
+    {
+      "id": "U6-33",
+      "same_as": "U4-24",
+      "level": 2,
+      "section": "Shut-offs and access",
+      "title": "Find your main water shut-off",
+      "why": "Closing the main valve is the fastest way to stop a burst pipe from flooding the house.",
+      "how": "Look for the main valve indoors where the water line enters the house, often in a basement, garage or utility cupboard; a round handle closes clockwise and a lever closes with a quarter turn. If the only shut-off is in the meter box at the street or pavement, ask your water utility whether you may turn it and what tool it takes. Close and reopen the indoor valve once so you know it moves, then hang a tag on it.",
+      "done": "The indoor main valve has been closed and reopened once and has a tag on it, or the water utility has answered about the one at the street.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "earthquake",
+        "cold"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "swap": "HR-15",
+      "apartment": "In an apartment you can close the stop valves under each sink and behind the toilet, and a unit shut-off if you have one (HR-15); the building's main, risers and meter are for management (HR-25).",
+      "cites": [
+        "ready-skills"
+      ],
+      "toolkit_page": "80"
+    },
+    {
+      "id": "X6-03",
+      "same_as": "HR-01",
+      "level": 2,
+      "section": "Shut-offs and access",
+      "title": "Find out how you get in and out with no power",
+      "why": "Electronic locks, key fobs, intercoms and garage gates can all stop in an outage, and you need to know which way each one fails.",
+      "how": "Ask management: do the entrance doors, fob readers and intercom work without mains power, and for how long; do the doors unlock or stay locked when power fails; which door takes a metal key; and how the garage gate is opened by hand and by whom. Carry the metal keys to your unit and the building, not only a fob. Visitors cannot buzz in during an outage, so agree to meet them at the door. Write the answers on the Building information sheet by hand.",
+      "done": "Management's answers about doors, fobs, intercom and the garage gate are written on the Building information sheet, and you carry the metal keys.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "outage",
+        "evacuation"
+      ],
+      "only": {
+        "home": [
+          "lowrise",
+          "highrise"
+        ]
+      },
+      "worksheet": "building-info",
+      "cites": [
+        "preparedbc-apartments",
+        "tokyo-bousai"
+      ]
+    },
+    {
+      "id": "X6-06",
+      "level": 2,
+      "section": "Storms and floods",
+      "title": "Pick your tornado shelter spot and learn watch from warning",
+      "why": "A tornado warning can leave only minutes, so the place you will shelter has to be chosen before one is issued.",
+      "how": "A tornado watch means tornadoes are possible: go over your plan, check your shelter spot and stay near your alerts. A tornado warning means one has been seen or shows on radar: shelter now. In a house, go to the basement or a safe room, or to a small interior room on the lowest floor, away from windows. In an apartment or a tall building, take the stairs, never the elevator, to the lowest floor you can reach, and shelter in an interior hallway, an interior stairwell or a small windowless room near the center of the building; if there is no time to go down, use an interior hallway or bathroom on your own floor, away from glass. Crouch low, cover your head with your arms, and pull a mattress or thick blankets over yourselves. A car, a mobile home, a shed or the open air is not shelter: get into a sturdy building. If you are in a car and cannot reach one, the National Weather Service says to get down in the car and cover your head, or leave the car for a low-lying spot such as a ditch or ravine. In a thunderstorm, go indoors at the first thunder and stay in for at least 30 minutes after the last. Write your spot by hand on the Meeting places and out-of-area contact sheet and walk everyone to it once.",
+      "done": "Your tornado shelter spot is written on the Meeting places and out-of-area contact sheet and everyone at home has walked to it once.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "only": {
+        "hazard": [
+          "tornado"
+        ]
+      },
+      "worksheet": "meeting-places",
+      "cites": [
+        "nws-tornado-during",
+        "nws-tornado-watch-warning",
+        "spc-tornado-safety",
+        "nws-lightning-tips"
+      ]
+    },
+    {
+      "id": "X6-07",
+      "level": 2,
+      "section": "Storms and floods",
+      "title": "Know what to do when water is coming into your home",
+      "why": "Flood water rises fast and can hide live electricity, and six inches of it moving is enough to knock an adult down.",
+      "how": "When a flood warning covers your address or water is rising outside, move people, pets, the grab bags and your documents to a higher floor, and leave for higher ground at once if officials say to. If you can reach the breaker panel without touching water or anything wet, switch off the power to any room that is taking water. Never go into a basement, or any room, where water covers the sockets or cords. Never walk or drive through flood water: six inches of moving water can knock you down and a foot can carry a car away. In a basement or garden-level home, be ready to move to a higher floor as soon as heavy rain or a flood warning is forecast, before any water arrives. On an upper floor, stay above the water unless you are told to leave, and expect the elevators, power and drains to fail (X5-01). If you are trapped, go to the highest floor, not into a closed attic, and signal for help. Write where you would go by hand on the Evacuation plan sheet.",
+      "done": "The higher floor or higher ground you would move to is written on your Evacuation plan sheet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "hazard": [
+          "flood",
+          "hurricane"
+        ]
+      },
+      "worksheet": "evacuation-plan",
+      "cites": [
+        "ready-floods",
+        "nws-flood-during",
+        "nyc-em-flooding"
+      ]
+    },
+    {
+      "id": "X6-08",
+      "level": 3,
+      "section": "Storms and floods",
+      "title": "Go back into a flooded home safely",
+      "why": "After the water goes down, the dangers are wet electrics, damaged gas appliances, contaminated mud and mold.",
+      "how": "Go back only when officials say it is safe. Do not touch electrical equipment that is wet, or any at all while you stand in water, and switch the power off first if you can do it safely. Before you use the power, the gas or any appliance that got wet, have the gas or electric utility or a qualified professional check the home: the Consumer Product Safety Commission says gas control valves, wiring, circuit breakers and fuses that have been under water must be replaced, and looking undamaged is not enough. Children take no part in the clean-up, and anyone with asthma or a weak immune system stays out of a home with mold. Wear boots, heavy gloves, goggles and an N95 respirator for mud and mold. Photograph every room and each damaged thing before you throw it out, and tell your landlord and your insurer in writing. Throw away any food or drink flood water may have touched unless it is in a waterproof container, and any medicine it touched; for a medicine someone cannot go without, ask a pharmacist for a replacement at once. Open the home up and dry it as fast as you can: CDC says to throw away, or at least move outdoors, anything flood water wet that cannot be cleaned and dried completely within 24 to 48 hours. Run a generator or any gasoline-powered machine outdoors only, at least 20 feet from the house (PL-04).",
+      "done": "Every adult at home has read these steps or heard them read aloud.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "only": {
+        "hazard": [
+          "flood",
+          "hurricane"
+        ]
+      },
+      "cites": [
+        "ready-floods",
+        "cpsc-flood-2023",
+        "cdc-mold-8-tips",
+        "cdc-mold-cleanup",
+        "epa-mold-guide",
+        "fda-food-outage",
+        "fda-drugs-disaster"
+      ]
+    },
+    {
+      "id": "X6-10",
+      "level": 3,
+      "section": "Storms and floods",
+      "title": "Put a leak sensor where water could come in unnoticed",
+      "why": "A leak or rising water can start while everyone is asleep or out.",
+      "how": "If your home has a basement, a sump, a low entrance, a washing machine or water heater that could leak, or a history of leaks, put a water alarm on the floor at each of those spots; in a rented home, agree the spots with the owner or manager. New York City's emergency office says small alarms that sound when water touches them cost about $10 to $15. If you choose one that sends alerts to a phone, check that it still sounds in the room when the internet or the power is off. Test each one, and name the person who responds if it goes off while you are away. A sensor is not a flood warning: in a basement home, move up when heavy rain or a flood warning is forecast (X6-07), without waiting for the alarm.",
+      "done": "Each sensor sounded when you tested it, and one named person has agreed to respond if it goes off while you are away.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 20,
+      "effort": "easy",
+      "optional": true,
+      "scenarios": [
+        "all"
+      ],
+      "cites": [
+        "nyc-em-be-ready",
+        "nyc-em-flooding"
+      ]
+    },
+    {
+      "id": "X6-12",
+      "level": 2,
+      "section": "Storms and floods",
+      "title": "Give your sump pump a battery backup",
+      "why": "A sump pump that runs on house power stops when the power goes out, and a storm can bring both at once.",
+      "how": "If your house has a sump pump, find it and check whether it has a battery backup. FEMA says to choose a battery-operated sump pump in case the power goes out, and Ready.gov's flood page says to consider a sump pump with a battery. If yours has none, ask a plumber or the store which backup fits your pump. Test the backup the way its maker says, and write the date beside the pump.",
+      "done": "Your sump pump has a battery backup, and the date you last tested it is written beside the pump.",
+      "cost": "mid",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "outage"
+      ],
+      "only": {
+        "home": [
+          "house"
+        ]
+      },
+      "cites": [
+        "fema-protect-home-flooding",
+        "ready-floods"
+      ]
+    },
+    {
+      "id": "X6-11",
+      "level": 2,
+      "part": "household",
+      "section": "Make your home safer",
+      "title": "Keep a pan lid by the stove rather than relying on a fire blanket",
+      "why": "A pan fire needs an answer within seconds, and the tool US fire bodies name for it is a lid or baking sheet kept within reach, not a fire blanket.",
+      "how": "Keep a lid that fits your largest frying pan, or a baking sheet, beside the stove. If a pan catches fire, slide it over the pan, turn off the burner if you can do so safely, and leave the pan where it is. Never pour water on it and never carry it. If the flames do not go out at once, get out, shut the door and call 911. US fire bodies give no advice on fire blankets for the home, and fire services elsewhere disagree: South Australia's fire service recommends one that meets AS/NZS 3504, while Ontario's fire marshal does not endorse them for household use and says Canada has no standard for them. This site follows the stricter advice and does not suggest buying one. If you already own one, keep it on the wall near the kitchen door, not beside the stove or under the sink, and replace it after any use on a real fire.",
+      "done": "A lid that fits your largest frying pan, or a baking sheet, sits beside the stove.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "all"
+      ],
+      "products": [
+        "fire-blanket"
+      ],
+      "cites": [
+        "usfa-cooking",
+        "pickering-fire-blankets",
+        "lfb-pan-fires",
+        "mfs-sa-fire-blankets",
+        "ready-homefire"
+      ]
+    },
+    {
+      "id": "U6-34",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack two or three days of clothes for the season",
+      "why": "Dry clothes that suit the weather keep you warm or cool enough wherever you end up.",
+      "how": "For each person pack 2 or 3 changes of underwear and socks, 1 or 2 tops, 1 pair of trousers and one warm layer, rolled inside a plastic bag to keep them dry. Pack no spare shoes; plan to leave in the sturdy pair you have on. In the cold season your coat, hat and gloves go on you, not in the bag.",
+      "done": "Each person's bag holds 2 or 3 changes of underwear and socks, tops, trousers and a warm layer, rolled inside a plastic bag.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's grab bag assumes a staffed shelter that provides food, water and toilets, so it holds little beyond clothes and personal items; the fuller list for a bag that stands on its own, with rain gear and warmth, is in the Bags module (BG-04).",
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-35",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack spare glasses, hearing-aid supplies and other devices you rely on",
+      "why": "Someone who cannot see, hear or move properly cannot follow instructions or look after themselves in a strange place.",
+      "how": "Put in the bag a spare pair of glasses (an old prescription is better than none), contact lenses with a case and a travel bottle of solution, spare hearing-aid batteries or the charger, and spares or chargers for any other device a person depends on. Things in daily use that you cannot duplicate go on a grab list on top of the bag (see BG-14).",
+      "done": "The bag holds a spare for each device a person relies on: glasses, contact lenses and solution, hearing-aid batteries or the charger.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's grab bag list assumes you are going to a staffed shelter; these items belong in any bag, and the fuller list is in the Bags module (BG-04).",
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-36",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack hand sanitizer and wipes",
+      "why": "Clean hands prevent the stomach bugs that spread fast wherever many people share a space.",
+      "how": "In each grab bag put one small bottle of hand sanitizer with at least 60% alcohol, one pack of disinfectant wipes for surfaces and one pack of body wipes. Sanitizer works poorly on visibly dirty hands, so wipe them first, and use soap and water whenever you can.",
+      "done": "Each grab bag holds a small bottle of hand sanitizer, a pack of disinfectant wipes and a pack of body wipes.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter with toilets and washing water; the fuller list in the Bags module (BG-04) adds toilet bags, tissue and a mask.",
+      "products": [
+        "body-wipes"
+      ],
+      "cites": [
+        "cdc-sanitizer",
+        "cdc-handwashing"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-37",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack medicines with a written list",
+      "why": "A missed dose can turn an evacuation into a medical emergency, and a written list lets any pharmacist or doctor help you.",
+      "how": "Put a supply of each prescription and regular over-the-counter medicine in the bag in its original labeled pack: prescription medicines for 7 days if your supply allows and never fewer than 3, with the written list. Swap them for fresh stock before they expire. Write the list for each person by hand on the Medication list: medicine, dose, how often, the prescriber, and every allergy. Medicines that must stay cold go on the grab list on top of the bag instead (see X7-02).",
+      "done": "The bag holds at least 3 days of each person's medicines in their original labeled packs, with the filled-in Medication list.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter, and no shelter stocks your prescriptions; the fuller list, with a first-aid kit, is in the Bags module (BG-04).",
+      "worksheet": "medication-list",
+      "cites": [
+        "redcross-kit",
+        "cdc-medications-emergency"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-38",
+      "same_as": "BG-12",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack copies of your key documents",
+      "why": "Proof of who you are, where you live and what you are insured for speeds up every kind of help after you leave home.",
+      "how": "Put paper copies in a water-resistant pouch: for each person, ID (passport, driving license) and medical and contact information; insurance policies for the home or its contents, vehicle and life; local and out-of-area contacts; bank and card phone numbers; pet records. Tick off what is packed on the Document checklist. This site never stores any of it: make the copies yourself, fill the checklist in by hand, and keep the pouch in the bag.",
+      "done": "Paper copies of your key documents are in a water-resistant pouch in the bag, and each is ticked on the Document checklist.",
+      "cost": "low",
+      "time": "hour",
+      "minutes": 30,
+      "effort": "some",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter; the fuller list is in the Bags module (BG-04), and BG-12 and MD-02 cover which copies to carry.",
+      "products": [
+        "document-pouch"
+      ],
+      "worksheet": "document-checklist",
+      "cites": [
+        "ready-financial"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-39",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack a phone charger and cable",
+      "why": "Your phone is your contact list, map and alert receiver, and it is useless a day after you leave without a charger.",
+      "how": "Put a wall charger and a cable for each type of phone in the bag and leave them there; buy a second set if you would otherwise keep unpacking it. If you would take a laptop or tablet, pack its charger too. A charged power bank is the next step up (see PL-02).",
+      "done": "A wall charger and a cable for each type of phone are in the bag, and each has charged its phone once.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter with working sockets; the fuller list in the Bags module (BG-04) adds a charged power bank, a headlamp and a small radio.",
+      "products": [
+        "usb-charging-kit",
+        "power-bank"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-40",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack snacks that keep without a fridge",
+      "why": "Food in the bag covers the hours of traveling and queuing before anyone serves a meal.",
+      "how": "Pack about 3 items per person per day for 2 days, for example cereal or energy bars, nuts, dried fruit and crackers. Choose things each person already eats, check for allergies, and take nothing that needs water or cooking. Write the earliest best-before date on a tag on the bag and replace the snacks before then.",
+      "done": "The bag holds about 3 snack items per person per day for 2 days, and the earliest best-before date is on a tag on the bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit packs only snacks because it assumes a staffed shelter that serves meals; the fuller list in the Bags module (BG-04) carries more food and 1 to 2 liters of water.",
+      "products": [
+        "food-ration-bars"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-41",
+      "same_as": "MD-01",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack a bank card and cash in small bills",
+      "why": "Card readers and cash machines stop when power or networks fail, and cash still buys a bus ticket or a meal.",
+      "how": "Keep a debit or ATM card in your wallet, and put cash in the bag in small bills, split between two places. The site suggests an amount from your household setup (see MD-01); any amount is better than none.",
+      "done": "Cash in small bills is in the bag, split between two places, and a debit or ATM card is in your wallet.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter; the fuller list is in the Bags module (BG-04), and MD-01 works out how much cash to carry.",
+      "calc": "cash",
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-42",
+      "same_as": "BG-21",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack a local map and maps to where you would go",
+      "why": "You may have to reach a shelter or a friend's home by streets you do not know, with no working phone.",
+      "how": "Put in the bag the marked map from U6-19, plus a printed map or written directions to each destination in your evacuation plan (shelter sites, and the homes of friends and family), down to the last few streets and the door number.",
+      "done": "The marked map and a printed map or written directions to each destination in your evacuation plan are in the bag.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 10,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes you are traveling to a staffed shelter, often by car; the fuller list in the Bags module (BG-04) includes a map marked with walking routes (BG-21).",
+      "products": [
+        "paper-map-compass"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-43",
+      "same_as": "BG-04",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Pack a flashlight, basic first aid, toiletries and something to read",
+      "why": "A few small items cover light, minor cuts, keeping clean and the long hours of waiting.",
+      "how": "Add to each grab bag a small flashlight with fresh batteries; adhesive bandages with antiseptic wipes or ointment, kept together in one zip bag; a travel-size toothbrush, toothpaste, soap and other daily toiletries; a small sewing kit; and a paperback or puzzle book.",
+      "done": "Each grab bag holds a small flashlight that lights, bandages with antiseptic in a zip bag, toiletries, a sewing kit and something to read.",
+      "cost": "low",
+      "time": "minutes",
+      "minutes": 15,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's list assumes a staffed shelter, so its only light is a flashlight and its first aid is a few bandages; the fuller list in the Bags module (BG-04) adds a headlamp, a full first-aid kit, a radio, a mask and warmth.",
+      "products": [
+        "flashlight",
+        "first-aid-kit-bag"
+      ],
+      "toolkit_page": "81"
+    },
+    {
+      "id": "U6-44",
+      "same_as": "BG-16",
+      "level": 1,
+      "section": "The toolkit's grab bag",
+      "title": "Set a reminder to swap the bag's clothes each season",
+      "why": "A bag packed in July holds the wrong clothes in January, and children outgrow theirs within months.",
+      "how": "Put two repeating reminders in your calendar, one in spring and one in autumn; the clock-change weekends work well. At each one, swap the clothes for the coming season and for children's current sizes, and check the dates on snacks and medicines while the bag is open.",
+      "done": "Two repeating reminders, one in spring and one in autumn, are in your calendar.",
+      "cost": "free",
+      "time": "minutes",
+      "minutes": 5,
+      "effort": "easy",
+      "optional": false,
+      "scenarios": [
+        "evacuation"
+      ],
+      "apartment": "The toolkit's grab bag assumes a staffed shelter; if you build the fuller bag from the Bags module (BG-04), the same twice-yearly check also covers its food, water, batteries and medicines (BG-16).",
+      "toolkit_page": "81"
+    }
+  ]
+}

@@ -1,0 +1,1382 @@
+{
+  "batch": "bags-a",
+  "checked": "2026-11-14",
+  "items": [
+    {
+      "id": "bag-bugout-pack",
+      "module": "bags",
+      "name": "Grab bag: 25 to 40 liter carry-on backpack",
+      "need": "One adult needs a pack that carries 72 hours of supplies down many flights of stairs and across a city on foot, with the weight on the hips and nothing about it that says it is full of supplies.",
+      "how_to_choose": "Look for 25 to 40 liters (both picks are 40), a padded hip belt that really takes weight, and a harness that adjusts to your torso; The Prepared's bag guide says any bag over 30 to 35 liters should have a hip belt. Pick a plain travel pack in black or gray, with no camouflage and no webbing, sized for airline carry-on so it also fits buses, trains and hotel lobbies. Check whether a rain cover is included or the fabric is water resistant, and line the inside with a trash bag either way. Empty weight matters when you total the bag: the two picks weigh about 2.8 lb and 3.5 lb before you pack anything.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One pack per adult. Children carry a small school bag with their own water, snack, light and a comfort item."
+      },
+      "already_own": "A travel or hiking backpack of 30 to 45 liters with a padded hip belt is good enough if it is a plain color and the zippers and seams are sound. Test it: load about 20 lb, tighten the hip belt and walk down and up your building's stairs. If the weight hangs on your shoulders or the bag swings, it is not good enough.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's basic kit list includes water, several days of non-perishable food, a radio, flashlight, first aid kit, extra batteries, whistle, dust mask, sanitation items, local maps and a phone with chargers and a backup battery. It says to keep the kit in one or two easy-to-carry containers.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "The American Red Cross says a kit you may have to evacuate with should hold a 3-day supply of water and food, plus a flashlight, radio, first aid kit, a 7-day supply of medications, copies of personal documents, phone chargers, extra cash, an emergency blanket and maps of the area.",
+          "source_name": "American Red Cross",
+          "source_title": "What Do You Need In a Survival Kit",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "Travel packs change version often. Check the liters, weight and hip belt on the label of the pack you are actually buying."
+      ],
+      "research_note": "REI.com blocked automated access on 2026-11-14 (HTTP 403, and it would not load in the browser), so REI product pages in this file could not be opened and are marked unverified. | item_flags[0] was: REI.com blocked automated access on 2026-11-14, so REI product pages in this file could not be opened and are marked unverified. REI pages opened by WebFetch on 2026-11-16. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Tortuga Pro Backpack 40L (reviewed by OutdoorGearLab as the Travel Backpack Pro 40L) (no model number), $350 at Tortugabackpacks.com; sources: Tortuga https://www.tortugabackpacks.com/products/travel-backpack-40l; OutdoorGearLab https://www.outdoorgearlab.com/reviews/travel/travel-backpack/tortuga-travel-backpack-pro-40l; OutdoorGearLab https://www.outdoorgearlab.com/topics/travel/best-travel-backpack. Weighed 4.4 lb empty against 3.5 lb for the Standard; its extras (waterproof sailcloth, wider belt) are covered by the Standard hip belt and a liner bag.",
+      "tier_note": "Two picks: a pack that costs more mostly adds weight and waterproof fabric, and a trash-bag liner keeps the contents dry for far less.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": {
+          "brand": "REI Co-op",
+          "model": "Ruckpack 40 Pack (men's or women's)",
+          "model_number": "",
+          "size": "40 L; 23 x 15 x 9.5 in; 2 lb 13 oz (45 oz) empty; men's and women's fits; 18 to 20 in torso (REI); padded hip belt; rain cover included, fabric itself is not waterproof",
+          "weight_oz": 45,
+          "unit_size": 1,
+          "unit_label": "pack",
+          "price_usd": 159,
+          "price_seen_at": "REI.com, regular price $159.00 seen November 16, 2026 (on sale at $119.19 until November 23; sold as a pre-order)",
+          "research_note": "REI's own page was opened on 2026-11-16 (overnight audit); on 2026-11-14 REI refused the reader and the price and specs came from CleverHiker and OutdoorGearLab. | link_note was: No Amazon listing: REI Co-op brand gear is sold by REI only.",
+          "why": "The cheapest pack found with a supportive hip belt, a breathable back panel and an included rain cover. CleverHiker named it best budget travel backpack after a week of one-bag travel and day hikes.",
+          "weakness": "It is 23 in tall, an inch over the usual 22 in carry-on limit, the main compartment is floppy when open, and it is sold only by REI.",
+          "links": [
+            {
+              "label": "REI (maker and only retailer), men's",
+              "url": "https://www.rei.com/product/235558/rei-co-op-ruckpack-40-pack-mens",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-16 (WebFetch): $119.19 sale to Nov 23, regular $159.00, 2 lb 13 oz, 40 L, 23x15x9.5, torso 18-20 in, pre-order, XXL-4XL sold out. On 2026-11-14 REI returned HTTP 403."
+            },
+            {
+              "label": "REI, women's",
+              "url": "https://www.rei.com/product/235559/rei-co-op-ruckpack-40-pack-womens",
+              "verified": false,
+              "note": "",
+              "research_note": "Same block. URL seen in CleverHiker's buy link."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "10 Best Travel Backpacks of 2026",
+              "url": "https://www.cleverhiker.com/travel/best-travel-backpacks/",
+              "verified": true,
+              "supports": "Named Best Budget Travel Backpack; 40 L, 2 lb 13 oz, 23 x 15 x 9.5 in, supportive hip belt, rain cover included, comfort score 4.7 of 5."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "REI Co-op Ruckpack 40 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/travel/travel-backpack/rei-co-op-ruckpack-40",
+              "verified": true,
+              "supports": "Review of the 2020 version: comfort 9 of 10, generous hip belt, load lifters, hidden rainfly, fabric not fully waterproof. Older version, so weights differ."
+            }
+          ],
+          "flags": [
+            "Sold as a pre-order at REI on November 16, 2026 (most ship within 30 days)."
+          ],
+          "flag_check": "CPSC recalls searched for REI on November 14, 2026: bicycles, a chair and children's caps; no backpacks."
+        },
+        "standard": {
+          "brand": "Osprey",
+          "model": "Farpoint 40 Travel Pack (men's fit; the Fairview 40 is the women's fit)",
+          "model_number": "",
+          "size": "40 L (2,441 cu in); 55 x 35 x 23 cm (about 22 x 14 x 9 in); 3.27 lb (1.48 kg) per Osprey, 3 lb 8 oz per REI; adjustable torso, 18 to 22 in (REI); fixed padded hip belt and internal frame; 450D recycled polyester with a PFAS-free water-repellent finish, no rain cover",
+          "weight_oz": 52.3,
+          "unit_size": 1,
+          "unit_label": "pack",
+          "price_usd": 185,
+          "price_seen_at": "REI.com, seen November 16, 2026 (Osprey.com showed $149.95 on sale, regular $200.00, on November 14, 2026)",
+          "why": "It carries like a hiking pack but looks like luggage. OutdoorGearLab named it the most comfortable travel pack for heavy loads, and CleverHiker scored its comfort 4.7 of 5.",
+          "weakness": "Little internal organization, no water bottle pocket and no rain cover, so small items need pouches and the contents need a liner bag.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.osprey.com/farpointtm-40-travel-pack-1",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser (Osprey returns 403 to simple fetchers). Price and specs seen. The colour and size selectors read 'Out of Stock' before a variant was chosen, so stock today is not confirmed. Re-opened 2026-11-16 with WebFetch: HTTP 403, so price and stock were not re-checked; listed in pending.json for a browser check."
+            },
+            {
+              "label": "REI",
+              "url": "https://www.rei.com/product/207737/osprey-farpoint-40-travel-pack-mens",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-16: $185.00, 3 lb 8 oz, 40 L, 22x14x9, torso 18-22 in; only Muted Space Blue shown."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Osprey",
+              "title": "Farpoint 40 Travel Pack",
+              "url": "https://www.osprey.com/farpointtm-40-travel-pack-1",
+              "verified": true,
+              "supports": "Price, 40 L volume, 3.27 lb weight, dimensions, adjustable torso length, carry-on sizing."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "Osprey Farpoint 40 Review",
+              "url": "https://www.outdoorgearlab.com/reviews/travel/travel-backpack/osprey-farpoint-40",
+              "verified": true,
+              "supports": "Top Pick: Most Comfortable Carry for Heavy Loads; permanent hip belt, adjustable torso, internal frame, 450D recycled polyester with PFAS-free DWR."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "10 Best Travel Backpacks of 2026",
+              "url": "https://www.cleverhiker.com/travel/best-travel-backpacks/",
+              "verified": true,
+              "supports": "Rated 4.6 of 5; comfortable when loaded; zip flaps add only light water resistance; no bottle holder."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Osprey') on 2026-11-14: only the 2016 and 2017 Poco child-carrier recalls; no Farpoint or Fairview packs.",
+          "research_note": "link_note was: No Amazon link is given."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "More money buys mostly waterproof fabric and a wider hip belt on a heavier pack (4.4 lb empty); the Standard already carries on a padded hip belt, and a trash-bag liner keeps the contents dry."
+      }
+    },
+    {
+      "id": "water-bottle",
+      "module": "bags",
+      "name": "Water bottle, about 1 quart (1 liter)",
+      "need": "Water is the heaviest and most urgent thing in the bag, and a tough 1-liter bottle is how you carry it, refill it and treat it.",
+      "how_to_choose": "Choose about 1 quart (32 oz, about 1 liter) with a lid that cannot leak in a bag, and weigh it empty: a full quart of water already adds about 2 lb. Mouth size decides which filter fits. Squeeze filters with 28 mm threads, such as the Sawyer Squeeze, screw straight onto narrow bottles like the smartwater bottle, and do not screw onto a 63 mm Nalgene or a 54 mm Klean Kanteen wide mouth. Wide mouths are easier to fill from a faucet or tub, to clean, and to drop purification tablets into; Nalgene says its wide mouth fits most filtration devices and Klean Kanteen says the same of its Wide bottle, but check your own filter's thread before you rely on it. The Standard bottle here and the Standard portable filter (the Sawyer Squeeze) do not thread together: the filter comes with its own pouch, so fill the pouch, screw the filter onto it and squeeze the water into the bottle. Only a single-wall, uninsulated steel bottle can be used to boil water; never heat an insulated bottle or a plastic one.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 2,
+        "note": "Two bottles for each adult and each teenager of 14 or over, both in the grab bag. A younger child's bag has its own small bottle. Two full bottles weigh about 4.4 lb; refill whenever you can."
+      },
+      "already_own": "Any leak-proof bottle of about a quart is fine: a sports bottle, a steel flask, or a reused 1-liter drink bottle. It is good enough if the lid seals when you squeeze it upside down and the plastic is not cracked or cloudy. Know which of your bottles your filter fits.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's planning figure is one gallon of water per person per day for several days, for drinking and sanitation. A bag cannot carry that, so the bottle plus a way to refill and treat water is the plan.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "For moderate activity in heat lasting under two hours, CDC/NIOSH advises about one 8 oz cup of water every 15 to 20 minutes, and generally no more than 6 cups an hour. If you sweat for several hours, add drinks with electrolytes. At that rate a quart lasts little more than an hour of hot walking.",
+          "source_name": "CDC / NIOSH",
+          "source_title": "Workplace Recommendations: Heat Stress",
+          "url": "https://www.cdc.gov/niosh/heat-stress/recommendations/index.html",
+          "verified": true
+        },
+        {
+          "text": "The National Weather Service says heat stroke (confusion, slurred speech, body temperature above 103 F, passing out) is a medical emergency: call 911, cool the person, and do not give fluids. For heat cramps or heat exhaustion, move somewhere cooler and give sips of water.",
+          "source_name": "National Weather Service",
+          "source_title": "Heat Cramps, Exhaustion, Stroke",
+          "url": "https://www.weather.gov/safety/heat-illness",
+          "verified": true
+        },
+        {
+          "text": "CDC says to use bottled water if you have it. If you have none, bring clear water to a rolling boil for 1 minute (3 minutes above 5,000 ft) to make it safe to drink.",
+          "source_name": "CDC",
+          "source_title": "How to Make Water Safe in an Emergency",
+          "url": "https://www.cdc.gov/water-emergency/about/index.html",
+          "verified": true
+        },
+        {
+          "text": "The 5,000 ft figure is EPA's: above 5,000 ft, boil for 3 minutes. CDC's page gives 6,500 ft; this site uses the lower figure.",
+          "source_name": "EPA",
+          "source_title": "Emergency Disinfection of Drinking Water",
+          "url": "https://www.epa.gov/ground-water-and-drinking-water/emergency-disinfection-drinking-water",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "This site's Standard filter, the Sawyer Squeeze, has the narrow 28 mm thread. It screws onto the Budget smartwater bottle, but not onto the Standard Nalgene (63 mm cap) or the Cadillac Klean Kanteen (54 mm opening). With a wide-mouth bottle, fill the filter's own pouch and squeeze the water through into the bottle, or make the grab bag's second bottle a narrow 28 mm one (BG-13)."
+      ],
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "smartwater (Coca-Cola)",
+          "model": "smartwater 1 L (33.8 fl oz) bottle, bought full and reused",
+          "model_number": "",
+          "size": "33.8 fl oz (1 L); narrow mouth with 28 mm thread; the maker does not publish an empty weight (CleverHiker lists 1.2 oz)",
+          "weight_oz": null,
+          "unit_size": 1,
+          "unit_label": "bottle",
+          "price_usd": 2.39,
+          "price_seen_at": "Target.com, single 33.8 fl oz bottle, seen November 16, 2026",
+          "why": "It costs about $3 full of water, weighs almost nothing, and CleverHiker found it sturdier than typical disposable bottles and a direct fit for 28 mm squeeze filters like the Sawyer Squeeze, which is why long-distance hikers reuse them for months.",
+          "weakness": "It is still a thin disposable bottle: it cannot be heated, is hard to wash by hand, and should be replaced when it cracks, clouds or smells.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.coca-cola.com/us/en/brands/smartwater/products",
+              "verified": true,
+              "note": "",
+              "research_note": "Lists the 33.8 fl oz size. No price or bottle specs on the page. (2026-11-14)"
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/smartwater-1-l-bottle/-/A-12953554",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0040H569E",
+              "verified": false,
+              "note": "Check the pack size. Any grocery or corner store sells single bottles.",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in CleverHiker's buy link; pack size and price of that listing not confirmed. Any grocery or corner shop sells single bottles."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Water Bottles of 2026",
+              "url": "https://www.cleverhiker.com/backpacking/best-water-bottles/",
+              "verified": true,
+              "supports": "Listed as best bottle for ultralight backpacking; $3; 1.2 oz; fits 28 mm filters like the Sawyer Squeeze; survived drops with little damage."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Coca-Cola",
+              "title": "smartwater products",
+              "url": "https://www.coca-cola.com/us/en/brands/smartwater/products",
+              "verified": true,
+              "supports": "The 33.8 fl oz bottle size exists in the current range."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Sawyer",
+              "title": "Squeeze",
+              "url": "https://www.sawyer.com/products/squeeze-water-filtration-system",
+              "verified": true,
+              "supports": "Sawyer states its Squeeze filter fits standard water bottles with 28 mm threads."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'bottle', 2020 onward) on 2026-11-14: no smartwater entry. Bottled water is FDA-regulated; FDA's recalls page (entries dated 2026-11-02 to 2026-11-13) did not mention smartwater.",
+          "research_note": "price_seen_at was: CleverHiker's typical single-bottle price; no shop price was checked (price_usd 3.0). Target.com page opened 2026-11-16 (WebFetch): smartwater 33.8 fl oz bottle, $2.39."
+        },
+        "standard": {
+          "brand": "Nalgene",
+          "model": "32oz Wide Mouth Sustain Bottle",
+          "model_number": "",
+          "size": "32 oz (about 0.95 L); 3.5 in diameter x 8.25 in tall; 6.25 oz empty; 63 mm cap; Tritan Renew plastic, BPA and BPS free; dishwasher safe; made in the USA",
+          "weight_oz": 6.25,
+          "unit_size": 1,
+          "unit_label": "bottle",
+          "price_usd": 16.99,
+          "price_seen_at": "Nalgene.com",
+          "why": "The standard tough bottle: OutdoorGearLab and CleverHiker both name it their value pick after drop and leak tests, it has volume marks for dosing purification tablets, and the lid is tethered so it cannot be lost.",
+          "weakness": "The wide mouth spills when you drink on the move, it does not thread onto the Sawyer Squeeze or other 28 mm squeeze filters (use the filter's own pouch), and it cannot be heated.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://nalgene.com/product/32oz-wide-mouth-sustain/",
+              "verified": true,
+              "note": ""
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B09LMP8NB2",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in CleverHiker's buy link for the Nalgene Wide Mouth."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Nalgene",
+              "title": "32oz Wide Mouth Bottle",
+              "url": "https://nalgene.com/product/32oz-wide-mouth-sustain/",
+              "verified": true,
+              "supports": "Price, 6.25 oz weight, dimensions, 63 mm cap, Tritan Renew, states the wide opening fits most filtration devices."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Water Bottles of 2026",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-water-bottle",
+              "verified": true,
+              "supports": "Best Buy award (best backup bottle); $17; 6.25 oz measured."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Water Bottles of 2026",
+              "url": "https://www.cleverhiker.com/backpacking/best-water-bottles/",
+              "verified": true,
+              "supports": "Most Durable Budget Water Bottle, rated 4.6 of 5; only cosmetic scratches from drops; leakproof."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Nalgene') on 2026-11-14: no results."
+        },
+        "cadillac": {
+          "brand": "Klean Kanteen",
+          "model": "40oz Wide with Loop Cap (single-wall, non-insulated)",
+          "model_number": "1009495",
+          "size": "40 fl oz (1,182 ml); 9.31 in tall x 3.65 in wide; 8.6 oz empty; 54 mm (2.125 in) opening; single-wall 18/8 stainless steel",
+          "weight_oz": 8.6,
+          "unit_size": 1,
+          "unit_label": "bottle",
+          "price_usd": 31.95,
+          "price_seen_at": "Kleankanteen.com",
+          "why": "A single-wall steel bottle is the only kind you can set on a stove to boil water in, so it doubles as a pot when the tap water is not safe. The Prepared picks Klean Kanteen's single-wall Wide bottle for exactly this, and this size holds a full liter with room to boil.",
+          "weakness": "Bare steel gets too hot to hold and the cap must come off before heating; painted finishes scorch, so buy brushed stainless.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.kleankanteen.com/products/water-bottle-wide-mouth-40-oz",
+              "verified": true,
+              "note": "Choose the Brushed Stainless finish.",
+              "research_note": "Opened in a browser (the site returned 429 to automated fetches). Choose the Brushed Stainless finish."
+            }
+          ],
+          "link_note": "",
+          "research_note": "The Prepared's Amazon link (ASIN B07998K8RR) is for the Klean Kanteen Wide single-wall bottle it reviewed in the 27 oz size; Amazon blocked access so the listing's size could not be confirmed, and it is not used here. | weakness was: Bare steel gets too hot to hold and the cap must come off before heating; painted finishes scorch, so buy brushed stainless. Klean Kanteen's product description does not mention heating; an answer in the questions section of its product page says the single-wall brushed bottle can go on a stove or fire with the cap removed. | link_note was: No Amazon link is given: the one seen was for a smaller size of this bottle.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Klean Kanteen",
+              "title": "Water Bottle, 40oz Wide Mouth, Non-Insulated",
+              "url": "https://www.kleankanteen.com/products/water-bottle-wide-mouth-40-oz",
+              "verified": true,
+              "supports": "Price, capacity, 8.6 oz weight, 54 mm opening, single-wall non-insulated build, states compatibility with most backcountry water filters."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best water canteens",
+              "url": "https://theprepared.com/gear/reviews/canteens/",
+              "verified": true,
+              "supports": "Picks the Klean Kanteen Wide single-wall bottle (27 oz size reviewed) and explains that single-walled stainless bottles can be used to boil water. Article last updated December 2020."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Klean Kanteen') on 2026-11-14: one 2010 recall of bottle spouts (choking hazard), not this bottle or cap."
+        }
+      },
+      "research_note": "item_flags moved off the page: The Nalgene 38 oz stainless bottle that The Prepared recommends for boiling is no longer listed on Nalgene's site, so it is treated as discontinued."
+    },
+    {
+      "id": "food-ration-bars",
+      "module": "bags",
+      "name": "No-cook emergency food for the bag",
+      "need": "Food that needs no stove, no water and no fridge, and that survives years in a bag or a hot car, keeps you moving for three days when stores are closed.",
+      "how_to_choose": "Lifeboat-style ration bars are the lightest way to carry calories: about 1.5 lb for 3,600 kcal with a 5-year shelf life, and The Prepared's oven test found they hold up to heat. Be plain about what they are: one 3,600 kcal pack is about 1,200 kcal a day for three days. That keeps an adult going, but it is not a full diet. This site counts ration packs only for people aged 6 or over: a younger child gets food they already eat, not ration bars. Look for a US Coast Guard approval number on the wrapper rather than vague claims. Ready-to-eat meal pouches (MREs) are real food at 900 to 1,250 kcal a meal, but they weigh about 1.6 lb each and lose shelf life quickly in heat.",
+      "qty": {
+        "basis": "per_eater",
+        "factor": 1,
+        "note": "One 3,600 kcal pack for each person aged 6 or over covers 72 hours at about 1,200 kcal a day. A younger child gets food they already eat, never ration bars."
+      },
+      "already_own": "Shelf-stable food you already eat works for a year or so: nut butter sachets, dense snack bars, dried fruit, canned fish with a pull-tab lid. It is good enough if it needs no cooking, you rotate it before the date on the pack, and it will not melt or spoil in a warm cabinet.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's basic kit calls for at least a several-day supply of non-perishable food and, separately, one gallon of water per person per day. Food bars do not replace water.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "The Red Cross advises a 3-day supply of non-perishable, easy-to-prepare food for evacuation and a 2-week supply at home.",
+          "source_name": "American Red Cross",
+          "source_title": "What Do You Need In a Survival Kit",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "The Prepared warns that some brands claim to meet 'Coast Guard standards' without independent certification; it names 4Patriots and Grizzly Gear. Look for a USCG approval number (series 160.046) on the wrapper.",
+        "Ration bars are wheat-based (Datrex lists flour with malted barley, palm oil shortening, cane sugar and coconut flavoring). They are not suitable for people who must avoid gluten.",
+        "Makers sell these by the case. Single packs are sold by preparedness stores; check the manufacture date on any single pack."
+      ],
+      "research_note": "Prompt 6.9 / A-W10: tiers reordered on 2026-11-16. Datrex's own page (opened 2026-11-16) links 'USCG CERT FOR DX3600F' (COA_160_046_19-20250924.pdf) and says the ration meets USCG requirements; that certificate PDF could not be read by the page reader, and the Coast Guard's CGMIX equipment search is a form the page reader cannot submit (both in pending.json). sosfoodlab.com/mainstay-products (opened 2026-11-16) says only that the bars 'meet many government safety and viability standards' and does not name the Coast Guard; the SOS Food Lab store page answered HTTP 429 three times. So Datrex moves to Standard, and Mainstay (dearer and with no stated approval) leaves the tiers. Budget is left empty because the Datrex is also the cheapest pack found. | 16 Nov 2026 (P4): Mainstay 3600 removed from Standard: maker store page sold out and no Coast Guard wording; sosfoodlab.com Mainstay page and 2021 spec PDF no USCG wording; Aircraft Spruce says Mainstay 'meets the US Coast Guard standards (160.046/23/0)', which is not an approval statement, and CGMIX could not be searched (form only). Datrex moved to Standard on its USCG certificate 160.046/19/0 (expires 2030-09-24). Sopakco Sure-Pak 12 removed from Cadillac: its 320 oz case weight was counted in the grab bag and car kit at the Cadillac tier (grab bag 29.7 lb), and the maker gives 1.5 years' shelf life at 100 F, against the car kit's heat note. Sure-Pak prices 2026-11-16: $113.40 with heaters, $103.95 without. | item_flags moved off the page: The S.O.S. 3600 and Mainstay 3600 bars are both listed in maker SOS Food Lab's own store, and both showed sold out on November 16, 2026. / The Mainstay 3600 from SOS Food Lab (nine 400 kcal bars, made in a nut-free facility) is not a pick here, because its maker's pages do not name Coast Guard approval. / Mainstay 3600 bars carry no Coast Guard approval statement on their maker's pages, and the maker's store showed them sold out on November 16, 2026, so they are not a pick here.",
+      "tier_note": "One pick: it is the cheapest bar found with a current Coast Guard approval, and ready-to-eat meals cost more, weigh about 10 lb a person for three days and keep less well in heat.",
+      "prices_seen": "2026-11-16",
+      "tiers": {
+        "budget": null,
+        "standard": {
+          "brand": "Datrex",
+          "model": "Emergency Food Ration 3600 kcal",
+          "model_number": "DX3600F",
+          "size": "3,600 kcal per pack: 18 individually wrapped 200 kcal bars; 24.8 oz packed; 3.5 x 2.5 x 4.5 in; 5-year shelf life from manufacture; mild coconut flavor; contains wheat and barley; US Coast Guard approval 160.046/19/0",
+          "weight_oz": 24.8,
+          "unit_size": 1,
+          "unit_label": "3,600 kcal pack",
+          "price_usd": 9.05,
+          "unit_price": "about $9 a pack in the maker's case of 20",
+          "price_seen_at": "Datrex.com, case of 20 for $181.00, seen November 16, 2026 (per-pack price worked out from that). SOS Products sold single packs for $6.50 on sale (regular $7.50) the same day",
+          "why": "It carries a current US Coast Guard approval (160.046/19/0) and is The Prepared's top pick: it did best in their oven test and tastes like a shortbread cookie. The 18 small, individually wrapped bars are easy to ration and share. One pack is 1,200 kcal a day for 72 hours.",
+          "weakness": "A survival ration, not a diet: 1,200 kcal a day of flour, fat and sugar, with wheat and barley in it. The maker sells it only by the case of 20; single packs come from preparedness stores.",
+          "links": [
+            {
+              "label": "Manufacturer (case of 20)",
+              "url": "https://www.datrex.com/product/datrex-emergency-food-ration-20-pack-case/",
+              "verified": true,
+              "note": "Split a case with neighbors, or buy single packs from a preparedness store.",
+              "research_note": "Opened 2026-11-16 (WebFetch): DX3600F, 18 x 200 kcal, 24.8 oz, $181.00 per case of 20, USCG certificate PDF linked. Earlier: opened in a browser 2026-11-14 after a plain header check returned HTTP 500."
+            },
+            {
+              "label": "SOS Products (single pack)",
+              "url": "https://www.sosproducts.com/product-p/35025.htm",
+              "verified": true,
+              "note": "Datrex 3600, sold singly.",
+              "research_note": "Opened 2026-11-16: 'Datrex Food Bar - 3600 Calorie - Each', $6.50 sale, $7.50 regular, 'U.S. Coast Guard approved', stock not stated."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0014EL48S",
+              "verified": false,
+              "note": "Check the pack count and the manufacture date before buying.",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in the redirect from The Prepared's Datrex 3600 link."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "standard_listing",
+              "name": "US Coast Guard (certificate published by Datrex)",
+              "title": "Certificate of Approval 160.046/19/0: emergency ration DX3600F",
+              "url": "https://www.datrex.com/wp-content/uploads/2025/09/COA_160_046_19-20250924.pdf",
+              "verified": true,
+              "supports": "Coast Guard approval 160.046/19/0 for the DX3600F emergency ration, 3,600 calories, 684 g net; signed September 24, 2025; expires September 24, 2030.",
+              "research_note": "Read in a real browser by the Claude Code session on 2026-11-16, and opened again by the overnight audit the same day."
+            },
+            {
+              "type": "manufacturer_spec",
+              "name": "Datrex",
+              "title": "Datrex Emergency Food Ration 3600 kcal 20 Pack Case DX3600F",
+              "url": "https://www.datrex.com/product/datrex-emergency-food-ration-20-pack-case/",
+              "verified": true,
+              "supports": "18 individually wrapped 200 kcal bars, 24.8 oz, 5-year shelf life, ingredients, case price, Coast Guard certificate linked."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best emergency rations (lifeboat food bars)",
+              "url": "https://theprepared.com/gear/reviews/ration-bars/",
+              "verified": true,
+              "supports": "Top pick alongside SOS 3600; Coast Guard approved; did slightly better than SOS in the oven test; names approved brands and warns about 'meets Coast Guard standards' claims. Updated November 2020, prices August 2022."
+            }
+          ],
+          "flags": [
+            "Check the wrapper of the pack you buy for US Coast Guard approval number 160.046/19/0."
+          ],
+          "flag_check": "CPSC does not cover food. FDA's recalls page (entries dated 2 to November 13, 2026) did not mention Datrex when checked on November 14, 2026; older FDA records were not searched.",
+          "research_note": "size was: 3,600 kcal per pack: 18 individually wrapped 200 kcal bars; 24.8 oz (720 g) packed, 684 g (24.1 oz) net on the Coast Guard certificate; 3.5 x 2.5 x 4.5 in; 5-year shelf life from manufacture; mild coconut flavor; contains wheat and barley. US Coast Guard approval 160.046/19/0, valid to September 24, 2030. The maker's page gives no storage range; The Prepared cites the Coast Guard requirement as about -22 F to 149 F | why was: The one bar here with a current US Coast Guard approval (160.046/19/0, renewed in September 2025 and valid to September 2030), and The Prepared's top pick: it did best in their oven test and tastes like a shortbread biscuit. The 18 small, individually wrapped bars are easy to ration and share. One pack is 1,200 kcal a day for 72 hours. | flags[0] was: US Coast Guard approval number 160.046/19/0, expiring September 24, 2030, is on the certificate the maker links (read on November 16, 2026). Check the wrapper of the pack you buy for that number."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "budget": "The Standard is the cheapest bar found with a current Coast Guard approval, at about $7 to $9 a pack. A cheaper bar without an approval saves a dollar or two and has not been held to the Coast Guard's storage and shelf-life rules.",
+        "cadillac": "Ready-to-eat meals (MREs) are real food, but three days of them weigh about 10 lb a person, and heat shortens their life to about 18 months at 100 F (Sopakco's figure for its Sure-Pak meals), so they do not suit a bag or a car. Spend the extra on a day of food you already eat."
+      }
+    },
+    {
+      "id": "rain-shell",
+      "module": "bags",
+      "name": "Packable rain protection",
+      "need": "Getting soaked on a long walk in cool weather is how people get dangerously cold, so each person needs a waterproof layer that lives in the bag.",
+      "how_to_choose": "A poncho is cheap, covers you and a small pack, and vents well, but flaps in wind between tall buildings. A light rain jacket packs into its own pocket and blocks wind too; the lightest ones wet through in hours of steady rain. A 3-layer shell keeps working in an all-day downpour and lasts for years. Choose a plain dark color, size it to fit over a warm layer, and note that jackets come in men's and women's cuts.",
+      "qty": {
+        "basis": "per_person",
+        "factor": 1,
+        "note": "One per person, sized to fit over a sweater or fleece. Children need their own size."
+      },
+      "already_own": "Any waterproof jacket with a hood that you already own is fine. Test it in the shower for five minutes over a dry T-shirt: if the shoulders stay dry and the hood stays on, it is good enough. A shower-proof fashion coat or an umbrella alone is not.",
+      "safety_notes": [
+        {
+          "text": "CDC warns that hypothermia can happen even at cool temperatures above 40 F if a person becomes chilled from rain, sweat or cold water. Signs in adults include shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness.",
+          "source_name": "CDC",
+          "source_title": "Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "CDC's first aid for hypothermia: treat it as an emergency, get the person into a warm room or shelter, remove wet clothing, and warm the center of the body first (chest, neck, head and groin). A body temperature below 95 F needs medical help at once.",
+          "source_name": "CDC",
+          "source_title": "Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "tier_note": "Two picks: a pricier jacket buys little more dryness than the Standard on a walk home.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Frogg Toggs",
+          "model": "Ultra-Lite2 Rain Poncho",
+          "model_number": "FTP1714",
+          "size": "One adult size; 9 oz; packs into a small stuff sack; sold in khaki and other plain colors",
+          "weight_oz": 9,
+          "unit_size": 1,
+          "unit_label": "poncho",
+          "price_usd": 21.99,
+          "price_seen_at": "Froggtoggs.com",
+          "why": "A reusable poncho from an established rainwear maker for about $22, far sturdier than a thin disposable one, and loose enough to cover a small daypack.",
+          "weakness": "The maker does not call it waterproof, and any poncho flaps in wind and leaves forearms and lower legs wet.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.froggtoggs.com/products/frogg-toggsr-ultra-lite2a-poncho",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser. $21.99, in stock, 9 oz seen. (2026-11-14)"
+            }
+          ],
+          "link_note": "",
+          "research_note": "Shortfall: only the manufacturer source is verified. Poncho guides were tried at CleverHiker, OutdoorGearLab, Outdoor Life, GearJunkie, Field & Stream, Treeline Review and Switchback Travel on 2026-11-14; none had an openable poncho guide, and web search was unavailable. No Amazon ASIN was seen. | weakness was: No independent test of this poncho was found, the maker does not call it waterproof, and any poncho flaps in wind and leaves forearms and lower legs wet. | link_note was: Checked against one source only: no independent test of this poncho was found. | flags[0] was: Only one source supports this pick; treat it as provisional.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Frogg Toggs",
+              "title": "Ultra-Lite2 Rain Poncho",
+              "url": "https://www.froggtoggs.com/products/frogg-toggsr-ultra-lite2a-poncho",
+              "verified": true,
+              "supports": "Price, one size, 9 oz weight, stock status, SKU."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Frogg', and separately 'poncho') on 2026-11-14: no Frogg Toggs results; poncho recalls are children's drawstring ponchos from other brands."
+        },
+        "standard": {
+          "brand": "Patagonia",
+          "model": "Torrentshell 3L Rain Jacket (men's; a women's version is sold)",
+          "model_number": "85241",
+          "size": "3-layer waterproof-breathable shell: 50-denier recycled nylon ripstop face, PU membrane, tricot backer; 14.1 oz (400 g) per Patagonia, 12.7 oz measured by OutdoorGearLab; pit zips; stuffs into its own hand pocket",
+          "weight_oz": 14.1,
+          "unit_size": 1,
+          "unit_label": "jacket",
+          "price_usd": 189,
+          "price_seen_at": "Patagonia.com, seen November 16, 2026",
+          "why": "OutdoorGearLab's best rain jacket overall in its November 2026 update, and CleverHiker's top pick too: a true 3-layer shell with pit zips that scored 8.5 of 10 for water resistance.",
+          "weakness": "At about 14 oz it is heavier and bulkier in the bag than a lightweight jacket.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/85241.html",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened 2026-11-16: style 85241, $189, 400 g, 3L, pit zips, self-stuffing; stock not stated (Add to Bag shown)."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Patagonia",
+              "title": "Men's Torrentshell 3L Rain Jacket",
+              "url": "https://www.patagonia.com/product/mens-torrentshell-3l-rain-jacket/85241.html",
+              "verified": true,
+              "supports": "Price, style number, 400 g weight, 3-layer construction, pit zips, stuffs into its pocket."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Rain Jackets for Men",
+              "url": "https://www.outdoorgearlab.com/topics/clothing-mens/best-rain-jacket-men",
+              "verified": true,
+              "supports": "Best overall; $189; 12.7 oz measured; water resistance 8.5 of 10 (the Fineline Stretch scored 7). Updated November 3, 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Rain Jackets of 2026",
+              "url": "https://www.cleverhiker.com/apparel/best-rain-jackets/",
+              "verified": true,
+              "supports": "Ranks the Patagonia Torrentshell 3L best overall at $190.",
+              "research_note": "Opened 2026-11-14 for the old Cadillac pick; not reopened 2026-11-16."
+            }
+          ],
+          "flags": [],
+          "flag_check": "CPSC recalls searched for Patagonia on November 16, 2026: an infant base-layer set (2023) and a stuffed toy (1995); no jackets.",
+          "research_note": "why was: OutdoorGearLab's best rain jacket overall in its November 2026 update, and CleverHiker's top pick too: a true 3-layer shell with pit zips that scored 8.5 of 10 for water resistance, against 7 for the lighter 2.5-layer jacket it replaces here, at the same price. | weakness was: At about 14 oz it is the heaviest of the three picks, and it takes more room in the bag than a lightweight jacket."
+        },
+        "cadillac": null
+      },
+      "research_note": "16 Nov 2026 (P4): Black Diamond Fineline Stretch Shell (AP745038, $189, 320 g; header 'Out of Stock' but many variants available on 2026-11-16) replaced at Standard by the Patagonia Torrentshell 3L at the same price: OutdoorGearLab (updated 2026-11-03) best overall, water resistance 8.5 v 7.0; CleverHiker best overall per this file's own Cadillac source (opened 2026-11-14, not reopened). | item_flags moved off the page: No independent test of a rain poncho was found, so the Budget pick rests on the maker's page alone. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Arc'teryx Beta SL Jacket (men's; a women's version is sold) (X000010854), $500 at Arcteryx.com; sources: Arc'teryx https://arcteryx.com/us/en/shop/mens/beta-sl-jacket-0854; OutdoorGearLab https://www.outdoorgearlab.com/reviews/clothing-mens/rain-jacket-men/arcteryx-beta-sl; CleverHiker https://www.cleverhiker.com/apparel/best-rain-jackets/. Owner names the $500 rain shell as not buying anything the job needs (prompt 6.3).",
+      "empty_reason": {
+        "cadillac": "A $500 shell is a little drier in an all-day downpour than the Standard 3-layer jacket; a walk home does not need the difference."
+      }
+    },
+    {
+      "id": "emergency-bivvy",
+      "module": "bags",
+      "name": "Emergency blanket or bivvy",
+      "need": "If you are stuck overnight in a stairwell, a station or an unheated shelter, a windproof heat-reflecting layer the size of a fist can keep a cold night from becoming a medical emergency.",
+      "how_to_choose": "Know the limits. A reflective blanket only bounces back the heat your body radiates and blocks wind and rain; it has no insulation of its own, so it does nothing against a cold floor. Sit or lie on a bag, cardboard or spare clothes. The film does not breathe, so your sweat condenses inside and can leave you damp. A bivvy sack is the same film as a bag, which stops drafts and is much warmer than a loose sheet. A breathable bivvy lets moisture out, can be reused many times, and reflects less heat. Avoid the thinnest silver sheets, which tear once and are finished.",
+      "qty": {
+        "basis": "per_person",
+        "factor": 1,
+        "note": "One per person, children included. They add warmth to clothing and a hat; they do not replace them."
+      },
+      "already_own": "A thin foil blanket from a first aid kit is better than nothing but tears easily; keep it as a spare. A light sleeping bag or a wool blanket is warmer if you can carry it. Whatever you have, also pack something to put between you and the floor.",
+      "safety_notes": [
+        {
+          "text": "CDC says hypothermia is a dangerous drop in body temperature that can happen even above 40 F when a person is chilled by rain, sweat or cold water. Warning signs in adults are shivering, exhaustion, confusion, fumbling hands, memory loss, slurred speech and drowsiness.",
+          "source_name": "CDC",
+          "source_title": "Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "CDC's first aid: get medical help at once if body temperature is below 95 F, move the person to a warm room or shelter, remove wet clothing, and warm the center of the body first (chest, neck, head, groin). A blanket or bivvy goes over dry clothing, not wet.",
+          "source_name": "CDC",
+          "source_title": "Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "verified": true
+        },
+        {
+          "text": "The Red Cross includes an emergency blanket in its basic survival kit list, and Ready.gov lists a sleeping bag or warm blanket for each person.",
+          "source_name": "American Red Cross",
+          "source_title": "What Do You Need In a Survival Kit",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "SOL's product pages carry a California Proposition 65 warning (cancer and reproductive harm) for these products."
+      ],
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "SOL (Survive Outdoors Longer)",
+          "model": "Heavy Duty Emergency Blanket",
+          "model_number": "",
+          "size": "98 x 58 in per SOL; 8 oz; reflects 90% of radiated body heat; waterproof and windproof; reusable",
+          "weight_oz": 8,
+          "unit_size": 1,
+          "unit_label": "blanket",
+          "price_usd": 19.49,
+          "price_seen_at": "Surviveoutdoorslonger.com",
+          "why": "Outdoor Life's survival instructor named it best for survival: it resists tearing, he reused it repeatedly as a ground cloth, and it is big enough to wrap around a seated adult or rig as a windbreak.",
+          "weakness": "It is a sheet, not a bag, so drafts get in at the edges, it has no grommets, and like every reflective blanket it gives no insulation from the ground and collects condensation.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.surviveoutdoorslonger.com/products/heavy-duty-emergency-blanket",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser (the site returned 429 to automated fetches)."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00HJTH91S",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in Outdoor Life's buy link for this blanket."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SOL",
+              "title": "Heavy Duty Emergency Blanket",
+              "url": "https://www.surviveoutdoorslonger.com/products/heavy-duty-emergency-blanket",
+              "verified": true,
+              "supports": "Price, 98 x 58 in, 8 oz, 90% heat reflective, waterproof and windproof."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Emergency Blankets, According to a Survival Instructor",
+              "url": "https://www.outdoorlife.com/gear/best-emergency-blankets/",
+              "verified": true,
+              "supports": "Best for Survival; durable and reusable; lacks grommets; notes that warmth depends on insulating yourself from the ground. Article last updated February 2024."
+            }
+          ],
+          "flags": [
+            "California Proposition 65 warning shown on the maker's page."
+          ],
+          "flag_check": "Queried the CPSC recall database (title contains 'blanket', 2018 onward) on 2026-11-14: no emergency or reflective blankets and nothing from SOL, Adventure Medical Kits or Adventure Ready Brands."
+        },
+        "standard": {
+          "brand": "SOL (Survive Outdoors Longer)",
+          "model": "Emergency Bivvy with Rescue Whistle",
+          "model_number": "",
+          "size": "84 x 36 in sack; 3.8 oz; reflects 90% of radiated body heat; waterproof and windproof; comes with a whistle on the drawcord",
+          "weight_oz": 3.8,
+          "unit_size": 1,
+          "unit_label": "bivvy",
+          "price_usd": 24.49,
+          "price_seen_at": "Surviveoutdoorslonger.com",
+          "why": "A sealed sack is far warmer than a loose sheet because wind cannot get in, and this one weighs under 4 oz. Outdoor Life named it best for warmth, noting how little heat escapes.",
+          "weakness": "It does not breathe, so expect to be damp from condensation by morning, and it is hard to fold back into its bag.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B08NC9BLQ5",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in Outdoor Life's buy link for the S.O.L. Emergency Bivvy."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SOL",
+              "title": "Emergency Bivvy with Rescue Whistle",
+              "url": "https://www.surviveoutdoorslonger.com/products/emergency-bivvy-with-rescue-whistle",
+              "verified": true,
+              "supports": "Price, 84 x 36 in, 3.8 oz, reflects 90% of body heat."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best Emergency Blankets, According to a Survival Instructor",
+              "url": "https://www.outdoorlife.com/gear/best-emergency-blankets/",
+              "verified": true,
+              "supports": "Best for Warmth; 3.8 oz, 84 x 36 in; waterproof and windproof; difficult to repack."
+            }
+          ],
+          "flags": [
+            "California Proposition 65 warning shown on the maker's page."
+          ],
+          "flag_check": "Queried the CPSC recall database (title contains 'blanket', 2018 onward) on 2026-11-14: nothing for bivvy sacks or this maker."
+        },
+        "cadillac": {
+          "brand": "SOL (Survive Outdoors Longer)",
+          "model": "Escape Bivvy with Hood",
+          "model_number": "",
+          "size": "84 x 31 in (an XL of 91 x 39 in is also sold); 8.5 oz; breathable, water-resistant fabric that reflects 70% of radiated body heat; side zip and drawcord hood; packs to about 4 x 7.5 in",
+          "weight_oz": 8.5,
+          "unit_size": 1,
+          "unit_label": "bivvy",
+          "price_usd": 86.49,
+          "price_seen_at": "Surviveoutdoorslonger.com",
+          "why": "The fabric lets moisture out, so you stay dry inside instead of waking up soaked, and it is tough enough to reuse. OutdoorGearLab found it breathable enough to limit condensation and named it its emergency bivvy pick.",
+          "weakness": "It reflects less heat than the film bivvy (70% against 90%), is only water resistant, and the regular size is tight for anyone over about 5 ft 11 in or 175 lb.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.surviveoutdoorslonger.com/products/escape-bivvy",
+              "verified": true,
+              "note": "Taller or broader people should choose the XL.",
+              "research_note": "Opened in a browser. Taller or broader people should choose the XL. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0CYTKW4JH",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in OutdoorGearLab's buy link for the SOL Escape Bivy."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "SOL",
+              "title": "Escape Bivvy with Hood",
+              "url": "https://www.surviveoutdoorslonger.com/products/escape-bivvy",
+              "verified": true,
+              "supports": "Price, 84 x 31 in, 8.5 oz, breathable fabric, reflects 70% of body heat, XL option."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Bivy Sack",
+              "url": "https://www.outdoorgearlab.com/topics/camping-and-hiking/best-bivy-sack",
+              "verified": true,
+              "supports": "Top Pick: best emergency bivy on a budget; 8.6 oz measured; breathable enough to limit condensation; water resistant only; small footprint. Article updated December 2024."
+            }
+          ],
+          "flags": [
+            "California Proposition 65 warning shown on the maker's page.",
+            "Sold out at the maker on November 16, 2026."
+          ],
+          "flag_check": "Queried the CPSC recall database (title contains 'blanket', 2018 onward) on 2026-11-14: nothing for bivvy sacks or this maker."
+        }
+      },
+      "research_note": "item_flags moved off the page: All three picks are from one brand, SOL (Survive Outdoors Longer), because it is the brand both test outlets picked."
+    },
+    {
+      "id": "walking-socks-gloves",
+      "module": "bags",
+      "name": "Merino walking socks",
+      "need": "Blisters and wet feet end a long walk home faster than anything else, and a dry pair of wool-blend socks in the bag is the cheapest fix.",
+      "how_to_choose": "Choose a merino wool and nylon blend, which stays warm when damp and dries faster than cotton; never pack cotton socks. Light cushion suits ordinary shoes and sneakers, full cushion suits boots and cold weather. Buy your real size so nothing bunches, and wear them once before packing. Work gloves for broken glass and debris are a separate item on this site.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 2,
+        "note": "Two pairs per adult: one to change into before a long walk, one kept dry in a zip bag. Children need the same in their sizes."
+      },
+      "already_own": "Hiking or running socks you already own are fine if they are a wool or synthetic blend, have no holes or thin heels, and fit the shoes you would walk in. Cotton sports socks and dress socks are not good enough.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's additional supplies list includes a complete change of clothing suited to your climate and sturdy shoes, and it advises keeping comfortable walking shoes at work.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "CDC notes that hypothermia can set in above 40 F when a person is chilled by rain, sweat or cold water, and that removing wet clothing is part of first aid. Dry socks are part of staying warm.",
+          "source_name": "CDC",
+          "source_title": "Preventing Hypothermia",
+          "url": "https://www.cdc.gov/winter-weather/prevention/index.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [],
+      "research_note": "Sock makers do not publish weights, so weight_oz is null for all three. No glove product was researched in the bags-a batch; see work-gloves in bags-b.json. | item_flags moved off the page: Sock makers do not publish weights; OutdoorGearLab's measured weights are given in the size line where it has one. / Work gloves have their own item on this site; the gloves advice here is general.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Danish Endurance",
+          "model": "Classic Hiking Crew Socks, 3-pack",
+          "model_number": "",
+          "size": "Pack of 3 pairs; crew height; medium cushion; 38% merino wool with acrylic, polyamide and elastane (per CleverHiker); about 1.6 oz as measured by OutdoorGearLab",
+          "weight_oz": null,
+          "unit_size": 3,
+          "unit_label": "pack of 3 pairs",
+          "price_usd": 29.95,
+          "price_seen_at": "Danishendurance.com US store, $29.95 for the 3-pack on sale (regular $45.95), seen November 16, 2026",
+          "unit_price": "about $10 a pair",
+          "why": "About $10 a pair on sale, with real merino content, and both OutdoorGearLab (Best Buy for bulk value) and CleverHiker (budget-friendly merino) recommend it. One pack covers an adult's two pairs with a spare.",
+          "weakness": "Less merino and more acrylic than the Darn Tough pairs, so they hold more smell and wear out sooner.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://danishendurance.com/en-us/products/merino-wool-hiking-socks",
+              "verified": true,
+              "note": "Use the US store address given here; without it the site opens its Danish store.",
+              "research_note": "Opened in a browser. $45.95 for the 3-pack seen. Without the /en-us/ path the site redirects to its Danish store. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B07D8W7BWL",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in OutdoorGearLab's buy link for the Danish Endurance Merino 3-Pack."
+            }
+          ],
+          "link_note": "One pack holds three pairs, so one pack covers an adult's two pairs with a spare.",
+          "research_note": "unit_size is 3 because one pack holds three pairs; the site's need is two pairs per adult, so one pack per adult. Prompt 6.20: the Budget looks dearer than the Standard only because it is a 3-pack; per pair it is the cheapest, so unit_price is set.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Danish Endurance",
+              "title": "Merino Wool Hiking Socks",
+              "url": "https://danishendurance.com/en-us/products/merino-wool-hiking-socks",
+              "verified": true,
+              "supports": "Product exists in the US store; 3-pack price."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Hiking Socks",
+              "url": "https://www.outdoorgearlab.com/topics/shoes-and-boots/best-hiking-socks",
+              "verified": true,
+              "supports": "Best Buy (best bulk value), score 73; 38% merino; midweight. Article updated April 2025."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Hiking Socks of 2026",
+              "url": "https://www.cleverhiker.com/apparel/best-hiking-socks/",
+              "verified": true,
+              "supports": "Listed as budget-friendly merino hiking socks; fiber content; medium cushion."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'socks') on 2026-11-14: recalls are heated socks and children's socks from other brands; nothing from Danish Endurance."
+        },
+        "standard": {
+          "brand": "Darn Tough",
+          "model": "Light Hiker Micro Crew Lightweight Hiking Sock with Cushion (men's; a women's version is sold)",
+          "model_number": "1972",
+          "size": "One pair; micro crew height; light cushion; 43% merino wool, 54% nylon, 3% elastane; knit in Vermont, USA; guaranteed for life",
+          "weight_oz": null,
+          "unit_size": 1,
+          "unit_label": "pair",
+          "price_usd": 25,
+          "price_seen_at": "Darntough.com",
+          "why": "CleverHiker's best hiking sock overall and OutdoorGearLab's best lightweight pick. Thin enough for ordinary shoes and sneakers, which is what you will be wearing on a walk home, and the maker replaces them if they wear out.",
+          "weakness": "$25 for one pair, and the light cushion is less forgiving in stiff boots or on a very long, cold walk.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://darntough.com/products/mens-merino-wool-light-hiker-micro-crew-cushioned-lightweight-hiking-socks",
+              "verified": true,
+              "note": "Men's page; choose the women's version from the same site for smaller sizes.",
+              "research_note": "Opened in a browser (the site returned 429 to automated fetches). Men's page; choose the women's version from the same site for smaller sizes."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Darn Tough",
+              "title": "Men's Light Hiker Micro Crew Hiking Socks",
+              "url": "https://darntough.com/products/mens-merino-wool-light-hiker-micro-crew-cushioned-lightweight-hiking-socks",
+              "verified": true,
+              "supports": "Price, fiber content, made in Vermont, lifetime guarantee."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Hiking Socks of 2026",
+              "url": "https://www.cleverhiker.com/apparel/best-hiking-socks/",
+              "verified": true,
+              "supports": "Best Hiking Socks Overall, Editor's Pick; $25; light cushion."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Hiking Socks",
+              "url": "https://www.outdoorgearlab.com/topics/shoes-and-boots/best-hiking-socks",
+              "verified": true,
+              "supports": "Top Pick: best lightweight, score 72."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'socks') on 2026-11-14: nothing from Darn Tough.",
+          "research_note": "link_note was: No Amazon link is given."
+        },
+        "cadillac": {
+          "brand": "Darn Tough",
+          "model": "Hiker Boot Full Cushion Midweight Hiking Sock (men's; a women's version is sold)",
+          "model_number": "1405",
+          "size": "One pair; boot height; full cushion all around the foot; 66% merino wool, 32% nylon, 2% elastane; about 2.6 oz as measured by OutdoorGearLab; guaranteed for life",
+          "weight_oz": null,
+          "unit_size": 1,
+          "unit_label": "pair",
+          "price_usd": 30,
+          "price_seen_at": "Darntough.com",
+          "why": "OutdoorGearLab's best hiking sock overall and CleverHiker's best full-cushion sock: more wool, padding all around the foot and a taller cuff, which is what you want for ten miles in boots or in winter. The Prepared calls Darn Tough the gold standard for preparedness socks.",
+          "weakness": "Thick and warm: too much for snug office shoes or a summer walk.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://darntough.com/products/mens-merino-wool-hiker-boot-full-cushion-midweight-hiking-socks",
+              "verified": true,
+              "note": "Men's page; a women's version is sold on the same site.",
+              "research_note": "Opened in a browser. Men's page; a women's version is sold on the same site. (2026-11-14)"
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Darn Tough",
+              "title": "Men's Hiker Boot Full Cushion Wool Hiking Socks",
+              "url": "https://darntough.com/products/mens-merino-wool-hiker-boot-full-cushion-midweight-hiking-socks",
+              "verified": true,
+              "supports": "Price, 66% merino content, lifetime guarantee."
+            },
+            {
+              "type": "test_publication",
+              "name": "OutdoorGearLab",
+              "title": "The Best Hiking Socks",
+              "url": "https://www.outdoorgearlab.com/topics/shoes-and-boots/best-hiking-socks",
+              "verified": true,
+              "supports": "Editors' Choice: best overall, score 78; 66% merino; 2.6 oz measured."
+            },
+            {
+              "type": "test_publication",
+              "name": "CleverHiker",
+              "title": "Best Hiking Socks of 2026",
+              "url": "https://www.cleverhiker.com/apparel/best-hiking-socks/",
+              "verified": true,
+              "supports": "Best Full-Cushion Hiking Socks, Editor's Pick; $30."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best socks",
+              "url": "https://theprepared.com/gear/reviews/socks/",
+              "verified": true,
+              "supports": "Recommends the Darn Tough Hiker line for preparedness: cushioned, US made, lifetime warranty. Article dated January 2021."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'socks') on 2026-11-14: nothing from Darn Tough.",
+          "research_note": "link_note was: No Amazon link is given."
+        }
+      }
+    },
+    {
+      "id": "keychain-light",
+      "module": "bags",
+      "name": "Keychain or pocket light",
+      "need": "Stairwells, tunnels and streets go dark in a power cut, and a phone flashlight drains the battery you need for calls and maps.",
+      "how_to_choose": "The best light is the one already on your keys or in your pocket. A single-AAA light runs on batteries you can buy or borrow anywhere and keeps for years with a lithium or fresh alkaline cell. A USB-C light recharges from the same cable and power bank as your phone but must be topped up every few months. About 100 lumens is plenty for stairs; more output mostly shortens runtime. Look for a water resistance rating, and a way to stop it switching on in a pocket.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One per adult, for the small kit at work (X2-07). This is in addition to the headlamp in the grab bag."
+      },
+      "already_own": "Any small flashlight you already carry is fine if it lights when you test it today, has a fresh or charged battery, and survives a splash. A phone flashlight alone is not good enough, because the phone is also your map and your link to family.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov lists a flashlight and extra batteries in its basic disaster supplies kit, along with a phone with chargers and a backup battery.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "The Red Cross survival kit list also includes a flashlight and extra batteries.",
+          "source_name": "American Red Cross",
+          "source_title": "What Do You Need In a Survival Kit",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+          "verified": true
+        },
+        {
+          "text": "CPSC announced a recall of the Olight M2R Pro and Warrior Mini flashlights on March 9, 2022: they can switch on by accident and overheat in a holster or pocket. Owners are told to stop using them and contact Olight for a refund or replacement.",
+          "source_name": "US Consumer Product Safety Commission",
+          "source_title": "Olight Ecommerce Technology Recalls Flashlights Due to Burn Hazard",
+          "url": "https://www.cpsc.gov/Recalls/2022/Olight-Ecommerce-Technology-Recalls-Flashlights-Due-to-Burn-Hazard",
+          "verified": true,
+          "research_note": "cpsc.gov returned 403 to WebFetch on 2026-11-16; the same notice (recall 22094) was read on 2026-11-16 through CPSC's own recall service, https://www.saferproducts.gov/RestWebServices/Recall?format=json&RecallNumber=22094."
+        }
+      ],
+      "item_flags": [
+        "CPSC recalled the Olight M2R Pro and Warrior Mini flashlights in March 2022 for a burn hazard; if you own one, read the recall notice. The Olight pick here is a different model."
+      ],
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Olight",
+          "model": "i3E EOS",
+          "model_number": "",
+          "size": "Runs on one AAA battery (included); 90 lumens claimed, single mode, twist to switch on; 2.4 in (60.5 mm) long; about 0.7 oz (19 g) with battery as measured by 1Lumen; IPX8 waterproof",
+          "weight_oz": 0.68,
+          "unit_size": 1,
+          "unit_label": "light",
+          "price_usd": 15.99,
+          "price_seen_at": "Olight.com US store (1Lumen's review puts the usual price at about $10)",
+          "why": "A thumb-sized light that runs on one AAA you can replace anywhere, with nothing to charge and one twist to operate. 1Lumen measured more light than claimed (about 116 lumens) and gave it five stars.",
+          "weakness": "One brightness level only, under an hour of runtime on an alkaline cell, and the finish wears on a keyring.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.olight.com/store/i3e-eos",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser. $15.99 seen; some colours were marked sold out. Re-opened 2026-11-16 with WebFetch three times: the page returns only its title (it is built by script), so price and stock were not re-checked; listed in pending.json."
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B017R560WC",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in 1Lumen's review link."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Olight",
+              "title": "Olight i3E EOS Keychain Flashlight",
+              "url": "https://www.olight.com/store/i3e-eos",
+              "verified": true,
+              "supports": "Price, 90 lumens, single AAA."
+            },
+            {
+              "type": "test_publication",
+              "name": "1Lumen",
+              "title": "Olight i3E EOS review",
+              "url": "https://1lumen.com/review/olight-i3e/",
+              "verified": true,
+              "supports": "Five stars; measured about 116 lumens; 49 minutes on alkaline, 1 h 20 min on NiMH; IPX8; 19 g with battery; one mode. Review dated January 2024."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Olight', and separately 'flashlight') on 2026-11-14: one Olight recall, dated 2022-03-09, for the M2R Pro and Warrior Mini; the i3E EOS is not included.",
+          "research_note": "link_note was: Olight's page did not show a weight, so weight_oz is null; 1Lumen measured 19 g with the battery. 2026-11-16: Olight page now shows 0.68 oz and 2.38 in; no IP rating on the maker page (IPX8 is 1Lumen's). | link_note was: Olight's page does not show a weight; 1Lumen measured 19 g with the battery. | flags[0] was: Olight's March 2022 CPSC recall covered the M2R Pro and Warrior Mini only, not this model."
+        },
+        "standard": {
+          "brand": "ThruNite",
+          "model": "Archer Mini",
+          "model_number": "Archer Mini",
+          "size": "USB-C rechargeable (port hidden under a twist sleeve); 405 lumens maximum with lower modes of about 157 and 18 lumens; 3.26 in long; 1.2 oz (34 g); tail click switch",
+          "weight_oz": 1.2,
+          "unit_size": 1,
+          "unit_label": "light",
+          "price_usd": 16.95,
+          "price_seen_at": "Thrunite.com",
+          "why": "For about the same money as a AAA light it recharges from your phone cable and power bank and has three brightness levels. Outdoor Life tested it and named it best budget compact light, praising the positive click switch.",
+          "weakness": "Top brightness steps down from 405 to about 157 lumens after a short time, and a rechargeable light kept in a drawer at work must be topped up every few months.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.thrunite.com/archer-mini/",
+              "verified": true,
+              "note": "",
+              "research_note": "$16.95 seen. The page's spec table has errors (it lists an 18650 battery and 2001-2500 lumens); the description and Outdoor Life give 405 lumens. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B09P3LHXN2",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in Outdoor Life's buy link."
+            }
+          ],
+          "link_note": "The maker gives no water resistance rating or battery capacity.",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "ThruNite",
+              "title": "Archer Mini",
+              "url": "https://www.thrunite.com/archer-mini/",
+              "verified": true,
+              "supports": "Price, 34 g, 3.26 in, hidden USB-C port, 405 lumens."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The Best EDC Flashlights, Tested and Reviewed",
+              "url": "https://www.outdoorlife.com/gear/best-edc-flashlights/",
+              "verified": true,
+              "supports": "Best Budget Compact; $20; 1.3 oz; modes 18, 157 and 405 lumens; steps down from 405 to 157; 50 minutes at 157 lumens. Article updated January 2025."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'ThruNite', and separately 'flashlight') on 2026-11-14: no ThruNite results."
+        },
+        "cadillac": {
+          "brand": "Nitecore",
+          "model": "TUP2",
+          "model_number": "TUP2",
+          "size": "USB-C rechargeable, built-in 1,300 mAh battery; 1,200 lumens maximum with five levels in each of three color temperatures; small display showing level and battery; 2.8 x 1.1 x 1.2 in; 2.05 oz (58 g); IP54 splash resistant",
+          "weight_oz": 2.05,
+          "unit_size": 1,
+          "unit_label": "light",
+          "price_usd": 59.95,
+          "price_seen_at": "Nitecorestore.com",
+          "why": "A keychain-sized light with a battery several times larger than typical keychain lights, so it runs for hours at useful levels, and a display that tells you how much charge is left before you need it. 1Lumen measured 1,128 lumens at 30 seconds and rates it the best rechargeable keychain light.",
+          "weakness": "Only splash resistant (IP54), the battery cannot be swapped, and it is chunky on a key ring.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://www.nitecore.com/product/tup2",
+              "verified": true,
+              "note": "Specs page; no price shown."
+            },
+            {
+              "label": "Nitecore Store (US)",
+              "url": "https://nitecorestore.com/products/tup2-rechargeable-multicolor-temperature-keychain-light",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser. $59.95, in stock. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0FTHNYX2S",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in 1Lumen's review link."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Nitecore",
+              "title": "TUP2",
+              "url": "https://www.nitecore.com/product/tup2",
+              "verified": true,
+              "supports": "1,200 lumens, 1,300 mAh, USB-C, 58 g, dimensions, IP54."
+            },
+            {
+              "type": "test_publication",
+              "name": "1Lumen",
+              "title": "Nitecore TUP2 review",
+              "url": "https://1lumen.com/review/nitecore-tup2/",
+              "verified": true,
+              "supports": "Five stars; 1,128 lumens measured at 30 seconds, 459 lumens at 10 minutes; 62 g measured; IP54 is splash resistant only. Review dated March 2026."
+            },
+            {
+              "type": "test_publication",
+              "name": "1Lumen",
+              "title": "Best keychain flashlights",
+              "url": "https://1lumen.com/keychain-flashlights/",
+              "verified": true,
+              "supports": "Named best rechargeable keychain flashlight."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Nitecore', and separately 'flashlight') on 2026-11-14: no Nitecore results."
+        }
+      },
+      "research_note": "item_flags were: CPSC recalled two Olight models (M2R Pro and Warrior Mini) for a burn hazard in March 2022. The Olight pick here, the i3E EOS, is a different model and was not part of that recall. / Two lights that appear in older guides, the Lumintop EDC01 and the Nitecore TINI2, are no longer listed on their makers' sites."
+    },
+    {
+      "id": "paper-map-compass",
+      "module": "bags",
+      "name": "Paper map and baseplate compass",
+      "need": "When phone networks are down or the battery is flat, a paper street map and a compass still tell you which way home is.",
+      "how_to_choose": "The map matters most, and it has to be of your own city, so it cannot be one product here. Get a current folded street map that shows your home, your workplace and the bridges, tunnels and main roads between them: your regional AAA office gives maps to members, transit agencies hand out system maps, and National Geographic's City Destination maps (waterproof and tear-resistant, $9.95 to $11.95) cover a limited list of large cities such as Boston, Chicago and Los Angeles. Mark two walking routes home and keep the map in a zip bag. For the compass, a clear baseplate model from an established maker is enough: in a street grid you only need to find north and hold a direction. Adjustable declination and a sighting mirror matter if you might also navigate open country.",
+      "qty": {
+        "basis": "per_adult",
+        "factor": 1,
+        "note": "One compass and one marked-up street map per adult bag."
+      },
+      "already_own": "Any liquid-filled baseplate compass from a known maker is fine if the needle swings freely, settles quickly and has no large bubble. Check it against a street you know runs north. A button compass on a zip pull or a phone app alone is not good enough. A free transit or tourist street map is fine if it covers your whole route home.",
+      "safety_notes": [
+        {
+          "text": "Ready.gov's basic disaster supplies kit includes local maps.",
+          "source_name": "Ready.gov (FEMA)",
+          "source_title": "Build A Kit",
+          "url": "https://www.ready.gov/kit",
+          "verified": true
+        },
+        {
+          "text": "The Red Cross survival kit list includes maps of the area and written family and emergency contact information.",
+          "source_name": "American Red Cross",
+          "source_title": "What Do You Need In a Survival Kit",
+          "url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/survival-kit-supplies.html",
+          "verified": true
+        }
+      ],
+      "item_flags": [
+        "These Suunto models are the NH versions, balanced for the northern hemisphere. They are correct for the United States.",
+        "AAA and transit agency maps vary by region; ask your own."
+      ],
+      "research_note": "Map source checked 2026-11-14: National Geographic City Destination Maps page (https://www.natgeomaps.com/travel-maps/city-destination-maps) opened in a browser. AAA and transit agency map availability varies by region and was not checked. | item_flags moved off the page: All three picks are compasses. A city street map cannot be one product for every reader, so where to get one is described under How to choose. | 16 Nov 2026 (Step 6.3): cadillac tier dropped. Old pick: Suunto MC-2 NH Mirror Compass (SS004231001), $75 at Suunto US store (us.suunto.com); sources: Suunto https://us.suunto.com/products/suunto-mc-2-mirror-nh-compass; Outdoor Life https://www.outdoorlife.com/gear/best-compasses/; The Prepared https://theprepared.com/gear/reviews/compass/. Owner names the $75 compass as not buying anything the job needs (prompt 6.3).",
+      "tier_note": "Two picks: in a street grid you only need to find north and hold a direction, so a mirror sighting compass buys nothing the walk home needs.",
+      "prices_seen": "2026-11-14",
+      "tiers": {
+        "budget": {
+          "brand": "Suunto",
+          "model": "A-10 NH Compass",
+          "model_number": "SS021237000",
+          "size": "Clear baseplate compass; 1.06 oz (30 g); metric and inch scales; fixed declination correction scale; liquid-filled capsule; balanced for the northern hemisphere; made in Finland; limited lifetime warranty",
+          "weight_oz": 1.06,
+          "unit_size": 1,
+          "unit_label": "compass",
+          "price_usd": 24,
+          "price_seen_at": "Suunto US store (us.suunto.com)",
+          "why": "The cheapest compass from a maker that both test sources trust. Outdoor Life found it easy to use and good for map work, which is all a street grid asks of it.",
+          "weakness": "Outdoor Life's tester sometimes needed several tries to get the needle to settle, and declination is a fixed scale you must do in your head.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://us.suunto.com/products/suunto-a-10-nh-compass",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser; $24 and Add to cart seen. The older suunto.com/en-us product address redirects here. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B00TRB49PK",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in Outdoor Life's buy link for the Suunto A-10."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Suunto",
+              "title": "Suunto A-10 NH Compass",
+              "url": "https://us.suunto.com/products/suunto-a-10-nh-compass",
+              "verified": true,
+              "supports": "Price, 30 g, fixed declination correction scale, northern hemisphere balance, made in Finland, lifetime warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "Outdoor Life",
+              "title": "The 7 Best Compasses of 2026",
+              "url": "https://www.outdoorlife.com/gear/best-compasses/",
+              "verified": true,
+              "supports": "Named Best Simple; easy to use; fixed declination; sometimes took several tries to set orientation. Published July 2026."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Suunto') on 2026-11-14: three recalls, all dive equipment (2006, 2014, 2017); no compasses."
+        },
+        "standard": {
+          "brand": "Suunto",
+          "model": "A-30 NH Metric Compass",
+          "model_number": "SS012095013",
+          "size": "Clear baseplate compass with magnifying lens; 1.13 oz (32 g); luminescent markings for low light; metric scales and inch ruler (a USGS-scale version is also sold); balanced for the northern hemisphere; made in Finland; limited lifetime warranty",
+          "weight_oz": 1.13,
+          "unit_size": 1,
+          "unit_label": "compass",
+          "price_usd": 35,
+          "price_seen_at": "Suunto US store (us.suunto.com)",
+          "why": "The Prepared's best compass for most people: a longer baseplate that is easier to line up on a map, a magnifier for small street names, and markings that glow in a dark stairwell.",
+          "weakness": "No adjustable declination and no mirror, so it is a map-and-direction tool rather than a precise sighting compass.",
+          "links": [
+            {
+              "label": "Manufacturer",
+              "url": "https://us.suunto.com/products/suunto-a-30-nh-metric-compass",
+              "verified": true,
+              "note": "",
+              "research_note": "Opened in a browser; $35 and Add to cart seen. (2026-11-14)"
+            },
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B000FEXZH6",
+              "verified": false,
+              "note": "",
+              "research_note": "Amazon blocked automated access on 2026-11-14. ASIN seen in the redirect from The Prepared's Suunto A-30 link."
+            }
+          ],
+          "link_note": "",
+          "sources": [
+            {
+              "type": "manufacturer_spec",
+              "name": "Suunto",
+              "title": "Suunto A-30 NH Metric Compass",
+              "url": "https://us.suunto.com/products/suunto-a-30-nh-metric-compass",
+              "verified": true,
+              "supports": "Price, 32 g, magnifying lens, luminescent markings, made in Finland, lifetime warranty."
+            },
+            {
+              "type": "test_publication",
+              "name": "The Prepared",
+              "title": "Best compass for survival",
+              "url": "https://theprepared.com/gear/reviews/compass/",
+              "verified": true,
+              "supports": "Best for most people; 1.1 oz; luminescent markings; scales on three edges. Article dated April 2020."
+            }
+          ],
+          "flags": [],
+          "flag_check": "Queried the CPSC recall database (title contains 'Suunto') on 2026-11-14: dive equipment only; no compasses."
+        },
+        "cadillac": null
+      },
+      "empty_reason": {
+        "cadillac": "In a street grid you only need north and a direction; a mirror sighting compass at $75 adds declination and sighting tools that a walk home does not use."
+      }
+    }
+  ]
+}
