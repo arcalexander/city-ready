@@ -136,8 +136,8 @@ function cabinetHead(D, hh, full) {
 function keepLines(D, hh, full) {
   const k = D.keep; if (!k) return [];
   const act = e => D.actionById[e.action] || D.checkById[e.action];
-  const ok = e => { const a = act(e); return a && (full || P.actionVisible(D, a, hh)); };
-  const line = e => `* ${one(e.text)} (${act(e).id}, ${one(act(e).title)})${e.every ? ` [${one(e.every)}]` : ''}`;
+  const ok = e => { if (e.page) return e.page === 'library' && !!D.library; const a = act(e); return a && (full || P.actionVisible(D, a, hh)); };
+  const line = e => `* ${one(e.text)} (${e.page ? 'The Library' : `${act(e).id}, ${one(act(e).title)}`})${e.every ? ` [${one(e.every)}]` : ''}`;
   const list = k.entries.filter(ok), out = [];
   const block = (title, rows) => { if (rows.length) out.push(`### ${title}`, '', ...rows.map(line), ''); };
   block('Every month', list.filter(e => e.when === 'monthly'));
@@ -366,6 +366,7 @@ export function planMarkdown(D, h, hhSet, tier = 'standard', date = fileDate()) 
     L.push(...clean.filter((x, i) => !(x === '' && clean[i - 1] === '')));
   }
   L.push(...skyLines(D, hh, !full));
+  L.push(...libraryLines(D));
   L.push('## Appendix: blank worksheets', '', 'Blank forms for the things this plan asks you to write down, printed here in full so they can be filled in by hand with no connection. The site never holds what you write' + (D.noSignIn ? '.' : ': signed in, each also opens as a file in your own Google Drive.'), '');
   for (const w of D.worksheets) L.push(...worksheetLines(w));
   L.push('## How to read this file', '',
@@ -378,6 +379,20 @@ export function planMarkdown(D, h, hhSet, tier = 'standard', date = fileDate()) 
     'A line that starts with a star and says "same job as" is a repeat of another action. It has no box and is counted once, where the box is.', '');
   L.push('## Counts in this file', '', '| Section | Tick boxes |', '| --- | ---: |', ...counts.map(([n, c]) => `| ${n} | ${c} |`), '');
   return { text: L.join('\n').replace(/\n{3,}/g, '\n\n'), counts: Object.fromEntries(counts) };
+}
+
+// The Library as a reading list: titles, publishers and the publishers' own links. No files.
+function libraryLines(D) {
+  const L = D.library; if (!L) return [];
+  const row = d => `- ${one(d.title)}. ${one(d.publisher)}, ${d.year}. ${d.original_url}`;
+  const out = ['## The Library', '', one(L.intro), '', `Checked ${longDate(L.checked)}. ${one(L.how)} These are the publishers\u2019 own links.`, '', '### Print these first', ''];
+  out.push(...L.documents.filter(d => d.print_first).map(row), '');
+  for (const s of D.sections) {
+    const list = L.documents.filter(d => !d.print_first && (d.sections || [])[0] === s.key);
+    if (list.length) out.push(`### ${s.name}`, '', ...list.map(row), '');
+  }
+  if ((L.books || []).length) out.push('### Books worth owning', '', one(L.books_intro), '', ...L.books.map(b => `- ${one(b.title)}, ${one(b.author)} (${one(b.publisher)}, ${b.year}). ${b.buy_url}`), '');
+  return out;
 }
 
 /* ---------- Export ---------- */

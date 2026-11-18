@@ -45,8 +45,8 @@ export async function loadAll(reader = fetchJson) {
   const get = async path => { try { return await reader(path); } catch (e) { D.missing.push(path); return null; } };
   const idx = await get('index.json');
   if (!idx) throw new Error('data/index.json could not be loaded');
-  const [levels, overlay, bags, worksheets, commodities, start, sources, opinions, pictures, cabinet, keep, kit, sky] = await Promise.all(
-    ['sections.json', 'product-levels.json', 'bags.json', 'worksheets.json', 'commodities.json', 'start-here.json', 'sources.json', 'other-opinions.json', 'pictures.json', 'medicine-cabinet.json', 'keep-up.json', 'first-aid-kit.json', 'sky.json'].map(get));
+  const [levels, overlay, bags, worksheets, commodities, start, sources, opinions, pictures, cabinet, keep, kit, sky, library] = await Promise.all(
+    ['sections.json', 'product-levels.json', 'bags.json', 'worksheets.json', 'commodities.json', 'start-here.json', 'sources.json', 'other-opinions.json', 'pictures.json', 'medicine-cabinet.json', 'keep-up.json', 'first-aid-kit.json', 'sky.json', 'library.json'].map(get));
   for (const p of (pictures ? pictures.pictures : [])) D.pictures[p.slot] = p;
   D.opinions = opinions ? opinions.items || {} : {};
   // The seven sections, in order. `level` is the old level number, kept only to place actions and products
@@ -60,6 +60,8 @@ export async function loadAll(reader = fetchJson) {
   D.kit = kit && kit.groups ? kit : null;
   // The side door "Holy shit, the sky is falling": a short list of pointers, not a section.
   D.sky = sky && sky.parts ? sky : null;
+  // The Library: official PDFs, each opened and checked, some mirrored in library/ (`mirror`).
+  D.library = library && library.documents ? library : null;
   // A cabinet line is named by its drug: ingredient, strength and form, as the Drug Facts panel prints them.
   if (D.cabinet) for (const g of D.cabinet.groups) for (const l of g.lines || []) l.name = medName(l);
   D.assumptions = levels ? levels.assumptions || [] : [];

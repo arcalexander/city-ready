@@ -515,3 +515,44 @@ ul.sky.dont li::before { content: "\00d7"; position: absolute; left: .35rem; top
   ul.sky.dont li { padding-left: 15pt; }
   ul.sky.dont li::before { top: 0; left: 1pt; font-size: 11pt; }
 }
+
+/* ---------- the library: a shelf of official guides ---------- */
+.libopen .in { grid-template-columns: 1fr !important; }
+.libopen .text { max-width: var(--read); }
+.printfirst { background: var(--tint); border-top: 0; border-bottom: 1px solid var(--line); }
+.printfirst h2 { font-size: clamp(1.6rem, 3vw, 2.2rem); margin: 0 0 .4rem; }
+.libgrid { display: grid; gap: 1rem; grid-template-columns: 1fr; margin: 1rem 0 0; }
+@media (min-width: 640px) { .libgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1040px) { .libgrid { grid-template-columns: repeat(3, minmax(0, 1fr)); } .libgrid.first { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+/* A card is a book on its shelf: a coloured spine with the publisher, the title in the heading face, a shelf line below the row. */
+.libcard { position: relative; display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-left: 6px solid var(--signal); border-radius: var(--r); padding: .75rem 1rem .8rem; box-shadow: 0 6px 0 -3px var(--line); }
+.libcard .spine { display: flex; justify-content: space-between; gap: .5rem; margin: 0 0 .35rem; font-size: .74rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.libcard h3 { font-size: 1.12rem; line-height: 1.3; margin: 0 0 .3rem; }
+.libcard.lead h3 { font-size: 1.05rem; }
+.libcard .facts { font-size: .85rem; color: var(--muted); margin: 0 0 .45rem; }
+.libcard .facts .tag { margin-left: .2rem; }
+.libcard .why { margin: 0 0 .7rem; font-size: .97rem; }
+.libcard .acts { display: flex; flex-wrap: wrap; gap: .45rem; margin: auto 0 .45rem; }
+.libcard .acts .btn { font-size: .9rem; padding: .4rem .85rem; min-height: 40px; }
+.libcard .checked { font-size: .78rem; color: var(--muted); margin: 0; }
+.libshelves { padding-top: 1.2rem; padding-bottom: 3rem; }
+.libfilter { display: flex; flex-wrap: wrap; align-items: center; gap: .2rem .8rem; border-bottom: 1px solid var(--line); padding-bottom: .4rem; }
+.libfilter p { margin: 0; }
+.shelf { margin: 2rem 0 0; }
+.shelf h2 { margin: 0 0 .2rem; display: flex; align-items: baseline; gap: .6rem; }
+.shelf h2 small { font-family: var(--sans); font-size: .9rem; font-weight: 400; letter-spacing: 0; color: var(--muted); }
+.shelf > .small { margin: 0; max-width: var(--read); }
+.books { margin: 2.5rem 0 1rem; border-top: 1px solid var(--line); padding-top: 1rem; max-width: var(--read); }
+.books li { margin: .4rem 0; }
+.fromlib { border-top: 1px solid var(--line); margin-top: 2rem; padding-top: .8rem; }
+.fromlib h2 { font-size: 1.15rem; margin: 0 0 .3rem; }
+.fromlib ul { list-style: none; padding: 0; margin: 0; display: grid; gap: .25rem 1.5rem; grid-template-columns: 1fr; }
+@media (min-width: 900px) { .fromlib ul { grid-template-columns: 1fr 1fr; } }
+.fromlib li { padding-left: .9rem; border-left: 3px solid var(--line); }
+[data-look="civic"] .libcard { border-left-color: var(--accent); }
+@media print {
+  .libcard { break-inside: avoid; box-shadow: none; border: 1pt solid #999; border-left-width: 3pt; }
+  .libcard .acts { display: none; }
+  .libgrid, .libgrid.first { grid-template-columns: 1fr 1fr; }
+  .printfirst { background: #fff; }
+}

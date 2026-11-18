@@ -549,6 +549,17 @@
       "text": "Recheck beneficiaries and account owners.",
       "when": "dated",
       "every": "after a marriage, divorce, birth or death"
+    },
+    {
+      "page": "library",
+      "text": "Re-check the library links, and reprint any document that has a newer edition.",
+      "months": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "every": "every 3 months"
     }
   ]
 }

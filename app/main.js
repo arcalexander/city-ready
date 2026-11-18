@@ -113,8 +113,9 @@ function renderChrome(route) {
     const p = planProgress(s), cur = route[0] === 'plan' && route[1] === s.section;
     return `<a href="#/plan/${s.section}" ${cur ? 'aria-current="page"' : ''}><b>${esc(s.name)}</b>${meter(p.pct)}</a>`;
   }).join('');
-  $('#primaryNav').innerHTML = lv + (pl ? '<span class="sep" aria-hidden="true"></span>' + pl : '');
-  $('#more').innerHTML = `<div class="in">${[['#/', 'Home'], ['#/sky', D.sky ? D.sky.short : 'Sky is falling'], ['#/start', 'Start here: 20 actions'], ['#/scenario/outage', 'By scenario'], ['#/bags', 'Bag list'], ['#/medicine', 'Medicine cabinet'], ['#/shopping/all', 'Shopping list'],
+  const lib = D.library ? `<span class="sep" aria-hidden="true"></span><a href="#/library" ${route[0] === 'library' ? 'aria-current="page"' : ''}><b>The Library</b></a>` : '';
+  $('#primaryNav').innerHTML = lv + (pl ? '<span class="sep" aria-hidden="true"></span>' + pl : '') + lib;
+  $('#more').innerHTML = `<div class="in">${[['#/', 'Home'], ['#/sky', D.sky ? D.sky.short : 'Sky is falling'], ['#/start', 'Start here: 20 actions'], ['#/scenario/outage', 'By scenario'], ['#/bags', 'Bag list'], ['#/medicine', 'Medicine cabinet'], ['#/shopping/all', 'Shopping list'], ['#/library', 'The Library'],
     ...D.plan.map(s => ['#/plan/' + s.section, s.name]),
     ['#/worksheets', 'Worksheets'], ['#/modules', 'All modules'], ['#/setup', 'Household setup'], ['#/privacy', 'Privacy'], ['#/about', 'How we choose, and sources'], ['#/credits', 'Picture credits'], ['#/account', 'Account']]
     .map(([h, t]) => `<a href="${h}">${esc(t)}</a>`).join('')}</div>`;
@@ -406,7 +407,7 @@ V.home = () => {
   ${planCards ? `<section class="band"><div class="wrap"><p class="kicker">Put your papers in order</p><h2>Legal, Money, Medical</h2><p class="read">Plain checklists. A tick and a date are all this site keeps; the details stay with you.</p>
     <div class="cards small">${planCards}</div></div></section>` : ''}
   <section class="band"><div class="wrap"><p class="kicker">Other ways in</p>
-    <ul class="ways"><li><a href="#/sky">Sky is falling</a></li><li><a href="#/start">Start here: 20 actions</a></li><li><a href="#/scenario/outage">By scenario</a></li><li><a href="#/bags">Bag list</a></li><li><a href="#/medicine">Medicine cabinet</a></li><li><a href="#/shopping/all">Shopping list</a></li><li><a href="#/worksheets">Worksheets</a></li><li><a href="#/modules">All modules</a></li></ul>
+    <ul class="ways"><li><a href="#/sky">Sky is falling</a></li><li><a href="#/start">Start here: 20 actions</a></li><li><a href="#/scenario/outage">By scenario</a></li><li><a href="#/bags">Bag list</a></li><li><a href="#/medicine">Medicine cabinet</a></li><li><a href="#/shopping/all">Shopping list</a></li><li><a href="#/library">The Library</a></li><li><a href="#/worksheets">Worksheets</a></li><li><a href="#/modules">All modules</a></li></ul>
     ${hhLine()}
     <p class="small read">The structure and many of the actions come from Oregon's Be 2 Weeks Ready toolkit, rewritten for apartments and extended where the toolkit assumes a house with a yard. See <a href="#/about">How we choose, and sources</a>.</p></div></section>`;
 };
@@ -511,8 +512,10 @@ V.medicine = () => {
 const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 function keepBody() {
   const k = D.keep; if (!k) return '<p>The calendar is not loaded yet.</p>';
-  const ok = e => { const a = D.actionById[e.action] || D.checkById[e.action]; return a && visible(a); };
-  const line = e => { const a = D.actionById[e.action] || D.checkById[e.action]; return `<li>${esc(e.text)} <a href="#/action/${esc(a.id)}">${esc(a.id)}, ${esc(a.title)}</a>${e.every ? ` <span class="small">(${esc(e.every)})</span>` : ''}</li>`; };
+  // A line points at the action that owns the job, or (`page`) at a page of the site, such as the library.
+  const PAGES = { library: ['#/library', 'The Library'] };
+  const ok = e => { if (e.page) return !!PAGES[e.page] && (e.page !== 'library' || !!D.library); const a = D.actionById[e.action] || D.checkById[e.action]; return a && visible(a); };
+  const line = e => { const a = D.actionById[e.action] || D.checkById[e.action]; const to = e.page ? `<a href="${PAGES[e.page][0]}">${PAGES[e.page][1]}</a>` : `<a href="#/action/${esc(a.id)}">${esc(a.id)}, ${esc(a.title)}</a>`; return `<li>${esc(e.text)} ${to}${e.every ? ` <span class="small">(${esc(e.every)})</span>` : ''}</li>`; };
   const list = k.entries.filter(ok);
   const block = (title, rows, intro) => (rows.length ? `<section class="group"><div class="group-head"><h2>${esc(title)}</h2>${intro ? `<p>${esc(intro)}</p>` : ''}</div><ul class="keep">${rows.map(line).join('')}</ul></section>` : '');
   const now = new Date().getMonth();
@@ -528,7 +531,8 @@ V.section = (key) => {
   if (sec.calendar) {
     return `${FULL}<header class="opener"><div class="in"><div class="text"><p class="kicker">${secNo(sec)}</p><h1>${esc(sec.name)}</h1><p class="lead">${esc(sec.intro)}</p>
       <p class="small">${esc((D.keep && D.keep.note) || '')}</p></div>${secPic(sec, { ratio: '', eager: true })}</div></header>
-      <div class="layout left"><div class="col">${hhLine()}<div class="chips noprint"><button data-cmd="print">Print the calendar</button></div>${keepBody()}</div></div>`;
+      <div class="layout left"><div class="col">${hhLine()}<div class="chips noprint"><button data-cmd="print">Print the calendar</button></div>${keepBody()}${fromLibrary(sec.key)}
+      <p class="aside noprint">That is the end of the plan. <a href="#/library">The Library</a> keeps the official guides behind it, from FEMA, the CDC, the Red Cross and the states, to download or print.</p></div></div>`;
   }
   const L = sec.level;
   const p = secProgress(sec.key);
@@ -607,6 +611,7 @@ V.section = (key) => {
     <section class="glance" aria-label="This section at a glance"><p class="kicker">The order of this section</p>${Art.route(stops)}${levelArt(sec, p)}</section>
     ${groups || '<p>No actions loaded for this section yet.</p>'}
     ${carry}
+    ${fromLibrary(sec.key)}
     <div class="lateblocks rail">${buys ? `<div class="block">${buyBlock}</div>` : ''}<div class="block noprint">${tools}</div></div></div></div>`;
 };
 
@@ -633,7 +638,8 @@ V.plan = (code) => {
   return `${FULL}<header class="opener"><div class="in"><div class="text"><p class="kicker">Your papers</p><h1>${esc(sec.name)}</h1>
     ${sec.disclaimer ? `<p><b>${esc(sec.disclaimer)}</b></p>` : ''}<p class="lead">${esc(sec.intro || '')}</p></div>
     ${pic(sec.section, { ratio: '', eager: true, fallback: Art.MODULE_ICON[sec.section] })}</div></header>
-  <div class="layout">${rail}<div class="col">${two}${none}${groups || '<p>Nothing loaded for this section yet.</p>'}</div></div>`;
+  <div class="layout">${rail}<div class="col">${two}${none}${groups || '<p>Nothing loaded for this section yet.</p>'}
+    ${D.library && sec === D.plan[D.plan.length - 1] ? `<p class="aside noprint">That is the last of your papers. <a href="#/library">The Library</a> keeps the official guides behind the plan, to download or print.</p>` : ''}</div></div>`;
 };
 
 V.item = (id) => {
@@ -850,9 +856,66 @@ V.sky = () => {
   ${S.hhSet ? hhLine() : '<p class="small noprint">Every line is shown. <a href="#/setup">Set up your household</a> and the lines that do not apply to you are hidden.</p>'}
   ${pg.parts.map(p => `<h2>${esc(p.title)}</h2>${p.sub ? `<p class="small">${esc(p.sub)}</p>` : ''}<ul class="sky">${p.rows.map(row).join('')}</ul>${p.id === 'store' ? '<p class="small">Each price is the one last seen for that pick; its page gives the date. There is no total: food, formula, diapers, pet food and gas have no pick to price.</p>' : ''}`).join('')}
   <h2>${esc(sky.dont.title)}</h2><ul class="sky dont">${pg.dont.map(no).join('')}</ul>
+  ${D.library ? `<div class="aside signal noprint"><p><b>Print these first.</b> ${esc(D.library.sky_line || '')} <a href="#/library">The short shelf, with one zip</a>.</p></div>` : ''}
   <h2>${esc(sky.close.title)}</h2><p class="lead">${esc(sky.close.text)} ${sec ? `<a href="${secHref(sec)}">${esc(sky.close.link)}</a>` : esc(sky.close.link)}</p>
   <p class="noprint"><button class="btn sec" data-cmd="print">Print this page</button></p></div>`;
 };
+
+/* ---------- the library: official PDFs, a reference shelf ---------- */
+const LIB_STATES = { IL: 'Illinois', MI: 'Michigan' };
+const STATE_NAMES = { IL: 'Illinois', MI: 'Michigan', OR: 'Oregon', WA: 'Washington', CA: 'California', UT: 'Utah', NY: 'New York' };
+const libDocs = () => (D.library ? D.library.documents : []);
+const libFor = key => libDocs().filter(d => (d.sections || []).includes(key));
+const mb = n => (n >= 1e6 ? `${(n / 1e6).toFixed(n >= 1e7 ? 0 : 1)}\u00a0MB` : `${Math.max(1, Math.round(n / 1e3))}\u00a0KB`);
+// A document shows for a state filter if it is national or from that state; "other" is every state but Illinois and Michigan.
+const libShows = (d, f) => !f || !(d.states || []).length || (f === 'other' ? d.states.some(s => !LIB_STATES[s]) : d.states.includes(f));
+function libCard(d, { lead = false } = {}) {
+  const st = (d.states || []).map(s => STATE_NAMES[s] || s);
+  const facts = [d.publisher, d.year, `${d.pages}\u00a0page${d.pages === 1 ? '' : 's'}`, mb(d.file_size)].filter(Boolean).map(esc).join(' · ');
+  const own = d.mirror ? `<a class="btn signal" href="${esc(d.mirror)}" download>Download PDF</a>` : '';
+  return `<article class="libcard${lead ? ' lead' : ''}" id="lib-${esc(d.id)}">
+    <p class="spine"><span>${esc(d.short_publisher || d.publisher)}</span>${st.length ? `<span>${esc(st.join(', '))}</span>` : ''}</p>
+    <h3>${esc(d.title)}</h3>
+    <p class="facts">${facts}${d.stale ? ' <span class="tag">Older edition</span>' : ''}</p>
+    <p class="why">${esc(d.why)}</p>
+    <p class="acts">${own}<a class="btn${d.mirror ? ' sec' : ''}" href="${safeUrl(d.original_url) || '#'}" target="_blank" rel="noopener noreferrer">From the publisher</a></p>
+    <p class="checked">${d.mirror ? 'Our copy is the publisher’s file, unchanged. ' : 'Linked only: this site keeps copies of US government works and nothing else. '}Checked ${fmtDate(d.checked.date)}.</p>
+  </article>`;
+}
+V.library = (f) => {
+  const L = D.library; if (!L) return `<h1>The Library</h1><p>The library is not loaded yet.</p>`;
+  const filter = ['IL', 'MI', 'other'].includes(f) ? f : '';
+  const docs = L.documents, first = docs.filter(d => d.print_first), mirrored = docs.filter(d => d.mirror);
+  const inZip = first.filter(d => d.mirror), notZip = first.filter(d => !d.mirror);
+  const chip = (k, t) => `<a href="#/library${k ? '/' + k : ''}" aria-current="${filter === k}">${t}</a>`;
+  const shelves = SECS().map(sec => {
+    const list = docs.filter(d => (d.sections || [])[0] === sec.key && libShows(d, filter));
+    return list.length ? `<section class="shelf" id="shelf-${sec.key}" aria-labelledby="sh-${sec.key}"><h2 id="sh-${sec.key}">${esc(sec.name)} <small class="count">${list.length}</small></h2>
+      <p class="small">${esc((L.shelf_intro || {})[sec.key] || '')}</p><div class="libgrid">${list.map(d => libCard(d)).join('')}</div></section>` : '';
+  }).join('');
+  const books = (L.books || []).length ? `<section class="books" aria-labelledby="h-books"><h2 id="h-books">Books worth owning</h2><p class="small">${esc(L.books_intro || '')}</p>
+    <ul>${L.books.map(b => `<li><b>${esc(b.title)}</b>, ${esc(b.author)} (${esc(b.publisher)}, ${esc(b.year)}). ${esc(b.why)} ${ext(b.buy_url, b.buy_label || 'Where to buy it')}</li>`).join('')}</ul></section>` : '';
+  return `${FULL}<header class="opener libopen"><div class="in"><div class="text"><p class="kicker">Reference shelf</p><h1>The Library</h1>
+    <p class="lead">${esc(L.intro)}</p>
+    <p class="small">${docs.length} documents. ${mirrored.length} can be downloaded from this site, unchanged; the other ${docs.length - mirrored.length} open at the publisher. Every file was opened and checked on ${longDate(L.checked)}.</p></div></div></header>
+  <section class="band printfirst" id="print-first" aria-labelledby="h-first"><div class="wrap">
+    <p class="kicker">Before the power goes out</p><h2 id="h-first">Print these first</h2>
+    <p class="read">${esc(L.print_first_intro)}</p>
+    ${L.zip ? `<p><a class="btn signal" href="${esc(L.zip.file)}" download>Download ${inZip.length === first.length ? 'all' : 'these'} ${inZip.length} as one zip (${mb(L.zip.size)})</a></p>
+    ${notZip.length ? `<p class="small">The zip holds the ${inZip.length} we may copy. ${notZip.length === 1 ? 'One more opens' : `${notZip.length} more open`} at the publisher: ${notZip.map(d => esc(d.title)).join('; ')}.</p>` : ''}` : ''}
+    <div class="libgrid first">${first.map(d => libCard(d, { lead: true })).join('')}</div></div></section>
+  <div class="wrap libshelves">
+    <div class="libfilter noprint"><p class="small">Show state guides for</p><div class="chips" role="group" aria-label="State">${chip('', 'All')}${chip('IL', 'Illinois')}${chip('MI', 'Michigan')}${chip('other', 'Other states')}</div></div>
+    ${shelves}
+    ${books}
+    <p class="small">${esc(L.how)}</p>
+  </div>`;
+};
+// The small row at the end of each section page.
+function fromLibrary(key) {
+  const list = libFor(key); if (!list.length) return '';
+  return `<aside class="fromlib noprint" aria-labelledby="fl-${key}"><h2 id="fl-${key}">From the library</h2><ul>${list.map(d => `<li><a href="#/library">${esc(d.title)}</a> <span class="small">${esc(d.short_publisher || d.publisher)}, ${esc(d.year)}${d.mirror ? ` · <a href="${esc(d.mirror)}" download>PDF</a>` : ''}</span></li>`).join('')}</ul></aside>`;
+}
 
 const modCount = acts => { let d = 0, t = 0; for (const a of acts) { if (ptrTarget(a) || a.more) continue; const u = unitsOf(a); t += u.length; d += P.unitsDone(S.data, a, u); } return `${d} of ${t}`; };
 V.modules = () => `<h1>All modules</h1><p>A module's actions are spread over the sections; this page gathers them by subject.</p>

@@ -1,0 +1,989 @@
+{
+  "note": "The Library: official PDFs, each opened and checked. `year` is read from the PDF itself (`year_from` says where: a printed date, or the file's own date when none is printed). `checked` is the day the original_url last answered with a real PDF; `sha256` is of that file. `mirror` is our unchanged copy in library/, kept only when `rights` is public-domain or license-allows; otherwise null and the card links to the publisher. `sections` are the site's section keys, first one is the shelf it sits on. `states` is empty for national documents. `stale`: more than 8 years old with no newer edition, kept because nothing newer covers the topic as well (its `why` says so). Re-check with node scripts/check-library.mjs; rebuild the zip with node scripts/build-library-zip.mjs. Dropped documents and the reasons are in DECISIONS.md, D-102 to D-108.",
+  "checked": "2026-11-18",
+  "intro": "The guides the experts publish, in one place: FEMA, the CDC, the Weather Service, the Red Cross, the pediatricians, the states. This is a reference shelf, not more to read. Print the short shelf below before you need it, and come back for the rest when a section of the plan sends you here.",
+  "print_first_intro": "Eight documents a household should have on paper before the power goes out: the kit checklist, the family contact plan, how to make water safe, what to throw out of the fridge, the papers to copy, the steps to stop bleeding, and your state’s guide. Print them, put them in a folder by the grab bag, and you have the core of the plan with no phone and no power.",
+  "sky_line": "One useful thing to do in the first hour: print the eight documents on the library’s short shelf while the printer still works.",
+  "shelf_intro": {
+    "first": "Plans to fill in by hand, and the state and city guides that go with them.",
+    "household": "Fire in an apartment building, and bleeding.",
+    "bag": "Kit lists, the papers to copy, and what to pack for babies and pets.",
+    "car": "",
+    "h72": "Water, food, power, cold, heat, storms, and the first hours after a nuclear explosion.",
+    "w2": "The long guides, and two weeks of water and food.",
+    "keep": "Keeping going once the big lists are done."
+  },
+  "how": "Every document here was found on its publisher’s own website, downloaded, opened and read on the date shown. Where the publisher is the US federal government, the site keeps an exact copy, so the link still works when an agency moves its page. Everything else opens at the publisher. Nothing here has been edited, compressed or re-branded. The library is re-checked every three months.",
+  "books_intro": "",
+  "books": [],
+  "documents": [
+    {
+      "id": "fema-comm-plan",
+      "title": "Family Emergency Communication Plan",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2017,
+      "year_from": "printed: FEMA P-1095, July 2017",
+      "pages": 2,
+      "file_size": 640035,
+      "original_url": "https://www.ready.gov/sites/default/files/2025-06/family-communication-plan_fillable-card.pdf",
+      "landing_url": "https://www.ready.gov/collection/communication-plan-fillable",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "9573270bafce5291d9baa98ba8a0490415e118c1fea3f9a70a7cb259ca121d60",
+      "sections": [
+        "first"
+      ],
+      "states": [],
+      "why": "Two pages: who to call, where to meet and the numbers you will not remember once your phone is dead. Fill it in by hand and put a copy in every bag. The 2017 edition is still the one FEMA hands out; there is no newer one.",
+      "rights": "public-domain",
+      "print_first": true,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2017_family-emergency-communication-plan.pdf"
+    },
+    {
+      "id": "il-comm-plan",
+      "title": "Family Communications Plan",
+      "publisher": "Ready Illinois (State of Illinois)",
+      "short_publisher": "Ready Illinois",
+      "year": 2022,
+      "year_from": "printed: IOCI 23-0217, 8/22",
+      "pages": 2,
+      "file_size": 483452,
+      "original_url": "https://ready.illinois.gov/content/dam/soi/en/web/ready/sitecollectiondocuments/ihs-family-communication-plan.pdf",
+      "landing_url": "https://ready.illinois.gov/plan/familyplan.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "ad5f25aa02c5f13318eb72895f4778ed3d057a8fc3f48672f8c9b68bf489dfde",
+      "sections": [
+        "first"
+      ],
+      "states": [
+        "IL"
+      ],
+      "why": "Illinois’s own version of the contact sheet, with spaces for doctors, pharmacy and insurance as well as family.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "nyc-my-plan",
+      "title": "Ready New York: My Emergency Plan",
+      "publisher": "NYC Emergency Management",
+      "short_publisher": "NYC Emergency Management",
+      "year": 2026,
+      "year_from": "printed: 2026 Edition",
+      "pages": 20,
+      "file_size": 18811855,
+      "original_url": "https://www.nyc.gov/assets/em/downloads/pdf/2026_Ready_NY_Guides/myemergencyplan_2026_07_24_fillable.pdf",
+      "landing_url": "https://www.nyc.gov/site/em/ready/guides-resources.page",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "119d3d3cc473a1f9e4fc3e2ac1a2af5d8e2e8ec4af4987a9eb54d652b91a4c3a",
+      "sections": [
+        "first"
+      ],
+      "states": [
+        "NY"
+      ],
+      "why": "The best plan workbook written for apartment dwellers: building exits, a household with no car, and how a big city tells you to stay or go.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "oregon-pocket-planner",
+      "title": "Emergency Pocket Plan",
+      "publisher": "Oregon Department of Emergency Management",
+      "short_publisher": "Oregon OEM",
+      "year": 2023,
+      "year_from": "file date, September 2023; no date is printed",
+      "pages": 40,
+      "file_size": 276241,
+      "original_url": "https://www.oregon.gov/oem/Documents/OEM_Pocket-Planner-ENGLISH_2023.pdf",
+      "landing_url": "https://www.oregon.gov/oem/hazardsprep/Pages/2-Weeks-Ready.aspx",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "5b423d6ef41484a296042874c39a7081ab565d8ae921155960a66fbc40044a8f",
+      "sections": [
+        "first"
+      ],
+      "states": [
+        "OR"
+      ],
+      "why": "A plan small enough to fold into a wallet, from the program this site is built on.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "mi-family-guide",
+      "title": "Family Preparedness Guide",
+      "publisher": "Michigan State Police, Emergency Management and Homeland Security Division",
+      "short_publisher": "Michigan State Police",
+      "year": 2018,
+      "year_from": "printed: Rev. 5/22/18",
+      "pages": 52,
+      "file_size": 23112320,
+      "original_url": "https://www.michigan.gov/miready/-/media/Project/Websites/miready/pdfs/fam-prep-guide_FINAL_2018_booklet_101018.pdf",
+      "landing_url": "https://www.michigan.gov/miready/family-preparedness-guide",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "a0efa2f7e1297b6f225a298980312135e77f687941b9cf1cc4e722db953c324c",
+      "sections": [
+        "first"
+      ],
+      "states": [
+        "MI"
+      ],
+      "why": "Michigan’s own guide, with its hazards, its alert systems and blank plan pages. It is from 2018 and Michigan has published nothing newer for households.",
+      "rights": "link-only",
+      "print_first": true,
+      "stale": true,
+      "mirror": null
+    },
+    {
+      "id": "aap-road-to-readiness",
+      "title": "The Road to Readiness: Preparing Your Family for Disasters",
+      "publisher": "American Academy of Pediatrics",
+      "short_publisher": "AAP",
+      "year": 2024,
+      "year_from": "file date, March 2024; it cites a survey read in December 2022",
+      "pages": 13,
+      "file_size": 1353605,
+      "original_url": "https://downloads.aap.org/AAP/PDF/disasters_family_readiness_kit.pdf",
+      "landing_url": "https://www.aap.org/en/patient-care/disasters-and-children/resources-for-families/",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "e8922a23b4ea3fcc4574c0cc9eb12f97b388792dccc3bcb067cba3b244bfc867",
+      "sections": [
+        "first",
+        "bag"
+      ],
+      "states": [],
+      "why": "The pediatricians’ kit for families with children: what to tell a child, what a child’s bag needs, and the papers for school and child care.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "caloes-afn-guide",
+      "title": "Emergency Preparedness Guide/Toolkit for Individuals with Disabilities",
+      "publisher": "Cal OES and the California Department of Rehabilitation",
+      "short_publisher": "Cal OES",
+      "year": 2021,
+      "year_from": "printed: December 2021",
+      "pages": 12,
+      "file_size": 373112,
+      "original_url": "https://www.caloes.ca.gov/wp-content/uploads/AFN/Documents/AFN-Library/Cal-OES-and-DOR-AFN-Disaster-Preparedness-Guide.pdf",
+      "landing_url": "https://www.caloes.ca.gov/office-of-the-director/policy-administration/access-functional-needs/afn-library",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "93a25db02aa7a7d63e6e71d88995c1081edc1487cd6852e5776955d36c37308f",
+      "sections": [
+        "first"
+      ],
+      "states": [
+        "CA"
+      ],
+      "why": "For anyone at home who uses a wheelchair, oxygen, a powered device or a service animal. Written in California, but almost none of it is Californian.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "nws-weather-radio",
+      "title": "NOAA Weather Radio All Hazards",
+      "publisher": "NOAA National Weather Service",
+      "short_publisher": "NWS",
+      "year": 2026,
+      "year_from": "printed: Rev January 2026",
+      "pages": 4,
+      "file_size": 764773,
+      "original_url": "https://www.weather.gov/media/nwr/NWR_Brochure_251231.pdf",
+      "landing_url": "https://www.weather.gov/nwr/documents",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "4f5a2207a5296ea50479595431dc982c0a89067904067af53b6708469522a1b0",
+      "sections": [
+        "first",
+        "h72"
+      ],
+      "states": [],
+      "why": "What a weather radio picks up, the seven frequencies, and how to set one to wake you only for your own county.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/nws_2026_noaa-weather-radio.pdf"
+    },
+    {
+      "id": "usfa-highrise",
+      "title": "High-Rise Apartment and Condominium Fire Safety",
+      "publisher": "U.S. Fire Administration (FEMA)",
+      "short_publisher": "USFA",
+      "year": 2020,
+      "year_from": "file date, October 2020; no date is printed",
+      "pages": 1,
+      "file_size": 180208,
+      "original_url": "https://www.usfa.fema.gov/downloads/pdf/publications/high-rise-fire-safety-infographic.pdf",
+      "landing_url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "2abf1f8e39392be20eb8704d1ab5b7bc5865aa7e8f4e9db613e2adf12e458ebd",
+      "sections": [
+        "household"
+      ],
+      "states": [],
+      "why": "One page on what is different about a fire in a tall building: the stairs, the door, and when staying put is the safer choice.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/usfa_2020_high-rise-fire-safety.pdf"
+    },
+    {
+      "id": "usfa-escape-grid",
+      "title": "Our Home Fire Escape Plan",
+      "publisher": "U.S. Fire Administration (FEMA)",
+      "short_publisher": "USFA",
+      "year": 2020,
+      "year_from": "file date, January 2020; no date is printed",
+      "pages": 1,
+      "file_size": 116367,
+      "original_url": "https://www.usfa.fema.gov/downloads/pdf/publications/escape_grid.pdf",
+      "landing_url": "https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/home-fire-escape-plans/",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "3c77a3ff40ac0de01dc6fb761c49cc397678311f49d81c3a4bacfb94a0b219e0",
+      "sections": [
+        "household"
+      ],
+      "states": [],
+      "why": "A grid to draw your home on, with two ways out of every room and a place to meet outside.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/usfa_2020_home-fire-escape-plan.pdf"
+    },
+    {
+      "id": "stb-save-a-life",
+      "title": "ACS Stop the Bleed, Save a Life",
+      "publisher": "American College of Surgeons (Stop the Bleed)",
+      "short_publisher": "Stop the Bleed",
+      "year": 2025,
+      "year_from": "printed: © 2025 American College of Surgeons",
+      "pages": 1,
+      "file_size": 3870169,
+      "original_url": "https://www.stopthebleed.org/media/qtqmfb5i/stb-poster.pdf",
+      "landing_url": "https://www.stopthebleed.org/materials",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "fdd8874690d87fcb70f31ecd603edc2a30d40187dfd2c74090f0b210141ef9ff",
+      "sections": [
+        "household",
+        "bag"
+      ],
+      "states": [],
+      "why": "The three steps for bleeding that will not stop: press, pack and press, tourniquet. One page, meant for the wall by the first-aid kit.",
+      "rights": "link-only",
+      "print_first": true,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "ready-supply-list",
+      "title": "Emergency Supply List",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2024,
+      "year_from": "file date, May 2024; no date is printed",
+      "pages": 2,
+      "file_size": 242977,
+      "original_url": "https://www.ready.gov/sites/default/files/2024-05/ready_supply-kit-checklist.pdf",
+      "landing_url": "https://www.ready.gov/kit",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "008baa92f414aaf695d77e2255d91e5fb43504cd809271aefd59b13d7c2493fe",
+      "sections": [
+        "bag",
+        "h72"
+      ],
+      "states": [],
+      "why": "The federal kit checklist, with boxes to tick. Our lists are longer; this is the one to hand someone who has never started.",
+      "rights": "public-domain",
+      "print_first": true,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2024_emergency-supply-list.pdf"
+    },
+    {
+      "id": "redcross-checklist",
+      "title": "Be Red Cross Ready: Preparedness Essentials Checklist",
+      "publisher": "American Red Cross",
+      "short_publisher": "Red Cross",
+      "year": 2024,
+      "year_from": "printed: Copyright © 2024",
+      "pages": 2,
+      "file_size": 143912,
+      "original_url": "https://www.redcross.org/content/dam/redcross/get-help/pdfs/preparedness-essentials/Preparedness-Checklist-Update_ENG.pdf",
+      "landing_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "9a401337993299e32aab396a4a9ae50897fb9806142b4538091224f93e822046",
+      "sections": [
+        "bag",
+        "h72"
+      ],
+      "states": [],
+      "why": "The Red Cross splits its list into a three-day go kit and a two-week stay-at-home kit, the same split this site makes.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "fema-effak",
+      "title": "Emergency Financial First Aid Kit (EFFAK)",
+      "publisher": "FEMA and Operation HOPE",
+      "short_publisher": "FEMA",
+      "year": 2019,
+      "year_from": "printed: FEMA P-1075, September 2019",
+      "pages": 41,
+      "file_size": 1958446,
+      "original_url": "https://www.fema.gov/sites/default/files/documents/fema_effak-toolkit.pdf",
+      "landing_url": "https://www.fema.gov/media-collection/emergency-financial-first-aid-kit",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "ea205e693ddf6fc4ae5410342d2ad59283a6dc92ea53041b2b59f591bc561b3f",
+      "sections": [
+        "bag",
+        "w2"
+      ],
+      "states": [],
+      "why": "Which papers to copy, where to keep them, and what to do about bills and credit after a disaster. The checklists are the part to print.",
+      "rights": "public-domain",
+      "print_first": true,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2019_emergency-financial-first-aid-kit.pdf"
+    },
+    {
+      "id": "ready-pets",
+      "title": "Prepare Your Pets for Disasters",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2023,
+      "year_from": "file date, June 2023; no date is printed",
+      "pages": 2,
+      "file_size": 1635858,
+      "original_url": "https://www.ready.gov/sites/default/files/2023-06/ready.gov_prepare-pets-for-disasters.pdf",
+      "landing_url": "https://www.ready.gov/pets",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "756fc3171ab4775a3733d2f7d0b419366c9d2bc7967756cb2d3e0428689ffb88",
+      "sections": [
+        "bag"
+      ],
+      "states": [],
+      "why": "A pet kit list and the questions to settle now: who takes the animal if you cannot get home, and which shelters will take it.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2023_prepare-your-pets.pdf"
+    },
+    {
+      "id": "cdc-infant-checklist",
+      "title": "Be Prepared: Emergency Preparation Checklist for Families with Infants and Young Children",
+      "publisher": "CDC",
+      "short_publisher": "CDC",
+      "year": 2026,
+      "year_from": "printed: August 13, 2026",
+      "pages": 2,
+      "file_size": 1482789,
+      "original_url": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/media/pdfs/emergency-preparation-checklist-IYCF-E-508.pdf",
+      "landing_url": "https://www.cdc.gov/infant-feeding-emergencies-toolkit/php/checklist.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "621f7ff5623776ab638744588e5dc8ac3cbe6a28a7ed17a3de120c7c50500b1d",
+      "sections": [
+        "bag",
+        "h72"
+      ],
+      "states": [],
+      "why": "Feeding a baby with no power or clean water: formula, bottles, breast milk and what to pack for each.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/cdc_2026_infant-feeding-emergency-checklist.pdf"
+    },
+    {
+      "id": "cdc-make-water-safe",
+      "title": "Make Water Safe During an Emergency",
+      "publisher": "CDC",
+      "short_publisher": "CDC",
+      "year": 2022,
+      "year_from": "file date, October 2022; no date is printed",
+      "pages": 1,
+      "file_size": 730926,
+      "original_url": "https://www.cdc.gov/water-emergency/media/pdfs/make-water-safe-during-emergency-p.pdf",
+      "landing_url": "https://www.cdc.gov/water-emergency/communication-resources/fact-sheet-making-water-safe-during-an-emergency.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "c39b55b4d8f3dd40ecd2b13175f7661b52dfc6e73e4a24ef189de64fb9d513b1",
+      "sections": [
+        "h72",
+        "w2"
+      ],
+      "states": [],
+      "why": "Boil, bleach or filter, with the bleach amounts per gallon in a table. Worth having on paper, because you will need it when you cannot look it up.",
+      "rights": "public-domain",
+      "print_first": true,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/cdc_2022_make-water-safe.pdf"
+    },
+    {
+      "id": "cdc-food-after-outage",
+      "title": "Eat Safe Food After a Power Outage",
+      "publisher": "CDC",
+      "short_publisher": "CDC",
+      "year": 2020,
+      "year_from": "file date, March 2020; no date is printed",
+      "pages": 1,
+      "file_size": 1675372,
+      "original_url": "https://www.cdc.gov/food-safety/media/pdfs/eat_safe-r5-infographic2-h.pdf",
+      "landing_url": "https://www.cdc.gov/natural-disasters/communication-resources/keep-food-safe-after-a-disaster-or-emergency-infographic.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "0982174617e2b3405e966b0b1dc2838e3ce92dfad3185da3d450b525a62a7ebf",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "The four-hour and two-day rules for the fridge and freezer, on one page you can tape inside a cupboard door.",
+      "rights": "public-domain",
+      "print_first": true,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/cdc_2020_eat-safe-food-after-power-outage.pdf"
+    },
+    {
+      "id": "ready-power-outage",
+      "title": "Be Prepared for a Power Outage",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2023,
+      "year_from": "printed: FEMA V-1008, December 2023",
+      "pages": 2,
+      "file_size": 317550,
+      "original_url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_power-outage_hazard-info-sheet.pdf",
+      "landing_url": "https://www.ready.gov/be-informed",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "d98a6ca01ba91c8b5a6d4772ce46dec7ecc8481eab5778373b5d1b54e49f4697",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "Before, during and after an outage on two pages, including medical devices that need power.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2023_be-prepared-for-a-power-outage.pdf"
+    },
+    {
+      "id": "cdc-generator",
+      "title": "When the Power Goes Out, Keep Your Generator Outside",
+      "publisher": "CDC",
+      "short_publisher": "CDC",
+      "year": 2012,
+      "year_from": "file date, October 2012; no date is printed",
+      "pages": 1,
+      "file_size": 650333,
+      "original_url": "https://www.cdc.gov/carbon-monoxide/media/pdfs/Generators_1.pdf",
+      "landing_url": "https://www.cdc.gov/carbon-monoxide/factsheets/generator-safety-fact-sheet.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "da6ebede8bf93a6a4461c34c5ebcb134bb5cbe807a65d34820b0e8ba5a5eefbe",
+      "sections": [
+        "h72",
+        "household"
+      ],
+      "states": [],
+      "why": "Generators kill more people after storms than the storms do. This page is from 2012 and the CDC still publishes it; nothing newer says it as plainly.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/cdc_2012_keep-your-generator-outside.pdf"
+    },
+    {
+      "id": "ready-tornado",
+      "title": "Be Prepared for a Tornado",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2018,
+      "year_from": "printed: FEMA V-1010, March 2018",
+      "pages": 2,
+      "file_size": 515808,
+      "original_url": "https://www.ready.gov/sites/default/files/2024-03/ready.gov_tornado_hazard-info-sheet.pdf",
+      "landing_url": "https://www.ready.gov/be-informed",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "571700b8e6bce2e5d83847184c4a27aba26fac72d7d86fca556ff84cef63784a",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "Where to go in a tall building when a warning sounds. From 2018, still FEMA’s current sheet; no newer federal one exists.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2018_be-prepared-for-a-tornado.pdf"
+    },
+    {
+      "id": "ready-flood",
+      "title": "Be Prepared for a Flood",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2024,
+      "year_from": "printed: FEMA V-1005, July 2024",
+      "pages": 2,
+      "file_size": 352615,
+      "original_url": "https://www.ready.gov/sites/default/files/2024-11/fema_flood-hazard-info-sheet.pdf",
+      "landing_url": "https://www.ready.gov/be-informed",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "14e122a5873f0cd693ab2e8276e2beddc3f3252cb33d9db5301b7f69875d26f5",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "For basements, garden units and parked cars: what to move before the water, and why not to walk or drive through it.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2024_be-prepared-for-a-flood.pdf"
+    },
+    {
+      "id": "nws-winter",
+      "title": "Winter Weather",
+      "publisher": "NOAA National Weather Service",
+      "short_publisher": "NWS",
+      "year": 2025,
+      "year_from": "file date, November 2025; no date is printed",
+      "pages": 2,
+      "file_size": 4782040,
+      "original_url": "https://www.weather.gov/media/owlie/3-fold-Brochure-Color-BG-Winter-Weather-11-06-25-FINAL.pdf",
+      "landing_url": "https://www.weather.gov/owlie/publication_brochures",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "ae892d137c56cc1f076598f0f8e32966dd55e8b313029949c8217490a36a3ecf",
+      "sections": [
+        "h72",
+        "car"
+      ],
+      "states": [],
+      "why": "What a winter storm watch and warning mean, the signs of frostbite and hypothermia, and the kit for the car.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/nws_2025_winter-weather.pdf"
+    },
+    {
+      "id": "il-winter-guide",
+      "title": "Winter Weather Preparedness Guide",
+      "publisher": "Illinois Emergency Management Agency",
+      "short_publisher": "IEMA",
+      "year": 2021,
+      "year_from": "printed: April 2021",
+      "pages": 10,
+      "file_size": 5057669,
+      "original_url": "https://ready.illinois.gov/content/dam/soi/en/web/keepwarm/documents/winter_storm_preparedness_guidebook_2021.pdf",
+      "landing_url": "https://ready.illinois.gov/hazards/winterstorms.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "1815b2eb320ee9ff0e143c58e8ab2c7cf3b461579914feb3dc673d92455a6be7",
+      "sections": [
+        "h72"
+      ],
+      "states": [
+        "IL"
+      ],
+      "why": "Illinois’s own winter guide, with the National Weather Service: storms, cold, the home kit and the car kit, for the hazard that comes every year.",
+      "rights": "link-only",
+      "print_first": true,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "redcross-heat",
+      "title": "Be Red Cross Ready: Extreme Heat Preparedness Checklist",
+      "publisher": "American Red Cross",
+      "short_publisher": "Red Cross",
+      "year": 2022,
+      "year_from": "file date, January 2022; no date is printed",
+      "pages": 2,
+      "file_size": 155232,
+      "original_url": "https://www.redcross.org/content/dam/redcross/get-help/pdfs/heat/EN_Extreme-Heat-Safety-Checklist.pdf",
+      "landing_url": "https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/extreme-heat-safety.html",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "2a647fbf8e41d49dc9d4ecd4e07ceb6a706b45a08f6e568513f145473dd3f28b",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "Heat kills more people than any other weather, most of them alone in a hot apartment. This checklist is about keeping cool and checking on each other.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "ready-nuclear-food",
+      "title": "Nuclear Detonation Safety: Food, Drinking Water and Medicine",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2023,
+      "year_from": "file date, January 2023; no date is printed",
+      "pages": 1,
+      "file_size": 590695,
+      "original_url": "https://www.ready.gov/sites/default/files/2023-01/ready-gov_nuclear-detonation-safety_flyer1.pdf",
+      "landing_url": "https://www.ready.gov/nuclear-explosion",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "28ad917aa30055f2449773c532bba0f3bb1f988a7aeadc8f43023b527a8f0392",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "After getting inside: which food, water and medicine in the home are still safe to use.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2023_nuclear-detonation-food-water-medicine.pdf"
+    },
+    {
+      "id": "cdc-decontamination",
+      "title": "Decontamination for Yourself and Others",
+      "publisher": "CDC",
+      "short_publisher": "CDC",
+      "year": 2014,
+      "year_from": "file date, March 2014; no date is printed",
+      "pages": 1,
+      "file_size": 526353,
+      "original_url": "https://www.cdc.gov/radiation-emergencies/media/pdfs/infographics/Infographic_Decontamination.pdf",
+      "landing_url": "https://www.ready.gov/nuclear-explosion",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "8ffb7381d021c84260e7db9c193f0bcbb94880042cd7d4225cdd70e3cecf60f7",
+      "sections": [
+        "h72"
+      ],
+      "states": [],
+      "why": "Four steps for anyone who was outside when fallout came down. From 2014; Ready.gov links it today and there is no newer one.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/cdc_2014_decontamination-for-yourself-and-others.pdf"
+    },
+    {
+      "id": "oregon-b2wr-toolkit",
+      "title": "Be 2 Weeks Ready Complete Toolkit",
+      "publisher": "Oregon Department of Emergency Management",
+      "short_publisher": "Oregon OEM",
+      "year": 2024,
+      "year_from": "file date, March 2024; no date is printed",
+      "pages": 90,
+      "file_size": 40390965,
+      "original_url": "https://www.oregon.gov/oem/Documents/B2WR-Complete-Tool-Kit-EN.pdf",
+      "landing_url": "https://www.oregon.gov/oem/hazardsprep/Pages/2-Weeks-Ready.aspx",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "dc8a30c58040b070c61484b84904dca736a3d4efd8c6b89e9a095dd398b23653",
+      "sections": [
+        "w2"
+      ],
+      "states": [
+        "OR"
+      ],
+      "why": "The toolkit this whole site is built on: eight units and thirty activities. Read it to see where our order and many of our actions come from.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "fema-are-you-ready",
+      "title": "Are You Ready? An In-Depth Guide to Citizen Preparedness",
+      "publisher": "FEMA (Ready.gov)",
+      "short_publisher": "FEMA",
+      "year": 2020,
+      "year_from": "printed: FEMA P-2064, September 2020",
+      "pages": 36,
+      "file_size": 4233522,
+      "original_url": "https://www.ready.gov/sites/default/files/2021-11/are-you-ready-guide.pdf",
+      "landing_url": "https://www.ready.gov/be-informed",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "3873f8ae7528389adacab72259c37b9ae3c507bd3ae23783122e06586560040c",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "FEMA’s one long guide: every hazard, what to do before, during and after, in one place. A reference, not a first read.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": false,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/fema_2020_are-you-ready.pdf"
+    },
+    {
+      "id": "osu-water",
+      "title": "Survival Basics: Water. Tips for Securing a Safe, Drinkable Supply",
+      "publisher": "Oregon State University Extension Service",
+      "short_publisher": "OSU Extension",
+      "year": 2020,
+      "year_from": "printed: EM 9285, April 2020",
+      "pages": 5,
+      "file_size": 347080,
+      "original_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em9285.pdf",
+      "landing_url": "https://extension.oregonstate.edu/catalog/pub/em-9285-survival-basics-water",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "804c6972a5ad34bec90a7a7728b9bd9bdbf935d1046d085875ba18e495c44514",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "How much water to store for two weeks, in what, for how long, and how to make more safe when it runs out.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "osu-food",
+      "title": "Survival Basics: Food. How to Stock Up and Prepare for Natural Disasters",
+      "publisher": "Oregon State University Extension Service",
+      "short_publisher": "OSU Extension",
+      "year": 2021,
+      "year_from": "printed: EM 9331, August 2021",
+      "pages": 9,
+      "file_size": 534828,
+      "original_url": "https://extension.oregonstate.edu/sites/extd8/files/documents/em9331.pdf",
+      "landing_url": "https://extension.oregonstate.edu/catalog/em-9331-survival-basics-food",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "6a452bbf56b7180fadd76c2382914928efde0147221c79c8d76c1ba97e7a8711",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "Building a two-week pantry from food you already eat, and cooking it with no power.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    },
+    {
+      "id": "usda-canning-guide-1",
+      "title": "Complete Guide to Home Canning, Guide 1: Principles of Home Canning",
+      "publisher": "USDA (hosted by the National Center for Home Food Preservation)",
+      "short_publisher": "USDA",
+      "year": 2015,
+      "year_from": "printed: Revised 2015 (Agriculture Information Bulletin No. 539)",
+      "pages": 40,
+      "file_size": 3794234,
+      "original_url": "https://nchfp.uga.edu/papers/guide/GUIDE01_HomeCan_rev0715.pdf",
+      "landing_url": "https://nchfp.uga.edu/resources/entry/about-the-usda-guide-to-home-canning-2015-revision",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "60d1e1a74a9fe61c19e6f5312a76d291905a8ca51b28d0def04c677294416d86",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "Only if you can food at home: the tested rules that keep home-canned food from making you ill. The 2015 revision is still the current USDA edition; the other six guides are on the publisher’s page.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/usda_2015_home-canning-guide-1-principles.pdf"
+    },
+    {
+      "id": "epa-air-cleaners",
+      "title": "Guide to Air Cleaners in the Home",
+      "publisher": "U.S. Environmental Protection Agency",
+      "short_publisher": "EPA",
+      "year": 2018,
+      "year_from": "file date, July 2018; the EPA lists it as the 2nd edition, August 2018",
+      "pages": 7,
+      "file_size": 3077994,
+      "original_url": "https://www.epa.gov/sites/default/files/2018-07/documents/guide_to_air_cleaners_in_the_home_2nd_edition.pdf",
+      "landing_url": "https://www.epa.gov/indoor-air-quality-iaq/air-cleaners-and-air-filters-home",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "413ff78ecf5e2d77e997cc96ba19c4bdf411df78c8ce974937922a4dfb408f8e",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "How to read a CADR number and size an air cleaner for a smoky week. From 2018, still the EPA’s current edition.",
+      "rights": "public-domain",
+      "print_first": false,
+      "stale": true,
+      "rights_note": "A work of the US federal government.",
+      "mirror": "library/epa_2018_guide-to-air-cleaners-in-the-home.pdf"
+    },
+    {
+      "id": "ornl-nwss",
+      "title": "Nuclear War Survival Skills (ORNL-5037)",
+      "publisher": "Oak Ridge National Laboratory (U.S. Department of Energy, via OSTI)",
+      "short_publisher": "Oak Ridge",
+      "year": 1979,
+      "year_from": "printed: ORNL-5037, 1979, with a preface added April 2003",
+      "pages": 262,
+      "file_size": 32731614,
+      "original_url": "https://www.osti.gov/servlets/purl/5866926",
+      "landing_url": "https://www.osti.gov/biblio/5866926",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "dfa6673fca3a7a7ba4601850c223b470fe0be640e77d3932cdc4265ed72781d1",
+      "sections": [
+        "w2"
+      ],
+      "states": [],
+      "why": "Kearny’s classic on fallout shelters and the homemade fallout meter. Kept for the reader who wants depth; for a city apartment, Ready.gov’s get inside, stay inside guidance comes first.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": true,
+      "mirror": null
+    },
+    {
+      "id": "wa-prepare-in-a-year",
+      "title": "Prepare in a Year",
+      "publisher": "Washington Emergency Management Division",
+      "short_publisher": "Washington EMD",
+      "year": 2020,
+      "year_from": "file date, February 2020; no date is printed",
+      "pages": 24,
+      "file_size": 6057330,
+      "original_url": "https://mil.wa.gov/asset/5f171cc0a935f",
+      "landing_url": "https://mil.wa.gov/prepare-in-a-year",
+      "checked": {
+        "date": "2026-11-18",
+        "result": "HTTP 200, the bytes are a PDF (start with %PDF-), opened and read"
+      },
+      "sha256": "97b1ce7fd9bc86945c1cde38103bd4c655a1fcf539042b1a8caf755c101a1838",
+      "sections": [
+        "keep"
+      ],
+      "states": [
+        "WA"
+      ],
+      "why": "One small job a month for twelve months. A good way to keep going once the big lists are done.",
+      "rights": "link-only",
+      "print_first": false,
+      "stale": false,
+      "mirror": null
+    }
+  ],
+  "zip": {
+    "file": "library/print-these-first.zip",
+    "size": 5248566,
+    "sha256": "e556c55748839fd7678fd254ca4f467714c87fa40773323b09cf32c3881f7adb",
+    "holds": [
+      "fema-comm-plan",
+      "ready-supply-list",
+      "fema-effak",
+      "cdc-make-water-safe",
+      "cdc-food-after-outage"
+    ]
+  }
+}
