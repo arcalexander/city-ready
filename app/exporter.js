@@ -145,10 +145,10 @@ function keepLines(D, hh, full) {
   block('On its own date', list.filter(e => e.when === 'dated'));
   return out;
 }
-const hours = m => (m < 90 ? `${m} minutes` : `about ${Math.round(m / 60)} hours`);
+// Things and cost for a section; no total of hours (D-114). This file holds no ticks, so every thing is left.
 function totalsLine(acts) {
-  const t = P.levelTotals(acts);
-  return `**Time and cost for this section.** ${acts.filter(x => !x.a.optional).length} actions, ${hours(t.minutes)} of doing if each takes its stated time. Cost: ${!t.hi && !t.open ? 'nothing' : `about ${money(t.lo)} to ${money(t.hi + t.open * 100)}${t.open ? ' or more' : ''}, depending on what you already own`}. Repeats of the same job are counted once.`;
+  const t = P.levelTotals(acts), n = acts.filter(x => !x.a.optional).length;
+  return `**Things and cost for this section.** ${n} thing${n === 1 ? '' : 's'} to do \u00b7 ${!t.hi && !t.open ? 'free' : `about ${money(t.lo)} to ${money(t.hi + t.open * 100)}${t.open ? ' or more' : ''}, depending on what you already own`}. Repeats of the same job are counted once.`;
 }
 // A blank worksheet as plain text a person can print and fill in by hand.
 function worksheetLines(w) {

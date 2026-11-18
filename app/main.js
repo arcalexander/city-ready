@@ -328,17 +328,16 @@ function levelDoneDate(p) {
   return d;
 }
 const levelComplete = p => p.total > 0 && p.done === p.total;
-function levelTime(sec, p) {
-  const t = P.levelTotals(p.acts);
-  if (sec.level === 0) return `${t.minutes} minutes in all`;
-  const hrs = Math.max(1, Math.round(t.minutes / 60));
-  return `About ${hrs} hour${hrs > 1 ? 's' : ''} of doing, a few minutes at a time`;
-}
-// The cost of a level as a range: each action carries a band (free, under $25, $25 to $100, over $100).
-function levelCost(p) {
-  const t = P.levelTotals(p.acts);
-  if (!t.hi && !t.open) return 'Cost: nothing';
-  return `Cost: about ${money(t.lo)} to ${money(t.hi + t.open * 100)}${t.open ? ' or more' : ''}, depending on what you already own`;
+// What is left in a section, and what it costs: "12 things left · about $150 to $400".
+// Things are the section's tick boxes still unticked (the same count as "N of M done"); the cost is the
+// range of the actions not yet done, from each action's band (free, under $25, $25 to $100, over $100).
+// No section shows a total of hours: each action keeps its own minutes on its card (D-114).
+function leftLine(p) {
+  const n = Math.max(0, p.total - p.done);
+  if (!n) return 'Nothing left';
+  const t = P.levelTotals(p.acts.filter(x => !allDone(x.a, x.units)));
+  const cost = !t.hi && !t.open ? 'free' : `about ${money(t.lo)} to ${money(t.hi + t.open * 100)}${t.open ? ' or more' : ''}`;
+  return `${n} thing${n === 1 ? '' : 's'} left \u00b7 ${cost}`;
 }
 // The next three unticked actions, in the order the site lists them.
 function nextThree() {
@@ -372,7 +371,7 @@ V.home = () => {
     const done = p && levelComplete(p);
     return `<a class="card${done ? ' done' : ''}" href="${secHref(sec)}">${secPic(sec, { ratio: 'r32', sizes: '(min-width: 1040px) 25vw, (min-width: 640px) 50vw, 100vw' })}
       <div class="body"><p class="kicker">${secNo(sec)}</p><h2>${esc(sec.name)}</h2><p>${esc(sec.summary)}</p>
-      ${p ? `<div class="cfoot"><span>${esc(levelTime(sec, p))}</span></div>
+      ${p ? `<div class="cfoot"><span>${esc(leftLine(p))}</span></div>
       <div class="cfoot"><span>${done ? `<b>Done ${fmtDate(levelDoneDate(p))}</b>` : `<span class="count">${p.done} of ${p.total}</span> done`}</span></div>${meter(p.pct)}` : '<div class="cfoot"><span>A calendar. Nothing to tick here.</span></div>'}</div></a>`;
   }).join('');
   const planCards = D.plan.map(s => { const p = planProgress(s); return `<a class="card" href="#/plan/${s.section}">${pic(s.section, { ratio: 'r52', sizes: '(min-width: 640px) 33vw, 30vw', fallback: Art.MODULE_ICON[s.section] })}
@@ -570,10 +569,10 @@ V.section = (key) => {
     const head = `<h2 id="h-${code}"><span class="mark">${Art.icon(g.lead ? (g.icon || 'alerts') : (Art.MODULE_ICON[mod] || 'box'), '')}</span>${esc(g.name)} <small class="count">${tally}</small></h2>
         <p>${esc(g.lead ? g.intro : twoSentences(g.intro))}</p>`;
     // The block for a disability, a mobility limit or a powered medical device: printed once, closed, and
-    // left out of the counts and hours until it is opened or one of its boxes is ticked.
+    // left out of the counts and the cost until it is opened or one of its boxes is ticked.
     groups += g.access
       ? `<section class="group accessblock" id="m-${code}" aria-labelledby="h-${code}"><div class="group-head"><div>${head}</div></div>
-          <details data-access ${counted ? 'open' : ''}><summary>${counted ? 'These are counted in this section.' : `Open this if it applies to someone at home: ${all.length} action${all.length === 1 ? '' : 's'}, left out of the counts and hours until you do.`}</summary>${body}</details></section>`
+          <details data-access ${counted ? 'open' : ''}><summary>${counted ? 'These are counted in this section.' : `Open this if it applies to someone at home: ${all.length} action${all.length === 1 ? '' : 's'}, left out of the counts and the cost until you do.`}</summary>${body}</details></section>`
       : `<section class="group" id="m-${code}" aria-labelledby="h-${code}">
       <div class="group-head${photo ? ' haspic' : ''}"><div>${head}</div>${photo}</div>${body}</section>`;
   }
@@ -584,8 +583,7 @@ V.section = (key) => {
   const waypoint = sec.waypoint ? `<div class="aside signal"><p><b>${esc(sec.waypoint.title)}</b></p><p>${text(sec.waypoint.text)}</p>${citeList(sec.waypoint.cites).replace(/<(\/?)h4/g, '<$1h2')}</div>` : '';
   const cov = [...new Set(p.covered.map(e => e.it))];
   const carry = cov.length ? `<details class="group"><summary><b>Already covered by earlier sections</b> (${cov.length} things, nothing more to buy)</summary><p class="read">${cov.map(it => `<a href="#/item/${esc(it.id)}">${esc(it.name)}</a>`).join(', ')}.</p></details>` : '';
-  const mins = p.acts.filter(x => !allDone(x.a, x.units) && !x.a.optional).reduce((s, x) => s + (+x.a.minutes || 0), 0);
-  const left = L === 0 ? `${mins} minutes left. Cost: nothing.` : `About ${mins < 90 ? mins + ' minutes' : Math.round(mins / 60) + ' hours'} of doing left, not counting shopping. Do a few at a time. ${levelCost(p)}.`;
+  const left = `${leftLine(p)}${p.total > p.done && L !== 0 ? ', depending on what you already own' : ''}.`;
   const buyLeft = p.items.filter(e => !has(e)).length;
   const tools = `<div class="chips"><button data-cmd="print">Print this checklist</button><button data-cmd="hidedone" aria-pressed="${S.hideDone}">Hide done</button></div>
       <p class="small">${sec.key === 'bag' ? '<a href="#/bags">Bag list</a> · ' : ''}${sec.key === 'household' ? '<a href="#/medicine">Medicine cabinet</a> · ' : ''}<a href="#/worksheets">Worksheets</a></p>`;
@@ -601,7 +599,7 @@ V.section = (key) => {
   </div></aside>`;
   const all = SECS().length;
   return `${FULL}<header class="opener"><div class="in"><div class="text"><p class="kicker">Section ${secNo(sec)} of ${all}</p><h1>${esc(sec.name)}</h1><p class="lead">${esc(sec.intro)}</p>
-    <p class="small">${p.acts.length} actions apply to your household. ${esc(levelTime(sec, p))}. ${esc(levelCost(p))}.</p>
+    <p class="small">${p.acts.length} actions apply to your household. ${esc(leftLine(p))}.</p>
     ${sec.key === 'first' && notes.before0 ? `<p class="aside">${esc(notes.before0)}</p>` : ''}</div>
     ${secPic(sec, { ratio: '', eager: true })}</div></header>
   ${doneMoment(sec, p)}
